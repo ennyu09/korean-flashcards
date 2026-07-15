@@ -38,7 +38,7 @@
   }
   .app{
     width:100%;
-    max-width:420px;
+    max-width:min(1200px, 94vw);
     position:relative;
   }
 
@@ -202,7 +202,7 @@
   }
   .unit-grid{
     display:grid;
-    grid-template-columns:1fr 1fr;
+    grid-template-columns:repeat(auto-fill, minmax(200px, 1fr));
     gap:12px;
   }
   .unit-tile{
@@ -653,29 +653,31 @@
     .meaning{font-size:22px;}
   }
 
-  /* 平板：加宽卡片，字号跟着放大一点，目录改三列 */
+  /* 手机屏幕太窄，200px 的 auto-fill 只够放1列，固定2列更好看 */
+  @media (max-width:639px){
+    .unit-grid{grid-template-columns:1fr 1fr;}
+  }
+
+  /* 平板：字号跟着放大一点。宽度和目录列数不写死断点，
+     由 .app 的 min(1200px,94vw) 和 .unit-grid 的 auto-fill 连续跟着窗口变化 */
   @media (min-width:640px){
-    .app{max-width:560px;}
     .app-title{font-size:30px;}
     .kr-word{font-size:54px;}
     .romanization{font-size:17px;}
     .meaning{font-size:30px;}
     .example-kr{font-size:18px;}
     .example-zh{font-size:15.5px;}
-    .unit-grid{grid-template-columns:1fr 1fr 1fr;}
     .card-progress{max-width:280px;}
   }
 
-  /* 电脑：内容区真正用满宽度——标题、目录、复习记录横向铺开，
+  /* 电脑：标题、目录、复习记录跟着 .app 连续变宽；
      卡片本身保持自然比例（不然会被拉成又高又窄的一条），单独居中限宽 */
   @media (min-width:1024px){
     body{padding-top:56px;}
-    .app{max-width:760px;}
     .app-title{font-size:34px;}
     .card-wrap{max-width:460px; margin-left:auto; margin-right:auto;}
     .kr-word{font-size:58px;}
     .meaning{font-size:30px;}
-    .unit-grid{grid-template-columns:repeat(4,1fr);}
     .ratings{max-width:520px; margin:18px auto 0; grid-template-columns:1fr 1fr 1fr 1fr;}
     .rate-btn{text-align:center;}
     .card-nav{max-width:460px; margin-left:auto; margin-right:auto;}
@@ -683,10 +685,8 @@
   }
 
   @media (min-width:1440px){
-    .app{max-width:1040px;}
     .app-title{font-size:38px;}
     .app-sub{font-size:14px;}
-    .unit-grid{grid-template-columns:repeat(5,1fr);}
     .card-wrap{max-width:500px;}
     .kr-word{font-size:64px;}
   }
