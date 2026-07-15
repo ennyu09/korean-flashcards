@@ -307,6 +307,7 @@
     justify-content:center;
     pointer-events:none;
     z-index:5;
+    transform:rotateY(180deg);
   }
   .stamp{
     width:110px;
@@ -507,10 +508,23 @@ let UNITS = [];
 let currentUnit = null;
 
 const LEVELS = [
-  {label:"完全不会", color:"var(--neutral)", stampChar:"未", intervalMs:0},
-  {label:"有点印象", color:"var(--ochre)", stampChar:"初", intervalMs:24*60*60*1000},
-  {label:"比较熟悉", color:"var(--indigo)", stampChar:"熟", intervalMs:3*24*60*60*1000},
-  {label:"完全掌握", color:"var(--seal)", stampChar:"通", intervalMs:7*24*60*60*1000}
+  {label:"完全不会", color:"var(--neutral)", stampChar:"未"},
+  {label:"有点印象", color:"var(--ochre)", stampChar:"初"},
+  {label:"比较熟悉", color:"var(--indigo)", stampChar:"熟"},
+  {label:"完全掌握", color:"var(--seal)", stampChar:"通"}
+];
+
+// 艾宾浩斯记忆曲线经典复习间隔：5分钟、30分钟、12小时、1天、2天、4天、7天、15天、1个月
+const STEPS = [
+  5*60*1000,
+  30*60*1000,
+  12*60*60*1000,
+  1*24*60*60*1000,
+  2*24*60*60*1000,
+  4*24*60*60*1000,
+  7*24*60*60*1000,
+  15*24*60*60*1000,
+  30*24*60*60*1000
 ];
 
 const STORAGE_KEY = "korean-flashcards-progress-v2";
@@ -543,7 +557,7 @@ function stateKey(unitId, word){
 }
 
 function getUnitState(unitId, word){
-  return progress[stateKey(unitId, word)] || {level:0, dueAt:0, reviews:0};
+  return progress[stateKey(unitId, word)] || {level:0, dueAt:0, reviews:0, step:0};
 }
 
 function getState(word){
@@ -782,16 +796,24 @@ function showStamp(levelIdx){
   setTimeout(()=>{ layer.innerHTML = ""; }, 700);
 }
 
+function nextStep(prevStep, levelIdx){
+  if(levelIdx === 0) return 0;                         // 完全不会 → 打回5分钟重新开始
+  if(levelIdx === 1) return Math.max(prevStep, 1);      // 有点印象 → 停在当前步，不后退也不前进
+  if(levelIdx === 2) return prevStep + 1;               // 比较熟悉 → 正常前进一步
+  return prevStep + 2;                                  // 完全掌握 → 多跳一步
+}
+
 function rate(levelIdx){
   if(queue.length === 0) return;
   const item = queue[currentIndex];
   const prevState = getState(item.k);
   const wasNew = prevState.reviews === 0;
-  const lv = LEVELS[levelIdx];
+  const step = Math.min(nextStep(prevState.step||0, levelIdx), STEPS.length - 1);
   progress[stateKey(currentUnit.id, item.k)] = {
     level: levelIdx,
-    dueAt: Date.now() + lv.intervalMs,
-    reviews: (prevState.reviews||0) + 1
+    dueAt: Date.now() + STEPS[step],
+    reviews: (prevState.reviews||0) + 1,
+    step: step
   };
   saveProgress();
   if(wasNew){
