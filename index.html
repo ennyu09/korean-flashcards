@@ -527,11 +527,13 @@
     opacity:.8;
   }
   .review-table-scroll{
-    max-height:320px;
+    max-height:340px;
     overflow-y:auto;
+    overflow-x:auto;
   }
   .review-table{
     width:100%;
+    min-width:360px;
     border-collapse:collapse;
     font-size:12.5px;
   }
@@ -545,11 +547,18 @@
     color:var(--ink-soft);
     padding:5px 6px;
     border-bottom:1px solid rgba(0,0,0,0.08);
+    white-space:nowrap;
   }
   .review-table td{
     padding:6px;
     border-bottom:1px solid rgba(0,0,0,0.04);
     color:var(--ink);
+    white-space:nowrap;
+  }
+  .review-table td.idx{
+    color:var(--ink-soft);
+    font-family:'JetBrains Mono', monospace;
+    font-size:11px;
   }
   .review-table td.due-now{
     color:var(--seal-dark);
@@ -558,6 +567,19 @@
   .review-table td.not-started{
     color:var(--ink-soft);
     opacity:.7;
+  }
+  .stage-dots{
+    letter-spacing:2px;
+    font-size:11px;
+  }
+  .stage-dots .on{color:var(--seal-dark);}
+  .stage-dots .off{color:var(--paper-2);}
+  .review-legend{
+    font-size:10.5px;
+    color:var(--ink-soft);
+    opacity:.75;
+    margin:10px 2px 0;
+    line-height:1.6;
   }
 
   button:focus-visible, .card:focus-visible{
@@ -647,11 +669,12 @@
       <div class="review-table-scroll">
         <table class="review-table">
           <thead>
-            <tr><th>单词</th><th>阶段</th><th>下次复习</th></tr>
+            <tr><th>#</th><th>单词</th><th>阶段</th><th>进度</th><th>下次复习</th></tr>
           </thead>
           <tbody id="reviewTableBody"></tbody>
         </table>
       </div>
+      <p class="review-legend">进度点对应 9 个阶段：5分钟→30分钟→12小时→1天→2天→4天→7天→15天→1个月，●是已经闯过的阶段，○是还没到的。</p>
     </div>
   </div>
 
@@ -1038,7 +1061,6 @@ function resetProgress(){
 }
 
 function formatRelative(ms){
-  if(ms <= 0) return "现在可复习";
   const min = Math.round(ms/60000);
   if(min < 60) return min+"分钟后";
   const hr = Math.round(ms/3600000);
@@ -1047,33 +1069,75 @@ function formatRelative(ms){
   return day+"天后";
 }
 
+// 到期但还没复习：不做任何惩罚（不会自动倒退、不会消失），只是一直显示"现在可复习"直到你真的打开来复习。
+// 如果错过很久，建议复习时凭真实感觉打分——如果感觉生疏了就诚实点「完全不会」，系统会自动从头再来，不用手动处理"错过"这件事。
+function formatDue(state, now){
+  const diff = state.dueAt - now;
+  if(diff > 0) return {text: formatRelative(diff), overdue:false};
+  const overdueMs = -diff;
+  if(overdueMs < 3600000) return {text:"现在可复习", overdue:true};
+  const overdueDay = Math.floor(overdueMs/86400000);
+  if(overdueDay >= 1) return {text:"现在可复习 · 超期"+overdueDay+"天", overdue:true};
+  const overdueHr = Math.round(overdueMs/3600000);
+  return {text:"现在可复习 · 超期"+overdueHr+"小时", overdue:true};
+}
+
+function stageDotsFragment(state){
+  const span = document.createElement("span");
+  span.className = "stage-dots";
+  let html = "";
+  for(let i=0;i<STEPS.length;i++){
+    const on = state.reviews > 0 && i <= state.step;
+    html += '<span class="'+(on?"on":"off")+'">'+(on?"●":"○")+'</span>';
+  }
+  span.innerHTML = html;
+  return span;
+}
+
 function renderReviewLog(){
   const now = Date.now();
   el("reviewPanelHint").textContent = "今天已学 "+newWordsToday+" 个新词（每天最多 "+DAILY_NEW_LIMIT+" 个，所有单元共用）";
-  const rows = currentUnit.words.map(v => ({k: v.k, state: getState(v.k)}));
+  const rows = currentUnit.words.map((v, idx) => ({k: v.k, idx: idx+1, state: getState(v.k)}));
   rows.sort((a,b)=>{
     const aStarted = a.state.reviews > 0;
     const bStarted = b.state.reviews > 0;
     if(aStarted !== bStarted) return aStarted ? -1 : 1;
-    if(!aStarted) return 0;
+    if(!aStarted) return a.idx - b.idx;
     return a.state.dueAt - b.state.dueAt;
   });
   const body = el("reviewTableBody");
   body.innerHTML = "";
   rows.forEach(row => {
     const started = row.state.reviews > 0;
-    const due = started && row.state.dueAt <= now;
     const tr = document.createElement("tr");
+
+    const idxTd = document.createElement("td");
+    idxTd.className = "idx";
+    idxTd.textContent = row.idx;
+
     const kTd = document.createElement("td");
     kTd.textContent = row.k;
+
     const stageTd = document.createElement("td");
     stageTd.textContent = started ? LEVELS[row.state.level].label : "未学习";
+
+    const dotsTd = document.createElement("td");
+    dotsTd.appendChild(stageDotsFragment(row.state));
+
     const dueTd = document.createElement("td");
-    dueTd.textContent = !started ? "—" : formatRelative(row.state.dueAt - now);
-    if(due) dueTd.className = "due-now";
-    else if(!started) dueTd.className = "not-started";
+    if(!started){
+      dueTd.textContent = "—";
+      dueTd.className = "not-started";
+    }else{
+      const due = formatDue(row.state, now);
+      dueTd.textContent = due.text;
+      if(due.overdue) dueTd.className = "due-now";
+    }
+
+    tr.appendChild(idxTd);
     tr.appendChild(kTd);
     tr.appendChild(stageTd);
+    tr.appendChild(dotsTd);
     tr.appendChild(dueTd);
     body.appendChild(tr);
   });
