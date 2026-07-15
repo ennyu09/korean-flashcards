@@ -1043,10 +1043,11 @@ function renderLevelBadge(target, level){
 function renderCardProgress(state){
   const started = state.reviews > 0;
   const filled = started ? Math.round(((state.step+1)/STEPS.length)*100) : 0;
-  const remaining = started ? Math.max(0, STEPS.length - state.step - 1) : STEPS.length;
   const color = started ? LEVELS[state.level].color : "var(--neutral)";
+  // 注意：评分档位越高，第一次评分就可能直接跳过前面几级（类似很多背单词App的"简单"按钮），
+  // 所以"第几级"不等于"复习了几次"，两者不是简单的加减关系，文案上不要暗示这种对应
   const text = started
-    ? "已复习 "+state.reviews+" 次 · 还差 "+remaining+" 个阶段到完全掌握"
+    ? "第 "+(state.step+1)+"/"+STEPS.length+" 阶段 · 已复习 "+state.reviews+" 次"
     : "还没学过 · 一共 "+STEPS.length+" 个阶段";
   ["Front","Back"].forEach(suffix=>{
     const bar = el("cardProgressBar"+suffix);
