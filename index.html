@@ -348,6 +348,34 @@
     opacity:.9;
   }
 
+  .card-progress{
+    width:100%;
+    max-width:230px;
+    margin-bottom:14px;
+  }
+  .card-progress-bar{
+    height:5px;
+    width:100%;
+    border-radius:4px;
+    background:var(--paper-2);
+    overflow:hidden;
+    margin-bottom:6px;
+  }
+  .card-progress-bar span{
+    display:block;
+    height:100%;
+    width:0%;
+    border-radius:4px;
+    background:var(--neutral);
+    transition:width .3s ease;
+  }
+  .card-progress-text{
+    font-size:11px;
+    color:var(--ink-soft);
+    text-align:center;
+    margin:0;
+  }
+
   .kr-word{
     font-family:'Song Myung', serif;
     font-size:46px;
@@ -595,6 +623,31 @@
     .kr-word{font-size:38px;}
     .meaning{font-size:22px;}
   }
+
+  /* 平板：加宽卡片，字号跟着放大一点，目录改三列 */
+  @media (min-width:640px){
+    .app{max-width:560px;}
+    .app-title{font-size:30px;}
+    .kr-word{font-size:54px;}
+    .romanization{font-size:17px;}
+    .meaning{font-size:30px;}
+    .example-kr{font-size:18px;}
+    .example-zh{font-size:15.5px;}
+    .unit-grid{grid-template-columns:1fr 1fr 1fr;}
+    .card-progress{max-width:280px;}
+  }
+
+  /* 电脑：再放宽一些，避免卡片挤在一小条里 */
+  @media (min-width:1024px){
+    body{padding-top:56px;}
+    .app{max-width:680px;}
+    .app-title{font-size:34px;}
+    .kr-word{font-size:60px;}
+    .meaning{font-size:32px;}
+    .unit-grid{grid-template-columns:1fr 1fr 1fr 1fr;}
+    .ratings{grid-template-columns:1fr 1fr 1fr 1fr;}
+    .rate-btn{text-align:center;}
+  }
 </style>
 </head>
 <body>
@@ -629,6 +682,10 @@
         <div class="card-inner" id="cardInner">
           <div class="card-face card-front">
             <div class="level-badge" id="levelBadgeFront"></div>
+            <div class="card-progress">
+              <div class="card-progress-bar"><span id="cardProgressBarFront"></span></div>
+              <p class="card-progress-text" id="cardProgressTextFront"></p>
+            </div>
             <p class="kr-word" id="krWord"></p>
             <p class="romanization" id="romanization"></p>
             <button class="speak-btn" id="speakBtnFront">🔊 播放发音</button>
@@ -636,6 +693,10 @@
           </div>
           <div class="card-face card-back">
             <div class="level-badge" id="levelBadgeBack"></div>
+            <div class="card-progress">
+              <div class="card-progress-bar"><span id="cardProgressBarBack"></span></div>
+              <p class="card-progress-text" id="cardProgressTextBack"></p>
+            </div>
             <button class="speak-btn" id="speakBtnBack" style="margin-bottom:14px;">🔊 播放发音</button>
             <p class="meaning" id="meaning"></p>
             <div class="example-block">
@@ -664,7 +725,7 @@
     </div>
 
     <div class="review-panel" id="reviewPanel" style="display:none;">
-      <p class="review-panel-title">艾宾浩斯复习记录</p>
+      <p class="review-panel-title">复习记录</p>
       <p class="review-panel-hint" id="reviewPanelHint"></p>
       <div class="review-table-scroll">
         <table class="review-table">
@@ -674,7 +735,7 @@
           <tbody id="reviewTableBody"></tbody>
         </table>
       </div>
-      <p class="review-legend">进度点对应 9 个阶段：5分钟→30分钟→12小时→1天→2天→4天→7天→15天→1个月，●是已经闯过的阶段，○是还没到的。</p>
+      <p class="review-legend">进度点对应 7 个阶段：1天→2天→4天→7天→15天→30天→60天，●是已经闯过的阶段，○是还没到的。点「完全不会」不算倒退阶段，只是10分钟后再考一次。</p>
     </div>
   </div>
 
@@ -704,22 +765,23 @@ const LEVELS = [
   {label:"完全掌握", color:"var(--seal)", stampChar:"通"}
 ];
 
-// 艾宾浩斯记忆曲线经典复习间隔：5分钟、30分钟、12小时、1天、2天、4天、7天、15天、1个月
+// 间隔重复曲线：1天、2天、4天、7天、15天、30天、60天 —— 每次答对间隔大约翻倍拉长，
+// 跳过"当天多次"的高频步骤，适合每天打开一次app的使用习惯
 const STEPS = [
-  5*60*1000,
-  30*60*1000,
-  12*60*60*1000,
   1*24*60*60*1000,
   2*24*60*60*1000,
   4*24*60*60*1000,
   7*24*60*60*1000,
   15*24*60*60*1000,
-  30*24*60*60*1000
+  30*24*60*60*1000,
+  60*24*60*60*1000
 ];
 
+// "完全不会"不走上面的长间隔阶梯，而是很快再考一次——真忘了的词等一整天才复习就白学了
+const LAPSE_RETRY_MS = 10*60*1000;
+
 const STORAGE_KEY = "korean-flashcards-progress-v2";
-const NEWCOUNT_KEY = "korean-flashcards-newcount-v2";
-const DAILY_NEW_LIMIT = 12; // 每天最多学几个新词，所有单元共用，避免到期词一次性全冒出来
+const NEWCOUNT_KEY = "korean-flashcards-newcount-v2"; // 仅用于"复习记录"里显示今天学了几个新词，不做任何限制
 
 let progress = {};
 let newWordsToday = 0;
@@ -885,16 +947,12 @@ function buildQueue(){
 
   let selected;
   let freePractice = false;
-  let quotaReached = false;
 
   if(reviewDue.length === 0 && newWords.length === 0){
     selected = [...words];
     freePractice = true;
   }else{
-    const remainingSlots = Math.max(0, DAILY_NEW_LIMIT - newWordsToday);
-    const allowedNew = newWords.slice(0, remainingSlots);
-    selected = [...reviewDue, ...allowedNew];
-    quotaReached = allowedNew.length < newWords.length && reviewDue.length === 0 && selected.length === 0;
+    selected = [...reviewDue, ...newWords];
   }
 
   queue = shuffle(selected);
@@ -906,9 +964,6 @@ function buildQueue(){
   if(freePractice){
     banner.style.display = "block";
     banner.textContent = "今天这个单元没有到期复习的词，来自由练习一轮吧（全部单词打乱重新出现）";
-  }else if(quotaReached){
-    banner.style.display = "block";
-    banner.textContent = "今天的新词学习额度已用完，明天再来学新词吧（可以点下面的「复习记录」看看安排）";
   }else{
     banner.style.display = "none";
   }
@@ -937,6 +992,22 @@ function renderLevelBadge(target, level){
   target.textContent = level===0 ? "" : lv.stampChar;
 }
 
+function renderCardProgress(state){
+  const started = state.reviews > 0;
+  const filled = started ? Math.round(((state.step+1)/STEPS.length)*100) : 0;
+  const remaining = started ? Math.max(0, STEPS.length - state.step - 1) : STEPS.length;
+  const color = started ? LEVELS[state.level].color : "var(--neutral)";
+  const text = started
+    ? "已复习 "+state.reviews+" 次 · 还差 "+remaining+" 个阶段到完全掌握"
+    : "还没学过 · 一共 "+STEPS.length+" 个阶段";
+  ["Front","Back"].forEach(suffix=>{
+    const bar = el("cardProgressBar"+suffix);
+    bar.style.width = filled+"%";
+    bar.style.background = color;
+    el("cardProgressText"+suffix).textContent = text;
+  });
+}
+
 function renderCard(){
   if(queue.length === 0){
     el("krWord").textContent = "🎉";
@@ -944,6 +1015,14 @@ function renderCard(){
     el("romanization").textContent = "";
     el("exampleKr").textContent = "";
     el("exampleZh").textContent = "";
+    ["Front","Back"].forEach(suffix=>{
+      el("cardProgressBar"+suffix).style.width = "0%";
+      el("cardProgressText"+suffix).textContent = "";
+    });
+    el("speakBtnFront").style.display = "none";
+    el("speakBtnBack").style.display = "none";
+    el("speakBtnExample").style.display = "none";
+    el("flipHint").style.display = "none";
     [0,1,2,3].forEach(i => el("rate"+i).disabled = true);
     el("sessionLabel").textContent = "今日复习 · "+sessionDone+" / "+sessionTotal;
     return;
@@ -959,6 +1038,10 @@ function renderCard(){
   el("exampleZh").textContent = item.t;
   renderLevelBadge(el("levelBadgeFront"), state.level);
   renderLevelBadge(el("levelBadgeBack"), state.level);
+  renderCardProgress(state);
+  el("speakBtnFront").style.display = "inline-flex";
+  el("speakBtnBack").style.display = "inline-flex";
+  el("speakBtnExample").style.display = "inline-block";
   el("flipHint").style.display = "block";
   [0,1,2,3].forEach(i => el("rate"+i).disabled = false);
   el("sessionLabel").textContent = "今日复习 · "+sessionDone+" / "+sessionTotal;
@@ -979,6 +1062,22 @@ function showToast(msg){
   toastTimer = setTimeout(()=>{ t.classList.remove("show"); }, 3500);
 }
 
+// 优先挑选质量更好的韩语语音（网络/云端语音通常比设备自带的本地语音更自然），
+// 挑不到就交给浏览器按 lang 自动选择
+let cachedVoices = [];
+function refreshVoices(){
+  if("speechSynthesis" in window) cachedVoices = speechSynthesis.getVoices();
+}
+if("speechSynthesis" in window){
+  refreshVoices();
+  speechSynthesis.onvoiceschanged = refreshVoices;
+}
+function pickKoreanVoice(){
+  const koVoices = cachedVoices.filter(v => v.lang && v.lang.toLowerCase().startsWith("ko"));
+  if(koVoices.length === 0) return null;
+  return koVoices.find(v => !v.localService) || koVoices[0];
+}
+
 function speak(text){
   if(!text) return;
   if(!("speechSynthesis" in window)){
@@ -990,6 +1089,8 @@ function speak(text){
     const u = new SpeechSynthesisUtterance(text);
     u.lang = "ko-KR";
     u.rate = 0.9;
+    const voice = pickKoreanVoice();
+    if(voice) u.voice = voice;
     u.onerror = function(){
       showToast("朗读失败，这个设备可能没装韩语语音包，建议用手机自带浏览器（Safari / Chrome）直接打开网页试试");
     };
@@ -1012,10 +1113,10 @@ function showStamp(levelIdx){
 }
 
 function nextStep(prevStep, levelIdx){
-  if(levelIdx === 0) return 0;                         // 完全不会 → 打回5分钟重新开始
-  if(levelIdx === 1) return Math.max(prevStep, 1);      // 有点印象 → 停在当前步，不后退也不前进
-  if(levelIdx === 2) return prevStep + 1;               // 比较熟悉 → 正常前进一步
-  return prevStep + 2;                                  // 完全掌握 → 多跳一步
+  if(levelIdx === 0) return 0;              // 完全不会 → 重置到起点（配合下面的10分钟短间隔重考，不走长阶梯）
+  if(levelIdx === 1) return prevStep;       // 有点印象 → 停在当前步，不前进也不后退
+  if(levelIdx === 2) return prevStep + 1;   // 比较熟悉 → 正常前进一步
+  return prevStep + 2;                      // 完全掌握 → 多跳一步
 }
 
 function rate(levelIdx){
@@ -1024,9 +1125,10 @@ function rate(levelIdx){
   const prevState = getState(item.k);
   const wasNew = prevState.reviews === 0;
   const step = Math.min(nextStep(prevState.step||0, levelIdx), STEPS.length - 1);
+  const dueAt = levelIdx === 0 ? Date.now() + LAPSE_RETRY_MS : Date.now() + STEPS[step];
   progress[stateKey(currentUnit.id, item.k)] = {
     level: levelIdx,
-    dueAt: Date.now() + STEPS[step],
+    dueAt: dueAt,
     reviews: (prevState.reviews||0) + 1,
     step: step
   };
@@ -1096,7 +1198,7 @@ function stageDotsFragment(state){
 
 function renderReviewLog(){
   const now = Date.now();
-  el("reviewPanelHint").textContent = "今天已学 "+newWordsToday+" 个新词（每天最多 "+DAILY_NEW_LIMIT+" 个，所有单元共用）";
+  el("reviewPanelHint").textContent = "今天已学 "+newWordsToday+" 个新词，没有数量限制，到期的和没学过的词都会一起出现";
   const rows = currentUnit.words.map((v, idx) => ({k: v.k, idx: idx+1, state: getState(v.k)}));
   rows.sort((a,b)=>{
     const aStarted = a.state.reviews > 0;
