@@ -1116,6 +1116,8 @@ function nextCard(){
 
 function flipCard(){
   if(queue.length === 0) return;
+  const sel = window.getSelection();
+  if(sel && sel.toString().length > 0) return; // 正在选字复制，不要翻卡打断
   isFlipped = !isFlipped;
   el("card").classList.toggle("flipped", isFlipped);
 }
@@ -1304,7 +1306,11 @@ function renderReviewLog(){
     kTd.className = "word-link";
 
     tr.className = "clickable-row";
-    tr.addEventListener("click", ()=>jumpToWord(row.k));
+    tr.addEventListener("click", ()=>{
+      const sel = window.getSelection();
+      if(sel && sel.toString().length > 0) return; // 正在选字复制，不要跳转打断
+      jumpToWord(row.k);
+    });
 
     const stageTd = document.createElement("td");
     stageTd.textContent = started ? LEVELS[row.state.level].label : "未学习";
