@@ -439,8 +439,8 @@
     justify-content:center;
     pointer-events:none;
     z-index:5;
-    transform:rotateY(180deg);
   }
+  .card.flipped .stamp-layer{transform:rotateY(180deg);}
   .stamp{
     width:110px;
     height:110px;
@@ -937,7 +937,7 @@ function renderCard(){
   renderLevelBadge(el("levelBadgeFront"), state.level);
   renderLevelBadge(el("levelBadgeBack"), state.level);
   el("flipHint").style.display = "block";
-  [0,1,2,3].forEach(i => el("rate"+i).disabled = true);
+  [0,1,2,3].forEach(i => el("rate"+i).disabled = false);
   el("sessionLabel").textContent = "今日复习 · "+sessionDone+" / "+sessionTotal;
 }
 
@@ -945,9 +945,6 @@ function flipCard(){
   if(queue.length === 0) return;
   isFlipped = !isFlipped;
   el("card").classList.toggle("flipped", isFlipped);
-  if(isFlipped){
-    [0,1,2,3].forEach(i => el("rate"+i).disabled = false);
-  }
 }
 
 let toastTimer = null;
