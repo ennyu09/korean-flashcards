@@ -39,6 +39,7 @@
   .app{
     width:100%;
     max-width:420px;
+    position:relative;
   }
 
   /* header */
@@ -46,6 +47,137 @@
     text-align:center;
     margin-bottom:18px;
   }
+
+  .hamburger-btn{
+    position:absolute;
+    top:2px;
+    left:0;
+    width:34px;
+    height:34px;
+    border:1px solid rgba(0,0,0,0.08);
+    background:var(--white);
+    border-radius:9px;
+    font-size:15px;
+    color:var(--ink-soft);
+    cursor:pointer;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    box-shadow:0 2px 4px rgba(35,30,20,0.04);
+  }
+
+  .sidebar-backdrop{
+    position:fixed;
+    inset:0;
+    background:rgba(20,18,15,0.4);
+    opacity:0;
+    pointer-events:none;
+    transition:opacity .25s ease;
+    z-index:90;
+  }
+  .sidebar-backdrop.open{opacity:1; pointer-events:auto;}
+
+  .sidebar{
+    position:fixed;
+    top:0;
+    left:0;
+    height:100%;
+    width:82%;
+    max-width:300px;
+    background:var(--paper);
+    box-shadow:2px 0 24px rgba(0,0,0,0.18);
+    transform:translateX(-100%);
+    transition:transform .3s cubic-bezier(.3,.9,.4,1);
+    z-index:100;
+    padding:22px 16px;
+    overflow-y:auto;
+  }
+  .sidebar.open{transform:translateX(0);}
+  .sidebar-header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-bottom:4px;
+  }
+  .sidebar-title{
+    font-family:'Song Myung', serif;
+    font-size:16px;
+    color:var(--ink);
+    margin:0;
+  }
+  .sidebar-close{
+    border:none;
+    background:none;
+    font-size:18px;
+    color:var(--ink-soft);
+    cursor:pointer;
+    padding:4px;
+  }
+  .sidebar-eyebrow{
+    font-size:11.5px;
+    color:var(--ink-soft);
+    margin:0 0 14px;
+  }
+  .sidebar-list{
+    display:flex;
+    flex-direction:column;
+    gap:8px;
+  }
+  .sidebar-item{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    background:var(--white);
+    border:1px solid rgba(0,0,0,0.06);
+    border-radius:10px;
+    padding:10px 12px;
+    cursor:pointer;
+    font-family:'Noto Sans SC', sans-serif;
+    font-size:13.5px;
+    color:var(--ink);
+    text-align:left;
+  }
+  .sidebar-item:disabled{cursor:default; opacity:.4;}
+  .sidebar-item.active{
+    border-color:var(--indigo);
+    background:rgba(47,68,104,0.07);
+  }
+  .sidebar-item .count{
+    font-size:11px;
+    color:var(--ink-soft);
+    white-space:nowrap;
+    margin-left:8px;
+  }
+
+  .app-footer{
+    margin-top:26px;
+    text-align:center;
+    font-size:10.5px;
+    color:var(--ink-soft);
+    opacity:.65;
+    line-height:1.6;
+    padding:0 8px;
+  }
+
+  .toast{
+    position:fixed;
+    left:50%;
+    bottom:28px;
+    transform:translateX(-50%) translateY(20px);
+    background:var(--ink);
+    color:var(--white);
+    padding:10px 18px;
+    border-radius:999px;
+    font-size:12.5px;
+    opacity:0;
+    pointer-events:none;
+    transition:opacity .25s ease, transform .25s ease;
+    z-index:200;
+    max-width:85%;
+    text-align:center;
+    line-height:1.5;
+  }
+  .toast.show{opacity:1; transform:translateX(-50%) translateY(0);}
   .app-title{
     font-family:'Song Myung', serif;
     font-size:26px;
@@ -431,6 +563,7 @@
 </head>
 <body>
 <div class="app">
+  <button class="hamburger-btn" id="hamburgerBtn" aria-label="打开单元目录">☰</button>
   <div class="app-header">
     <p class="app-title">盖章背单词</p>
     <p class="app-sub">韩语单词闪卡 · 一个词一个词，慢慢盖满章</p>
@@ -501,6 +634,20 @@
       <p class="settings-hint" id="settingsHint"></p>
     </div>
   </div>
+
+  <p class="app-footer">词汇选自《金龙一 TOPIK必备单词》，释义为学习整理内容；例句与例句翻译由 AI 生成，仅供个人学习参考，非商业用途。</p>
+
+  <div class="sidebar-backdrop" id="sidebarBackdrop"></div>
+  <div class="sidebar" id="sidebar">
+    <div class="sidebar-header">
+      <p class="sidebar-title">单元目录</p>
+      <button class="sidebar-close" id="sidebarCloseBtn" aria-label="关闭目录">✕</button>
+    </div>
+    <p class="sidebar-eyebrow">TOPIK 必背单词 · 初级</p>
+    <div class="sidebar-list" id="sidebarList"></div>
+  </div>
+
+  <div class="toast" id="toast"></div>
 </div>
 
 <script>
@@ -674,6 +821,34 @@ function backToMenu(){
   renderMenu();
 }
 
+function renderSidebar(){
+  const list = el("sidebarList");
+  list.innerHTML = "";
+  UNITS.forEach(unit => {
+    const hasWords = unit.words.length > 0;
+    const btn = document.createElement("button");
+    btn.className = "sidebar-item" + (currentUnit && currentUnit.id === unit.id ? " active" : "");
+    btn.disabled = !hasWords;
+    const countText = hasWords ? unit.words.length + " 词" : "暂无内容";
+    btn.innerHTML = "<span>"+unit.title+"</span><span class=\"count\">"+countText+"</span>";
+    if(hasWords){
+      btn.addEventListener("click", ()=>{ openUnit(unit.id); closeSidebar(); });
+    }
+    list.appendChild(btn);
+  });
+}
+
+function openSidebar(){
+  renderSidebar();
+  el("sidebar").classList.add("open");
+  el("sidebarBackdrop").classList.add("open");
+}
+
+function closeSidebar(){
+  el("sidebar").classList.remove("open");
+  el("sidebarBackdrop").classList.remove("open");
+}
+
 function buildQueue(){
   const now = Date.now();
   const words = currentUnit.words;
@@ -773,15 +948,33 @@ function flipCard(){
   }
 }
 
+let toastTimer = null;
+function showToast(msg){
+  const t = el("toast");
+  t.textContent = msg;
+  t.classList.add("show");
+  clearTimeout(toastTimer);
+  toastTimer = setTimeout(()=>{ t.classList.remove("show"); }, 3500);
+}
+
 function speak(text){
-  if(!("speechSynthesis" in window) || !text) return;
+  if(!text) return;
+  if(!("speechSynthesis" in window)){
+    showToast("这个浏览器不支持语音朗读，换个浏览器试试");
+    return;
+  }
   try{
     speechSynthesis.cancel();
     const u = new SpeechSynthesisUtterance(text);
     u.lang = "ko-KR";
     u.rate = 0.9;
+    u.onerror = function(){
+      showToast("朗读失败，这个设备可能没装韩语语音包，建议用手机自带浏览器（Safari / Chrome）直接打开网页试试");
+    };
     speechSynthesis.speak(u);
-  }catch(e){}
+  }catch(e){
+    showToast("这个设备暂时无法朗读语音");
+  }
 }
 
 function showStamp(levelIdx){
@@ -880,6 +1073,12 @@ el("resetBtn").addEventListener("click", resetProgress);
 el("settingsToggleBtn").addEventListener("click", toggleSettingsPanel);
 el("saveSettingsBtn").addEventListener("click", saveSettingsFromUI);
 el("backToMenuBtn").addEventListener("click", backToMenu);
+el("hamburgerBtn").addEventListener("click", openSidebar);
+el("sidebarCloseBtn").addEventListener("click", closeSidebar);
+el("sidebarBackdrop").addEventListener("click", closeSidebar);
+document.addEventListener("keydown", (e)=>{
+  if(e.key === "Escape") closeSidebar();
+});
 
 (async function init(){
   try{
