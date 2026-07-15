@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>도장깨기 · 韩语单词闪卡</title>
+<title>盖章背单词 · 韩语单词闪卡</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Song+Myung&family=Noto+Serif+SC:wght@400;600;700&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Sans+KR:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
@@ -60,6 +60,74 @@
     letter-spacing:.2px;
   }
 
+  /* menu / unit list */
+  .menu-eyebrow{
+    font-size:13px;
+    color:var(--ink-soft);
+    text-align:center;
+    margin:0 0 16px;
+    letter-spacing:.3px;
+  }
+  .unit-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:12px;
+  }
+  .unit-tile{
+    background:var(--white);
+    border:1px solid rgba(0,0,0,0.06);
+    border-radius:14px;
+    padding:14px;
+    text-align:left;
+    cursor:pointer;
+    font-family:'Noto Sans SC', sans-serif;
+    box-shadow:0 2px 4px rgba(35,30,20,0.04);
+  }
+  .unit-tile:disabled{
+    cursor:default;
+    opacity:.4;
+  }
+  .unit-tile .unit-name{
+    display:block;
+    font-family:'Song Myung', serif;
+    font-size:17px;
+    color:var(--ink);
+    margin:0 0 4px;
+  }
+  .unit-tile .unit-count{
+    display:block;
+    font-size:11.5px;
+    color:var(--ink-soft);
+    margin:0 0 10px;
+  }
+  .unit-tile .unit-bar{
+    display:flex;
+    height:5px;
+    width:100%;
+    border-radius:4px;
+    overflow:hidden;
+    background:var(--paper-2);
+  }
+  .unit-tile .unit-bar span{height:100%;}
+
+  .back-link{
+    background:none;
+    border:none;
+    color:var(--ink-soft);
+    font-size:12.5px;
+    cursor:pointer;
+    padding:6px 0;
+    margin-bottom:10px;
+    text-decoration:underline;
+  }
+  .current-unit-label{
+    font-family:'Song Myung', serif;
+    font-size:15px;
+    color:var(--ink);
+    text-align:center;
+    margin:0 0 4px;
+  }
+
   /* session bar */
   .session-bar{
     display:flex;
@@ -67,7 +135,7 @@
     align-items:center;
     font-size:12.5px;
     color:var(--ink-soft);
-    margin:18px 2px 6px;
+    margin:10px 2px 6px;
     font-family:'JetBrains Mono', monospace;
   }
   .stats-bar{
@@ -150,7 +218,7 @@
 
   .kr-word{
     font-family:'Song Myung', serif;
-    font-size:44px;
+    font-size:46px;
     line-height:1.25;
     color:var(--ink);
     margin:0 0 10px;
@@ -158,7 +226,7 @@
   }
   .romanization{
     font-family:'JetBrains Mono', monospace;
-    font-size:14px;
+    font-size:15px;
     color:var(--ink-soft);
     letter-spacing:.3px;
     margin-bottom:14px;
@@ -187,7 +255,7 @@
   .meaning{
     font-family:'Noto Serif SC', serif;
     font-weight:700;
-    font-size:24px;
+    font-size:26px;
     color:var(--ink);
     margin:2px 0 14px;
   }
@@ -205,7 +273,7 @@
     margin-bottom:4px;
   }
   .example-kr{
-    font-size:14.5px;
+    font-size:16px;
     color:var(--ink);
     margin:0;
     line-height:1.5;
@@ -223,10 +291,11 @@
   }
   .example-speak-btn:hover{color:var(--ink);}
   .example-zh{
-    font-size:12.5px;
+    font-size:14px;
     color:var(--ink-soft);
     margin:0;
     line-height:1.5;
+    text-align:left;
   }
 
   /* stamp overlay */
@@ -271,27 +340,17 @@
   .rate-btn{
     border:none;
     border-radius:14px;
-    padding:12px 10px;
+    padding:14px 10px;
     color:var(--white);
     cursor:pointer;
     text-align:left;
     font-family:'Noto Sans SC', sans-serif;
+    font-size:14.5px;
+    font-weight:700;
     transition:transform .12s ease, opacity .2s ease;
   }
   .rate-btn:active{transform:scale(0.97);}
   .rate-btn:disabled{opacity:.35; cursor:not-allowed;}
-  .rate-btn .kr{
-    display:block;
-    font-family:'Noto Sans KR', sans-serif;
-    font-size:13.5px;
-    font-weight:700;
-  }
-  .rate-btn .zh{
-    display:block;
-    font-size:11.5px;
-    opacity:.9;
-    margin-top:2px;
-  }
   .r0{background:var(--neutral-dark);}
   .r1{background:var(--ochre-dark);}
   .r2{background:var(--indigo);}
@@ -364,96 +423,99 @@
   }
 
   @media (max-width:360px){
-    .kr-word{font-size:36px;}
-    .meaning{font-size:20px;}
+    .kr-word{font-size:38px;}
+    .meaning{font-size:22px;}
   }
 </style>
 </head>
 <body>
 <div class="app">
   <div class="app-header">
-    <p class="app-title">도장깨기</p>
+    <p class="app-title">盖章背单词</p>
     <p class="app-sub">韩语单词闪卡 · 一个词一个词，慢慢盖满章</p>
   </div>
 
-  <div class="session-bar">
-    <span id="sessionLabel">오늘 복습 · 0 / 0</span>
-    <span id="totalLabel">0 단어</span>
-  </div>
-  <div class="stats-bar" id="statsBar">
-    <span class="seg-0" style="flex-basis:100%"></span>
+  <div id="menuView">
+    <p class="menu-eyebrow">TOPIK 必背单词 · 初级</p>
+    <div class="unit-grid" id="unitGrid"></div>
   </div>
 
-  <div class="banner" id="banner" style="display:none;"></div>
+  <div id="studyView" style="display:none;">
+    <button class="back-link" id="backToMenuBtn">← 返回目录</button>
+    <p class="current-unit-label" id="currentUnitLabel"></p>
 
-  <div class="card-wrap">
-    <div class="card" id="card" tabindex="0" role="button" aria-label="点击翻卡片查看释义">
-      <div class="card-inner" id="cardInner">
-        <div class="card-face card-front">
-          <div class="level-badge" id="levelBadgeFront"></div>
-          <p class="kr-word" id="krWord"></p>
-          <p class="romanization" id="romanization"></p>
-          <button class="speak-btn" id="speakBtnFront">🔊 발음 듣기</button>
-          <span class="flip-hint" id="flipHint">탭해서 뜻 보기 · 点击查看释义</span>
-        </div>
-        <div class="card-face card-back">
-          <div class="level-badge" id="levelBadgeBack"></div>
-          <button class="speak-btn" id="speakBtnBack" style="margin-bottom:14px;">🔊 발음 듣기</button>
-          <p class="meaning" id="meaning"></p>
-          <div class="example-block">
-            <div class="example-kr-row">
-              <p class="example-kr" id="exampleKr"></p>
-              <button class="example-speak-btn" id="speakBtnExample" aria-label="예문 발음 듣기 · 播放例句发音">🔊</button>
-            </div>
-            <p class="example-zh" id="exampleZh"></p>
+    <div class="session-bar">
+      <span id="sessionLabel">今日复习 · 0 / 0</span>
+      <span id="totalLabel">0 个单词</span>
+    </div>
+    <div class="stats-bar" id="statsBar">
+      <span class="seg-0" style="flex-basis:100%"></span>
+    </div>
+
+    <div class="banner" id="banner" style="display:none;"></div>
+
+    <div class="card-wrap">
+      <div class="card" id="card" tabindex="0" role="button" aria-label="点击翻卡片查看释义">
+        <div class="card-inner" id="cardInner">
+          <div class="card-face card-front">
+            <div class="level-badge" id="levelBadgeFront"></div>
+            <p class="kr-word" id="krWord"></p>
+            <p class="romanization" id="romanization"></p>
+            <button class="speak-btn" id="speakBtnFront">🔊 播放发音</button>
+            <span class="flip-hint" id="flipHint">点击卡片查看释义</span>
           </div>
+          <div class="card-face card-back">
+            <div class="level-badge" id="levelBadgeBack"></div>
+            <button class="speak-btn" id="speakBtnBack" style="margin-bottom:14px;">🔊 播放发音</button>
+            <p class="meaning" id="meaning"></p>
+            <div class="example-block">
+              <div class="example-kr-row">
+                <p class="example-kr" id="exampleKr"></p>
+                <button class="example-speak-btn" id="speakBtnExample" aria-label="播放例句发音">🔊</button>
+              </div>
+              <p class="example-zh" id="exampleZh"></p>
+            </div>
+          </div>
+          <div class="stamp-layer" id="stampLayer"></div>
         </div>
-        <div class="stamp-layer" id="stampLayer"></div>
       </div>
     </div>
-  </div>
 
-  <div class="ratings">
-    <button class="rate-btn r0" id="rate0" disabled>
-      <span class="kr">모르겠어요</span><span class="zh">完全不会</span>
-    </button>
-    <button class="rate-btn r1" id="rate1" disabled>
-      <span class="kr">조금 알아요</span><span class="zh">有点印象</span>
-    </button>
-    <button class="rate-btn r2" id="rate2" disabled>
-      <span class="kr">거의 알아요</span><span class="zh">比较熟悉</span>
-    </button>
-    <button class="rate-btn r3" id="rate3" disabled>
-      <span class="kr">완벽해요</span><span class="zh">完全掌握</span>
-    </button>
-  </div>
+    <div class="ratings">
+      <button class="rate-btn r0" id="rate0" disabled>完全不会</button>
+      <button class="rate-btn r1" id="rate1" disabled>有点印象</button>
+      <button class="rate-btn r2" id="rate2" disabled>比较熟悉</button>
+      <button class="rate-btn r3" id="rate3" disabled>完全掌握</button>
+    </div>
 
-  <div class="footer-row">
-    <button class="reset-link" id="settingsToggleBtn">学习设置</button>
-    <button class="reset-link" id="resetBtn">重置学习进度</button>
-  </div>
+    <div class="footer-row">
+      <button class="reset-link" id="settingsToggleBtn">学习设置</button>
+      <button class="reset-link" id="resetBtn">重置本单元进度</button>
+    </div>
 
-  <div class="settings-panel" id="settingsPanel" style="display:none;">
-    <label for="dailyLimitInput">매일 새 단어 최대 개수 · 每天最多学习几个新词</label>
-    <input type="number" id="dailyLimitInput" min="1" max="200" step="1">
-    <button id="saveSettingsBtn">저장 · 保存</button>
-    <p class="settings-hint" id="settingsHint"></p>
+    <div class="settings-panel" id="settingsPanel" style="display:none;">
+      <label for="dailyLimitInput">每天最多学习几个新词（所有单元共用额度）</label>
+      <input type="number" id="dailyLimitInput" min="1" max="200" step="1">
+      <button id="saveSettingsBtn">保存</button>
+      <p class="settings-hint" id="settingsHint"></p>
+    </div>
   </div>
 </div>
 
 <script>
-let VOCAB = [];
+let UNITS = [];
+let currentUnit = null;
 
 const LEVELS = [
-  {label:"모르겠어요", zh:"完全不会", color:"var(--neutral)", stampChar:"未", intervalMs:0},
-  {label:"조금 알아요", zh:"有点印象", color:"var(--ochre)", stampChar:"初", intervalMs:24*60*60*1000},
-  {label:"거의 알아요", zh:"比较熟悉", color:"var(--indigo)", stampChar:"熟", intervalMs:3*24*60*60*1000},
-  {label:"완벽해요", zh:"完全掌握", color:"var(--seal)", stampChar:"通", intervalMs:7*24*60*60*1000}
+  {label:"完全不会", color:"var(--neutral)", stampChar:"未", intervalMs:0},
+  {label:"有点印象", color:"var(--ochre)", stampChar:"初", intervalMs:24*60*60*1000},
+  {label:"比较熟悉", color:"var(--indigo)", stampChar:"熟", intervalMs:3*24*60*60*1000},
+  {label:"完全掌握", color:"var(--seal)", stampChar:"通", intervalMs:7*24*60*60*1000}
 ];
 
-const STORAGE_KEY = "korean-flashcards-progress-unit1";
-const SETTINGS_KEY = "korean-flashcards-settings-unit1";
-const NEWCOUNT_KEY = "korean-flashcards-newcount-unit1";
+const STORAGE_KEY = "korean-flashcards-progress-v2";
+const SETTINGS_KEY = "korean-flashcards-settings-v2";
+const NEWCOUNT_KEY = "korean-flashcards-newcount-v2";
 const DEFAULT_DAILY_NEW_LIMIT = 12;
 
 let progress = {};
@@ -476,8 +538,16 @@ function shuffle(arr){
   return a;
 }
 
+function stateKey(unitId, word){
+  return unitId + "::" + word;
+}
+
+function getUnitState(unitId, word){
+  return progress[stateKey(unitId, word)] || {level:0, dueAt:0, reviews:0};
+}
+
 function getState(word){
-  return progress[word] || {level:0, dueAt:0, reviews:0};
+  return getUnitState(currentUnit.id, word);
 }
 
 function todayKey(){
@@ -533,20 +603,78 @@ function saveNewCount(){
   }catch(e){}
 }
 
+function unitCounts(unit){
+  const counts = [0,0,0,0];
+  unit.words.forEach(v => counts[getUnitState(unit.id, v.k).level]++);
+  return counts;
+}
+
+function renderMenu(){
+  const grid = el("unitGrid");
+  grid.innerHTML = "";
+  UNITS.forEach(unit => {
+    const btn = document.createElement("button");
+    const hasWords = unit.words.length > 0;
+    btn.className = "unit-tile";
+    btn.disabled = !hasWords;
+    if(hasWords){
+      const counts = unitCounts(unit);
+      const barSegs = counts.map((c,i)=>{
+        if(c<=0) return "";
+        return '<span class="seg-'+i+'" style="flex-basis:'+(c/unit.words.length*100)+'%"></span>';
+      }).join("");
+      btn.innerHTML =
+        '<span class="unit-name">'+unit.title+'</span>' +
+        '<span class="unit-count">'+unit.words.length+' 个单词</span>' +
+        '<span class="unit-bar">'+(barSegs || '<span class="seg-0" style="flex-basis:100%"></span>')+'</span>';
+      btn.addEventListener("click", ()=>openUnit(unit.id));
+    }else{
+      btn.innerHTML =
+        '<span class="unit-name">'+unit.title+'</span>' +
+        '<span class="unit-count">暂无内容</span>' +
+        '<span class="unit-bar"><span class="seg-0" style="flex-basis:100%"></span></span>';
+    }
+    grid.appendChild(btn);
+  });
+}
+
+function openUnit(unitId){
+  currentUnit = UNITS.find(u => u.id === unitId);
+  if(!currentUnit || currentUnit.words.length === 0) return;
+  el("menuView").style.display = "none";
+  el("studyView").style.display = "block";
+  el("currentUnitLabel").textContent = currentUnit.title;
+  el("totalLabel").textContent = currentUnit.words.length + " 个单词";
+  loadNewCount();
+  buildQueue();
+  updateStatsBar();
+  renderCard();
+  el("settingsPanel").style.display = "none";
+}
+
+function backToMenu(){
+  if("speechSynthesis" in window) speechSynthesis.cancel();
+  el("studyView").style.display = "none";
+  el("menuView").style.display = "block";
+  currentUnit = null;
+  renderMenu();
+}
+
 function buildQueue(){
   const now = Date.now();
-  const reviewDue = VOCAB.filter(v => {
+  const words = currentUnit.words;
+  const reviewDue = words.filter(v => {
     const st = getState(v.k);
     return st.reviews > 0 && st.dueAt <= now;
   });
-  const newWords = VOCAB.filter(v => getState(v.k).reviews === 0);
+  const newWords = words.filter(v => getState(v.k).reviews === 0);
 
   let selected;
   let freePractice = false;
   let quotaReached = false;
 
   if(reviewDue.length === 0 && newWords.length === 0){
-    selected = [...VOCAB];
+    selected = [...words];
     freePractice = true;
   }else{
     const remainingSlots = Math.max(0, settings.dailyNewLimit - newWordsToday);
@@ -563,25 +691,24 @@ function buildQueue(){
   const banner = el("banner");
   if(freePractice){
     banner.style.display = "block";
-    banner.textContent = "오늘 예정된 복습이 없어요 · 今天没有到期复习的词，来自由练习一轮吧（全部单词打乱重新出现）";
+    banner.textContent = "今天这个单元没有到期复习的词，来自由练习一轮吧（全部单词打乱重新出现）";
   }else if(quotaReached){
     banner.style.display = "block";
-    banner.textContent = "오늘의 새 단어 학습량을 다 채웠어요 · 今天的新词学习额度已用完，明天再来学新词吧（设置里可以调整数量）";
+    banner.textContent = "今天的新词学习额度已用完，明天再来学新词吧（可以在下面的学习设置里调整数量）";
   }else{
     banner.style.display = "none";
   }
 }
 
 function updateStatsBar(){
-  const counts = [0,0,0,0];
-  VOCAB.forEach(v => counts[getState(v.k).level]++);
+  const counts = unitCounts(currentUnit);
   const bar = el("statsBar");
   bar.innerHTML = "";
   counts.forEach((c,i)=>{
     if(c<=0) return;
     const span = document.createElement("span");
     span.className = "seg-"+i;
-    span.style.flexBasis = (c/VOCAB.length*100)+"%";
+    span.style.flexBasis = (c/currentUnit.words.length*100)+"%";
     bar.appendChild(span);
   });
   if(counts.every(c=>c===0)){
@@ -599,12 +726,12 @@ function renderLevelBadge(target, level){
 function renderCard(){
   if(queue.length === 0){
     el("krWord").textContent = "🎉";
-    el("meaning").textContent = "이번 세션 완료! 本轮学习完成！";
+    el("meaning").textContent = "本轮学习完成！";
     el("romanization").textContent = "";
     el("exampleKr").textContent = "";
     el("exampleZh").textContent = "";
     [0,1,2,3].forEach(i => el("rate"+i).disabled = true);
-    el("sessionLabel").textContent = "오늘 복습 · "+sessionDone+" / "+sessionTotal;
+    el("sessionLabel").textContent = "今日复习 · "+sessionDone+" / "+sessionTotal;
     return;
   }
   const item = queue[currentIndex];
@@ -620,7 +747,7 @@ function renderCard(){
   renderLevelBadge(el("levelBadgeBack"), state.level);
   el("flipHint").style.display = "block";
   [0,1,2,3].forEach(i => el("rate"+i).disabled = true);
-  el("sessionLabel").textContent = "오늘 복습 · "+sessionDone+" / "+sessionTotal;
+  el("sessionLabel").textContent = "今日复习 · "+sessionDone+" / "+sessionTotal;
 }
 
 function flipCard(){
@@ -661,7 +788,7 @@ function rate(levelIdx){
   const prevState = getState(item.k);
   const wasNew = prevState.reviews === 0;
   const lv = LEVELS[levelIdx];
-  progress[item.k] = {
+  progress[stateKey(currentUnit.id, item.k)] = {
     level: levelIdx,
     dueAt: Date.now() + lv.intervalMs,
     reviews: (prevState.reviews||0) + 1
@@ -684,9 +811,11 @@ function rate(levelIdx){
 }
 
 function resetProgress(){
-  if(!confirm("정말 초기화할까요? · 确定要清空所有学习进度吗？此操作无法撤销。")) return;
-  progress = {};
-  try{ localStorage.removeItem(STORAGE_KEY); }catch(e){}
+  if(!confirm("确定要清空「"+currentUnit.title+"」的学习进度吗？此操作无法撤销。")) return;
+  currentUnit.words.forEach(v => {
+    delete progress[stateKey(currentUnit.id, v.k)];
+  });
+  saveProgress();
   buildQueue();
   updateStatsBar();
   renderCard();
@@ -694,7 +823,7 @@ function resetProgress(){
 
 function renderSettingsUI(){
   el("dailyLimitInput").value = settings.dailyNewLimit;
-  el("settingsHint").textContent = "오늘 이미 "+newWordsToday+"개의 새 단어를 학습했어요 · 今天已经学了 "+newWordsToday+" 个新词";
+  el("settingsHint").textContent = "今天已经学了 "+newWordsToday+" 个新词（所有单元共用这个额度）";
 }
 
 function toggleSettingsPanel(){
@@ -728,24 +857,19 @@ el("rate3").addEventListener("click", ()=>rate(3));
 el("resetBtn").addEventListener("click", resetProgress);
 el("settingsToggleBtn").addEventListener("click", toggleSettingsPanel);
 el("saveSettingsBtn").addEventListener("click", saveSettingsFromUI);
+el("backToMenuBtn").addEventListener("click", backToMenu);
 
 (async function init(){
   try{
     const res = await fetch("vocab.json");
-    VOCAB = await res.json();
+    UNITS = await res.json();
   }catch(e){
-    el("krWord").textContent = "⚠️";
-    el("meaning").textContent = "단어 데이터를 불러오지 못했어요 · 词汇数据加载失败，请确认 vocab.json 与 index.html 在同一目录下并通过网页服务器访问";
+    el("menuView").innerHTML = '<p style="text-align:center;color:var(--ink-soft);font-size:13px;">词汇数据加载失败，请确认 vocab.json 与 index.html 在同一目录下，并通过网页服务器（而不是直接双击文件）访问。</p>';
     return;
   }
-  el("totalLabel").textContent = VOCAB.length + " 단어";
   loadSettings();
-  loadNewCount();
   loadProgress();
-  buildQueue();
-  updateStatsBar();
-  renderCard();
-  renderSettingsUI();
+  renderMenu();
 })();
 </script>
 </body>
