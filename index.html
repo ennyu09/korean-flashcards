@@ -491,6 +491,28 @@
     100%{opacity:1; transform:rotate(-9deg) scale(1);}
   }
 
+  .card-nav{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    margin-top:10px;
+  }
+  .nav-btn{
+    border:1px solid rgba(0,0,0,0.08);
+    background:var(--white);
+    color:var(--ink-soft);
+    border-radius:999px;
+    padding:6px 14px;
+    font-size:12.5px;
+    cursor:pointer;
+  }
+  .nav-btn:disabled{opacity:.35; cursor:not-allowed;}
+  .card-nav-pos{
+    font-family:'JetBrains Mono', monospace;
+    font-size:11.5px;
+    color:var(--ink-soft);
+  }
+
   /* rating buttons */
   .ratings{
     display:grid;
@@ -595,6 +617,13 @@
   .review-table td.not-started{
     color:var(--ink-soft);
     opacity:.7;
+  }
+  .review-table tr.clickable-row{cursor:pointer;}
+  .review-table tr.clickable-row:hover{background:var(--paper);}
+  .review-table td.word-link{
+    color:var(--indigo);
+    text-decoration:underline;
+    text-decoration-color:rgba(47,68,104,0.35);
   }
   .stage-dots{
     letter-spacing:2px;
@@ -712,6 +741,12 @@
       </div>
     </div>
 
+    <div class="card-nav">
+      <button class="nav-btn" id="prevCardBtn">‹ 上一个</button>
+      <span class="card-nav-pos" id="cardNavPos"></span>
+      <button class="nav-btn" id="nextCardBtn">下一个 ›</button>
+    </div>
+
     <div class="ratings">
       <button class="rate-btn r0" id="rate0" disabled>完全不会</button>
       <button class="rate-btn r1" id="rate1" disabled>有点印象</button>
@@ -735,7 +770,7 @@
           <tbody id="reviewTableBody"></tbody>
         </table>
       </div>
-      <p class="review-legend">进度点对应 7 个阶段：1天→2天→4天→7天→15天→30天→60天，●是已经闯过的阶段，○是还没到的。点「完全不会」不算倒退阶段，只是10分钟后再考一次。</p>
+      <p class="review-legend">点表格里的单词可以直接跳到那张卡片。进度点对应 7 个阶段：1天→2天→4天→7天→15天→30天→60天，●是已经闯过的阶段，○是还没到的。点「完全不会」不算倒退阶段，只是10分钟后再考一次。</p>
     </div>
   </div>
 
@@ -1023,6 +1058,9 @@ function renderCard(){
     el("speakBtnBack").style.display = "none";
     el("speakBtnExample").style.display = "none";
     el("flipHint").style.display = "none";
+    el("cardNavPos").textContent = "";
+    el("prevCardBtn").disabled = true;
+    el("nextCardBtn").disabled = true;
     [0,1,2,3].forEach(i => el("rate"+i).disabled = true);
     el("sessionLabel").textContent = "今日复习 · "+sessionDone+" / "+sessionTotal;
     return;
@@ -1043,8 +1081,23 @@ function renderCard(){
   el("speakBtnBack").style.display = "inline-flex";
   el("speakBtnExample").style.display = "inline-block";
   el("flipHint").style.display = "block";
+  el("cardNavPos").textContent = (currentIndex+1)+" / "+queue.length;
+  el("prevCardBtn").disabled = currentIndex <= 0;
+  el("nextCardBtn").disabled = currentIndex >= queue.length-1;
   [0,1,2,3].forEach(i => el("rate"+i).disabled = false);
   el("sessionLabel").textContent = "今日复习 · "+sessionDone+" / "+sessionTotal;
+}
+
+function prevCard(){
+  if(queue.length === 0 || currentIndex <= 0) return;
+  currentIndex--;
+  renderCard();
+}
+
+function nextCard(){
+  if(queue.length === 0 || currentIndex >= queue.length-1) return;
+  currentIndex++;
+  renderCard();
 }
 
 function flipCard(){
@@ -1196,6 +1249,21 @@ function stageDotsFragment(state){
   return span;
 }
 
+function jumpToWord(k){
+  const wordObj = currentUnit.words.find(w => w.k === k);
+  if(!wordObj) return;
+  let idx = queue.findIndex(w => w.k === k);
+  if(idx === -1){
+    const insertAt = Math.min(Math.max(currentIndex,0), queue.length);
+    queue.splice(insertAt, 0, wordObj);
+    idx = insertAt;
+    sessionTotal = queue.length;
+  }
+  currentIndex = idx;
+  el("reviewPanel").style.display = "none";
+  renderCard();
+}
+
 function renderReviewLog(){
   const now = Date.now();
   el("reviewPanelHint").textContent = "今天已学 "+newWordsToday+" 个新词，没有数量限制，到期的和没学过的词都会一起出现";
@@ -1219,6 +1287,10 @@ function renderReviewLog(){
 
     const kTd = document.createElement("td");
     kTd.textContent = row.k;
+    kTd.className = "word-link";
+
+    tr.className = "clickable-row";
+    tr.addEventListener("click", ()=>jumpToWord(row.k));
 
     const stageTd = document.createElement("td");
     stageTd.textContent = started ? LEVELS[row.state.level].label : "未学习";
@@ -1266,6 +1338,8 @@ el("rate3").addEventListener("click", ()=>rate(3));
 el("resetBtn").addEventListener("click", resetProgress);
 el("reviewLogToggleBtn").addEventListener("click", toggleReviewLog);
 el("backToMenuBtn").addEventListener("click", backToMenu);
+el("prevCardBtn").addEventListener("click", prevCard);
+el("nextCardBtn").addEventListener("click", nextCard);
 el("hamburgerBtn").addEventListener("click", openSidebar);
 el("sidebarCloseBtn").addEventListener("click", closeSidebar);
 el("sidebarBackdrop").addEventListener("click", closeSidebar);
