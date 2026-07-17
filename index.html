@@ -149,47 +149,44 @@
     margin-left:8px;
   }
 
-  .app-footer{
-    margin-top:26px;
-    text-align:center;
-    padding:0 8px;
-  }
-  .footer-toggle{
-    background:none;
-    border:none;
+  .info-entry{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:var(--white);
+    border:1px solid rgba(0,0,0,0.08);
+    border-radius:16px;
+    padding:15px 18px;
     cursor:pointer;
-    font-size:10.5px;
-    color:var(--ink-soft);
-    opacity:.65;
-    line-height:1.6;
-    padding:4px;
-    font-family:'Noto Sans SC', sans-serif;
+    font-family:'Song Myung', serif;
+    font-size:16px;
+    color:var(--ink);
+    text-align:left;
+    margin-bottom:14px;
   }
-  .footer-toggle:hover{opacity:.9;}
-  .footer-caret{display:inline-block; transition:transform .2s ease;}
-  .footer-toggle.open .footer-caret{transform:rotate(180deg);}
-  .footer-detail{
-    display:none;
+  .info-entry .info-arrow{font-size:16px; color:var(--ink-soft);}
+  .info-page{
     max-width:520px;
-    margin:10px auto 0;
+    margin:0 auto;
     text-align:left;
     background:var(--white);
     border:1px solid rgba(0,0,0,0.06);
     border-radius:14px;
-    padding:16px 18px;
-    font-size:11.5px;
+    padding:20px 22px;
+    font-size:12.5px;
     color:var(--ink-soft);
-    line-height:1.75;
+    line-height:1.8;
   }
-  .footer-detail h4{
+  .info-page h4{
     font-family:'Song Myung', serif;
-    font-size:13px;
+    font-size:14.5px;
     color:var(--ink);
-    margin:14px 0 4px;
+    margin:18px 0 6px;
   }
-  .footer-detail h4:first-child{margin-top:0;}
-  .footer-detail p{margin:0 0 6px;}
-  .footer-detail ul{margin:0 0 6px; padding-left:18px;}
+  .info-page h4:first-child{margin-top:0;}
+  .info-page p{margin:0 0 8px;}
+  .info-page ul{margin:0 0 8px; padding-left:20px;}
 
   .toast{
     position:fixed;
@@ -994,7 +991,33 @@
 
   <div id="menuView">
     <p class="menu-eyebrow">TOPIK 必背单词</p>
+    <button class="info-entry" id="infoEntryBtn">📖 词库说明<span class="info-arrow">›</span></button>
     <div id="chapterList"></div>
+  </div>
+
+  <div id="infoView" style="display:none;">
+    <button class="back-link" id="infoBackBtn">← 返回目录</button>
+    <div class="info-page">
+      <h4>【词汇来源】</h4>
+      <p>本站词汇选自韩国한국어능력시험（TOPIK）官方发布的初级、中级词汇目录（来源：topik.go.kr）。TOPIK官方目前未发布独立的高级词汇目录，因此高级部分将参考国立国语院（국립국어원）等公开权威资料整理，严谨程度和官方依据不如初中级部分，如有收词争议欢迎讨论。</p>
+
+      <h4>【分类方式】</h4>
+      <p>不按传统教材单元编排，而是按生活主题重新组织（打招呼、家庭、日常生活……），由浅入深、贴近实际使用场景，方便按情境记忆。</p>
+
+      <h4>【内容原创声明】</h4>
+      <ul>
+        <li>例句：全部由本站原创撰写，非引用自任何教材、书籍或网站</li>
+        <li>罗马音：依据韩国官方《国语的罗马字表记法》标准生成</li>
+        <li>语法分析：例句附带成分拆解，标注每部分的语法作用，帮助理解句子结构</li>
+        <li>敬阶标注：涉及敬语/非敬语用法的词汇会单独标注，避免误用</li>
+      </ul>
+
+      <h4>【关于准确性】</h4>
+      <p>词汇释义、词性、罗马音和例句都经过整理和校对，但毕竟是个人项目，难免存在疏漏或不够地道的地方。如果你发现任何错误，非常欢迎点击每张卡片上的"🐛 报错"按钮告诉我，我会尽快修正，谢谢你的帮忙 🙏</p>
+
+      <h4>【使用说明】</h4>
+      <p>本站仅供个人韩语学习交流使用，持续更新中，暂无商业用途。</p>
+    </div>
   </div>
 
   <div id="studyView" style="display:none;">
@@ -1091,32 +1114,6 @@
     </div>
   </div>
 
-  <div class="app-footer">
-    <button class="footer-toggle" id="footerToggle">词汇整理自 TOPIK 官方词表及公开资料，例句为原创内容 · 如有错误欢迎反馈 <span class="footer-caret">▾</span></button>
-    <div class="footer-detail" id="footerDetail">
-      <h4>词库说明</h4>
-
-      <h4>【词汇来源】</h4>
-      <p>本站词汇选自韩国한국어능력시험（TOPIK）官方发布的初级、中级词汇目录（来源：topik.go.kr）。TOPIK官方目前未发布独立的高级词汇目录，因此高级部分将参考国立国语院（국립국어원）等公开权威资料整理，严谨程度和官方依据不如初中级部分，如有收词争议欢迎讨论。</p>
-
-      <h4>【分类方式】</h4>
-      <p>不按传统教材单元编排，而是按生活主题重新组织（打招呼、家庭、日常生活……），由浅入深、贴近实际使用场景，方便按情境记忆。</p>
-
-      <h4>【内容原创声明】</h4>
-      <ul>
-        <li>例句：全部由本站原创撰写，非引用自任何教材、书籍或网站</li>
-        <li>罗马音：依据韩国官方《国语的罗马字表记法》标准生成</li>
-        <li>语法分析：例句附带成分拆解，标注每部分的语法作用，帮助理解句子结构</li>
-        <li>敬阶标注：涉及敬语/非敬语用法的词汇会单独标注，避免误用</li>
-      </ul>
-
-      <h4>【关于准确性】</h4>
-      <p>词汇释义、词性、罗马音和例句都经过整理和校对，但毕竟是个人项目，难免存在疏漏或不够地道的地方。如果你发现任何错误，非常欢迎点击每张卡片上的"🐛 报错"按钮告诉我，我会尽快修正，谢谢你的帮忙 🙏</p>
-
-      <h4>【使用说明】</h4>
-      <p>本站仅供个人韩语学习交流使用，持续更新中，暂无商业用途。</p>
-    </div>
-  </div>
 
   <div class="sidebar-backdrop" id="sidebarBackdrop"></div>
   <div class="sidebar" id="sidebar">
@@ -1419,6 +1416,16 @@ function backToMenu(){
   el("menuView").style.display = "block";
   currentUnit = null;
   renderMenu();
+}
+
+function openInfoPage(){
+  el("menuView").style.display = "none";
+  el("infoView").style.display = "block";
+}
+
+function closeInfoPage(){
+  el("infoView").style.display = "none";
+  el("menuView").style.display = "block";
 }
 
 function toggleSidebarLevel(idx){
@@ -1969,13 +1976,8 @@ el("backToMenuBtn").addEventListener("click", backToMenu);
 el("prevCardBtn").addEventListener("click", prevCard);
 el("nextCardBtn").addEventListener("click", nextCard);
 el("hamburgerBtn").addEventListener("click", openSidebar);
-el("footerToggle").addEventListener("click", ()=>{
-  const detail = el("footerDetail");
-  const toggle = el("footerToggle");
-  const showing = detail.style.display === "block";
-  detail.style.display = showing ? "none" : "block";
-  toggle.classList.toggle("open", !showing);
-});
+el("infoEntryBtn").addEventListener("click", openInfoPage);
+el("infoBackBtn").addEventListener("click", closeInfoPage);
 el("sidebarCloseBtn").addEventListener("click", closeSidebar);
 el("sidebarBackdrop").addEventListener("click", closeSidebar);
 document.addEventListener("keydown", (e)=>{
