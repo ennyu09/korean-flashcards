@@ -1,0 +1,1895 @@
+[
+  {
+    "korean": "가수",
+    "romanization": "gasu",
+    "meaning": "歌手",
+    "example": "그 가수는 노래를 정말 잘합니다.",
+    "exampleTranslation": "那位歌手唱歌真的很好。",
+    "pos": "名词",
+    "register": "中立",
+    "grammarBreakdown": [
+      {
+        "text": "그",
+        "meaning": "那",
+        "note": "冠形词"
+      },
+      {
+        "text": "가수",
+        "meaning": "歌手",
+        "note": "名词"
+      },
+      {
+        "text": "는",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "노래",
+        "meaning": "歌曲",
+        "note": "名词"
+      },
+      {
+        "text": "를",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "정말",
+        "meaning": "真的",
+        "note": "副词"
+      },
+      {
+        "text": "잘합니다",
+        "meaning": "做得好",
+        "note": "잘하다(做得好)的词干+ -ㅂ니다"
+      }
+    ]
+  },
+  {
+    "korean": "가족",
+    "romanization": "gajok",
+    "meaning": "家人，家庭",
+    "example": "저는 가족과 함께 저녁을 먹었습니다.",
+    "exampleTranslation": "我和家人一起吃了晚饭。",
+    "pos": "名词",
+    "register": "中立",
+    "grammarBreakdown": [
+      {
+        "text": "저",
+        "meaning": "我（敬语）",
+        "note": "人称代词"
+      },
+      {
+        "text": "는",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "가족",
+        "meaning": "家人",
+        "note": "名词"
+      },
+      {
+        "text": "과",
+        "meaning": "和……",
+        "note": "表共同对象的助词"
+      },
+      {
+        "text": "함께",
+        "meaning": "一起",
+        "note": "副词"
+      },
+      {
+        "text": "저녁",
+        "meaning": "晚饭",
+        "note": "名词"
+      },
+      {
+        "text": "을",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "먹었습니다",
+        "meaning": "吃了",
+        "note": "먹다(吃)的词干+ -었-+ -습니다"
+      }
+    ]
+  },
+  {
+    "korean": "간호사",
+    "romanization": "ganhosa",
+    "meaning": "护士",
+    "example": "이모는 병원에서 간호사로 일합니다.",
+    "exampleTranslation": "姨妈在医院当护士。",
+    "pos": "名词",
+    "register": "中立",
+    "grammarBreakdown": [
+      {
+        "text": "이모",
+        "meaning": "姨妈",
+        "note": "名词"
+      },
+      {
+        "text": "는",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "병원",
+        "meaning": "医院",
+        "note": "名词"
+      },
+      {
+        "text": "에서",
+        "meaning": "在……",
+        "note": "处所助词"
+      },
+      {
+        "text": "간호사",
+        "meaning": "护士",
+        "note": "名词"
+      },
+      {
+        "text": "로",
+        "meaning": "作为……",
+        "note": "表身份/资格的助词"
+      },
+      {
+        "text": "일합니다",
+        "meaning": "工作",
+        "note": "일하다(工作)的词干+ -ㅂ니다"
+      }
+    ]
+  },
+  {
+    "korean": "결혼하다",
+    "romanization": "gyeolhonhada",
+    "meaning": "结婚",
+    "example": "형은 내년 봄에 결혼합니다.",
+    "exampleTranslation": "哥哥明年春天结婚。",
+    "pos": "动词",
+    "register": "中立",
+    "grammarBreakdown": [
+      {
+        "text": "형",
+        "meaning": "哥哥",
+        "note": "名词"
+      },
+      {
+        "text": "은",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "내년 봄",
+        "meaning": "明年春天",
+        "note": "내년(明年)+봄(春天)"
+      },
+      {
+        "text": "에",
+        "meaning": "在……",
+        "note": "时间助词"
+      },
+      {
+        "text": "결혼합니다",
+        "meaning": "结婚",
+        "note": "결혼하다(结婚)的词干+ -ㅂ니다"
+      }
+    ]
+  },
+  {
+    "korean": "경찰",
+    "romanization": "gyeongchal",
+    "meaning": "警察",
+    "example": "경찰이 길을 안내해 주었습니다.",
+    "exampleTranslation": "警察给我们指了路。",
+    "pos": "名词",
+    "register": "中立",
+    "grammarBreakdown": [
+      {
+        "text": "경찰",
+        "meaning": "警察",
+        "note": "名词"
+      },
+      {
+        "text": "이",
+        "meaning": "—",
+        "note": "主格助词"
+      },
+      {
+        "text": "길",
+        "meaning": "路",
+        "note": "名词"
+      },
+      {
+        "text": "을",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "안내해 주었습니다",
+        "meaning": "帮忙指了路",
+        "note": "안내하다(指引)的词干+ -아/어 주다(为……做)+ -었-+ -습니다"
+      }
+    ]
+  },
+  {
+    "korean": "고모",
+    "romanization": "gomo",
+    "meaning": "姑姑",
+    "example": "고모는 서울에 살고 있습니다.",
+    "exampleTranslation": "姑姑住在首尔。",
+    "pos": "名词",
+    "register": "中立",
+    "grammarBreakdown": [
+      {
+        "text": "고모",
+        "meaning": "姑姑",
+        "note": "名词"
+      },
+      {
+        "text": "는",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "서울",
+        "meaning": "首尔",
+        "note": "名词"
+      },
+      {
+        "text": "에",
+        "meaning": "在……",
+        "note": "处所助词"
+      },
+      {
+        "text": "살고 있습니다",
+        "meaning": "正在居住",
+        "note": "살다(居住)的词干+ -고 있다(正在)+ -습니다"
+      }
+    ]
+  },
+  {
+    "korean": "나이",
+    "romanization": "nai",
+    "meaning": "年龄",
+    "example": "실례지만 나이가 어떻게 되세요?",
+    "exampleTranslation": "不好意思，请问您多大年纪？",
+    "pos": "名词",
+    "register": "中立",
+    "grammarBreakdown": [
+      {
+        "text": "실례지만",
+        "meaning": "虽然失礼，但是",
+        "note": "실례(失礼)+이-+ -지만(表转折)"
+      },
+      {
+        "text": "나이",
+        "meaning": "年龄",
+        "note": "名词"
+      },
+      {
+        "text": "가",
+        "meaning": "—",
+        "note": "主格助词"
+      },
+      {
+        "text": "어떻게",
+        "meaning": "怎样",
+        "note": "副词"
+      },
+      {
+        "text": "되세요",
+        "meaning": "是（敬语疑问）",
+        "note": "되다(成为)的词干+ -시-+ -어요"
+      }
+    ]
+  },
+  {
+    "korean": "남동생",
+    "romanization": "namdongsaeng",
+    "meaning": "弟弟",
+    "example": "제 남동생은 축구를 좋아합니다.",
+    "exampleTranslation": "我弟弟喜欢踢足球。",
+    "pos": "名词",
+    "register": "中立",
+    "grammarBreakdown": [
+      {
+        "text": "제",
+        "meaning": "我的",
+        "note": "저의 缩略形式"
+      },
+      {
+        "text": "남동생",
+        "meaning": "弟弟",
+        "note": "名词"
+      },
+      {
+        "text": "은",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "축구",
+        "meaning": "足球",
+        "note": "名词"
+      },
+      {
+        "text": "를",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "좋아합니다",
+        "meaning": "喜欢",
+        "note": "좋아하다(喜欢)的词干+ -ㅂ니다"
+      }
+    ]
+  },
+  {
+    "korean": "남자",
+    "romanization": "namja",
+    "meaning": "男人，男生",
+    "example": "저 남자는 제 친구입니다.",
+    "exampleTranslation": "那个男生是我朋友。",
+    "pos": "名词",
+    "register": "中立",
+    "grammarBreakdown": [
+      {
+        "text": "저",
+        "meaning": "那",
+        "note": "冠形词"
+      },
+      {
+        "text": "남자",
+        "meaning": "男人",
+        "note": "名词"
+      },
+      {
+        "text": "는",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "제",
+        "meaning": "我的",
+        "note": "저의 缩略形式"
+      },
+      {
+        "text": "친구",
+        "meaning": "朋友",
+        "note": "名词"
+      },
+      {
+        "text": "입니다",
+        "meaning": "是……",
+        "note": "이다+ -ㅂ니다"
+      }
+    ]
+  },
+  {
+    "korean": "남편",
+    "romanization": "nampyeon",
+    "meaning": "丈夫",
+    "example": "제 남편은 요리를 잘합니다.",
+    "exampleTranslation": "我丈夫很会做饭。",
+    "pos": "名词",
+    "register": "中立",
+    "grammarBreakdown": [
+      {
+        "text": "제",
+        "meaning": "我的",
+        "note": "저의 缩略形式"
+      },
+      {
+        "text": "남편",
+        "meaning": "丈夫",
+        "note": "名词"
+      },
+      {
+        "text": "은",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "요리",
+        "meaning": "做饭",
+        "note": "名词"
+      },
+      {
+        "text": "를",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "잘합니다",
+        "meaning": "做得好",
+        "note": "잘하다(做得好)的词干+ -ㅂ니다"
+      }
+    ]
+  },
+  {
+    "korean": "누나",
+    "romanization": "nuna",
+    "meaning": "姐姐（男生称呼）",
+    "example": "저는 누나가 두 명 있습니다.",
+    "exampleTranslation": "我有两个姐姐。",
+    "pos": "名词",
+    "register": "中立",
+    "grammarBreakdown": [
+      {
+        "text": "저",
+        "meaning": "我（敬语）",
+        "note": "人称代词"
+      },
+      {
+        "text": "는",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "누나",
+        "meaning": "姐姐",
+        "note": "名词"
+      },
+      {
+        "text": "가",
+        "meaning": "—",
+        "note": "主格助词"
+      },
+      {
+        "text": "두 명",
+        "meaning": "两位",
+        "note": "数量结构"
+      },
+      {
+        "text": "있습니다",
+        "meaning": "有……",
+        "note": "있다+ -습니다"
+      }
+    ]
+  },
+  {
+    "korean": "닮다",
+    "romanization": "damda",
+    "meaning": "相像",
+    "example": "저는 아버지와 많이 닮았습니다.",
+    "exampleTranslation": "我和爸爸长得很像。",
+    "pos": "动词",
+    "register": "中立",
+    "grammarBreakdown": [
+      {
+        "text": "저",
+        "meaning": "我（敬语）",
+        "note": "人称代词"
+      },
+      {
+        "text": "는",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "아버지",
+        "meaning": "父亲",
+        "note": "名词"
+      },
+      {
+        "text": "와",
+        "meaning": "和……",
+        "note": "表共同对象的助词"
+      },
+      {
+        "text": "많이",
+        "meaning": "很",
+        "note": "副词"
+      },
+      {
+        "text": "닮았습니다",
+        "meaning": "相像了",
+        "note": "닮다(相像)的词干+ -았-+ -습니다"
+      }
+    ]
+  },
+  {
+    "korean": "동생",
+    "romanization": "dongsaeng",
+    "meaning": "弟弟妹妹",
+    "example": "저는 동생이 한 명 있습니다.",
+    "exampleTranslation": "我有一个弟弟/妹妹。",
+    "pos": "名词",
+    "register": "中立",
+    "grammarBreakdown": [
+      {
+        "text": "저",
+        "meaning": "我（敬语）",
+        "note": "人称代词"
+      },
+      {
+        "text": "는",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "동생",
+        "meaning": "弟弟妹妹",
+        "note": "名词"
+      },
+      {
+        "text": "이",
+        "meaning": "—",
+        "note": "主格助词"
+      },
+      {
+        "text": "한 명",
+        "meaning": "一位",
+        "note": "数量结构"
+      },
+      {
+        "text": "있습니다",
+        "meaning": "有……",
+        "note": "있다+ -습니다"
+      }
+    ]
+  },
+  {
+    "korean": "만나다",
+    "romanization": "mannada",
+    "meaning": "见面",
+    "example": "저는 친구를 자주 만납니다.",
+    "exampleTranslation": "我经常和朋友见面。",
+    "pos": "动词",
+    "register": "中立",
+    "grammarBreakdown": [
+      {
+        "text": "저",
+        "meaning": "我（敬语）",
+        "note": "人称代词"
+      },
+      {
+        "text": "는",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "친구",
+        "meaning": "朋友",
+        "note": "名词"
+      },
+      {
+        "text": "를",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "자주",
+        "meaning": "经常",
+        "note": "副词"
+      },
+      {
+        "text": "만납니다",
+        "meaning": "见面",
+        "note": "만나다(见面)的词干+ -ㅂ니다"
+      }
+    ]
+  },
+  {
+    "korean": "부모님",
+    "romanization": "bumonim",
+    "meaning": "父母（敬语）",
+    "example": "부모님은 시골에 살고 계십니다.",
+    "exampleTranslation": "父母住在乡下。",
+    "pos": "名词",
+    "register": "中立",
+    "grammarBreakdown": [
+      {
+        "text": "부모님",
+        "meaning": "父母（敬语）",
+        "note": "名词"
+      },
+      {
+        "text": "은",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "시골",
+        "meaning": "乡下",
+        "note": "名词"
+      },
+      {
+        "text": "에",
+        "meaning": "在……",
+        "note": "处所助词"
+      },
+      {
+        "text": "살고 계십니다",
+        "meaning": "正在居住（敬语）",
+        "note": "살다(居住)的词干+ -고 계시다(敬语的正在)+ -ㅂ니다"
+      }
+    ]
+  },
+  {
+    "korean": "사람",
+    "romanization": "saram",
+    "meaning": "人",
+    "example": "이 식당에는 사람이 많습니다.",
+    "exampleTranslation": "这家餐厅人很多。",
+    "pos": "名词",
+    "register": "中立",
+    "grammarBreakdown": [
+      {
+        "text": "이",
+        "meaning": "这",
+        "note": "冠形词"
+      },
+      {
+        "text": "식당",
+        "meaning": "餐厅",
+        "note": "名词"
+      },
+      {
+        "text": "에는",
+        "meaning": "在……（强调）",
+        "note": "에(处所)+는(强调)"
+      },
+      {
+        "text": "사람",
+        "meaning": "人",
+        "note": "名词"
+      },
+      {
+        "text": "이",
+        "meaning": "—",
+        "note": "主格助词"
+      },
+      {
+        "text": "많습니다",
+        "meaning": "多",
+        "note": "많다(多)的词干+ -습니다"
+      }
+    ]
+  },
+  {
+    "korean": "사랑하다",
+    "romanization": "saranghada",
+    "meaning": "爱",
+    "example": "저는 제 가족을 사랑합니다.",
+    "exampleTranslation": "我爱我的家人。",
+    "pos": "动词",
+    "register": "中立",
+    "grammarBreakdown": [
+      {
+        "text": "저",
+        "meaning": "我（敬语）",
+        "note": "人称代词"
+      },
+      {
+        "text": "는",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "제",
+        "meaning": "我的",
+        "note": "저의 缩略形式"
+      },
+      {
+        "text": "가족",
+        "meaning": "家人",
+        "note": "名词"
+      },
+      {
+        "text": "을",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "사랑합니다",
+        "meaning": "爱",
+        "note": "사랑하다(爱)的词干+ -ㅂ니다"
+      }
+    ]
+  },
+  {
+    "korean": "살다",
+    "romanization": "salda",
+    "meaning": "生活，居住",
+    "example": "저는 지금 부산에서 살고 있습니다.",
+    "exampleTranslation": "我现在住在釜山。",
+    "pos": "动词",
+    "register": "中立",
+    "grammarBreakdown": [
+      {
+        "text": "저",
+        "meaning": "我（敬语）",
+        "note": "人称代词"
+      },
+      {
+        "text": "는",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "지금",
+        "meaning": "现在",
+        "note": "名词/副词"
+      },
+      {
+        "text": "부산",
+        "meaning": "釜山",
+        "note": "名词"
+      },
+      {
+        "text": "에서",
+        "meaning": "在……",
+        "note": "处所助词"
+      },
+      {
+        "text": "살고 있습니다",
+        "meaning": "正在居住",
+        "note": "살다(居住)的词干+ -고 있다(正在)+ -습니다"
+      }
+    ]
+  },
+  {
+    "korean": "삼촌",
+    "romanization": "samchon",
+    "meaning": "叔叔，舅舅",
+    "example": "삼촌은 자동차 회사에 다닙니다.",
+    "exampleTranslation": "叔叔在汽车公司上班。",
+    "pos": "名词",
+    "register": "中立",
+    "grammarBreakdown": [
+      {
+        "text": "삼촌",
+        "meaning": "叔叔，舅舅",
+        "note": "名词"
+      },
+      {
+        "text": "은",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "자동차 회사",
+        "meaning": "汽车公司",
+        "note": "名词"
+      },
+      {
+        "text": "에",
+        "meaning": "在……",
+        "note": "处所助词"
+      },
+      {
+        "text": "다닙니다",
+        "meaning": "上班，通勤",
+        "note": "다니다(上班/通行)的词干+ -ㅂ니다"
+      }
+    ]
+  },
+  {
+    "korean": "선생님",
+    "romanization": "seonsaengnim",
+    "meaning": "老师",
+    "example": "우리 선생님은 아주 친절합니다.",
+    "exampleTranslation": "我们老师非常亲切。",
+    "pos": "名词",
+    "register": "中立",
+    "grammarBreakdown": [
+      {
+        "text": "우리",
+        "meaning": "我们",
+        "note": "代词"
+      },
+      {
+        "text": "선생님",
+        "meaning": "老师",
+        "note": "名词"
+      },
+      {
+        "text": "은",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "아주",
+        "meaning": "很",
+        "note": "副词"
+      },
+      {
+        "text": "친절합니다",
+        "meaning": "亲切",
+        "note": "친절하다(亲切)的词干+ -ㅂ니다"
+      }
+    ]
+  },
+  {
+    "korean": "아기",
+    "romanization": "agi",
+    "meaning": "婴儿",
+    "example": "아기가 방금 잠들었습니다.",
+    "exampleTranslation": "宝宝刚刚睡着了。",
+    "pos": "名词",
+    "register": "中立",
+    "grammarBreakdown": [
+      {
+        "text": "아기",
+        "meaning": "婴儿",
+        "note": "名词"
+      },
+      {
+        "text": "가",
+        "meaning": "—",
+        "note": "主格助词"
+      },
+      {
+        "text": "방금",
+        "meaning": "刚才",
+        "note": "副词"
+      },
+      {
+        "text": "잠들었습니다",
+        "meaning": "睡着了",
+        "note": "잠들다(入睡)的词干+ -었-+ -습니다"
+      }
+    ]
+  },
+  {
+    "korean": "아내",
+    "romanization": "anae",
+    "meaning": "妻子",
+    "example": "그는 아내와 함께 여행을 갑니다.",
+    "exampleTranslation": "他和妻子一起去旅行。",
+    "pos": "名词",
+    "register": "中立",
+    "grammarBreakdown": [
+      {
+        "text": "그",
+        "meaning": "他",
+        "note": "代词"
+      },
+      {
+        "text": "는",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "아내",
+        "meaning": "妻子",
+        "note": "名词"
+      },
+      {
+        "text": "와",
+        "meaning": "和……",
+        "note": "表共同对象的助词"
+      },
+      {
+        "text": "함께",
+        "meaning": "一起",
+        "note": "副词"
+      },
+      {
+        "text": "여행",
+        "meaning": "旅行",
+        "note": "名词"
+      },
+      {
+        "text": "을",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "갑니다",
+        "meaning": "去",
+        "note": "가다(去)的词干+ -ㅂ니다"
+      }
+    ]
+  },
+  {
+    "korean": "아들",
+    "romanization": "adeul",
+    "meaning": "儿子",
+    "example": "제 아들은 올해 대학교에 입학했습니다.",
+    "exampleTranslation": "我儿子今年上大学了。",
+    "pos": "名词",
+    "register": "中立",
+    "grammarBreakdown": [
+      {
+        "text": "제",
+        "meaning": "我的",
+        "note": "저의 缩略形式"
+      },
+      {
+        "text": "아들",
+        "meaning": "儿子",
+        "note": "名词"
+      },
+      {
+        "text": "은",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "올해",
+        "meaning": "今年",
+        "note": "名词/副词"
+      },
+      {
+        "text": "대학교",
+        "meaning": "大学",
+        "note": "名词"
+      },
+      {
+        "text": "에",
+        "meaning": "到……",
+        "note": "方向助词"
+      },
+      {
+        "text": "입학했습니다",
+        "meaning": "入学了",
+        "note": "입학하다(入学)的词干+ -았-+ -습니다"
+      }
+    ]
+  },
+  {
+    "korean": "아버지",
+    "romanization": "abeoji",
+    "meaning": "父亲",
+    "example": "아버지는 매일 아침 신문을 읽으십니다.",
+    "exampleTranslation": "父亲每天早上读报纸。",
+    "pos": "名词",
+    "register": "中立",
+    "grammarBreakdown": [
+      {
+        "text": "아버지",
+        "meaning": "父亲",
+        "note": "名词"
+      },
+      {
+        "text": "는",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "매일 아침",
+        "meaning": "每天早上",
+        "note": "매일(每天)+아침(早上)"
+      },
+      {
+        "text": "신문",
+        "meaning": "报纸",
+        "note": "名词"
+      },
+      {
+        "text": "을",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "읽으십니다",
+        "meaning": "读（敬语）",
+        "note": "읽다(读)的词干+ -으시-(尊敬)+ -ㅂ니다"
+      }
+    ]
+  },
+  {
+    "korean": "아빠",
+    "romanization": "appa",
+    "meaning": "爸爸（口语）",
+    "example": "아빠, 오늘 일찍 오세요.",
+    "exampleTranslation": "爸爸，今天早点回来。",
+    "pos": "名词",
+    "register": "中立",
+    "grammarBreakdown": [
+      {
+        "text": "아빠",
+        "meaning": "爸爸（口语）",
+        "note": "名词"
+      },
+      {
+        "text": "오늘",
+        "meaning": "今天",
+        "note": "名词/副词"
+      },
+      {
+        "text": "일찍",
+        "meaning": "早早地",
+        "note": "副词"
+      },
+      {
+        "text": "오세요",
+        "meaning": "请来",
+        "note": "오다(来)的词干+ -시-+ -어요(请求)"
+      }
+    ]
+  },
+  {
+    "korean": "아이",
+    "romanization": "ai",
+    "meaning": "孩子",
+    "example": "공원에 아이들이 많이 있습니다.",
+    "exampleTranslation": "公园里有很多孩子。",
+    "pos": "名词",
+    "register": "中立",
+    "grammarBreakdown": [
+      {
+        "text": "공원",
+        "meaning": "公园",
+        "note": "名词"
+      },
+      {
+        "text": "에",
+        "meaning": "在……",
+        "note": "处所助词"
+      },
+      {
+        "text": "아이들",
+        "meaning": "孩子们",
+        "note": "名词"
+      },
+      {
+        "text": "이",
+        "meaning": "—",
+        "note": "主格助词"
+      },
+      {
+        "text": "많이",
+        "meaning": "很多",
+        "note": "副词"
+      },
+      {
+        "text": "있습니다",
+        "meaning": "有……",
+        "note": "있다+ -습니다"
+      }
+    ]
+  },
+  {
+    "korean": "안다",
+    "romanization": "anda",
+    "meaning": "抱",
+    "example": "어머니가 아기를 꼭 안았습니다.",
+    "exampleTranslation": "妈妈紧紧抱住了宝宝。",
+    "pos": "动词",
+    "register": "中立",
+    "grammarBreakdown": [
+      {
+        "text": "어머니가",
+        "meaning": "母亲",
+        "note": "어머니+가(主格助词)"
+      },
+      {
+        "text": "아기를",
+        "meaning": "婴儿",
+        "note": "아기(婴儿)+를(宾格助词)"
+      },
+      {
+        "text": "꼭",
+        "meaning": "紧紧地",
+        "note": "副词"
+      },
+      {
+        "text": "안았습니다",
+        "meaning": "抱住了",
+        "note": "안다(抱)的词干+ -았-+ -습니다"
+      }
+    ]
+  },
+  {
+    "korean": "어른",
+    "romanization": "eoreun",
+    "meaning": "大人，成年人",
+    "example": "어른이 되면 책임이 많아집니다.",
+    "exampleTranslation": "长大成人后责任会变多。",
+    "pos": "名词",
+    "register": "中立",
+    "grammarBreakdown": [
+      {
+        "text": "어른",
+        "meaning": "大人，成年人",
+        "note": "名词"
+      },
+      {
+        "text": "이 되면",
+        "meaning": "变成……的话",
+        "note": "되다(成为)+ -면(如果……的话)"
+      },
+      {
+        "text": "책임",
+        "meaning": "责任",
+        "note": "名词"
+      },
+      {
+        "text": "이",
+        "meaning": "—",
+        "note": "主格助词"
+      },
+      {
+        "text": "많아집니다",
+        "meaning": "变多",
+        "note": "많다(多)的词干+ -아지다(变得……)+ -ㅂ니다"
+      }
+    ]
+  },
+  {
+    "korean": "어머니",
+    "romanization": "eomeoni",
+    "meaning": "母亲",
+    "example": "어머니는 항상 저를 응원해 주십니다.",
+    "exampleTranslation": "母亲总是支持我。",
+    "pos": "名词",
+    "register": "中立",
+    "grammarBreakdown": [
+      {
+        "text": "어머니",
+        "meaning": "母亲",
+        "note": "名词"
+      },
+      {
+        "text": "는",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "항상",
+        "meaning": "总是",
+        "note": "副词"
+      },
+      {
+        "text": "저",
+        "meaning": "我",
+        "note": "人称代词"
+      },
+      {
+        "text": "를",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "응원해 주십니다",
+        "meaning": "为我加油（敬语）",
+        "note": "응원하다(加油)的词干+ -아/어 주다(为……做)+ -시-+ -ㅂ니다"
+      }
+    ]
+  },
+  {
+    "korean": "언니",
+    "romanization": "eonni",
+    "meaning": "姐姐（女生称呼）",
+    "example": "언니는 회사에 다니고 있습니다.",
+    "exampleTranslation": "姐姐在上班。",
+    "pos": "名词",
+    "register": "中立",
+    "grammarBreakdown": [
+      {
+        "text": "언니",
+        "meaning": "姐姐",
+        "note": "名词"
+      },
+      {
+        "text": "는",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "회사",
+        "meaning": "公司",
+        "note": "名词"
+      },
+      {
+        "text": "에",
+        "meaning": "在……",
+        "note": "处所助词"
+      },
+      {
+        "text": "다니고 있습니다",
+        "meaning": "正在上班",
+        "note": "다니다(上班)的词干+ -고 있다(正在)+ -습니다"
+      }
+    ]
+  },
+  {
+    "korean": "엄마",
+    "romanization": "eomma",
+    "meaning": "妈妈（口语）",
+    "example": "엄마가 맛있는 음식을 만들어 주셨습니다.",
+    "exampleTranslation": "妈妈做了好吃的菜给我。",
+    "pos": "名词",
+    "register": "中立",
+    "grammarBreakdown": [
+      {
+        "text": "엄마",
+        "meaning": "妈妈（口语）",
+        "note": "名词"
+      },
+      {
+        "text": "가",
+        "meaning": "—",
+        "note": "主格助词"
+      },
+      {
+        "text": "맛있는",
+        "meaning": "好吃的",
+        "note": "맛있다(好吃)的词干+ -는(冠形词形)"
+      },
+      {
+        "text": "음식",
+        "meaning": "食物",
+        "note": "名词"
+      },
+      {
+        "text": "을",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "만들어 주셨습니다",
+        "meaning": "为我做了（敬语）",
+        "note": "만들다(做)的词干+ -아/어 주다(为……做)+ -시-+ -었-+ -습니다"
+      }
+    ]
+  },
+  {
+    "korean": "여동생",
+    "romanization": "yeodongsaeng",
+    "meaning": "妹妹",
+    "example": "여동생은 그림을 잘 그립니다.",
+    "exampleTranslation": "妹妹很会画画。",
+    "pos": "名词",
+    "register": "中立",
+    "grammarBreakdown": [
+      {
+        "text": "여동생",
+        "meaning": "妹妹",
+        "note": "名词"
+      },
+      {
+        "text": "은",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "그림",
+        "meaning": "画",
+        "note": "名词"
+      },
+      {
+        "text": "을",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "잘",
+        "meaning": "好好地",
+        "note": "副词"
+      },
+      {
+        "text": "그립니다",
+        "meaning": "画",
+        "note": "그리다(画)的词干+ -ㅂ니다"
+      }
+    ]
+  },
+  {
+    "korean": "여자",
+    "romanization": "yeoja",
+    "meaning": "女人，女生",
+    "example": "저 여자는 제 회사 동료입니다.",
+    "exampleTranslation": "那个女生是我公司同事。",
+    "pos": "名词",
+    "register": "中立",
+    "grammarBreakdown": [
+      {
+        "text": "저",
+        "meaning": "那",
+        "note": "冠形词"
+      },
+      {
+        "text": "여자",
+        "meaning": "女人",
+        "note": "名词"
+      },
+      {
+        "text": "는",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "제",
+        "meaning": "我的",
+        "note": "저의 缩略形式"
+      },
+      {
+        "text": "회사 동료",
+        "meaning": "公司同事",
+        "note": "名词"
+      },
+      {
+        "text": "입니다",
+        "meaning": "是……",
+        "note": "이다+ -ㅂ니다"
+      }
+    ]
+  },
+  {
+    "korean": "오빠",
+    "romanization": "oppa",
+    "meaning": "哥哥（女生称呼）",
+    "example": "오빠는 저보다 세 살 많습니다.",
+    "exampleTranslation": "哥哥比我大三岁。",
+    "pos": "名词",
+    "register": "中立",
+    "grammarBreakdown": [
+      {
+        "text": "오빠",
+        "meaning": "哥哥",
+        "note": "名词"
+      },
+      {
+        "text": "는",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "저보다",
+        "meaning": "比我",
+        "note": "저(我)+보다(比……，比较助词)"
+      },
+      {
+        "text": "세 살",
+        "meaning": "三岁",
+        "note": "数量结构"
+      },
+      {
+        "text": "많습니다",
+        "meaning": "多（此处指年长）",
+        "note": "많다(多)的词干+ -습니다"
+      }
+    ]
+  },
+  {
+    "korean": "요리사",
+    "romanization": "yorisa",
+    "meaning": "厨师",
+    "example": "삼촌은 유명한 요리사입니다.",
+    "exampleTranslation": "叔叔是有名的厨师。",
+    "pos": "名词",
+    "register": "中立",
+    "grammarBreakdown": [
+      {
+        "text": "삼촌",
+        "meaning": "叔叔",
+        "note": "名词"
+      },
+      {
+        "text": "은",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "유명한",
+        "meaning": "有名的",
+        "note": "유명하다(有名)的词干+ -ㄴ(冠形词形)"
+      },
+      {
+        "text": "요리사",
+        "meaning": "厨师",
+        "note": "名词"
+      },
+      {
+        "text": "입니다",
+        "meaning": "是……",
+        "note": "이다+ -ㅂ니다"
+      }
+    ]
+  },
+  {
+    "korean": "울다",
+    "romanization": "ulda",
+    "meaning": "哭",
+    "example": "아기가 배가 고파서 울었습니다.",
+    "exampleTranslation": "宝宝因为饿了而哭了。",
+    "pos": "动词",
+    "register": "中立",
+    "grammarBreakdown": [
+      {
+        "text": "아기",
+        "meaning": "婴儿",
+        "note": "名词"
+      },
+      {
+        "text": "가",
+        "meaning": "—",
+        "note": "主格助词"
+      },
+      {
+        "text": "배가 고파서",
+        "meaning": "因为肚子饿",
+        "note": "배(肚子)+가+고프다(饿)的词干+ -아서(因为)"
+      },
+      {
+        "text": "울었습니다",
+        "meaning": "哭了",
+        "note": "울다(哭)的词干+ -었-+ -습니다"
+      }
+    ]
+  },
+  {
+    "korean": "웃다",
+    "romanization": "utda",
+    "meaning": "笑",
+    "example": "그 이야기를 듣고 모두 웃었습니다.",
+    "exampleTranslation": "听了那个故事大家都笑了。",
+    "pos": "动词",
+    "register": "中立",
+    "grammarBreakdown": [
+      {
+        "text": "그",
+        "meaning": "那",
+        "note": "冠形词"
+      },
+      {
+        "text": "이야기",
+        "meaning": "故事",
+        "note": "名词"
+      },
+      {
+        "text": "를",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "듣고",
+        "meaning": "听了之后",
+        "note": "듣다(听)的词干+ -고(然后)"
+      },
+      {
+        "text": "모두",
+        "meaning": "都",
+        "note": "副词"
+      },
+      {
+        "text": "웃었습니다",
+        "meaning": "笑了",
+        "note": "웃다(笑)的词干+ -었-+ -습니다"
+      }
+    ]
+  },
+  {
+    "korean": "의사",
+    "romanization": "uisa",
+    "meaning": "医生",
+    "example": "저는 커서 의사가 되고 싶습니다.",
+    "exampleTranslation": "我长大想成为医生。",
+    "pos": "名词",
+    "register": "中立",
+    "grammarBreakdown": [
+      {
+        "text": "저",
+        "meaning": "我（敬语）",
+        "note": "人称代词"
+      },
+      {
+        "text": "는",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "커서",
+        "meaning": "长大后",
+        "note": "크다(长大)的词干+ -어서(表先后)"
+      },
+      {
+        "text": "의사",
+        "meaning": "医生",
+        "note": "名词"
+      },
+      {
+        "text": "가",
+        "meaning": "—",
+        "note": "主格助词"
+      },
+      {
+        "text": "되고 싶습니다",
+        "meaning": "想要成为",
+        "note": "되다(成为)的词干+ -고 싶다(想要)+ -습니다"
+      }
+    ]
+  },
+  {
+    "korean": "이름",
+    "romanization": "ireum",
+    "meaning": "名字",
+    "example": "제 이름은 부모님이 지어 주셨습니다.",
+    "exampleTranslation": "我的名字是父母取的。",
+    "pos": "名词",
+    "register": "中立",
+    "grammarBreakdown": [
+      {
+        "text": "제",
+        "meaning": "我的",
+        "note": "저의 缩略形式"
+      },
+      {
+        "text": "이름",
+        "meaning": "名字",
+        "note": "名词"
+      },
+      {
+        "text": "은",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "부모님",
+        "meaning": "父母（敬语）",
+        "note": "名词"
+      },
+      {
+        "text": "이",
+        "meaning": "—",
+        "note": "主格助词"
+      },
+      {
+        "text": "지어 주셨습니다",
+        "meaning": "为我取了（敬语）",
+        "note": "짓다(取名)的词干变化+ -아/어 주다(为……做)+ -시-+ -었-+ -습니다"
+      }
+    ]
+  },
+  {
+    "korean": "조카",
+    "romanization": "joka",
+    "meaning": "侄子/外甥，侄女/外甥女",
+    "example": "명절에 조카들을 만났습니다.",
+    "exampleTranslation": "过节的时候见到了侄子们。",
+    "pos": "名词",
+    "register": "中立",
+    "grammarBreakdown": [
+      {
+        "text": "명절에",
+        "meaning": "在节日",
+        "note": "명절(节日)+에(时间助词)"
+      },
+      {
+        "text": "조카들을",
+        "meaning": "侄子们",
+        "note": "조카들(侄子们)+을(宾格助词)"
+      },
+      {
+        "text": "만났습니다",
+        "meaning": "见面了",
+        "note": "만나다(见面)的词干+ -았-+ -습니다"
+      }
+    ]
+  },
+  {
+    "korean": "친구",
+    "romanization": "chingu",
+    "meaning": "朋友",
+    "example": "저는 대학교 친구를 오랜만에 만났습니다.",
+    "exampleTranslation": "我和很久没见的大学朋友见面了。",
+    "pos": "名词",
+    "register": "中立",
+    "grammarBreakdown": [
+      {
+        "text": "저",
+        "meaning": "我（敬语）",
+        "note": "人称代词"
+      },
+      {
+        "text": "는",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "대학교 친구",
+        "meaning": "大学朋友",
+        "note": "名词"
+      },
+      {
+        "text": "를",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "오랜만에",
+        "meaning": "隔了好久",
+        "note": "오랜만(好久)+에(时间助词)"
+      },
+      {
+        "text": "만났습니다",
+        "meaning": "见面了",
+        "note": "만나다(见面)的词干+ -았-+ -습니다"
+      }
+    ]
+  },
+  {
+    "korean": "키우다",
+    "romanization": "kiuda",
+    "meaning": "养育，饲养",
+    "example": "우리 가족은 강아지를 키우고 있습니다.",
+    "exampleTranslation": "我们家在养一只小狗。",
+    "pos": "动词",
+    "register": "中立",
+    "grammarBreakdown": [
+      {
+        "text": "우리",
+        "meaning": "我们",
+        "note": "代词"
+      },
+      {
+        "text": "가족",
+        "meaning": "家人",
+        "note": "名词"
+      },
+      {
+        "text": "은",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "강아지",
+        "meaning": "小狗",
+        "note": "名词"
+      },
+      {
+        "text": "를",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "키우고 있습니다",
+        "meaning": "正在养",
+        "note": "키우다(养)的词干+ -고 있다(正在)+ -습니다"
+      }
+    ]
+  },
+  {
+    "korean": "태어나다",
+    "romanization": "taeeonada",
+    "meaning": "出生",
+    "example": "저는 서울에서 태어났습니다.",
+    "exampleTranslation": "我出生在首尔。",
+    "pos": "动词",
+    "register": "中立",
+    "grammarBreakdown": [
+      {
+        "text": "저",
+        "meaning": "我（敬语）",
+        "note": "人称代词"
+      },
+      {
+        "text": "는",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "서울",
+        "meaning": "首尔",
+        "note": "名词"
+      },
+      {
+        "text": "에서",
+        "meaning": "在……",
+        "note": "处所助词"
+      },
+      {
+        "text": "태어났습니다",
+        "meaning": "出生了",
+        "note": "태어나다(出生)的词干+ -았-+ -습니다"
+      }
+    ]
+  },
+  {
+    "korean": "학생",
+    "romanization": "haksaeng",
+    "meaning": "学生",
+    "example": "제 동생은 아직 고등학생입니다.",
+    "exampleTranslation": "我弟弟/妹妹还是高中生。",
+    "pos": "名词",
+    "register": "中立",
+    "grammarBreakdown": [
+      {
+        "text": "제",
+        "meaning": "我的",
+        "note": "저의 缩略形式"
+      },
+      {
+        "text": "동생",
+        "meaning": "弟弟妹妹",
+        "note": "名词"
+      },
+      {
+        "text": "은",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "아직",
+        "meaning": "还",
+        "note": "副词"
+      },
+      {
+        "text": "고등학생",
+        "meaning": "高中生",
+        "note": "名词"
+      },
+      {
+        "text": "입니다",
+        "meaning": "是……",
+        "note": "이다+ -ㅂ니다"
+      }
+    ]
+  },
+  {
+    "korean": "할머니",
+    "romanization": "halmeoni",
+    "meaning": "奶奶，外婆",
+    "example": "할머니는 요리를 아주 잘하십니다.",
+    "exampleTranslation": "奶奶做饭做得非常好。",
+    "pos": "名词",
+    "register": "中立",
+    "grammarBreakdown": [
+      {
+        "text": "할머니",
+        "meaning": "奶奶",
+        "note": "名词"
+      },
+      {
+        "text": "는",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "요리",
+        "meaning": "做饭",
+        "note": "名词"
+      },
+      {
+        "text": "를",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "아주",
+        "meaning": "很",
+        "note": "副词"
+      },
+      {
+        "text": "잘하십니다",
+        "meaning": "做得好（敬语）",
+        "note": "잘하다(做得好)的词干+ -시-+ -ㅂ니다"
+      }
+    ]
+  },
+  {
+    "korean": "할아버지",
+    "romanization": "harabeoji",
+    "meaning": "爷爷，外公",
+    "example": "할아버지는 매일 아침 산책을 하십니다.",
+    "exampleTranslation": "爷爷每天早上散步。",
+    "pos": "名词",
+    "register": "中立",
+    "grammarBreakdown": [
+      {
+        "text": "할아버지",
+        "meaning": "爷爷",
+        "note": "名词"
+      },
+      {
+        "text": "는",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "매일 아침",
+        "meaning": "每天早上",
+        "note": "매일(每天)+아침(早上)"
+      },
+      {
+        "text": "산책",
+        "meaning": "散步",
+        "note": "名词"
+      },
+      {
+        "text": "을",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "하십니다",
+        "meaning": "做（敬语）",
+        "note": "하다(做)的词干+ -시-+ -ㅂ니다"
+      }
+    ]
+  },
+  {
+    "korean": "형",
+    "romanization": "hyeong",
+    "meaning": "哥哥（男生称呼）",
+    "example": "저는 형이 하나 있습니다.",
+    "exampleTranslation": "我有一个哥哥。",
+    "pos": "名词",
+    "register": "中立",
+    "grammarBreakdown": [
+      {
+        "text": "저",
+        "meaning": "我（敬语）",
+        "note": "人称代词"
+      },
+      {
+        "text": "는",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "형",
+        "meaning": "哥哥",
+        "note": "名词"
+      },
+      {
+        "text": "이",
+        "meaning": "—",
+        "note": "主格助词"
+      },
+      {
+        "text": "하나",
+        "meaning": "一个",
+        "note": "固有数字"
+      },
+      {
+        "text": "있습니다",
+        "meaning": "有……",
+        "note": "있다+ -습니다"
+      }
+    ]
+  },
+  {
+    "korean": "회사원",
+    "romanization": "hoesawon",
+    "meaning": "公司职员",
+    "example": "아버지는 큰 회사의 회사원입니다.",
+    "exampleTranslation": "父亲是大公司的职员。",
+    "pos": "名词",
+    "register": "中立",
+    "grammarBreakdown": [
+      {
+        "text": "아버지",
+        "meaning": "父亲",
+        "note": "名词"
+      },
+      {
+        "text": "는",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "큰",
+        "meaning": "大的",
+        "note": "크다(大)的词干+ -ㄴ(冠形词形)"
+      },
+      {
+        "text": "회사",
+        "meaning": "公司",
+        "note": "名词"
+      },
+      {
+        "text": "의",
+        "meaning": "……的",
+        "note": "所有格助词"
+      },
+      {
+        "text": "회사원",
+        "meaning": "公司职员",
+        "note": "名词"
+      },
+      {
+        "text": "입니다",
+        "meaning": "是……",
+        "note": "이다+ -ㅂ니다"
+      }
+    ]
+  }
+]

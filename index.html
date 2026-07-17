@@ -690,24 +690,57 @@
     color:var(--ink-soft);
     text-align:left;
   }
-  .grammar-block-title{
-    font-size:10.5px;
+  .grammar-toggle{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:var(--paper);
+    border:none;
+    border-radius:10px;
+    padding:8px 12px;
+    cursor:pointer;
+    font-family:'Noto Sans SC', sans-serif;
+    font-size:11.5px;
     color:var(--ink-soft);
-    opacity:.7;
-    margin:0 0 5px;
   }
-  .grammar-row{
-    padding:4px 0;
-    border-top:1px solid rgba(0,0,0,0.05);
+  .grammar-toggle .grammar-arrow{transition:transform .2s ease; font-size:10px;}
+  .grammar-block.open .grammar-arrow{transform:rotate(180deg);}
+  .grammar-table-wrap{
+    display:none;
+    margin-top:8px;
+    overflow-x:auto;
+  }
+  .grammar-block.open .grammar-table-wrap{display:block;}
+  .grammar-table{
+    width:100%;
+    border-collapse:collapse;
+    font-size:11px;
+  }
+  .grammar-table th{
+    text-align:left;
+    font-weight:500;
+    font-size:10px;
+    color:var(--ink-soft);
+    opacity:.75;
+    padding:4px 6px;
+    border-bottom:1px solid rgba(0,0,0,0.08);
+    white-space:nowrap;
+  }
+  .grammar-table td{
+    padding:5px 6px;
+    border-bottom:1px solid rgba(0,0,0,0.05);
+    vertical-align:top;
     line-height:1.5;
   }
-  .grammar-row:first-child{border-top:none;}
-  .grammar-text{
+  .grammar-table td.gcol-text{
     font-family:'Noto Sans KR', sans-serif;
     color:var(--ink);
     font-weight:500;
+    white-space:nowrap;
   }
-  .grammar-role{color:var(--ink-soft);}
+  .grammar-table td.gcol-meaning{color:var(--ink);}
+  .grammar-table td.gcol-note{color:var(--ink-soft);}
   .example-block{
     background:var(--paper);
     border-radius:12px;
@@ -1072,8 +1105,13 @@
               <p class="example-zh" id="exampleZh"></p>
             </div>
             <div class="grammar-block" id="grammarBlock" style="display:none;">
-              <p class="grammar-block-title">成分拆解</p>
-              <div id="grammarRows"></div>
+              <button class="grammar-toggle" id="grammarToggleBtn">语法分析<span class="grammar-arrow">▾</span></button>
+              <div class="grammar-table-wrap">
+                <table class="grammar-table">
+                  <thead><tr><th>原文</th><th>意思</th><th>说明</th></tr></thead>
+                  <tbody id="grammarRows"></tbody>
+                </table>
+              </div>
             </div>
           </div>
           <div class="stamp-layer" id="stampLayer"></div>
@@ -1630,14 +1668,15 @@ function renderCard(){
   renderCardProgress(state);
 
   const tags = [];
-  if(item.p) tags.push('<span class="pos-tag">'+item.p+'</span>');
+  if(item.p) tags.push('<span class="pos-tag">【'+item.p+'】</span>');
   if(item.rg) tags.push('<span class="register-tag">'+item.rg+'</span>');
   el("metaTags").innerHTML = tags.join("");
 
   const grammarBlock = el("grammarBlock");
+  grammarBlock.classList.remove("open"); // 每张新卡片默认折叠，不沿用上一张的展开状态
   if(item.g && item.g.length > 0){
     el("grammarRows").innerHTML = item.g.map(row =>
-      '<div class="grammar-row"><span class="grammar-text">'+row.x+'</span> — <span class="grammar-role">'+row.y+'</span></div>'
+      '<tr><td class="gcol-text">'+row.text+'</td><td class="gcol-meaning">'+(row.meaning||"—")+'</td><td class="gcol-note">'+(row.note||"")+'</td></tr>'
     ).join("");
     grammarBlock.style.display = "block";
   }else{
@@ -1972,6 +2011,7 @@ el("resetBtn").addEventListener("click", resetProgress);
 el("reviewLogToggleBtn").addEventListener("click", toggleReviewLog);
 el("exitFocusBtn").addEventListener("click", exitFocusMode);
 el("bugReportBtn").addEventListener("click", (e)=>{ e.stopPropagation(); reportBug(); });
+el("grammarToggleBtn").addEventListener("click", (e)=>{ e.stopPropagation(); el("grammarBlock").classList.toggle("open"); });
 el("backToMenuBtn").addEventListener("click", backToMenu);
 el("prevCardBtn").addEventListener("click", prevCard);
 el("nextCardBtn").addEventListener("click", nextCard);

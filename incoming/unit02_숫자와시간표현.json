@@ -1,0 +1,1704 @@
+[
+  {
+    "korean": "개",
+    "romanization": "gae",
+    "pos": "量词",
+    "meaning": "个",
+    "example": "사과 두 개를 샀습니다.",
+    "exampleTranslation": "买了两个苹果。",
+    "grammarBreakdown": [
+      {
+        "text": "사과",
+        "meaning": "苹果",
+        "note": "名词，宾语中心词"
+      },
+      {
+        "text": "두 개",
+        "meaning": "两个",
+        "note": "数量结构，修饰사과"
+      },
+      {
+        "text": "를",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "샀습니다",
+        "meaning": "买了",
+        "note": "사다(买)的词干+ -았-+ -습니다"
+      }
+    ],
+    "register": "中立"
+  },
+  {
+    "korean": "구",
+    "romanization": "gu",
+    "pos": "数词/冠形词",
+    "meaning": "九（汉字数字）",
+    "example": "제 방 번호는 구 호입니다.",
+    "exampleTranslation": "我的房间号是9号。",
+    "grammarBreakdown": [
+      {
+        "text": "제",
+        "meaning": "我的",
+        "note": "저의 缩略形式"
+      },
+      {
+        "text": "방 번호",
+        "meaning": "房间号",
+        "note": "名词"
+      },
+      {
+        "text": "는",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "구 호",
+        "meaning": "9号",
+        "note": "구(九)+호(号)"
+      },
+      {
+        "text": "입니다",
+        "meaning": "是……",
+        "note": "이다+ -ㅂ니다"
+      }
+    ],
+    "register": "中立"
+  },
+  {
+    "korean": "권",
+    "romanization": "gwon",
+    "pos": "量词",
+    "meaning": "本（书的量词）",
+    "example": "책 세 권을 빌렸습니다.",
+    "exampleTranslation": "借了三本书。",
+    "grammarBreakdown": [
+      {
+        "text": "책",
+        "meaning": "书",
+        "note": "名词"
+      },
+      {
+        "text": "세 권",
+        "meaning": "三本",
+        "note": "数量结构，修饰책"
+      },
+      {
+        "text": "을",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "빌렸습니다",
+        "meaning": "借了",
+        "note": "빌리다(借)的词干+ -었-+ -습니다"
+      }
+    ],
+    "register": "中立"
+  },
+  {
+    "korean": "넷",
+    "romanization": "net",
+    "pos": "数词",
+    "meaning": "四（固有数字）",
+    "example": "사람이 모두 넷입니다.",
+    "exampleTranslation": "一共有四个人。",
+    "grammarBreakdown": [
+      {
+        "text": "사람",
+        "meaning": "人",
+        "note": "名词"
+      },
+      {
+        "text": "이",
+        "meaning": "—",
+        "note": "主格助词"
+      },
+      {
+        "text": "모두",
+        "meaning": "都，一共",
+        "note": "副词"
+      },
+      {
+        "text": "넷",
+        "meaning": "四",
+        "note": "固有数字"
+      },
+      {
+        "text": "입니다",
+        "meaning": "是……",
+        "note": "이다+ -ㅂ니다"
+      }
+    ],
+    "register": "中立"
+  },
+  {
+    "korean": "넷째",
+    "romanization": "netjjae",
+    "pos": "数词/名词",
+    "meaning": "第四",
+    "example": "넷째 줄에 앉으세요.",
+    "exampleTranslation": "请坐在第四排。",
+    "grammarBreakdown": [
+      {
+        "text": "넷째",
+        "meaning": "第四",
+        "note": "冠形词，修饰줄"
+      },
+      {
+        "text": "줄",
+        "meaning": "排",
+        "note": "名词"
+      },
+      {
+        "text": "에",
+        "meaning": "在……",
+        "note": "处所助词"
+      },
+      {
+        "text": "앉으세요",
+        "meaning": "请坐",
+        "note": "앉다(坐)的词干+ -으시-(尊敬)+ -어요(请求)"
+      }
+    ],
+    "register": "中立"
+  },
+  {
+    "korean": "년",
+    "romanization": "nyeon",
+    "pos": "量词",
+    "meaning": "年",
+    "example": "이천이십오 년에 한국에 왔습니다.",
+    "exampleTranslation": "我是2025年来韩国的。",
+    "grammarBreakdown": [
+      {
+        "text": "이천이십오 년",
+        "meaning": "2025年",
+        "note": "数量结构"
+      },
+      {
+        "text": "에",
+        "meaning": "在……（时间点）",
+        "note": "时间助词"
+      },
+      {
+        "text": "한국",
+        "meaning": "韩国",
+        "note": "名词"
+      },
+      {
+        "text": "에",
+        "meaning": "到……（方向）",
+        "note": "方向助词"
+      },
+      {
+        "text": "왔습니다",
+        "meaning": "来了",
+        "note": "오다+ -았-+ -습니다"
+      }
+    ],
+    "register": "中立"
+  },
+  {
+    "korean": "다섯",
+    "romanization": "daseot",
+    "pos": "数词/冠形词",
+    "meaning": "五（固有数字）",
+    "example": "아이가 다섯 살입니다.",
+    "exampleTranslation": "孩子五岁了。",
+    "grammarBreakdown": [
+      {
+        "text": "아이",
+        "meaning": "孩子",
+        "note": "名词"
+      },
+      {
+        "text": "가",
+        "meaning": "—",
+        "note": "主格助词"
+      },
+      {
+        "text": "다섯 살",
+        "meaning": "五岁",
+        "note": "다섯(五，固有数字)+살(岁)"
+      },
+      {
+        "text": "입니다",
+        "meaning": "是……",
+        "note": "이다+ -ㅂ니다"
+      }
+    ],
+    "register": "中立"
+  },
+  {
+    "korean": "다음",
+    "romanization": "daeum",
+    "pos": "名词",
+    "meaning": "下一个，接下来",
+    "example": "다음 정류장에서 내리겠습니다.",
+    "exampleTranslation": "我要在下一站下车。",
+    "grammarBreakdown": [
+      {
+        "text": "다음",
+        "meaning": "下一个",
+        "note": "名词，修饰정류장"
+      },
+      {
+        "text": "정류장",
+        "meaning": "车站",
+        "note": "名词"
+      },
+      {
+        "text": "에서",
+        "meaning": "在……（下车地点）",
+        "note": "处所助词"
+      },
+      {
+        "text": "내리겠습니다",
+        "meaning": "将要下车",
+        "note": "내리다(下车)的词干+ -겠-(意志/将来)+ -습니다"
+      }
+    ],
+    "register": "中立"
+  },
+  {
+    "korean": "대",
+    "romanization": "dae",
+    "pos": "量词",
+    "meaning": "台，辆",
+    "example": "주차장에 차가 두 대 있습니다.",
+    "exampleTranslation": "停车场里有两辆车。",
+    "grammarBreakdown": [
+      {
+        "text": "주차장",
+        "meaning": "停车场",
+        "note": "名词"
+      },
+      {
+        "text": "에",
+        "meaning": "在……",
+        "note": "处所助词"
+      },
+      {
+        "text": "차",
+        "meaning": "车",
+        "note": "名词"
+      },
+      {
+        "text": "가",
+        "meaning": "—",
+        "note": "主格助词"
+      },
+      {
+        "text": "두 대",
+        "meaning": "两辆",
+        "note": "数量结构，修饰차"
+      },
+      {
+        "text": "있습니다",
+        "meaning": "有……",
+        "note": "있다+ -습니다"
+      }
+    ],
+    "register": "中立"
+  },
+  {
+    "korean": "동안",
+    "romanization": "dongan",
+    "pos": "名词",
+    "meaning": "期间",
+    "example": "방학 동안 여행을 다녀왔습니다.",
+    "exampleTranslation": "假期期间去旅行了一趟。",
+    "grammarBreakdown": [
+      {
+        "text": "방학",
+        "meaning": "假期",
+        "note": "名词"
+      },
+      {
+        "text": "동안",
+        "meaning": "期间",
+        "note": "后置名词"
+      },
+      {
+        "text": "여행",
+        "meaning": "旅行",
+        "note": "名词"
+      },
+      {
+        "text": "을",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "다녀왔습니다",
+        "meaning": "去了一趟回来了",
+        "note": "다녀오다(去一趟回来)的词干+ -았-+ -습니다"
+      }
+    ],
+    "register": "中立"
+  },
+  {
+    "korean": "둘",
+    "romanization": "dul",
+    "pos": "数词",
+    "meaning": "二（固有数字）",
+    "example": "커피 둘 주세요.",
+    "exampleTranslation": "请给我两杯咖啡。",
+    "grammarBreakdown": [
+      {
+        "text": "커피",
+        "meaning": "咖啡",
+        "note": "名词"
+      },
+      {
+        "text": "둘",
+        "meaning": "两（杯）",
+        "note": "固有数字"
+      },
+      {
+        "text": "주세요",
+        "meaning": "请给我",
+        "note": "주다(给)的词干+ -시-(尊敬)+ -어요(请求)"
+      }
+    ],
+    "register": "中立"
+  },
+  {
+    "korean": "둘째",
+    "romanization": "duljjae",
+    "pos": "数词/名词",
+    "meaning": "第二",
+    "example": "저는 둘째 딸입니다.",
+    "exampleTranslation": "我是家里的二女儿。",
+    "grammarBreakdown": [
+      {
+        "text": "저",
+        "meaning": "我（敬语）",
+        "note": "人称代词"
+      },
+      {
+        "text": "는",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "둘째",
+        "meaning": "第二",
+        "note": "冠形词/名词，修饰딸"
+      },
+      {
+        "text": "딸",
+        "meaning": "女儿",
+        "note": "名词"
+      },
+      {
+        "text": "입니다",
+        "meaning": "是……",
+        "note": "이다+ -ㅂ니다"
+      }
+    ],
+    "register": "中立"
+  },
+  {
+    "korean": "마리",
+    "romanization": "mari",
+    "pos": "量词",
+    "meaning": "只（动物量词）",
+    "example": "강아지 두 마리를 키웁니다.",
+    "exampleTranslation": "养了两只小狗。",
+    "grammarBreakdown": [
+      {
+        "text": "강아지",
+        "meaning": "小狗",
+        "note": "名词"
+      },
+      {
+        "text": "두 마리",
+        "meaning": "两只",
+        "note": "数量结构，修饰강아지"
+      },
+      {
+        "text": "를",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "키웁니다",
+        "meaning": "养",
+        "note": "키우다(养)的词干+ -ㅂ니다"
+      }
+    ],
+    "register": "中立"
+  },
+  {
+    "korean": "마흔",
+    "romanization": "maheun",
+    "pos": "数词/冠形词",
+    "meaning": "四十（固有数字）",
+    "example": "아버지는 올해 마흔 살입니다.",
+    "exampleTranslation": "父亲今年四十岁。",
+    "grammarBreakdown": [
+      {
+        "text": "아버지",
+        "meaning": "父亲",
+        "note": "名词"
+      },
+      {
+        "text": "는",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "올해",
+        "meaning": "今年",
+        "note": "名词/副词"
+      },
+      {
+        "text": "마흔 살",
+        "meaning": "四十岁",
+        "note": "마흔(四十，固有数字)+살(岁)"
+      },
+      {
+        "text": "입니다",
+        "meaning": "是……",
+        "note": "이다+ -ㅂ니다"
+      }
+    ],
+    "register": "中立"
+  },
+  {
+    "korean": "만",
+    "romanization": "man",
+    "pos": "数词/冠形词",
+    "meaning": "万",
+    "example": "이 가방은 오만 원입니다.",
+    "exampleTranslation": "这个包五万韩元。",
+    "grammarBreakdown": [
+      {
+        "text": "이",
+        "meaning": "这",
+        "note": "冠形词"
+      },
+      {
+        "text": "가방",
+        "meaning": "包",
+        "note": "名词"
+      },
+      {
+        "text": "은",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "오만 원",
+        "meaning": "五万韩元",
+        "note": "오만(五万)+원(韩元)"
+      },
+      {
+        "text": "입니다",
+        "meaning": "是……",
+        "note": "이다+ -ㅂ니다"
+      }
+    ],
+    "register": "中立"
+  },
+  {
+    "korean": "명",
+    "romanization": "myeong",
+    "pos": "量词",
+    "meaning": "名（人的量词）",
+    "example": "학생이 스무 명 있습니다.",
+    "exampleTranslation": "有二十名学生。",
+    "grammarBreakdown": [
+      {
+        "text": "학생",
+        "meaning": "学生",
+        "note": "名词"
+      },
+      {
+        "text": "이",
+        "meaning": "—",
+        "note": "主格助词"
+      },
+      {
+        "text": "스무 명",
+        "meaning": "二十名",
+        "note": "스물(二十)的修饰形式스무+명(名，量词)"
+      },
+      {
+        "text": "있습니다",
+        "meaning": "有……",
+        "note": "있다+ -습니다"
+      }
+    ],
+    "register": "中立"
+  },
+  {
+    "korean": "몇",
+    "romanization": "myeot",
+    "pos": "数词/冠形词",
+    "meaning": "几",
+    "example": "지금 몇 시입니까?",
+    "exampleTranslation": "现在几点？",
+    "grammarBreakdown": [
+      {
+        "text": "지금",
+        "meaning": "现在",
+        "note": "名词/副词"
+      },
+      {
+        "text": "몇",
+        "meaning": "几",
+        "note": "冠形词，修饰시"
+      },
+      {
+        "text": "시",
+        "meaning": "点",
+        "note": "量词"
+      },
+      {
+        "text": "입니까",
+        "meaning": "是……吗",
+        "note": "이다+ -ㅂ니까(疑问句敬语终结词尾)"
+      }
+    ],
+    "register": "中立"
+  },
+  {
+    "korean": "반",
+    "romanization": "ban",
+    "pos": "名词",
+    "meaning": "半",
+    "example": "지금 한 시 반입니다.",
+    "exampleTranslation": "现在是一点半。",
+    "grammarBreakdown": [
+      {
+        "text": "지금",
+        "meaning": "现在",
+        "note": "名词/副词"
+      },
+      {
+        "text": "한 시",
+        "meaning": "一点",
+        "note": "하나(一)的修饰形式한+시(点)"
+      },
+      {
+        "text": "반",
+        "meaning": "半",
+        "note": "名词"
+      },
+      {
+        "text": "입니다",
+        "meaning": "是……",
+        "note": "이다+ -ㅂ니다"
+      }
+    ],
+    "register": "中立"
+  },
+  {
+    "korean": "백",
+    "romanization": "baek",
+    "pos": "数词/冠形词",
+    "meaning": "百",
+    "example": "이 가방은 백 달러입니다.",
+    "exampleTranslation": "这个包一百美元。",
+    "grammarBreakdown": [
+      {
+        "text": "이",
+        "meaning": "这",
+        "note": "冠形词"
+      },
+      {
+        "text": "가방",
+        "meaning": "包",
+        "note": "名词"
+      },
+      {
+        "text": "은",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "백 달러",
+        "meaning": "一百美元",
+        "note": "백(百)+달러(美元)"
+      },
+      {
+        "text": "입니다",
+        "meaning": "是……",
+        "note": "이다+ -ㅂ니다"
+      }
+    ],
+    "register": "中立"
+  },
+  {
+    "korean": "번",
+    "romanization": "beon",
+    "pos": "量词",
+    "meaning": "次，号",
+    "example": "이 영화를 두 번 봤습니다.",
+    "exampleTranslation": "这部电影我看了两次。",
+    "grammarBreakdown": [
+      {
+        "text": "이",
+        "meaning": "这",
+        "note": "冠形词"
+      },
+      {
+        "text": "영화",
+        "meaning": "电影",
+        "note": "名词"
+      },
+      {
+        "text": "를",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "두 번",
+        "meaning": "两次",
+        "note": "数量结构"
+      },
+      {
+        "text": "봤습니다",
+        "meaning": "看了",
+        "note": "보다(看)的词干变化+ -았-+ -습니다"
+      }
+    ],
+    "register": "中立"
+  },
+  {
+    "korean": "분",
+    "romanization": "bun",
+    "pos": "量词",
+    "meaning": "分钟",
+    "example": "집까지 십 분 걸립니다.",
+    "exampleTranslation": "到家要花十分钟。",
+    "grammarBreakdown": [
+      {
+        "text": "집",
+        "meaning": "家",
+        "note": "名词"
+      },
+      {
+        "text": "까지",
+        "meaning": "到……为止",
+        "note": "助词，表示到达点"
+      },
+      {
+        "text": "십 분",
+        "meaning": "十分钟",
+        "note": "数量结构"
+      },
+      {
+        "text": "걸립니다",
+        "meaning": "需要（花费时间）",
+        "note": "걸리다(花费,耗时)的词干+ -ㅂ니다"
+      }
+    ],
+    "register": "中立"
+  },
+  {
+    "korean": "사",
+    "romanization": "sa",
+    "pos": "数词/冠形词",
+    "meaning": "四（汉字数字）",
+    "example": "제 방은 사 층에 있습니다.",
+    "exampleTranslation": "我的房间在四楼。",
+    "grammarBreakdown": [
+      {
+        "text": "제",
+        "meaning": "我的",
+        "note": "저의 缩略形式"
+      },
+      {
+        "text": "방",
+        "meaning": "房间",
+        "note": "名词"
+      },
+      {
+        "text": "은",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "사 층",
+        "meaning": "四楼",
+        "note": "사(四)+층(楼)"
+      },
+      {
+        "text": "에",
+        "meaning": "在……",
+        "note": "处所助词"
+      },
+      {
+        "text": "있습니다",
+        "meaning": "在……",
+        "note": "있다+ -습니다"
+      }
+    ],
+    "register": "中立"
+  },
+  {
+    "korean": "살",
+    "romanization": "sal",
+    "pos": "量词",
+    "meaning": "岁",
+    "example": "저는 스무 살입니다.",
+    "exampleTranslation": "我二十岁。",
+    "grammarBreakdown": [
+      {
+        "text": "저",
+        "meaning": "我（敬语）",
+        "note": "人称代词"
+      },
+      {
+        "text": "는",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "스무 살",
+        "meaning": "二十岁",
+        "note": "스물(二十)的修饰形式스무+살(岁)"
+      },
+      {
+        "text": "입니다",
+        "meaning": "是……",
+        "note": "이다+ -ㅂ니다"
+      }
+    ],
+    "register": "中立"
+  },
+  {
+    "korean": "삼",
+    "romanization": "sam",
+    "pos": "数词/冠形词",
+    "meaning": "三（汉字数字）",
+    "example": "삼 개월 후에 졸업합니다.",
+    "exampleTranslation": "三个月后毕业。",
+    "grammarBreakdown": [
+      {
+        "text": "삼 개월",
+        "meaning": "三个月",
+        "note": "数量结构"
+      },
+      {
+        "text": "후",
+        "meaning": "后",
+        "note": "名词"
+      },
+      {
+        "text": "에",
+        "meaning": "在……",
+        "note": "时间助词"
+      },
+      {
+        "text": "졸업합니다",
+        "meaning": "毕业",
+        "note": "졸업하다(毕业)的词干+ -ㅂ니다"
+      }
+    ],
+    "register": "中立"
+  },
+  {
+    "korean": "서른",
+    "romanization": "seoreun",
+    "pos": "数词/冠形词",
+    "meaning": "三十（固有数字）",
+    "example": "언니는 서른 살입니다.",
+    "exampleTranslation": "姐姐三十岁。",
+    "grammarBreakdown": [
+      {
+        "text": "언니",
+        "meaning": "姐姐",
+        "note": "名词"
+      },
+      {
+        "text": "는",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "서른 살",
+        "meaning": "三十岁",
+        "note": "서른(三十)+살(岁)"
+      },
+      {
+        "text": "입니다",
+        "meaning": "是……",
+        "note": "이다+ -ㅂ니다"
+      }
+    ],
+    "register": "中立"
+  },
+  {
+    "korean": "셋",
+    "romanization": "set",
+    "pos": "数词",
+    "meaning": "三（固有数字）",
+    "example": "가족이 모두 셋입니다.",
+    "exampleTranslation": "家里一共三口人。",
+    "grammarBreakdown": [
+      {
+        "text": "가족",
+        "meaning": "家人",
+        "note": "名词"
+      },
+      {
+        "text": "이",
+        "meaning": "—",
+        "note": "主格助词"
+      },
+      {
+        "text": "모두",
+        "meaning": "都，一共",
+        "note": "副词"
+      },
+      {
+        "text": "셋",
+        "meaning": "三",
+        "note": "固有数字"
+      },
+      {
+        "text": "입니다",
+        "meaning": "是……",
+        "note": "이다+ -ㅂ니다"
+      }
+    ],
+    "register": "中立"
+  },
+  {
+    "korean": "셋째",
+    "romanization": "setjjae",
+    "pos": "数词/名词",
+    "meaning": "第三",
+    "example": "셋째 시간에 한국어 수업이 있습니다.",
+    "exampleTranslation": "第三节课是韩语课。",
+    "grammarBreakdown": [
+      {
+        "text": "셋째 시간",
+        "meaning": "第三节课",
+        "note": "셋째(第三)+시간(节)"
+      },
+      {
+        "text": "에",
+        "meaning": "在……",
+        "note": "时间助词"
+      },
+      {
+        "text": "한국어 수업",
+        "meaning": "韩语课",
+        "note": "名词"
+      },
+      {
+        "text": "이",
+        "meaning": "—",
+        "note": "主格助词"
+      },
+      {
+        "text": "있습니다",
+        "meaning": "有……",
+        "note": "있다+ -습니다"
+      }
+    ],
+    "register": "中立"
+  },
+  {
+    "korean": "쉰",
+    "romanization": "swin",
+    "pos": "数词/冠形词",
+    "meaning": "五十（固有数字）",
+    "example": "할머니는 올해 쉰 살입니다.",
+    "exampleTranslation": "奶奶今年五十岁。",
+    "grammarBreakdown": [
+      {
+        "text": "할머니",
+        "meaning": "奶奶",
+        "note": "名词"
+      },
+      {
+        "text": "는",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "올해",
+        "meaning": "今年",
+        "note": "名词/副词"
+      },
+      {
+        "text": "쉰 살",
+        "meaning": "五十岁",
+        "note": "쉰(五十)+살(岁)"
+      },
+      {
+        "text": "입니다",
+        "meaning": "是……",
+        "note": "이다+ -ㅂ니다"
+      }
+    ],
+    "register": "中立"
+  },
+  {
+    "korean": "스물",
+    "romanization": "seumul",
+    "pos": "数词",
+    "meaning": "二十（固有数字）",
+    "example": "반 친구들은 모두 스물입니다.",
+    "exampleTranslation": "班里同学一共二十个人。",
+    "grammarBreakdown": [
+      {
+        "text": "반 친구들",
+        "meaning": "班里的同学们",
+        "note": "반(班)+친구들(朋友们，들表复数)"
+      },
+      {
+        "text": "은",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "모두",
+        "meaning": "都",
+        "note": "副词"
+      },
+      {
+        "text": "스물",
+        "meaning": "二十",
+        "note": "固有数字"
+      },
+      {
+        "text": "입니다",
+        "meaning": "是……",
+        "note": "이다+ -ㅂ니다"
+      }
+    ],
+    "register": "中立"
+  },
+  {
+    "korean": "시",
+    "romanization": "si",
+    "pos": "名词/量词",
+    "meaning": "点（钟点）",
+    "example": "아침 아홉 시에 시작합니다.",
+    "exampleTranslation": "早上九点开始。",
+    "grammarBreakdown": [
+      {
+        "text": "아침",
+        "meaning": "早上",
+        "note": "名词/副词"
+      },
+      {
+        "text": "아홉 시",
+        "meaning": "九点",
+        "note": "아홉(九)+시(点)"
+      },
+      {
+        "text": "에",
+        "meaning": "在……",
+        "note": "时间助词"
+      },
+      {
+        "text": "시작합니다",
+        "meaning": "开始",
+        "note": "시작하다(开始)的词干+ -ㅂ니다"
+      }
+    ],
+    "register": "中立"
+  },
+  {
+    "korean": "십",
+    "romanization": "sip",
+    "pos": "数词/冠形词",
+    "meaning": "十（汉字数字）",
+    "example": "십 분만 기다려 주세요.",
+    "exampleTranslation": "请稍等十分钟。",
+    "grammarBreakdown": [
+      {
+        "text": "십 분",
+        "meaning": "十分钟",
+        "note": "数量结构"
+      },
+      {
+        "text": "만",
+        "meaning": "只，仅",
+        "note": "表限定的助词"
+      },
+      {
+        "text": "기다려 주세요",
+        "meaning": "请等一下",
+        "note": "기다리다(等待)的词干变化+ -아/어 주다(为……做，请求)+ -시-+ -어요"
+      }
+    ],
+    "register": "中立"
+  },
+  {
+    "korean": "아홉",
+    "romanization": "ahop",
+    "pos": "数词/冠形词",
+    "meaning": "九（固有数字）",
+    "example": "지금 아홉 시입니다.",
+    "exampleTranslation": "现在九点。",
+    "grammarBreakdown": [
+      {
+        "text": "지금",
+        "meaning": "现在",
+        "note": "名词/副词"
+      },
+      {
+        "text": "아홉 시",
+        "meaning": "九点",
+        "note": "아홉(九)+시(点)"
+      },
+      {
+        "text": "입니다",
+        "meaning": "是……",
+        "note": "이다+ -ㅂ니다"
+      }
+    ],
+    "register": "中立"
+  },
+  {
+    "korean": "얼마",
+    "romanization": "eolma",
+    "pos": "名词",
+    "meaning": "多少",
+    "example": "이 옷은 얼마예요?",
+    "exampleTranslation": "这件衣服多少钱？",
+    "grammarBreakdown": [
+      {
+        "text": "이",
+        "meaning": "这",
+        "note": "冠形词"
+      },
+      {
+        "text": "옷",
+        "meaning": "衣服",
+        "note": "名词"
+      },
+      {
+        "text": "은",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "얼마예요",
+        "meaning": "是多少钱",
+        "note": "얼마(多少)+예요(이다的非正式敬语疑问形)"
+      }
+    ],
+    "register": "中立"
+  },
+  {
+    "korean": "여덟",
+    "romanization": "yeodeol",
+    "pos": "数词/冠形词",
+    "meaning": "八（固有数字）",
+    "example": "저는 여덟 시에 일어납니다.",
+    "exampleTranslation": "我八点起床。",
+    "grammarBreakdown": [
+      {
+        "text": "저",
+        "meaning": "我（敬语）",
+        "note": "人称代词"
+      },
+      {
+        "text": "는",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "여덟 시",
+        "meaning": "八点",
+        "note": "여덟(八)+시(点)"
+      },
+      {
+        "text": "에",
+        "meaning": "在……",
+        "note": "时间助词"
+      },
+      {
+        "text": "일어납니다",
+        "meaning": "起床",
+        "note": "일어나다(起床)的词干+ -ㅂ니다"
+      }
+    ],
+    "register": "中立"
+  },
+  {
+    "korean": "여섯",
+    "romanization": "yeoseot",
+    "pos": "数词/冠形词",
+    "meaning": "六（固有数字）",
+    "example": "아이들이 여섯 명 있습니다.",
+    "exampleTranslation": "有六个孩子。",
+    "grammarBreakdown": [
+      {
+        "text": "아이들",
+        "meaning": "孩子们",
+        "note": "名词"
+      },
+      {
+        "text": "이",
+        "meaning": "—",
+        "note": "主格助词"
+      },
+      {
+        "text": "여섯 명",
+        "meaning": "六名",
+        "note": "数量结构"
+      },
+      {
+        "text": "있습니다",
+        "meaning": "有……",
+        "note": "있다+ -습니다"
+      }
+    ],
+    "register": "中立"
+  },
+  {
+    "korean": "열",
+    "romanization": "yeol",
+    "pos": "数词/冠形词",
+    "meaning": "十（固有数字）",
+    "example": "손가락이 열 개 있습니다.",
+    "exampleTranslation": "有十根手指。",
+    "grammarBreakdown": [
+      {
+        "text": "손가락",
+        "meaning": "手指",
+        "note": "名词"
+      },
+      {
+        "text": "이",
+        "meaning": "—",
+        "note": "主格助词"
+      },
+      {
+        "text": "열 개",
+        "meaning": "十个",
+        "note": "数量结构"
+      },
+      {
+        "text": "있습니다",
+        "meaning": "有……",
+        "note": "있다+ -습니다"
+      }
+    ],
+    "register": "中立"
+  },
+  {
+    "korean": "영",
+    "romanization": "yeong",
+    "pos": "名词",
+    "meaning": "零",
+    "example": "제 전화번호는 영으로 시작합니다.",
+    "exampleTranslation": "我的电话号码是以零开头的。",
+    "grammarBreakdown": [
+      {
+        "text": "제",
+        "meaning": "我的",
+        "note": "저의 缩略形式"
+      },
+      {
+        "text": "전화번호",
+        "meaning": "电话号码",
+        "note": "名词"
+      },
+      {
+        "text": "는",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "영",
+        "meaning": "零",
+        "note": "名词"
+      },
+      {
+        "text": "으로",
+        "meaning": "以……",
+        "note": "表示起点/方式的助词"
+      },
+      {
+        "text": "시작합니다",
+        "meaning": "开始",
+        "note": "시작하다(开始)的词干+ -ㅂ니다"
+      }
+    ],
+    "register": "中立"
+  },
+  {
+    "korean": "오",
+    "romanization": "o",
+    "pos": "数词/冠形词",
+    "meaning": "五（汉字数字）",
+    "example": "오 층까지 걸어갔습니다.",
+    "exampleTranslation": "走上去到了五楼。",
+    "grammarBreakdown": [
+      {
+        "text": "오 층",
+        "meaning": "五楼",
+        "note": "오(五)+층(楼)"
+      },
+      {
+        "text": "까지",
+        "meaning": "到……为止",
+        "note": "助词"
+      },
+      {
+        "text": "걸어갔습니다",
+        "meaning": "走去了",
+        "note": "걸어가다(走去)的词干+ -았-+ -습니다"
+      }
+    ],
+    "register": "中立"
+  },
+  {
+    "korean": "월",
+    "romanization": "wol",
+    "pos": "名词/量词",
+    "meaning": "月",
+    "example": "시월에 여행을 갈 겁니다.",
+    "exampleTranslation": "我打算十月去旅行。",
+    "grammarBreakdown": [
+      {
+        "text": "시월",
+        "meaning": "十月",
+        "note": "名词"
+      },
+      {
+        "text": "에",
+        "meaning": "在……",
+        "note": "时间助词"
+      },
+      {
+        "text": "여행",
+        "meaning": "旅行",
+        "note": "名词"
+      },
+      {
+        "text": "을",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "갈 겁니다",
+        "meaning": "将要去",
+        "note": "가다(去)的词干+ -ㄹ 것이다(将要做……的将来时)+ -ㅂ니다"
+      }
+    ],
+    "register": "中立"
+  },
+  {
+    "korean": "육",
+    "romanization": "yuk",
+    "pos": "数词/冠形词",
+    "meaning": "六（汉字数字）",
+    "example": "육 개월 동안 한국어를 배웠습니다.",
+    "exampleTranslation": "学了六个月韩语。",
+    "grammarBreakdown": [
+      {
+        "text": "육 개월",
+        "meaning": "六个月",
+        "note": "数量结构"
+      },
+      {
+        "text": "동안",
+        "meaning": "期间",
+        "note": "后置名词"
+      },
+      {
+        "text": "한국어",
+        "meaning": "韩语",
+        "note": "名词"
+      },
+      {
+        "text": "를",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "배웠습니다",
+        "meaning": "学了",
+        "note": "배우다(学)的词干+ -었-+ -습니다"
+      }
+    ],
+    "register": "中立"
+  },
+  {
+    "korean": "이",
+    "romanization": "i",
+    "pos": "数词/冠形词",
+    "meaning": "二（汉字数字）",
+    "example": "이 층에 화장실이 있습니다.",
+    "exampleTranslation": "二楼有洗手间。",
+    "grammarBreakdown": [
+      {
+        "text": "이 층",
+        "meaning": "二楼",
+        "note": "이(二)+층(楼)"
+      },
+      {
+        "text": "에",
+        "meaning": "在……",
+        "note": "处所助词"
+      },
+      {
+        "text": "화장실",
+        "meaning": "洗手间",
+        "note": "名词"
+      },
+      {
+        "text": "이",
+        "meaning": "—",
+        "note": "主格助词"
+      },
+      {
+        "text": "있습니다",
+        "meaning": "有……",
+        "note": "있다+ -습니다"
+      }
+    ],
+    "register": "中立"
+  },
+  {
+    "korean": "일",
+    "romanization": "il",
+    "pos": "数词/冠形词",
+    "meaning": "一（汉字数字）",
+    "example": "일 번 버스를 탔습니다.",
+    "exampleTranslation": "坐了一号公交车。",
+    "grammarBreakdown": [
+      {
+        "text": "일 번",
+        "meaning": "一号",
+        "note": "일(一)+번(号)"
+      },
+      {
+        "text": "버스",
+        "meaning": "公交车",
+        "note": "名词"
+      },
+      {
+        "text": "를",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "탔습니다",
+        "meaning": "乘坐了",
+        "note": "타다(乘坐)的词干+ -았-+ -습니다"
+      }
+    ],
+    "register": "中立"
+  },
+  {
+    "korean": "일곱",
+    "romanization": "ilgop",
+    "pos": "数词/冠形词",
+    "meaning": "七（固有数字）",
+    "example": "저녁 일곱 시에 만납시다.",
+    "exampleTranslation": "晚上七点见面吧。",
+    "grammarBreakdown": [
+      {
+        "text": "저녁",
+        "meaning": "晚上",
+        "note": "名词/副词"
+      },
+      {
+        "text": "일곱 시",
+        "meaning": "七点",
+        "note": "일곱(七)+시(点)"
+      },
+      {
+        "text": "에",
+        "meaning": "在……",
+        "note": "时间助词"
+      },
+      {
+        "text": "만납시다",
+        "meaning": "让我们见面吧",
+        "note": "만나다(见面)的词干+ -읍시다(共动句敬语终结词尾)"
+      }
+    ],
+    "register": "中立"
+  },
+  {
+    "korean": "장",
+    "romanization": "jang",
+    "pos": "量词",
+    "meaning": "张",
+    "example": "사진 한 장을 찍었습니다.",
+    "exampleTranslation": "拍了一张照片。",
+    "grammarBreakdown": [
+      {
+        "text": "사진",
+        "meaning": "照片",
+        "note": "名词"
+      },
+      {
+        "text": "한 장",
+        "meaning": "一张",
+        "note": "数量结构"
+      },
+      {
+        "text": "을",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "찍었습니다",
+        "meaning": "拍了",
+        "note": "찍다(拍)的词干+ -었-+ -습니다"
+      }
+    ],
+    "register": "中立"
+  },
+  {
+    "korean": "정도",
+    "romanization": "jeongdo",
+    "pos": "名词",
+    "meaning": "程度，左右",
+    "example": "삼십 분 정도 걸립니다.",
+    "exampleTranslation": "大概需要三十分钟左右。",
+    "grammarBreakdown": [
+      {
+        "text": "삼십 분",
+        "meaning": "三十分钟",
+        "note": "数量结构"
+      },
+      {
+        "text": "정도",
+        "meaning": "左右，大约",
+        "note": "名词/后置词"
+      },
+      {
+        "text": "걸립니다",
+        "meaning": "需要（花费）",
+        "note": "걸리다(花费)的词干+ -ㅂ니다"
+      }
+    ],
+    "register": "中立"
+  },
+  {
+    "korean": "주",
+    "romanization": "ju",
+    "pos": "量词/名词",
+    "meaning": "周",
+    "example": "다음 주에 시험이 있습니다.",
+    "exampleTranslation": "下周有考试。",
+    "grammarBreakdown": [
+      {
+        "text": "다음 주",
+        "meaning": "下周",
+        "note": "다음(下一个)+주(周)"
+      },
+      {
+        "text": "에",
+        "meaning": "在……",
+        "note": "时间助词"
+      },
+      {
+        "text": "시험",
+        "meaning": "考试",
+        "note": "名词"
+      },
+      {
+        "text": "이",
+        "meaning": "—",
+        "note": "主格助词"
+      },
+      {
+        "text": "있습니다",
+        "meaning": "有……",
+        "note": "있다+ -습니다"
+      }
+    ],
+    "register": "中立"
+  },
+  {
+    "korean": "천",
+    "romanization": "cheon",
+    "pos": "数词/冠形词",
+    "meaning": "千",
+    "example": "이 우산은 천 원입니다.",
+    "exampleTranslation": "这把伞一千韩元。",
+    "grammarBreakdown": [
+      {
+        "text": "이",
+        "meaning": "这",
+        "note": "冠形词"
+      },
+      {
+        "text": "우산",
+        "meaning": "雨伞",
+        "note": "名词"
+      },
+      {
+        "text": "은",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "천 원",
+        "meaning": "一千韩元",
+        "note": "천(千)+원(韩元)"
+      },
+      {
+        "text": "입니다",
+        "meaning": "是……",
+        "note": "이다+ -ㅂ니다"
+      }
+    ],
+    "register": "中立"
+  },
+  {
+    "korean": "첫째",
+    "romanization": "cheotjjae",
+    "pos": "数词/名词",
+    "meaning": "第一",
+    "example": "첫째, 시간을 잘 지켜야 합니다.",
+    "exampleTranslation": "第一，要好好遵守时间。",
+    "grammarBreakdown": [
+      {
+        "text": "첫째",
+        "meaning": "第一",
+        "note": "副词性用法，列举时使用"
+      },
+      {
+        "text": "시간",
+        "meaning": "时间",
+        "note": "名词"
+      },
+      {
+        "text": "을",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "잘",
+        "meaning": "好好地",
+        "note": "副词"
+      },
+      {
+        "text": "지켜야 합니다",
+        "meaning": "必须遵守",
+        "note": "지키다(遵守)的词干变化+ -어야 하다(必须做……)+ -ㅂ니다"
+      }
+    ],
+    "register": "中立"
+  },
+  {
+    "korean": "초",
+    "romanization": "cho",
+    "pos": "量词",
+    "meaning": "秒",
+    "example": "십 초만 기다리세요.",
+    "exampleTranslation": "请等十秒钟。",
+    "grammarBreakdown": [
+      {
+        "text": "십 초",
+        "meaning": "十秒",
+        "note": "数量结构"
+      },
+      {
+        "text": "만",
+        "meaning": "只，仅",
+        "note": "表限定的助词"
+      },
+      {
+        "text": "기다리세요",
+        "meaning": "请等待",
+        "note": "기다리다(等待)的词干+ -시-+ -어요(请求)"
+      }
+    ],
+    "register": "中立"
+  },
+  {
+    "korean": "칠",
+    "romanization": "chil",
+    "pos": "数词/冠形词",
+    "meaning": "七（汉字数字）",
+    "example": "칠 층에서 내리세요.",
+    "exampleTranslation": "请在七楼下。",
+    "grammarBreakdown": [
+      {
+        "text": "칠 층",
+        "meaning": "七楼",
+        "note": "칠(七)+층(楼)"
+      },
+      {
+        "text": "에서",
+        "meaning": "在……",
+        "note": "处所助词"
+      },
+      {
+        "text": "내리세요",
+        "meaning": "请下（车/楼）",
+        "note": "내리다(下)的词干+ -시-+ -어요(请求)"
+      }
+    ],
+    "register": "中立"
+  },
+  {
+    "korean": "팔",
+    "romanization": "pal",
+    "pos": "数词/冠形词",
+    "meaning": "八（汉字数字）",
+    "example": "팔 월에 태어났습니다.",
+    "exampleTranslation": "我是八月出生的。",
+    "grammarBreakdown": [
+      {
+        "text": "팔 월",
+        "meaning": "八月",
+        "note": "팔(八)+월(月)"
+      },
+      {
+        "text": "에",
+        "meaning": "在……",
+        "note": "时间助词"
+      },
+      {
+        "text": "태어났습니다",
+        "meaning": "出生了",
+        "note": "태어나다(出生)的词干+ -았-+ -습니다"
+      }
+    ],
+    "register": "中立"
+  },
+  {
+    "korean": "하나",
+    "romanization": "hana",
+    "pos": "数词/名词",
+    "meaning": "一（固有数字）",
+    "example": "케이크를 하나 주세요.",
+    "exampleTranslation": "请给我一个蛋糕。",
+    "grammarBreakdown": [
+      {
+        "text": "케이크",
+        "meaning": "蛋糕",
+        "note": "名词"
+      },
+      {
+        "text": "를",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "하나",
+        "meaning": "一个",
+        "note": "固有数字"
+      },
+      {
+        "text": "주세요",
+        "meaning": "请给我",
+        "note": "주다(给)的词干+ -시-+ -어요(请求)"
+      }
+    ],
+    "register": "中立"
+  }
+]
