@@ -285,31 +285,57 @@
     vertical-align:middle;
   }
 
-  /* 等级 tab */
-  .level-tabs{
+  /* 等级手风琴（初级/中级/高级），跟章节一样是折叠列表，不是页面中间的独立 Tab 条 */
+  .level-block{
+    margin-bottom:14px;
+    border-radius:16px;
+    overflow:hidden;
+  }
+  .level-header{
+    width:100%;
     display:flex;
-    gap:8px;
-    justify-content:center;
-    margin-bottom:18px;
-  }
-  .level-tab{
-    border:1px solid rgba(0,0,0,0.08);
-    background:var(--white);
-    color:var(--ink-soft);
-    border-radius:999px;
-    padding:8px 20px;
-    font-family:'Song Myung', serif;
-    font-size:14px;
-    cursor:pointer;
-  }
-  .level-tab.active{
+    justify-content:space-between;
+    align-items:center;
     background:var(--indigo);
-    border-color:var(--indigo);
     color:var(--white);
+    border:none;
+    border-radius:16px;
+    padding:15px 18px;
+    cursor:pointer;
+    font-family:'Song Myung', serif;
+    font-size:17px;
+    text-align:left;
   }
+  .level-header .level-meta{
+    font-family:'Noto Sans SC', sans-serif;
+    font-size:11px;
+    opacity:.8;
+    margin-left:8px;
+  }
+  .level-arrow{
+    font-size:13px;
+    transition:transform .2s ease;
+    margin-left:8px;
+    flex:0 0 auto;
+  }
+  .level-block.open .level-header{
+    border-bottom-left-radius:0;
+    border-bottom-right-radius:0;
+  }
+  .level-block.open .level-arrow{transform:rotate(180deg);}
+  .level-body{
+    display:none;
+    background:var(--paper-2);
+    border:1px solid rgba(0,0,0,0.06);
+    border-top:none;
+    border-bottom-left-radius:16px;
+    border-bottom-right-radius:16px;
+    padding:12px;
+  }
+  .level-block.open .level-body{display:block;}
   .level-placeholder{
     text-align:center;
-    padding:60px 20px;
+    padding:40px 20px;
     color:var(--ink-soft);
     font-size:13.5px;
     line-height:1.8;
@@ -370,6 +396,22 @@
   @media (max-width:639px){
     .chapter-units{grid-template-columns:1fr 1fr;}
   }
+
+  /* 侧边栏抽屉里用的紧凑版等级/章节手风琴 */
+  .level-header.compact{font-size:14px; padding:11px 14px;}
+  .chapter-header.compact{font-size:12.5px; padding:9px 12px;}
+  .sidebar-unit-list{
+    display:none;
+    flex-direction:column;
+    gap:6px;
+    background:var(--paper);
+    border:1px solid rgba(0,0,0,0.06);
+    border-top:none;
+    border-bottom-left-radius:14px;
+    border-bottom-right-radius:14px;
+    padding:8px;
+  }
+  .chapter-block.open .sidebar-unit-list{display:flex;}
 
   .back-link{
     background:none;
@@ -951,8 +993,7 @@
   </div>
 
   <div id="menuView">
-    <div class="level-tabs" id="levelTabs"></div>
-    <p class="menu-eyebrow" id="menuEyebrow">TOPIK 必背单词</p>
+    <p class="menu-eyebrow">TOPIK 必背单词</p>
     <div id="chapterList"></div>
   </div>
 
@@ -1083,7 +1124,7 @@
       <p class="sidebar-title">单元目录</p>
       <button class="sidebar-close" id="sidebarCloseBtn" aria-label="关闭目录">✕</button>
     </div>
-    <p class="sidebar-eyebrow" id="sidebarEyebrow">TOPIK 必背单词</p>
+    <p class="sidebar-eyebrow">TOPIK 必背单词</p>
     <div class="sidebar-list" id="sidebarList"></div>
   </div>
 
@@ -1093,8 +1134,12 @@
 <script>
 let DATA = null; // { levels: [ {id,labelKo,labelZh,status,chapters:[{title,units:[{id,title,words}]}]} ] }
 let currentUnit = null;
-let currentLangLevelId = "beginner"; // 초급/중급/고급 里当前选中的等级
-let expandedChapterIdx = null; // 目录页当前展开的章节下标（手风琴，一次只开一个）
+// 目录页：初级/中级/高级 本身也是手风琴的一层，跟章节嵌套折叠，不是页面中间单独一排 Tab
+let expandedLevelIdx = 0;
+let expandedChapterIdx = null;
+// 侧边栏抽屉用独立的展开状态，不跟主目录页互相影响
+let sidebarExpandedLevelIdx = 0;
+let sidebarExpandedChapterIdx = null;
 
 const LEVELS = [
   {label:"完全不会", color:"var(--neutral)", stampChar:"未"},
@@ -1244,10 +1289,6 @@ function exitFocusMode(){
   renderFilterTags();
 }
 
-function getLevel(id){
-  return DATA.levels.find(l => l.id === id);
-}
-
 // 单元 id 全局唯一（跨等级/章节），所以直接全局查找，不用额外传"当前在哪个等级"
 function findUnitById(unitId){
   for(const lvl of DATA.levels){
@@ -1257,22 +1298,6 @@ function findUnitById(unitId){
     }
   }
   return null;
-}
-
-function renderLevelTabs(){
-  const wrap = el("levelTabs");
-  wrap.innerHTML = "";
-  DATA.levels.forEach(lvl => {
-    const btn = document.createElement("button");
-    btn.className = "level-tab" + (lvl.id === currentLangLevelId ? " active" : "");
-    btn.textContent = lvl.labelKo;
-    btn.addEventListener("click", ()=>{
-      currentLangLevelId = lvl.id;
-      expandedChapterIdx = null;
-      renderMenu();
-    });
-    wrap.appendChild(btn);
-  });
 }
 
 function unitTileHtml(unit){
@@ -1298,58 +1323,76 @@ function unitTileHtml(unit){
   };
 }
 
-function toggleChapter(idx){
-  expandedChapterIdx = (expandedChapterIdx === idx) ? null : idx;
-  renderChapterList();
+function toggleLevel(idx){
+  expandedLevelIdx = (expandedLevelIdx === idx) ? -1 : idx;
+  expandedChapterIdx = null;
+  renderMenu();
 }
 
-function renderChapterList(){
-  const level = getLevel(currentLangLevelId);
-  const container = el("chapterList");
-  container.innerHTML = "";
-  el("menuEyebrow").textContent = "TOPIK 必背单词 · "+level.labelZh;
-
-  if(level.status === "coming_soon"){
-    container.innerHTML =
-      '<div class="level-placeholder"><span class="emoji">🚧</span>内容制作中，敬请期待<br>规划确定后会陆续在这里更新 Chapter 和 Unit</div>';
-    return;
-  }
-
-  level.chapters.forEach((chapter, idx) => {
-    const block = document.createElement("div");
-    block.className = "chapter-block" + (expandedChapterIdx === idx ? " open" : "");
-
-    const readyCount = chapter.units.filter(u => u.words.length > 0).length;
-
-    const header = document.createElement("button");
-    header.className = "chapter-header";
-    header.innerHTML = '<span>'+chapter.title+'<span class="chapter-meta">'+readyCount+'/'+chapter.units.length+' 个单元已更新</span></span><span class="chapter-arrow">▾</span>';
-    header.addEventListener("click", ()=>toggleChapter(idx));
-    block.appendChild(header);
-
-    const unitsWrap = document.createElement("div");
-    unitsWrap.className = "chapter-units";
-    chapter.units.forEach(unit => {
-      const tile = unitTileHtml(unit);
-      const btn = document.createElement("button");
-      btn.className = "unit-tile";
-      btn.innerHTML = tile.html;
-      if(tile.hasWords){
-        btn.addEventListener("click", ()=>openUnit(unit.id));
-      }else{
-        btn.addEventListener("click", ()=>showToast("「"+unit.title+"」内容制作中，敬请期待"));
-      }
-      unitsWrap.appendChild(btn);
-    });
-    block.appendChild(unitsWrap);
-
-    container.appendChild(block);
-  });
+function toggleChapter(idx){
+  expandedChapterIdx = (expandedChapterIdx === idx) ? null : idx;
+  renderMenu();
 }
 
 function renderMenu(){
-  renderLevelTabs();
-  renderChapterList();
+  const container = el("chapterList");
+  container.innerHTML = "";
+
+  DATA.levels.forEach((level, lIdx) => {
+    const totalUnits = level.chapters.reduce((sum, ch) => sum + ch.units.length, 0);
+    const readyUnits = level.chapters.reduce((sum, ch) => sum + ch.units.filter(u => u.words.length > 0).length, 0);
+
+    const lvlBlock = document.createElement("div");
+    lvlBlock.className = "level-block" + (expandedLevelIdx === lIdx ? " open" : "");
+
+    const lvlHeader = document.createElement("button");
+    lvlHeader.className = "level-header";
+    const lvlMeta = level.status === "coming_soon" ? "内容制作中" : readyUnits+"/"+totalUnits+" 个单元已更新";
+    lvlHeader.innerHTML = '<span>'+level.labelZh+'<span class="level-meta">'+lvlMeta+'</span></span><span class="level-arrow">▾</span>';
+    lvlHeader.addEventListener("click", ()=>toggleLevel(lIdx));
+    lvlBlock.appendChild(lvlHeader);
+
+    const lvlBody = document.createElement("div");
+    lvlBody.className = "level-body";
+
+    if(level.status === "coming_soon"){
+      lvlBody.innerHTML = '<div class="level-placeholder"><span class="emoji">🚧</span>内容制作中，敬请期待<br>规划确定后会陆续在这里更新章节和单元</div>';
+    }else{
+      level.chapters.forEach((chapter, cIdx) => {
+        const block = document.createElement("div");
+        block.className = "chapter-block" + (expandedChapterIdx === cIdx ? " open" : "");
+
+        const readyCount = chapter.units.filter(u => u.words.length > 0).length;
+
+        const header = document.createElement("button");
+        header.className = "chapter-header";
+        header.innerHTML = '<span>'+chapter.title+'<span class="chapter-meta">'+readyCount+'/'+chapter.units.length+' 个单元已更新</span></span><span class="chapter-arrow">▾</span>';
+        header.addEventListener("click", ()=>toggleChapter(cIdx));
+        block.appendChild(header);
+
+        const unitsWrap = document.createElement("div");
+        unitsWrap.className = "chapter-units";
+        chapter.units.forEach(unit => {
+          const tile = unitTileHtml(unit);
+          const btn = document.createElement("button");
+          btn.className = "unit-tile";
+          btn.innerHTML = tile.html;
+          if(tile.hasWords){
+            btn.addEventListener("click", ()=>openUnit(unit.id));
+          }else{
+            btn.addEventListener("click", ()=>showToast("「"+unit.title+"」内容制作中，敬请期待"));
+          }
+          unitsWrap.appendChild(btn);
+        });
+        block.appendChild(unitsWrap);
+
+        lvlBody.appendChild(block);
+      });
+    }
+
+    lvlBlock.appendChild(lvlBody);
+    container.appendChild(lvlBlock);
+  });
 }
 
 function openUnit(unitId){
@@ -1378,35 +1421,69 @@ function backToMenu(){
   renderMenu();
 }
 
+function toggleSidebarLevel(idx){
+  sidebarExpandedLevelIdx = (sidebarExpandedLevelIdx === idx) ? -1 : idx;
+  sidebarExpandedChapterIdx = null;
+  renderSidebar();
+}
+
+function toggleSidebarChapter(idx){
+  sidebarExpandedChapterIdx = (sidebarExpandedChapterIdx === idx) ? null : idx;
+  renderSidebar();
+}
+
 function renderSidebar(){
   const list = el("sidebarList");
   list.innerHTML = "";
-  const level = getLevel(currentLangLevelId);
-  el("sidebarEyebrow").textContent = "TOPIK 必背单词 · "+level.labelZh;
 
-  if(level.status === "coming_soon"){
-    list.innerHTML = '<p style="font-size:12.5px;color:var(--ink-soft);text-align:center;padding:20px 0;">内容制作中，敬请期待</p>';
-    return;
-  }
+  DATA.levels.forEach((level, lIdx) => {
+    const lvlBlock = document.createElement("div");
+    lvlBlock.className = "level-block" + (sidebarExpandedLevelIdx === lIdx ? " open" : "");
 
-  level.chapters.forEach(chapter => {
-    const heading = document.createElement("p");
-    heading.style.cssText = "font-size:11px;color:var(--ink-soft);opacity:.7;margin:10px 0 2px;";
-    heading.textContent = chapter.title;
-    list.appendChild(heading);
+    const lvlHeader = document.createElement("button");
+    lvlHeader.className = "level-header compact";
+    lvlHeader.innerHTML = '<span>'+level.labelZh+'</span><span class="level-arrow">▾</span>';
+    lvlHeader.addEventListener("click", ()=>toggleSidebarLevel(lIdx));
+    lvlBlock.appendChild(lvlHeader);
 
-    chapter.units.forEach(unit => {
-      const hasWords = unit.words.length > 0;
-      const btn = document.createElement("button");
-      btn.className = "sidebar-item" + (currentUnit && currentUnit.id === unit.id ? " active" : "");
-      btn.disabled = !hasWords;
-      const countText = hasWords ? unit.words.length + " 词" : "待更新";
-      btn.innerHTML = "<span>Unit "+unit.id+" · "+unit.title+"</span><span class=\"count\">"+countText+"</span>";
-      if(hasWords){
-        btn.addEventListener("click", ()=>{ openUnit(unit.id); closeSidebar(); });
-      }
-      list.appendChild(btn);
-    });
+    const lvlBody = document.createElement("div");
+    lvlBody.className = "level-body";
+
+    if(level.status === "coming_soon"){
+      lvlBody.innerHTML = '<p style="font-size:12px;color:var(--ink-soft);text-align:center;padding:14px 0;">内容制作中，敬请期待</p>';
+    }else{
+      level.chapters.forEach((chapter, cIdx) => {
+        const block = document.createElement("div");
+        block.className = "chapter-block" + (sidebarExpandedChapterIdx === cIdx ? " open" : "");
+
+        const header = document.createElement("button");
+        header.className = "chapter-header compact";
+        header.innerHTML = '<span>'+chapter.title+'</span><span class="chapter-arrow">▾</span>';
+        header.addEventListener("click", ()=>toggleSidebarChapter(cIdx));
+        block.appendChild(header);
+
+        const unitsWrap = document.createElement("div");
+        unitsWrap.className = "sidebar-unit-list";
+        chapter.units.forEach(unit => {
+          const hasWords = unit.words.length > 0;
+          const btn = document.createElement("button");
+          btn.className = "sidebar-item" + (currentUnit && currentUnit.id === unit.id ? " active" : "");
+          btn.disabled = !hasWords;
+          const countText = hasWords ? unit.words.length + " 词" : "待更新";
+          btn.innerHTML = "<span>Unit "+unit.id+" · "+unit.title+"</span><span class=\"count\">"+countText+"</span>";
+          if(hasWords){
+            btn.addEventListener("click", ()=>{ openUnit(unit.id); closeSidebar(); });
+          }
+          unitsWrap.appendChild(btn);
+        });
+        block.appendChild(unitsWrap);
+
+        lvlBody.appendChild(block);
+      });
+    }
+
+    lvlBlock.appendChild(lvlBody);
+    list.appendChild(lvlBlock);
   });
 }
 
