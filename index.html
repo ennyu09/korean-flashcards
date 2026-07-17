@@ -152,12 +152,44 @@
   .app-footer{
     margin-top:26px;
     text-align:center;
+    padding:0 8px;
+  }
+  .footer-toggle{
+    background:none;
+    border:none;
+    cursor:pointer;
     font-size:10.5px;
     color:var(--ink-soft);
     opacity:.65;
     line-height:1.6;
-    padding:0 8px;
+    padding:4px;
+    font-family:'Noto Sans SC', sans-serif;
   }
+  .footer-toggle:hover{opacity:.9;}
+  .footer-caret{display:inline-block; transition:transform .2s ease;}
+  .footer-toggle.open .footer-caret{transform:rotate(180deg);}
+  .footer-detail{
+    display:none;
+    max-width:520px;
+    margin:10px auto 0;
+    text-align:left;
+    background:var(--white);
+    border:1px solid rgba(0,0,0,0.06);
+    border-radius:14px;
+    padding:16px 18px;
+    font-size:11.5px;
+    color:var(--ink-soft);
+    line-height:1.75;
+  }
+  .footer-detail h4{
+    font-family:'Song Myung', serif;
+    font-size:13px;
+    color:var(--ink);
+    margin:14px 0 4px;
+  }
+  .footer-detail h4:first-child{margin-top:0;}
+  .footer-detail p{margin:0 0 6px;}
+  .footer-detail ul{margin:0 0 6px; padding-left:18px;}
 
   .toast{
     position:fixed;
@@ -241,6 +273,103 @@
     background:var(--paper-2);
   }
   .unit-tile .unit-bar span{height:100%;}
+  .unit-tile{position:relative;}
+  .updating-tag{
+    display:inline-block;
+    font-size:9.5px;
+    color:var(--ink-soft);
+    background:var(--paper-2);
+    border-radius:999px;
+    padding:2px 7px;
+    margin-left:6px;
+    vertical-align:middle;
+  }
+
+  /* 等级 tab */
+  .level-tabs{
+    display:flex;
+    gap:8px;
+    justify-content:center;
+    margin-bottom:18px;
+  }
+  .level-tab{
+    border:1px solid rgba(0,0,0,0.08);
+    background:var(--white);
+    color:var(--ink-soft);
+    border-radius:999px;
+    padding:8px 20px;
+    font-family:'Song Myung', serif;
+    font-size:14px;
+    cursor:pointer;
+  }
+  .level-tab.active{
+    background:var(--indigo);
+    border-color:var(--indigo);
+    color:var(--white);
+  }
+  .level-placeholder{
+    text-align:center;
+    padding:60px 20px;
+    color:var(--ink-soft);
+    font-size:13.5px;
+    line-height:1.8;
+  }
+  .level-placeholder .emoji{font-size:32px; display:block; margin-bottom:10px;}
+
+  /* 章节手风琴 */
+  .chapter-block{
+    margin-bottom:10px;
+    border-radius:14px;
+    overflow:hidden;
+  }
+  .chapter-header{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background:var(--white);
+    border:1px solid rgba(0,0,0,0.06);
+    border-radius:14px;
+    padding:13px 16px;
+    cursor:pointer;
+    font-family:'Song Myung', serif;
+    font-size:15px;
+    color:var(--ink);
+    text-align:left;
+  }
+  .chapter-header .chapter-meta{
+    font-family:'Noto Sans SC', sans-serif;
+    font-size:11px;
+    color:var(--ink-soft);
+    margin-left:8px;
+  }
+  .chapter-arrow{
+    font-size:12px;
+    color:var(--ink-soft);
+    transition:transform .2s ease;
+    flex:0 0 auto;
+    margin-left:8px;
+  }
+  .chapter-block.open .chapter-arrow{transform:rotate(180deg);}
+  .chapter-block.open .chapter-header{
+    border-bottom-left-radius:0;
+    border-bottom-right-radius:0;
+  }
+  .chapter-units{
+    display:none;
+    grid-template-columns:repeat(auto-fill, minmax(200px, 1fr));
+    gap:10px;
+    background:var(--paper);
+    border:1px solid rgba(0,0,0,0.06);
+    border-top:none;
+    border-bottom-left-radius:14px;
+    border-bottom-right-radius:14px;
+    padding:10px;
+  }
+  .chapter-block.open .chapter-units{display:grid;}
+  @media (max-width:639px){
+    .chapter-units{grid-template-columns:1fr 1fr;}
+  }
 
   .back-link{
     background:none;
@@ -384,7 +513,12 @@
     padding:28px 22px;
     text-align:center;
   }
-  .card-back{transform:rotateY(180deg);}
+  .card-back{
+    transform:rotateY(180deg);
+    overflow-y:auto;
+    justify-content:flex-start;
+    padding-top:40px;
+  }
 
   .level-badge{
     position:absolute;
@@ -401,6 +535,23 @@
     color:var(--white);
     opacity:.9;
   }
+
+  .bug-btn{
+    position:absolute;
+    top:14px;
+    left:14px;
+    width:28px;
+    height:28px;
+    border:none;
+    background:none;
+    font-size:14px;
+    cursor:pointer;
+    opacity:.45;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  .bug-btn:hover{opacity:.9;}
 
   .card-progress{
     width:100%;
@@ -466,6 +617,26 @@
     opacity:.6;
   }
 
+  .meta-tags{
+    display:flex;
+    gap:6px;
+    flex-wrap:wrap;
+    justify-content:center;
+    margin-bottom:8px;
+  }
+  .pos-tag, .register-tag{
+    font-size:10.5px;
+    border-radius:999px;
+    padding:2px 9px;
+  }
+  .pos-tag{
+    background:var(--paper);
+    color:var(--ink-soft);
+  }
+  .register-tag{
+    background:rgba(178,58,46,0.1);
+    color:var(--seal-dark);
+  }
   .meaning{
     font-family:'Noto Serif SC', serif;
     font-weight:700;
@@ -473,6 +644,31 @@
     color:var(--ink);
     margin:2px 0 14px;
   }
+  .grammar-block{
+    width:100%;
+    margin-top:10px;
+    font-size:11.5px;
+    color:var(--ink-soft);
+    text-align:left;
+  }
+  .grammar-block-title{
+    font-size:10.5px;
+    color:var(--ink-soft);
+    opacity:.7;
+    margin:0 0 5px;
+  }
+  .grammar-row{
+    padding:4px 0;
+    border-top:1px solid rgba(0,0,0,0.05);
+    line-height:1.5;
+  }
+  .grammar-row:first-child{border-top:none;}
+  .grammar-text{
+    font-family:'Noto Sans KR', sans-serif;
+    color:var(--ink);
+    font-weight:500;
+  }
+  .grammar-role{color:var(--ink-soft);}
   .example-block{
     background:var(--paper);
     border-radius:12px;
@@ -755,8 +951,9 @@
   </div>
 
   <div id="menuView">
-    <p class="menu-eyebrow">TOPIK 必背单词 · 初级</p>
-    <div class="unit-grid" id="unitGrid"></div>
+    <div class="level-tabs" id="levelTabs"></div>
+    <p class="menu-eyebrow" id="menuEyebrow">TOPIK 必背单词</p>
+    <div id="chapterList"></div>
   </div>
 
   <div id="studyView" style="display:none;">
@@ -794,12 +991,14 @@
             <span class="flip-hint" id="flipHint">点击卡片查看释义</span>
           </div>
           <div class="card-face card-back">
+            <button class="bug-btn" id="bugReportBtn" title="报错">🐛</button>
             <div class="level-badge" id="levelBadgeBack"></div>
             <div class="card-progress">
               <div class="card-progress-bar"><span id="cardProgressBarBack"></span></div>
               <p class="card-progress-text" id="cardProgressTextBack"></p>
             </div>
             <button class="speak-btn" id="speakBtnBack" style="margin-bottom:14px;">🔊 播放发音</button>
+            <div class="meta-tags" id="metaTags"></div>
             <p class="meaning" id="meaning"></p>
             <div class="example-block">
               <div class="example-kr-row">
@@ -807,6 +1006,10 @@
                 <button class="example-speak-btn" id="speakBtnExample" aria-label="播放例句发音">🔊</button>
               </div>
               <p class="example-zh" id="exampleZh"></p>
+            </div>
+            <div class="grammar-block" id="grammarBlock" style="display:none;">
+              <p class="grammar-block-title">成分拆解</p>
+              <div id="grammarRows"></div>
             </div>
           </div>
           <div class="stamp-layer" id="stampLayer"></div>
@@ -847,7 +1050,32 @@
     </div>
   </div>
 
-  <p class="app-footer">词汇选自《金龙一 TOPIK必备单词》，释义为学习整理内容；例句与例句翻译由 AI 生成，仅供个人学习参考，非商业用途。<br>单词、罗马音及释义已用 krdict（韩国国立国语院学习词典）校对，但难免有误——个人学习用，如果发现资料有误，欢迎指出，相互交流。</p>
+  <div class="app-footer">
+    <button class="footer-toggle" id="footerToggle">词汇整理自 TOPIK 官方词表及公开资料，例句为原创内容 · 如有错误欢迎反馈 <span class="footer-caret">▾</span></button>
+    <div class="footer-detail" id="footerDetail">
+      <h4>词库说明</h4>
+
+      <h4>【词汇来源】</h4>
+      <p>本站词汇选自韩国한국어능력시험（TOPIK）官方发布的初级、中级词汇目录（来源：topik.go.kr）。TOPIK官方目前未发布独立的高级词汇目录，因此高级部分将参考国立国语院（국립국어원）等公开权威资料整理，严谨程度和官方依据不如初中级部分，如有收词争议欢迎讨论。</p>
+
+      <h4>【分类方式】</h4>
+      <p>不按传统教材单元编排，而是按生活主题重新组织（打招呼、家庭、日常生活……），由浅入深、贴近实际使用场景，方便按情境记忆。</p>
+
+      <h4>【内容原创声明】</h4>
+      <ul>
+        <li>例句：全部由本站原创撰写，非引用自任何教材、书籍或网站</li>
+        <li>罗马音：依据韩国官方《国语的罗马字表记法》标准生成</li>
+        <li>语法分析：例句附带成分拆解，标注每部分的语法作用，帮助理解句子结构</li>
+        <li>敬阶标注：涉及敬语/非敬语用法的词汇会单独标注，避免误用</li>
+      </ul>
+
+      <h4>【关于准确性】</h4>
+      <p>词汇释义、词性、罗马音和例句都经过整理和校对，但毕竟是个人项目，难免存在疏漏或不够地道的地方。如果你发现任何错误，非常欢迎点击每张卡片上的"🐛 报错"按钮告诉我，我会尽快修正，谢谢你的帮忙 🙏</p>
+
+      <h4>【使用说明】</h4>
+      <p>本站仅供个人韩语学习交流使用，持续更新中，暂无商业用途。</p>
+    </div>
+  </div>
 
   <div class="sidebar-backdrop" id="sidebarBackdrop"></div>
   <div class="sidebar" id="sidebar">
@@ -855,7 +1083,7 @@
       <p class="sidebar-title">单元目录</p>
       <button class="sidebar-close" id="sidebarCloseBtn" aria-label="关闭目录">✕</button>
     </div>
-    <p class="sidebar-eyebrow">TOPIK 必背单词 · 初级</p>
+    <p class="sidebar-eyebrow" id="sidebarEyebrow">TOPIK 必背单词</p>
     <div class="sidebar-list" id="sidebarList"></div>
   </div>
 
@@ -863,8 +1091,10 @@
 </div>
 
 <script>
-let UNITS = [];
+let DATA = null; // { levels: [ {id,labelKo,labelZh,status,chapters:[{title,units:[{id,title,words}]}]} ] }
 let currentUnit = null;
+let currentLangLevelId = "beginner"; // 초급/중급/고급 里当前选中的等级
+let expandedChapterIdx = null; // 目录页当前展开的章节下标（手风琴，一次只开一个）
 
 const LEVELS = [
   {label:"完全不会", color:"var(--neutral)", stampChar:"未"},
@@ -1014,41 +1244,121 @@ function exitFocusMode(){
   renderFilterTags();
 }
 
-function renderMenu(){
-  const grid = el("unitGrid");
-  grid.innerHTML = "";
-  UNITS.forEach(unit => {
-    const btn = document.createElement("button");
-    const hasWords = unit.words.length > 0;
-    btn.className = "unit-tile";
-    btn.disabled = !hasWords;
-    if(hasWords){
-      const counts = unitCounts(unit);
-      const barSegs = counts.map((c,i)=>{
-        if(c<=0) return "";
-        return '<span class="seg-'+i+'" style="flex-basis:'+(c/unit.words.length*100)+'%"></span>';
-      }).join("");
-      btn.innerHTML =
-        '<span class="unit-name">'+unit.title+'</span>' +
-        '<span class="unit-count">'+unit.words.length+' 个单词</span>' +
-        '<span class="unit-bar">'+(barSegs || '<span class="seg-0" style="flex-basis:100%"></span>')+'</span>';
-      btn.addEventListener("click", ()=>openUnit(unit.id));
-    }else{
-      btn.innerHTML =
-        '<span class="unit-name">'+unit.title+'</span>' +
-        '<span class="unit-count">暂无内容</span>' +
-        '<span class="unit-bar"><span class="seg-0" style="flex-basis:100%"></span></span>';
+function getLevel(id){
+  return DATA.levels.find(l => l.id === id);
+}
+
+// 单元 id 全局唯一（跨等级/章节），所以直接全局查找，不用额外传"当前在哪个等级"
+function findUnitById(unitId){
+  for(const lvl of DATA.levels){
+    for(const ch of lvl.chapters){
+      const u = ch.units.find(u => u.id === unitId);
+      if(u) return {unit: u, level: lvl, chapterTitle: ch.title};
     }
-    grid.appendChild(btn);
+  }
+  return null;
+}
+
+function renderLevelTabs(){
+  const wrap = el("levelTabs");
+  wrap.innerHTML = "";
+  DATA.levels.forEach(lvl => {
+    const btn = document.createElement("button");
+    btn.className = "level-tab" + (lvl.id === currentLangLevelId ? " active" : "");
+    btn.textContent = lvl.labelKo;
+    btn.addEventListener("click", ()=>{
+      currentLangLevelId = lvl.id;
+      expandedChapterIdx = null;
+      renderMenu();
+    });
+    wrap.appendChild(btn);
   });
 }
 
+function unitTileHtml(unit){
+  const hasWords = unit.words.length > 0;
+  if(hasWords){
+    const counts = unitCounts(unit);
+    const barSegs = counts.map((c,i)=>{
+      if(c<=0) return "";
+      return '<span class="seg-'+i+'" style="flex-basis:'+(c/unit.words.length*100)+'%"></span>';
+    }).join("");
+    return {
+      hasWords: true,
+      html: '<span class="unit-name">Unit '+unit.id+' · '+unit.title+'</span>' +
+        '<span class="unit-count">'+unit.words.length+' 个单词</span>' +
+        '<span class="unit-bar">'+(barSegs || '<span class="seg-0" style="flex-basis:100%"></span>')+'</span>'
+    };
+  }
+  return {
+    hasWords: false,
+    html: '<span class="unit-name">Unit '+unit.id+' · '+unit.title+'<span class="updating-tag">待更新</span></span>' +
+      '<span class="unit-count">内容制作中</span>' +
+      '<span class="unit-bar"><span class="seg-0" style="flex-basis:100%"></span></span>'
+  };
+}
+
+function toggleChapter(idx){
+  expandedChapterIdx = (expandedChapterIdx === idx) ? null : idx;
+  renderChapterList();
+}
+
+function renderChapterList(){
+  const level = getLevel(currentLangLevelId);
+  const container = el("chapterList");
+  container.innerHTML = "";
+  el("menuEyebrow").textContent = "TOPIK 必背单词 · "+level.labelZh;
+
+  if(level.status === "coming_soon"){
+    container.innerHTML =
+      '<div class="level-placeholder"><span class="emoji">🚧</span>内容制作中，敬请期待<br>规划确定后会陆续在这里更新 Chapter 和 Unit</div>';
+    return;
+  }
+
+  level.chapters.forEach((chapter, idx) => {
+    const block = document.createElement("div");
+    block.className = "chapter-block" + (expandedChapterIdx === idx ? " open" : "");
+
+    const readyCount = chapter.units.filter(u => u.words.length > 0).length;
+
+    const header = document.createElement("button");
+    header.className = "chapter-header";
+    header.innerHTML = '<span>'+chapter.title+'<span class="chapter-meta">'+readyCount+'/'+chapter.units.length+' 个单元已更新</span></span><span class="chapter-arrow">▾</span>';
+    header.addEventListener("click", ()=>toggleChapter(idx));
+    block.appendChild(header);
+
+    const unitsWrap = document.createElement("div");
+    unitsWrap.className = "chapter-units";
+    chapter.units.forEach(unit => {
+      const tile = unitTileHtml(unit);
+      const btn = document.createElement("button");
+      btn.className = "unit-tile";
+      btn.innerHTML = tile.html;
+      if(tile.hasWords){
+        btn.addEventListener("click", ()=>openUnit(unit.id));
+      }else{
+        btn.addEventListener("click", ()=>showToast("「"+unit.title+"」内容制作中，敬请期待"));
+      }
+      unitsWrap.appendChild(btn);
+    });
+    block.appendChild(unitsWrap);
+
+    container.appendChild(block);
+  });
+}
+
+function renderMenu(){
+  renderLevelTabs();
+  renderChapterList();
+}
+
 function openUnit(unitId){
-  currentUnit = UNITS.find(u => u.id === unitId);
-  if(!currentUnit || currentUnit.words.length === 0) return;
+  const found = findUnitById(unitId);
+  if(!found || found.unit.words.length === 0) return;
+  currentUnit = found.unit;
   el("menuView").style.display = "none";
   el("studyView").style.display = "block";
-  el("currentUnitLabel").textContent = currentUnit.title;
+  el("currentUnitLabel").textContent = "Unit "+currentUnit.id+" · "+currentUnit.title;
   el("totalLabel").textContent = currentUnit.words.length + " 个单词";
   focusLevel = null;
   el("focusBanner").style.display = "none";
@@ -1071,17 +1381,32 @@ function backToMenu(){
 function renderSidebar(){
   const list = el("sidebarList");
   list.innerHTML = "";
-  UNITS.forEach(unit => {
-    const hasWords = unit.words.length > 0;
-    const btn = document.createElement("button");
-    btn.className = "sidebar-item" + (currentUnit && currentUnit.id === unit.id ? " active" : "");
-    btn.disabled = !hasWords;
-    const countText = hasWords ? unit.words.length + " 词" : "暂无内容";
-    btn.innerHTML = "<span>"+unit.title+"</span><span class=\"count\">"+countText+"</span>";
-    if(hasWords){
-      btn.addEventListener("click", ()=>{ openUnit(unit.id); closeSidebar(); });
-    }
-    list.appendChild(btn);
+  const level = getLevel(currentLangLevelId);
+  el("sidebarEyebrow").textContent = "TOPIK 必背单词 · "+level.labelZh;
+
+  if(level.status === "coming_soon"){
+    list.innerHTML = '<p style="font-size:12.5px;color:var(--ink-soft);text-align:center;padding:20px 0;">内容制作中，敬请期待</p>';
+    return;
+  }
+
+  level.chapters.forEach(chapter => {
+    const heading = document.createElement("p");
+    heading.style.cssText = "font-size:11px;color:var(--ink-soft);opacity:.7;margin:10px 0 2px;";
+    heading.textContent = chapter.title;
+    list.appendChild(heading);
+
+    chapter.units.forEach(unit => {
+      const hasWords = unit.words.length > 0;
+      const btn = document.createElement("button");
+      btn.className = "sidebar-item" + (currentUnit && currentUnit.id === unit.id ? " active" : "");
+      btn.disabled = !hasWords;
+      const countText = hasWords ? unit.words.length + " 词" : "待更新";
+      btn.innerHTML = "<span>Unit "+unit.id+" · "+unit.title+"</span><span class=\"count\">"+countText+"</span>";
+      if(hasWords){
+        btn.addEventListener("click", ()=>{ openUnit(unit.id); closeSidebar(); });
+      }
+      list.appendChild(btn);
+    });
   });
 }
 
@@ -1196,6 +1521,9 @@ function renderCard(){
     el("speakBtnFront").style.display = "none";
     el("speakBtnBack").style.display = "none";
     el("speakBtnExample").style.display = "none";
+    el("bugReportBtn").style.display = "none";
+    el("metaTags").innerHTML = "";
+    el("grammarBlock").style.display = "none";
     el("flipHint").style.display = "none";
     el("cardNavPos").textContent = "";
     el("prevCardBtn").disabled = true;
@@ -1216,9 +1544,26 @@ function renderCard(){
   renderLevelBadge(el("levelBadgeFront"), state.level);
   renderLevelBadge(el("levelBadgeBack"), state.level);
   renderCardProgress(state);
+
+  const tags = [];
+  if(item.p) tags.push('<span class="pos-tag">'+item.p+'</span>');
+  if(item.rg) tags.push('<span class="register-tag">'+item.rg+'</span>');
+  el("metaTags").innerHTML = tags.join("");
+
+  const grammarBlock = el("grammarBlock");
+  if(item.g && item.g.length > 0){
+    el("grammarRows").innerHTML = item.g.map(row =>
+      '<div class="grammar-row"><span class="grammar-text">'+row.x+'</span> — <span class="grammar-role">'+row.y+'</span></div>'
+    ).join("");
+    grammarBlock.style.display = "block";
+  }else{
+    grammarBlock.style.display = "none";
+  }
+
   el("speakBtnFront").style.display = "inline-flex";
   el("speakBtnBack").style.display = "inline-flex";
   el("speakBtnExample").style.display = "inline-block";
+  el("bugReportBtn").style.display = "flex";
   el("flipHint").style.display = "block";
   el("cardNavPos").textContent = (currentIndex+1)+" / "+queue.length;
   el("prevCardBtn").disabled = currentIndex <= 0;
@@ -1517,6 +1862,17 @@ function toggleReviewLog(){
   if(!showing) renderReviewLog();
 }
 
+function reportBug(){
+  const item = queue[currentIndex];
+  if(!item || !currentUnit) return;
+  const subject = "背单词纠错反馈：" + item.k;
+  const body = "单元：Unit "+currentUnit.id+" · "+currentUnit.title+"\n"+
+    "单词：" + item.k + " [" + item.r + "] " + item.m + "\n" +
+    "例句：" + item.e + "\n\n" +
+    "问题描述：\n（请在这里描述你发现的问题，比如释义/罗马音/例句/语法拆解哪里不对）";
+  window.location.href = "mailto:yikenyu@gmail.com?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+}
+
 el("card").addEventListener("click", flipCard);
 el("card").addEventListener("keydown", (e)=>{
   if(e.key==="Enter" || e.key===" "){ e.preventDefault(); flipCard(); }
@@ -1531,10 +1887,18 @@ el("rate3").addEventListener("click", ()=>rate(3));
 el("resetBtn").addEventListener("click", resetProgress);
 el("reviewLogToggleBtn").addEventListener("click", toggleReviewLog);
 el("exitFocusBtn").addEventListener("click", exitFocusMode);
+el("bugReportBtn").addEventListener("click", (e)=>{ e.stopPropagation(); reportBug(); });
 el("backToMenuBtn").addEventListener("click", backToMenu);
 el("prevCardBtn").addEventListener("click", prevCard);
 el("nextCardBtn").addEventListener("click", nextCard);
 el("hamburgerBtn").addEventListener("click", openSidebar);
+el("footerToggle").addEventListener("click", ()=>{
+  const detail = el("footerDetail");
+  const toggle = el("footerToggle");
+  const showing = detail.style.display === "block";
+  detail.style.display = showing ? "none" : "block";
+  toggle.classList.toggle("open", !showing);
+});
 el("sidebarCloseBtn").addEventListener("click", closeSidebar);
 el("sidebarBackdrop").addEventListener("click", closeSidebar);
 document.addEventListener("keydown", (e)=>{
@@ -1543,8 +1907,8 @@ document.addEventListener("keydown", (e)=>{
 
 (async function init(){
   try{
-    const res = await fetch("vocab.json");
-    UNITS = await res.json();
+    const res = await fetch("vocab.json", {cache: "no-store"});
+    DATA = await res.json();
   }catch(e){
     el("menuView").innerHTML = '<p style="text-align:center;color:var(--ink-soft);font-size:13px;">词汇数据加载失败，请确认 vocab.json 与 index.html 在同一目录下，并通过网页服务器（而不是直接双击文件）访问。</p>';
     return;
