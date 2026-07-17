@@ -298,6 +298,60 @@
     line-height:1.5;
   }
 
+  .filter-tags{
+    display:flex;
+    gap:8px;
+    margin-bottom:14px;
+  }
+  .filter-tag{
+    flex:1;
+    min-width:0;
+    border:1.5px solid rgba(0,0,0,0.08);
+    border-radius:10px;
+    padding:7px 4px;
+    background:var(--white);
+    cursor:pointer;
+    text-align:center;
+    font-family:'Noto Sans SC', sans-serif;
+    font-size:11px;
+    color:var(--ink-soft);
+    line-height:1.4;
+  }
+  .filter-tag .count{
+    display:block;
+    font-family:'JetBrains Mono', monospace;
+    font-size:16px;
+    font-weight:700;
+  }
+  .filter-tag:disabled{opacity:.3; cursor:not-allowed;}
+  .filter-tag.active{background:var(--paper); border-width:2px;}
+
+  .focus-banner{
+    background:var(--white);
+    border:2px solid var(--indigo);
+    border-radius:14px;
+    padding:12px 14px;
+    margin-bottom:16px;
+    text-align:center;
+  }
+  .focus-banner-title{
+    font-family:'Song Myung', serif;
+    font-size:14px;
+    color:var(--ink);
+    margin:0;
+    line-height:1.5;
+  }
+  .focus-banner button{
+    margin-top:8px;
+    border:none;
+    background:var(--indigo);
+    color:var(--white);
+    padding:6px 18px;
+    border-radius:999px;
+    font-size:12.5px;
+    cursor:pointer;
+  }
+
   /* card */
   .card-wrap{
     perspective:1400px;
@@ -717,6 +771,12 @@
       <span class="seg-0" style="flex-basis:100%"></span>
     </div>
 
+    <div class="filter-tags" id="filterTags"></div>
+    <div class="focus-banner" id="focusBanner" style="display:none;">
+      <p class="focus-banner-title" id="focusBannerTitle"></p>
+      <button id="exitFocusBtn">退出筛选</button>
+    </div>
+
     <div class="banner" id="banner" style="display:none;"></div>
 
     <div class="card-wrap">
@@ -837,6 +897,7 @@ let queue = [];
 let currentIndex = 0;
 let sessionTotal = 0;
 let sessionDone = 0;
+let focusLevel = null; // null = 正常模式；0-3 = 专项复习某个掌握等级
 let isFlipped = false;
 
 const el = id => document.getElementById(id);
@@ -905,6 +966,54 @@ function unitCounts(unit){
   return counts;
 }
 
+// 跟 unitCounts 不同：只统计"已经学过、被打过分"的词，不把"从没学过"的词也算进「完全不会」里
+function levelWordCounts(unit){
+  const counts = [0,0,0,0];
+  unit.words.forEach(v => {
+    const st = getUnitState(unit.id, v.k);
+    if(st.reviews > 0) counts[st.level]++;
+  });
+  return counts;
+}
+
+function renderFilterTags(){
+  const counts = levelWordCounts(currentUnit);
+  const wrap = el("filterTags");
+  wrap.innerHTML = "";
+  LEVELS.forEach((lv, i) => {
+    const btn = document.createElement("button");
+    btn.className = "filter-tag" + (focusLevel === i ? " active" : "");
+    btn.disabled = counts[i] === 0;
+    btn.style.borderColor = counts[i] > 0 ? lv.color : "";
+    btn.innerHTML = lv.label + '<span class="count" style="color:'+lv.color+'">'+counts[i]+'</span>';
+    btn.addEventListener("click", ()=>enterFocusMode(i));
+    wrap.appendChild(btn);
+  });
+  wrap.style.display = focusLevel === null ? "flex" : "none";
+}
+
+function enterFocusMode(level){
+  const counts = levelWordCounts(currentUnit);
+  if(counts[level] === 0) return;
+  focusLevel = level;
+  el("banner").style.display = "none";
+  el("focusBanner").style.display = "block";
+  el("focusBannerTitle").textContent = "专项复习："+LEVELS[level].label+" · 共 "+counts[level]+" 个词，循环出现";
+  buildQueue();
+  updateStatsBar();
+  renderCard();
+  renderFilterTags();
+}
+
+function exitFocusMode(){
+  focusLevel = null;
+  el("focusBanner").style.display = "none";
+  buildQueue();
+  updateStatsBar();
+  renderCard();
+  renderFilterTags();
+}
+
 function renderMenu(){
   const grid = el("unitGrid");
   grid.innerHTML = "";
@@ -941,10 +1050,13 @@ function openUnit(unitId){
   el("studyView").style.display = "block";
   el("currentUnitLabel").textContent = currentUnit.title;
   el("totalLabel").textContent = currentUnit.words.length + " 个单词";
+  focusLevel = null;
+  el("focusBanner").style.display = "none";
   loadNewCount();
   buildQueue();
   updateStatsBar();
   renderCard();
+  renderFilterTags();
   el("reviewPanel").style.display = "none";
 }
 
@@ -985,6 +1097,19 @@ function closeSidebar(){
 }
 
 function buildQueue(){
+  if(focusLevel !== null){
+    const pool = currentUnit.words.filter(v => {
+      const st = getState(v.k);
+      return st.reviews > 0 && st.level === focusLevel;
+    });
+    queue = shuffle(pool);
+    currentIndex = 0;
+    sessionTotal = queue.length;
+    sessionDone = 0;
+    el("banner").style.display = "none";
+    return;
+  }
+
   const now = Date.now();
   const words = currentUnit.words;
   const reviewDue = words.filter(v => {
@@ -1076,7 +1201,7 @@ function renderCard(){
     el("prevCardBtn").disabled = true;
     el("nextCardBtn").disabled = true;
     [0,1,2,3].forEach(i => el("rate"+i).disabled = true);
-    el("sessionLabel").textContent = "今日复习 · "+sessionDone+" / "+sessionTotal;
+    el("sessionLabel").textContent = (focusLevel !== null ? "专项复习 · " : "今日复习 · ")+sessionDone+" / "+sessionTotal;
     return;
   }
   const item = queue[currentIndex];
@@ -1099,7 +1224,7 @@ function renderCard(){
   el("prevCardBtn").disabled = currentIndex <= 0;
   el("nextCardBtn").disabled = currentIndex >= queue.length-1;
   [0,1,2,3].forEach(i => el("rate"+i).disabled = false);
-  el("sessionLabel").textContent = "今日复习 · "+sessionDone+" / "+sessionTotal;
+  el("sessionLabel").textContent = (focusLevel !== null ? "专项复习 · " : "今日复习 · ")+sessionDone+" / "+sessionTotal;
 }
 
 function prevCard(){
@@ -1233,8 +1358,24 @@ function rate(levelIdx){
   showStamp(levelIdx);
   updateStatsBar();
   if(el("reviewPanel").style.display !== "none") renderReviewLog();
+  renderFilterTags();
   sessionDone++;
   setTimeout(()=>{
+    if(focusLevel !== null){
+      currentIndex++;
+      if(currentIndex >= queue.length){
+        const counts = levelWordCounts(currentUnit);
+        if(counts[focusLevel] === 0){
+          showToast("这个等级已经没有词了，已退出专项复习");
+          exitFocusMode();
+          return;
+        }
+        buildQueue(); // 重新筛选+打乱，循环出现
+        el("focusBannerTitle").textContent = "专项复习："+LEVELS[focusLevel].label+" · 共 "+counts[focusLevel]+" 个词，循环出现";
+      }
+      renderCard();
+      return;
+    }
     currentIndex++;
     if(currentIndex >= queue.length){
       queue = [];
@@ -1249,9 +1390,12 @@ function resetProgress(){
     delete progress[stateKey(currentUnit.id, v.k)];
   });
   saveProgress();
+  focusLevel = null;
+  el("focusBanner").style.display = "none";
   buildQueue();
   updateStatsBar();
   renderCard();
+  renderFilterTags();
   if(el("reviewPanel").style.display !== "none") renderReviewLog();
 }
 
@@ -1292,6 +1436,11 @@ function stageDotsFragment(state){
 function jumpToWord(k){
   const wordObj = currentUnit.words.find(w => w.k === k);
   if(!wordObj) return;
+  if(focusLevel !== null){
+    focusLevel = null;
+    el("focusBanner").style.display = "none";
+    renderFilterTags();
+  }
   let idx = queue.findIndex(w => w.k === k);
   if(idx === -1){
     const insertAt = Math.min(Math.max(currentIndex,0), queue.length);
@@ -1381,6 +1530,7 @@ el("rate2").addEventListener("click", ()=>rate(2));
 el("rate3").addEventListener("click", ()=>rate(3));
 el("resetBtn").addEventListener("click", resetProgress);
 el("reviewLogToggleBtn").addEventListener("click", toggleReviewLog);
+el("exitFocusBtn").addEventListener("click", exitFocusMode);
 el("backToMenuBtn").addEventListener("click", backToMenu);
 el("prevCardBtn").addEventListener("click", prevCard);
 el("nextCardBtn").addEventListener("click", nextCard);
