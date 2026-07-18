@@ -628,6 +628,14 @@
     margin:0 0 10px;
     word-break:keep-all;
   }
+  .homonym-index{
+    font-family:'JetBrains Mono', monospace;
+    font-size:0.32em;
+    font-weight:400;
+    vertical-align:super;
+    color:var(--ink-soft);
+    margin-left:1px;
+  }
   .romanization{
     font-family:'JetBrains Mono', monospace;
     font-size:15px;
@@ -1658,7 +1666,14 @@ function renderCard(){
   const state = getState(item.k);
   isFlipped = false;
   el("card").classList.remove("flipped");
-  el("krWord").textContent = item.k;
+  const krWordEl = el("krWord");
+  krWordEl.textContent = item.k;
+  if(item.hi){
+    const sup = document.createElement("sup");
+    sup.className = "homonym-index";
+    sup.textContent = item.hi;
+    krWordEl.appendChild(sup);
+  }
   el("romanization").textContent = "["+item.r+"]";
   el("meaning").textContent = item.m;
   el("exampleKr").textContent = item.e;
@@ -1740,16 +1755,17 @@ function pickKoreanVoice(){
   return koVoices.find(v => !v.localService) || koVoices[0];
 }
 
-// 只给发现读错的词/例句单独换成预先生成好的音频文件，其余词继续用浏览器自带语音。
-// 要加一个：把文件放进 audio/ 文件夹，再在这里加一行——key 是单词本身（例句用"单词_例句"）
+// 发音优先播放 scripts/generate-audio.js 预生成好的音频文件（文件名规则：单词本身用"单词.mp3"，
+// 例句用"单词_example.mp3"，存在 audio/ 文件夹里）。找不到对应文件（还没生成、或生成失败）就自动
+// 退回浏览器自带语音朗读，不会报错卡住。
+// 如果某个词的自动生成音频听感不满意，想换成手动挑选的文件，可以在这里加一条覆盖，优先级最高。
 const AUDIO_OVERRIDES = {
-  // "좀": "audio/좀.mp3",
-  // "좀_例句": "audio/좀_例句.mp3",
+  // "좀": "audio/좀-custom.mp3",
 };
 
 function speak(text, overrideKey){
   if(!text) return;
-  const overridePath = overrideKey && AUDIO_OVERRIDES[overrideKey];
+  const overridePath = overrideKey && (AUDIO_OVERRIDES[overrideKey] || `audio/${overrideKey}.mp3`);
   if(overridePath){
     const audio = new Audio(overridePath);
     let fellBack = false;
@@ -2002,7 +2018,7 @@ el("card").addEventListener("keydown", (e)=>{
 });
 el("speakBtnFront").addEventListener("click", (e)=>{ e.stopPropagation(); const item = queue[currentIndex]; speak(item?.k || "", item?.k); });
 el("speakBtnBack").addEventListener("click", (e)=>{ e.stopPropagation(); const item = queue[currentIndex]; speak(item?.k || "", item?.k); });
-el("speakBtnExample").addEventListener("click", (e)=>{ e.stopPropagation(); const item = queue[currentIndex]; speak(item?.e || "", item ? item.k+"_例句" : ""); });
+el("speakBtnExample").addEventListener("click", (e)=>{ e.stopPropagation(); const item = queue[currentIndex]; speak(item?.e || "", item ? item.k+"_example" : ""); });
 el("rate0").addEventListener("click", ()=>rate(0));
 el("rate1").addEventListener("click", ()=>rate(1));
 el("rate2").addEventListener("click", ()=>rate(2));

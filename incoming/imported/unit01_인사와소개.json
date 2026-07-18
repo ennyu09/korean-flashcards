@@ -1,0 +1,1529 @@
+[
+  {
+    "korean": "감사",
+    "romanization": "gamsa",
+    "pos": "名词",
+    "meaning": "感谢",
+    "example": "도와주셔서 감사합니다.",
+    "exampleTranslation": "谢谢您的帮助。",
+    "grammarBreakdown": [
+      {
+        "text": "도와주셔서",
+        "meaning": "因为帮助了",
+        "note": "도와주다(帮忙)的词干+ -시-(尊敬)+ -어서(表原因/先后)"
+      },
+      {
+        "text": "감사",
+        "meaning": "感谢",
+        "note": "名词"
+      },
+      {
+        "text": "합니다",
+        "meaning": "做（构成动词并加敬语终结词尾）",
+        "note": "하다(做)+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ],
+    "register": "中立",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "고맙다",
+    "romanization": "gomapda",
+    "pos": "形容词",
+    "meaning": "感激，感谢",
+    "example": "만나서 정말 고맙습니다.",
+    "exampleTranslation": "见到您真的很感激。",
+    "grammarBreakdown": [
+      {
+        "text": "만나서",
+        "meaning": "见面之后",
+        "note": "만나다(见面)的词干+ -아서/어서(表原因/先后)"
+      },
+      {
+        "text": "정말",
+        "meaning": "真的",
+        "note": "副词"
+      },
+      {
+        "text": "고맙습니다",
+        "meaning": "感谢",
+        "note": "고맙다(感谢)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ],
+    "register": "中立",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "국적",
+    "romanization": "gukjeok",
+    "pos": "名词",
+    "meaning": "国籍",
+    "example": "제 국적은 중국입니다.",
+    "exampleTranslation": "我的国籍是中国。",
+    "grammarBreakdown": [
+      {
+        "text": "제",
+        "meaning": "我的",
+        "note": "저(我，敬语)+의(所有格助词)的缩略形式"
+      },
+      {
+        "text": "국적",
+        "meaning": "国籍",
+        "note": "名词"
+      },
+      {
+        "text": "은",
+        "meaning": "—",
+        "note": "主题助词，标记句子的主题"
+      },
+      {
+        "text": "중국",
+        "meaning": "中国",
+        "note": "名词"
+      },
+      {
+        "text": "입니다",
+        "meaning": "是……",
+        "note": "이다(是)的敬语终结形：词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ],
+    "register": "中立",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "나",
+    "romanization": "na",
+    "pos": "代词",
+    "meaning": "我",
+    "example": "나는 학생입니다.",
+    "exampleTranslation": "我是学生。",
+    "grammarBreakdown": [
+      {
+        "text": "나",
+        "meaning": "我（非敬语）",
+        "note": "人称代词"
+      },
+      {
+        "text": "는",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "학생",
+        "meaning": "学生",
+        "note": "名词"
+      },
+      {
+        "text": "입니다",
+        "meaning": "是……",
+        "note": "이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ],
+    "register": "非敬语（반말）",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "나라",
+    "romanization": "nara",
+    "pos": "名词",
+    "meaning": "国家",
+    "example": "어느 나라에서 오셨어요?",
+    "exampleTranslation": "您是从哪个国家来的？",
+    "grammarBreakdown": [
+      {
+        "text": "어느",
+        "meaning": "哪个",
+        "note": "冠形词，修饰后面的名词"
+      },
+      {
+        "text": "나라",
+        "meaning": "国家",
+        "note": "名词"
+      },
+      {
+        "text": "에서",
+        "meaning": "从……",
+        "note": "表示来源/出发点的助词"
+      },
+      {
+        "text": "오셨어요",
+        "meaning": "来了（敬语疑问）",
+        "note": "오다(来)的词干+ -시-（尊敬阶标记）+ -었-（过去时标记）+ -어요（非格式体敬语终结词尾，해요体）"
+      }
+    ],
+    "register": "中立",
+    "sentenceType": "疑问句",
+    "formalityLevel": "非格式体敬语（해요体）"
+  },
+  {
+    "korean": "너",
+    "romanization": "neo",
+    "pos": "代词",
+    "meaning": "你",
+    "example": "너는 이름이 뭐야?",
+    "exampleTranslation": "你叫什么名字？",
+    "grammarBreakdown": [
+      {
+        "text": "너",
+        "meaning": "你（非敬语）",
+        "note": "人称代词"
+      },
+      {
+        "text": "는",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "이름",
+        "meaning": "名字",
+        "note": "名词"
+      },
+      {
+        "text": "이",
+        "meaning": "—",
+        "note": "主格助词"
+      },
+      {
+        "text": "뭐야",
+        "meaning": "是什么（非敬语）",
+        "note": "뭐(什么)+야(非敬语终结词尾，用于疑问句)"
+      }
+    ],
+    "register": "非敬语（반말）",
+    "sentenceType": "疑问句",
+    "formalityLevel": "非敬语（반말）"
+  },
+  {
+    "korean": "다른",
+    "romanization": "dareun",
+    "pos": "冠形词",
+    "meaning": "别的，其他的",
+    "example": "다른 나라 친구를 사귀고 싶습니다.",
+    "exampleTranslation": "我想交别的国家的朋友。",
+    "grammarBreakdown": [
+      {
+        "text": "다른",
+        "meaning": "别的",
+        "note": "冠形词，修饰나라"
+      },
+      {
+        "text": "나라",
+        "meaning": "国家",
+        "note": "名词，修饰친구"
+      },
+      {
+        "text": "친구",
+        "meaning": "朋友",
+        "note": "名词"
+      },
+      {
+        "text": "를",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "사귀고 싶습니다",
+        "meaning": "想要交往",
+        "note": "사귀다(交往)的词干+ -고 싶다(想要做……)+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ],
+    "register": "中立",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "독일",
+    "romanization": "dogil",
+    "pos": "名词",
+    "meaning": "德国",
+    "example": "저는 독일에서 왔습니다.",
+    "exampleTranslation": "我来自德国。",
+    "grammarBreakdown": [
+      {
+        "text": "저",
+        "meaning": "我（敬语）",
+        "note": "人称代词"
+      },
+      {
+        "text": "는",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "독일",
+        "meaning": "德国",
+        "note": "名词"
+      },
+      {
+        "text": "에서",
+        "meaning": "从……",
+        "note": "表示来源的助词"
+      },
+      {
+        "text": "왔습니다",
+        "meaning": "来了",
+        "note": "오다(来)的词干变化+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ],
+    "register": "中立",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "러시아",
+    "romanization": "reosia",
+    "pos": "名词",
+    "meaning": "俄罗斯",
+    "example": "러시아는 아주 넓은 나라입니다.",
+    "exampleTranslation": "俄罗斯是非常辽阔的国家。",
+    "grammarBreakdown": [
+      {
+        "text": "러시아",
+        "meaning": "俄罗斯",
+        "note": "名词"
+      },
+      {
+        "text": "는",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "아주",
+        "meaning": "非常",
+        "note": "副词"
+      },
+      {
+        "text": "넓은",
+        "meaning": "宽广的",
+        "note": "넓다(宽广)的词干+ -은(冠形词形，修饰后面的名词)"
+      },
+      {
+        "text": "나라",
+        "meaning": "国家",
+        "note": "名词"
+      },
+      {
+        "text": "입니다",
+        "meaning": "是……",
+        "note": "이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ],
+    "register": "中立",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "말레이시아",
+    "romanization": "malleisia",
+    "pos": "名词",
+    "meaning": "马来西亚",
+    "example": "말레이시아에는 다양한 음식이 있습니다.",
+    "exampleTranslation": "马来西亚有多种多样的美食。",
+    "grammarBreakdown": [
+      {
+        "text": "말레이시아",
+        "meaning": "马来西亚",
+        "note": "名词"
+      },
+      {
+        "text": "에는",
+        "meaning": "在……（强调）",
+        "note": "에(处所助词)+는(主题助词，表强调/对比)"
+      },
+      {
+        "text": "다양한",
+        "meaning": "多样的",
+        "note": "다양하다(多样)的词干+ -ㄴ(冠形词形)"
+      },
+      {
+        "text": "음식",
+        "meaning": "食物",
+        "note": "名词"
+      },
+      {
+        "text": "이",
+        "meaning": "—",
+        "note": "主格助词"
+      },
+      {
+        "text": "있습니다",
+        "meaning": "有……",
+        "note": "있다(有/存在)+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ],
+    "register": "中立",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "말씀",
+    "romanization": "malsseum",
+    "pos": "名词",
+    "meaning": "话",
+    "example": "무슨 말씀이신지 잘 모르겠습니다.",
+    "exampleTranslation": "我不太明白您说的是什么意思。",
+    "grammarBreakdown": [
+      {
+        "text": "무슨",
+        "meaning": "什么样的",
+        "note": "冠形词"
+      },
+      {
+        "text": "말씀",
+        "meaning": "话（敬语）",
+        "note": "名词"
+      },
+      {
+        "text": "이신지",
+        "meaning": "是不是……",
+        "note": "이다(是)+ -시-(尊敬)+ -ㄴ지(表不确定的疑问连接词尾)"
+      },
+      {
+        "text": "잘",
+        "meaning": "好好地",
+        "note": "副词"
+      },
+      {
+        "text": "모르겠습니다",
+        "meaning": "不太清楚",
+        "note": "모르다(不知道)的词干+ -겠-（意志/推测·将来时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ],
+    "register": "敬语",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "몽골",
+    "romanization": "monggol",
+    "pos": "名词",
+    "meaning": "蒙古",
+    "example": "몽골은 초원으로 유명합니다.",
+    "exampleTranslation": "蒙古以草原闻名。",
+    "grammarBreakdown": [
+      {
+        "text": "몽골",
+        "meaning": "蒙古",
+        "note": "名词"
+      },
+      {
+        "text": "은",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "초원",
+        "meaning": "草原",
+        "note": "名词"
+      },
+      {
+        "text": "으로",
+        "meaning": "以……",
+        "note": "表示手段/原因的助词"
+      },
+      {
+        "text": "유명합니다",
+        "meaning": "有名",
+        "note": "유명하다(有名)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ],
+    "register": "中立",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "미국",
+    "romanization": "miguk",
+    "pos": "名词",
+    "meaning": "美国",
+    "example": "저는 미국에서 태어났습니다.",
+    "exampleTranslation": "我出生在美国。",
+    "grammarBreakdown": [
+      {
+        "text": "저",
+        "meaning": "我（敬语）",
+        "note": "人称代词"
+      },
+      {
+        "text": "는",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "미국",
+        "meaning": "美国",
+        "note": "名词"
+      },
+      {
+        "text": "에서",
+        "meaning": "在……（出生地点）",
+        "note": "处所助词"
+      },
+      {
+        "text": "태어났습니다",
+        "meaning": "出生了",
+        "note": "태어나다(出生)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ],
+    "register": "中立",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "반갑다",
+    "romanization": "bangapda",
+    "pos": "形容词",
+    "meaning": "高兴，愉快（见面时用）",
+    "example": "만나서 반갑습니다.",
+    "exampleTranslation": "很高兴认识您。",
+    "grammarBreakdown": [
+      {
+        "text": "만나서",
+        "meaning": "见面之后",
+        "note": "만나다(见面)+ -아서/어서"
+      },
+      {
+        "text": "반갑습니다",
+        "meaning": "高兴",
+        "note": "반갑다(高兴)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ],
+    "register": "中立",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "베트남",
+    "romanization": "beteunam",
+    "pos": "名词",
+    "meaning": "越南",
+    "example": "베트남 음식은 맛있습니다.",
+    "exampleTranslation": "越南菜很好吃。",
+    "grammarBreakdown": [
+      {
+        "text": "베트남",
+        "meaning": "越南",
+        "note": "名词，修饰음식"
+      },
+      {
+        "text": "음식",
+        "meaning": "食物",
+        "note": "名词"
+      },
+      {
+        "text": "은",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "맛있습니다",
+        "meaning": "好吃",
+        "note": "맛있다(好吃)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ],
+    "register": "中立",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "성함",
+    "romanization": "seongham",
+    "pos": "名词",
+    "meaning": "姓名",
+    "example": "성함이 어떻게 되세요?",
+    "exampleTranslation": "请问您贵姓大名？",
+    "grammarBreakdown": [
+      {
+        "text": "성함",
+        "meaning": "姓名（敬语）",
+        "note": "名词"
+      },
+      {
+        "text": "이",
+        "meaning": "—",
+        "note": "主格助词"
+      },
+      {
+        "text": "어떻게",
+        "meaning": "怎样",
+        "note": "副词"
+      },
+      {
+        "text": "되세요",
+        "meaning": "是（敬语疑问）",
+        "note": "되다(成为)的词干+ -시-（尊敬阶标记）+ -어요（非格式体敬语终结词尾，해요体）"
+      }
+    ],
+    "register": "敬语",
+    "sentenceType": "疑问句",
+    "formalityLevel": "非格式体敬语（해요体）"
+  },
+  {
+    "korean": "소개",
+    "romanization": "sogae",
+    "pos": "名词",
+    "meaning": "介绍",
+    "example": "제 친구를 소개하고 싶습니다.",
+    "exampleTranslation": "我想介绍一下我的朋友。",
+    "grammarBreakdown": [
+      {
+        "text": "제",
+        "meaning": "我的",
+        "note": "저의 缩略形式"
+      },
+      {
+        "text": "친구",
+        "meaning": "朋友",
+        "note": "名词"
+      },
+      {
+        "text": "를",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "소개하고 싶습니다",
+        "meaning": "想要介绍",
+        "note": "소개하다(介绍)的词干+ -고 싶다(想要)+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ],
+    "register": "中立",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "손님",
+    "romanization": "sonnim",
+    "pos": "名词",
+    "meaning": "客人",
+    "example": "오늘 저희 집에 손님이 오십니다.",
+    "exampleTranslation": "今天有客人要来我家。",
+    "grammarBreakdown": [
+      {
+        "text": "오늘",
+        "meaning": "今天",
+        "note": "名词/副词"
+      },
+      {
+        "text": "저희",
+        "meaning": "我们（敬语）",
+        "note": "人称代词，修饰집"
+      },
+      {
+        "text": "집",
+        "meaning": "家",
+        "note": "名词"
+      },
+      {
+        "text": "에",
+        "meaning": "到……（方向）",
+        "note": "方向助词"
+      },
+      {
+        "text": "손님",
+        "meaning": "客人",
+        "note": "名词"
+      },
+      {
+        "text": "이",
+        "meaning": "—",
+        "note": "主格助词"
+      },
+      {
+        "text": "오십니다",
+        "meaning": "来（敬语）",
+        "note": "오다(来)的词干+ -시-（尊敬阶标记）+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ],
+    "register": "中立",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "실례",
+    "romanization": "sillye",
+    "pos": "名词",
+    "meaning": "失礼，打扰",
+    "example": "실례지만 성함이 어떻게 되세요?",
+    "exampleTranslation": "打扰一下，请问您贵姓？",
+    "grammarBreakdown": [
+      {
+        "text": "실례지만",
+        "meaning": "虽然失礼，但是",
+        "note": "실례(失礼)+이-(是)+ -지만(表转折的连接词尾)"
+      },
+      {
+        "text": "성함",
+        "meaning": "姓名（敬语）",
+        "note": "名词"
+      },
+      {
+        "text": "이",
+        "meaning": "—",
+        "note": "主格助词"
+      },
+      {
+        "text": "어떻게",
+        "meaning": "怎样",
+        "note": "副词"
+      },
+      {
+        "text": "되세요",
+        "meaning": "是（敬语疑问）",
+        "note": "되다(成为)的词干+ -시-（尊敬阶标记）+ -어요（非格式体敬语终结词尾，해요体）"
+      }
+    ],
+    "register": "中立",
+    "sentenceType": "疑问句",
+    "formalityLevel": "非格式体敬语（해요体）"
+  },
+  {
+    "korean": "씨",
+    "romanization": "ssi",
+    "pos": "依存名词",
+    "meaning": "先生，女士",
+    "example": "김민수 씨, 여기로 오세요.",
+    "exampleTranslation": "金民秀先生，请到这边来。",
+    "grammarBreakdown": [
+      {
+        "text": "김민수",
+        "meaning": "金民秀（人名）",
+        "note": "专有名词"
+      },
+      {
+        "text": "씨",
+        "meaning": "先生/女士",
+        "note": "依存名词，用于姓名后表敬称"
+      },
+      {
+        "text": "여기",
+        "meaning": "这里",
+        "note": "代词"
+      },
+      {
+        "text": "로",
+        "meaning": "往……",
+        "note": "方向助词"
+      },
+      {
+        "text": "오세요",
+        "meaning": "请来",
+        "note": "오다(来)的词干+ -시-（尊敬阶标记）+ -어요（非格式体敬语终结词尾，해요体）"
+      }
+    ],
+    "register": "敬语（用于姓名后表称呼）",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "안녕",
+    "romanization": "annyeong",
+    "pos": "名词/感叹词",
+    "meaning": "你好，再见",
+    "example": "친구를 만나서 \"안녕!\"이라고 인사했습니다.",
+    "exampleTranslation": "见到朋友打招呼说了\"你好！\"",
+    "grammarBreakdown": [
+      {
+        "text": "친구",
+        "meaning": "朋友",
+        "note": "名词"
+      },
+      {
+        "text": "를",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "만나서",
+        "meaning": "见面之后",
+        "note": "만나다+ -아서/어서"
+      },
+      {
+        "text": "안녕",
+        "meaning": "你好",
+        "note": "名词/感叹词"
+      },
+      {
+        "text": "이라고",
+        "meaning": "……地（说）",
+        "note": "引用助词，表示引用的内容"
+      },
+      {
+        "text": "인사했습니다",
+        "meaning": "打招呼了",
+        "note": "인사하다(打招呼)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ],
+    "register": "非敬语（반말）",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "안녕히",
+    "romanization": "annyeonghi",
+    "pos": "副词",
+    "meaning": "平安地（用于告别语）",
+    "example": "안녕히 가세요.",
+    "exampleTranslation": "请慢走。",
+    "grammarBreakdown": [
+      {
+        "text": "안녕히",
+        "meaning": "平安地",
+        "note": "副词"
+      },
+      {
+        "text": "가세요",
+        "meaning": "请走",
+        "note": "가다(去)的词干+ -시-（尊敬阶标记）+ -어요（非格式体敬语终结词尾，해요体）"
+      }
+    ],
+    "register": "中立",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "어느",
+    "romanization": "eoneu",
+    "pos": "冠形词",
+    "meaning": "哪个",
+    "example": "어느 나라 사람이세요?",
+    "exampleTranslation": "您是哪个国家的人？",
+    "grammarBreakdown": [
+      {
+        "text": "어느",
+        "meaning": "哪个",
+        "note": "冠形词"
+      },
+      {
+        "text": "나라",
+        "meaning": "国家",
+        "note": "名词，修饰사람"
+      },
+      {
+        "text": "사람",
+        "meaning": "人",
+        "note": "名词"
+      },
+      {
+        "text": "이세요",
+        "meaning": "是……（敬语疑问）",
+        "note": "이다(是)+ -시-（尊敬阶标记）+ -어요（非格式体敬语终结词尾，해요体）"
+      }
+    ],
+    "register": "中立",
+    "sentenceType": "疑问句",
+    "formalityLevel": "非格式体敬语（해요体）"
+  },
+  {
+    "korean": "여러분",
+    "romanization": "yeoreobun",
+    "pos": "代词",
+    "meaning": "大家，各位",
+    "example": "여러분, 반갑습니다.",
+    "exampleTranslation": "大家好，很高兴见到大家。",
+    "grammarBreakdown": [
+      {
+        "text": "여러분",
+        "meaning": "大家，各位",
+        "note": "代词，称呼语"
+      },
+      {
+        "text": "반갑습니다",
+        "meaning": "高兴",
+        "note": "반갑다+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ],
+    "register": "中立",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "영국",
+    "romanization": "yeongguk",
+    "pos": "名词",
+    "meaning": "英国",
+    "example": "저는 영국에서 유학했습니다.",
+    "exampleTranslation": "我曾在英国留学。",
+    "grammarBreakdown": [
+      {
+        "text": "저",
+        "meaning": "我（敬语）",
+        "note": "人称代词"
+      },
+      {
+        "text": "는",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "영국",
+        "meaning": "英国",
+        "note": "名词"
+      },
+      {
+        "text": "에서",
+        "meaning": "在……",
+        "note": "处所助词"
+      },
+      {
+        "text": "유학했습니다",
+        "meaning": "留学了",
+        "note": "유학하다(留学)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ],
+    "register": "中立",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "외국인",
+    "romanization": "oegugin",
+    "pos": "名词",
+    "meaning": "外国人",
+    "example": "이 식당에는 외국인이 많습니다.",
+    "exampleTranslation": "这家餐厅有很多外国人。",
+    "grammarBreakdown": [
+      {
+        "text": "이",
+        "meaning": "这",
+        "note": "冠形词"
+      },
+      {
+        "text": "식당",
+        "meaning": "餐厅",
+        "note": "名词"
+      },
+      {
+        "text": "에는",
+        "meaning": "在……（强调）",
+        "note": "에(处所)+는(强调)"
+      },
+      {
+        "text": "외국인",
+        "meaning": "外国人",
+        "note": "名词"
+      },
+      {
+        "text": "이",
+        "meaning": "—",
+        "note": "主格助词"
+      },
+      {
+        "text": "많습니다",
+        "meaning": "多",
+        "note": "많다(多)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ],
+    "register": "中立",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "우리",
+    "romanization": "uri",
+    "pos": "代词",
+    "meaning": "我们",
+    "example": "우리 같이 사진을 찍읍시다.",
+    "exampleTranslation": "我们一起拍张照片吧。",
+    "grammarBreakdown": [
+      {
+        "text": "우리",
+        "meaning": "我们",
+        "note": "代词"
+      },
+      {
+        "text": "같이",
+        "meaning": "一起",
+        "note": "副词"
+      },
+      {
+        "text": "사진",
+        "meaning": "照片",
+        "note": "名词"
+      },
+      {
+        "text": "을",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "찍읍시다",
+        "meaning": "让我们拍吧",
+        "note": "찍다(拍)的词干+ -읍시다（共动句·格式体敬语终结词尾）"
+      }
+    ],
+    "register": "中立",
+    "sentenceType": "共动句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "우리나라",
+    "romanization": "urinara",
+    "pos": "名词",
+    "meaning": "我们国家",
+    "example": "우리나라는 사계절이 뚜렷합니다.",
+    "exampleTranslation": "我们国家四季分明。",
+    "grammarBreakdown": [
+      {
+        "text": "우리나라",
+        "meaning": "我们国家",
+        "note": "名词"
+      },
+      {
+        "text": "는",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "사계절",
+        "meaning": "四季",
+        "note": "名词"
+      },
+      {
+        "text": "이",
+        "meaning": "—",
+        "note": "主格助词"
+      },
+      {
+        "text": "뚜렷합니다",
+        "meaning": "分明",
+        "note": "뚜렷하다(分明)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ],
+    "register": "中立",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "이웃",
+    "romanization": "iut",
+    "pos": "名词",
+    "meaning": "邻居",
+    "example": "이웃과 사이좋게 지냅니다.",
+    "exampleTranslation": "和邻居相处得很融洽。",
+    "grammarBreakdown": [
+      {
+        "text": "이웃",
+        "meaning": "邻居",
+        "note": "名词"
+      },
+      {
+        "text": "과",
+        "meaning": "和……",
+        "note": "表共同对象的助词"
+      },
+      {
+        "text": "사이좋게",
+        "meaning": "和睦地",
+        "note": "사이좋다(要好)的词干+ -게(副词形词尾)"
+      },
+      {
+        "text": "지냅니다",
+        "meaning": "相处，生活",
+        "note": "지내다(相处)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ],
+    "register": "中立",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "인도네시아",
+    "romanization": "indonesia",
+    "pos": "名词",
+    "meaning": "印度尼西亚",
+    "example": "인도네시아는 섬이 많습니다.",
+    "exampleTranslation": "印度尼西亚有很多岛屿。",
+    "grammarBreakdown": [
+      {
+        "text": "인도네시아",
+        "meaning": "印度尼西亚",
+        "note": "名词"
+      },
+      {
+        "text": "는",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "섬",
+        "meaning": "岛",
+        "note": "名词"
+      },
+      {
+        "text": "이",
+        "meaning": "—",
+        "note": "主格助词"
+      },
+      {
+        "text": "많습니다",
+        "meaning": "多",
+        "note": "많다+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ],
+    "register": "中立",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "인사",
+    "romanization": "insa",
+    "pos": "名词",
+    "meaning": "打招呼，问候",
+    "example": "처음 만난 사람에게 먼저 인사했습니다.",
+    "exampleTranslation": "主动向初次见面的人打了招呼。",
+    "grammarBreakdown": [
+      {
+        "text": "처음",
+        "meaning": "第一次",
+        "note": "副词"
+      },
+      {
+        "text": "만난",
+        "meaning": "见到的",
+        "note": "만나다(见面)的词干+ -ㄴ(过去冠形词形)"
+      },
+      {
+        "text": "사람",
+        "meaning": "人",
+        "note": "名词"
+      },
+      {
+        "text": "에게",
+        "meaning": "向……",
+        "note": "表对象的助词"
+      },
+      {
+        "text": "먼저",
+        "meaning": "先",
+        "note": "副词"
+      },
+      {
+        "text": "인사했습니다",
+        "meaning": "打招呼了",
+        "note": "인사하다+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ],
+    "register": "中立",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "일본",
+    "romanization": "ilbon",
+    "pos": "名词",
+    "meaning": "日本",
+    "example": "일본은 한국과 가깝습니다.",
+    "exampleTranslation": "日本离韩国很近。",
+    "grammarBreakdown": [
+      {
+        "text": "일본",
+        "meaning": "日本",
+        "note": "名词"
+      },
+      {
+        "text": "은",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "한국",
+        "meaning": "韩国",
+        "note": "名词"
+      },
+      {
+        "text": "과",
+        "meaning": "和……",
+        "note": "表比较对象的助词"
+      },
+      {
+        "text": "가깝습니다",
+        "meaning": "近",
+        "note": "가깝다(近)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ],
+    "register": "中立",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "자기소개",
+    "romanization": "jagisogae",
+    "pos": "名词",
+    "meaning": "自我介绍",
+    "example": "먼저 간단히 자기소개를 하겠습니다.",
+    "exampleTranslation": "我先简单做一下自我介绍。",
+    "grammarBreakdown": [
+      {
+        "text": "먼저",
+        "meaning": "先",
+        "note": "副词"
+      },
+      {
+        "text": "간단히",
+        "meaning": "简单地",
+        "note": "副词"
+      },
+      {
+        "text": "자기소개",
+        "meaning": "自我介绍",
+        "note": "名词"
+      },
+      {
+        "text": "를",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "하겠습니다",
+        "meaning": "将要做",
+        "note": "하다(做)的词干+ -겠-（意志/推测·将来时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ],
+    "register": "中立",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "저",
+    "romanization": "jeo",
+    "pos": "代词",
+    "meaning": "我",
+    "example": "저는 한국어를 배우고 있습니다.",
+    "exampleTranslation": "我正在学韩语。",
+    "grammarBreakdown": [
+      {
+        "text": "저",
+        "meaning": "我（敬语）",
+        "note": "人称代词"
+      },
+      {
+        "text": "는",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "한국어",
+        "meaning": "韩语",
+        "note": "名词"
+      },
+      {
+        "text": "를",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "배우고 있습니다",
+        "meaning": "正在学",
+        "note": "배우다(学)的词干+ -고 있다(正在……)+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ],
+    "register": "敬语",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "homonymIndex": "03"
+  },
+  {
+    "korean": "저희",
+    "romanization": "jeohui",
+    "pos": "代词",
+    "meaning": "我们",
+    "example": "저희는 내일 만나기로 했습니다.",
+    "exampleTranslation": "我们约好明天见面。",
+    "grammarBreakdown": [
+      {
+        "text": "저희",
+        "meaning": "我们（敬语）",
+        "note": "代词"
+      },
+      {
+        "text": "는",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "내일",
+        "meaning": "明天",
+        "note": "名词/副词"
+      },
+      {
+        "text": "만나기로 했습니다",
+        "meaning": "决定见面了",
+        "note": "만나다(见面)的词干+ -기로 하다(决定做……)+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ],
+    "register": "敬语",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "죄송하다",
+    "romanization": "joesonghada",
+    "pos": "形容词",
+    "meaning": "抱歉",
+    "example": "늦어서 정말 죄송합니다.",
+    "exampleTranslation": "迟到了真的很抱歉。",
+    "grammarBreakdown": [
+      {
+        "text": "늦어서",
+        "meaning": "因为迟到了",
+        "note": "늦다(迟到)的词干+ -어서(表原因)"
+      },
+      {
+        "text": "정말",
+        "meaning": "真的",
+        "note": "副词"
+      },
+      {
+        "text": "죄송합니다",
+        "meaning": "抱歉",
+        "note": "죄송하다(抱歉)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ],
+    "register": "敬语",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "중국",
+    "romanization": "jungguk",
+    "pos": "名词",
+    "meaning": "中国",
+    "example": "저는 중국에서 왔습니다.",
+    "exampleTranslation": "我来自中国。",
+    "grammarBreakdown": [
+      {
+        "text": "저",
+        "meaning": "我（敬语）",
+        "note": "人称代词"
+      },
+      {
+        "text": "는",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "중국",
+        "meaning": "中国",
+        "note": "名词"
+      },
+      {
+        "text": "에서",
+        "meaning": "从……",
+        "note": "处所助词"
+      },
+      {
+        "text": "왔습니다",
+        "meaning": "来了",
+        "note": "오다+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ],
+    "register": "中立",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "처음",
+    "romanization": "cheoeum",
+    "pos": "名词",
+    "meaning": "第一次，最初",
+    "example": "이곳은 처음 와 봅니다.",
+    "exampleTranslation": "这个地方我是第一次来。",
+    "grammarBreakdown": [
+      {
+        "text": "이곳",
+        "meaning": "这个地方",
+        "note": "名词"
+      },
+      {
+        "text": "은",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "처음",
+        "meaning": "第一次",
+        "note": "副词"
+      },
+      {
+        "text": "와 봅니다",
+        "meaning": "来过（尝试）",
+        "note": "오다(来)的词干变化+ -아/어 보다(尝试/经历过……)+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ],
+    "register": "中立",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "캐나다",
+    "romanization": "kaenada",
+    "pos": "名词",
+    "meaning": "加拿大",
+    "example": "캐나다는 겨울이 아주 춥습니다.",
+    "exampleTranslation": "加拿大冬天非常冷。",
+    "grammarBreakdown": [
+      {
+        "text": "캐나다",
+        "meaning": "加拿大",
+        "note": "名词"
+      },
+      {
+        "text": "는",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "겨울",
+        "meaning": "冬天",
+        "note": "名词"
+      },
+      {
+        "text": "이",
+        "meaning": "—",
+        "note": "主格助词"
+      },
+      {
+        "text": "아주",
+        "meaning": "非常",
+        "note": "副词"
+      },
+      {
+        "text": "춥습니다",
+        "meaning": "冷",
+        "note": "춥다(冷)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ],
+    "register": "中立",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "태국",
+    "romanization": "taeguk",
+    "pos": "名词",
+    "meaning": "泰国",
+    "example": "태국 여행은 정말 즐거웠습니다.",
+    "exampleTranslation": "泰国之旅真的很愉快。",
+    "grammarBreakdown": [
+      {
+        "text": "태국",
+        "meaning": "泰国",
+        "note": "名词，修饰여행"
+      },
+      {
+        "text": "여행",
+        "meaning": "旅行",
+        "note": "名词"
+      },
+      {
+        "text": "은",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "정말",
+        "meaning": "真的",
+        "note": "副词"
+      },
+      {
+        "text": "즐거웠습니다",
+        "meaning": "愉快",
+        "note": "즐겁다(愉快)的词干变化+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ],
+    "register": "中立",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "프랑스",
+    "romanization": "peurangseu",
+    "pos": "名词",
+    "meaning": "法国",
+    "example": "프랑스는 예술로 유명합니다.",
+    "exampleTranslation": "法国以艺术闻名。",
+    "grammarBreakdown": [
+      {
+        "text": "프랑스",
+        "meaning": "法国",
+        "note": "名词"
+      },
+      {
+        "text": "는",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "예술",
+        "meaning": "艺术",
+        "note": "名词"
+      },
+      {
+        "text": "로",
+        "meaning": "以……",
+        "note": "表手段/原因的助词"
+      },
+      {
+        "text": "유명합니다",
+        "meaning": "有名",
+        "note": "유명하다+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ],
+    "register": "中立",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "한국",
+    "romanization": "hanguk",
+    "pos": "名词",
+    "meaning": "韩国",
+    "example": "저는 한국에서 삼 년 동안 살았습니다.",
+    "exampleTranslation": "我在韩国生活了三年。",
+    "grammarBreakdown": [
+      {
+        "text": "저",
+        "meaning": "我（敬语）",
+        "note": "人称代词"
+      },
+      {
+        "text": "는",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "한국",
+        "meaning": "韩国",
+        "note": "名词"
+      },
+      {
+        "text": "에서",
+        "meaning": "在……",
+        "note": "处所助词"
+      },
+      {
+        "text": "삼 년",
+        "meaning": "三年",
+        "note": "数量结构"
+      },
+      {
+        "text": "동안",
+        "meaning": "期间",
+        "note": "后置名词"
+      },
+      {
+        "text": "살았습니다",
+        "meaning": "生活了",
+        "note": "살다(生活)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ],
+    "register": "中立",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  }
+]

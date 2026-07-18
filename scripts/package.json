@@ -1,0 +1,13 @@
+{
+  "name": "korean-flashcard-scripts",
+  "private": true,
+  "version": "1.0.0",
+  "description": "维护工具：批量校正罗马音、批量生成发音 mp3。不是网站本身的一部分。",
+  "scripts": {
+    "romanize": "node regenerate-romanization.js",
+    "audio": "node generate-audio.js"
+  },
+  "dependencies": {
+    "koroman": "^1.0.16"
+  }
+}

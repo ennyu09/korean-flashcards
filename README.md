@@ -77,6 +77,7 @@
 | `t` | 例句中文翻译 | 必填 |
 | `g` | 例句成分拆解，数组，每项 `{x:词/短语, y:语法说明}` | 选填，不填就不显示"成分拆解"区块 |
 | `rg` | 敬阶标注（比如"非敬语（반말）"），只在不是中立/默认用法时填 | 选填，不填就不显示红色标签 |
+| `hi` | 同形异义词编号（官方词典里同拼写的第几个独立词条，如"01""04"），只在这个词跟之前某个已完成 Unit 里的词拼写完全一样时才填 | 选填，不填就不显示角标，绝大多数词都不用填 |
 
 ## 怎么加新 Unit 的词
 
@@ -84,7 +85,7 @@
 
 ## 新 Unit 文件命名约定
 
-以后每个 Unit 的原始词表文件统一按 `unitXX_韩语主题名.json` 命名（比如 `unit03_핵심동사1.json`），数组里每项用这几个字段：`korean / romanization / pos / meaning / example / exampleTranslation / grammarBreakdown / register`（跟上面 `k/r/p/m/e/t/g/rg` 一一对应，我导入时会自动转换）。发文件给我时按这个格式来，方便对应到正确的 Chapter/Unit，不容易搞混。
+以后每个 Unit 的原始词表文件统一按 `unitXX_韩语主题名.json` 命名（比如 `unit03_핵심동사1.json`），数组里每项用这几个字段：`korean / romanization / pos / meaning / example / exampleTranslation / grammarBreakdown / register / homonymIndex`（跟上面 `k/r/p/m/e/t/g/rg/hi` 一一对应，我导入时会自动转换）。发文件给我时按这个格式来，方便对应到正确的 Chapter/Unit，不容易搞混。
 
 ## 学习进度保存在哪里
 
