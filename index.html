@@ -688,6 +688,24 @@
     gap:6px;
   }
   .speak-btn:hover{background:var(--paper-2);}
+  .speed-control{
+    display:inline-flex;
+    align-items:center;
+    gap:6px;
+    margin-bottom:14px;
+  }
+  .speed-control .speed-label{font-size:11px; color:var(--ink-soft);}
+  .speed-btn{
+    border:1px solid rgba(0,0,0,0.1);
+    background:var(--paper);
+    color:var(--ink-soft);
+    border-radius:999px;
+    padding:4px 11px;
+    font-size:11.5px;
+    cursor:pointer;
+  }
+  .speed-btn:hover{background:var(--paper-2);}
+  .speed-btn.active{background:var(--indigo); color:var(--white); border-color:var(--indigo);}
   .flip-hint{
     position:absolute;
     bottom:16px;
@@ -781,6 +799,8 @@
   }
   .grammar-table td.gcol-meaning{color:var(--ink);}
   .grammar-table td.gcol-note{color:var(--ink-soft);}
+  .grammar-table tr.target-row td{background:rgba(178,58,46,0.07);}
+  .grammar-table tr.target-row td.gcol-text{color:var(--seal-dark); font-weight:700;}
   .example-block{
     background:var(--paper);
     border-radius:12px;
@@ -1247,6 +1267,11 @@
               <p class="card-progress-text" id="cardProgressTextBack"></p>
             </div>
             <button class="speak-btn" id="speakBtnBack" style="margin-bottom:14px;">🔊 播放发音</button>
+            <div class="speed-control" id="speedControl">
+              <span class="speed-label">语速</span>
+              <button class="speed-btn" data-rate="1">1x</button>
+              <button class="speed-btn" data-rate="0.75">0.75x</button>
+            </div>
             <div class="meta-tags" id="metaTags"></div>
             <p class="meaning" id="meaning"></p>
             <div class="example-block">
@@ -1928,7 +1953,7 @@ function renderCard(){
   grammarBlock.classList.remove("open"); // 每张新卡片默认折叠，不沿用上一张的展开状态
   if(item.g && item.g.length > 0){
     el("grammarRows").innerHTML = item.g.map(row =>
-      '<tr><td class="gcol-text">'+escapeHtml(row.text||"")+'</td><td class="gcol-meaning">'+escapeHtml(row.meaning||"—")+'</td><td class="gcol-note">'+linkifyGrammarNote(row.note||"")+'</td></tr>'
+      '<tr'+(row.isTarget ? ' class="target-row"' : '')+'><td class="gcol-text">'+escapeHtml(row.text||"")+'</td><td class="gcol-meaning">'+escapeHtml(row.meaning||"—")+'</td><td class="gcol-note">'+linkifyGrammarNote(row.note||"")+'</td></tr>'
     ).join("");
     grammarBlock.style.display = "block";
   }else{
@@ -2000,11 +2025,28 @@ const AUDIO_OVERRIDES = {
   // "좀": "audio/좀-custom.mp3",
 };
 
+// 播放语速是全局偏好（存在 localStorage 里），单词发音和例句发音、预生成音频和
+// 浏览器兜底语音，四种情况都用同一个值，改一次全站生效，不用每张卡片重新调。
+const SPEED_KEY = "korean-flashcards-speed-v1";
+let playbackRate = parseFloat(localStorage.getItem(SPEED_KEY)) || 1;
+
+function setPlaybackRate(rate){
+  playbackRate = rate;
+  localStorage.setItem(SPEED_KEY, String(rate));
+  document.querySelectorAll(".speed-btn").forEach(btn=>{
+    btn.classList.toggle("active", parseFloat(btn.dataset.rate) === rate);
+  });
+}
+
 function speak(text, overrideKey){
   if(!text) return;
   const overridePath = overrideKey && (AUDIO_OVERRIDES[overrideKey] || `audio/${overrideKey}.mp3`);
   if(overridePath){
     const audio = new Audio(overridePath);
+    audio.playbackRate = playbackRate;
+    audio.preservesPitch = true;
+    audio.mozPreservesPitch = true;
+    audio.webkitPreservesPitch = true;
     let fellBack = false;
     const fallback = ()=>{
       if(fellBack) return;
@@ -2027,7 +2069,7 @@ function speakBrowserTTS(text){
     speechSynthesis.cancel();
     const u = new SpeechSynthesisUtterance(text);
     u.lang = "ko-KR";
-    u.rate = 0.9;
+    u.rate = playbackRate;
     const voice = pickKoreanVoice();
     if(voice) u.voice = voice;
     u.onerror = function(){
@@ -2279,6 +2321,13 @@ el("grammarBlock").addEventListener("click", (e)=>{
   e.stopPropagation();
   openGrammarPage(link.dataset.anchor);
 });
+el("speedControl").addEventListener("click", (e)=>{
+  const btn = e.target.closest(".speed-btn");
+  if(!btn) return;
+  e.stopPropagation();
+  setPlaybackRate(parseFloat(btn.dataset.rate));
+});
+setPlaybackRate(playbackRate);
 el("sidebarCloseBtn").addEventListener("click", closeSidebar);
 el("sidebarBackdrop").addEventListener("click", closeSidebar);
 document.addEventListener("keydown", (e)=>{
