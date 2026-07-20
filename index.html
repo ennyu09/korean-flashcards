@@ -2297,7 +2297,7 @@ el("card").addEventListener("keydown", (e)=>{
 });
 el("speakBtnFront").addEventListener("click", (e)=>{ e.stopPropagation(); const item = queue[currentIndex]; speak(item?.k || "", item?.k); });
 el("speakBtnBack").addEventListener("click", (e)=>{ e.stopPropagation(); const item = queue[currentIndex]; speak(item?.k || "", item?.k); });
-el("speakBtnExample").addEventListener("click", (e)=>{ e.stopPropagation(); const item = queue[currentIndex]; speak(item?.e || "", item ? item.k+"_example" : ""); });
+el("speakBtnExample").addEventListener("click", (e)=>{ e.stopPropagation(); const item = queue[currentIndex]; speak(item?.e || "", item ? item.k+(item.hi ? "_"+item.hi : "")+"_example" : ""); });
 el("rate0").addEventListener("click", ()=>rate(0));
 el("rate1").addEventListener("click", ()=>rate(1));
 el("rate2").addEventListener("click", ()=>rate(2));

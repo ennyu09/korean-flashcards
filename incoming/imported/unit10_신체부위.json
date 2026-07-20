@@ -1,0 +1,1278 @@
+[
+  {
+    "korean": "가슴",
+    "romanization": "gaseum",
+    "pos": "名词",
+    "meaning": "胸口",
+    "register": "中立",
+    "example": "가슴이 많이 아픕니다.",
+    "exampleTranslation": "胸口很疼。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "가슴이",
+        "meaning": "胸口",
+        "note": "가슴(胸口)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "많이",
+        "meaning": "很",
+        "note": "副词"
+      },
+      {
+        "text": "아픕니다",
+        "meaning": "疼",
+        "note": "아프다(疼)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "건강",
+    "romanization": "geongang",
+    "pos": "名词",
+    "meaning": "健康",
+    "register": "中立",
+    "example": "건강이 가장 중요합니다.",
+    "exampleTranslation": "健康最重要。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "건강이",
+        "meaning": "健康",
+        "note": "건강(健康)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "가장",
+        "meaning": "最",
+        "note": "副词"
+      },
+      {
+        "text": "중요합니다",
+        "meaning": "重要",
+        "note": "중요하다(重要)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "귀",
+    "romanization": "gwi",
+    "pos": "名词",
+    "meaning": "耳朵",
+    "register": "中立",
+    "example": "귀가 아픕니다.",
+    "exampleTranslation": "耳朵疼。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "귀가",
+        "meaning": "耳朵",
+        "note": "귀(耳朵)+가(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "아픕니다",
+        "meaning": "疼",
+        "note": "아프다(疼)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "낫다",
+    "romanization": "natda",
+    "pos": "动词",
+    "meaning": "痊愈",
+    "register": "中立",
+    "example": "감기가 이제 다 나았습니다.",
+    "exampleTranslation": "感冒现在完全好了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "감기가",
+        "meaning": "感冒",
+        "note": "감기(感冒)+가(主格助词)"
+      },
+      {
+        "text": "이제",
+        "meaning": "现在",
+        "note": "副词"
+      },
+      {
+        "text": "다",
+        "meaning": "都，完全",
+        "note": "副词"
+      },
+      {
+        "text": "나았습니다",
+        "meaning": "好了",
+        "note": "낫다(痊愈)的词干（ㅅ不规则：收音ㅅ在元音开头的语尾前脱落）+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "homonymIndex": "01"
+  },
+  {
+    "korean": "눈",
+    "romanization": "nun",
+    "pos": "名词",
+    "meaning": "眼睛",
+    "register": "中立",
+    "example": "눈이 정말 예쁩니다.",
+    "exampleTranslation": "眼睛真漂亮。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "눈이",
+        "meaning": "眼睛",
+        "note": "눈(眼睛)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "정말",
+        "meaning": "真的",
+        "note": "副词"
+      },
+      {
+        "text": "예쁩니다",
+        "meaning": "漂亮",
+        "note": "예쁘다(漂亮)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ],
+    "homonymIndex": "01"
+  },
+  {
+    "korean": "눈물",
+    "romanization": "nunmul",
+    "pos": "名词",
+    "meaning": "眼泪",
+    "register": "中立",
+    "example": "슬픈 영화를 보고 눈물이 났습니다.",
+    "exampleTranslation": "看了悲伤的电影流泪了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "슬픈",
+        "meaning": "悲伤的",
+        "note": "슬프다(悲伤)的词干+ -ㄴ(冠形词形)"
+      },
+      {
+        "text": "영화를",
+        "meaning": "电影",
+        "note": "영화(电影)+를(宾格助词)"
+      },
+      {
+        "text": "보고",
+        "meaning": "看了之后",
+        "note": "보다(看)的词干+ -고(然后)"
+      },
+      {
+        "text": "눈물이",
+        "meaning": "眼泪",
+        "note": "눈물(眼泪)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "났습니다",
+        "meaning": "流出了",
+        "note": "나다(出现/流出)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "늙다",
+    "romanization": "neukda",
+    "pos": "动词",
+    "meaning": "变老",
+    "register": "中立",
+    "example": "사람은 누구나 늙습니다.",
+    "exampleTranslation": "人都会变老。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "사람은",
+        "meaning": "人",
+        "note": "사람(人)+은(主题助词)"
+      },
+      {
+        "text": "누구나",
+        "meaning": "无论是谁",
+        "note": "누구(谁)+나(无论……都)"
+      },
+      {
+        "text": "늙습니다",
+        "meaning": "变老",
+        "note": "늙다(变老)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "다리",
+    "romanization": "dari",
+    "pos": "名词",
+    "meaning": "腿",
+    "register": "中立",
+    "example": "오래 걸어서 다리가 아픕니다.",
+    "exampleTranslation": "走了很久腿很疼。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "오래",
+        "meaning": "长久地",
+        "note": "副词"
+      },
+      {
+        "text": "걸어서",
+        "meaning": "走了之后",
+        "note": "걷다(走路)的词干变化+ -어서(因为/先后)"
+      },
+      {
+        "text": "다리가",
+        "meaning": "腿",
+        "note": "다리(腿)+가(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "아픕니다",
+        "meaning": "疼",
+        "note": "아프다(疼)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ],
+    "homonymIndex": "01"
+  },
+  {
+    "korean": "다치다",
+    "romanization": "dachida",
+    "pos": "动词",
+    "meaning": "受伤",
+    "register": "中立",
+    "example": "운동을 하다가 팔을 다쳤습니다.",
+    "exampleTranslation": "运动时伤到了胳膊。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "운동을",
+        "meaning": "运动",
+        "note": "운동(运动)+을(宾格助词)"
+      },
+      {
+        "text": "하다가",
+        "meaning": "做着做着",
+        "note": "하다(做)的词干+ -다가(做……的过程中)"
+      },
+      {
+        "text": "팔을",
+        "meaning": "手臂",
+        "note": "팔(手臂)+을(宾格助词)"
+      },
+      {
+        "text": "다쳤습니다",
+        "meaning": "受伤了",
+        "note": "다치다(受伤)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "등",
+    "romanization": "deung",
+    "pos": "名词",
+    "meaning": "背",
+    "register": "中立",
+    "example": "등이 조금 아픕니다.",
+    "exampleTranslation": "背有点疼。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "등이",
+        "meaning": "背",
+        "note": "등(背)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "조금",
+        "meaning": "一点儿",
+        "note": "副词"
+      },
+      {
+        "text": "아픕니다",
+        "meaning": "疼",
+        "note": "아프다(疼)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "땀",
+    "romanization": "ttam",
+    "pos": "名词",
+    "meaning": "汗",
+    "register": "中立",
+    "example": "운동을 했더니 땀이 많이 났습니다.",
+    "exampleTranslation": "运动后出了很多汗。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "운동을",
+        "meaning": "运动",
+        "note": "운동(运动)+을(宾格助词)"
+      },
+      {
+        "text": "했더니",
+        "meaning": "做了之后（发现）",
+        "note": "하다(做)的词干+ -았더니(做了……结果……)"
+      },
+      {
+        "text": "땀이",
+        "meaning": "汗",
+        "note": "땀(汗)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "많이",
+        "meaning": "很多",
+        "note": "副词"
+      },
+      {
+        "text": "났습니다",
+        "meaning": "出了",
+        "note": "나다(出现)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "뚱뚱하다",
+    "romanization": "ttungttunghada",
+    "pos": "形容词",
+    "meaning": "胖",
+    "register": "中立",
+    "example": "우리 강아지는 조금 뚱뚱합니다.",
+    "exampleTranslation": "我们家小狗有点胖。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "우리 강아지는",
+        "meaning": "我们家小狗",
+        "note": "우리(我们)+강아지(小狗)+는(主题助词)"
+      },
+      {
+        "text": "조금",
+        "meaning": "有点",
+        "note": "副词"
+      },
+      {
+        "text": "뚱뚱합니다",
+        "meaning": "胖",
+        "note": "뚱뚱하다(胖)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "머리",
+    "romanization": "meori",
+    "pos": "名词",
+    "meaning": "头，头发",
+    "register": "中立",
+    "example": "머리가 너무 아픕니다.",
+    "exampleTranslation": "头很疼。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "머리가",
+        "meaning": "头",
+        "note": "머리(头)+가(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "너무",
+        "meaning": "太",
+        "note": "副词"
+      },
+      {
+        "text": "아픕니다",
+        "meaning": "疼",
+        "note": "아프다(疼)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "머리카락",
+    "romanization": "meorikarak",
+    "pos": "名词",
+    "meaning": "头发",
+    "register": "中立",
+    "example": "머리카락이 많이 길었습니다.",
+    "exampleTranslation": "头发长了很多。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "머리카락이",
+        "meaning": "头发",
+        "note": "머리카락(头发)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "많이",
+        "meaning": "很多",
+        "note": "副词"
+      },
+      {
+        "text": "길었습니다",
+        "meaning": "长长了",
+        "note": "길다(长)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "목",
+    "romanization": "mok",
+    "pos": "名词",
+    "meaning": "脖子，喉咙",
+    "register": "中立",
+    "example": "목이 많이 아픕니다.",
+    "exampleTranslation": "喉咙很疼。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "목이",
+        "meaning": "喉咙",
+        "note": "목(喉咙)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "많이",
+        "meaning": "很",
+        "note": "副词"
+      },
+      {
+        "text": "아픕니다",
+        "meaning": "疼",
+        "note": "아프다(疼)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "목소리",
+    "romanization": "moksori",
+    "pos": "名词",
+    "meaning": "嗓音",
+    "register": "中立",
+    "example": "그 가수는 목소리가 아름답습니다.",
+    "exampleTranslation": "那位歌手的嗓音很美。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "그",
+        "meaning": "那",
+        "note": "冠形词"
+      },
+      {
+        "text": "가수는",
+        "meaning": "歌手",
+        "note": "가수(歌手)+는(主题助词)"
+      },
+      {
+        "text": "목소리가",
+        "meaning": "嗓音",
+        "note": "목소리(嗓音)+가(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "아름답습니다",
+        "meaning": "美",
+        "note": "아름답다(美丽)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "몸",
+    "romanization": "mom",
+    "pos": "名词",
+    "meaning": "身体",
+    "register": "中立",
+    "example": "몸이 안 좋아서 병원에 갔습니다.",
+    "exampleTranslation": "因为身体不舒服去了医院。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "몸이",
+        "meaning": "身体",
+        "note": "몸(身体)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "안",
+        "meaning": "不",
+        "note": "副词，否定"
+      },
+      {
+        "text": "좋아서",
+        "meaning": "好，所以",
+        "note": "좋다(好)的词干+ -아서(因为)"
+      },
+      {
+        "text": "병원에",
+        "meaning": "医院",
+        "note": "병원(医院)+에(方向助词)"
+      },
+      {
+        "text": "갔습니다",
+        "meaning": "去了",
+        "note": "가다(去)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "무릎",
+    "romanization": "mureup",
+    "pos": "名词",
+    "meaning": "膝盖",
+    "register": "中立",
+    "example": "넘어져서 무릎을 다쳤습니다.",
+    "exampleTranslation": "摔倒伤到了膝盖。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "넘어져서",
+        "meaning": "摔倒了",
+        "note": "넘어지다(摔倒)的词干+ -어서(因为/先后)"
+      },
+      {
+        "text": "무릎을",
+        "meaning": "膝盖",
+        "note": "무릎(膝盖)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "다쳤습니다",
+        "meaning": "伤到了",
+        "note": "다치다(受伤)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "발",
+    "romanization": "bal",
+    "pos": "名词",
+    "meaning": "脚",
+    "register": "中立",
+    "example": "하루 종일 걸어서 발이 아픕니다.",
+    "exampleTranslation": "走了一整天脚很疼。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "하루 종일",
+        "meaning": "一整天",
+        "note": "하루(一天)+종일(整天)"
+      },
+      {
+        "text": "걸어서",
+        "meaning": "走了之后",
+        "note": "걷다(走路)的词干变化+ -어서(因为/先后)"
+      },
+      {
+        "text": "발이",
+        "meaning": "脚",
+        "note": "발(脚)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "아픕니다",
+        "meaning": "疼",
+        "note": "아프다(疼)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "발가락",
+    "romanization": "balgarak",
+    "pos": "名词",
+    "meaning": "脚趾",
+    "register": "中立",
+    "example": "발가락을 다쳤습니다.",
+    "exampleTranslation": "脚趾受伤了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "발가락을",
+        "meaning": "脚趾",
+        "note": "발가락(脚趾)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "다쳤습니다",
+        "meaning": "受伤了",
+        "note": "다치다(受伤)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "배",
+    "romanization": "bae",
+    "pos": "名词",
+    "meaning": "肚子",
+    "register": "中立",
+    "example": "배가 너무 고픕니다.",
+    "exampleTranslation": "肚子太饿了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "배가",
+        "meaning": "肚子",
+        "note": "배(肚子)+가(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "너무",
+        "meaning": "太",
+        "note": "副词"
+      },
+      {
+        "text": "고픕니다",
+        "meaning": "饿",
+        "note": "고프다(饿)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ],
+    "homonymIndex": "01"
+  },
+  {
+    "korean": "살",
+    "romanization": "sal",
+    "pos": "名词",
+    "meaning": "肉，脂肪",
+    "register": "中立",
+    "example": "요즘 살이 많이 쪘습니다.",
+    "exampleTranslation": "最近胖了不少。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "요즘",
+        "meaning": "最近",
+        "note": "副词"
+      },
+      {
+        "text": "살이",
+        "meaning": "肉（体重）",
+        "note": "살(肉/体重)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "많이",
+        "meaning": "很多",
+        "note": "副词"
+      },
+      {
+        "text": "쪘습니다",
+        "meaning": "长了（肉）",
+        "note": "찌다(长肉)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ],
+    "homonymIndex": "01"
+  },
+  {
+    "korean": "손",
+    "romanization": "son",
+    "pos": "名词",
+    "meaning": "手",
+    "register": "中立",
+    "example": "손을 깨끗이 씻으세요.",
+    "exampleTranslation": "请把手洗干净。",
+    "sentenceType": "命令句（请求）",
+    "formalityLevel": "非格式体敬语（해요体）",
+    "grammarBreakdown": [
+      {
+        "text": "손을",
+        "meaning": "手",
+        "note": "손(手)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "깨끗이",
+        "meaning": "干净地",
+        "note": "副词"
+      },
+      {
+        "text": "씻으세요",
+        "meaning": "请洗",
+        "note": "씻다(洗)的词干+ -으시-（尊敬阶标记）+ -어요（请求/命令·非格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "손가락",
+    "romanization": "songarak",
+    "pos": "名词",
+    "meaning": "手指",
+    "register": "中立",
+    "example": "손가락을 베였습니다.",
+    "exampleTranslation": "手指被划伤了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "손가락을",
+        "meaning": "手指",
+        "note": "손가락(手指)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "베였습니다",
+        "meaning": "被划伤了",
+        "note": "베이다(被划伤)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "약하다",
+    "romanization": "yakhada",
+    "pos": "形容词",
+    "meaning": "弱",
+    "register": "中立",
+    "example": "저는 몸이 약한 편입니다.",
+    "exampleTranslation": "我的身体比较弱。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "저는",
+        "meaning": "我",
+        "note": "저(我)+는(主题助词)"
+      },
+      {
+        "text": "몸이",
+        "meaning": "身体",
+        "note": "몸(身体)+이(主格助词)"
+      },
+      {
+        "text": "약한 편입니다",
+        "meaning": "比较弱",
+        "note": "약하다(弱)的词干+ -ㄴ(冠形词形)+편(比较……的一类)+이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "어깨",
+    "romanization": "eokkae",
+    "pos": "名词",
+    "meaning": "肩膀",
+    "register": "中立",
+    "example": "어깨가 많이 뭉쳤습니다.",
+    "exampleTranslation": "肩膀很酸。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "어깨가",
+        "meaning": "肩膀",
+        "note": "어깨(肩膀)+가(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "많이",
+        "meaning": "很",
+        "note": "副词"
+      },
+      {
+        "text": "뭉쳤습니다",
+        "meaning": "酸痛僵硬了",
+        "note": "뭉치다(结块/僵硬)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "얼굴",
+    "romanization": "eolgul",
+    "pos": "名词",
+    "meaning": "脸",
+    "register": "中立",
+    "example": "얼굴이 빨개졌습니다.",
+    "exampleTranslation": "脸变红了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "얼굴이",
+        "meaning": "脸",
+        "note": "얼굴(脸)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "빨개졌습니다",
+        "meaning": "变红了",
+        "note": "빨갛다(红)的词干变化+ -아지다(变得……)+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "엉덩이",
+    "romanization": "eongdeongi",
+    "pos": "名词",
+    "meaning": "臀部",
+    "register": "中立",
+    "example": "오래 앉아서 엉덩이가 아픕니다.",
+    "exampleTranslation": "坐久了屁股疼。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "오래",
+        "meaning": "长久地",
+        "note": "副词"
+      },
+      {
+        "text": "앉아서",
+        "meaning": "坐了之后",
+        "note": "앉다(坐)的词干+ -아서(因为/先后)"
+      },
+      {
+        "text": "엉덩이가",
+        "meaning": "臀部",
+        "note": "엉덩이(臀部)+가(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "아픕니다",
+        "meaning": "疼",
+        "note": "아프다(疼)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "이",
+    "romanization": "i",
+    "pos": "名词",
+    "meaning": "牙齿",
+    "register": "中立",
+    "example": "이가 아파서 병원에 갑니다.",
+    "exampleTranslation": "因为牙疼去医院。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "이가",
+        "meaning": "牙齿",
+        "note": "이(牙齿)+가(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "아파서",
+        "meaning": "疼，所以",
+        "note": "아프다(疼)的词干+ -아서(因为)"
+      },
+      {
+        "text": "병원에",
+        "meaning": "医院",
+        "note": "병원(医院)+에(方向助词)"
+      },
+      {
+        "text": "갑니다",
+        "meaning": "去",
+        "note": "가다(去)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ],
+    "homonymIndex": "03"
+  },
+  {
+    "korean": "이마",
+    "romanization": "ima",
+    "pos": "名词",
+    "meaning": "额头",
+    "register": "中立",
+    "example": "이마에 땀이 났습니다.",
+    "exampleTranslation": "额头上出汗了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "이마에",
+        "meaning": "额头",
+        "note": "이마(额头)+에(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "땀이",
+        "meaning": "汗",
+        "note": "땀(汗)+이(主格助词)"
+      },
+      {
+        "text": "났습니다",
+        "meaning": "出了",
+        "note": "나다(出现)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "입",
+    "romanization": "ip",
+    "pos": "名词",
+    "meaning": "嘴",
+    "register": "中立",
+    "example": "입을 크게 벌리세요.",
+    "exampleTranslation": "请把嘴张大。",
+    "sentenceType": "命令句（请求）",
+    "formalityLevel": "非格式体敬语（해요体）",
+    "grammarBreakdown": [
+      {
+        "text": "입을",
+        "meaning": "嘴",
+        "note": "입(嘴)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "크게",
+        "meaning": "大大地",
+        "note": "크다(大)的词干+ -게(副词形)"
+      },
+      {
+        "text": "벌리세요",
+        "meaning": "请张开",
+        "note": "벌리다(张开)的词干+ -시-（尊敬阶标记）+ -어요（请求/命令·非格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "자라다",
+    "romanization": "jarada",
+    "pos": "动词",
+    "meaning": "成长",
+    "register": "中立",
+    "example": "아이가 건강하게 자랍니다.",
+    "exampleTranslation": "孩子健康地成长。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "아이가",
+        "meaning": "孩子",
+        "note": "아이(孩子)+가(主格助词)"
+      },
+      {
+        "text": "건강하게",
+        "meaning": "健康地",
+        "note": "건강하다(健康)的词干+ -게(副词形)"
+      },
+      {
+        "text": "자랍니다",
+        "meaning": "成长",
+        "note": "자라다(成长)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "젊다",
+    "romanization": "jeomda",
+    "pos": "形容词",
+    "meaning": "年轻",
+    "register": "中立",
+    "example": "그분은 아직 젊습니다.",
+    "exampleTranslation": "那位还很年轻。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "그분은",
+        "meaning": "那位",
+        "note": "그분(那位)+은(主题助词)"
+      },
+      {
+        "text": "아직",
+        "meaning": "还",
+        "note": "副词"
+      },
+      {
+        "text": "젊습니다",
+        "meaning": "年轻",
+        "note": "젊다(年轻)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "코",
+    "romanization": "ko",
+    "pos": "名词",
+    "meaning": "鼻子",
+    "register": "中立",
+    "example": "코가 막혔습니다.",
+    "exampleTranslation": "鼻子堵住了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "코가",
+        "meaning": "鼻子",
+        "note": "코(鼻子)+가(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "막혔습니다",
+        "meaning": "堵住了",
+        "note": "막히다(堵塞)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "키",
+    "romanization": "ki",
+    "pos": "名词",
+    "meaning": "身高",
+    "register": "中立",
+    "example": "형은 키가 아주 큽니다.",
+    "exampleTranslation": "哥哥个子很高。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "형은",
+        "meaning": "哥哥",
+        "note": "형(哥哥)+은(主题助词)"
+      },
+      {
+        "text": "키가",
+        "meaning": "身高",
+        "note": "키(身高)+가(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "아주",
+        "meaning": "很",
+        "note": "副词"
+      },
+      {
+        "text": "큽니다",
+        "meaning": "大（高）",
+        "note": "크다(大)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "튼튼하다",
+    "romanization": "teunteunhada",
+    "pos": "形容词",
+    "meaning": "结实",
+    "register": "中立",
+    "example": "이 아이는 몸이 튼튼합니다.",
+    "exampleTranslation": "这个孩子身体很结实。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "이",
+        "meaning": "这",
+        "note": "冠形词"
+      },
+      {
+        "text": "아이는",
+        "meaning": "孩子",
+        "note": "아이(孩子)+는(主题助词)"
+      },
+      {
+        "text": "몸이",
+        "meaning": "身体",
+        "note": "몸(身体)+이(主格助词)"
+      },
+      {
+        "text": "튼튼합니다",
+        "meaning": "结实",
+        "note": "튼튼하다(结实)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "팔",
+    "romanization": "pal",
+    "pos": "名词",
+    "meaning": "手臂",
+    "register": "中立",
+    "example": "팔을 다쳐서 병원에 갔습니다.",
+    "exampleTranslation": "因为伤到手臂去了医院。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "팔을",
+        "meaning": "手臂",
+        "note": "팔(手臂)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "다쳐서",
+        "meaning": "受伤了，所以",
+        "note": "다치다(受伤)的词干+ -어서(因为)"
+      },
+      {
+        "text": "병원에",
+        "meaning": "医院",
+        "note": "병원(医院)+에(方向助词)"
+      },
+      {
+        "text": "갔습니다",
+        "meaning": "去了",
+        "note": "가다(去)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ],
+    "homonymIndex": "01"
+  },
+  {
+    "korean": "피",
+    "romanization": "pi",
+    "pos": "名词",
+    "meaning": "血",
+    "register": "中立",
+    "example": "손가락에서 피가 났습니다.",
+    "exampleTranslation": "手指出血了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "손가락에서",
+        "meaning": "从手指",
+        "note": "손가락(手指)+에서(从……)"
+      },
+      {
+        "text": "피가",
+        "meaning": "血",
+        "note": "피(血)+가(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "났습니다",
+        "meaning": "出了",
+        "note": "나다(出现)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "허리",
+    "romanization": "heori",
+    "pos": "名词",
+    "meaning": "腰",
+    "register": "中立",
+    "example": "허리가 아파서 앉기 힘듭니다.",
+    "exampleTranslation": "腰疼得很难坐下。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "허리가",
+        "meaning": "腰",
+        "note": "허리(腰)+가(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "아파서",
+        "meaning": "疼，所以",
+        "note": "아프다(疼)的词干+ -아서(因为)"
+      },
+      {
+        "text": "앉기",
+        "meaning": "坐（这件事）",
+        "note": "앉다(坐)的词干+ -기(名词形)"
+      },
+      {
+        "text": "힘듭니다",
+        "meaning": "费力",
+        "note": "힘들다(费力)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "혀",
+    "romanization": "hyeo",
+    "pos": "名词",
+    "meaning": "舌头",
+    "register": "中立",
+    "example": "뜨거운 음식에 혀를 데었습니다.",
+    "exampleTranslation": "被烫的食物烫到了舌头。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "뜨거운",
+        "meaning": "烫的",
+        "note": "뜨겁다(烫)的词干+ -ㄴ(冠形词形)"
+      },
+      {
+        "text": "음식에",
+        "meaning": "食物",
+        "note": "음식(食物)+에(方向助词)"
+      },
+      {
+        "text": "혀를",
+        "meaning": "舌头",
+        "note": "혀(舌头)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "데었습니다",
+        "meaning": "烫伤了",
+        "note": "데다(烫伤)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "힘",
+    "romanization": "him",
+    "pos": "名词",
+    "meaning": "力气",
+    "register": "中立",
+    "example": "이 상자는 힘이 많이 듭니다.",
+    "exampleTranslation": "这个箱子很费力气。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "이",
+        "meaning": "这",
+        "note": "冠形词"
+      },
+      {
+        "text": "상자는",
+        "meaning": "箱子",
+        "note": "상자(箱子)+는(主题助词)"
+      },
+      {
+        "text": "힘이",
+        "meaning": "力气",
+        "note": "힘(力气)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "많이",
+        "meaning": "很多",
+        "note": "副词"
+      },
+      {
+        "text": "듭니다",
+        "meaning": "花费（力气）",
+        "note": "들다(花费)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  }
+]

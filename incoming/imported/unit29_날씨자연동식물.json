@@ -1,0 +1,1584 @@
+[
+  {
+    "korean": "가을",
+    "romanization": "gaeul",
+    "pos": "名词",
+    "meaning": "秋天",
+    "register": "中立",
+    "example": "가을이 되면 단풍이 듭니다.",
+    "exampleTranslation": "到了秋天枫叶就红了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "가을이 되면",
+        "meaning": "到了秋天的话",
+        "note": "가을(秋天)+이(主格助词)+되다(成为)+ -면(如果……的话)",
+        "isTarget": true
+      },
+      {
+        "text": "단풍이",
+        "meaning": "枫叶",
+        "note": "단풍(枫叶)+이(主格助词)"
+      },
+      {
+        "text": "듭니다",
+        "meaning": "变红",
+        "note": "들다(染上颜色)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "강",
+    "romanization": "gang",
+    "pos": "名词",
+    "meaning": "河",
+    "register": "中立",
+    "example": "강을 건너서 갔습니다.",
+    "exampleTranslation": "过了河去了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "강을",
+        "meaning": "河",
+        "note": "강(河)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "건너서",
+        "meaning": "过了之后",
+        "note": "건너다(过)的词干+ -어서(先后)"
+      },
+      {
+        "text": "갔습니다",
+        "meaning": "去了",
+        "note": "가다(去)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "강아지",
+    "romanization": "gangaji",
+    "pos": "名词",
+    "meaning": "小狗",
+    "register": "中立",
+    "example": "강아지를 키우고 있습니다.",
+    "exampleTranslation": "正在养小狗。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "강아지를",
+        "meaning": "小狗",
+        "note": "강아지(小狗)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "키우고 있습니다",
+        "meaning": "正在养",
+        "note": "키우다(养)的词干+ -고 있다(正在)+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "개",
+    "romanization": "gae",
+    "pos": "名词",
+    "meaning": "狗",
+    "register": "中立",
+    "example": "개가 크게 짖었습니다.",
+    "exampleTranslation": "狗大声叫了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "개가",
+        "meaning": "狗",
+        "note": "개(狗)+가(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "크게",
+        "meaning": "大声地",
+        "note": "크다(大)的词干+ -게(副词形)"
+      },
+      {
+        "text": "짖었습니다",
+        "meaning": "叫了",
+        "note": "짖다(吠叫)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ],
+    "homonymIndex": "03"
+  },
+  {
+    "korean": "겨울",
+    "romanization": "gyeoul",
+    "pos": "名词",
+    "meaning": "冬天",
+    "register": "中立",
+    "example": "겨울에는 눈이 옵니다.",
+    "exampleTranslation": "冬天下雪。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "겨울에는",
+        "meaning": "在冬天",
+        "note": "겨울(冬天)+에(时间)+는(强调)",
+        "isTarget": true
+      },
+      {
+        "text": "눈이",
+        "meaning": "雪",
+        "note": "눈(雪)+이(主格助词)"
+      },
+      {
+        "text": "옵니다",
+        "meaning": "下",
+        "note": "오다(来/下)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "계절",
+    "romanization": "gyejeol",
+    "pos": "名词",
+    "meaning": "季节",
+    "register": "中立",
+    "example": "계절이 바뀌었습니다.",
+    "exampleTranslation": "季节变了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "계절이",
+        "meaning": "季节",
+        "note": "계절(季节)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "바뀌었습니다",
+        "meaning": "变了",
+        "note": "바뀌다(改变)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "고양이",
+    "romanization": "goyangi",
+    "pos": "名词",
+    "meaning": "猫",
+    "register": "中立",
+    "example": "고양이를 기르고 있습니다.",
+    "exampleTranslation": "正在养猫。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "고양이를",
+        "meaning": "猫",
+        "note": "고양이(猫)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "기르고 있습니다",
+        "meaning": "正在养",
+        "note": "기르다(养)的词干+ -고 있다(正在)+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "구름",
+    "romanization": "gureum",
+    "pos": "名词",
+    "meaning": "云",
+    "register": "中立",
+    "example": "하늘에 구름이 끼었습니다.",
+    "exampleTranslation": "天上布满了云。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "하늘에",
+        "meaning": "天上",
+        "note": "하늘(天空)+에(处所助词)"
+      },
+      {
+        "text": "구름이",
+        "meaning": "云",
+        "note": "구름(云)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "끼었습니다",
+        "meaning": "布满了",
+        "note": "끼다(笼罩)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "그치다",
+    "romanization": "geuchida",
+    "pos": "动词",
+    "meaning": "停",
+    "register": "中立",
+    "example": "비가 드디어 그쳤습니다.",
+    "exampleTranslation": "雨终于停了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "비가",
+        "meaning": "雨",
+        "note": "비(雨)+가(主格助词)"
+      },
+      {
+        "text": "드디어",
+        "meaning": "终于",
+        "note": "副词"
+      },
+      {
+        "text": "그쳤습니다",
+        "meaning": "停了",
+        "note": "그치다(停)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "기온",
+    "romanization": "gion",
+    "pos": "名词",
+    "meaning": "气温",
+    "register": "中立",
+    "example": "오늘 기온이 높습니다.",
+    "exampleTranslation": "今天气温高。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "오늘",
+        "meaning": "今天",
+        "note": "名词"
+      },
+      {
+        "text": "기온이",
+        "meaning": "气温",
+        "note": "기온(气温)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "높습니다",
+        "meaning": "高",
+        "note": "높다(高)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "꽃",
+    "romanization": "kkot",
+    "pos": "名词",
+    "meaning": "花",
+    "register": "中立",
+    "example": "봄에는 꽃이 핍니다.",
+    "exampleTranslation": "春天花开了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "봄에는",
+        "meaning": "在春天",
+        "note": "봄(春天)+에(时间)+는(强调)"
+      },
+      {
+        "text": "꽃이",
+        "meaning": "花",
+        "note": "꽃(花)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "핍니다",
+        "meaning": "开",
+        "note": "피다(开花)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "나무",
+    "romanization": "namu",
+    "pos": "名词",
+    "meaning": "树",
+    "register": "中立",
+    "example": "마당에 나무를 심었습니다.",
+    "exampleTranslation": "在院子里种了树。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "마당에",
+        "meaning": "院子里",
+        "note": "마당(院子)+에(方向助词)"
+      },
+      {
+        "text": "나무를",
+        "meaning": "树",
+        "note": "나무(树)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "심었습니다",
+        "meaning": "种了",
+        "note": "심다(种植)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "날씨",
+    "romanization": "nalssi",
+    "pos": "名词",
+    "meaning": "天气",
+    "register": "中立",
+    "example": "오늘 날씨가 좋습니다.",
+    "exampleTranslation": "今天天气很好。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "오늘",
+        "meaning": "今天",
+        "note": "名词"
+      },
+      {
+        "text": "날씨가",
+        "meaning": "天气",
+        "note": "날씨(天气)+가(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "좋습니다",
+        "meaning": "好",
+        "note": "좋다(好)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "날아다니다",
+    "romanization": "naradanida",
+    "pos": "动词",
+    "meaning": "飞来飞去",
+    "register": "中立",
+    "example": "나비가 꽃 사이를 날아다닙니다.",
+    "exampleTranslation": "蝴蝶在花丛间飞来飞去。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "나비가",
+        "meaning": "蝴蝶",
+        "note": "나비(蝴蝶)+가(主格助词)"
+      },
+      {
+        "text": "꽃 사이를",
+        "meaning": "花丛间",
+        "note": "꽃(花)+사이(之间)+를(宾格助词)"
+      },
+      {
+        "text": "날아다닙니다",
+        "meaning": "飞来飞去",
+        "note": "날아다니다(飞来飞去)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "눈",
+    "romanization": "nun",
+    "pos": "名词",
+    "meaning": "雪",
+    "register": "中立",
+    "homonymIndex": "04",
+    "example": "겨울에 눈이 많이 옵니다.",
+    "exampleTranslation": "冬天下很多雪。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "겨울에",
+        "meaning": "冬天",
+        "note": "겨울(冬天)+에(时间助词)"
+      },
+      {
+        "text": "눈이",
+        "meaning": "雪",
+        "note": "눈(雪)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "많이",
+        "meaning": "很多",
+        "note": "副词"
+      },
+      {
+        "text": "옵니다",
+        "meaning": "下",
+        "note": "오다(来/下)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "단풍",
+    "romanization": "danpung",
+    "pos": "名词",
+    "meaning": "枫叶",
+    "register": "中立",
+    "example": "가을에 단풍이 듭니다.",
+    "exampleTranslation": "秋天枫叶变红。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "가을에",
+        "meaning": "秋天",
+        "note": "가을(秋天)+에(时间助词)"
+      },
+      {
+        "text": "단풍이",
+        "meaning": "枫叶",
+        "note": "단풍(枫叶)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "듭니다",
+        "meaning": "变红",
+        "note": "들다(染上颜色)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "닭",
+    "romanization": "dak",
+    "pos": "名词",
+    "meaning": "鸡",
+    "register": "中立",
+    "example": "마당에서 닭을 키웁니다.",
+    "exampleTranslation": "在院子里养鸡。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "마당에서",
+        "meaning": "在院子里",
+        "note": "마당(院子)+에서(处所助词)"
+      },
+      {
+        "text": "닭을",
+        "meaning": "鸡",
+        "note": "닭(鸡)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "키웁니다",
+        "meaning": "养",
+        "note": "키우다(养)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "닭고기",
+    "romanization": "dakgogi",
+    "pos": "名词",
+    "meaning": "鸡肉",
+    "register": "中立",
+    "example": "닭고기를 볶았습니다.",
+    "exampleTranslation": "炒了鸡肉。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "닭고기를",
+        "meaning": "鸡肉",
+        "note": "닭고기(鸡肉)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "볶았습니다",
+        "meaning": "炒了",
+        "note": "볶다(炒)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "동물",
+    "romanization": "dongmul",
+    "pos": "名词",
+    "meaning": "动物",
+    "register": "中立",
+    "example": "동물을 사랑합니다.",
+    "exampleTranslation": "热爱动物。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "동물을",
+        "meaning": "动物",
+        "note": "동물(动物)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "사랑합니다",
+        "meaning": "热爱",
+        "note": "사랑하다(爱)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "동물원",
+    "romanization": "dongmurwon",
+    "pos": "名词",
+    "meaning": "动物园",
+    "register": "中立",
+    "example": "아이와 동물원에 갔습니다.",
+    "exampleTranslation": "和孩子去了动物园。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "아이와",
+        "meaning": "和孩子",
+        "note": "아이(孩子)+와(和……)"
+      },
+      {
+        "text": "동물원에",
+        "meaning": "动物园",
+        "note": "동물원(动物园)+에(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "갔습니다",
+        "meaning": "去了",
+        "note": "가다(去)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "돼지",
+    "romanization": "dwaeji",
+    "pos": "名词",
+    "meaning": "猪",
+    "register": "中立",
+    "example": "농장에서 돼지를 기릅니다.",
+    "exampleTranslation": "在农场养猪。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "농장에서",
+        "meaning": "在农场",
+        "note": "농장(农场)+에서(处所助词)"
+      },
+      {
+        "text": "돼지를",
+        "meaning": "猪",
+        "note": "돼지(猪)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "기릅니다",
+        "meaning": "养",
+        "note": "기르다(养)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "돼지고기",
+    "romanization": "dwaejigogi",
+    "pos": "名词",
+    "meaning": "猪肉",
+    "register": "中立",
+    "example": "돼지고기를 구워 먹었습니다.",
+    "exampleTranslation": "烤了猪肉吃。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "돼지고기를",
+        "meaning": "猪肉",
+        "note": "돼지고기(猪肉)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "구워 먹었습니다",
+        "meaning": "烤了吃了",
+        "note": "굽다(烤)的词干变化（ㅂ不规则）+ -어(连接词尾)+먹다(吃)+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "땅",
+    "romanization": "ttang",
+    "pos": "名词",
+    "meaning": "地面，土地",
+    "register": "中立",
+    "example": "사과가 땅에 떨어졌습니다.",
+    "exampleTranslation": "苹果掉在了地上。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "사과가",
+        "meaning": "苹果",
+        "note": "사과(苹果)+가(主格助词)"
+      },
+      {
+        "text": "땅에",
+        "meaning": "地上",
+        "note": "땅(地面)+에(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "떨어졌습니다",
+        "meaning": "掉了",
+        "note": "떨어지다(掉落)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "모기",
+    "romanization": "mogi",
+    "pos": "名词",
+    "meaning": "蚊子",
+    "register": "中立",
+    "example": "모기에 물렸습니다.",
+    "exampleTranslation": "被蚊子咬了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "모기에",
+        "meaning": "蚊子",
+        "note": "모기(蚊子)+에(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "물렸습니다",
+        "meaning": "被咬了",
+        "note": "물리다(被咬)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "물",
+    "romanization": "mul",
+    "pos": "名词",
+    "meaning": "水",
+    "register": "中立",
+    "example": "물을 자주 마셔야 합니다.",
+    "exampleTranslation": "应该经常喝水。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "물을",
+        "meaning": "水",
+        "note": "물(水)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "자주",
+        "meaning": "经常",
+        "note": "副词"
+      },
+      {
+        "text": "마셔야 합니다",
+        "meaning": "应该喝",
+        "note": "마시다(喝)的词干+ -어야 하다(应该)+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "물고기",
+    "romanization": "mulgogi",
+    "pos": "名词",
+    "meaning": "鱼",
+    "register": "中立",
+    "example": "강에서 물고기를 잡았습니다.",
+    "exampleTranslation": "在河里抓了鱼。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "강에서",
+        "meaning": "在河里",
+        "note": "강(河)+에서(处所助词)"
+      },
+      {
+        "text": "물고기를",
+        "meaning": "鱼",
+        "note": "물고기(鱼)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "잡았습니다",
+        "meaning": "抓了",
+        "note": "잡다(抓)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "바다",
+    "romanization": "bada",
+    "pos": "名词",
+    "meaning": "大海",
+    "register": "中立",
+    "example": "배를 타고 바다를 건넜습니다.",
+    "exampleTranslation": "坐船过了海。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "배를",
+        "meaning": "船",
+        "note": "배(船)+를(宾格助词)"
+      },
+      {
+        "text": "타고",
+        "meaning": "坐着",
+        "note": "타다(坐)的词干+ -고(然后)"
+      },
+      {
+        "text": "바다를",
+        "meaning": "大海",
+        "note": "바다(大海)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "건넜습니다",
+        "meaning": "过了",
+        "note": "건너다(过)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "바닷가",
+    "romanization": "badatga",
+    "pos": "名词",
+    "meaning": "海边",
+    "register": "中立",
+    "example": "바닷가로 나가서 놀았습니다.",
+    "exampleTranslation": "去海边玩了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "바닷가로",
+        "meaning": "往海边",
+        "note": "바닷가(海边)+로(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "나가서",
+        "meaning": "出去之后",
+        "note": "나가다(出去)的词干+ -아서(先后)"
+      },
+      {
+        "text": "놀았습니다",
+        "meaning": "玩了",
+        "note": "놀다(玩)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "바람",
+    "romanization": "baram",
+    "pos": "名词",
+    "meaning": "风",
+    "register": "中立",
+    "example": "오늘 바람이 많이 붑니다.",
+    "exampleTranslation": "今天风刮得很大。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "오늘",
+        "meaning": "今天",
+        "note": "名词"
+      },
+      {
+        "text": "바람이",
+        "meaning": "风",
+        "note": "바람(风)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "많이",
+        "meaning": "很多",
+        "note": "副词"
+      },
+      {
+        "text": "붑니다",
+        "meaning": "刮",
+        "note": "불다(刮)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "뱀",
+    "romanization": "baem",
+    "pos": "名词",
+    "meaning": "蛇",
+    "register": "中立",
+    "example": "뱀을 보고 깜짝 놀랐습니다.",
+    "exampleTranslation": "看到蛇吓了一跳。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "뱀을",
+        "meaning": "蛇",
+        "note": "뱀(蛇)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "보고",
+        "meaning": "看到之后",
+        "note": "보다(看)的词干+ -고(然后)"
+      },
+      {
+        "text": "깜짝",
+        "meaning": "吓一跳地",
+        "note": "副词"
+      },
+      {
+        "text": "놀랐습니다",
+        "meaning": "惊讶了",
+        "note": "놀라다(惊讶)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "봄",
+    "romanization": "bom",
+    "pos": "名词",
+    "meaning": "春天",
+    "register": "中立",
+    "example": "봄이 되면 따뜻해집니다.",
+    "exampleTranslation": "到了春天会变暖和。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "봄이 되면",
+        "meaning": "到了春天的话",
+        "note": "봄(春天)+이(主格助词)+되다(成为)+ -면(如果……的话)",
+        "isTarget": true
+      },
+      {
+        "text": "따뜻해집니다",
+        "meaning": "变暖和",
+        "note": "따뜻하다(暖和)的词干+ -어지다(变得……)+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "사계절",
+    "romanization": "sagyejeol",
+    "pos": "名词",
+    "meaning": "四季",
+    "register": "中立",
+    "example": "한국은 사계절이 뚜렷합니다.",
+    "exampleTranslation": "韩国四季分明。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "한국은",
+        "meaning": "韩国",
+        "note": "한국(韩国)+은(主题助词)"
+      },
+      {
+        "text": "사계절이",
+        "meaning": "四季",
+        "note": "사계절(四季)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "뚜렷합니다",
+        "meaning": "分明",
+        "note": "뚜렷하다(分明)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "산",
+    "romanization": "san",
+    "pos": "名词",
+    "meaning": "山",
+    "register": "中立",
+    "example": "주말에 산에 오릅니다.",
+    "exampleTranslation": "周末爬山。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "주말에",
+        "meaning": "周末",
+        "note": "주말(周末)+에(时间助词)"
+      },
+      {
+        "text": "산에",
+        "meaning": "山",
+        "note": "산(山)+에(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "오릅니다",
+        "meaning": "爬",
+        "note": "오르다(爬)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "새",
+    "romanization": "sae",
+    "pos": "名词",
+    "meaning": "鸟",
+    "register": "中立",
+    "example": "나무 위에 새가 앉았습니다.",
+    "exampleTranslation": "鸟停在了树上。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "나무 위에",
+        "meaning": "树上",
+        "note": "나무(树)+위(上面)+에(处所助词)"
+      },
+      {
+        "text": "새가",
+        "meaning": "鸟",
+        "note": "새(鸟)+가(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "앉았습니다",
+        "meaning": "停了（坐下）",
+        "note": "앉다(坐)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ],
+    "homonymIndex": "03"
+  },
+  {
+    "korean": "섬",
+    "romanization": "seom",
+    "pos": "名词",
+    "meaning": "岛",
+    "register": "中立",
+    "example": "제주도는 큰 섬입니다.",
+    "exampleTranslation": "济州岛是大岛。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "제주도는",
+        "meaning": "济州岛",
+        "note": "제주도(济州岛)+는(主题助词)"
+      },
+      {
+        "text": "큰",
+        "meaning": "大的",
+        "note": "크다(大)的词干+ -ㄴ(冠形词形)"
+      },
+      {
+        "text": "섬입니다",
+        "meaning": "是岛",
+        "note": "섬(岛)+이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "쌀쌀하다",
+    "romanization": "ssalssalhada",
+    "pos": "形容词",
+    "meaning": "（天气）凉飕飕",
+    "register": "中立",
+    "example": "요즘 날씨가 쌀쌀합니다.",
+    "exampleTranslation": "最近天气凉飕飕的。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "요즘",
+        "meaning": "最近",
+        "note": "副词"
+      },
+      {
+        "text": "날씨가",
+        "meaning": "天气",
+        "note": "날씨(天气)+가(主格助词)"
+      },
+      {
+        "text": "쌀쌀합니다",
+        "meaning": "凉飕飕",
+        "note": "쌀쌀하다(凉飕飕)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "안개",
+    "romanization": "angae",
+    "pos": "名词",
+    "meaning": "雾",
+    "register": "中立",
+    "example": "아침에 안개가 끼었습니다.",
+    "exampleTranslation": "早上起了雾。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "아침에",
+        "meaning": "早上",
+        "note": "아침(早上)+에(时间助词)"
+      },
+      {
+        "text": "안개가",
+        "meaning": "雾",
+        "note": "안개(雾)+가(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "끼었습니다",
+        "meaning": "起了",
+        "note": "끼다(笼罩)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "얼음",
+    "romanization": "eoreum",
+    "pos": "名词",
+    "meaning": "冰",
+    "register": "中立",
+    "example": "얼음이 다 녹았습니다.",
+    "exampleTranslation": "冰都化了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "얼음이",
+        "meaning": "冰",
+        "note": "얼음(冰)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "다",
+        "meaning": "都",
+        "note": "副词"
+      },
+      {
+        "text": "녹았습니다",
+        "meaning": "化了",
+        "note": "녹다(融化)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "여름",
+    "romanization": "yeoreum",
+    "pos": "名词",
+    "meaning": "夏天",
+    "register": "中立",
+    "example": "여름에는 덥습니다.",
+    "exampleTranslation": "夏天很热。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "여름에는",
+        "meaning": "在夏天",
+        "note": "여름(夏天)+에(时间)+는(强调)",
+        "isTarget": true
+      },
+      {
+        "text": "덥습니다",
+        "meaning": "热",
+        "note": "덥다(热)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "영하",
+    "romanization": "yeongha",
+    "pos": "名词",
+    "meaning": "零下",
+    "register": "中立",
+    "example": "기온이 영하로 떨어졌습니다.",
+    "exampleTranslation": "气温降到了零下。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "기온이",
+        "meaning": "气温",
+        "note": "기온(气温)+이(主格助词)"
+      },
+      {
+        "text": "영하로",
+        "meaning": "到零下",
+        "note": "영하(零下)+로(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "떨어졌습니다",
+        "meaning": "降了",
+        "note": "떨어지다(下降)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "온도",
+    "romanization": "ondo",
+    "pos": "名词",
+    "meaning": "温度",
+    "register": "中立",
+    "example": "실내 온도가 높습니다.",
+    "exampleTranslation": "室内温度高。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "실내",
+        "meaning": "室内",
+        "note": "名词"
+      },
+      {
+        "text": "온도가",
+        "meaning": "温度",
+        "note": "온도(温度)+가(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "높습니다",
+        "meaning": "高",
+        "note": "높다(高)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "잎",
+    "romanization": "ip",
+    "pos": "名词",
+    "meaning": "叶子",
+    "register": "中立",
+    "example": "나뭇잎이 떨어집니다.",
+    "exampleTranslation": "树叶掉落。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "나뭇잎이",
+        "meaning": "树叶",
+        "note": "나무(树)+잎(叶子)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "떨어집니다",
+        "meaning": "掉落",
+        "note": "떨어지다(掉落)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "자연",
+    "romanization": "jayeon",
+    "pos": "名词/副词",
+    "meaning": "自然",
+    "register": "中立",
+    "example": "자연으로 돌아가고 싶습니다.",
+    "exampleTranslation": "想回归自然。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "자연으로",
+        "meaning": "回归自然",
+        "note": "자연(自然)+으로(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "돌아가고 싶습니다",
+        "meaning": "想回去",
+        "note": "돌아가다(回去)的词干+ -고 싶다(想要)+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "장마",
+    "romanization": "jangma",
+    "pos": "名词",
+    "meaning": "梅雨季",
+    "register": "中立",
+    "example": "장마가 곧 시작됩니다.",
+    "exampleTranslation": "梅雨季马上开始。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "장마가",
+        "meaning": "梅雨季",
+        "note": "장마(梅雨季)+가(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "곧",
+        "meaning": "马上",
+        "note": "副词"
+      },
+      {
+        "text": "시작됩니다",
+        "meaning": "开始",
+        "note": "시작되다(开始)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "장미",
+    "romanization": "jangmi",
+    "pos": "名词",
+    "meaning": "玫瑰",
+    "register": "中立",
+    "example": "장미가 아름답게 피었습니다.",
+    "exampleTranslation": "玫瑰美丽地绽放了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "장미가",
+        "meaning": "玫瑰",
+        "note": "장미(玫瑰)+가(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "아름답게",
+        "meaning": "美丽地",
+        "note": "아름답다(美丽)的词干+ -게(副词形)"
+      },
+      {
+        "text": "피었습니다",
+        "meaning": "开了",
+        "note": "피다(开花)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "코끼리",
+    "romanization": "kokkiri",
+    "pos": "名词",
+    "meaning": "大象",
+    "register": "中立",
+    "example": "동물원에서 코끼리를 봤습니다.",
+    "exampleTranslation": "在动物园看到了大象。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "동물원에서",
+        "meaning": "在动物园",
+        "note": "동물원(动物园)+에서(处所助词)"
+      },
+      {
+        "text": "코끼리를",
+        "meaning": "大象",
+        "note": "코끼리(大象)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "봤습니다",
+        "meaning": "看到了",
+        "note": "보다(看)的词干变化+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "태풍",
+    "romanization": "taepung",
+    "pos": "名词",
+    "meaning": "台风",
+    "register": "中立",
+    "example": "태풍이 세게 불었습니다.",
+    "exampleTranslation": "台风刮得很猛。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "태풍이",
+        "meaning": "台风",
+        "note": "태풍(台风)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "세게",
+        "meaning": "猛烈地",
+        "note": "세다(猛烈)的词干+ -게(副词形)"
+      },
+      {
+        "text": "불었습니다",
+        "meaning": "刮了",
+        "note": "불다(刮)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "토끼",
+    "romanization": "tokki",
+    "pos": "名词",
+    "meaning": "兔子",
+    "register": "中立",
+    "example": "토끼가 빠르게 뛰어갑니다.",
+    "exampleTranslation": "兔子快速地跑了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "토끼가",
+        "meaning": "兔子",
+        "note": "토끼(兔子)+가(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "빠르게",
+        "meaning": "快速地",
+        "note": "빠르다(快)的词干+ -게(副词形)"
+      },
+      {
+        "text": "뛰어갑니다",
+        "meaning": "跑去",
+        "note": "뛰어가다(跑去)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "피다",
+    "romanization": "pida",
+    "pos": "动词",
+    "meaning": "（花）开",
+    "register": "中立",
+    "example": "봄에 꽃이 핍니다.",
+    "exampleTranslation": "春天花开。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "봄에",
+        "meaning": "春天",
+        "note": "봄(春天)+에(时间助词)"
+      },
+      {
+        "text": "꽃이",
+        "meaning": "花",
+        "note": "꽃(花)+이(主格助词)"
+      },
+      {
+        "text": "핍니다",
+        "meaning": "开",
+        "note": "피다(开)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "하늘",
+    "romanization": "haneul",
+    "pos": "名词",
+    "meaning": "天空",
+    "register": "中立",
+    "example": "하늘이 아주 높습니다.",
+    "exampleTranslation": "天空很高。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "하늘이",
+        "meaning": "天空",
+        "note": "하늘(天空)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "아주",
+        "meaning": "很",
+        "note": "副词"
+      },
+      {
+        "text": "높습니다",
+        "meaning": "高",
+        "note": "높다(高)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "하늘색",
+    "romanization": "haneulsaek",
+    "pos": "名词",
+    "meaning": "天蓝色",
+    "register": "中立",
+    "example": "하늘색 옷을 좋아합니다.",
+    "exampleTranslation": "喜欢天蓝色的衣服。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "하늘색 옷을",
+        "meaning": "天蓝色的衣服",
+        "note": "하늘색(天蓝色)+옷(衣服)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "좋아합니다",
+        "meaning": "喜欢",
+        "note": "좋아하다(喜欢)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "해",
+    "romanization": "hae",
+    "pos": "名词",
+    "meaning": "太阳",
+    "register": "中立",
+    "example": "해가 동쪽에서 뜹니다.",
+    "exampleTranslation": "太阳从东边升起。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "해가",
+        "meaning": "太阳",
+        "note": "해(太阳)+가(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "동쪽에서",
+        "meaning": "从东边",
+        "note": "동쪽(东边)+에서(表来源的处所助词)"
+      },
+      {
+        "text": "뜹니다",
+        "meaning": "升起",
+        "note": "뜨다(升起)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "햇빛",
+    "romanization": "haetbit",
+    "pos": "名词",
+    "meaning": "阳光",
+    "register": "中立",
+    "example": "햇빛이 강하게 비칩니다.",
+    "exampleTranslation": "阳光强烈地照射。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "햇빛이",
+        "meaning": "阳光",
+        "note": "햇빛(阳光)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "강하게",
+        "meaning": "强烈地",
+        "note": "강하다(强烈)的词干+ -게(副词形)"
+      },
+      {
+        "text": "비칩니다",
+        "meaning": "照射",
+        "note": "비치다(照射)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "호랑이",
+    "romanization": "horangi",
+    "pos": "名词",
+    "meaning": "老虎",
+    "register": "中立",
+    "example": "호랑이는 힘이 셉니다.",
+    "exampleTranslation": "老虎力气很大。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "호랑이는",
+        "meaning": "老虎",
+        "note": "호랑이(老虎)+는(主题助词)",
+        "isTarget": true
+      },
+      {
+        "text": "힘이",
+        "meaning": "力气",
+        "note": "힘(力气)+이(主格助词)"
+      },
+      {
+        "text": "셉니다",
+        "meaning": "大（强）",
+        "note": "세다(强)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "흐르다",
+    "romanization": "heureuda",
+    "pos": "动词",
+    "meaning": "流动",
+    "register": "中立",
+    "example": "강물이 흐릅니다.",
+    "exampleTranslation": "河水在流动。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "강물이",
+        "meaning": "河水",
+        "note": "강물(河水)+이(主格助词)"
+      },
+      {
+        "text": "흐릅니다",
+        "meaning": "流动",
+        "note": "흐르다(流动)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "흐리다",
+    "romanization": "heurida",
+    "pos": "形容词",
+    "meaning": "阴天",
+    "register": "中立",
+    "example": "오늘은 하늘이 흐립니다.",
+    "exampleTranslation": "今天天空很阴。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "오늘은",
+        "meaning": "今天",
+        "note": "오늘(今天)+은(主题助词)"
+      },
+      {
+        "text": "하늘이",
+        "meaning": "天空",
+        "note": "하늘(天空)+이(主格助词)"
+      },
+      {
+        "text": "흐립니다",
+        "meaning": "阴",
+        "note": "흐리다(阴)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  }
+]

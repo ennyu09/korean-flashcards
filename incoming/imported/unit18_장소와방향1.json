@@ -1,0 +1,1469 @@
+[
+  {
+    "korean": "가게",
+    "romanization": "gage",
+    "pos": "名词",
+    "meaning": "店铺",
+    "register": "中立",
+    "example": "이 가게는 물건이 다양합니다.",
+    "exampleTranslation": "这家店的东西很多样。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "이",
+        "meaning": "这",
+        "note": "冠形词"
+      },
+      {
+        "text": "가게는",
+        "meaning": "店铺",
+        "note": "가게(店铺)+는(主题助词)",
+        "isTarget": true
+      },
+      {
+        "text": "물건이",
+        "meaning": "东西",
+        "note": "물건(东西)+이(主格助词)"
+      },
+      {
+        "text": "다양합니다",
+        "meaning": "多样",
+        "note": "다양하다(多样)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "가운데",
+    "romanization": "gaunde",
+    "pos": "名词",
+    "meaning": "中间",
+    "register": "中立",
+    "example": "책상을 방 가운데에 놓았습니다.",
+    "exampleTranslation": "把书桌放在了房间中间。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "책상을",
+        "meaning": "书桌",
+        "note": "책상(书桌)+을(宾格助词)"
+      },
+      {
+        "text": "방 가운데에",
+        "meaning": "房间中间",
+        "note": "방(房间)+가운데(中间)+에(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "놓았습니다",
+        "meaning": "放了",
+        "note": "놓다(放)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "거리",
+    "romanization": "geori",
+    "pos": "名词",
+    "meaning": "街道",
+    "register": "中立",
+    "homonymIndex": "01",
+    "example": "거리로 나가서 산책했습니다.",
+    "exampleTranslation": "走到街上散了步。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "거리로",
+        "meaning": "往街道",
+        "note": "거리(街道)+로(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "나가서",
+        "meaning": "出去之后",
+        "note": "나가다(出去)的词干+ -아서(先后)"
+      },
+      {
+        "text": "산책했습니다",
+        "meaning": "散步了",
+        "note": "산책하다(散步)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "거리",
+    "romanization": "geori",
+    "pos": "名词",
+    "meaning": "距离",
+    "register": "中立",
+    "homonymIndex": "08",
+    "example": "학교까지 거리가 가깝습니다.",
+    "exampleTranslation": "到学校的距离很近。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "학교까지",
+        "meaning": "到学校",
+        "note": "학교(学校)+까지(到……为止)"
+      },
+      {
+        "text": "거리가",
+        "meaning": "距离",
+        "note": "거리(距离)+가(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "가깝습니다",
+        "meaning": "近",
+        "note": "가깝다(近)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "건너편",
+    "romanization": "geonneopyeon",
+    "pos": "名词",
+    "meaning": "对面",
+    "register": "中立",
+    "example": "건너편으로 가면 은행이 있습니다.",
+    "exampleTranslation": "往对面走有银行。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "건너편으로",
+        "meaning": "往对面",
+        "note": "건너편(对面)+으로(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "가면",
+        "meaning": "走的话",
+        "note": "가다(去)的词干+ -면(如果……的话)"
+      },
+      {
+        "text": "은행이",
+        "meaning": "银行",
+        "note": "은행(银行)+이(主格助词)"
+      },
+      {
+        "text": "있습니다",
+        "meaning": "有",
+        "note": "있다(有)+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "건물",
+    "romanization": "geonmul",
+    "pos": "名词",
+    "meaning": "建筑物",
+    "register": "中立",
+    "example": "저 건물은 아주 높습니다.",
+    "exampleTranslation": "那栋建筑物很高。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "저",
+        "meaning": "那",
+        "note": "冠形词"
+      },
+      {
+        "text": "건물은",
+        "meaning": "建筑物",
+        "note": "건물(建筑物)+은(主题助词)",
+        "isTarget": true
+      },
+      {
+        "text": "아주",
+        "meaning": "很",
+        "note": "副词"
+      },
+      {
+        "text": "높습니다",
+        "meaning": "高",
+        "note": "높다(高)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "경찰서",
+    "romanization": "gyeongchalseo",
+    "pos": "名词",
+    "meaning": "警察局",
+    "register": "中立",
+    "example": "지갑을 잃어버려서 경찰서에 갔습니다.",
+    "exampleTranslation": "因为丢了钱包去了警察局。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "지갑을",
+        "meaning": "钱包",
+        "note": "지갑(钱包)+을(宾格助词)"
+      },
+      {
+        "text": "잃어버려서",
+        "meaning": "丢了，所以",
+        "note": "잃어버리다(丢失)的词干+ -어서(因为)"
+      },
+      {
+        "text": "경찰서에",
+        "meaning": "警察局",
+        "note": "경찰서(警察局)+에(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "갔습니다",
+        "meaning": "去了",
+        "note": "가다(去)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "고향",
+    "romanization": "gohyang",
+    "pos": "名词",
+    "meaning": "故乡",
+    "register": "中立",
+    "example": "명절에는 고향에 갑니다.",
+    "exampleTranslation": "节日的时候回故乡。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "명절에는",
+        "meaning": "在节日",
+        "note": "명절(节日)+에(时间)+는(强调)"
+      },
+      {
+        "text": "고향에",
+        "meaning": "故乡",
+        "note": "고향(故乡)+에(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "갑니다",
+        "meaning": "去",
+        "note": "가다(去)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "곳",
+    "romanization": "got",
+    "pos": "名词",
+    "meaning": "地方",
+    "register": "中立",
+    "example": "어느 곳에서 오셨어요?",
+    "exampleTranslation": "您是从哪个地方来的？",
+    "sentenceType": "疑问句",
+    "formalityLevel": "非格式体敬语（해요体）",
+    "grammarBreakdown": [
+      {
+        "text": "어느",
+        "meaning": "哪个",
+        "note": "冠形词"
+      },
+      {
+        "text": "곳에서",
+        "meaning": "地方",
+        "note": "곳(地方)+에서(处所助词)",
+        "isTarget": true
+      },
+      {
+        "text": "오셨어요",
+        "meaning": "来了吗（敬语）",
+        "note": "오다(来)的词干+ -시-（尊敬阶标记）+ -었-（过去时标记）+ -어요"
+      }
+    ]
+  },
+  {
+    "korean": "공원",
+    "romanization": "gongwon",
+    "pos": "名词",
+    "meaning": "公园",
+    "register": "中立",
+    "example": "공원에서 아이들이 놀고 있습니다.",
+    "exampleTranslation": "孩子们正在公园里玩。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "공원에서",
+        "meaning": "在公园",
+        "note": "공원(公园)+에서(处所助词)",
+        "isTarget": true
+      },
+      {
+        "text": "아이들이",
+        "meaning": "孩子们",
+        "note": "아이들(孩子们)+이(主格助词)"
+      },
+      {
+        "text": "놀고 있습니다",
+        "meaning": "正在玩",
+        "note": "놀다(玩)的词干+ -고 있다(正在)+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "공장",
+    "romanization": "gongjang",
+    "pos": "名词",
+    "meaning": "工厂",
+    "register": "中立",
+    "example": "아버지는 공장에서 일하십니다.",
+    "exampleTranslation": "父亲在工厂工作。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "아버지는",
+        "meaning": "父亲",
+        "note": "아버지(父亲)+는(主题助词)"
+      },
+      {
+        "text": "공장에서",
+        "meaning": "在工厂",
+        "note": "공장(工厂)+에서(处所助词)",
+        "isTarget": true
+      },
+      {
+        "text": "일하십니다",
+        "meaning": "工作（敬语）",
+        "note": "일하다(工作)的词干+ -시-（尊敬阶标记）+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "공항",
+    "romanization": "gonghang",
+    "pos": "名词",
+    "meaning": "机场",
+    "register": "中立",
+    "example": "공항까지 택시로 갔습니다.",
+    "exampleTranslation": "坐出租车去了机场。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "공항까지",
+        "meaning": "到机场",
+        "note": "공항(机场)+까지(到……为止)",
+        "isTarget": true
+      },
+      {
+        "text": "택시로",
+        "meaning": "坐出租车",
+        "note": "택시(出租车)+로(表方式的助词)"
+      },
+      {
+        "text": "갔습니다",
+        "meaning": "去了",
+        "note": "가다(去)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "광주",
+    "romanization": "gwangju",
+    "pos": "名词",
+    "meaning": "光州（地名）",
+    "register": "中立",
+    "example": "광주에는 친척이 삽니다.",
+    "exampleTranslation": "光州住着我的亲戚。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "광주에는",
+        "meaning": "在光州",
+        "note": "광주(光州)+에(处所)+는(强调)",
+        "isTarget": true
+      },
+      {
+        "text": "친척이",
+        "meaning": "亲戚",
+        "note": "친척(亲戚)+이(主格助词)"
+      },
+      {
+        "text": "삽니다",
+        "meaning": "居住",
+        "note": "살다(居住)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "교실",
+    "romanization": "gyosil",
+    "pos": "名词",
+    "meaning": "教室",
+    "register": "中立",
+    "example": "교실에 들어가서 앉았습니다.",
+    "exampleTranslation": "走进教室坐下了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "교실에",
+        "meaning": "教室",
+        "note": "교실(教室)+에(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "들어가서",
+        "meaning": "进去之后",
+        "note": "들어가다(进去)的词干+ -아서(先后)"
+      },
+      {
+        "text": "앉았습니다",
+        "meaning": "坐下了",
+        "note": "앉다(坐)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "교회",
+    "romanization": "gyohoe",
+    "pos": "名词",
+    "meaning": "教会",
+    "register": "中立",
+    "example": "일요일마다 교회에 갑니다.",
+    "exampleTranslation": "每周日都去教会。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "일요일마다",
+        "meaning": "每周日",
+        "note": "일요일(星期日)+마다(每……)"
+      },
+      {
+        "text": "교회에",
+        "meaning": "教会",
+        "note": "교회(教会)+에(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "갑니다",
+        "meaning": "去",
+        "note": "가다(去)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "극장",
+    "romanization": "geukjang",
+    "pos": "名词",
+    "meaning": "剧场，电影院",
+    "register": "中立",
+    "example": "극장에서 영화를 봤습니다.",
+    "exampleTranslation": "在电影院看了电影。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "극장에서",
+        "meaning": "在电影院",
+        "note": "극장(电影院)+에서(处所助词)",
+        "isTarget": true
+      },
+      {
+        "text": "영화를",
+        "meaning": "电影",
+        "note": "영화(电影)+를(宾格助词)"
+      },
+      {
+        "text": "봤습니다",
+        "meaning": "看了",
+        "note": "보다(看)的词干变化+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "근처",
+    "romanization": "geuncheo",
+    "pos": "名词",
+    "meaning": "附近",
+    "register": "中立",
+    "example": "집 근처에 편의점이 있습니다.",
+    "exampleTranslation": "家附近有便利店。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "집 근처에",
+        "meaning": "家附近",
+        "note": "집(家)+근처(附近)+에(处所助词)",
+        "isTarget": true
+      },
+      {
+        "text": "편의점이",
+        "meaning": "便利店",
+        "note": "편의점(便利店)+이(主格助词)"
+      },
+      {
+        "text": "있습니다",
+        "meaning": "有",
+        "note": "있다(有)+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "길",
+    "romanization": "gil",
+    "pos": "名词",
+    "meaning": "路",
+    "register": "中立",
+    "example": "길이 많이 막힙니다.",
+    "exampleTranslation": "路上很堵。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "길이",
+        "meaning": "路",
+        "note": "길(路)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "많이",
+        "meaning": "很",
+        "note": "副词"
+      },
+      {
+        "text": "막힙니다",
+        "meaning": "堵塞",
+        "note": "막히다(堵塞)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "꽃집",
+    "romanization": "kkotjip",
+    "pos": "名词",
+    "meaning": "花店",
+    "register": "中立",
+    "example": "꽃집에서 꽃을 샀습니다.",
+    "exampleTranslation": "在花店买了花。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "꽃집에서",
+        "meaning": "在花店",
+        "note": "꽃집(花店)+에서(处所助词)",
+        "isTarget": true
+      },
+      {
+        "text": "꽃을",
+        "meaning": "花",
+        "note": "꽃(花)+을(宾格助词)"
+      },
+      {
+        "text": "샀습니다",
+        "meaning": "买了",
+        "note": "사다(买)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "남대문",
+    "romanization": "namdaemun",
+    "pos": "名词",
+    "meaning": "南大门（古迹）",
+    "register": "中立",
+    "example": "남대문 시장에 가 봤습니다.",
+    "exampleTranslation": "去过南大门市场。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "남대문 시장에",
+        "meaning": "南大门市场",
+        "note": "남대문(南大门)+시장(市场)+에(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "가 봤습니다",
+        "meaning": "去过",
+        "note": "가다(去)的词干+ -아/어 보다(尝试/经历)+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "남산",
+    "romanization": "namsan",
+    "pos": "名词",
+    "meaning": "南山（地名）",
+    "register": "中立",
+    "example": "남산에서 서울 시내가 잘 보입니다.",
+    "exampleTranslation": "在南山能看清楚首尔市区。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "남산에서",
+        "meaning": "在南山",
+        "note": "남산(南山)+에서(处所助词)",
+        "isTarget": true
+      },
+      {
+        "text": "서울 시내가",
+        "meaning": "首尔市区",
+        "note": "서울(首尔)+시내(市区)+가(主格助词)"
+      },
+      {
+        "text": "잘",
+        "meaning": "清楚地",
+        "note": "副词"
+      },
+      {
+        "text": "보입니다",
+        "meaning": "看得见",
+        "note": "보이다(被看见)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "남쪽",
+    "romanization": "namjjok",
+    "pos": "名词",
+    "meaning": "南边",
+    "register": "中立",
+    "example": "남쪽으로 가면 바다가 있습니다.",
+    "exampleTranslation": "往南走有大海。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "남쪽으로",
+        "meaning": "往南边",
+        "note": "남쪽(南边)+으로(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "가면",
+        "meaning": "走的话",
+        "note": "가다(去)的词干+ -면(如果……的话)"
+      },
+      {
+        "text": "바다가",
+        "meaning": "大海",
+        "note": "바다(大海)+가(主格助词)"
+      },
+      {
+        "text": "있습니다",
+        "meaning": "有",
+        "note": "있다(有)+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "대구",
+    "romanization": "daegu",
+    "pos": "名词",
+    "meaning": "大邱（地名）",
+    "register": "中立",
+    "example": "대구에 이모가 삽니다.",
+    "exampleTranslation": "姨妈住在大邱。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "대구에",
+        "meaning": "在大邱",
+        "note": "대구(大邱)+에(处所助词)",
+        "isTarget": true
+      },
+      {
+        "text": "이모가",
+        "meaning": "姨妈",
+        "note": "이모(姨妈)+가(主格助词)"
+      },
+      {
+        "text": "삽니다",
+        "meaning": "居住",
+        "note": "살다(居住)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "대사관",
+    "romanization": "daesagwan",
+    "pos": "名词",
+    "meaning": "大使馆",
+    "register": "中立",
+    "example": "대사관에서 비자를 신청했습니다.",
+    "exampleTranslation": "在大使馆申请了签证。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "대사관에서",
+        "meaning": "在大使馆",
+        "note": "대사관(大使馆)+에서(处所助词)",
+        "isTarget": true
+      },
+      {
+        "text": "비자를",
+        "meaning": "签证",
+        "note": "비자(签证)+를(宾格助词)"
+      },
+      {
+        "text": "신청했습니다",
+        "meaning": "申请了",
+        "note": "신청하다(申请)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "대전",
+    "romanization": "daejeon",
+    "pos": "名词",
+    "meaning": "大田（地名）",
+    "register": "中立",
+    "example": "대전에서 회의가 있습니다.",
+    "exampleTranslation": "大田有个会议。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "대전에서",
+        "meaning": "在大田",
+        "note": "대전(大田)+에서(处所助词)",
+        "isTarget": true
+      },
+      {
+        "text": "회의가",
+        "meaning": "会议",
+        "note": "회의(会议)+가(主格助词)"
+      },
+      {
+        "text": "있습니다",
+        "meaning": "有",
+        "note": "있다(有)+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "대학",
+    "romanization": "daehak",
+    "pos": "名词",
+    "meaning": "大学",
+    "register": "中立",
+    "example": "내년에 대학에 들어갑니다.",
+    "exampleTranslation": "明年上大学。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "내년에",
+        "meaning": "明年",
+        "note": "내년(明年)+에(时间助词)"
+      },
+      {
+        "text": "대학에",
+        "meaning": "大学",
+        "note": "대학(大学)+에(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "들어갑니다",
+        "meaning": "进入",
+        "note": "들어가다(进去)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "대학교",
+    "romanization": "daehakgyo",
+    "pos": "名词",
+    "meaning": "大学（正式名称）",
+    "register": "中立",
+    "example": "저는 서울대학교에 입학했습니다.",
+    "exampleTranslation": "我考上了首尔大学。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "저는",
+        "meaning": "我",
+        "note": "저(我)+는(主题助词)"
+      },
+      {
+        "text": "서울대학교에",
+        "meaning": "首尔大学",
+        "note": "서울대학교(首尔大学)+에(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "입학했습니다",
+        "meaning": "入学了",
+        "note": "입학하다(入学)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "대학원",
+    "romanization": "daehagwon",
+    "pos": "名词",
+    "meaning": "研究生院",
+    "register": "中立",
+    "example": "졸업 후에 대학원을 다녔습니다.",
+    "exampleTranslation": "毕业后上了研究生院。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "졸업 후에",
+        "meaning": "毕业后",
+        "note": "졸업(毕业)+후(后)+에(时间助词)"
+      },
+      {
+        "text": "대학원을",
+        "meaning": "研究生院",
+        "note": "대학원(研究生院)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "다녔습니다",
+        "meaning": "上了（通勤）",
+        "note": "다니다(上学/通勤)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "도로",
+    "romanization": "doro",
+    "pos": "名词",
+    "meaning": "道路",
+    "register": "中立",
+    "example": "도로를 건너서 학교에 갑니다.",
+    "exampleTranslation": "过马路去学校。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "도로를",
+        "meaning": "道路",
+        "note": "도로(道路)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "건너서",
+        "meaning": "过了之后",
+        "note": "건너다(过)的词干+ -어서(先后)"
+      },
+      {
+        "text": "학교에",
+        "meaning": "学校",
+        "note": "학교(学校)+에(方向助词)"
+      },
+      {
+        "text": "갑니다",
+        "meaning": "去",
+        "note": "가다(去)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "도서관",
+    "romanization": "doseogwan",
+    "pos": "名词",
+    "meaning": "图书馆",
+    "register": "中立",
+    "example": "도서관에서 공부하고 있습니다.",
+    "exampleTranslation": "正在图书馆学习。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "도서관에서",
+        "meaning": "在图书馆",
+        "note": "도서관(图书馆)+에서(处所助词)",
+        "isTarget": true
+      },
+      {
+        "text": "공부하고 있습니다",
+        "meaning": "正在学习",
+        "note": "공부하다(学习)的词干+ -고 있다(正在)+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "도시",
+    "romanization": "dosi",
+    "pos": "名词",
+    "meaning": "城市",
+    "register": "中立",
+    "example": "서울은 큰 도시입니다.",
+    "exampleTranslation": "首尔是大城市。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "서울은",
+        "meaning": "首尔",
+        "note": "서울(首尔)+은(主题助词)"
+      },
+      {
+        "text": "큰",
+        "meaning": "大的",
+        "note": "크다(大)的词干+ -ㄴ(冠形词形)"
+      },
+      {
+        "text": "도시입니다",
+        "meaning": "是城市",
+        "note": "도시(城市)+이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "동네",
+    "romanization": "dongne",
+    "pos": "名词",
+    "meaning": "街坊，社区",
+    "register": "中立",
+    "example": "우리 동네는 아주 조용합니다.",
+    "exampleTranslation": "我们社区非常安静。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "우리 동네는",
+        "meaning": "我们社区",
+        "note": "우리(我们)+동네(社区)+는(主题助词)",
+        "isTarget": true
+      },
+      {
+        "text": "아주",
+        "meaning": "非常",
+        "note": "副词"
+      },
+      {
+        "text": "조용합니다",
+        "meaning": "安静",
+        "note": "조용하다(安静)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "동대문",
+    "romanization": "dongdaemun",
+    "pos": "名词",
+    "meaning": "东大门（古迹）",
+    "register": "中立",
+    "example": "동대문에서 쇼핑을 했습니다.",
+    "exampleTranslation": "在东大门购物了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "동대문에서",
+        "meaning": "在东大门",
+        "note": "동대문(东大门)+에서(处所助词)",
+        "isTarget": true
+      },
+      {
+        "text": "쇼핑을",
+        "meaning": "购物",
+        "note": "쇼핑(购物)+을(宾格助词)"
+      },
+      {
+        "text": "했습니다",
+        "meaning": "做了",
+        "note": "하다(做)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "동쪽",
+    "romanization": "dongjjok",
+    "pos": "名词",
+    "meaning": "东边",
+    "register": "中立",
+    "example": "해는 동쪽에서 뜹니다.",
+    "exampleTranslation": "太阳从东边升起。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "해는",
+        "meaning": "太阳",
+        "note": "해(太阳)+는(主题助词)"
+      },
+      {
+        "text": "동쪽에서",
+        "meaning": "从东边",
+        "note": "동쪽(东边)+에서(表来源的处所助词)",
+        "isTarget": true
+      },
+      {
+        "text": "뜹니다",
+        "meaning": "升起",
+        "note": "뜨다(升起)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "뒤",
+    "romanization": "dwi",
+    "pos": "名词",
+    "meaning": "后面",
+    "register": "中立",
+    "example": "학교 뒤에 산이 있습니다.",
+    "exampleTranslation": "学校后面有山。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "학교 뒤에",
+        "meaning": "学校后面",
+        "note": "학교(学校)+뒤(后面)+에(处所助词)",
+        "isTarget": true
+      },
+      {
+        "text": "산이",
+        "meaning": "山",
+        "note": "산(山)+이(主格助词)"
+      },
+      {
+        "text": "있습니다",
+        "meaning": "有",
+        "note": "있다(有)+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "뒤쪽",
+    "romanization": "dwijjok",
+    "pos": "名词",
+    "meaning": "后边",
+    "register": "中立",
+    "example": "뒤쪽에 앉으세요.",
+    "exampleTranslation": "请坐在后边。",
+    "sentenceType": "命令句（请求）",
+    "formalityLevel": "非格式体敬语（해요体）",
+    "grammarBreakdown": [
+      {
+        "text": "뒤쪽에",
+        "meaning": "后边",
+        "note": "뒤쪽(后边)+에(处所助词)",
+        "isTarget": true
+      },
+      {
+        "text": "앉으세요",
+        "meaning": "请坐",
+        "note": "앉다(坐)的词干+ -으시-（尊敬阶标记）+ -어요（请求/命令·非格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "레스토랑",
+    "romanization": "reseutorang",
+    "pos": "名词",
+    "meaning": "西餐厅",
+    "register": "中立",
+    "example": "레스토랑에서 저녁을 먹었습니다.",
+    "exampleTranslation": "在西餐厅吃了晚饭。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "레스토랑에서",
+        "meaning": "在西餐厅",
+        "note": "레스토랑(西餐厅)+에서(处所助词)",
+        "isTarget": true
+      },
+      {
+        "text": "저녁을",
+        "meaning": "晚饭",
+        "note": "저녁(晚饭)+을(宾格助词)"
+      },
+      {
+        "text": "먹었습니다",
+        "meaning": "吃了",
+        "note": "먹다(吃)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "마을",
+    "romanization": "maeul",
+    "pos": "名词",
+    "meaning": "村庄",
+    "register": "中立",
+    "example": "이 마을은 아주 아름답습니다.",
+    "exampleTranslation": "这个村庄非常美。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "이",
+        "meaning": "这",
+        "note": "冠形词"
+      },
+      {
+        "text": "마을은",
+        "meaning": "村庄",
+        "note": "마을(村庄)+은(主题助词)",
+        "isTarget": true
+      },
+      {
+        "text": "아주",
+        "meaning": "非常",
+        "note": "副词"
+      },
+      {
+        "text": "아름답습니다",
+        "meaning": "美丽",
+        "note": "아름답다(美丽)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "마트",
+    "romanization": "mateu",
+    "pos": "名词",
+    "meaning": "超市",
+    "register": "中立",
+    "example": "마트에서 장을 봤습니다.",
+    "exampleTranslation": "在超市买了菜。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "마트에서",
+        "meaning": "在超市",
+        "note": "마트(超市)+에서(处所助词)",
+        "isTarget": true
+      },
+      {
+        "text": "장을 봤습니다",
+        "meaning": "买了菜",
+        "note": "장(市场货物)+을(宾格助词)+보다(看/买)+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "매표소",
+    "romanization": "maepyoso",
+    "pos": "名词",
+    "meaning": "售票处",
+    "register": "中立",
+    "example": "매표소에서 표를 샀습니다.",
+    "exampleTranslation": "在售票处买了票。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "매표소에서",
+        "meaning": "在售票处",
+        "note": "매표소(售票处)+에서(处所助词)",
+        "isTarget": true
+      },
+      {
+        "text": "표를",
+        "meaning": "票",
+        "note": "표(票)+를(宾格助词)"
+      },
+      {
+        "text": "샀습니다",
+        "meaning": "买了",
+        "note": "사다(买)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "무궁화",
+    "romanization": "mugunghwa",
+    "pos": "名词",
+    "meaning": "木槿花（韩国国花）",
+    "register": "中立",
+    "example": "무궁화는 한국의 국화입니다.",
+    "exampleTranslation": "木槿花是韩国的国花。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "무궁화는",
+        "meaning": "木槿花",
+        "note": "무궁화(木槿花)+는(主题助词)",
+        "isTarget": true
+      },
+      {
+        "text": "한국의",
+        "meaning": "韩国的",
+        "note": "한국(韩国)+의(所有格助词)"
+      },
+      {
+        "text": "국화입니다",
+        "meaning": "是国花",
+        "note": "국화(国花)+이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "미술관",
+    "romanization": "misulgwan",
+    "pos": "名词",
+    "meaning": "美术馆",
+    "register": "中立",
+    "example": "주말에 미술관을 구경했습니다.",
+    "exampleTranslation": "周末逛了美术馆。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "주말에",
+        "meaning": "周末",
+        "note": "주말(周末)+에(时间助词)"
+      },
+      {
+        "text": "미술관을",
+        "meaning": "美术馆",
+        "note": "미술관(美术馆)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "구경했습니다",
+        "meaning": "参观了",
+        "note": "구경하다(参观)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "미용실",
+    "romanization": "miyongsil",
+    "pos": "名词",
+    "meaning": "美发店",
+    "register": "中立",
+    "example": "미용실에서 머리를 잘랐습니다.",
+    "exampleTranslation": "在美发店剪了头发。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "미용실에서",
+        "meaning": "在美发店",
+        "note": "미용실(美发店)+에서(处所助词)",
+        "isTarget": true
+      },
+      {
+        "text": "머리를",
+        "meaning": "头发",
+        "note": "머리(头发)+를(宾格助词)"
+      },
+      {
+        "text": "잘랐습니다",
+        "meaning": "剪了",
+        "note": "자르다(剪)的词干变化+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "밑",
+    "romanization": "mit",
+    "pos": "名词",
+    "meaning": "下面，底下",
+    "register": "中立",
+    "example": "책상 밑에 가방을 두었습니다.",
+    "exampleTranslation": "把包放在了书桌下面。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "책상 밑에",
+        "meaning": "书桌下面",
+        "note": "책상(书桌)+밑(下面)+에(处所助词)",
+        "isTarget": true
+      },
+      {
+        "text": "가방을",
+        "meaning": "包",
+        "note": "가방(包)+을(宾格助词)"
+      },
+      {
+        "text": "두었습니다",
+        "meaning": "放了",
+        "note": "두다(放)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "바깥",
+    "romanization": "bakkat",
+    "pos": "名词",
+    "meaning": "外面",
+    "register": "中立",
+    "example": "바깥 날씨가 춥습니다.",
+    "exampleTranslation": "外面天气很冷。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "바깥",
+        "meaning": "外面",
+        "note": "名词，修饰날씨",
+        "isTarget": true
+      },
+      {
+        "text": "날씨가",
+        "meaning": "天气",
+        "note": "날씨(天气)+가(主格助词)"
+      },
+      {
+        "text": "춥습니다",
+        "meaning": "冷",
+        "note": "춥다(冷)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "바깥쪽",
+    "romanization": "bakkatjjok",
+    "pos": "名词",
+    "meaning": "外侧",
+    "register": "中立",
+    "example": "바깥쪽으로 나가 주세요.",
+    "exampleTranslation": "请往外侧走。",
+    "sentenceType": "命令句（请求）",
+    "formalityLevel": "非格式体敬语（해요体）",
+    "grammarBreakdown": [
+      {
+        "text": "바깥쪽으로",
+        "meaning": "往外侧",
+        "note": "바깥쪽(外侧)+으로(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "나가 주세요",
+        "meaning": "请出去",
+        "note": "나가다(出去)的词干+ -아/어 주다(请求)+ -시-+ -어요"
+      }
+    ]
+  },
+  {
+    "korean": "박물관",
+    "romanization": "bangmulgwan",
+    "pos": "名词",
+    "meaning": "博物馆",
+    "register": "中立",
+    "example": "박물관을 구경했습니다.",
+    "exampleTranslation": "参观了博物馆。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "박물관을",
+        "meaning": "博物馆",
+        "note": "박물관(博物馆)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "구경했습니다",
+        "meaning": "参观了",
+        "note": "구경하다(参观)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "부산",
+    "romanization": "busan",
+    "pos": "名词",
+    "meaning": "釜山（地名）",
+    "register": "中立",
+    "example": "부산은 바다로 유명합니다.",
+    "exampleTranslation": "釜山以海闻名。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "부산은",
+        "meaning": "釜山",
+        "note": "부산(釜山)+은(主题助词)",
+        "isTarget": true
+      },
+      {
+        "text": "바다로",
+        "meaning": "以海",
+        "note": "바다(大海)+로(表原因/手段的助词)"
+      },
+      {
+        "text": "유명합니다",
+        "meaning": "有名",
+        "note": "유명하다(有名)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "북쪽",
+    "romanization": "bukjjok",
+    "pos": "名词",
+    "meaning": "北边",
+    "register": "中立",
+    "example": "북쪽에서 찬바람이 붑니다.",
+    "exampleTranslation": "从北边刮来冷风。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "북쪽에서",
+        "meaning": "从北边",
+        "note": "북쪽(北边)+에서(表来源的处所助词)",
+        "isTarget": true
+      },
+      {
+        "text": "찬바람이",
+        "meaning": "冷风",
+        "note": "찬바람(冷风)+이(主格助词)"
+      },
+      {
+        "text": "붑니다",
+        "meaning": "刮",
+        "note": "불다(刮)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "사거리",
+    "romanization": "sageori",
+    "pos": "名词",
+    "meaning": "十字路口",
+    "register": "中立",
+    "example": "사거리를 건너면 은행이 있습니다.",
+    "exampleTranslation": "过了十字路口有银行。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "사거리를",
+        "meaning": "十字路口",
+        "note": "사거리(十字路口)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "건너면",
+        "meaning": "过的话",
+        "note": "건너다(过)的词干+ -면(如果……的话)"
+      },
+      {
+        "text": "은행이",
+        "meaning": "银行",
+        "note": "은행(银行)+이(主格助词)"
+      },
+      {
+        "text": "있습니다",
+        "meaning": "有",
+        "note": "있다(有)+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  }
+]

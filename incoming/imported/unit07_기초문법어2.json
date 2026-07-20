@@ -1,0 +1,932 @@
+[
+  {
+    "korean": "늘",
+    "romanization": "neul",
+    "pos": "副词",
+    "meaning": "总是",
+    "register": "中立",
+    "example": "그는 늘 웃습니다.",
+    "exampleTranslation": "他总是笑着。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "그는",
+        "meaning": "他",
+        "note": "그(他)+는(主题助词)"
+      },
+      {
+        "text": "늘",
+        "meaning": "总是",
+        "note": "副词",
+        "isTarget": true
+      },
+      {
+        "text": "웃습니다",
+        "meaning": "笑",
+        "note": "웃다(笑)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "더욱",
+    "romanization": "deouk",
+    "pos": "副词",
+    "meaning": "更加",
+    "register": "中立",
+    "example": "시험이 더욱 어려워졌습니다.",
+    "exampleTranslation": "考试变得更难了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "시험이",
+        "meaning": "考试",
+        "note": "시험(考试)+이(主格助词)"
+      },
+      {
+        "text": "더욱",
+        "meaning": "更加",
+        "note": "副词",
+        "isTarget": true
+      },
+      {
+        "text": "어려워졌습니다",
+        "meaning": "变难了",
+        "note": "어렵다(难)的词干变化+ -아지다(变得……)+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "두",
+    "romanization": "du",
+    "pos": "冠形词",
+    "meaning": "二（后接量词）",
+    "register": "中立",
+    "example": "사람 두 명이 왔습니다.",
+    "exampleTranslation": "来了两个人。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "사람",
+        "meaning": "人",
+        "note": "名词"
+      },
+      {
+        "text": "두 명이",
+        "meaning": "两个人",
+        "note": "두(二，冠形词)+명(名，量词)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "왔습니다",
+        "meaning": "来了",
+        "note": "오다(来)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "두세",
+    "romanization": "duse",
+    "pos": "冠形词",
+    "meaning": "两三（个）",
+    "register": "中立",
+    "example": "두세 시간이면 끝납니다.",
+    "exampleTranslation": "两三个小时就能结束。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "두세 시간이면",
+        "meaning": "两三个小时的话",
+        "note": "두세(两三，冠形词)+시간(小时)+이다+ -면(如果……的话)",
+        "isTarget": true
+      },
+      {
+        "text": "끝납니다",
+        "meaning": "结束",
+        "note": "끝나다(结束)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "또",
+    "romanization": "tto",
+    "pos": "副词",
+    "meaning": "又",
+    "register": "中立",
+    "example": "오늘 또 비가 옵니다.",
+    "exampleTranslation": "今天又下雨了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "오늘",
+        "meaning": "今天",
+        "note": "名词/副词"
+      },
+      {
+        "text": "또",
+        "meaning": "又",
+        "note": "副词",
+        "isTarget": true
+      },
+      {
+        "text": "비가",
+        "meaning": "雨",
+        "note": "비(雨)+가(主格助词)"
+      },
+      {
+        "text": "옵니다",
+        "meaning": "下",
+        "note": "오다(来/下)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "또는",
+    "romanization": "ttoneun",
+    "pos": "副词",
+    "meaning": "或者",
+    "register": "中立",
+    "example": "커피 또는 차를 드세요.",
+    "exampleTranslation": "请喝咖啡或者茶。",
+    "sentenceType": "命令句（请求）",
+    "formalityLevel": "非格式体敬语（해요体）",
+    "grammarBreakdown": [
+      {
+        "text": "커피",
+        "meaning": "咖啡",
+        "note": "名词"
+      },
+      {
+        "text": "또는",
+        "meaning": "或者",
+        "note": "副词，连接两个并列项",
+        "isTarget": true
+      },
+      {
+        "text": "차를",
+        "meaning": "茶",
+        "note": "차(茶)+를(宾格助词)"
+      },
+      {
+        "text": "드세요",
+        "meaning": "请喝（敬语）",
+        "note": "드시다(喝,敬语)的词干+ -어요(请求)"
+      }
+    ]
+  },
+  {
+    "korean": "만약",
+    "romanization": "manyak",
+    "pos": "名词",
+    "meaning": "万一，如果",
+    "register": "中立",
+    "example": "만약의 상황에 대비합시다.",
+    "exampleTranslation": "我们做好万一情况的准备吧。",
+    "sentenceType": "共动句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "만약의",
+        "meaning": "万一的",
+        "note": "만약(万一)+의(所有格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "상황에",
+        "meaning": "情况",
+        "note": "상황(情况)+에(方向助词)"
+      },
+      {
+        "text": "대비합시다",
+        "meaning": "让我们做好准备吧",
+        "note": "대비하다(准备,防备)的词干+ -ㅂ시다（共动句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "만일",
+    "romanization": "manil",
+    "pos": "名词",
+    "meaning": "万一",
+    "register": "中立",
+    "example": "만일에 대비해서 우산을 가져갑니다.",
+    "exampleTranslation": "为了以防万一带了伞。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "만일에 대비해서",
+        "meaning": "为了以防万一",
+        "note": "만일(万一)+에(方向助词)+대비하다(防备)+ -해서(因为/目的)",
+        "isTarget": true
+      },
+      {
+        "text": "우산을",
+        "meaning": "雨伞",
+        "note": "우산(伞)+을(宾格助词)"
+      },
+      {
+        "text": "가져갑니다",
+        "meaning": "带去",
+        "note": "가져가다(带去)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "많이",
+    "romanization": "mani",
+    "pos": "副词",
+    "meaning": "很多",
+    "register": "中立",
+    "example": "오늘 숙제가 많이 있습니다.",
+    "exampleTranslation": "今天作业很多。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "오늘",
+        "meaning": "今天",
+        "note": "名词/副词"
+      },
+      {
+        "text": "숙제가",
+        "meaning": "作业",
+        "note": "숙제(作业)+가(主格助词)"
+      },
+      {
+        "text": "많이",
+        "meaning": "很多",
+        "note": "副词",
+        "isTarget": true
+      },
+      {
+        "text": "있습니다",
+        "meaning": "有",
+        "note": "있다(有)+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "모든",
+    "romanization": "modeun",
+    "pos": "冠形词",
+    "meaning": "所有的",
+    "register": "中立",
+    "example": "모든 학생이 참석했습니다.",
+    "exampleTranslation": "所有学生都出席了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "모든",
+        "meaning": "所有的",
+        "note": "冠形词，修饰학생",
+        "isTarget": true
+      },
+      {
+        "text": "학생이",
+        "meaning": "学生",
+        "note": "학생(学生)+이(主格助词)"
+      },
+      {
+        "text": "참석했습니다",
+        "meaning": "出席了",
+        "note": "참석하다(出席)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "못",
+    "romanization": "mot",
+    "pos": "副词",
+    "meaning": "不能，不",
+    "register": "中立",
+    "example": "어제 잠을 못 잤습니다.",
+    "exampleTranslation": "昨天没能睡好觉。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "어제",
+        "meaning": "昨天",
+        "note": "名词"
+      },
+      {
+        "text": "잠을",
+        "meaning": "觉",
+        "note": "잠(觉)+을(宾格助词)"
+      },
+      {
+        "text": "못",
+        "meaning": "不能",
+        "note": "副词，表能力上做不到",
+        "isTarget": true
+      },
+      {
+        "text": "잤습니다",
+        "meaning": "睡了",
+        "note": "자다(睡)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "무척",
+    "romanization": "mucheok",
+    "pos": "副词",
+    "meaning": "非常",
+    "register": "中立",
+    "example": "이 책은 무척 재미있습니다.",
+    "exampleTranslation": "这本书非常有趣。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "이",
+        "meaning": "这",
+        "note": "冠形词"
+      },
+      {
+        "text": "책은",
+        "meaning": "书",
+        "note": "책(书)+은(主题助词)"
+      },
+      {
+        "text": "무척",
+        "meaning": "非常",
+        "note": "副词",
+        "isTarget": true
+      },
+      {
+        "text": "재미있습니다",
+        "meaning": "有趣",
+        "note": "재미있다(有趣)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "물론",
+    "romanization": "mullon",
+    "pos": "名词/副词",
+    "meaning": "当然",
+    "register": "中立",
+    "example": "물론 저도 가겠습니다.",
+    "exampleTranslation": "当然我也会去。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "물론",
+        "meaning": "当然",
+        "note": "副词",
+        "isTarget": true
+      },
+      {
+        "text": "저도",
+        "meaning": "我也",
+        "note": "저(我)+도(也，助词)"
+      },
+      {
+        "text": "가겠습니다",
+        "meaning": "会去",
+        "note": "가다(去)的词干+ -겠-（意志）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "미리",
+    "romanization": "miri",
+    "pos": "副词",
+    "meaning": "事先",
+    "register": "中立",
+    "example": "미리 예약을 했습니다.",
+    "exampleTranslation": "事先预约了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "미리",
+        "meaning": "事先",
+        "note": "副词",
+        "isTarget": true
+      },
+      {
+        "text": "예약을",
+        "meaning": "预约",
+        "note": "예약(预约)+을(宾格助词)"
+      },
+      {
+        "text": "했습니다",
+        "meaning": "做了",
+        "note": "하다(做)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "아",
+    "romanization": "a",
+    "pos": "感叹词",
+    "meaning": "啊（感叹）",
+    "register": "中立",
+    "example": "아, 정말 예쁘네요!",
+    "exampleTranslation": "啊，真漂亮啊！",
+    "sentenceType": "陈述句",
+    "formalityLevel": "非格式体敬语（해요体）",
+    "grammarBreakdown": [
+      {
+        "text": "아",
+        "meaning": "啊",
+        "note": "感叹词",
+        "isTarget": true
+      },
+      {
+        "text": "정말",
+        "meaning": "真的",
+        "note": "副词"
+      },
+      {
+        "text": "예쁘네요",
+        "meaning": "漂亮啊",
+        "note": "예쁘다(漂亮)的词干+ -네요(表感叹的非格式体敬语终结词尾)"
+      }
+    ]
+  },
+  {
+    "korean": "아니",
+    "romanization": "ani",
+    "pos": "感叹词",
+    "meaning": "不（回应）",
+    "register": "非敬语（반말）",
+    "homonymIndex": "02",
+    "example": "아니, 저는 학생이 아닙니다.",
+    "exampleTranslation": "不，我不是学生。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "아니",
+        "meaning": "不",
+        "note": "感叹词，否定回应",
+        "isTarget": true
+      },
+      {
+        "text": "저는",
+        "meaning": "我",
+        "note": "저(我)+는(主题助词)"
+      },
+      {
+        "text": "학생이 아닙니다",
+        "meaning": "不是学生",
+        "note": "학생(学生)+이 아니다(不是……)+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "아니다",
+    "romanization": "anida",
+    "pos": "形容词",
+    "meaning": "不是",
+    "register": "中立",
+    "example": "이것은 제 우산이 아닙니다.",
+    "exampleTranslation": "这不是我的伞。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "이것은",
+        "meaning": "这个",
+        "note": "이것(这个)+은(主题助词)"
+      },
+      {
+        "text": "제",
+        "meaning": "我的",
+        "note": "저의 缩略形式"
+      },
+      {
+        "text": "우산이 아닙니다",
+        "meaning": "不是雨伞",
+        "note": "우산(伞)+이 아니다(不是……)+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "아니요",
+    "romanization": "aniyo",
+    "pos": "感叹词",
+    "meaning": "不是（敬语回应）",
+    "register": "敬语",
+    "example": "아니요, 괜찮습니다.",
+    "exampleTranslation": "不，没关系。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "아니요",
+        "meaning": "不是",
+        "note": "感叹词，敬语否定回应",
+        "isTarget": true
+      },
+      {
+        "text": "괜찮습니다",
+        "meaning": "没关系",
+        "note": "괜찮다(没关系)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "알맞다",
+    "romanization": "almatda",
+    "pos": "形容词",
+    "meaning": "合适",
+    "register": "中立",
+    "example": "이 옷은 저한테 알맞습니다.",
+    "exampleTranslation": "这件衣服对我来说很合适。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "이 옷은",
+        "meaning": "这件衣服",
+        "note": "이(这)+옷(衣服)+은(主题助词)"
+      },
+      {
+        "text": "저한테",
+        "meaning": "对我来说",
+        "note": "저(我)+한테(对……来说)"
+      },
+      {
+        "text": "알맞습니다",
+        "meaning": "合适",
+        "note": "알맞다(合适)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "어",
+    "romanization": "eo",
+    "pos": "感叹词",
+    "meaning": "咦（感叹）",
+    "register": "非敬语（반말）",
+    "homonymIndex": "02",
+    "example": "어, 이게 뭐예요?",
+    "exampleTranslation": "咦，这是什么？",
+    "sentenceType": "疑问句",
+    "formalityLevel": "非格式体敬语（해요体）",
+    "grammarBreakdown": [
+      {
+        "text": "어",
+        "meaning": "咦",
+        "note": "感叹词",
+        "isTarget": true
+      },
+      {
+        "text": "이게",
+        "meaning": "这个",
+        "note": "이것(这个)+이(主格助词)的口语缩略形"
+      },
+      {
+        "text": "뭐예요",
+        "meaning": "是什么",
+        "note": "뭐(什么)+예요(이다的非正式敬语疑问形)"
+      }
+    ]
+  },
+  {
+    "korean": "어떠하다",
+    "romanization": "eotteohada",
+    "pos": "形容词",
+    "meaning": "怎么样",
+    "register": "中立",
+    "example": "그 영화가 어떠했습니까?",
+    "exampleTranslation": "那部电影怎么样？",
+    "sentenceType": "疑问句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "그 영화가",
+        "meaning": "那部电影",
+        "note": "그(那)+영화(电影)+가(主格助词)"
+      },
+      {
+        "text": "어떠했습니까",
+        "meaning": "怎么样",
+        "note": "어떠하다(怎么样)的词干+ -었-（过去时标记）+ -습니까（疑问句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "어떻다",
+    "romanization": "eotteota",
+    "pos": "形容词",
+    "meaning": "怎样",
+    "register": "中立",
+    "example": "요즘 기분이 어떻습니까?",
+    "exampleTranslation": "最近心情怎么样？",
+    "sentenceType": "疑问句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "요즘",
+        "meaning": "最近",
+        "note": "副词"
+      },
+      {
+        "text": "기분이",
+        "meaning": "心情",
+        "note": "기분(心情)+이(主格助词)"
+      },
+      {
+        "text": "어떻습니까",
+        "meaning": "怎样",
+        "note": "어떻다(怎样)的词干+ -습니까（疑问句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "언제나",
+    "romanization": "eonjena",
+    "pos": "副词",
+    "meaning": "无论何时，总是",
+    "register": "中立",
+    "example": "언제나 건강하세요.",
+    "exampleTranslation": "祝您一直健康。",
+    "sentenceType": "命令句（请求）",
+    "formalityLevel": "非格式体敬语（해요体）",
+    "grammarBreakdown": [
+      {
+        "text": "언제나",
+        "meaning": "总是",
+        "note": "副词",
+        "isTarget": true
+      },
+      {
+        "text": "건강하세요",
+        "meaning": "请保持健康",
+        "note": "건강하다(健康)的词干+ -시-（尊敬阶标记）+ -어요（请求/命令·非格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "없다",
+    "romanization": "eopda",
+    "pos": "形容词/动词",
+    "meaning": "没有",
+    "register": "中立",
+    "example": "지금 시간이 없습니다.",
+    "exampleTranslation": "现在没有时间。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "지금",
+        "meaning": "现在",
+        "note": "名词/副词"
+      },
+      {
+        "text": "시간이",
+        "meaning": "时间",
+        "note": "시간(时间)+이(主格助词)"
+      },
+      {
+        "text": "없습니다",
+        "meaning": "没有",
+        "note": "없다(没有)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "여기",
+    "romanization": "yeogi",
+    "pos": "代词",
+    "meaning": "这里",
+    "register": "中立",
+    "example": "여기에 앉으세요.",
+    "exampleTranslation": "请坐在这里。",
+    "sentenceType": "命令句（请求）",
+    "formalityLevel": "非格式体敬语（해요体）",
+    "grammarBreakdown": [
+      {
+        "text": "여기에",
+        "meaning": "在这里",
+        "note": "여기(这里)+에(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "앉으세요",
+        "meaning": "请坐",
+        "note": "앉다(坐)的词干+ -으시-（尊敬阶标记）+ -어요（请求/命令·非格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "여기저기",
+    "romanization": "yeogijeogi",
+    "pos": "名词",
+    "meaning": "到处",
+    "register": "中立",
+    "example": "여기저기 다녀 봤습니다.",
+    "exampleTranslation": "到处都去过了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "여기저기",
+        "meaning": "到处",
+        "note": "여기(这里)+저기(那里)组合而成的名词",
+        "isTarget": true
+      },
+      {
+        "text": "다녀 봤습니다",
+        "meaning": "去过了",
+        "note": "다니다(去/走动)的词干+ -어 보다(尝试/经历)+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "여러",
+    "romanization": "yeoreo",
+    "pos": "冠形词",
+    "meaning": "好几个",
+    "register": "中立",
+    "example": "여러 나라를 여행했습니다.",
+    "exampleTranslation": "去好几个国家旅行过。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "여러",
+        "meaning": "好几个",
+        "note": "冠形词，修饰나라",
+        "isTarget": true
+      },
+      {
+        "text": "나라를",
+        "meaning": "国家",
+        "note": "나라(国家)+를(宾格助词)"
+      },
+      {
+        "text": "여행했습니다",
+        "meaning": "旅行过",
+        "note": "여행하다(旅行)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "역시",
+    "romanization": "yeoksi",
+    "pos": "副词",
+    "meaning": "也，果然",
+    "register": "中立",
+    "example": "저 역시 그렇게 생각합니다.",
+    "exampleTranslation": "我也是这么想的。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "저",
+        "meaning": "我",
+        "note": "人称代词"
+      },
+      {
+        "text": "역시",
+        "meaning": "也",
+        "note": "副词",
+        "isTarget": true
+      },
+      {
+        "text": "그렇게",
+        "meaning": "那样地",
+        "note": "그렇다(那样)的词干+ -게(副词形)"
+      },
+      {
+        "text": "생각합니다",
+        "meaning": "想",
+        "note": "생각하다(想)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "열심히",
+    "romanization": "yeolsimhi",
+    "pos": "副词",
+    "meaning": "努力地",
+    "register": "中立",
+    "example": "열심히 공부하고 있습니다.",
+    "exampleTranslation": "正在努力学习。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "열심히",
+        "meaning": "努力地",
+        "note": "副词",
+        "isTarget": true
+      },
+      {
+        "text": "공부하고 있습니다",
+        "meaning": "正在学习",
+        "note": "공부하다(学习)的词干+ -고 있다(正在)+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "와",
+    "romanization": "wa",
+    "pos": "感叹词",
+    "meaning": "哇（感叹）",
+    "register": "非敬语（반말）",
+    "example": "와, 정말 반갑습니다!",
+    "exampleTranslation": "哇，真的很高兴！",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "와",
+        "meaning": "哇",
+        "note": "感叹词",
+        "isTarget": true
+      },
+      {
+        "text": "정말",
+        "meaning": "真的",
+        "note": "副词"
+      },
+      {
+        "text": "반갑습니다",
+        "meaning": "高兴",
+        "note": "반갑다(高兴)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "왜냐하면",
+    "romanization": "waenyahamyeon",
+    "pos": "副词",
+    "meaning": "因为",
+    "register": "中立",
+    "example": "늦었습니다. 왜냐하면 길이 막혔기 때문입니다.",
+    "exampleTranslation": "迟到了。因为路上堵车了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "늦었습니다",
+        "meaning": "迟到了",
+        "note": "늦다(迟)的词干+ -었-+ -습니다"
+      },
+      {
+        "text": "왜냐하면",
+        "meaning": "因为",
+        "note": "副词，引出原因",
+        "isTarget": true
+      },
+      {
+        "text": "길이",
+        "meaning": "路",
+        "note": "길(路)+이(主格助词)"
+      },
+      {
+        "text": "막혔기 때문입니다",
+        "meaning": "是因为堵塞了",
+        "note": "막히다(堵塞)的词干+ -었-+ -기 때문이다(是因为……)+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "우선",
+    "romanization": "useon",
+    "pos": "副词",
+    "meaning": "首先",
+    "register": "中立",
+    "example": "우선 손을 씻으세요.",
+    "exampleTranslation": "首先请洗手。",
+    "sentenceType": "命令句（请求）",
+    "formalityLevel": "非格式体敬语（해요体）",
+    "grammarBreakdown": [
+      {
+        "text": "우선",
+        "meaning": "首先",
+        "note": "副词",
+        "isTarget": true
+      },
+      {
+        "text": "손을",
+        "meaning": "手",
+        "note": "손(手)+을(宾格助词)"
+      },
+      {
+        "text": "씻으세요",
+        "meaning": "请洗",
+        "note": "씻다(洗)的词干+ -으시-（尊敬阶标记）+ -어요（请求/命令·非格式体敬语终结词尾）"
+      }
+    ]
+  }
+]

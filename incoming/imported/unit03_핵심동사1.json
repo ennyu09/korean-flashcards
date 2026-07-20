@@ -1,0 +1,1981 @@
+[
+  {
+    "korean": "가다",
+    "romanization": "gada",
+    "pos": "动词",
+    "meaning": "去",
+    "register": "中立",
+    "example": "저는 매일 학교에 갑니다.",
+    "exampleTranslation": "我每天去学校。",
+    "grammarBreakdown": [
+      {
+        "text": "저",
+        "meaning": "我（敬语）",
+        "note": "人称代词"
+      },
+      {
+        "text": "는",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "매일",
+        "meaning": "每天",
+        "note": "副词"
+      },
+      {
+        "text": "학교",
+        "meaning": "学校",
+        "note": "名词"
+      },
+      {
+        "text": "에",
+        "meaning": "往……",
+        "note": "方向助词"
+      },
+      {
+        "text": "갑니다",
+        "meaning": "去",
+        "note": "가다(去)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "가르치다",
+    "romanization": "gareuchida",
+    "pos": "动词",
+    "meaning": "教",
+    "register": "中立",
+    "example": "저는 학생들에게 한국어를 가르칩니다.",
+    "exampleTranslation": "我教学生们韩语。",
+    "grammarBreakdown": [
+      {
+        "text": "저",
+        "meaning": "我（敬语）",
+        "note": "人称代词"
+      },
+      {
+        "text": "는",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "학생들",
+        "meaning": "学生们",
+        "note": "名词"
+      },
+      {
+        "text": "에게",
+        "meaning": "向……",
+        "note": "表对象的助词"
+      },
+      {
+        "text": "한국어",
+        "meaning": "韩语",
+        "note": "名词"
+      },
+      {
+        "text": "를",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "가르칩니다",
+        "meaning": "教",
+        "note": "가르치다(教)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "걷다",
+    "romanization": "geotda",
+    "pos": "动词",
+    "meaning": "走路",
+    "register": "中立",
+    "example": "공원에서 천천히 걸었습니다.",
+    "exampleTranslation": "在公园里慢慢走了走。",
+    "grammarBreakdown": [
+      {
+        "text": "공원",
+        "meaning": "公园",
+        "note": "名词"
+      },
+      {
+        "text": "에서",
+        "meaning": "在……",
+        "note": "处所助词"
+      },
+      {
+        "text": "천천히",
+        "meaning": "慢慢地",
+        "note": "副词"
+      },
+      {
+        "text": "걸었습니다",
+        "meaning": "走了",
+        "note": "걷다(走路)的词干（ㄷ不规则：收音ㄷ在元音开头的语尾前变为ㄹ）+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "고치다",
+    "romanization": "gochida",
+    "pos": "动词",
+    "meaning": "修理",
+    "register": "中立",
+    "example": "아버지가 자동차를 고치고 있습니다.",
+    "exampleTranslation": "父亲正在修车。",
+    "grammarBreakdown": [
+      {
+        "text": "아버지",
+        "meaning": "父亲",
+        "note": "名词"
+      },
+      {
+        "text": "가",
+        "meaning": "—",
+        "note": "主格助词"
+      },
+      {
+        "text": "자동차",
+        "meaning": "汽车",
+        "note": "名词"
+      },
+      {
+        "text": "를",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "고치고 있습니다",
+        "meaning": "正在修理",
+        "note": "고치다(修理)的词干+ -고 있다(正在)+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "기다리다",
+    "romanization": "gidarida",
+    "pos": "动词",
+    "meaning": "等待",
+    "register": "中立",
+    "example": "친구가 올 때까지 기다렸습니다.",
+    "exampleTranslation": "一直等到朋友来。",
+    "grammarBreakdown": [
+      {
+        "text": "친구",
+        "meaning": "朋友",
+        "note": "名词"
+      },
+      {
+        "text": "가",
+        "meaning": "—",
+        "note": "主格助词"
+      },
+      {
+        "text": "올 때까지",
+        "meaning": "直到来的时候",
+        "note": "오다(来)的词干+ -ㄹ(冠形词形)+때(时候)+까지(直到)"
+      },
+      {
+        "text": "기다렸습니다",
+        "meaning": "等待了",
+        "note": "기다리다(等待)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "끄다",
+    "romanization": "kkeuda",
+    "pos": "动词",
+    "meaning": "关闭（灯、电器等）",
+    "register": "中立",
+    "example": "자기 전에 불을 껐습니다.",
+    "exampleTranslation": "睡觉前把灯关了。",
+    "grammarBreakdown": [
+      {
+        "text": "자기 전에",
+        "meaning": "睡觉之前",
+        "note": "자다(睡)的词干+ -기(名词形)+전에(……之前)"
+      },
+      {
+        "text": "불",
+        "meaning": "灯",
+        "note": "名词"
+      },
+      {
+        "text": "을",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "껐습니다",
+        "meaning": "关了",
+        "note": "끄다(关)的词干（으不规则：词干末尾的으在元音开头的语尾前脱落，与-어合并为-어）+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "나가다",
+    "romanization": "nagada",
+    "pos": "动词",
+    "meaning": "出去",
+    "register": "中立",
+    "example": "잠깐 밖에 나갑니다.",
+    "exampleTranslation": "出去一下。",
+    "grammarBreakdown": [
+      {
+        "text": "잠깐",
+        "meaning": "一会儿",
+        "note": "副词"
+      },
+      {
+        "text": "밖",
+        "meaning": "外面",
+        "note": "名词"
+      },
+      {
+        "text": "에",
+        "meaning": "往……",
+        "note": "方向助词"
+      },
+      {
+        "text": "나갑니다",
+        "meaning": "出去",
+        "note": "나가다(出去)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "나오다",
+    "romanization": "naoda",
+    "pos": "动词",
+    "meaning": "出来",
+    "register": "中立",
+    "example": "회의가 끝나고 사무실에서 나왔습니다.",
+    "exampleTranslation": "会议结束后从办公室出来了。",
+    "grammarBreakdown": [
+      {
+        "text": "회의",
+        "meaning": "会议",
+        "note": "名词"
+      },
+      {
+        "text": "가",
+        "meaning": "—",
+        "note": "主格助词"
+      },
+      {
+        "text": "끝나고",
+        "meaning": "结束之后",
+        "note": "끝나다(结束)的词干+ -고(然后)"
+      },
+      {
+        "text": "사무실",
+        "meaning": "办公室",
+        "note": "名词"
+      },
+      {
+        "text": "에서",
+        "meaning": "从……",
+        "note": "表示离开的地点的助词"
+      },
+      {
+        "text": "나왔습니다",
+        "meaning": "出来了",
+        "note": "나오다(出来)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "내리다",
+    "romanization": "naerida",
+    "pos": "动词",
+    "meaning": "下（车），落下",
+    "register": "中立",
+    "example": "다음 정거장에서 내리세요.",
+    "exampleTranslation": "请在下一站下车。",
+    "grammarBreakdown": [
+      {
+        "text": "다음",
+        "meaning": "下一个",
+        "note": "名词，修饰정거장"
+      },
+      {
+        "text": "정거장",
+        "meaning": "车站",
+        "note": "名词"
+      },
+      {
+        "text": "에서",
+        "meaning": "在……",
+        "note": "处所助词"
+      },
+      {
+        "text": "내리세요",
+        "meaning": "请下车",
+        "note": "내리다(下车)的词干+ -시-（尊敬阶标记）+ -어요（非格式体敬语终结词尾，해요体）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "넣다",
+    "romanization": "neota",
+    "pos": "动词",
+    "meaning": "放入",
+    "register": "中立",
+    "example": "가방에 책을 넣었습니다.",
+    "exampleTranslation": "把书放进了包里。",
+    "grammarBreakdown": [
+      {
+        "text": "가방",
+        "meaning": "包",
+        "note": "名词"
+      },
+      {
+        "text": "에",
+        "meaning": "往……",
+        "note": "方向助词"
+      },
+      {
+        "text": "책",
+        "meaning": "书",
+        "note": "名词"
+      },
+      {
+        "text": "을",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "넣었습니다",
+        "meaning": "放进去了",
+        "note": "넣다(放入)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "놀다",
+    "romanization": "nolda",
+    "pos": "动词",
+    "meaning": "玩",
+    "register": "中立",
+    "example": "아이들이 공원에서 놀고 있습니다.",
+    "exampleTranslation": "孩子们正在公园里玩。",
+    "grammarBreakdown": [
+      {
+        "text": "아이들",
+        "meaning": "孩子们",
+        "note": "名词"
+      },
+      {
+        "text": "이",
+        "meaning": "—",
+        "note": "主格助词"
+      },
+      {
+        "text": "공원",
+        "meaning": "公园",
+        "note": "名词"
+      },
+      {
+        "text": "에서",
+        "meaning": "在……",
+        "note": "处所助词"
+      },
+      {
+        "text": "놀고 있습니다",
+        "meaning": "正在玩",
+        "note": "놀다(玩)的词干+ -고 있다(正在)+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "놓다",
+    "romanization": "nota",
+    "pos": "动词",
+    "meaning": "放，搁",
+    "register": "中立",
+    "example": "탁자 위에 꽃병을 놓았습니다.",
+    "exampleTranslation": "把花瓶放在了桌子上。",
+    "grammarBreakdown": [
+      {
+        "text": "탁자 위",
+        "meaning": "桌子上面",
+        "note": "탁자(桌子)+위(上面)"
+      },
+      {
+        "text": "에",
+        "meaning": "在……",
+        "note": "处所助词"
+      },
+      {
+        "text": "꽃병",
+        "meaning": "花瓶",
+        "note": "名词"
+      },
+      {
+        "text": "을",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "놓았습니다",
+        "meaning": "放了",
+        "note": "놓다(放)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "눕다",
+    "romanization": "nupda",
+    "pos": "动词",
+    "meaning": "躺下",
+    "register": "中立",
+    "example": "피곤해서 침대에 누웠습니다.",
+    "exampleTranslation": "因为累了躺到床上了。",
+    "grammarBreakdown": [
+      {
+        "text": "피곤해서",
+        "meaning": "因为累了",
+        "note": "피곤하다(累)的词干+ -해서(因为)"
+      },
+      {
+        "text": "침대",
+        "meaning": "床",
+        "note": "名词"
+      },
+      {
+        "text": "에",
+        "meaning": "往……",
+        "note": "方向助词"
+      },
+      {
+        "text": "누웠습니다",
+        "meaning": "躺下了",
+        "note": "눕다(躺)的词干（ㅂ不规则：收音ㅂ在元音开头的语尾前变为우）+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "닫다",
+    "romanization": "datda",
+    "pos": "动词",
+    "meaning": "关（门、窗）",
+    "register": "中立",
+    "example": "추워서 창문을 닫았습니다.",
+    "exampleTranslation": "因为冷把窗户关上了。",
+    "grammarBreakdown": [
+      {
+        "text": "추워서",
+        "meaning": "因为冷",
+        "note": "춥다(冷)的词干+ -어서(因为)"
+      },
+      {
+        "text": "창문",
+        "meaning": "窗户",
+        "note": "名词"
+      },
+      {
+        "text": "을",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "닫았습니다",
+        "meaning": "关了",
+        "note": "닫다(关)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "던지다",
+    "romanization": "deonjida",
+    "pos": "动词",
+    "meaning": "扔，投",
+    "register": "中立",
+    "example": "아이가 공을 멀리 던졌습니다.",
+    "exampleTranslation": "孩子把球扔得很远。",
+    "grammarBreakdown": [
+      {
+        "text": "아이",
+        "meaning": "孩子",
+        "note": "名词"
+      },
+      {
+        "text": "가",
+        "meaning": "—",
+        "note": "主格助词"
+      },
+      {
+        "text": "공",
+        "meaning": "球",
+        "note": "名词"
+      },
+      {
+        "text": "을",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "멀리",
+        "meaning": "远远地",
+        "note": "副词"
+      },
+      {
+        "text": "던졌습니다",
+        "meaning": "扔了",
+        "note": "던지다(扔)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "두다",
+    "romanization": "duda",
+    "pos": "动词",
+    "meaning": "放，搁置",
+    "register": "中立",
+    "example": "열쇠를 서랍에 두었습니다.",
+    "exampleTranslation": "把钥匙放在了抽屉里。",
+    "grammarBreakdown": [
+      {
+        "text": "열쇠",
+        "meaning": "钥匙",
+        "note": "名词"
+      },
+      {
+        "text": "를",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "서랍",
+        "meaning": "抽屉",
+        "note": "名词"
+      },
+      {
+        "text": "에",
+        "meaning": "往……",
+        "note": "方向助词"
+      },
+      {
+        "text": "두었습니다",
+        "meaning": "放了",
+        "note": "두다(放)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "드리다",
+    "romanization": "deurida",
+    "pos": "动词",
+    "meaning": "给",
+    "register": "敬语",
+    "example": "할머니께 선물을 드렸습니다.",
+    "exampleTranslation": "给奶奶送了礼物。",
+    "grammarBreakdown": [
+      {
+        "text": "할머니",
+        "meaning": "奶奶",
+        "note": "名词"
+      },
+      {
+        "text": "께",
+        "meaning": "向……（敬语）",
+        "note": "敬语版对象助词"
+      },
+      {
+        "text": "선물",
+        "meaning": "礼物",
+        "note": "名词"
+      },
+      {
+        "text": "을",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "드렸습니다",
+        "meaning": "送了（敬语）",
+        "note": "드리다(给,敬语)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "듣다",
+    "romanization": "deutda",
+    "pos": "动词",
+    "meaning": "听",
+    "register": "中立",
+    "example": "저는 매일 한국 노래를 듣습니다.",
+    "exampleTranslation": "我每天听韩国歌曲。",
+    "grammarBreakdown": [
+      {
+        "text": "저",
+        "meaning": "我（敬语）",
+        "note": "人称代词"
+      },
+      {
+        "text": "는",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "매일",
+        "meaning": "每天",
+        "note": "副词"
+      },
+      {
+        "text": "한국 노래",
+        "meaning": "韩国歌曲",
+        "note": "名词"
+      },
+      {
+        "text": "를",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "듣습니다",
+        "meaning": "听",
+        "note": "듣다(听)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "들어가다",
+    "romanization": "deureogada",
+    "pos": "动词",
+    "meaning": "进去",
+    "register": "中立",
+    "example": "교실 안으로 들어갔습니다.",
+    "exampleTranslation": "走进了教室里面。",
+    "grammarBreakdown": [
+      {
+        "text": "교실 안",
+        "meaning": "教室里面",
+        "note": "교실(教室)+안(里面)"
+      },
+      {
+        "text": "으로",
+        "meaning": "往……",
+        "note": "方向助词"
+      },
+      {
+        "text": "들어갔습니다",
+        "meaning": "进去了",
+        "note": "들어가다(进去)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "들어오다",
+    "romanization": "deureooda",
+    "pos": "动词",
+    "meaning": "进来",
+    "register": "中立",
+    "example": "손님이 가게 안으로 들어왔습니다.",
+    "exampleTranslation": "客人走进了店里。",
+    "grammarBreakdown": [
+      {
+        "text": "손님",
+        "meaning": "客人",
+        "note": "名词"
+      },
+      {
+        "text": "이",
+        "meaning": "—",
+        "note": "主格助词"
+      },
+      {
+        "text": "가게 안",
+        "meaning": "店里面",
+        "note": "가게(店)+안(里面)"
+      },
+      {
+        "text": "으로",
+        "meaning": "往……",
+        "note": "方向助词"
+      },
+      {
+        "text": "들어왔습니다",
+        "meaning": "进来了",
+        "note": "들어오다(进来)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "뛰다",
+    "romanization": "ttwida",
+    "pos": "动词",
+    "meaning": "跑，跳",
+    "register": "中立",
+    "example": "늦어서 학교까지 뛰어갔습니다.",
+    "exampleTranslation": "因为迟到了跑着去了学校。",
+    "grammarBreakdown": [
+      {
+        "text": "늦어서",
+        "meaning": "因为迟到了",
+        "note": "늦다(迟)的词干+ -어서(因为)"
+      },
+      {
+        "text": "학교",
+        "meaning": "学校",
+        "note": "名词"
+      },
+      {
+        "text": "까지",
+        "meaning": "到……为止",
+        "note": "助词"
+      },
+      {
+        "text": "뛰어갔습니다",
+        "meaning": "跑着去了",
+        "note": "뛰다(跑)的词干+ -어가다(……着去)+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "마시다",
+    "romanization": "masida",
+    "pos": "动词",
+    "meaning": "喝",
+    "register": "中立",
+    "example": "아침마다 물을 한 잔 마십니다.",
+    "exampleTranslation": "每天早上喝一杯水。",
+    "grammarBreakdown": [
+      {
+        "text": "아침마다",
+        "meaning": "每天早上",
+        "note": "아침(早上)+마다(每……)"
+      },
+      {
+        "text": "물",
+        "meaning": "水",
+        "note": "名词"
+      },
+      {
+        "text": "을",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "한 잔",
+        "meaning": "一杯",
+        "note": "数量结构"
+      },
+      {
+        "text": "마십니다",
+        "meaning": "喝",
+        "note": "마시다(喝)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "만들다",
+    "romanization": "mandeulda",
+    "pos": "动词",
+    "meaning": "做，制作",
+    "register": "中立",
+    "example": "어머니가 맛있는 음식을 만드셨습니다.",
+    "exampleTranslation": "妈妈做了好吃的菜。",
+    "grammarBreakdown": [
+      {
+        "text": "어머니",
+        "meaning": "母亲",
+        "note": "名词"
+      },
+      {
+        "text": "가",
+        "meaning": "—",
+        "note": "主格助词"
+      },
+      {
+        "text": "맛있는",
+        "meaning": "好吃的",
+        "note": "맛있다(好吃)的词干+ -는(冠形词形)"
+      },
+      {
+        "text": "음식",
+        "meaning": "食物",
+        "note": "名词"
+      },
+      {
+        "text": "을",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "만드셨습니다",
+        "meaning": "做了（敬语）",
+        "note": "만들다(做)的词干（ㄹ不规则：收音ㄹ在ㅅ/ㅂ/ㄴ开头的语尾前脱落）+ -시-（尊敬阶标记）+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "먹다",
+    "romanization": "meokda",
+    "pos": "动词",
+    "meaning": "吃",
+    "register": "中立",
+    "example": "저는 아침을 꼭 먹습니다.",
+    "exampleTranslation": "我一定会吃早饭。",
+    "grammarBreakdown": [
+      {
+        "text": "저",
+        "meaning": "我（敬语）",
+        "note": "人称代词"
+      },
+      {
+        "text": "는",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "아침",
+        "meaning": "早饭",
+        "note": "名词"
+      },
+      {
+        "text": "을",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "꼭",
+        "meaning": "一定",
+        "note": "副词"
+      },
+      {
+        "text": "먹습니다",
+        "meaning": "吃",
+        "note": "먹다(吃)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "모르다",
+    "romanization": "moreuda",
+    "pos": "动词",
+    "meaning": "不知道",
+    "register": "中立",
+    "example": "그 사람의 이름을 모릅니다.",
+    "exampleTranslation": "不知道那个人的名字。",
+    "grammarBreakdown": [
+      {
+        "text": "그",
+        "meaning": "那",
+        "note": "冠形词"
+      },
+      {
+        "text": "사람",
+        "meaning": "人",
+        "note": "名词"
+      },
+      {
+        "text": "의",
+        "meaning": "……的",
+        "note": "所有格助词"
+      },
+      {
+        "text": "이름",
+        "meaning": "名字",
+        "note": "名词"
+      },
+      {
+        "text": "을",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "모릅니다",
+        "meaning": "不知道",
+        "note": "모르다(不知道)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "바꾸다",
+    "romanization": "bakkuda",
+    "pos": "动词",
+    "meaning": "换，改变",
+    "register": "中立",
+    "example": "새 휴대폰으로 바꿨습니다.",
+    "exampleTranslation": "换成了新手机。",
+    "grammarBreakdown": [
+      {
+        "text": "새",
+        "meaning": "新的",
+        "note": "冠形词"
+      },
+      {
+        "text": "휴대폰",
+        "meaning": "手机",
+        "note": "名词"
+      },
+      {
+        "text": "으로",
+        "meaning": "变成……",
+        "note": "表示变化方向的助词"
+      },
+      {
+        "text": "바꿨습니다",
+        "meaning": "换了",
+        "note": "바꾸다(换)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "바뀌다",
+    "romanization": "bakkwida",
+    "pos": "动词",
+    "meaning": "被改变，变化",
+    "register": "中立",
+    "example": "날씨가 갑자기 바뀌었습니다.",
+    "exampleTranslation": "天气突然变了。",
+    "grammarBreakdown": [
+      {
+        "text": "날씨",
+        "meaning": "天气",
+        "note": "名词"
+      },
+      {
+        "text": "가",
+        "meaning": "—",
+        "note": "主格助词"
+      },
+      {
+        "text": "갑자기",
+        "meaning": "突然",
+        "note": "副词"
+      },
+      {
+        "text": "바뀌었습니다",
+        "meaning": "变了",
+        "note": "바뀌다(变化)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "받다",
+    "romanization": "batda",
+    "pos": "动词",
+    "meaning": "收到，接受",
+    "register": "中立",
+    "example": "친구에게 생일 선물을 받았습니다.",
+    "exampleTranslation": "收到了朋友的生日礼物。",
+    "grammarBreakdown": [
+      {
+        "text": "친구",
+        "meaning": "朋友",
+        "note": "名词"
+      },
+      {
+        "text": "에게",
+        "meaning": "从……",
+        "note": "表来源的助词"
+      },
+      {
+        "text": "생일 선물",
+        "meaning": "生日礼物",
+        "note": "名词"
+      },
+      {
+        "text": "을",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "받았습니다",
+        "meaning": "收到了",
+        "note": "받다(收到)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "배우다",
+    "romanization": "baeuda",
+    "pos": "动词",
+    "meaning": "学习",
+    "register": "中立",
+    "example": "요즘 태권도를 배우고 있습니다.",
+    "exampleTranslation": "最近在学跆拳道。",
+    "grammarBreakdown": [
+      {
+        "text": "요즘",
+        "meaning": "最近",
+        "note": "副词"
+      },
+      {
+        "text": "태권도",
+        "meaning": "跆拳道",
+        "note": "名词"
+      },
+      {
+        "text": "를",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "배우고 있습니다",
+        "meaning": "正在学",
+        "note": "배우다(学)的词干+ -고 있다(正在)+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "벗다",
+    "romanization": "beotda",
+    "pos": "动词",
+    "meaning": "脱",
+    "register": "中立",
+    "example": "집에 들어오면 신발을 벗습니다.",
+    "exampleTranslation": "一进家门就脱鞋。",
+    "grammarBreakdown": [
+      {
+        "text": "집",
+        "meaning": "家",
+        "note": "名词"
+      },
+      {
+        "text": "에 들어오면",
+        "meaning": "一进家门的话",
+        "note": "들어오다(进入)+ -면(如果……的话)"
+      },
+      {
+        "text": "신발",
+        "meaning": "鞋",
+        "note": "名词"
+      },
+      {
+        "text": "을",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "벗습니다",
+        "meaning": "脱",
+        "note": "벗다(脱)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "보내다",
+    "romanization": "bonaeda",
+    "pos": "动词",
+    "meaning": "寄，送",
+    "register": "中立",
+    "example": "친구에게 이메일을 보냈습니다.",
+    "exampleTranslation": "给朋友发了邮件。",
+    "grammarBreakdown": [
+      {
+        "text": "친구",
+        "meaning": "朋友",
+        "note": "名词"
+      },
+      {
+        "text": "에게",
+        "meaning": "向……",
+        "note": "表对象的助词"
+      },
+      {
+        "text": "이메일",
+        "meaning": "邮件",
+        "note": "名词"
+      },
+      {
+        "text": "을",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "보냈습니다",
+        "meaning": "寄了",
+        "note": "보내다(寄)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "보다",
+    "romanization": "boda",
+    "pos": "动词",
+    "meaning": "看",
+    "register": "中立",
+    "example": "저는 주말에 영화를 봅니다.",
+    "exampleTranslation": "我周末看电影。",
+    "grammarBreakdown": [
+      {
+        "text": "저",
+        "meaning": "我（敬语）",
+        "note": "人称代词"
+      },
+      {
+        "text": "는",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "주말",
+        "meaning": "周末",
+        "note": "名词"
+      },
+      {
+        "text": "에",
+        "meaning": "在……",
+        "note": "时间助词"
+      },
+      {
+        "text": "영화",
+        "meaning": "电影",
+        "note": "名词"
+      },
+      {
+        "text": "를",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "봅니다",
+        "meaning": "看",
+        "note": "보다(看)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "homonymIndex": "01"
+  },
+  {
+    "korean": "사다",
+    "romanization": "sada",
+    "pos": "动词",
+    "meaning": "买",
+    "register": "中立",
+    "example": "시장에서 과일을 샀습니다.",
+    "exampleTranslation": "在市场买了水果。",
+    "grammarBreakdown": [
+      {
+        "text": "시장",
+        "meaning": "市场",
+        "note": "名词"
+      },
+      {
+        "text": "에서",
+        "meaning": "在……",
+        "note": "处所助词"
+      },
+      {
+        "text": "과일",
+        "meaning": "水果",
+        "note": "名词"
+      },
+      {
+        "text": "을",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "샀습니다",
+        "meaning": "买了",
+        "note": "사다(买)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "서다",
+    "romanization": "seoda",
+    "pos": "动词",
+    "meaning": "站立",
+    "register": "中立",
+    "example": "버스 안에서 계속 서 있었습니다.",
+    "exampleTranslation": "在公交车上一直站着。",
+    "grammarBreakdown": [
+      {
+        "text": "버스 안",
+        "meaning": "公交车里面",
+        "note": "버스(公交车)+안(里面)"
+      },
+      {
+        "text": "에서",
+        "meaning": "在……",
+        "note": "处所助词"
+      },
+      {
+        "text": "계속",
+        "meaning": "一直",
+        "note": "副词"
+      },
+      {
+        "text": "서 있었습니다",
+        "meaning": "一直站着",
+        "note": "서다(站)的词干+ -아/어 있다(状态持续)+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "신다",
+    "romanization": "sinda",
+    "pos": "动词",
+    "meaning": "穿（鞋、袜）",
+    "register": "中立",
+    "example": "오늘은 새 구두를 신었습니다.",
+    "exampleTranslation": "今天穿了新皮鞋。",
+    "grammarBreakdown": [
+      {
+        "text": "오늘",
+        "meaning": "今天",
+        "note": "名词/副词"
+      },
+      {
+        "text": "은",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "새",
+        "meaning": "新的",
+        "note": "冠形词"
+      },
+      {
+        "text": "구두",
+        "meaning": "皮鞋",
+        "note": "名词"
+      },
+      {
+        "text": "를",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "신었습니다",
+        "meaning": "穿了",
+        "note": "신다(穿)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "싫어하다",
+    "romanization": "sireohada",
+    "pos": "动词",
+    "meaning": "讨厌",
+    "register": "中立",
+    "example": "저는 매운 음식을 싫어합니다.",
+    "exampleTranslation": "我讨厌辣的食物。",
+    "grammarBreakdown": [
+      {
+        "text": "저",
+        "meaning": "我（敬语）",
+        "note": "人称代词"
+      },
+      {
+        "text": "는",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "매운",
+        "meaning": "辣的",
+        "note": "맵다(辣)的词干+ -ㄴ(冠形词形)"
+      },
+      {
+        "text": "음식",
+        "meaning": "食物",
+        "note": "名词"
+      },
+      {
+        "text": "을",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "싫어합니다",
+        "meaning": "讨厌",
+        "note": "싫어하다(讨厌)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "쓰다",
+    "romanization": "sseuda",
+    "pos": "动词",
+    "meaning": "写",
+    "register": "中立",
+    "example": "매일 일기를 씁니다.",
+    "exampleTranslation": "每天写日记。",
+    "grammarBreakdown": [
+      {
+        "text": "매일",
+        "meaning": "每天",
+        "note": "副词"
+      },
+      {
+        "text": "일기",
+        "meaning": "日记",
+        "note": "名词"
+      },
+      {
+        "text": "를",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "씁니다",
+        "meaning": "写",
+        "note": "쓰다(写)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "homonymIndex": "01"
+  },
+  {
+    "korean": "앉다",
+    "romanization": "anta",
+    "pos": "动词",
+    "meaning": "坐",
+    "register": "中立",
+    "example": "의자에 편하게 앉으세요.",
+    "exampleTranslation": "请舒服地坐在椅子上。",
+    "grammarBreakdown": [
+      {
+        "text": "의자",
+        "meaning": "椅子",
+        "note": "名词"
+      },
+      {
+        "text": "에",
+        "meaning": "在……",
+        "note": "方向助词"
+      },
+      {
+        "text": "편하게",
+        "meaning": "舒服地",
+        "note": "편하다(舒服)的词干+ -게(副词形)"
+      },
+      {
+        "text": "앉으세요",
+        "meaning": "请坐",
+        "note": "앉다(坐)的词干+ -으시-（尊敬阶标记）+ -어요（非格式体敬语终结词尾，해요体）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "알다",
+    "romanization": "alda",
+    "pos": "动词",
+    "meaning": "知道",
+    "register": "中立",
+    "example": "저는 그 소식을 이미 알고 있습니다.",
+    "exampleTranslation": "我已经知道那个消息了。",
+    "grammarBreakdown": [
+      {
+        "text": "저",
+        "meaning": "我（敬语）",
+        "note": "人称代词"
+      },
+      {
+        "text": "는",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "그",
+        "meaning": "那",
+        "note": "冠形词"
+      },
+      {
+        "text": "소식",
+        "meaning": "消息",
+        "note": "名词"
+      },
+      {
+        "text": "을",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "이미",
+        "meaning": "已经",
+        "note": "副词"
+      },
+      {
+        "text": "알고 있습니다",
+        "meaning": "知道",
+        "note": "알다(知道)的词干+ -고 있다(状态持续)+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "열다",
+    "romanization": "yeolda",
+    "pos": "动词",
+    "meaning": "打开",
+    "register": "中立",
+    "example": "창문을 열고 환기를 시켰습니다.",
+    "exampleTranslation": "打开窗户通了风。",
+    "grammarBreakdown": [
+      {
+        "text": "창문",
+        "meaning": "窗户",
+        "note": "名词"
+      },
+      {
+        "text": "을",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "열고",
+        "meaning": "打开之后",
+        "note": "열다(打开)的词干+ -고(然后)",
+        "isTarget": true
+      },
+      {
+        "text": "환기",
+        "meaning": "通风",
+        "note": "名词"
+      },
+      {
+        "text": "를",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "시켰습니다",
+        "meaning": "使……做了",
+        "note": "시키다(使……做)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "오다",
+    "romanization": "oda",
+    "pos": "动词",
+    "meaning": "来",
+    "register": "中立",
+    "example": "내일 친구가 우리 집에 옵니다.",
+    "exampleTranslation": "明天朋友要来我家。",
+    "grammarBreakdown": [
+      {
+        "text": "내일",
+        "meaning": "明天",
+        "note": "名词/副词"
+      },
+      {
+        "text": "친구",
+        "meaning": "朋友",
+        "note": "名词"
+      },
+      {
+        "text": "가",
+        "meaning": "—",
+        "note": "主格助词"
+      },
+      {
+        "text": "우리 집",
+        "meaning": "我们家",
+        "note": "우리(我们)+집(家)"
+      },
+      {
+        "text": "에",
+        "meaning": "往……",
+        "note": "方向助词"
+      },
+      {
+        "text": "옵니다",
+        "meaning": "来",
+        "note": "오다(来)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "읽다",
+    "romanization": "ikda",
+    "pos": "动词",
+    "meaning": "读",
+    "register": "中立",
+    "example": "저는 자기 전에 책을 읽습니다.",
+    "exampleTranslation": "我睡前读书。",
+    "grammarBreakdown": [
+      {
+        "text": "저",
+        "meaning": "我（敬语）",
+        "note": "人称代词"
+      },
+      {
+        "text": "는",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "자기 전에",
+        "meaning": "睡觉之前",
+        "note": "자다(睡)的词干+ -기 전에(……之前)"
+      },
+      {
+        "text": "책",
+        "meaning": "书",
+        "note": "名词"
+      },
+      {
+        "text": "을",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "읽습니다",
+        "meaning": "读",
+        "note": "읽다(读)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "잡다",
+    "romanization": "japda",
+    "pos": "动词",
+    "meaning": "抓，握",
+    "register": "中立",
+    "example": "아이의 손을 꼭 잡았습니다.",
+    "exampleTranslation": "紧紧握住了孩子的手。",
+    "grammarBreakdown": [
+      {
+        "text": "아이",
+        "meaning": "孩子",
+        "note": "名词"
+      },
+      {
+        "text": "의",
+        "meaning": "……的",
+        "note": "所有格助词"
+      },
+      {
+        "text": "손",
+        "meaning": "手",
+        "note": "名词"
+      },
+      {
+        "text": "을",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "꼭",
+        "meaning": "紧紧地",
+        "note": "副词"
+      },
+      {
+        "text": "잡았습니다",
+        "meaning": "抓住了",
+        "note": "잡다(抓)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "좋아하다",
+    "romanization": "joahada",
+    "pos": "动词",
+    "meaning": "喜欢",
+    "register": "中立",
+    "example": "저는 커피를 아주 좋아합니다.",
+    "exampleTranslation": "我很喜欢咖啡。",
+    "grammarBreakdown": [
+      {
+        "text": "저",
+        "meaning": "我（敬语）",
+        "note": "人称代词"
+      },
+      {
+        "text": "는",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "커피",
+        "meaning": "咖啡",
+        "note": "名词"
+      },
+      {
+        "text": "를",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "아주",
+        "meaning": "非常",
+        "note": "副词"
+      },
+      {
+        "text": "좋아합니다",
+        "meaning": "喜欢",
+        "note": "좋아하다(喜欢)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "주다",
+    "romanization": "juda",
+    "pos": "动词",
+    "meaning": "给",
+    "register": "中立",
+    "example": "친구에게 책을 한 권 주었습니다.",
+    "exampleTranslation": "给了朋友一本书。",
+    "grammarBreakdown": [
+      {
+        "text": "친구",
+        "meaning": "朋友",
+        "note": "名词"
+      },
+      {
+        "text": "에게",
+        "meaning": "给……",
+        "note": "表对象的助词"
+      },
+      {
+        "text": "책",
+        "meaning": "书",
+        "note": "名词"
+      },
+      {
+        "text": "을",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "한 권",
+        "meaning": "一本",
+        "note": "数量结构"
+      },
+      {
+        "text": "주었습니다",
+        "meaning": "给了",
+        "note": "주다(给)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "찾다",
+    "romanization": "chatda",
+    "pos": "动词",
+    "meaning": "找",
+    "register": "中立",
+    "example": "잃어버린 지갑을 찾았습니다.",
+    "exampleTranslation": "找到了丢失的钱包。",
+    "grammarBreakdown": [
+      {
+        "text": "잃어버린",
+        "meaning": "丢失的",
+        "note": "잃어버리다(丢失)的词干+ -ㄴ(冠形词形)"
+      },
+      {
+        "text": "지갑",
+        "meaning": "钱包",
+        "note": "名词"
+      },
+      {
+        "text": "을",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "찾았습니다",
+        "meaning": "找到了",
+        "note": "찾다(找)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "켜다",
+    "romanization": "kyeoda",
+    "pos": "动词",
+    "meaning": "打开（灯、电器）",
+    "register": "中立",
+    "example": "어두워서 불을 켰습니다.",
+    "exampleTranslation": "因为暗所以开了灯。",
+    "grammarBreakdown": [
+      {
+        "text": "어두워서",
+        "meaning": "因为暗",
+        "note": "어둡다(暗)的词干+ -어서(因为)"
+      },
+      {
+        "text": "불",
+        "meaning": "灯",
+        "note": "名词"
+      },
+      {
+        "text": "을",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "켰습니다",
+        "meaning": "打开了",
+        "note": "켜다(打开)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "homonymIndex": "01"
+  },
+  {
+    "korean": "타다",
+    "romanization": "tada",
+    "pos": "动词",
+    "meaning": "乘坐",
+    "register": "中立",
+    "example": "지하철을 타고 회사에 갑니다.",
+    "exampleTranslation": "坐地铁去公司。",
+    "grammarBreakdown": [
+      {
+        "text": "지하철",
+        "meaning": "地铁",
+        "note": "名词"
+      },
+      {
+        "text": "을",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "타고",
+        "meaning": "乘坐之后",
+        "note": "타다(乘坐)的词干+ -고(然后)",
+        "isTarget": true
+      },
+      {
+        "text": "회사",
+        "meaning": "公司",
+        "note": "名词"
+      },
+      {
+        "text": "에",
+        "meaning": "往……",
+        "note": "方向助词"
+      },
+      {
+        "text": "갑니다",
+        "meaning": "去",
+        "note": "가다(去)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "homonymIndex": "02"
+  },
+  {
+    "korean": "팔다",
+    "romanization": "palda",
+    "pos": "动词",
+    "meaning": "卖",
+    "register": "中立",
+    "example": "시장에서 채소를 팝니다.",
+    "exampleTranslation": "在市场卖蔬菜。",
+    "grammarBreakdown": [
+      {
+        "text": "시장",
+        "meaning": "市场",
+        "note": "名词"
+      },
+      {
+        "text": "에서",
+        "meaning": "在……",
+        "note": "处所助词"
+      },
+      {
+        "text": "채소",
+        "meaning": "蔬菜",
+        "note": "名词"
+      },
+      {
+        "text": "를",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "팝니다",
+        "meaning": "卖",
+        "note": "팔다(卖)的词干（ㄹ不规则：收音ㄹ在-ㅂ니다前脱落）+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "하다",
+    "romanization": "hada",
+    "pos": "动词",
+    "meaning": "做",
+    "register": "中立",
+    "example": "오늘은 숙제를 먼저 하겠습니다.",
+    "exampleTranslation": "今天要先做作业。",
+    "grammarBreakdown": [
+      {
+        "text": "오늘",
+        "meaning": "今天",
+        "note": "名词/副词"
+      },
+      {
+        "text": "은",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "숙제",
+        "meaning": "作业",
+        "note": "名词"
+      },
+      {
+        "text": "를",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "먼저",
+        "meaning": "先",
+        "note": "副词"
+      },
+      {
+        "text": "하겠습니다",
+        "meaning": "要做",
+        "note": "하다(做)的词干+ -겠-（意志/推测·将来时标记）+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  }
+]

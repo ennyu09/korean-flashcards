@@ -1,0 +1,852 @@
+[
+  {
+    "korean": "가방",
+    "romanization": "gabang",
+    "pos": "名词",
+    "meaning": "包",
+    "register": "中立",
+    "example": "가방을 어깨에 멨습니다.",
+    "exampleTranslation": "把包背在了肩上。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "가방을",
+        "meaning": "包",
+        "note": "가방(包)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "어깨에",
+        "meaning": "肩上",
+        "note": "어깨(肩膀)+에(方向助词)"
+      },
+      {
+        "text": "멨습니다",
+        "meaning": "背了",
+        "note": "메다(背)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "갈색",
+    "romanization": "galsaek",
+    "pos": "名词",
+    "meaning": "棕色",
+    "register": "中立",
+    "example": "저는 갈색 가방을 좋아합니다.",
+    "exampleTranslation": "我喜欢棕色的包。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "저는",
+        "meaning": "我",
+        "note": "저(我)+는(主题助词)"
+      },
+      {
+        "text": "갈색 가방을",
+        "meaning": "棕色的包",
+        "note": "갈색(棕色)+가방(包)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "좋아합니다",
+        "meaning": "喜欢",
+        "note": "좋아하다(喜欢)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "검은색",
+    "romanization": "geomeunsaek",
+    "pos": "名词",
+    "meaning": "黑色",
+    "register": "中立",
+    "example": "검은색 옷을 자주 입습니다.",
+    "exampleTranslation": "经常穿黑色的衣服。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "검은색 옷을",
+        "meaning": "黑色的衣服",
+        "note": "검은색(黑色)+옷(衣服)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "자주",
+        "meaning": "经常",
+        "note": "副词"
+      },
+      {
+        "text": "입습니다",
+        "meaning": "穿",
+        "note": "입다(穿)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "구두",
+    "romanization": "gudu",
+    "pos": "名词",
+    "meaning": "皮鞋",
+    "register": "中立",
+    "example": "오늘은 구두를 신었습니다.",
+    "exampleTranslation": "今天穿了皮鞋。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "오늘은",
+        "meaning": "今天",
+        "note": "오늘(今天)+은(主题助词)"
+      },
+      {
+        "text": "구두를",
+        "meaning": "皮鞋",
+        "note": "구두(皮鞋)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "신었습니다",
+        "meaning": "穿了",
+        "note": "신다(穿)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "넥타이",
+    "romanization": "nektai",
+    "pos": "名词",
+    "meaning": "领带",
+    "register": "中立",
+    "example": "회사에 갈 때 넥타이를 맵니다.",
+    "exampleTranslation": "去公司的时候系领带。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "회사에 갈 때",
+        "meaning": "去公司的时候",
+        "note": "회사(公司)+에(方向助词)+가다(去)+ -ㄹ 때(……的时候)"
+      },
+      {
+        "text": "넥타이를",
+        "meaning": "领带",
+        "note": "넥타이(领带)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "맵니다",
+        "meaning": "系",
+        "note": "매다(系)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "노란색",
+    "romanization": "noransaek",
+    "pos": "名词",
+    "meaning": "黄色",
+    "register": "中立",
+    "example": "노란색 우산을 샀습니다.",
+    "exampleTranslation": "买了黄色的伞。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "노란색 우산을",
+        "meaning": "黄色的伞",
+        "note": "노란색(黄色)+우산(伞)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "샀습니다",
+        "meaning": "买了",
+        "note": "사다(买)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "모자",
+    "romanization": "moja",
+    "pos": "名词",
+    "meaning": "帽子",
+    "register": "中立",
+    "example": "햇빛이 강해서 모자를 썼습니다.",
+    "exampleTranslation": "阳光很强所以戴了帽子。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "햇빛이",
+        "meaning": "阳光",
+        "note": "햇빛(阳光)+이(主格助词)"
+      },
+      {
+        "text": "강해서",
+        "meaning": "强，所以",
+        "note": "강하다(强)的词干+ -해서(因为)"
+      },
+      {
+        "text": "모자를",
+        "meaning": "帽子",
+        "note": "모자(帽子)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "썼습니다",
+        "meaning": "戴了",
+        "note": "쓰다(戴)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "목걸이",
+    "romanization": "mokgeori",
+    "pos": "名词",
+    "meaning": "项链",
+    "register": "中立",
+    "example": "생일 선물로 목걸이를 받았습니다.",
+    "exampleTranslation": "收到了项链作为生日礼物。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "생일 선물로",
+        "meaning": "作为生日礼物",
+        "note": "생일 선물(生日礼物)+로(表方式)"
+      },
+      {
+        "text": "목걸이를",
+        "meaning": "项链",
+        "note": "목걸이(项链)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "받았습니다",
+        "meaning": "收到了",
+        "note": "받다(收到)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "목도리",
+    "romanization": "mokdori",
+    "pos": "名词",
+    "meaning": "围巾",
+    "register": "中立",
+    "example": "추워서 목도리를 했습니다.",
+    "exampleTranslation": "因为冷围了围巾。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "추워서",
+        "meaning": "因为冷",
+        "note": "춥다(冷)的词干+ -어서(因为)"
+      },
+      {
+        "text": "목도리를",
+        "meaning": "围巾",
+        "note": "목도리(围巾)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "했습니다",
+        "meaning": "做了（围了）",
+        "note": "하다(做)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "바지",
+    "romanization": "baji",
+    "pos": "名词",
+    "meaning": "裤子",
+    "register": "中立",
+    "example": "새 바지를 샀습니다.",
+    "exampleTranslation": "买了新裤子。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "새",
+        "meaning": "新的",
+        "note": "冠形词"
+      },
+      {
+        "text": "바지를",
+        "meaning": "裤子",
+        "note": "바지(裤子)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "샀습니다",
+        "meaning": "买了",
+        "note": "사다(买)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "반지",
+    "romanization": "banji",
+    "pos": "名词",
+    "meaning": "戒指",
+    "register": "中立",
+    "example": "반지를 손가락에 끼었습니다.",
+    "exampleTranslation": "把戒指戴在了手指上。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "반지를",
+        "meaning": "戒指",
+        "note": "반지(戒指)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "손가락에",
+        "meaning": "手指上",
+        "note": "손가락(手指)+에(方向助词)"
+      },
+      {
+        "text": "끼었습니다",
+        "meaning": "戴上了",
+        "note": "끼다(戴/夹)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "보라색",
+    "romanization": "borasaek",
+    "pos": "名词",
+    "meaning": "紫色",
+    "register": "中立",
+    "example": "보라색 꽃을 좋아합니다.",
+    "exampleTranslation": "喜欢紫色的花。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "보라색 꽃을",
+        "meaning": "紫色的花",
+        "note": "보라색(紫色)+꽃(花)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "좋아합니다",
+        "meaning": "喜欢",
+        "note": "좋아하다(喜欢)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "분홍색",
+    "romanization": "bunhongsaek",
+    "pos": "名词",
+    "meaning": "粉色",
+    "register": "中立",
+    "example": "여동생은 분홍색을 좋아합니다.",
+    "exampleTranslation": "妹妹喜欢粉色。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "여동생은",
+        "meaning": "妹妹",
+        "note": "여동생(妹妹)+은(主题助词)"
+      },
+      {
+        "text": "분홍색을",
+        "meaning": "粉色",
+        "note": "분홍색(粉色)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "좋아합니다",
+        "meaning": "喜欢",
+        "note": "좋아하다(喜欢)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "빨간색",
+    "romanization": "ppalgansaek",
+    "pos": "名词",
+    "meaning": "红色",
+    "register": "中立",
+    "example": "빨간색 옷이 잘 어울립니다.",
+    "exampleTranslation": "红色的衣服很适合你。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "빨간색 옷이",
+        "meaning": "红色的衣服",
+        "note": "빨간색(红色)+옷(衣服)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "잘",
+        "meaning": "很好地",
+        "note": "副词"
+      },
+      {
+        "text": "어울립니다",
+        "meaning": "适合",
+        "note": "어울리다(适合)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "색깔",
+    "romanization": "saekkkal",
+    "pos": "名词",
+    "meaning": "颜色",
+    "register": "中立",
+    "example": "어떤 색깔을 좋아하세요?",
+    "exampleTranslation": "您喜欢什么颜色？",
+    "sentenceType": "疑问句",
+    "formalityLevel": "非格式体敬语（해요体）",
+    "grammarBreakdown": [
+      {
+        "text": "어떤",
+        "meaning": "什么样的",
+        "note": "冠形词"
+      },
+      {
+        "text": "색깔을",
+        "meaning": "颜色",
+        "note": "색깔(颜色)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "좋아하세요",
+        "meaning": "喜欢吗（敬语）",
+        "note": "좋아하다(喜欢)的词干+ -시-（尊敬阶标记）+ -어요（非格式体敬语终结词尾，해요体）"
+      }
+    ]
+  },
+  {
+    "korean": "신발",
+    "romanization": "sinbal",
+    "pos": "名词",
+    "meaning": "鞋",
+    "register": "中立",
+    "example": "신발을 새로 샀습니다.",
+    "exampleTranslation": "买了新鞋。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "신발을",
+        "meaning": "鞋",
+        "note": "신발(鞋)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "새로",
+        "meaning": "新",
+        "note": "副词"
+      },
+      {
+        "text": "샀습니다",
+        "meaning": "买了",
+        "note": "사다(买)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "양말",
+    "romanization": "yangmal",
+    "pos": "名词",
+    "meaning": "袜子",
+    "register": "中立",
+    "example": "양말을 두 켤레 샀습니다.",
+    "exampleTranslation": "买了两双袜子。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "양말을",
+        "meaning": "袜子",
+        "note": "양말(袜子)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "두 켤레",
+        "meaning": "两双",
+        "note": "数量结构"
+      },
+      {
+        "text": "샀습니다",
+        "meaning": "买了",
+        "note": "사다(买)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "와이셔츠",
+    "romanization": "waisyeocheu",
+    "pos": "名词",
+    "meaning": "衬衫",
+    "register": "中立",
+    "example": "흰색 와이셔츠를 입었습니다.",
+    "exampleTranslation": "穿了白色衬衫。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "흰색",
+        "meaning": "白色",
+        "note": "名词"
+      },
+      {
+        "text": "와이셔츠를",
+        "meaning": "衬衫",
+        "note": "와이셔츠(衬衫)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "입었습니다",
+        "meaning": "穿了",
+        "note": "입다(穿)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "옷",
+    "romanization": "ot",
+    "pos": "名词",
+    "meaning": "衣服",
+    "register": "中立",
+    "example": "오늘은 따뜻한 옷을 입었습니다.",
+    "exampleTranslation": "今天穿了保暖的衣服。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "오늘은",
+        "meaning": "今天",
+        "note": "오늘(今天)+은(主题助词)"
+      },
+      {
+        "text": "따뜻한",
+        "meaning": "温暖的",
+        "note": "따뜻하다(温暖)的词干+ -ㄴ(冠形词形)"
+      },
+      {
+        "text": "옷을",
+        "meaning": "衣服",
+        "note": "옷(衣服)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "입었습니다",
+        "meaning": "穿了",
+        "note": "입다(穿)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "우산",
+    "romanization": "usan",
+    "pos": "名词",
+    "meaning": "雨伞",
+    "register": "中立",
+    "example": "비가 와서 우산을 썼습니다.",
+    "exampleTranslation": "下雨了所以撑了伞。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "비가 와서",
+        "meaning": "下雨了，所以",
+        "note": "비(雨)+가(主格助词)+오다(来/下)+ -아서(因为)"
+      },
+      {
+        "text": "우산을",
+        "meaning": "雨伞",
+        "note": "우산(伞)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "썼습니다",
+        "meaning": "撑了（打了）",
+        "note": "쓰다(打伞)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "운동화",
+    "romanization": "undonghwa",
+    "pos": "名词",
+    "meaning": "运动鞋",
+    "register": "中立",
+    "example": "운동할 때 운동화를 신습니다.",
+    "exampleTranslation": "运动的时候穿运动鞋。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "운동할 때",
+        "meaning": "运动的时候",
+        "note": "운동하다(运动)+ -ㄹ 때(……的时候)"
+      },
+      {
+        "text": "운동화를",
+        "meaning": "运动鞋",
+        "note": "운동화(运动鞋)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "신습니다",
+        "meaning": "穿",
+        "note": "신다(穿)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "장갑",
+    "romanization": "janggap",
+    "pos": "名词",
+    "meaning": "手套",
+    "register": "中立",
+    "example": "추워서 장갑을 꼈습니다.",
+    "exampleTranslation": "因为冷戴了手套。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "추워서",
+        "meaning": "因为冷",
+        "note": "춥다(冷)的词干+ -어서(因为)"
+      },
+      {
+        "text": "장갑을",
+        "meaning": "手套",
+        "note": "장갑(手套)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "꼈습니다",
+        "meaning": "戴了",
+        "note": "끼다(戴)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "주황색",
+    "romanization": "juhwangsaek",
+    "pos": "名词",
+    "meaning": "橙色",
+    "register": "中立",
+    "example": "주황색 옷이 눈에 띕니다.",
+    "exampleTranslation": "橙色的衣服很显眼。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "주황색 옷이",
+        "meaning": "橙色的衣服",
+        "note": "주황색(橙色)+옷(衣服)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "눈에 띕니다",
+        "meaning": "显眼",
+        "note": "눈(眼)+에(方向助词)+띄다(显眼)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "지갑",
+    "romanization": "jigap",
+    "pos": "名词",
+    "meaning": "钱包",
+    "register": "中立",
+    "example": "지갑을 가방에 넣었습니다.",
+    "exampleTranslation": "把钱包放进了包里。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "지갑을",
+        "meaning": "钱包",
+        "note": "지갑(钱包)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "가방에",
+        "meaning": "包里",
+        "note": "가방(包)+에(方向助词)"
+      },
+      {
+        "text": "넣었습니다",
+        "meaning": "放进去了",
+        "note": "넣다(放入)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "초록색",
+    "romanization": "choroksaek",
+    "pos": "名词",
+    "meaning": "绿色",
+    "register": "中立",
+    "example": "나뭇잎이 초록색입니다.",
+    "exampleTranslation": "树叶是绿色的。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "나뭇잎이",
+        "meaning": "树叶",
+        "note": "나뭇잎(树叶)+이(主格助词)"
+      },
+      {
+        "text": "초록색입니다",
+        "meaning": "是绿色",
+        "note": "초록색(绿色)+이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "치마",
+    "romanization": "chima",
+    "pos": "名词",
+    "meaning": "裙子",
+    "register": "中立",
+    "example": "예쁜 치마를 입었습니다.",
+    "exampleTranslation": "穿了漂亮的裙子。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "예쁜",
+        "meaning": "漂亮的",
+        "note": "예쁘다(漂亮)的词干+ -ㄴ(冠形词形)"
+      },
+      {
+        "text": "치마를",
+        "meaning": "裙子",
+        "note": "치마(裙子)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "입었습니다",
+        "meaning": "穿了",
+        "note": "입다(穿)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "티셔츠",
+    "romanization": "tisyeocheu",
+    "pos": "名词",
+    "meaning": "T恤",
+    "register": "中立",
+    "example": "여름에는 티셔츠를 자주 입습니다.",
+    "exampleTranslation": "夏天经常穿T恤。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "여름에는",
+        "meaning": "在夏天",
+        "note": "여름(夏天)+에(时间)+는(强调)"
+      },
+      {
+        "text": "티셔츠를",
+        "meaning": "T恤",
+        "note": "티셔츠(T恤)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "자주",
+        "meaning": "经常",
+        "note": "副词"
+      },
+      {
+        "text": "입습니다",
+        "meaning": "穿",
+        "note": "입다(穿)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "파란색",
+    "romanization": "paransaek",
+    "pos": "名词",
+    "meaning": "蓝色",
+    "register": "中立",
+    "example": "하늘이 파란색입니다.",
+    "exampleTranslation": "天空是蓝色的。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "하늘이",
+        "meaning": "天空",
+        "note": "하늘(天空)+이(主格助词)"
+      },
+      {
+        "text": "파란색입니다",
+        "meaning": "是蓝色",
+        "note": "파란색(蓝色)+이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "하얀색",
+    "romanization": "hayansaek",
+    "pos": "名词",
+    "meaning": "白色",
+    "register": "中立",
+    "example": "하얀색 신발을 신었습니다.",
+    "exampleTranslation": "穿了白色的鞋。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "하얀색 신발을",
+        "meaning": "白色的鞋",
+        "note": "하얀색(白色)+신발(鞋)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "신었습니다",
+        "meaning": "穿了",
+        "note": "신다(穿)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "회색",
+    "romanization": "hoesaek",
+    "pos": "名词",
+    "meaning": "灰色",
+    "register": "中立",
+    "example": "회색 바지를 입었습니다.",
+    "exampleTranslation": "穿了灰色的裤子。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "회색 바지를",
+        "meaning": "灰色的裤子",
+        "note": "회색(灰色)+바지(裤子)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "입었습니다",
+        "meaning": "穿了",
+        "note": "입다(穿)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  }
+]

@@ -16,6 +16,12 @@ const VOCAB_PATH = path.join(__dirname, "..", "vocab.json");
 //   所以应该是 -tada 不是 -thada（对照组 산책하다 koroman 处理成 sanchaekada 是对的，同一条规则库内部处理不一致）
 // - 맛없다：国立국어원问答明确这个词只有[마덥따]一个标准发音（不像"맛있다"有[마싣따]的许可发音），
 //   받침ㅅ按代表音ㄷ处理再连音，koroman 却按简单连音处理成了 maseopda，错误
+// - 비슷하다/못하다/잘못하다：跟 깨끗하다/따뜻하다 同一类 bug（받침ㅅ+하 送气音合并成ㅌ时错误保留字母h），
+//   应该是 -tada 不是 -thada
+// - 목욕/목욕탕：跟 목요일 同一类 bug（koroman 错误套用了ㄴ添加规则），国立국어원问答确认목욕实际发音
+//   是普通连音[모굑]，没有ㄴ添加
+// - 집안일：这次方向相反——koroman 反而漏掉了本该有的ㄴ添加。国立국어원问答明确"집안일"三个条件
+//   （合成词/前一음절有받침/后一음절이로开头）全部满足，标准发音是[지반닐]，即"jibannil"
 const ROMANIZATION_OVERRIDES = {
   "깨끗하다": "kkaekkeutada",
   "따뜻하다": "ttatteutada",
@@ -23,6 +29,12 @@ const ROMANIZATION_OVERRIDES = {
   "목요일": "mogyoil",
   "월요일": "woryoil",
   "일요일": "iryoil",
+  "비슷하다": "biseutada",
+  "못하다": "motada",
+  "잘못하다": "jalmotada",
+  "목욕": "mogyok",
+  "목욕탕": "mogyoktang",
+  "집안일": "jibannil",
 };
 
 const data = JSON.parse(fs.readFileSync(VOCAB_PATH, "utf8"));

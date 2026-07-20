@@ -66,7 +66,10 @@ async function main() {
       for (const unit of chapter.units || []) {
         for (const word of unit.words || []) {
           jobs.push({ text: word.k, file: `${word.k}.mp3` });
-          if (word.e) jobs.push({ text: word.e, file: `${word.k}_example.mp3` });
+          // 同形异义词（hi 字段）读音相同可以共用词本身的音频，但例句不同，
+          // 文件名要加上 hi 后缀区分，否则会互相覆盖/误判"已存在"而跳过生成
+          const exampleSuffix = word.hi ? `_${word.hi}` : "";
+          if (word.e) jobs.push({ text: word.e, file: `${word.k}${exampleSuffix}_example.mp3` });
         }
       }
     }

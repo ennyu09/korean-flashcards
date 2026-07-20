@@ -1,0 +1,1355 @@
+[
+  {
+    "korean": "거실",
+    "romanization": "geosil",
+    "pos": "名词",
+    "meaning": "客厅",
+    "register": "中立",
+    "example": "가족이 거실에 모여 있습니다.",
+    "exampleTranslation": "家人聚在客厅里。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "가족이",
+        "meaning": "家人",
+        "note": "가족(家人)+이(主格助词)"
+      },
+      {
+        "text": "거실에",
+        "meaning": "客厅",
+        "note": "거실(客厅)+에(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "모여 있습니다",
+        "meaning": "聚在一起",
+        "note": "모이다(聚集)的词干+ -아/어 있다(状态持续)+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "거울",
+    "romanization": "georul",
+    "pos": "名词",
+    "meaning": "镜子",
+    "register": "中立",
+    "example": "아침마다 거울을 봅니다.",
+    "exampleTranslation": "每天早上照镜子。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "아침마다",
+        "meaning": "每天早上",
+        "note": "아침(早上)+마다(每……)"
+      },
+      {
+        "text": "거울을",
+        "meaning": "镜子",
+        "note": "거울(镜子)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "봅니다",
+        "meaning": "看",
+        "note": "보다(看)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "계단",
+    "romanization": "gyedan",
+    "pos": "名词",
+    "meaning": "楼梯",
+    "register": "中立",
+    "example": "계단으로 올라갔습니다.",
+    "exampleTranslation": "走楼梯上去了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "계단으로",
+        "meaning": "用楼梯",
+        "note": "계단(楼梯)+으로(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "올라갔습니다",
+        "meaning": "上去了",
+        "note": "올라가다(上去)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "그릇",
+    "romanization": "geureut",
+    "pos": "名词",
+    "meaning": "碗，器皿",
+    "register": "中立",
+    "example": "밥을 그릇에 담았습니다.",
+    "exampleTranslation": "把饭盛到了碗里。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "밥을",
+        "meaning": "饭",
+        "note": "밥(饭)+을(宾格助词)"
+      },
+      {
+        "text": "그릇에",
+        "meaning": "碗里",
+        "note": "그릇(碗)+에(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "담았습니다",
+        "meaning": "盛了",
+        "note": "담다(盛)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "냄비",
+    "romanization": "naembi",
+    "pos": "名词",
+    "meaning": "锅",
+    "register": "中立",
+    "example": "냄비에 물을 끓였습니다.",
+    "exampleTranslation": "用锅烧了水。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "냄비에",
+        "meaning": "用锅",
+        "note": "냄비(锅)+에(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "물을",
+        "meaning": "水",
+        "note": "물(水)+을(宾格助词)"
+      },
+      {
+        "text": "끓였습니다",
+        "meaning": "烧开了",
+        "note": "끓이다(烧开)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "냉장고",
+    "romanization": "naengjanggo",
+    "pos": "名词",
+    "meaning": "冰箱",
+    "register": "中立",
+    "example": "과일을 냉장고에 넣었습니다.",
+    "exampleTranslation": "把水果放进了冰箱。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "과일을",
+        "meaning": "水果",
+        "note": "과일(水果)+을(宾格助词)"
+      },
+      {
+        "text": "냉장고에",
+        "meaning": "冰箱里",
+        "note": "냉장고(冰箱)+에(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "넣었습니다",
+        "meaning": "放进去了",
+        "note": "넣다(放入)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "라디오",
+    "romanization": "radio",
+    "pos": "名词",
+    "meaning": "收音机",
+    "register": "中立",
+    "example": "아침에 라디오를 켭니다.",
+    "exampleTranslation": "早上打开收音机。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "아침에",
+        "meaning": "早上",
+        "note": "아침(早上)+에(时间助词)"
+      },
+      {
+        "text": "라디오를",
+        "meaning": "收音机",
+        "note": "라디오(收音机)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "켭니다",
+        "meaning": "打开",
+        "note": "켜다(打开)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "마당",
+    "romanization": "madang",
+    "pos": "名词",
+    "meaning": "院子",
+    "register": "中立",
+    "example": "마당에서 강아지가 놀고 있습니다.",
+    "exampleTranslation": "小狗在院子里玩。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "마당에서",
+        "meaning": "在院子",
+        "note": "마당(院子)+에서(处所助词)",
+        "isTarget": true
+      },
+      {
+        "text": "강아지가",
+        "meaning": "小狗",
+        "note": "강아지(小狗)+가(主格助词)"
+      },
+      {
+        "text": "놀고 있습니다",
+        "meaning": "正在玩",
+        "note": "놀다(玩)的词干+ -고 있다(正在)+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "문",
+    "romanization": "mun",
+    "pos": "名词",
+    "meaning": "门",
+    "register": "中立",
+    "example": "문을 닫아 주세요.",
+    "exampleTranslation": "请把门关上。",
+    "sentenceType": "命令句（请求）",
+    "formalityLevel": "非格式体敬语（해요体）",
+    "grammarBreakdown": [
+      {
+        "text": "문을",
+        "meaning": "门",
+        "note": "문(门)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "닫아 주세요",
+        "meaning": "请关上",
+        "note": "닫다(关)的词干+ -아/어 주다(请求)+ -시-（尊敬阶标记）+ -어요（请求/命令·非格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "방",
+    "romanization": "bang",
+    "pos": "名词",
+    "meaning": "房间",
+    "register": "中立",
+    "example": "이 집은 방이 세 개 있습니다.",
+    "exampleTranslation": "这个家有三个房间。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "이 집은",
+        "meaning": "这个家",
+        "note": "이(这)+집(家)+은(主题助词)"
+      },
+      {
+        "text": "방이",
+        "meaning": "房间",
+        "note": "방(房间)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "세 개",
+        "meaning": "三个",
+        "note": "数量结构"
+      },
+      {
+        "text": "있습니다",
+        "meaning": "有",
+        "note": "있다(有)+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "벽",
+    "romanization": "byeok",
+    "pos": "名词",
+    "meaning": "墙",
+    "register": "中立",
+    "example": "벽에 그림을 걸었습니다.",
+    "exampleTranslation": "在墙上挂了画。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "벽에",
+        "meaning": "墙上",
+        "note": "벽(墙)+에(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "그림을",
+        "meaning": "画",
+        "note": "그림(画)+을(宾格助词)"
+      },
+      {
+        "text": "걸었습니다",
+        "meaning": "挂了",
+        "note": "걸다(挂)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "부엌",
+    "romanization": "bueok",
+    "pos": "名词",
+    "meaning": "厨房",
+    "register": "中立",
+    "example": "어머니는 부엌에서 요리하고 계십니다.",
+    "exampleTranslation": "母亲正在厨房做饭。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "어머니는",
+        "meaning": "母亲",
+        "note": "어머니(母亲)+는(主题助词)"
+      },
+      {
+        "text": "부엌에서",
+        "meaning": "在厨房",
+        "note": "부엌(厨房)+에서(处所助词)",
+        "isTarget": true
+      },
+      {
+        "text": "요리하고 계십니다",
+        "meaning": "正在做饭（敬语）",
+        "note": "요리하다(做饭)的词干+ -고 계시다(敬语的正在)+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "비누",
+    "romanization": "binu",
+    "pos": "名词",
+    "meaning": "肥皂",
+    "register": "中立",
+    "example": "비누로 손을 씻었습니다.",
+    "exampleTranslation": "用肥皂洗了手。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "비누로",
+        "meaning": "用肥皂",
+        "note": "비누(肥皂)+로(表手段的助词)",
+        "isTarget": true
+      },
+      {
+        "text": "손을",
+        "meaning": "手",
+        "note": "손(手)+을(宾格助词)"
+      },
+      {
+        "text": "씻었습니다",
+        "meaning": "洗了",
+        "note": "씻다(洗)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "선풍기",
+    "romanization": "seonpunggi",
+    "pos": "名词",
+    "meaning": "电风扇",
+    "register": "中立",
+    "example": "더워서 선풍기를 켰습니다.",
+    "exampleTranslation": "因为热打开了电风扇。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "더워서",
+        "meaning": "因为热",
+        "note": "덥다(热)的词干+ -어서(因为)"
+      },
+      {
+        "text": "선풍기를",
+        "meaning": "电风扇",
+        "note": "선풍기(电风扇)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "켰습니다",
+        "meaning": "打开了",
+        "note": "켜다(打开)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "세탁기",
+    "romanization": "setakgi",
+    "pos": "名词",
+    "meaning": "洗衣机",
+    "register": "中立",
+    "example": "세탁기를 돌렸습니다.",
+    "exampleTranslation": "洗衣机运转了（洗了衣服）。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "세탁기를",
+        "meaning": "洗衣机",
+        "note": "세탁기(洗衣机)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "돌렸습니다",
+        "meaning": "运转了",
+        "note": "돌리다(使运转)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "소파",
+    "romanization": "sopa",
+    "pos": "名词",
+    "meaning": "沙发",
+    "register": "中立",
+    "example": "소파에 앉아서 쉬었습니다.",
+    "exampleTranslation": "坐在沙发上休息了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "소파에",
+        "meaning": "沙发上",
+        "note": "소파(沙发)+에(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "앉아서",
+        "meaning": "坐了之后",
+        "note": "앉다(坐)的词干+ -아서(因为/先后)"
+      },
+      {
+        "text": "쉬었습니다",
+        "meaning": "休息了",
+        "note": "쉬다(休息)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "수건",
+    "romanization": "sugeon",
+    "pos": "名词",
+    "meaning": "毛巾",
+    "register": "中立",
+    "example": "수건으로 얼굴을 닦았습니다.",
+    "exampleTranslation": "用毛巾擦了脸。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "수건으로",
+        "meaning": "用毛巾",
+        "note": "수건(毛巾)+으로(表手段的助词)",
+        "isTarget": true
+      },
+      {
+        "text": "얼굴을",
+        "meaning": "脸",
+        "note": "얼굴(脸)+을(宾格助词)"
+      },
+      {
+        "text": "닦았습니다",
+        "meaning": "擦了",
+        "note": "닦다(擦)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "숟가락",
+    "romanization": "sutgarak",
+    "pos": "名词",
+    "meaning": "勺子",
+    "register": "中立",
+    "example": "숟가락으로 밥을 먹습니다.",
+    "exampleTranslation": "用勺子吃饭。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "숟가락으로",
+        "meaning": "用勺子",
+        "note": "숟가락(勺子)+으로(表手段的助词)",
+        "isTarget": true
+      },
+      {
+        "text": "밥을",
+        "meaning": "饭",
+        "note": "밥(饭)+을(宾格助词)"
+      },
+      {
+        "text": "먹습니다",
+        "meaning": "吃",
+        "note": "먹다(吃)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "시계",
+    "romanization": "sigye",
+    "pos": "名词",
+    "meaning": "钟表",
+    "register": "中立",
+    "example": "벽에 시계가 걸려 있습니다.",
+    "exampleTranslation": "墙上挂着钟表。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "벽에",
+        "meaning": "墙上",
+        "note": "벽(墙)+에(处所助词)"
+      },
+      {
+        "text": "시계가",
+        "meaning": "钟表",
+        "note": "시계(钟表)+가(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "걸려 있습니다",
+        "meaning": "挂着",
+        "note": "걸리다(被挂)的词干+ -어 있다(状态持续)+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "쓰레기통",
+    "romanization": "sseuregitong",
+    "pos": "名词",
+    "meaning": "垃圾桶",
+    "register": "中立",
+    "example": "쓰레기를 쓰레기통에 버렸습니다.",
+    "exampleTranslation": "把垃圾扔进了垃圾桶。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "쓰레기를",
+        "meaning": "垃圾",
+        "note": "쓰레기(垃圾)+를(宾格助词)"
+      },
+      {
+        "text": "쓰레기통에",
+        "meaning": "垃圾桶里",
+        "note": "쓰레기통(垃圾桶)+에(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "버렸습니다",
+        "meaning": "扔了",
+        "note": "버리다(扔)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "아파트",
+    "romanization": "apateu",
+    "pos": "名词",
+    "meaning": "公寓",
+    "register": "中立",
+    "example": "저는 아파트에 살고 있습니다.",
+    "exampleTranslation": "我住在公寓里。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "저는",
+        "meaning": "我",
+        "note": "저(我)+는(主题助词)"
+      },
+      {
+        "text": "아파트에",
+        "meaning": "公寓",
+        "note": "아파트(公寓)+에(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "살고 있습니다",
+        "meaning": "正在居住",
+        "note": "살다(居住)的词干+ -고 있다(正在)+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "에어컨",
+    "romanization": "eeokeon",
+    "pos": "名词",
+    "meaning": "空调",
+    "register": "中立",
+    "example": "여름에는 에어컨을 켭니다.",
+    "exampleTranslation": "夏天开空调。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "여름에는",
+        "meaning": "在夏天",
+        "note": "여름(夏天)+에(时间)+는(强调)"
+      },
+      {
+        "text": "에어컨을",
+        "meaning": "空调",
+        "note": "에어컨(空调)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "켭니다",
+        "meaning": "打开",
+        "note": "켜다(打开)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "엘리베이터",
+    "romanization": "ellibeiteo",
+    "pos": "名词",
+    "meaning": "电梯",
+    "register": "中立",
+    "example": "엘리베이터를 타고 올라갔습니다.",
+    "exampleTranslation": "坐电梯上去了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "엘리베이터를",
+        "meaning": "电梯",
+        "note": "엘리베이터(电梯)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "타고",
+        "meaning": "乘坐之后",
+        "note": "타다(乘坐)的词干+ -고(然后)"
+      },
+      {
+        "text": "올라갔습니다",
+        "meaning": "上去了",
+        "note": "올라가다(上去)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "옷장",
+    "romanization": "otjang",
+    "pos": "名词",
+    "meaning": "衣柜",
+    "register": "中立",
+    "example": "옷을 옷장에 넣었습니다.",
+    "exampleTranslation": "把衣服放进了衣柜。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "옷을",
+        "meaning": "衣服",
+        "note": "옷(衣服)+을(宾格助词)"
+      },
+      {
+        "text": "옷장에",
+        "meaning": "衣柜里",
+        "note": "옷장(衣柜)+에(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "넣었습니다",
+        "meaning": "放进去了",
+        "note": "넣다(放入)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "의자",
+    "romanization": "uija",
+    "pos": "名词",
+    "meaning": "椅子",
+    "register": "中立",
+    "example": "의자에 앉으세요.",
+    "exampleTranslation": "请坐在椅子上。",
+    "sentenceType": "命令句（请求）",
+    "formalityLevel": "非格式体敬语（해요体）",
+    "grammarBreakdown": [
+      {
+        "text": "의자에",
+        "meaning": "椅子上",
+        "note": "의자(椅子)+에(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "앉으세요",
+        "meaning": "请坐",
+        "note": "앉다(坐)的词干+ -으시-（尊敬阶标记）+ -어요（请求/命令·非格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "이불",
+    "romanization": "ibul",
+    "pos": "名词",
+    "meaning": "被子",
+    "register": "中立",
+    "example": "추워서 이불을 덮었습니다.",
+    "exampleTranslation": "因为冷盖上了被子。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "추워서",
+        "meaning": "因为冷",
+        "note": "춥다(冷)的词干+ -어서(因为)"
+      },
+      {
+        "text": "이불을",
+        "meaning": "被子",
+        "note": "이불(被子)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "덮었습니다",
+        "meaning": "盖了",
+        "note": "덮다(盖)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "전화기",
+    "romanization": "jeonhwagi",
+    "pos": "名词",
+    "meaning": "电话机",
+    "register": "中立",
+    "example": "전화기가 울렸습니다.",
+    "exampleTranslation": "电话响了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "전화기가",
+        "meaning": "电话机",
+        "note": "전화기(电话机)+가(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "울렸습니다",
+        "meaning": "响了",
+        "note": "울리다(响)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "접시",
+    "romanization": "jeopsi",
+    "pos": "名词",
+    "meaning": "盘子",
+    "register": "中立",
+    "example": "음식을 접시에 담았습니다.",
+    "exampleTranslation": "把食物盛到了盘子里。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "음식을",
+        "meaning": "食物",
+        "note": "음식(食物)+을(宾格助词)"
+      },
+      {
+        "text": "접시에",
+        "meaning": "盘子里",
+        "note": "접시(盘子)+에(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "담았습니다",
+        "meaning": "盛了",
+        "note": "담다(盛)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "젓가락",
+    "romanization": "jeotgarak",
+    "pos": "名词",
+    "meaning": "筷子",
+    "register": "中立",
+    "example": "젓가락으로 반찬을 먹습니다.",
+    "exampleTranslation": "用筷子吃小菜。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "젓가락으로",
+        "meaning": "用筷子",
+        "note": "젓가락(筷子)+으로(表手段的助词)",
+        "isTarget": true
+      },
+      {
+        "text": "반찬을",
+        "meaning": "小菜",
+        "note": "반찬(小菜)+을(宾格助词)"
+      },
+      {
+        "text": "먹습니다",
+        "meaning": "吃",
+        "note": "먹다(吃)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "정문",
+    "romanization": "jeongmun",
+    "pos": "名词",
+    "meaning": "正门",
+    "register": "中立",
+    "example": "정문으로 들어오세요.",
+    "exampleTranslation": "请从正门进来。",
+    "sentenceType": "命令句（请求）",
+    "formalityLevel": "非格式体敬语（해요体）",
+    "grammarBreakdown": [
+      {
+        "text": "정문으로",
+        "meaning": "从正门",
+        "note": "정문(正门)+으로(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "들어오세요",
+        "meaning": "请进来",
+        "note": "들어오다(进来)的词干+ -시-（尊敬阶标记）+ -어요（请求/命令·非格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "정원",
+    "romanization": "jeongwon",
+    "pos": "名词",
+    "meaning": "庭院",
+    "register": "中立",
+    "example": "정원에 예쁜 꽃이 많습니다.",
+    "exampleTranslation": "庭院里有很多漂亮的花。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "정원에",
+        "meaning": "庭院",
+        "note": "정원(庭院)+에(处所助词)",
+        "isTarget": true
+      },
+      {
+        "text": "예쁜",
+        "meaning": "漂亮的",
+        "note": "예쁘다(漂亮)的词干+ -ㄴ(冠形词形)"
+      },
+      {
+        "text": "꽃이",
+        "meaning": "花",
+        "note": "꽃(花)+이(主格助词)"
+      },
+      {
+        "text": "많습니다",
+        "meaning": "多",
+        "note": "많다(多)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "주차장",
+    "romanization": "juchajang",
+    "pos": "名词",
+    "meaning": "停车场",
+    "register": "中立",
+    "example": "지하에 주차장이 있습니다.",
+    "exampleTranslation": "地下有停车场。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "지하에",
+        "meaning": "地下",
+        "note": "지하(地下)+에(处所助词)"
+      },
+      {
+        "text": "주차장이",
+        "meaning": "停车场",
+        "note": "주차장(停车场)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "있습니다",
+        "meaning": "有",
+        "note": "있다(有)+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "집",
+    "romanization": "jip",
+    "pos": "名词",
+    "meaning": "家，房子",
+    "register": "中立",
+    "example": "새 집으로 이사했습니다.",
+    "exampleTranslation": "搬到了新家。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "새",
+        "meaning": "新的",
+        "note": "冠形词"
+      },
+      {
+        "text": "집으로",
+        "meaning": "到新家",
+        "note": "집(家)+으로(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "이사했습니다",
+        "meaning": "搬家了",
+        "note": "이사하다(搬家)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "창문",
+    "romanization": "changmun",
+    "pos": "名词",
+    "meaning": "窗户",
+    "register": "中立",
+    "example": "창문을 열고 환기를 했습니다.",
+    "exampleTranslation": "打开窗户通了风。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "창문을",
+        "meaning": "窗户",
+        "note": "창문(窗户)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "열고",
+        "meaning": "打开之后",
+        "note": "열다(打开)的词干+ -고(然后)"
+      },
+      {
+        "text": "환기를",
+        "meaning": "通风",
+        "note": "환기(通风)+를(宾格助词)"
+      },
+      {
+        "text": "했습니다",
+        "meaning": "做了",
+        "note": "하다(做)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "책상",
+    "romanization": "chaeksang",
+    "pos": "名词",
+    "meaning": "书桌",
+    "register": "中立",
+    "example": "책상 위에 책이 있습니다.",
+    "exampleTranslation": "书桌上有书。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "책상 위에",
+        "meaning": "书桌上",
+        "note": "책상(书桌)+위(上面)+에(处所助词)",
+        "isTarget": true
+      },
+      {
+        "text": "책이",
+        "meaning": "书",
+        "note": "책(书)+이(主格助词)"
+      },
+      {
+        "text": "있습니다",
+        "meaning": "有",
+        "note": "있다(有)+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "책장",
+    "romanization": "chaekjang",
+    "pos": "名词",
+    "meaning": "书架",
+    "register": "中立",
+    "example": "책장에 책이 가득합니다.",
+    "exampleTranslation": "书架上满是书。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "책장에",
+        "meaning": "书架上",
+        "note": "책장(书架)+에(处所助词)",
+        "isTarget": true
+      },
+      {
+        "text": "책이",
+        "meaning": "书",
+        "note": "책(书)+이(主格助词)"
+      },
+      {
+        "text": "가득합니다",
+        "meaning": "满满的",
+        "note": "가득하다(满)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "치약",
+    "romanization": "chiyak",
+    "pos": "名词",
+    "meaning": "牙膏",
+    "register": "中立",
+    "example": "치약을 짜서 이를 닦았습니다.",
+    "exampleTranslation": "挤了牙膏刷了牙。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "치약을",
+        "meaning": "牙膏",
+        "note": "치약(牙膏)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "짜서",
+        "meaning": "挤了之后",
+        "note": "짜다(挤)的词干+ -아서(先后)"
+      },
+      {
+        "text": "이를",
+        "meaning": "牙齿",
+        "note": "이(牙齿)+를(宾格助词)"
+      },
+      {
+        "text": "닦았습니다",
+        "meaning": "刷了",
+        "note": "닦다(刷)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "침대",
+    "romanization": "chimdae",
+    "pos": "名词",
+    "meaning": "床",
+    "register": "中立",
+    "example": "침대에서 편하게 잤습니다.",
+    "exampleTranslation": "在床上舒服地睡了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "침대에서",
+        "meaning": "在床上",
+        "note": "침대(床)+에서(处所助词)",
+        "isTarget": true
+      },
+      {
+        "text": "편하게",
+        "meaning": "舒服地",
+        "note": "편하다(舒服)的词干+ -게(副词形)"
+      },
+      {
+        "text": "잤습니다",
+        "meaning": "睡了",
+        "note": "자다(睡)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "침실",
+    "romanization": "chimsil",
+    "pos": "名词",
+    "meaning": "卧室",
+    "register": "中立",
+    "example": "침실이 아주 조용합니다.",
+    "exampleTranslation": "卧室很安静。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "침실이",
+        "meaning": "卧室",
+        "note": "침실(卧室)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "아주",
+        "meaning": "很",
+        "note": "副词"
+      },
+      {
+        "text": "조용합니다",
+        "meaning": "安静",
+        "note": "조용하다(安静)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "칫솔",
+    "romanization": "chitsol",
+    "pos": "名词",
+    "meaning": "牙刷",
+    "register": "中立",
+    "example": "칫솔로 이를 닦습니다.",
+    "exampleTranslation": "用牙刷刷牙。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "칫솔로",
+        "meaning": "用牙刷",
+        "note": "칫솔(牙刷)+로(表手段的助词)",
+        "isTarget": true
+      },
+      {
+        "text": "이를",
+        "meaning": "牙齿",
+        "note": "이(牙齿)+를(宾格助词)"
+      },
+      {
+        "text": "닦습니다",
+        "meaning": "刷",
+        "note": "닦다(刷)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "카메라",
+    "romanization": "kamera",
+    "pos": "名词",
+    "meaning": "相机",
+    "register": "中立",
+    "example": "카메라로 사진을 찍었습니다.",
+    "exampleTranslation": "用相机拍了照片。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "카메라로",
+        "meaning": "用相机",
+        "note": "카메라(相机)+로(表手段的助词)",
+        "isTarget": true
+      },
+      {
+        "text": "사진을",
+        "meaning": "照片",
+        "note": "사진(照片)+을(宾格助词)"
+      },
+      {
+        "text": "찍었습니다",
+        "meaning": "拍了",
+        "note": "찍다(拍)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "컴퓨터",
+    "romanization": "keompyuteo",
+    "pos": "名词",
+    "meaning": "电脑",
+    "register": "中立",
+    "example": "컴퓨터로 일을 합니다.",
+    "exampleTranslation": "用电脑工作。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "컴퓨터로",
+        "meaning": "用电脑",
+        "note": "컴퓨터(电脑)+로(表手段的助词)",
+        "isTarget": true
+      },
+      {
+        "text": "일을",
+        "meaning": "工作",
+        "note": "일(工作)+을(宾格助词)"
+      },
+      {
+        "text": "합니다",
+        "meaning": "做",
+        "note": "하다(做)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "컵",
+    "romanization": "keop",
+    "pos": "名词",
+    "meaning": "杯子",
+    "register": "中立",
+    "example": "컵에 물을 따랐습니다.",
+    "exampleTranslation": "往杯子里倒了水。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "컵에",
+        "meaning": "杯子里",
+        "note": "컵(杯子)+에(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "물을",
+        "meaning": "水",
+        "note": "물(水)+을(宾格助词)"
+      },
+      {
+        "text": "따랐습니다",
+        "meaning": "倒了",
+        "note": "따르다(倒)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "텔레비전",
+    "romanization": "tellebijeon",
+    "pos": "名词",
+    "meaning": "电视",
+    "register": "中立",
+    "example": "저녁에 텔레비전을 봅니다.",
+    "exampleTranslation": "晚上看电视。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "저녁에",
+        "meaning": "晚上",
+        "note": "저녁(晚上)+에(时间助词)"
+      },
+      {
+        "text": "텔레비전을",
+        "meaning": "电视",
+        "note": "텔레비전(电视)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "봅니다",
+        "meaning": "看",
+        "note": "보다(看)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "프라이팬",
+    "romanization": "peuraipaen",
+    "pos": "名词",
+    "meaning": "平底锅",
+    "register": "中立",
+    "example": "프라이팬에 계란을 부쳤습니다.",
+    "exampleTranslation": "用平底锅煎了鸡蛋。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "프라이팬에",
+        "meaning": "平底锅里",
+        "note": "프라이팬(平底锅)+에(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "계란을",
+        "meaning": "鸡蛋",
+        "note": "계란(鸡蛋)+을(宾格助词)"
+      },
+      {
+        "text": "부쳤습니다",
+        "meaning": "煎了",
+        "note": "부치다(煎)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "화장실",
+    "romanization": "hwajangsil",
+    "pos": "名词",
+    "meaning": "洗手间",
+    "register": "中立",
+    "example": "화장실이 어디에 있어요?",
+    "exampleTranslation": "洗手间在哪里？",
+    "sentenceType": "疑问句",
+    "formalityLevel": "非格式体敬语（해요体）",
+    "grammarBreakdown": [
+      {
+        "text": "화장실이",
+        "meaning": "洗手间",
+        "note": "화장실(洗手间)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "어디에",
+        "meaning": "哪里",
+        "note": "어디(哪里)+에(方向助词)"
+      },
+      {
+        "text": "있어요",
+        "meaning": "在吗",
+        "note": "있다(在)的词干+ -어요（非格式体敬语终结词尾，해요体）"
+      }
+    ]
+  },
+  {
+    "korean": "휴지",
+    "romanization": "hyuji",
+    "pos": "名词",
+    "meaning": "纸巾",
+    "register": "中立",
+    "example": "휴지로 코를 닦았습니다.",
+    "exampleTranslation": "用纸巾擦了鼻子。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "휴지로",
+        "meaning": "用纸巾",
+        "note": "휴지(纸巾)+로(表手段的助词)",
+        "isTarget": true
+      },
+      {
+        "text": "코를",
+        "meaning": "鼻子",
+        "note": "코(鼻子)+를(宾格助词)"
+      },
+      {
+        "text": "닦았습니다",
+        "meaning": "擦了",
+        "note": "닦다(擦)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  }
+]

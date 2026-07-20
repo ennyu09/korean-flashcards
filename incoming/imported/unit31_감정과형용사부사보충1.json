@@ -1,0 +1,1368 @@
+[
+  {
+    "korean": "가깝다",
+    "romanization": "gakkapda",
+    "pos": "形容词",
+    "meaning": "近",
+    "register": "中立",
+    "example": "학교와 집이 아주 가깝습니다.",
+    "exampleTranslation": "学校和家非常近。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "학교와 집이",
+        "meaning": "学校和家",
+        "note": "학교(学校)+와(和……)+집(家)+이(主格助词)"
+      },
+      {
+        "text": "아주",
+        "meaning": "非常",
+        "note": "副词"
+      },
+      {
+        "text": "가깝습니다",
+        "meaning": "近",
+        "note": "가깝다(近)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "가늘다",
+    "romanization": "ganeulda",
+    "pos": "形容词",
+    "meaning": "细",
+    "register": "中立",
+    "example": "손가락이 아주 가늡니다.",
+    "exampleTranslation": "手指非常细。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "손가락이",
+        "meaning": "手指",
+        "note": "손가락(手指)+이(主格助词)"
+      },
+      {
+        "text": "아주",
+        "meaning": "非常",
+        "note": "副词"
+      },
+      {
+        "text": "가늡니다",
+        "meaning": "细",
+        "note": "가늘다(细)的词干（ㄹ不规则：收音ㄹ在-ㅂ니다前脱落）+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "가득",
+    "romanization": "gadeuk",
+    "pos": "副词",
+    "meaning": "满满地",
+    "register": "中立",
+    "example": "컵에 물을 가득 담았습니다.",
+    "exampleTranslation": "把杯子装满了水。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "컵에",
+        "meaning": "杯子里",
+        "note": "컵(杯子)+에(方向助词)"
+      },
+      {
+        "text": "물을",
+        "meaning": "水",
+        "note": "물(水)+을(宾格助词)"
+      },
+      {
+        "text": "가득",
+        "meaning": "满满地",
+        "note": "副词",
+        "isTarget": true
+      },
+      {
+        "text": "담았습니다",
+        "meaning": "装了",
+        "note": "담다(装)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "강하다",
+    "romanization": "ganghada",
+    "pos": "形容词",
+    "meaning": "强",
+    "register": "中立",
+    "example": "그는 힘이 강합니다.",
+    "exampleTranslation": "他力气很大。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "그는",
+        "meaning": "他",
+        "note": "그(他)+는(主题助词)"
+      },
+      {
+        "text": "힘이",
+        "meaning": "力气",
+        "note": "힘(力气)+이(主格助词)"
+      },
+      {
+        "text": "강합니다",
+        "meaning": "强",
+        "note": "강하다(强)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "고민",
+    "romanization": "gomin",
+    "pos": "名词",
+    "meaning": "烦恼",
+    "register": "中立",
+    "example": "요즘 고민을 나눌 사람이 필요합니다.",
+    "exampleTranslation": "最近需要一个能分享烦恼的人。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "요즘",
+        "meaning": "最近",
+        "note": "副词"
+      },
+      {
+        "text": "고민을",
+        "meaning": "烦恼",
+        "note": "고민(烦恼)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "나눌",
+        "meaning": "分享的",
+        "note": "나누다(分享)的词干+ -ㄹ(冠形词形)"
+      },
+      {
+        "text": "사람이",
+        "meaning": "人",
+        "note": "사람(人)+이(主格助词)"
+      },
+      {
+        "text": "필요합니다",
+        "meaning": "需要",
+        "note": "필요하다(需要)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "관계",
+    "romanization": "gwangye",
+    "pos": "名词",
+    "meaning": "关系",
+    "register": "中立",
+    "example": "좋은 관계를 맺었습니다.",
+    "exampleTranslation": "建立了良好的关系。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "좋은",
+        "meaning": "好的",
+        "note": "좋다(好)的词干+ -은(冠形词形)"
+      },
+      {
+        "text": "관계를",
+        "meaning": "关系",
+        "note": "관계(关系)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "맺었습니다",
+        "meaning": "建立了",
+        "note": "맺다(建立)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "관심",
+    "romanization": "gwansim",
+    "pos": "名词",
+    "meaning": "关心，关注",
+    "register": "中立",
+    "example": "그 분야에 관심을 가지고 있습니다.",
+    "exampleTranslation": "对那个领域很关注。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "그 분야에",
+        "meaning": "那个领域",
+        "note": "그(那)+분야(领域)+에(方向助词)"
+      },
+      {
+        "text": "관심을",
+        "meaning": "关注",
+        "note": "관심(关注)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "가지고 있습니다",
+        "meaning": "持有着",
+        "note": "가지다(持有)的词干+ -고 있다(正在)+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "괜찮다",
+    "romanization": "gwaenchanta",
+    "pos": "形容词",
+    "meaning": "不错，没关系",
+    "register": "中立",
+    "example": "이 사람은 성격이 괜찮습니다.",
+    "exampleTranslation": "这个人性格不错。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "이 사람은",
+        "meaning": "这个人",
+        "note": "이(这)+사람(人)+은(主题助词)"
+      },
+      {
+        "text": "성격이",
+        "meaning": "性格",
+        "note": "성격(性格)+이(主格助词)"
+      },
+      {
+        "text": "괜찮습니다",
+        "meaning": "不错",
+        "note": "괜찮다(不错)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "괴로워하다",
+    "romanization": "goerowohada",
+    "pos": "动词",
+    "meaning": "感到痛苦",
+    "register": "中立",
+    "example": "통증으로 괴로워했습니다.",
+    "exampleTranslation": "因疼痛而感到痛苦。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "통증으로",
+        "meaning": "因疼痛",
+        "note": "통증(疼痛)+으로(表原因的助词)"
+      },
+      {
+        "text": "괴로워했습니다",
+        "meaning": "感到痛苦了",
+        "note": "괴로워하다(感到痛苦)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "굳다",
+    "romanization": "gutda",
+    "pos": "动词/形容词",
+    "meaning": "变硬，坚定",
+    "register": "中立",
+    "example": "땅이 단단하게 굳었습니다.",
+    "exampleTranslation": "地面变得很硬了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "땅이",
+        "meaning": "地面",
+        "note": "땅(地面)+이(主格助词)"
+      },
+      {
+        "text": "단단하게",
+        "meaning": "结实地",
+        "note": "단단하다(结实)的词干+ -게(副词形)"
+      },
+      {
+        "text": "굳었습니다",
+        "meaning": "变硬了",
+        "note": "굳다(变硬)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "굵다",
+    "romanization": "gukda",
+    "pos": "形容词",
+    "meaning": "粗",
+    "register": "中立",
+    "example": "이 나무는 줄기가 굵습니다.",
+    "exampleTranslation": "这棵树的枝干很粗。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "이",
+        "meaning": "这",
+        "note": "冠形词"
+      },
+      {
+        "text": "나무는",
+        "meaning": "树",
+        "note": "나무(树)+는(主题助词)"
+      },
+      {
+        "text": "줄기가",
+        "meaning": "枝干",
+        "note": "줄기(枝干)+가(主格助词)"
+      },
+      {
+        "text": "굵습니다",
+        "meaning": "粗",
+        "note": "굵다(粗)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "귀여워하다",
+    "romanization": "gwiyeowohada",
+    "pos": "动词",
+    "meaning": "疼爱，觉得可爱",
+    "register": "中立",
+    "example": "강아지를 귀여워합니다.",
+    "exampleTranslation": "疼爱小狗。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "강아지를",
+        "meaning": "小狗",
+        "note": "강아지(小狗)+를(宾格助词)"
+      },
+      {
+        "text": "귀여워합니다",
+        "meaning": "疼爱",
+        "note": "귀여워하다(疼爱)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "그립다",
+    "romanization": "geuripda",
+    "pos": "形容词",
+    "meaning": "想念",
+    "register": "中立",
+    "example": "고향의 가족이 그립습니다.",
+    "exampleTranslation": "想念家乡的家人。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "고향의",
+        "meaning": "家乡的",
+        "note": "고향(家乡)+의(所有格助词)"
+      },
+      {
+        "text": "가족이",
+        "meaning": "家人",
+        "note": "가족(家人)+이(主格助词)"
+      },
+      {
+        "text": "그립습니다",
+        "meaning": "想念",
+        "note": "그립다(想念)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "급하다",
+    "romanization": "geuphada",
+    "pos": "形容词",
+    "meaning": "急",
+    "register": "中立",
+    "example": "사정이 아주 급합니다.",
+    "exampleTranslation": "情况非常紧急。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "사정이",
+        "meaning": "情况",
+        "note": "사정(情况)+이(主格助词)"
+      },
+      {
+        "text": "아주",
+        "meaning": "非常",
+        "note": "副词"
+      },
+      {
+        "text": "급합니다",
+        "meaning": "急",
+        "note": "급하다(急)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "기뻐하다",
+    "romanization": "gippeohada",
+    "pos": "动词",
+    "meaning": "感到高兴",
+    "register": "中立",
+    "example": "졸업을 진심으로 기뻐했습니다.",
+    "exampleTranslation": "衷心为毕业感到高兴。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "졸업을",
+        "meaning": "毕业",
+        "note": "졸업(毕业)+을(宾格助词)"
+      },
+      {
+        "text": "진심으로",
+        "meaning": "衷心地",
+        "note": "진심(真心)+으로(表方式的助词)"
+      },
+      {
+        "text": "기뻐했습니다",
+        "meaning": "感到高兴了",
+        "note": "기뻐하다(感到高兴)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "기쁨",
+    "romanization": "gippeum",
+    "pos": "名词",
+    "meaning": "喜悦",
+    "register": "中立",
+    "example": "가족과 기쁨을 나눴습니다.",
+    "exampleTranslation": "和家人分享了喜悦。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "가족과",
+        "meaning": "和家人",
+        "note": "가족(家人)+과(和……)"
+      },
+      {
+        "text": "기쁨을",
+        "meaning": "喜悦",
+        "note": "기쁨(喜悦)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "나눴습니다",
+        "meaning": "分享了",
+        "note": "나누다(分享)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "깊다",
+    "romanization": "gipda",
+    "pos": "形容词",
+    "meaning": "深",
+    "register": "中立",
+    "example": "이 바다는 아주 깊습니다.",
+    "exampleTranslation": "这片海很深。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "이",
+        "meaning": "这",
+        "note": "冠形词"
+      },
+      {
+        "text": "바다는",
+        "meaning": "海",
+        "note": "바다(海)+는(主题助词)"
+      },
+      {
+        "text": "아주",
+        "meaning": "很",
+        "note": "副词"
+      },
+      {
+        "text": "깊습니다",
+        "meaning": "深",
+        "note": "깊다(深)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "깊이",
+    "romanization": "gipi",
+    "pos": "副词",
+    "meaning": "深深地",
+    "register": "中立",
+    "example": "땅속 깊이 묻었습니다.",
+    "exampleTranslation": "深深地埋进了地下。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "땅속",
+        "meaning": "地下",
+        "note": "땅(地)+속(里面)"
+      },
+      {
+        "text": "깊이",
+        "meaning": "深深地",
+        "note": "副词",
+        "isTarget": true
+      },
+      {
+        "text": "묻었습니다",
+        "meaning": "埋了",
+        "note": "묻다(埋)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "까맣다",
+    "romanization": "kkamata",
+    "pos": "形容词",
+    "meaning": "黑",
+    "register": "中立",
+    "example": "밤하늘이 까맣습니다.",
+    "exampleTranslation": "夜空很黑。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "밤하늘이",
+        "meaning": "夜空",
+        "note": "밤(夜)+하늘(天空)+이(主格助词)"
+      },
+      {
+        "text": "까맣습니다",
+        "meaning": "黑",
+        "note": "까맣다(黑)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "깜짝",
+    "romanization": "kkamjjak",
+    "pos": "副词",
+    "meaning": "吓一跳地",
+    "register": "中立",
+    "example": "소리에 깜짝 놀랐습니다.",
+    "exampleTranslation": "被声音吓了一跳。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "소리에",
+        "meaning": "因声音",
+        "note": "소리(声音)+에(方向/原因助词)"
+      },
+      {
+        "text": "깜짝",
+        "meaning": "吓一跳地",
+        "note": "副词",
+        "isTarget": true
+      },
+      {
+        "text": "놀랐습니다",
+        "meaning": "惊讶了",
+        "note": "놀라다(惊讶)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "깨끗이",
+    "romanization": "kkaekkeusi",
+    "pos": "副词",
+    "meaning": "干净地",
+    "register": "中立",
+    "example": "손을 깨끗이 씻었습니다.",
+    "exampleTranslation": "把手洗干净了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "손을",
+        "meaning": "手",
+        "note": "손(手)+을(宾格助词)"
+      },
+      {
+        "text": "깨끗이",
+        "meaning": "干净地",
+        "note": "副词",
+        "isTarget": true
+      },
+      {
+        "text": "씻었습니다",
+        "meaning": "洗了",
+        "note": "씻다(洗)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "낫다",
+    "romanization": "natda",
+    "pos": "形容词",
+    "meaning": "更好",
+    "register": "中立",
+    "homonymIndex": "02",
+    "example": "이것보다 저것이 더 낫습니다.",
+    "exampleTranslation": "比起这个，那个更好。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "이것보다",
+        "meaning": "比这个",
+        "note": "이것(这个)+보다(比……)"
+      },
+      {
+        "text": "저것이",
+        "meaning": "那个",
+        "note": "저것(那个)+이(主格助词)"
+      },
+      {
+        "text": "더",
+        "meaning": "更",
+        "note": "副词"
+      },
+      {
+        "text": "낫습니다",
+        "meaning": "好",
+        "note": "낫다(好)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "노랗다",
+    "romanization": "norata",
+    "pos": "形容词",
+    "meaning": "黄",
+    "register": "中立",
+    "example": "병아리가 노랗습니다.",
+    "exampleTranslation": "小鸡是黄色的。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "병아리가",
+        "meaning": "小鸡",
+        "note": "병아리(小鸡)+가(主格助词)"
+      },
+      {
+        "text": "노랗습니다",
+        "meaning": "黄",
+        "note": "노랗다(黄)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "높이",
+    "romanization": "nopi",
+    "pos": "名词",
+    "meaning": "高度",
+    "register": "中立",
+    "example": "이 건물은 높이가 높습니다.",
+    "exampleTranslation": "这栋建筑高度很高。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "이 건물은",
+        "meaning": "这栋建筑",
+        "note": "이(这)+건물(建筑)+은(主题助词)"
+      },
+      {
+        "text": "높이가",
+        "meaning": "高度",
+        "note": "높이(高度)+가(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "높습니다",
+        "meaning": "高",
+        "note": "높다(高)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ],
+    "homonymIndex": "01"
+  },
+  {
+    "korean": "높이",
+    "romanization": "nopi",
+    "pos": "副词",
+    "meaning": "高高地",
+    "register": "中立",
+    "example": "연이 하늘 높이 날아갑니다.",
+    "exampleTranslation": "风筝高高地飞向天空。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "연이",
+        "meaning": "风筝",
+        "note": "연(风筝)+이(主格助词)"
+      },
+      {
+        "text": "하늘",
+        "meaning": "天空",
+        "note": "名词"
+      },
+      {
+        "text": "높이",
+        "meaning": "高高地",
+        "note": "副词",
+        "isTarget": true
+      },
+      {
+        "text": "날아갑니다",
+        "meaning": "飞去",
+        "note": "날아가다(飞去)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ],
+    "homonymIndex": "02"
+  },
+  {
+    "korean": "느끼다",
+    "romanization": "neukkida",
+    "pos": "动词",
+    "meaning": "感到，感觉到",
+    "register": "中立",
+    "example": "바깥에서 추위를 느꼈습니다.",
+    "exampleTranslation": "在外面感到了寒冷。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "바깥에서",
+        "meaning": "在外面",
+        "note": "바깥(外面)+에서(处所助词)"
+      },
+      {
+        "text": "추위를",
+        "meaning": "寒冷",
+        "note": "추위(寒冷)+를(宾格助词)"
+      },
+      {
+        "text": "느꼈습니다",
+        "meaning": "感到了",
+        "note": "느끼다(感到)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "느낌",
+    "romanization": "neukkim",
+    "pos": "名词",
+    "meaning": "感觉",
+    "register": "中立",
+    "example": "이 방은 느낌이 좋습니다.",
+    "exampleTranslation": "这个房间感觉很好。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "이 방은",
+        "meaning": "这个房间",
+        "note": "이(这)+방(房间)+은(主题助词)"
+      },
+      {
+        "text": "느낌이",
+        "meaning": "感觉",
+        "note": "느낌(感觉)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "좋습니다",
+        "meaning": "好",
+        "note": "좋다(好)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "다양",
+    "romanization": "dayang",
+    "pos": "名词",
+    "meaning": "多样",
+    "register": "中立",
+    "example": "다양한 방법을 시도했습니다.",
+    "exampleTranslation": "尝试了多种方法。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "다양한",
+        "meaning": "多样的",
+        "note": "다양(多样)+하다+ -ㄴ(冠形词形)",
+        "isTarget": true
+      },
+      {
+        "text": "방법을",
+        "meaning": "方法",
+        "note": "방법(方法)+을(宾格助词)"
+      },
+      {
+        "text": "시도했습니다",
+        "meaning": "尝试了",
+        "note": "시도하다(尝试)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "단순",
+    "romanization": "dansun",
+    "pos": "名词",
+    "meaning": "单纯，简单",
+    "register": "中立",
+    "example": "이 일은 단순 노동입니다.",
+    "exampleTranslation": "这份工作是简单的体力劳动。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "이 일은",
+        "meaning": "这份工作",
+        "note": "이(这)+일(工作)+은(主题助词)"
+      },
+      {
+        "text": "단순 노동입니다",
+        "meaning": "是简单劳动",
+        "note": "단순(单纯)+노동(劳动)+이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "두껍다",
+    "romanization": "dukkeopda",
+    "pos": "形容词",
+    "meaning": "厚",
+    "register": "中立",
+    "example": "이 책이 아주 두껍습니다.",
+    "exampleTranslation": "这本书很厚。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "이",
+        "meaning": "这",
+        "note": "冠形词"
+      },
+      {
+        "text": "책이",
+        "meaning": "书",
+        "note": "책(书)+이(主格助词)"
+      },
+      {
+        "text": "아주",
+        "meaning": "很",
+        "note": "副词"
+      },
+      {
+        "text": "두껍습니다",
+        "meaning": "厚",
+        "note": "두껍다(厚)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "똑같다",
+    "romanization": "ttokgatda",
+    "pos": "形容词",
+    "meaning": "一模一样",
+    "register": "中立",
+    "example": "두 사람의 생각이 똑같습니다.",
+    "exampleTranslation": "两人的想法一模一样。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "두 사람의",
+        "meaning": "两人的",
+        "note": "두(二)+사람(人)+의(所有格助词)"
+      },
+      {
+        "text": "생각이",
+        "meaning": "想法",
+        "note": "생각(想法)+이(主格助词)"
+      },
+      {
+        "text": "똑같습니다",
+        "meaning": "一模一样",
+        "note": "똑같다(一样)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "똑같이",
+    "romanization": "ttokgachi",
+    "pos": "副词",
+    "meaning": "一样地",
+    "register": "中立",
+    "example": "두 개로 똑같이 나눴습니다.",
+    "exampleTranslation": "平均分成了两份。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "두 개로",
+        "meaning": "分成两个",
+        "note": "두(二)+개(个)+로(方向助词)"
+      },
+      {
+        "text": "똑같이",
+        "meaning": "一样地",
+        "note": "副词",
+        "isTarget": true
+      },
+      {
+        "text": "나눴습니다",
+        "meaning": "分了",
+        "note": "나누다(分)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "똑바로",
+    "romanization": "ttokbaro",
+    "pos": "副词",
+    "meaning": "笔直地，端正地",
+    "register": "中立",
+    "example": "이 길로 똑바로 가세요.",
+    "exampleTranslation": "请沿着这条路一直走。",
+    "sentenceType": "命令句（请求）",
+    "formalityLevel": "非格式体敬语（해요体）",
+    "grammarBreakdown": [
+      {
+        "text": "이 길로",
+        "meaning": "沿着这条路",
+        "note": "이(这)+길(路)+로(方向助词)"
+      },
+      {
+        "text": "똑바로",
+        "meaning": "笔直地",
+        "note": "副词",
+        "isTarget": true
+      },
+      {
+        "text": "가세요",
+        "meaning": "请走",
+        "note": "가다(去)的词干+ -시-（尊敬阶标记）+ -어요（请求/命令·非格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "맑다",
+    "romanization": "makda",
+    "pos": "形容词",
+    "meaning": "清澈，晴朗",
+    "register": "中立",
+    "example": "오늘 공기가 맑습니다.",
+    "exampleTranslation": "今天空气很清新。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "오늘",
+        "meaning": "今天",
+        "note": "名词"
+      },
+      {
+        "text": "공기가",
+        "meaning": "空气",
+        "note": "공기(空气)+가(主格助词)"
+      },
+      {
+        "text": "맑습니다",
+        "meaning": "清新",
+        "note": "맑다(清新)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "멀다",
+    "romanization": "meolda",
+    "pos": "形容词",
+    "meaning": "远",
+    "register": "中立",
+    "example": "회사와 집이 아주 멉니다.",
+    "exampleTranslation": "公司和家离得非常远。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "회사와 집이",
+        "meaning": "公司和家",
+        "note": "회사(公司)+와(和……)+집(家)+이(主格助词)"
+      },
+      {
+        "text": "아주",
+        "meaning": "非常",
+        "note": "副词"
+      },
+      {
+        "text": "멉니다",
+        "meaning": "远",
+        "note": "멀다(远)的词干（ㄹ不规则：收音ㄹ在-ㅂ니다前脱落）+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "멀리",
+    "romanization": "meolli",
+    "pos": "副词",
+    "meaning": "遥远地",
+    "register": "中立",
+    "example": "고향에서 멀리 떠나왔습니다.",
+    "exampleTranslation": "离开家乡很远。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "고향에서",
+        "meaning": "从家乡",
+        "note": "고향(家乡)+에서(表来源的处所助词)"
+      },
+      {
+        "text": "멀리",
+        "meaning": "遥远地",
+        "note": "副词",
+        "isTarget": true
+      },
+      {
+        "text": "떠나왔습니다",
+        "meaning": "离开来了",
+        "note": "떠나오다(离开来)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "반드시",
+    "romanization": "bandeusi",
+    "pos": "副词",
+    "meaning": "一定，务必",
+    "register": "中立",
+    "example": "약속은 반드시 지켜야 합니다.",
+    "exampleTranslation": "约定一定要遵守。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "약속은",
+        "meaning": "约定",
+        "note": "약속(约定)+은(主题助词)"
+      },
+      {
+        "text": "반드시",
+        "meaning": "一定",
+        "note": "副词",
+        "isTarget": true
+      },
+      {
+        "text": "지켜야 합니다",
+        "meaning": "必须遵守",
+        "note": "지키다(遵守)的词干+ -어야 하다(必须)+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "복잡하다",
+    "romanization": "bokjaphada",
+    "pos": "形容词",
+    "meaning": "复杂",
+    "register": "中立",
+    "example": "요즘 생각이 복잡합니다.",
+    "exampleTranslation": "最近想法很复杂。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "요즘",
+        "meaning": "最近",
+        "note": "副词"
+      },
+      {
+        "text": "생각이",
+        "meaning": "想法",
+        "note": "생각(想法)+이(主格助词)"
+      },
+      {
+        "text": "복잡합니다",
+        "meaning": "复杂",
+        "note": "복잡하다(复杂)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "부드럽다",
+    "romanization": "budeureopda",
+    "pos": "形容词",
+    "meaning": "柔软",
+    "register": "中立",
+    "example": "머릿결이 아주 부드럽습니다.",
+    "exampleTranslation": "发质非常柔顺。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "머릿결이",
+        "meaning": "发质",
+        "note": "머릿결(发质)+이(主格助词)"
+      },
+      {
+        "text": "아주",
+        "meaning": "非常",
+        "note": "副词"
+      },
+      {
+        "text": "부드럽습니다",
+        "meaning": "柔软",
+        "note": "부드럽다(柔软)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "부럽다",
+    "romanization": "bureopda",
+    "pos": "形容词",
+    "meaning": "羡慕",
+    "register": "中立",
+    "example": "다른 사람이 부럽습니다.",
+    "exampleTranslation": "羡慕别人。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "다른",
+        "meaning": "别的",
+        "note": "冠形词"
+      },
+      {
+        "text": "사람이",
+        "meaning": "人",
+        "note": "사람(人)+이(主格助词)"
+      },
+      {
+        "text": "부럽습니다",
+        "meaning": "羡慕",
+        "note": "부럽다(羡慕)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "분명하다",
+    "romanization": "bunmyeonghada",
+    "pos": "形容词",
+    "meaning": "清楚，明确",
+    "register": "中立",
+    "example": "발음이 분명합니다.",
+    "exampleTranslation": "发音很清楚。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "발음이",
+        "meaning": "发音",
+        "note": "발음(发音)+이(主格助词)"
+      },
+      {
+        "text": "분명합니다",
+        "meaning": "清楚",
+        "note": "분명하다(清楚)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "분위기",
+    "romanization": "bunwigi",
+    "pos": "名词",
+    "meaning": "气氛",
+    "register": "中立",
+    "example": "회의 분위기가 어색했습니다.",
+    "exampleTranslation": "会议气氛很尴尬。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "회의",
+        "meaning": "会议",
+        "note": "名词"
+      },
+      {
+        "text": "분위기가",
+        "meaning": "气氛",
+        "note": "분위기(气氛)+가(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "어색했습니다",
+        "meaning": "尴尬",
+        "note": "어색하다(尴尬)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "불쌍하다",
+    "romanization": "bulssanghada",
+    "pos": "形容词",
+    "meaning": "可怜",
+    "register": "中立",
+    "example": "표정이 불쌍해 보였습니다.",
+    "exampleTranslation": "表情看起来很可怜。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "표정이",
+        "meaning": "表情",
+        "note": "표정(表情)+이(主格助词)"
+      },
+      {
+        "text": "불쌍해 보였습니다",
+        "meaning": "看起来可怜",
+        "note": "불쌍하다(可怜)的词干+ -아/어 보이다(看起来……)+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "불안",
+    "romanization": "buran",
+    "pos": "名词",
+    "meaning": "不安",
+    "register": "中立",
+    "example": "마음속 불안이 커졌습니다.",
+    "exampleTranslation": "心中的不安加剧了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "마음속",
+        "meaning": "心中",
+        "note": "마음(心)+속(里面)"
+      },
+      {
+        "text": "불안이",
+        "meaning": "不安",
+        "note": "불안(不安)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "커졌습니다",
+        "meaning": "变大了",
+        "note": "크다(大)的词干变化+ -어지다(变得……)+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "불편",
+    "romanization": "bulpyeon",
+    "pos": "名词",
+    "meaning": "不便",
+    "register": "中立",
+    "example": "공사로 인해 불편이 따랐습니다.",
+    "exampleTranslation": "因施工而带来了不便。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "공사로 인해",
+        "meaning": "因为施工",
+        "note": "공사(施工)+로 인해(因为……)"
+      },
+      {
+        "text": "불편이",
+        "meaning": "不便",
+        "note": "불편(不便)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "따랐습니다",
+        "meaning": "跟随了（伴随）",
+        "note": "따르다(跟随)的词干（으不规则）+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "붉다",
+    "romanization": "bukda",
+    "pos": "形容词",
+    "meaning": "红",
+    "register": "中立",
+    "example": "저녁노을이 붉습니다.",
+    "exampleTranslation": "晚霞是红色的。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "저녁노을이",
+        "meaning": "晚霞",
+        "note": "저녁노을(晚霞)+이(主格助词)"
+      },
+      {
+        "text": "붉습니다",
+        "meaning": "红",
+        "note": "붉다(红)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "비슷하다",
+    "romanization": "biseutada",
+    "pos": "形容词",
+    "meaning": "相似",
+    "register": "中立",
+    "example": "두 사람은 성격이 비슷합니다.",
+    "exampleTranslation": "两个人性格相似。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "두 사람은",
+        "meaning": "两个人",
+        "note": "두(二)+사람(人)+은(主题助词)"
+      },
+      {
+        "text": "성격이",
+        "meaning": "性格",
+        "note": "성격(性格)+이(主格助词)"
+      },
+      {
+        "text": "비슷합니다",
+        "meaning": "相似",
+        "note": "비슷하다(相似)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  }
+]

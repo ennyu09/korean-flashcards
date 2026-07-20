@@ -1,0 +1,1538 @@
+[
+  {
+    "korean": "방법",
+    "romanization": "bangbeop",
+    "pos": "名词",
+    "meaning": "方法",
+    "register": "中立",
+    "example": "사용 방법을 알려 주세요.",
+    "exampleTranslation": "请告诉我使用方法。",
+    "sentenceType": "命令句（请求）",
+    "formalityLevel": "非格式体敬语（해요体）",
+    "grammarBreakdown": [
+      {
+        "text": "사용 방법을",
+        "meaning": "使用方法",
+        "note": "사용(使用)+방법(方法)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "알려 주세요",
+        "meaning": "请告诉我",
+        "note": "알리다(告知)的词干+ -어(连接词尾)+주다(给)+ -시-+ -어요"
+      }
+    ]
+  },
+  {
+    "korean": "방향",
+    "romanization": "banghyang",
+    "pos": "名词",
+    "meaning": "方向",
+    "register": "中立",
+    "example": "방향을 잘못 바꾸었습니다.",
+    "exampleTranslation": "方向弄错地改了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "방향을",
+        "meaning": "方向",
+        "note": "방향(方向)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "잘못",
+        "meaning": "错误地",
+        "note": "副词"
+      },
+      {
+        "text": "바꾸었습니다",
+        "meaning": "改了",
+        "note": "바꾸다(改变)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "배",
+    "romanization": "bae",
+    "pos": "名词",
+    "meaning": "倍",
+    "register": "中立",
+    "homonymIndex": "09",
+    "example": "가격이 두 배로 올랐습니다.",
+    "exampleTranslation": "价格涨了两倍。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "가격이",
+        "meaning": "价格",
+        "note": "가격(价格)+이(主格助词)"
+      },
+      {
+        "text": "두 배로",
+        "meaning": "两倍",
+        "note": "두(二)+배(倍)+로(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "올랐습니다",
+        "meaning": "涨了",
+        "note": "오르다(上涨)的词干（르不规则）+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "배달",
+    "romanization": "baedal",
+    "pos": "名词",
+    "meaning": "外卖，配送",
+    "register": "中立",
+    "example": "저녁을 배달을 시켰습니다.",
+    "exampleTranslation": "叫了晚饭外卖。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "저녁을",
+        "meaning": "晚饭",
+        "note": "저녁(晚饭)+을(宾格助词)"
+      },
+      {
+        "text": "배달을",
+        "meaning": "外卖",
+        "note": "배달(外卖)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "시켰습니다",
+        "meaning": "叫了",
+        "note": "시키다(点)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "번째",
+    "romanization": "beonjjae",
+    "pos": "依存名词",
+    "meaning": "第……次（序数）",
+    "register": "中立",
+    "example": "이번이 세 번째 방문입니다.",
+    "exampleTranslation": "这次是第三次访问。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "이번이",
+        "meaning": "这次",
+        "note": "이번(这次)+이(主格助词)"
+      },
+      {
+        "text": "세 번째",
+        "meaning": "第三次",
+        "note": "세(三)+번째(第……次,依存名词)",
+        "isTarget": true
+      },
+      {
+        "text": "방문입니다",
+        "meaning": "是访问",
+        "note": "방문(访问)+이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "별",
+    "romanization": "byeol",
+    "pos": "名词",
+    "meaning": "星星",
+    "register": "中立",
+    "example": "밤하늘에 별이 빛납니다.",
+    "exampleTranslation": "夜空中星星闪烁。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "밤하늘에",
+        "meaning": "夜空中",
+        "note": "밤(夜)+하늘(天空)+에(处所助词)"
+      },
+      {
+        "text": "별이",
+        "meaning": "星星",
+        "note": "별(星星)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "빛납니다",
+        "meaning": "闪烁",
+        "note": "빛나다(闪烁)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "병문안",
+    "romanization": "byeongmunan",
+    "pos": "名词",
+    "meaning": "探病",
+    "register": "中立",
+    "example": "친구 병문안을 갔습니다.",
+    "exampleTranslation": "去给朋友探病了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "친구",
+        "meaning": "朋友",
+        "note": "名词"
+      },
+      {
+        "text": "병문안을",
+        "meaning": "探病",
+        "note": "병문안(探病)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "갔습니다",
+        "meaning": "去了",
+        "note": "가다(去)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "보다",
+    "romanization": "boda",
+    "pos": "副词",
+    "meaning": "更加，比……",
+    "register": "中立",
+    "homonymIndex": "02",
+    "example": "보다 높이 뛰어야 합니다.",
+    "exampleTranslation": "必须跳得更高。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "보다",
+        "meaning": "更加",
+        "note": "副词",
+        "isTarget": true
+      },
+      {
+        "text": "높이",
+        "meaning": "高",
+        "note": "副词"
+      },
+      {
+        "text": "뛰어야 합니다",
+        "meaning": "必须跳",
+        "note": "뛰다(跳)的词干+ -어야 하다(必须)+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "봉투",
+    "romanization": "bongtu",
+    "pos": "名词",
+    "meaning": "信封",
+    "register": "中立",
+    "example": "봉투를 조심스럽게 열었습니다.",
+    "exampleTranslation": "小心翼翼地打开了信封。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "봉투를",
+        "meaning": "信封",
+        "note": "봉투(信封)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "조심스럽게",
+        "meaning": "小心翼翼地",
+        "note": "조심스럽다(小心)的词干变化（ㅂ不规则）+ -게(副词形)"
+      },
+      {
+        "text": "열었습니다",
+        "meaning": "打开了",
+        "note": "열다(打开)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "부분",
+    "romanization": "bubun",
+    "pos": "名词",
+    "meaning": "部分",
+    "register": "中立",
+    "example": "전체를 몇 부분으로 나눴습니다.",
+    "exampleTranslation": "把整体分成了几部分。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "전체를",
+        "meaning": "整体",
+        "note": "전체(整体)+를(宾格助词)"
+      },
+      {
+        "text": "몇 부분으로",
+        "meaning": "几部分",
+        "note": "몇(几)+부분(部分)+으로(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "나눴습니다",
+        "meaning": "分了",
+        "note": "나누다(分)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "부족",
+    "romanization": "bujok",
+    "pos": "名词",
+    "meaning": "不足",
+    "register": "中立",
+    "example": "산소 부족이 문제입니다.",
+    "exampleTranslation": "缺氧是个问题。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "산소",
+        "meaning": "氧气",
+        "note": "名词"
+      },
+      {
+        "text": "부족이",
+        "meaning": "不足",
+        "note": "부족(不足)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "문제입니다",
+        "meaning": "是问题",
+        "note": "문제(问题)+이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "분식",
+    "romanization": "bunsik",
+    "pos": "名词",
+    "meaning": "面食小吃",
+    "register": "中立",
+    "example": "분식을 자주 먹습니다.",
+    "exampleTranslation": "经常吃面食小吃。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "분식을",
+        "meaning": "面食小吃",
+        "note": "분식(面食小吃)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "자주",
+        "meaning": "经常",
+        "note": "副词"
+      },
+      {
+        "text": "먹습니다",
+        "meaning": "吃",
+        "note": "먹다(吃)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "불",
+    "romanization": "bul",
+    "pos": "名词",
+    "meaning": "火，灯",
+    "register": "中立",
+    "example": "모닥불을 피웠습니다.",
+    "exampleTranslation": "点燃了篝火。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "모닥불을",
+        "meaning": "篝火",
+        "note": "모닥불(篝火)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "피웠습니다",
+        "meaning": "点燃了",
+        "note": "피우다(点燃)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "불다",
+    "romanization": "bulda",
+    "pos": "动词",
+    "meaning": "刮（风）",
+    "register": "中立",
+    "example": "바람이 세게 붑니다.",
+    "exampleTranslation": "风刮得很大。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "바람이",
+        "meaning": "风",
+        "note": "바람(风)+이(主格助词)"
+      },
+      {
+        "text": "세게",
+        "meaning": "猛烈地",
+        "note": "세다(强)的词干+ -게(副词形)"
+      },
+      {
+        "text": "붑니다",
+        "meaning": "刮",
+        "note": "불다(刮)的词干（ㄹ不规则：收音ㄹ在-ㅂ니다前脱落）+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "비",
+    "romanization": "bi",
+    "pos": "名词",
+    "meaning": "雨",
+    "register": "中立",
+    "example": "비가 드디어 그쳤습니다.",
+    "exampleTranslation": "雨终于停了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "비가",
+        "meaning": "雨",
+        "note": "비(雨)+가(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "드디어",
+        "meaning": "终于",
+        "note": "副词"
+      },
+      {
+        "text": "그쳤습니다",
+        "meaning": "停了",
+        "note": "그치다(停)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "비교",
+    "romanization": "bigyo",
+    "pos": "名词",
+    "meaning": "比较",
+    "register": "中立",
+    "example": "두 제품을 비교 대상으로 삼았습니다.",
+    "exampleTranslation": "把两个产品作为比较对象了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "두 제품을",
+        "meaning": "两个产品",
+        "note": "두(二)+제품(产品)+을(宾格助词)"
+      },
+      {
+        "text": "비교 대상으로",
+        "meaning": "作为比较对象",
+        "note": "비교(比较)+대상(对象)+으로(表身份的助词)",
+        "isTarget": true
+      },
+      {
+        "text": "삼았습니다",
+        "meaning": "作为了",
+        "note": "삼다(当作)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "비다",
+    "romanization": "bida",
+    "pos": "动词",
+    "meaning": "空",
+    "register": "中立",
+    "example": "집이 텅 비었습니다.",
+    "exampleTranslation": "家里空荡荡的。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "집이",
+        "meaning": "家",
+        "note": "집(家)+이(主格助词)"
+      },
+      {
+        "text": "텅",
+        "meaning": "空荡荡地",
+        "note": "副词"
+      },
+      {
+        "text": "비었습니다",
+        "meaning": "空了",
+        "note": "비다(空)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "비밀",
+    "romanization": "bimil",
+    "pos": "名词",
+    "meaning": "秘密",
+    "register": "中立",
+    "example": "이 비밀을 지켜 주세요.",
+    "exampleTranslation": "请保守这个秘密。",
+    "sentenceType": "命令句（请求）",
+    "formalityLevel": "非格式体敬语（해요体）",
+    "grammarBreakdown": [
+      {
+        "text": "이",
+        "meaning": "这",
+        "note": "冠形词"
+      },
+      {
+        "text": "비밀을",
+        "meaning": "秘密",
+        "note": "비밀(秘密)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "지켜 주세요",
+        "meaning": "请保守",
+        "note": "지키다(遵守)的词干+ -어(连接词尾)+주다(为……做)+ -시-+ -어요"
+      }
+    ]
+  },
+  {
+    "korean": "빌딩",
+    "romanization": "bilding",
+    "pos": "名词",
+    "meaning": "大楼",
+    "register": "中立",
+    "example": "높은 빌딩을 지었습니다.",
+    "exampleTranslation": "建了高楼。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "높은",
+        "meaning": "高的",
+        "note": "높다(高)的词干+ -은(冠形词形)"
+      },
+      {
+        "text": "빌딩을",
+        "meaning": "大楼",
+        "note": "빌딩(大楼)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "지었습니다",
+        "meaning": "建了",
+        "note": "짓다(建造)的词干（ㅅ不规则：收音ㅅ在元音开头的语尾前脱落）+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "사고",
+    "romanization": "sago",
+    "pos": "名词",
+    "meaning": "事故",
+    "register": "中立",
+    "example": "교통사고가 났습니다.",
+    "exampleTranslation": "发生了交通事故。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "교통사고가",
+        "meaning": "交通事故",
+        "note": "교통(交通)+사고(事故)+가(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "났습니다",
+        "meaning": "发生了",
+        "note": "나다(发生)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "사무실",
+    "romanization": "samusil",
+    "pos": "名词",
+    "meaning": "办公室",
+    "register": "中立",
+    "example": "아침 아홉 시에 사무실에 출근합니다.",
+    "exampleTranslation": "早上九点到办公室上班。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "아침 아홉 시에",
+        "meaning": "早上九点",
+        "note": "아침(早上)+아홉 시(九点)+에(时间助词)"
+      },
+      {
+        "text": "사무실에",
+        "meaning": "办公室",
+        "note": "사무실(办公室)+에(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "출근합니다",
+        "meaning": "上班",
+        "note": "출근하다(上班)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "사실",
+    "romanization": "sasil",
+    "pos": "名词/副词",
+    "meaning": "事实，其实",
+    "register": "中立",
+    "example": "사실을 밝혔습니다.",
+    "exampleTranslation": "揭示了事实。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "사실을",
+        "meaning": "事实",
+        "note": "사실(事实)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "밝혔습니다",
+        "meaning": "揭示了",
+        "note": "밝히다(揭示)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "사용",
+    "romanization": "sayong",
+    "pos": "名词",
+    "meaning": "使用",
+    "register": "中立",
+    "example": "기계 사용을 배웠습니다.",
+    "exampleTranslation": "学习了机器的使用。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "기계",
+        "meaning": "机器",
+        "note": "名词"
+      },
+      {
+        "text": "사용을",
+        "meaning": "使用",
+        "note": "사용(使用)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "배웠습니다",
+        "meaning": "学习了",
+        "note": "배우다(学)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "사이",
+    "romanization": "sai",
+    "pos": "名词",
+    "meaning": "之间",
+    "register": "中立",
+    "example": "책과 책 사이에 놓았습니다.",
+    "exampleTranslation": "放在了书和书之间。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "책과 책",
+        "meaning": "书和书",
+        "note": "책(书)+과(和……)+책(书)"
+      },
+      {
+        "text": "사이에",
+        "meaning": "之间",
+        "note": "사이(之间)+에(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "놓았습니다",
+        "meaning": "放了",
+        "note": "놓다(放)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "상",
+    "romanization": "sang",
+    "pos": "名词",
+    "meaning": "奖",
+    "register": "中立",
+    "example": "대회에서 상을 받았습니다.",
+    "exampleTranslation": "在比赛中获了奖。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "대회에서",
+        "meaning": "在比赛中",
+        "note": "대회(比赛)+에서(处所助词)"
+      },
+      {
+        "text": "상을",
+        "meaning": "奖",
+        "note": "상(奖)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "받았습니다",
+        "meaning": "获得了",
+        "note": "받다(获得)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "생각",
+    "romanization": "saenggak",
+    "pos": "名词",
+    "meaning": "想法",
+    "register": "中立",
+    "homonymIndex": "01",
+    "example": "깊은 생각에 빠졌습니다.",
+    "exampleTranslation": "陷入了深深的思考。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "깊은",
+        "meaning": "深深的",
+        "note": "깊다(深)的词干+ -은(冠形词形)"
+      },
+      {
+        "text": "생각에",
+        "meaning": "想法（思考）",
+        "note": "생각(想法)+에(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "빠졌습니다",
+        "meaning": "陷入了",
+        "note": "빠지다(陷入)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "생각나다",
+    "romanization": "saenggaknada",
+    "pos": "动词",
+    "meaning": "想起来",
+    "register": "中立",
+    "example": "할 말이 생각나지 않습니다.",
+    "exampleTranslation": "想不起要说的话。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "할 말이",
+        "meaning": "要说的话",
+        "note": "하다(说)的词干+ -ㄹ(冠形词形)+말(话)+이(主格助词)"
+      },
+      {
+        "text": "생각나지 않습니다",
+        "meaning": "想不起来",
+        "note": "생각나다(想起来)的词干+ -지 않다(不……)+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "생기다",
+    "romanization": "saenggida",
+    "pos": "动词",
+    "meaning": "产生，出现",
+    "register": "中立",
+    "example": "동네에 새 건물이 생겼습니다.",
+    "exampleTranslation": "社区里出现了新建筑。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "동네에",
+        "meaning": "社区里",
+        "note": "동네(社区)+에(方向助词)"
+      },
+      {
+        "text": "새",
+        "meaning": "新的",
+        "note": "冠形词"
+      },
+      {
+        "text": "건물이",
+        "meaning": "建筑",
+        "note": "건물(建筑)+이(主格助词)"
+      },
+      {
+        "text": "생겼습니다",
+        "meaning": "出现了",
+        "note": "생기다(出现)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "생신",
+    "romanization": "saengsin",
+    "pos": "名词",
+    "meaning": "生日（敬语）",
+    "register": "敬语",
+    "example": "할머니 생신을 축하드렸습니다.",
+    "exampleTranslation": "祝贺了奶奶的生日。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "할머니",
+        "meaning": "奶奶",
+        "note": "名词"
+      },
+      {
+        "text": "생신을",
+        "meaning": "生日（敬语）",
+        "note": "생신(生日,敬语)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "축하드렸습니다",
+        "meaning": "祝贺了（敬语）",
+        "note": "축하드리다(祝贺,敬语)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "생일",
+    "romanization": "saengil",
+    "pos": "名词",
+    "meaning": "生日",
+    "register": "中立",
+    "example": "생일 파티를 열었습니다.",
+    "exampleTranslation": "举办了生日派对。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "생일 파티를",
+        "meaning": "生日派对",
+        "note": "생일(生日)+파티(派对)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "열었습니다",
+        "meaning": "举办了",
+        "note": "열다(举办)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "생활",
+    "romanization": "saenghwal",
+    "pos": "名词",
+    "meaning": "生活",
+    "register": "中立",
+    "example": "직장 생활이 즐겁습니다.",
+    "exampleTranslation": "职场生活很愉快。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "직장",
+        "meaning": "职场",
+        "note": "名词"
+      },
+      {
+        "text": "생활이",
+        "meaning": "生活",
+        "note": "생활(生活)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "즐겁습니다",
+        "meaning": "愉快",
+        "note": "즐겁다(愉快)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "서비스",
+    "romanization": "seobiseu",
+    "pos": "名词",
+    "meaning": "服务",
+    "register": "中立",
+    "example": "이 가게는 서비스 정신이 좋습니다.",
+    "exampleTranslation": "这家店服务精神很好。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "이 가게는",
+        "meaning": "这家店",
+        "note": "이(这)+가게(店)+는(主题助词)"
+      },
+      {
+        "text": "서비스 정신이",
+        "meaning": "服务精神",
+        "note": "서비스(服务)+정신(精神)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "좋습니다",
+        "meaning": "好",
+        "note": "좋다(好)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "서양",
+    "romanization": "seoyang",
+    "pos": "名词",
+    "meaning": "西方",
+    "register": "中立",
+    "example": "서양 문화를 배웠습니다.",
+    "exampleTranslation": "学习了西方文化。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "서양 문화를",
+        "meaning": "西方文化",
+        "note": "서양(西方)+문화(文化)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "배웠습니다",
+        "meaning": "学习了",
+        "note": "배우다(学)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "서울",
+    "romanization": "seoul",
+    "pos": "名词",
+    "meaning": "首尔",
+    "register": "中立",
+    "example": "서울은 큰 도시입니다.",
+    "exampleTranslation": "首尔是大城市。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "서울은",
+        "meaning": "首尔",
+        "note": "서울(首尔)+은(主题助词)",
+        "isTarget": true
+      },
+      {
+        "text": "큰",
+        "meaning": "大的",
+        "note": "크다(大)的词干+ -ㄴ(冠形词形)"
+      },
+      {
+        "text": "도시입니다",
+        "meaning": "是城市",
+        "note": "도시(城市)+이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "선물",
+    "romanization": "seonmul",
+    "pos": "名词",
+    "meaning": "礼物",
+    "register": "中立",
+    "example": "생일 선물을 받았습니다.",
+    "exampleTranslation": "收到了生日礼物。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "생일",
+        "meaning": "生日",
+        "note": "名词"
+      },
+      {
+        "text": "선물을",
+        "meaning": "礼物",
+        "note": "선물(礼物)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "받았습니다",
+        "meaning": "收到了",
+        "note": "받다(收到)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "선택",
+    "romanization": "seontaek",
+    "pos": "名词",
+    "meaning": "选择",
+    "register": "中立",
+    "example": "어려운 선택을 했습니다.",
+    "exampleTranslation": "做了艰难的选择。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "어려운",
+        "meaning": "艰难的",
+        "note": "어렵다(难)的词干变化（ㅂ不规则）+ -ㄴ(冠形词形)"
+      },
+      {
+        "text": "선택을",
+        "meaning": "选择",
+        "note": "선택(选择)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "했습니다",
+        "meaning": "做了",
+        "note": "하다(做)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "성",
+    "romanization": "seong",
+    "pos": "名词",
+    "meaning": "姓",
+    "register": "中立",
+    "example": "저는 김 씨 성을 가지고 있습니다.",
+    "exampleTranslation": "我姓金。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "저는",
+        "meaning": "我",
+        "note": "저(我)+는(主题助词)"
+      },
+      {
+        "text": "김 씨",
+        "meaning": "金氏",
+        "note": "김(金)+씨(氏)"
+      },
+      {
+        "text": "성을",
+        "meaning": "姓",
+        "note": "성(姓)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "가지고 있습니다",
+        "meaning": "拥有着",
+        "note": "가지다(拥有)的词干+ -고 있다(正在)+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "세",
+    "romanization": "se",
+    "pos": "冠形词",
+    "meaning": "三（后接量词）",
+    "register": "中立",
+    "example": "사과 세 개를 샀습니다.",
+    "exampleTranslation": "买了三个苹果。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "사과",
+        "meaning": "苹果",
+        "note": "名词"
+      },
+      {
+        "text": "세 개를",
+        "meaning": "三个",
+        "note": "세(三,冠形词)+개(个)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "샀습니다",
+        "meaning": "买了",
+        "note": "사다(买)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ],
+    "homonymIndex": "01"
+  },
+  {
+    "korean": "세",
+    "romanization": "se",
+    "pos": "依存名词",
+    "meaning": "岁（汉字词）",
+    "register": "中立",
+    "example": "올해 삼십 세가 되었습니다.",
+    "exampleTranslation": "今年到了三十岁。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "올해",
+        "meaning": "今年",
+        "note": "名词/副词"
+      },
+      {
+        "text": "삼십 세가",
+        "meaning": "三十岁",
+        "note": "삼십(三十)+세(岁,依存名词)+가(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "되었습니다",
+        "meaning": "成为了",
+        "note": "되다(成为)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ],
+    "homonymIndex": "13"
+  },
+  {
+    "korean": "세다",
+    "romanization": "seda",
+    "pos": "形容词",
+    "meaning": "（力气）大，强",
+    "register": "中立",
+    "example": "그의 주먹이 셉니다.",
+    "exampleTranslation": "他的拳头力量很大。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "그의",
+        "meaning": "他的",
+        "note": "그(他)+의(所有格助词)"
+      },
+      {
+        "text": "주먹이",
+        "meaning": "拳头",
+        "note": "주먹(拳头)+이(主格助词)"
+      },
+      {
+        "text": "셉니다",
+        "meaning": "强",
+        "note": "세다(强)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "세배",
+    "romanization": "sebae",
+    "pos": "名词",
+    "meaning": "拜年",
+    "register": "中立",
+    "example": "할머니께 세배를 드렸습니다.",
+    "exampleTranslation": "给奶奶拜年了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "할머니께",
+        "meaning": "给奶奶（敬语）",
+        "note": "할머니(奶奶)+께(给……，敬语)"
+      },
+      {
+        "text": "세배를",
+        "meaning": "拜年",
+        "note": "세배(拜年)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "드렸습니다",
+        "meaning": "献上了（敬语）",
+        "note": "드리다(给,敬语)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "세상",
+    "romanization": "sesang",
+    "pos": "名词",
+    "meaning": "世界，世上",
+    "register": "中立",
+    "example": "세상이 참 넓습니다.",
+    "exampleTranslation": "世界真的很宽广。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "세상이",
+        "meaning": "世界",
+        "note": "세상(世界)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "참",
+        "meaning": "真",
+        "note": "副词"
+      },
+      {
+        "text": "넓습니다",
+        "meaning": "宽广",
+        "note": "넓다(宽广)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "센터",
+    "romanization": "senteo",
+    "pos": "名词",
+    "meaning": "中心",
+    "register": "中立",
+    "example": "쇼핑 센터에 갔습니다.",
+    "exampleTranslation": "去了购物中心。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "쇼핑 센터에",
+        "meaning": "购物中心",
+        "note": "쇼핑(购物)+센터(中心)+에(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "갔습니다",
+        "meaning": "去了",
+        "note": "가다(去)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "센티미터",
+    "romanization": "sentimiteo",
+    "pos": "依存名词",
+    "meaning": "厘米",
+    "register": "中立",
+    "example": "길이가 오 센티미터입니다.",
+    "exampleTranslation": "长度是五厘米。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "길이가",
+        "meaning": "长度",
+        "note": "길이(长度)+가(主格助词)"
+      },
+      {
+        "text": "오 센티미터입니다",
+        "meaning": "是五厘米",
+        "note": "오(五)+센티미터(厘米,依存名词)+이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "소",
+    "romanization": "so",
+    "pos": "名词",
+    "meaning": "牛",
+    "register": "中立",
+    "example": "농장에서 소를 기릅니다.",
+    "exampleTranslation": "在农场养牛。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "농장에서",
+        "meaning": "在农场",
+        "note": "농장(农场)+에서(处所助词)"
+      },
+      {
+        "text": "소를",
+        "meaning": "牛",
+        "note": "소(牛)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "기릅니다",
+        "meaning": "养",
+        "note": "기르다(养)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "소금",
+    "romanization": "sogeum",
+    "pos": "名词",
+    "meaning": "盐",
+    "register": "中立",
+    "example": "국이 소금이 짭니다.",
+    "exampleTranslation": "汤里盐放得咸。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "국이",
+        "meaning": "汤",
+        "note": "국(汤)+이(主格助词)"
+      },
+      {
+        "text": "소금이",
+        "meaning": "盐",
+        "note": "소금(盐)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "짭니다",
+        "meaning": "咸",
+        "note": "짜다(咸)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "소리",
+    "romanization": "sori",
+    "pos": "名词",
+    "meaning": "声音",
+    "register": "中立",
+    "example": "이상한 소리가 납니다.",
+    "exampleTranslation": "发出了奇怪的声音。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "이상한",
+        "meaning": "奇怪的",
+        "note": "이상하다(奇怪)的词干+ -ㄴ(冠形词形)"
+      },
+      {
+        "text": "소리가",
+        "meaning": "声音",
+        "note": "소리(声音)+가(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "납니다",
+        "meaning": "发出",
+        "note": "나다(发出)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "속",
+    "romanization": "sok",
+    "pos": "名词",
+    "meaning": "里面",
+    "register": "中立",
+    "example": "주머니 속에 열쇠가 있습니다.",
+    "exampleTranslation": "口袋里有钥匙。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "주머니 속에",
+        "meaning": "口袋里",
+        "note": "주머니(口袋)+속(里面)+에(处所助词)",
+        "isTarget": true
+      },
+      {
+        "text": "열쇠가",
+        "meaning": "钥匙",
+        "note": "열쇠(钥匙)+가(主格助词)"
+      },
+      {
+        "text": "있습니다",
+        "meaning": "有",
+        "note": "있다(有)+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "속도",
+    "romanization": "sokdo",
+    "pos": "名词",
+    "meaning": "速度",
+    "register": "中立",
+    "example": "자동차의 속도가 빠릅니다.",
+    "exampleTranslation": "汽车的速度很快。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "자동차의",
+        "meaning": "汽车的",
+        "note": "자동차(汽车)+의(所有格助词)"
+      },
+      {
+        "text": "속도가",
+        "meaning": "速度",
+        "note": "속도(速度)+가(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "빠릅니다",
+        "meaning": "快",
+        "note": "빠르다(快)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "속옷",
+    "romanization": "sogot",
+    "pos": "名词",
+    "meaning": "内衣",
+    "register": "中立",
+    "example": "따뜻한 속옷을 입었습니다.",
+    "exampleTranslation": "穿了保暖的内衣。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "따뜻한",
+        "meaning": "暖和的",
+        "note": "따뜻하다(暖和)的词干+ -ㄴ(冠形词形)"
+      },
+      {
+        "text": "속옷을",
+        "meaning": "内衣",
+        "note": "속옷(内衣)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "입었습니다",
+        "meaning": "穿了",
+        "note": "입다(穿)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "손바닥",
+    "romanization": "sonbadak",
+    "pos": "名词",
+    "meaning": "手掌",
+    "register": "中立",
+    "example": "손바닥에 땀이 났습니다.",
+    "exampleTranslation": "手掌出汗了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "손바닥에",
+        "meaning": "手掌上",
+        "note": "손바닥(手掌)+에(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "땀이",
+        "meaning": "汗",
+        "note": "땀(汗)+이(主格助词)"
+      },
+      {
+        "text": "났습니다",
+        "meaning": "出了",
+        "note": "나다(出现)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "손수건",
+    "romanization": "sonsugeon",
+    "pos": "名词",
+    "meaning": "手帕",
+    "register": "中立",
+    "example": "손수건으로 땀을 닦았습니다.",
+    "exampleTranslation": "用手帕擦了汗。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "손수건으로",
+        "meaning": "用手帕",
+        "note": "손수건(手帕)+으로(表工具的助词)",
+        "isTarget": true
+      },
+      {
+        "text": "땀을",
+        "meaning": "汗",
+        "note": "땀(汗)+을(宾格助词)"
+      },
+      {
+        "text": "닦았습니다",
+        "meaning": "擦了",
+        "note": "닦다(擦)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "송편",
+    "romanization": "songpyeon",
+    "pos": "名词",
+    "meaning": "松糕",
+    "register": "中立",
+    "example": "추석에 송편을 만듭니다.",
+    "exampleTranslation": "中秋节做松糕。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "추석에",
+        "meaning": "中秋节",
+        "note": "추석(中秋节)+에(时间助词)"
+      },
+      {
+        "text": "송편을",
+        "meaning": "松糕",
+        "note": "송편(松糕)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "만듭니다",
+        "meaning": "做",
+        "note": "만들다(做)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "수",
+    "romanization": "su",
+    "pos": "名词",
+    "meaning": "数字，数量",
+    "register": "中立",
+    "example": "학생 수가 많습니다.",
+    "exampleTranslation": "学生数量很多。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "학생",
+        "meaning": "学生",
+        "note": "名词"
+      },
+      {
+        "text": "수가",
+        "meaning": "数量",
+        "note": "수(数量)+가(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "많습니다",
+        "meaning": "多",
+        "note": "많다(多)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  }
+]

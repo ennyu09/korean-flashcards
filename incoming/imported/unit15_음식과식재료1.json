@@ -1,0 +1,1269 @@
+[
+  {
+    "korean": "간식",
+    "romanization": "gansik",
+    "pos": "名词",
+    "meaning": "零食",
+    "register": "中立",
+    "example": "아이들이 간식을 먹고 있습니다.",
+    "exampleTranslation": "孩子们正在吃零食。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "아이들이",
+        "meaning": "孩子们",
+        "note": "아이들(孩子们)+이(主格助词)"
+      },
+      {
+        "text": "간식을",
+        "meaning": "零食",
+        "note": "간식(零食)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "먹고 있습니다",
+        "meaning": "正在吃",
+        "note": "먹다(吃)的词干+ -고 있다(正在)+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "간장",
+    "romanization": "ganjang",
+    "pos": "名词",
+    "meaning": "酱油",
+    "register": "中立",
+    "example": "만두를 간장에 찍어 먹습니다.",
+    "exampleTranslation": "把饺子蘸酱油吃。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "만두를",
+        "meaning": "饺子",
+        "note": "만두(饺子)+를(宾格助词)"
+      },
+      {
+        "text": "간장에",
+        "meaning": "酱油",
+        "note": "간장(酱油)+에(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "찍어 먹습니다",
+        "meaning": "蘸着吃",
+        "note": "찍다(蘸)的词干+ -어(连接词尾)+먹다(吃)+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "갈비",
+    "romanization": "galbi",
+    "pos": "名词",
+    "meaning": "排骨",
+    "register": "中立",
+    "example": "오늘 저녁에 갈비를 먹었습니다.",
+    "exampleTranslation": "今天晚上吃了排骨。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "오늘 저녁에",
+        "meaning": "今天晚上",
+        "note": "오늘(今天)+저녁(晚上)+에(时间助词)"
+      },
+      {
+        "text": "갈비를",
+        "meaning": "排骨",
+        "note": "갈비(排骨)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "먹었습니다",
+        "meaning": "吃了",
+        "note": "먹다(吃)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "갈비탕",
+    "romanization": "galbitang",
+    "pos": "名词",
+    "meaning": "排骨汤",
+    "register": "中立",
+    "example": "갈비탕은 뜨거울 때 맛있습니다.",
+    "exampleTranslation": "排骨汤热的时候好吃。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "갈비탕은",
+        "meaning": "排骨汤",
+        "note": "갈비탕(排骨汤)+은(主题助词)",
+        "isTarget": true
+      },
+      {
+        "text": "뜨거울 때",
+        "meaning": "热的时候",
+        "note": "뜨겁다(烫)的词干+ -ㄹ 때(……的时候)"
+      },
+      {
+        "text": "맛있습니다",
+        "meaning": "好吃",
+        "note": "맛있다(好吃)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "감",
+    "romanization": "gam",
+    "pos": "名词",
+    "meaning": "柿子",
+    "register": "中立",
+    "example": "가을에는 감이 많이 납니다.",
+    "exampleTranslation": "秋天柿子产量多。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "가을에는",
+        "meaning": "在秋天",
+        "note": "가을(秋天)+에(时间)+는(强调)"
+      },
+      {
+        "text": "감이",
+        "meaning": "柿子",
+        "note": "감(柿子)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "많이",
+        "meaning": "很多",
+        "note": "副词"
+      },
+      {
+        "text": "납니다",
+        "meaning": "产出",
+        "note": "나다(产出)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "감자",
+    "romanization": "gamja",
+    "pos": "名词",
+    "meaning": "土豆",
+    "register": "中立",
+    "example": "감자로 여러 요리를 만듭니다.",
+    "exampleTranslation": "用土豆做各种菜。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "감자로",
+        "meaning": "用土豆",
+        "note": "감자(土豆)+로(表材料/手段的助词)",
+        "isTarget": true
+      },
+      {
+        "text": "여러",
+        "meaning": "好几种",
+        "note": "冠形词"
+      },
+      {
+        "text": "요리를",
+        "meaning": "菜",
+        "note": "요리(菜)+를(宾格助词)"
+      },
+      {
+        "text": "만듭니다",
+        "meaning": "做",
+        "note": "만들다(做)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "계란",
+    "romanization": "gyeran",
+    "pos": "名词",
+    "meaning": "鸡蛋",
+    "register": "中立",
+    "example": "아침마다 계란을 먹습니다.",
+    "exampleTranslation": "每天早上吃鸡蛋。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "아침마다",
+        "meaning": "每天早上",
+        "note": "아침(早上)+마다(每……)"
+      },
+      {
+        "text": "계란을",
+        "meaning": "鸡蛋",
+        "note": "계란(鸡蛋)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "먹습니다",
+        "meaning": "吃",
+        "note": "먹다(吃)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "고기",
+    "romanization": "gogi",
+    "pos": "名词",
+    "meaning": "肉",
+    "register": "中立",
+    "example": "고기를 굽고 있습니다.",
+    "exampleTranslation": "正在烤肉。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "고기를",
+        "meaning": "肉",
+        "note": "고기(肉)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "굽고 있습니다",
+        "meaning": "正在烤",
+        "note": "굽다(烤)的词干+ -고 있다(正在)+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "고추장",
+    "romanization": "gochujang",
+    "pos": "名词",
+    "meaning": "辣椒酱",
+    "register": "中立",
+    "example": "비빔밥에 고추장을 넣었습니다.",
+    "exampleTranslation": "拌饭里放了辣椒酱。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "비빔밥에",
+        "meaning": "拌饭里",
+        "note": "비빔밥(拌饭)+에(方向助词)"
+      },
+      {
+        "text": "고추장을",
+        "meaning": "辣椒酱",
+        "note": "고추장(辣椒酱)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "넣었습니다",
+        "meaning": "放了",
+        "note": "넣다(放入)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "고프다",
+    "romanization": "gopeuda",
+    "pos": "形容词",
+    "meaning": "饿",
+    "register": "中立",
+    "example": "배가 고파서 밥을 먹었습니다.",
+    "exampleTranslation": "因为肚子饿吃了饭。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "배가",
+        "meaning": "肚子",
+        "note": "배(肚子)+가(主格助词)"
+      },
+      {
+        "text": "고파서",
+        "meaning": "饿，所以",
+        "note": "고프다(饿)的词干（으不规则：词干末尾的으在元音开头的语尾前脱落，与-아合并为-아）+ -아서(因为)",
+        "isTarget": true
+      },
+      {
+        "text": "밥을",
+        "meaning": "饭",
+        "note": "밥(饭)+을(宾格助词)"
+      },
+      {
+        "text": "먹었습니다",
+        "meaning": "吃了",
+        "note": "먹다(吃)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "과일",
+    "romanization": "gwail",
+    "pos": "名词",
+    "meaning": "水果",
+    "register": "中立",
+    "example": "저는 과일을 좋아합니다.",
+    "exampleTranslation": "我喜欢水果。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "저는",
+        "meaning": "我",
+        "note": "저(我)+는(主题助词)"
+      },
+      {
+        "text": "과일을",
+        "meaning": "水果",
+        "note": "과일(水果)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "좋아합니다",
+        "meaning": "喜欢",
+        "note": "좋아하다(喜欢)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "과자",
+    "romanization": "gwaja",
+    "pos": "名词",
+    "meaning": "饼干",
+    "register": "中立",
+    "example": "아이가 과자를 먹고 싶어합니다.",
+    "exampleTranslation": "孩子想吃饼干。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "아이가",
+        "meaning": "孩子",
+        "note": "아이(孩子)+가(主格助词)"
+      },
+      {
+        "text": "과자를",
+        "meaning": "饼干",
+        "note": "과자(饼干)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "먹고 싶어합니다",
+        "meaning": "想吃",
+        "note": "먹다(吃)的词干+ -고 싶어하다(想要做……)+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "국",
+    "romanization": "guk",
+    "pos": "名词",
+    "meaning": "汤",
+    "register": "中立",
+    "example": "어머니가 국을 끓이고 계십니다.",
+    "exampleTranslation": "妈妈正在煮汤。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "어머니가",
+        "meaning": "妈妈",
+        "note": "어머니(母亲)+가(主格助词)"
+      },
+      {
+        "text": "국을",
+        "meaning": "汤",
+        "note": "국(汤)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "끓이고 계십니다",
+        "meaning": "正在煮（敬语）",
+        "note": "끓이다(煮)的词干+ -고 계시다(敬语的正在)+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "국수",
+    "romanization": "guksu",
+    "pos": "名词",
+    "meaning": "面条",
+    "register": "中立",
+    "example": "점심에 국수를 먹었습니다.",
+    "exampleTranslation": "午饭吃了面条。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "점심에",
+        "meaning": "午饭",
+        "note": "점심(午饭)+에(时间助词)"
+      },
+      {
+        "text": "국수를",
+        "meaning": "面条",
+        "note": "국수(面条)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "먹었습니다",
+        "meaning": "吃了",
+        "note": "먹다(吃)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "굽다",
+    "romanization": "gupda",
+    "pos": "动词",
+    "meaning": "烤",
+    "register": "中立",
+    "example": "생선을 맛있게 구웠습니다.",
+    "exampleTranslation": "把鱼烤得很好吃。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "생선을",
+        "meaning": "鱼",
+        "note": "생선(鱼)+을(宾格助词)"
+      },
+      {
+        "text": "맛있게",
+        "meaning": "好吃地",
+        "note": "맛있다(好吃)的词干+ -게(副词形)"
+      },
+      {
+        "text": "구웠습니다",
+        "meaning": "烤了",
+        "note": "굽다(烤)的词干（ㅂ不规则：收音ㅂ在元音开头的语尾前变为우）+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "귤",
+    "romanization": "gyul",
+    "pos": "名词",
+    "meaning": "橘子",
+    "register": "中立",
+    "example": "귤을 까서 먹었습니다.",
+    "exampleTranslation": "剥了橘子吃。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "귤을",
+        "meaning": "橘子",
+        "note": "귤(橘子)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "까서",
+        "meaning": "剥了之后",
+        "note": "까다(剥)的词干+ -아서(先后)"
+      },
+      {
+        "text": "먹었습니다",
+        "meaning": "吃了",
+        "note": "먹다(吃)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "기름",
+    "romanization": "gireum",
+    "pos": "名词",
+    "meaning": "油",
+    "register": "中立",
+    "example": "기름에 야채를 튀겼습니다.",
+    "exampleTranslation": "用油炸了蔬菜。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "기름에",
+        "meaning": "用油",
+        "note": "기름(油)+에(方式助词)",
+        "isTarget": true
+      },
+      {
+        "text": "야채를",
+        "meaning": "蔬菜",
+        "note": "야채(蔬菜)+를(宾格助词)"
+      },
+      {
+        "text": "튀겼습니다",
+        "meaning": "炸了",
+        "note": "튀기다(炸)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "김",
+    "romanization": "gim",
+    "pos": "名词",
+    "meaning": "海苔",
+    "register": "中立",
+    "example": "밥을 김에 싸서 먹습니다.",
+    "exampleTranslation": "用海苔包着饭吃。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "밥을",
+        "meaning": "饭",
+        "note": "밥(饭)+을(宾格助词)"
+      },
+      {
+        "text": "김에",
+        "meaning": "用海苔",
+        "note": "김(海苔)+에(方式助词)",
+        "isTarget": true
+      },
+      {
+        "text": "싸서",
+        "meaning": "包了之后",
+        "note": "싸다(包)的词干+ -아서(先后)"
+      },
+      {
+        "text": "먹습니다",
+        "meaning": "吃",
+        "note": "먹다(吃)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "김밥",
+    "romanization": "gimbap",
+    "pos": "名词",
+    "meaning": "紫菜包饭",
+    "register": "中立",
+    "example": "소풍 갈 때 김밥을 쌌습니다.",
+    "exampleTranslation": "去郊游的时候做了紫菜包饭。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "소풍 갈 때",
+        "meaning": "去郊游的时候",
+        "note": "소풍(郊游)+가다(去)+ -ㄹ 때(……的时候)"
+      },
+      {
+        "text": "김밥을",
+        "meaning": "紫菜包饭",
+        "note": "김밥(紫菜包饭)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "쌌습니다",
+        "meaning": "包（做）了",
+        "note": "싸다(包/做)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "김치",
+    "romanization": "gimchi",
+    "pos": "名词",
+    "meaning": "泡菜",
+    "register": "中立",
+    "example": "어머니가 직접 김치를 담그셨습니다.",
+    "exampleTranslation": "妈妈亲手腌了泡菜。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "어머니가",
+        "meaning": "妈妈",
+        "note": "어머니(母亲)+가(主格助词)"
+      },
+      {
+        "text": "직접",
+        "meaning": "亲自",
+        "note": "副词"
+      },
+      {
+        "text": "김치를",
+        "meaning": "泡菜",
+        "note": "김치(泡菜)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "담그셨습니다",
+        "meaning": "腌了（敬语）",
+        "note": "담그다(腌制)的词干+ -시-（尊敬阶标记）+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "김치찌개",
+    "romanization": "gimchijjigae",
+    "pos": "名词",
+    "meaning": "泡菜汤",
+    "register": "中立",
+    "example": "매운 김치찌개를 끓였습니다.",
+    "exampleTranslation": "煮了辣的泡菜汤。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "매운",
+        "meaning": "辣的",
+        "note": "맵다(辣)的词干+ -ㄴ(冠形词形)"
+      },
+      {
+        "text": "김치찌개를",
+        "meaning": "泡菜汤",
+        "note": "김치찌개(泡菜汤)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "끓였습니다",
+        "meaning": "煮了",
+        "note": "끓이다(煮)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "껌",
+    "romanization": "kkeom",
+    "pos": "名词",
+    "meaning": "口香糖",
+    "register": "中立",
+    "example": "껌을 씹고 있습니다.",
+    "exampleTranslation": "正在嚼口香糖。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "껌을",
+        "meaning": "口香糖",
+        "note": "껌(口香糖)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "씹고 있습니다",
+        "meaning": "正在嚼",
+        "note": "씹다(嚼)的词干+ -고 있다(正在)+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "끓다",
+    "romanization": "kkeulta",
+    "pos": "动词",
+    "meaning": "沸腾",
+    "register": "中立",
+    "example": "물이 벌써 끓고 있습니다.",
+    "exampleTranslation": "水已经在沸腾了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "물이",
+        "meaning": "水",
+        "note": "물(水)+이(主格助词)"
+      },
+      {
+        "text": "벌써",
+        "meaning": "已经",
+        "note": "副词"
+      },
+      {
+        "text": "끓고 있습니다",
+        "meaning": "正在沸腾",
+        "note": "끓다(沸腾)的词干+ -고 있다(正在)+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "끓이다",
+    "romanization": "kkeurida",
+    "pos": "动词",
+    "meaning": "烧开，煮",
+    "register": "中立",
+    "example": "라면을 끓여 먹었습니다.",
+    "exampleTranslation": "煮了泡面吃。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "라면을",
+        "meaning": "泡面",
+        "note": "라면(泡面)+을(宾格助词)"
+      },
+      {
+        "text": "끓여 먹었습니다",
+        "meaning": "煮了吃",
+        "note": "끓이다(煮)的词干+ -어(连接词尾)+먹다(吃)+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "냉면",
+    "romanization": "naengmyeon",
+    "pos": "名词",
+    "meaning": "冷面",
+    "register": "中立",
+    "example": "여름에는 냉면이 인기입니다.",
+    "exampleTranslation": "夏天冷面很受欢迎。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "여름에는",
+        "meaning": "在夏天",
+        "note": "여름(夏天)+에(时间)+는(强调)"
+      },
+      {
+        "text": "냉면이",
+        "meaning": "冷面",
+        "note": "냉면(冷面)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "인기입니다",
+        "meaning": "受欢迎",
+        "note": "인기(人气)+이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "녹차",
+    "romanization": "nokcha",
+    "pos": "名词",
+    "meaning": "绿茶",
+    "register": "中立",
+    "example": "식사 후에 녹차를 마십니다.",
+    "exampleTranslation": "饭后喝绿茶。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "식사 후에",
+        "meaning": "饭后",
+        "note": "식사(用餐)+후(后)+에(时间助词)"
+      },
+      {
+        "text": "녹차를",
+        "meaning": "绿茶",
+        "note": "녹차(绿茶)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "마십니다",
+        "meaning": "喝",
+        "note": "마시다(喝)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "달걀",
+    "romanization": "dalgyal",
+    "pos": "名词",
+    "meaning": "鸡蛋",
+    "register": "中立",
+    "example": "달걀을 삶아서 먹었습니다.",
+    "exampleTranslation": "煮了鸡蛋吃。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "달걀을",
+        "meaning": "鸡蛋",
+        "note": "달걀(鸡蛋)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "삶아서",
+        "meaning": "煮了之后",
+        "note": "삶다(煮)的词干+ -아서(先后)"
+      },
+      {
+        "text": "먹었습니다",
+        "meaning": "吃了",
+        "note": "먹다(吃)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "돈가스",
+    "romanization": "donkaseu",
+    "pos": "名词",
+    "meaning": "炸猪排",
+    "register": "中立",
+    "example": "점심으로 돈가스를 시켰습니다.",
+    "exampleTranslation": "午饭点了炸猪排。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "점심으로",
+        "meaning": "作为午饭",
+        "note": "점심(午饭)+으로(表方式/身份)"
+      },
+      {
+        "text": "돈가스를",
+        "meaning": "炸猪排",
+        "note": "돈가스(炸猪排)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "시켰습니다",
+        "meaning": "点了",
+        "note": "시키다(点餐)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "된장",
+    "romanization": "doenjang",
+    "pos": "名词",
+    "meaning": "大酱",
+    "register": "中立",
+    "example": "채소를 된장에 찍어 먹습니다.",
+    "exampleTranslation": "把蔬菜蘸大酱吃。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "채소를",
+        "meaning": "蔬菜",
+        "note": "채소(蔬菜)+를(宾格助词)"
+      },
+      {
+        "text": "된장에",
+        "meaning": "大酱",
+        "note": "된장(大酱)+에(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "찍어 먹습니다",
+        "meaning": "蘸着吃",
+        "note": "찍다(蘸)的词干+ -어(连接词尾)+먹다(吃)+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "된장찌개",
+    "romanization": "doenjangjjigae",
+    "pos": "名词",
+    "meaning": "大酱汤",
+    "register": "中立",
+    "example": "된장찌개는 짭짤합니다.",
+    "exampleTranslation": "大酱汤味道咸香。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "된장찌개는",
+        "meaning": "大酱汤",
+        "note": "된장찌개(大酱汤)+는(主题助词)",
+        "isTarget": true
+      },
+      {
+        "text": "짭짤합니다",
+        "meaning": "咸香",
+        "note": "짭짤하다(咸香)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "두부",
+    "romanization": "dubu",
+    "pos": "名词",
+    "meaning": "豆腐",
+    "register": "中立",
+    "example": "두부로 찌개를 끓였습니다.",
+    "exampleTranslation": "用豆腐煮了汤。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "두부로",
+        "meaning": "用豆腐",
+        "note": "두부(豆腐)+로(表材料的助词)",
+        "isTarget": true
+      },
+      {
+        "text": "찌개를",
+        "meaning": "汤",
+        "note": "찌개(汤)+를(宾格助词)"
+      },
+      {
+        "text": "끓였습니다",
+        "meaning": "煮了",
+        "note": "끓이다(煮)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "딸기",
+    "romanization": "ttalgi",
+    "pos": "名词",
+    "meaning": "草莓",
+    "register": "中立",
+    "example": "딸기가 아주 답니다.",
+    "exampleTranslation": "草莓很甜。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "딸기가",
+        "meaning": "草莓",
+        "note": "딸기(草莓)+가(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "아주",
+        "meaning": "很",
+        "note": "副词"
+      },
+      {
+        "text": "답니다",
+        "meaning": "甜",
+        "note": "달다(甜)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "떡",
+    "romanization": "tteok",
+    "pos": "名词",
+    "meaning": "年糕",
+    "register": "中立",
+    "example": "명절에 떡을 먹습니다.",
+    "exampleTranslation": "节日的时候吃年糕。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "명절에",
+        "meaning": "节日",
+        "note": "명절(节日)+에(时间助词)"
+      },
+      {
+        "text": "떡을",
+        "meaning": "年糕",
+        "note": "떡(年糕)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "먹습니다",
+        "meaning": "吃",
+        "note": "먹다(吃)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "떡국",
+    "romanization": "tteokguk",
+    "pos": "名词",
+    "meaning": "年糕汤",
+    "register": "中立",
+    "example": "설날에는 떡국을 먹습니다.",
+    "exampleTranslation": "春节吃年糕汤。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "설날에는",
+        "meaning": "在春节",
+        "note": "설날(春节)+에(时间)+는(强调)"
+      },
+      {
+        "text": "떡국을",
+        "meaning": "年糕汤",
+        "note": "떡국(年糕汤)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "먹습니다",
+        "meaning": "吃",
+        "note": "먹다(吃)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "떡볶이",
+    "romanization": "tteokbokki",
+    "pos": "名词",
+    "meaning": "炒年糕",
+    "register": "中立",
+    "example": "떡볶이는 맵지만 맛있습니다.",
+    "exampleTranslation": "炒年糕虽然辣但好吃。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "떡볶이는",
+        "meaning": "炒年糕",
+        "note": "떡볶이(炒年糕)+는(主题助词)",
+        "isTarget": true
+      },
+      {
+        "text": "맵지만",
+        "meaning": "虽然辣",
+        "note": "맵다(辣)的词干+ -지만(虽然……但是)"
+      },
+      {
+        "text": "맛있습니다",
+        "meaning": "好吃",
+        "note": "맛있다(好吃)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "라면",
+    "romanization": "ramyeon",
+    "pos": "名词",
+    "meaning": "拉面",
+    "register": "中立",
+    "example": "밤에 라면을 끓여 먹었습니다.",
+    "exampleTranslation": "晚上煮了拉面吃。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "밤에",
+        "meaning": "晚上",
+        "note": "밤(夜晚)+에(时间助词)"
+      },
+      {
+        "text": "라면을",
+        "meaning": "拉面",
+        "note": "라면(拉面)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "끓여 먹었습니다",
+        "meaning": "煮了吃",
+        "note": "끓이다(煮)的词干+ -어(连接词尾)+먹다(吃)+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "막걸리",
+    "romanization": "makgeolli",
+    "pos": "名词",
+    "meaning": "米酒",
+    "register": "中立",
+    "example": "비 오는 날에는 막걸리를 마십니다.",
+    "exampleTranslation": "下雨天喝米酒。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "비 오는 날에는",
+        "meaning": "下雨的日子里",
+        "note": "비(雨)+오다(来/下)+ -는(冠形词形)+날(日子)+에(时间)+는(强调)"
+      },
+      {
+        "text": "막걸리를",
+        "meaning": "米酒",
+        "note": "막걸리(米酒)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "마십니다",
+        "meaning": "喝",
+        "note": "마시다(喝)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "만두",
+    "romanization": "mandu",
+    "pos": "名词",
+    "meaning": "饺子",
+    "register": "中立",
+    "example": "만두를 빚고 있습니다.",
+    "exampleTranslation": "正在包饺子。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "만두를",
+        "meaning": "饺子",
+        "note": "만두(饺子)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "빚고 있습니다",
+        "meaning": "正在包",
+        "note": "빚다(包/捏制)的词干+ -고 있다(正在)+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "맛",
+    "romanization": "mat",
+    "pos": "名词",
+    "meaning": "味道",
+    "register": "中立",
+    "example": "이 음식은 맛이 정말 좋습니다.",
+    "exampleTranslation": "这道菜味道真好。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "이",
+        "meaning": "这",
+        "note": "冠形词"
+      },
+      {
+        "text": "음식은",
+        "meaning": "食物",
+        "note": "음식(食物)+은(主题助词)"
+      },
+      {
+        "text": "맛이",
+        "meaning": "味道",
+        "note": "맛(味道)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "정말",
+        "meaning": "真的",
+        "note": "副词"
+      },
+      {
+        "text": "좋습니다",
+        "meaning": "好",
+        "note": "좋다(好)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "맥주",
+    "romanization": "maekju",
+    "pos": "名词",
+    "meaning": "啤酒",
+    "register": "中立",
+    "example": "저녁에 맥주를 한 잔 마셨습니다.",
+    "exampleTranslation": "晚上喝了一杯啤酒。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "저녁에",
+        "meaning": "晚上",
+        "note": "저녁(晚上)+에(时间助词)"
+      },
+      {
+        "text": "맥주를",
+        "meaning": "啤酒",
+        "note": "맥주(啤酒)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "한 잔",
+        "meaning": "一杯",
+        "note": "数量结构"
+      },
+      {
+        "text": "마셨습니다",
+        "meaning": "喝了",
+        "note": "마시다(喝)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "맵다",
+    "romanization": "maepda",
+    "pos": "形容词",
+    "meaning": "辣",
+    "register": "中立",
+    "example": "이 김치는 아주 맵습니다.",
+    "exampleTranslation": "这个泡菜很辣。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "이",
+        "meaning": "这",
+        "note": "冠形词"
+      },
+      {
+        "text": "김치는",
+        "meaning": "泡菜",
+        "note": "김치(泡菜)+는(主题助词)"
+      },
+      {
+        "text": "아주",
+        "meaning": "很",
+        "note": "副词"
+      },
+      {
+        "text": "맵습니다",
+        "meaning": "辣",
+        "note": "맵다(辣)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "메뉴",
+    "romanization": "menyu",
+    "pos": "名词",
+    "meaning": "菜单",
+    "register": "中立",
+    "example": "메뉴를 보고 골랐습니다.",
+    "exampleTranslation": "看了菜单选了菜。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "메뉴를",
+        "meaning": "菜单",
+        "note": "메뉴(菜单)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "보고",
+        "meaning": "看了之后",
+        "note": "보다(看)的词干+ -고(然后)"
+      },
+      {
+        "text": "골랐습니다",
+        "meaning": "选了",
+        "note": "고르다(选)的词干变化+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "무",
+    "romanization": "mu",
+    "pos": "名词",
+    "meaning": "萝卜",
+    "register": "中立",
+    "example": "무로 김치를 만들었습니다.",
+    "exampleTranslation": "用萝卜做了泡菜。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "무로",
+        "meaning": "用萝卜",
+        "note": "무(萝卜)+로(表材料的助词)",
+        "isTarget": true
+      },
+      {
+        "text": "김치를",
+        "meaning": "泡菜",
+        "note": "김치(泡菜)+를(宾格助词)"
+      },
+      {
+        "text": "만들었습니다",
+        "meaning": "做了",
+        "note": "만들다(做)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  }
+]

@@ -1,0 +1,903 @@
+[
+  {
+    "korean": "음",
+    "romanization": "eum",
+    "pos": "感叹词",
+    "meaning": "嗯（沉思）",
+    "register": "中立",
+    "example": "음, 생각해 볼게요.",
+    "exampleTranslation": "嗯，我会考虑看看。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "非格式体敬语（해요体）",
+    "grammarBreakdown": [
+      {
+        "text": "음",
+        "meaning": "嗯",
+        "note": "感叹词，表沉思",
+        "isTarget": true
+      },
+      {
+        "text": "생각해 볼게요",
+        "meaning": "我会考虑看看",
+        "note": "생각하다(想)的词干+ -아/어 보다(尝试)+ -ㄹ게요(表意愿的非格式体敬语终结词尾)"
+      }
+    ]
+  },
+  {
+    "korean": "응",
+    "romanization": "eung",
+    "pos": "感叹词",
+    "meaning": "嗯（非敬语回应）",
+    "register": "非敬语（반말）",
+    "example": "응, 알겠어.",
+    "exampleTranslation": "嗯，知道了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "非敬语（반말）",
+    "grammarBreakdown": [
+      {
+        "text": "응",
+        "meaning": "嗯",
+        "note": "感叹词，非敬语回应",
+        "isTarget": true
+      },
+      {
+        "text": "알겠어",
+        "meaning": "知道了",
+        "note": "알다(知道)的词干+ -겠-(婉转推测)+ -어(非敬语终结词尾)"
+      }
+    ]
+  },
+  {
+    "korean": "이",
+    "romanization": "i",
+    "pos": "代词/冠形词",
+    "meaning": "这（个）",
+    "register": "中立",
+    "homonymIndex": "05",
+    "example": "이 사람은 제 친구입니다.",
+    "exampleTranslation": "这个人是我的朋友。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "이",
+        "meaning": "这",
+        "note": "冠形词，修饰사람",
+        "isTarget": true
+      },
+      {
+        "text": "사람은",
+        "meaning": "人",
+        "note": "사람(人)+은(主题助词)"
+      },
+      {
+        "text": "제",
+        "meaning": "我的",
+        "note": "저의 缩略形式"
+      },
+      {
+        "text": "친구입니다",
+        "meaning": "是朋友",
+        "note": "친구(朋友)+이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "이거",
+    "romanization": "igeo",
+    "pos": "代词",
+    "meaning": "这个（이것的口语形）",
+    "register": "非敬语（반말/口语）",
+    "example": "이거 얼마예요?",
+    "exampleTranslation": "这个多少钱？",
+    "sentenceType": "疑问句",
+    "formalityLevel": "非格式体敬语（해요体）",
+    "grammarBreakdown": [
+      {
+        "text": "이거",
+        "meaning": "这个",
+        "note": "이것(这个)的口语缩略形",
+        "isTarget": true
+      },
+      {
+        "text": "얼마예요",
+        "meaning": "是多少钱",
+        "note": "얼마(多少)+예요(이다的非正式敬语疑问形)"
+      }
+    ]
+  },
+  {
+    "korean": "이것",
+    "romanization": "igeot",
+    "pos": "代词",
+    "meaning": "这个",
+    "register": "中立",
+    "example": "이것은 제 가방입니다.",
+    "exampleTranslation": "这是我的包。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "이것은",
+        "meaning": "这个",
+        "note": "이것(这个)+은(主题助词)",
+        "isTarget": true
+      },
+      {
+        "text": "제",
+        "meaning": "我的",
+        "note": "저의 缩略形式"
+      },
+      {
+        "text": "가방입니다",
+        "meaning": "是包",
+        "note": "가방(包)+이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "이곳",
+    "romanization": "igot",
+    "pos": "代词",
+    "meaning": "这个地方",
+    "register": "中立",
+    "example": "이곳은 처음입니다.",
+    "exampleTranslation": "这个地方我是第一次来。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "이곳은",
+        "meaning": "这个地方",
+        "note": "이곳(这个地方)+은(主题助词)",
+        "isTarget": true
+      },
+      {
+        "text": "처음입니다",
+        "meaning": "是第一次",
+        "note": "처음(第一次)+이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "이날",
+    "romanization": "inal",
+    "pos": "名词",
+    "meaning": "这一天",
+    "register": "中立",
+    "example": "이날은 정말 특별했습니다.",
+    "exampleTranslation": "这一天真的很特别。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "이날은",
+        "meaning": "这一天",
+        "note": "이날(这一天)+은(主题助词)",
+        "isTarget": true
+      },
+      {
+        "text": "정말",
+        "meaning": "真的",
+        "note": "副词"
+      },
+      {
+        "text": "특별했습니다",
+        "meaning": "特别",
+        "note": "특별하다(特别)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "이다",
+    "romanization": "ida",
+    "pos": "助词",
+    "meaning": "是（系词,书面/平语形）",
+    "register": "非敬语（plain·书面体）",
+    "example": "저것은 산이다.",
+    "exampleTranslation": "那是山。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "非敬语（반말/书面体）",
+    "grammarBreakdown": [
+      {
+        "text": "저것은",
+        "meaning": "那个",
+        "note": "저것(那个)+은(主题助词)"
+      },
+      {
+        "text": "산이다",
+        "meaning": "是山",
+        "note": "산(山)+이다(系词，书面/日记体常用终结形)",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "이때",
+    "romanization": "ittae",
+    "pos": "名词",
+    "meaning": "这时候",
+    "register": "中立",
+    "example": "이때 전화가 왔습니다.",
+    "exampleTranslation": "这时候电话来了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "이때",
+        "meaning": "这时候",
+        "note": "名词",
+        "isTarget": true
+      },
+      {
+        "text": "전화가",
+        "meaning": "电话",
+        "note": "전화(电话)+가(主格助词)"
+      },
+      {
+        "text": "왔습니다",
+        "meaning": "来了",
+        "note": "오다(来)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "이런",
+    "romanization": "ireon",
+    "pos": "冠形词",
+    "meaning": "这样的",
+    "register": "中立",
+    "example": "이런 일은 처음입니다.",
+    "exampleTranslation": "这样的事我是第一次遇到。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "이런",
+        "meaning": "这样的",
+        "note": "冠形词，修饰일",
+        "isTarget": true
+      },
+      {
+        "text": "일은",
+        "meaning": "事",
+        "note": "일(事)+은(主题助词)"
+      },
+      {
+        "text": "처음입니다",
+        "meaning": "是第一次",
+        "note": "처음(第一次)+이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "이렇다",
+    "romanization": "ireota",
+    "pos": "形容词",
+    "meaning": "这样",
+    "register": "中立",
+    "example": "결과가 이렇습니다.",
+    "exampleTranslation": "结果就是这样。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "결과가",
+        "meaning": "结果",
+        "note": "결과(结果)+가(主格助词)"
+      },
+      {
+        "text": "이렇습니다",
+        "meaning": "这样",
+        "note": "이렇다(这样)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "이쪽",
+    "romanization": "ijjok",
+    "pos": "代词",
+    "meaning": "这边",
+    "register": "中立",
+    "example": "이쪽으로 오세요.",
+    "exampleTranslation": "请到这边来。",
+    "sentenceType": "命令句（请求）",
+    "formalityLevel": "非格式体敬语（해요体）",
+    "grammarBreakdown": [
+      {
+        "text": "이쪽으로",
+        "meaning": "往这边",
+        "note": "이쪽(这边)+으로(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "오세요",
+        "meaning": "请来",
+        "note": "오다(来)的词干+ -시-（尊敬阶标记）+ -어요（请求/命令·非格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "잘못",
+    "romanization": "jalmot",
+    "pos": "副词/名词",
+    "meaning": "错误地",
+    "register": "中立",
+    "example": "주소를 잘못 적었습니다.",
+    "exampleTranslation": "地址写错了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "주소를",
+        "meaning": "地址",
+        "note": "주소(地址)+를(宾格助词)"
+      },
+      {
+        "text": "잘못",
+        "meaning": "错误地",
+        "note": "副词",
+        "isTarget": true
+      },
+      {
+        "text": "적었습니다",
+        "meaning": "写了",
+        "note": "적다(写)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "저",
+    "romanization": "jeo",
+    "pos": "代词/冠形词",
+    "meaning": "那（个，远指）",
+    "register": "中立",
+    "homonymIndex": "04",
+    "example": "저 건물이 우리 학교입니다.",
+    "exampleTranslation": "那栋楼是我们学校。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "저",
+        "meaning": "那",
+        "note": "冠形词，修饰건물，远指（区别于表示我的敬语代词'저'）",
+        "isTarget": true
+      },
+      {
+        "text": "건물이",
+        "meaning": "楼",
+        "note": "건물(建筑物)+이(主格助词)"
+      },
+      {
+        "text": "우리 학교입니다",
+        "meaning": "是我们学校",
+        "note": "우리(我们)+학교(学校)+이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "저",
+    "romanization": "jeo",
+    "pos": "感叹词",
+    "meaning": "那个（犹豫时用）",
+    "register": "敬语",
+    "homonymIndex": "05",
+    "example": "저, 있잖아요, 드릴 말씀이 있어요.",
+    "exampleTranslation": "那个，我有话要跟您说。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "非格式体敬语（해요体）",
+    "grammarBreakdown": [
+      {
+        "text": "저",
+        "meaning": "那个",
+        "note": "感叹词，说话前犹豫时使用，区别于人称代词'저'",
+        "isTarget": true
+      },
+      {
+        "text": "있잖아요",
+        "meaning": "你知道的",
+        "note": "있다(有)的词干+ -잖아요(表提醒的非格式体敬语终结词尾)"
+      },
+      {
+        "text": "드릴 말씀이 있어요",
+        "meaning": "有话要跟您说",
+        "note": "드리다(给,敬语)+ -ㄹ(冠形词形)+말씀(话,敬语)+이(主格助词)+있다(有)+ -어요"
+      }
+    ]
+  },
+  {
+    "korean": "저거",
+    "romanization": "jeogeo",
+    "pos": "代词",
+    "meaning": "那个（저것的口语形）",
+    "register": "非敬语（반말/口语）",
+    "example": "저거 뭐예요?",
+    "exampleTranslation": "那个是什么？",
+    "sentenceType": "疑问句",
+    "formalityLevel": "非格式体敬语（해요体）",
+    "grammarBreakdown": [
+      {
+        "text": "저거",
+        "meaning": "那个",
+        "note": "저것(那个)的口语缩略形",
+        "isTarget": true
+      },
+      {
+        "text": "뭐예요",
+        "meaning": "是什么",
+        "note": "뭐(什么)+예요(이다的非正式敬语疑问形)"
+      }
+    ]
+  },
+  {
+    "korean": "저것",
+    "romanization": "jeogeot",
+    "pos": "代词",
+    "meaning": "那个（远指）",
+    "register": "中立",
+    "example": "저것은 산입니다.",
+    "exampleTranslation": "那个是山。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "저것은",
+        "meaning": "那个",
+        "note": "저것(那个)+은(主题助词)",
+        "isTarget": true
+      },
+      {
+        "text": "산입니다",
+        "meaning": "是山",
+        "note": "산(山)+이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "저곳",
+    "romanization": "jeogot",
+    "pos": "代词",
+    "meaning": "那个地方（远指）",
+    "register": "中立",
+    "example": "저곳에 꼭 가 보고 싶습니다.",
+    "exampleTranslation": "一定要去那个地方看看。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "저곳에",
+        "meaning": "去那个地方",
+        "note": "저곳(那个地方)+에(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "꼭",
+        "meaning": "一定",
+        "note": "副词"
+      },
+      {
+        "text": "가 보고 싶습니다",
+        "meaning": "想去看看",
+        "note": "가다(去)+ -아/어 보다(尝试)+ -고 싶다(想要)+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "저기",
+    "romanization": "jeogi",
+    "pos": "代词",
+    "meaning": "那里（远指）",
+    "register": "中立",
+    "example": "저기에 병원이 있습니다.",
+    "exampleTranslation": "那里有医院。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "저기에",
+        "meaning": "在那里",
+        "note": "저기(那里)+에(处所助词)",
+        "isTarget": true
+      },
+      {
+        "text": "병원이",
+        "meaning": "医院",
+        "note": "병원(医院)+이(主格助词)"
+      },
+      {
+        "text": "있습니다",
+        "meaning": "有",
+        "note": "있다(有)+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "저런",
+    "romanization": "jeoreon",
+    "pos": "冠形词",
+    "meaning": "那样的（远指）",
+    "register": "中立",
+    "example": "저런 사람은 처음 봅니다.",
+    "exampleTranslation": "那样的人我是第一次见。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "저런",
+        "meaning": "那样的",
+        "note": "冠形词，修饰사람",
+        "isTarget": true
+      },
+      {
+        "text": "사람은",
+        "meaning": "人",
+        "note": "사람(人)+은(主题助词)"
+      },
+      {
+        "text": "처음",
+        "meaning": "第一次",
+        "note": "副词"
+      },
+      {
+        "text": "봅니다",
+        "meaning": "看见",
+        "note": "보다(看)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "저렇다",
+    "romanization": "jeoreota",
+    "pos": "形容词",
+    "meaning": "那样（远指）",
+    "register": "中立",
+    "example": "상황이 저렇습니다.",
+    "exampleTranslation": "情况就是那样。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "상황이",
+        "meaning": "情况",
+        "note": "상황(情况)+이(主格助词)"
+      },
+      {
+        "text": "저렇습니다",
+        "meaning": "那样",
+        "note": "저렇다(那样)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "저쪽",
+    "romanization": "jeojjok",
+    "pos": "代词",
+    "meaning": "那边（远指）",
+    "register": "中立",
+    "example": "저쪽에 화장실이 있습니다.",
+    "exampleTranslation": "那边有洗手间。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "저쪽에",
+        "meaning": "那边",
+        "note": "저쪽(那边)+에(处所助词)",
+        "isTarget": true
+      },
+      {
+        "text": "화장실이",
+        "meaning": "洗手间",
+        "note": "화장실(洗手间)+이(主格助词)"
+      },
+      {
+        "text": "있습니다",
+        "meaning": "有",
+        "note": "있다(有)+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "적당하다",
+    "romanization": "jeokdanghada",
+    "pos": "形容词",
+    "meaning": "适当",
+    "register": "中立",
+    "example": "이 가격은 적당합니다.",
+    "exampleTranslation": "这个价格挺合适。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "이 가격은",
+        "meaning": "这个价格",
+        "note": "이(这)+가격(价格)+은(主题助词)"
+      },
+      {
+        "text": "적당합니다",
+        "meaning": "适当",
+        "note": "적당하다(适当)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "점점",
+    "romanization": "jeomjeom",
+    "pos": "副词",
+    "meaning": "渐渐",
+    "register": "中立",
+    "example": "날씨가 점점 추워집니다.",
+    "exampleTranslation": "天气渐渐变冷了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "날씨가",
+        "meaning": "天气",
+        "note": "날씨(天气)+가(主格助词)"
+      },
+      {
+        "text": "점점",
+        "meaning": "渐渐",
+        "note": "副词",
+        "isTarget": true
+      },
+      {
+        "text": "추워집니다",
+        "meaning": "变冷",
+        "note": "춥다(冷)的词干变化+ -어지다(变得……)+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "제",
+    "romanization": "je",
+    "pos": "代词",
+    "meaning": "我的（저의缩略，敬语）",
+    "register": "敬语",
+    "example": "제 이름은 김민수입니다.",
+    "exampleTranslation": "我的名字是金民秀。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "제",
+        "meaning": "我的",
+        "note": "저(我，敬语)+의(所有格助词)的缩略形式",
+        "isTarget": true
+      },
+      {
+        "text": "이름은",
+        "meaning": "名字",
+        "note": "이름(名字)+은(主题助词)"
+      },
+      {
+        "text": "김민수입니다",
+        "meaning": "是金民秀",
+        "note": "김민수(人名)+이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "조금씩",
+    "romanization": "jogeumssik",
+    "pos": "副词",
+    "meaning": "一点点地",
+    "register": "中立",
+    "example": "조금씩 나아지고 있습니다.",
+    "exampleTranslation": "正在一点点地好转。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "조금씩",
+        "meaning": "一点点地",
+        "note": "조금(一点儿)+씩(每……地，表逐渐)",
+        "isTarget": true
+      },
+      {
+        "text": "나아지고 있습니다",
+        "meaning": "正在好转",
+        "note": "낫다(好转)的词干变化+ -아지다(变得……)+ -고 있다(正在)+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "주로",
+    "romanization": "juro",
+    "pos": "副词",
+    "meaning": "主要",
+    "register": "中立",
+    "example": "저는 주로 지하철을 이용합니다.",
+    "exampleTranslation": "我主要坐地铁。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "저는",
+        "meaning": "我",
+        "note": "저(我)+는(主题助词)"
+      },
+      {
+        "text": "주로",
+        "meaning": "主要",
+        "note": "副词",
+        "isTarget": true
+      },
+      {
+        "text": "지하철을",
+        "meaning": "地铁",
+        "note": "지하철(地铁)+을(宾格助词)"
+      },
+      {
+        "text": "이용합니다",
+        "meaning": "利用，使用",
+        "note": "이용하다(利用)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "중",
+    "romanization": "jung",
+    "pos": "依存名词",
+    "meaning": "正在……中",
+    "register": "中立",
+    "example": "지금 회의 중입니다.",
+    "exampleTranslation": "现在正在开会。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "지금",
+        "meaning": "现在",
+        "note": "名词/副词"
+      },
+      {
+        "text": "회의",
+        "meaning": "会议",
+        "note": "名词"
+      },
+      {
+        "text": "중입니다",
+        "meaning": "正在……中",
+        "note": "중(依存名词，……之中)+이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "쪽",
+    "romanization": "jjok",
+    "pos": "依存名词",
+    "meaning": "边，方向",
+    "register": "中立",
+    "example": "오른쪽 방향으로 가세요.",
+    "exampleTranslation": "请往右边走。",
+    "sentenceType": "命令句（请求）",
+    "formalityLevel": "非格式体敬语（해요体）",
+    "grammarBreakdown": [
+      {
+        "text": "오른쪽",
+        "meaning": "右边",
+        "note": "오른(右边的)+쪽(依存名词，边/方向)",
+        "isTarget": true
+      },
+      {
+        "text": "방향으로",
+        "meaning": "方向",
+        "note": "방향(方向)+으로(方向助词)"
+      },
+      {
+        "text": "가세요",
+        "meaning": "请走",
+        "note": "가다(去)的词干+ -시-（尊敬阶标记）+ -어요（请求/命令·非格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "참",
+    "romanization": "cham",
+    "pos": "副词",
+    "meaning": "真，很",
+    "register": "中立",
+    "example": "오늘 날씨가 참 좋습니다.",
+    "exampleTranslation": "今天天气真好。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "오늘",
+        "meaning": "今天",
+        "note": "名词/副词"
+      },
+      {
+        "text": "날씨가",
+        "meaning": "天气",
+        "note": "날씨(天气)+가(主格助词)"
+      },
+      {
+        "text": "참",
+        "meaning": "真",
+        "note": "副词",
+        "isTarget": true
+      },
+      {
+        "text": "좋습니다",
+        "meaning": "好",
+        "note": "좋다(好)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "하지만",
+    "romanization": "hajiman",
+    "pos": "副词",
+    "meaning": "但是",
+    "register": "中立",
+    "example": "열심히 했습니다. 하지만 결과가 안 좋았습니다.",
+    "exampleTranslation": "努力做了。但是结果不好。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "열심히 했습니다",
+        "meaning": "努力做了",
+        "note": "열심히(努力地)+하다(做)+ -았-+ -습니다"
+      },
+      {
+        "text": "하지만",
+        "meaning": "但是",
+        "note": "副词，连接前后两句表转折",
+        "isTarget": true
+      },
+      {
+        "text": "결과가",
+        "meaning": "结果",
+        "note": "결과(结果)+가(主格助词)"
+      },
+      {
+        "text": "안",
+        "meaning": "不",
+        "note": "副词，否定"
+      },
+      {
+        "text": "좋았습니다",
+        "meaning": "好",
+        "note": "좋다(好)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "한",
+    "romanization": "han",
+    "pos": "冠形词",
+    "meaning": "一（后接量词）",
+    "register": "中立",
+    "example": "물 한 잔 주세요.",
+    "exampleTranslation": "请给我一杯水。",
+    "sentenceType": "命令句（请求）",
+    "formalityLevel": "非格式体敬语（해요体）",
+    "grammarBreakdown": [
+      {
+        "text": "물",
+        "meaning": "水",
+        "note": "名词"
+      },
+      {
+        "text": "한 잔",
+        "meaning": "一杯",
+        "note": "한(一，冠形词)+잔(杯，量词)",
+        "isTarget": true
+      },
+      {
+        "text": "주세요",
+        "meaning": "请给我",
+        "note": "주다(给)的词干+ -시-（尊敬阶标记）+ -어요（请求/命令·非格式体敬语终结词尾）"
+      }
+    ]
+  }
+]

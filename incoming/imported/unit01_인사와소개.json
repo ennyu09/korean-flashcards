@@ -15,7 +15,8 @@
       {
         "text": "감사",
         "meaning": "感谢",
-        "note": "名词"
+        "note": "名词",
+        "isTarget": true
       },
       {
         "text": "합니다",
@@ -48,7 +49,8 @@
       {
         "text": "고맙습니다",
         "meaning": "感谢",
-        "note": "고맙다(感谢)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "고맙다(感谢)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
       }
     ],
     "register": "中立",
@@ -71,7 +73,8 @@
       {
         "text": "국적",
         "meaning": "国籍",
-        "note": "名词"
+        "note": "名词",
+        "isTarget": true
       },
       {
         "text": "은",
@@ -104,7 +107,8 @@
       {
         "text": "나",
         "meaning": "我（非敬语）",
-        "note": "人称代词"
+        "note": "人称代词",
+        "isTarget": true
       },
       {
         "text": "는",
@@ -142,7 +146,8 @@
       {
         "text": "나라",
         "meaning": "国家",
-        "note": "名词"
+        "note": "名词",
+        "isTarget": true
       },
       {
         "text": "에서",
@@ -170,7 +175,8 @@
       {
         "text": "너",
         "meaning": "你（非敬语）",
-        "note": "人称代词"
+        "note": "人称代词",
+        "isTarget": true
       },
       {
         "text": "는",
@@ -208,7 +214,8 @@
       {
         "text": "다른",
         "meaning": "别的",
-        "note": "冠形词，修饰나라"
+        "note": "冠形词，修饰나라",
+        "isTarget": true
       },
       {
         "text": "나라",
@@ -256,7 +263,8 @@
       {
         "text": "독일",
         "meaning": "德国",
-        "note": "名词"
+        "note": "名词",
+        "isTarget": true
       },
       {
         "text": "에서",
@@ -284,7 +292,8 @@
       {
         "text": "러시아",
         "meaning": "俄罗斯",
-        "note": "名词"
+        "note": "名词",
+        "isTarget": true
       },
       {
         "text": "는",
@@ -327,7 +336,8 @@
       {
         "text": "말레이시아",
         "meaning": "马来西亚",
-        "note": "名词"
+        "note": "名词",
+        "isTarget": true
       },
       {
         "text": "에는",
@@ -375,7 +385,8 @@
       {
         "text": "말씀",
         "meaning": "话（敬语）",
-        "note": "名词"
+        "note": "名词",
+        "isTarget": true
       },
       {
         "text": "이신지",
@@ -408,7 +419,8 @@
       {
         "text": "몽골",
         "meaning": "蒙古",
-        "note": "名词"
+        "note": "名词",
+        "isTarget": true
       },
       {
         "text": "은",
@@ -456,7 +468,8 @@
       {
         "text": "미국",
         "meaning": "美国",
-        "note": "名词"
+        "note": "名词",
+        "isTarget": true
       },
       {
         "text": "에서",
@@ -489,7 +502,8 @@
       {
         "text": "반갑습니다",
         "meaning": "高兴",
-        "note": "반갑다(高兴)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "반갑다(高兴)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
       }
     ],
     "register": "中立",
@@ -507,7 +521,8 @@
       {
         "text": "베트남",
         "meaning": "越南",
-        "note": "名词，修饰음식"
+        "note": "名词，修饰음식",
+        "isTarget": true
       },
       {
         "text": "음식",
@@ -540,7 +555,8 @@
       {
         "text": "성함",
         "meaning": "姓名（敬语）",
-        "note": "名词"
+        "note": "名词",
+        "isTarget": true
       },
       {
         "text": "이",
@@ -588,7 +604,8 @@
       {
         "text": "소개하고 싶습니다",
         "meaning": "想要介绍",
-        "note": "소개하다(介绍)的词干+ -고 싶다(想要)+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "소개하다(介绍)的词干+ -고 싶다(想要)+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
       }
     ],
     "register": "中立",
@@ -626,7 +643,8 @@
       {
         "text": "손님",
         "meaning": "客人",
-        "note": "名词"
+        "note": "名词",
+        "isTarget": true
       },
       {
         "text": "이",
@@ -654,7 +672,8 @@
       {
         "text": "실례지만",
         "meaning": "虽然失礼，但是",
-        "note": "실례(失礼)+이-(是)+ -지만(表转折的连接词尾)"
+        "note": "실례(失礼)+이-(是)+ -지만(表转折的连接词尾)",
+        "isTarget": true
       },
       {
         "text": "성함",
@@ -697,7 +716,8 @@
       {
         "text": "씨",
         "meaning": "先生/女士",
-        "note": "依存名词，用于姓名后表敬称"
+        "note": "依存名词，用于姓名后表敬称",
+        "isTarget": true
       },
       {
         "text": "여기",
@@ -745,7 +765,8 @@
       {
         "text": "안녕",
         "meaning": "你好",
-        "note": "名词/感叹词"
+        "note": "名词/感叹词",
+        "isTarget": true
       },
       {
         "text": "이라고",
@@ -773,7 +794,8 @@
       {
         "text": "안녕히",
         "meaning": "平安地",
-        "note": "副词"
+        "note": "副词",
+        "isTarget": true
       },
       {
         "text": "가세요",
@@ -796,7 +818,8 @@
       {
         "text": "어느",
         "meaning": "哪个",
-        "note": "冠形词"
+        "note": "冠形词",
+        "isTarget": true
       },
       {
         "text": "나라",
@@ -829,7 +852,8 @@
       {
         "text": "여러분",
         "meaning": "大家，各位",
-        "note": "代词，称呼语"
+        "note": "代词，称呼语",
+        "isTarget": true
       },
       {
         "text": "반갑습니다",
@@ -862,7 +886,8 @@
       {
         "text": "영국",
         "meaning": "英国",
-        "note": "名词"
+        "note": "名词",
+        "isTarget": true
       },
       {
         "text": "에서",
@@ -905,7 +930,8 @@
       {
         "text": "외국인",
         "meaning": "外国人",
-        "note": "名词"
+        "note": "名词",
+        "isTarget": true
       },
       {
         "text": "이",
@@ -933,7 +959,8 @@
       {
         "text": "우리",
         "meaning": "我们",
-        "note": "代词"
+        "note": "代词",
+        "isTarget": true
       },
       {
         "text": "같이",
@@ -971,7 +998,8 @@
       {
         "text": "우리나라",
         "meaning": "我们国家",
-        "note": "名词"
+        "note": "名词",
+        "isTarget": true
       },
       {
         "text": "는",
@@ -1009,7 +1037,8 @@
       {
         "text": "이웃",
         "meaning": "邻居",
-        "note": "名词"
+        "note": "名词",
+        "isTarget": true
       },
       {
         "text": "과",
@@ -1042,7 +1071,8 @@
       {
         "text": "인도네시아",
         "meaning": "印度尼西亚",
-        "note": "名词"
+        "note": "名词",
+        "isTarget": true
       },
       {
         "text": "는",
@@ -1105,7 +1135,8 @@
       {
         "text": "인사했습니다",
         "meaning": "打招呼了",
-        "note": "인사하다+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "인사하다+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
       }
     ],
     "register": "中立",
@@ -1123,7 +1154,8 @@
       {
         "text": "일본",
         "meaning": "日本",
-        "note": "名词"
+        "note": "名词",
+        "isTarget": true
       },
       {
         "text": "은",
@@ -1171,7 +1203,8 @@
       {
         "text": "자기소개",
         "meaning": "自我介绍",
-        "note": "名词"
+        "note": "名词",
+        "isTarget": true
       },
       {
         "text": "를",
@@ -1199,7 +1232,8 @@
       {
         "text": "저",
         "meaning": "我（敬语）",
-        "note": "人称代词"
+        "note": "人称代词",
+        "isTarget": true
       },
       {
         "text": "는",
@@ -1238,7 +1272,8 @@
       {
         "text": "저희",
         "meaning": "我们（敬语）",
-        "note": "代词"
+        "note": "代词",
+        "isTarget": true
       },
       {
         "text": "는",
@@ -1281,7 +1316,8 @@
       {
         "text": "죄송합니다",
         "meaning": "抱歉",
-        "note": "죄송하다(抱歉)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "죄송하다(抱歉)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
       }
     ],
     "register": "敬语",
@@ -1309,7 +1345,8 @@
       {
         "text": "중국",
         "meaning": "中国",
-        "note": "名词"
+        "note": "名词",
+        "isTarget": true
       },
       {
         "text": "에서",
@@ -1347,7 +1384,8 @@
       {
         "text": "처음",
         "meaning": "第一次",
-        "note": "副词"
+        "note": "副词",
+        "isTarget": true
       },
       {
         "text": "와 봅니다",
@@ -1370,7 +1408,8 @@
       {
         "text": "캐나다",
         "meaning": "加拿大",
-        "note": "名词"
+        "note": "名词",
+        "isTarget": true
       },
       {
         "text": "는",
@@ -1413,7 +1452,8 @@
       {
         "text": "태국",
         "meaning": "泰国",
-        "note": "名词，修饰여행"
+        "note": "名词，修饰여행",
+        "isTarget": true
       },
       {
         "text": "여행",
@@ -1451,7 +1491,8 @@
       {
         "text": "프랑스",
         "meaning": "法国",
-        "note": "名词"
+        "note": "名词",
+        "isTarget": true
       },
       {
         "text": "는",
@@ -1499,7 +1540,8 @@
       {
         "text": "한국",
         "meaning": "韩国",
-        "note": "名词"
+        "note": "名词",
+        "isTarget": true
       },
       {
         "text": "에서",

@@ -1,0 +1,1678 @@
+[
+  {
+    "korean": "감기",
+    "romanization": "gamgi",
+    "pos": "名词",
+    "meaning": "感冒",
+    "register": "中立",
+    "example": "요즘 감기에 걸린 사람이 많습니다.",
+    "exampleTranslation": "最近感冒的人很多。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "요즘",
+        "meaning": "最近",
+        "note": "副词"
+      },
+      {
+        "text": "감기에 걸린",
+        "meaning": "得了感冒的",
+        "note": "감기(感冒)+에(方向助词)+걸리다(患上)的词干+ -ㄴ(过去冠形词形)",
+        "isTarget": true
+      },
+      {
+        "text": "사람이",
+        "meaning": "人",
+        "note": "사람(人)+이(主格助词)"
+      },
+      {
+        "text": "많습니다",
+        "meaning": "多",
+        "note": "많다(多)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "감기약",
+    "romanization": "gamgiyak",
+    "pos": "名词",
+    "meaning": "感冒药",
+    "register": "中立",
+    "example": "감기약을 먹고 좀 나아졌습니다.",
+    "exampleTranslation": "吃了感冒药后好些了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "감기약을",
+        "meaning": "感冒药",
+        "note": "감기약(感冒药)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "먹고",
+        "meaning": "吃了之后",
+        "note": "먹다(吃)的词干+ -고(然后)"
+      },
+      {
+        "text": "좀",
+        "meaning": "有点",
+        "note": "副词"
+      },
+      {
+        "text": "나아졌습니다",
+        "meaning": "好些了",
+        "note": "낫다(好转)的词干变化+ -아지다(变得……)+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "걱정",
+    "romanization": "geokjeong",
+    "pos": "名词",
+    "meaning": "担心",
+    "register": "中立",
+    "example": "시험 걱정이 많이 됩니다.",
+    "exampleTranslation": "很担心考试。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "시험 걱정이",
+        "meaning": "考试的担心",
+        "note": "시험(考试)+걱정(担心)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "많이",
+        "meaning": "很",
+        "note": "副词"
+      },
+      {
+        "text": "됩니다",
+        "meaning": "变得",
+        "note": "되다(变成)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "게으르다",
+    "romanization": "geeureuda",
+    "pos": "形容词",
+    "meaning": "懒惰",
+    "register": "中立",
+    "example": "저는 아침에 게으른 편입니다.",
+    "exampleTranslation": "我早上比较懒。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "저는",
+        "meaning": "我",
+        "note": "저(我)+는(主题助词)"
+      },
+      {
+        "text": "아침에",
+        "meaning": "早上",
+        "note": "아침(早上)+에(时间助词)"
+      },
+      {
+        "text": "게으른 편입니다",
+        "meaning": "比较懒",
+        "note": "게으르다(懒惰)的词干+ -ㄴ(冠形词形)+편(比较……的一类)+이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "궁금하다",
+    "romanization": "gunggeumhada",
+    "pos": "形容词",
+    "meaning": "好奇",
+    "register": "中立",
+    "example": "결과가 정말 궁금합니다.",
+    "exampleTranslation": "真的很好奇结果。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "결과가",
+        "meaning": "结果",
+        "note": "결과(结果)+가(主格助词)"
+      },
+      {
+        "text": "정말",
+        "meaning": "真的",
+        "note": "副词"
+      },
+      {
+        "text": "궁금합니다",
+        "meaning": "好奇",
+        "note": "궁금하다(好奇)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "귀찮다",
+    "romanization": "gwichanta",
+    "pos": "形容词",
+    "meaning": "嫌麻烦",
+    "register": "中立",
+    "example": "오늘은 요리하기가 귀찮습니다.",
+    "exampleTranslation": "今天懒得做饭。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "오늘은",
+        "meaning": "今天",
+        "note": "오늘(今天)+은(主题助词)"
+      },
+      {
+        "text": "요리하기가",
+        "meaning": "做饭（这件事）",
+        "note": "요리하다(做饭)的词干+ -기(名词形)+가(主格助词)"
+      },
+      {
+        "text": "귀찮습니다",
+        "meaning": "嫌麻烦",
+        "note": "귀찮다(嫌麻烦)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "기분",
+    "romanization": "gibun",
+    "pos": "名词",
+    "meaning": "心情",
+    "register": "中立",
+    "example": "오늘은 기분이 좋습니다.",
+    "exampleTranslation": "今天心情很好。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "오늘은",
+        "meaning": "今天",
+        "note": "오늘(今天)+은(主题助词)"
+      },
+      {
+        "text": "기분이",
+        "meaning": "心情",
+        "note": "기분(心情)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "좋습니다",
+        "meaning": "好",
+        "note": "좋다(好)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "기침",
+    "romanization": "gichim",
+    "pos": "名词",
+    "meaning": "咳嗽",
+    "register": "中立",
+    "example": "기침이 계속 나옵니다.",
+    "exampleTranslation": "一直咳嗽。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "기침이",
+        "meaning": "咳嗽",
+        "note": "기침(咳嗽)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "계속",
+        "meaning": "一直",
+        "note": "副词"
+      },
+      {
+        "text": "나옵니다",
+        "meaning": "出现",
+        "note": "나오다(出来)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "긴장",
+    "romanization": "ginjang",
+    "pos": "名词",
+    "meaning": "紧张",
+    "register": "中立",
+    "example": "시험 전에는 긴장이 됩니다.",
+    "exampleTranslation": "考试前会紧张。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "시험 전에는",
+        "meaning": "在考试前",
+        "note": "시험(考试)+전(之前)+에(时间助词)+는(强调)"
+      },
+      {
+        "text": "긴장이",
+        "meaning": "紧张",
+        "note": "긴장(紧张)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "됩니다",
+        "meaning": "变得",
+        "note": "되다(变成)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "날씬하다",
+    "romanization": "nalssinhada",
+    "pos": "形容词",
+    "meaning": "苗条",
+    "register": "中立",
+    "example": "언니는 몸매가 날씬합니다.",
+    "exampleTranslation": "姐姐身材很苗条。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "언니는",
+        "meaning": "姐姐",
+        "note": "언니(姐姐)+는(主题助词)"
+      },
+      {
+        "text": "몸매가",
+        "meaning": "身材",
+        "note": "몸매(身材)+가(主格助词)"
+      },
+      {
+        "text": "날씬합니다",
+        "meaning": "苗条",
+        "note": "날씬하다(苗条)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "내과",
+    "romanization": "naegwa",
+    "pos": "名词",
+    "meaning": "内科",
+    "register": "中立",
+    "example": "배가 아파서 내과에 갔습니다.",
+    "exampleTranslation": "因为肚子疼去了内科。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "배가",
+        "meaning": "肚子",
+        "note": "배(肚子)+가(主格助词)"
+      },
+      {
+        "text": "아파서",
+        "meaning": "疼，所以",
+        "note": "아프다(疼)的词干+ -아서(因为)"
+      },
+      {
+        "text": "내과에",
+        "meaning": "内科",
+        "note": "내과(内科)+에(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "갔습니다",
+        "meaning": "去了",
+        "note": "가다(去)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "놀라다",
+    "romanization": "nollada",
+    "pos": "动词",
+    "meaning": "吃惊",
+    "register": "中立",
+    "example": "갑자기 큰 소리에 놀랐습니다.",
+    "exampleTranslation": "突然的大声响吓了一跳。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "갑자기",
+        "meaning": "突然",
+        "note": "副词"
+      },
+      {
+        "text": "큰 소리에",
+        "meaning": "大声响",
+        "note": "큰(大的)+소리(声音)+에(方向助词)"
+      },
+      {
+        "text": "놀랐습니다",
+        "meaning": "吃惊了",
+        "note": "놀라다(吃惊)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "다이어트",
+    "romanization": "daieoteu",
+    "pos": "名词",
+    "meaning": "减肥",
+    "register": "中立",
+    "example": "요즘 다이어트를 하고 있습니다.",
+    "exampleTranslation": "最近在减肥。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "요즘",
+        "meaning": "最近",
+        "note": "副词"
+      },
+      {
+        "text": "다이어트를",
+        "meaning": "减肥",
+        "note": "다이어트(减肥)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "하고 있습니다",
+        "meaning": "正在做",
+        "note": "하다(做)的词干+ -고 있다(正在)+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "답답하다",
+    "romanization": "dapdapada",
+    "pos": "形容词",
+    "meaning": "郁闷，憋闷",
+    "register": "中立",
+    "example": "마스크를 쓰면 답답합니다.",
+    "exampleTranslation": "戴口罩会觉得闷。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "마스크를",
+        "meaning": "口罩",
+        "note": "마스크(口罩)+를(宾格助词)"
+      },
+      {
+        "text": "쓰면",
+        "meaning": "戴的话",
+        "note": "쓰다(戴)的词干+ -면(如果……的话)"
+      },
+      {
+        "text": "답답합니다",
+        "meaning": "郁闷",
+        "note": "답답하다(郁闷)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "두통",
+    "romanization": "dutong",
+    "pos": "名词",
+    "meaning": "头痛",
+    "register": "中立",
+    "example": "두통이 심해서 약을 먹었습니다.",
+    "exampleTranslation": "头痛很严重所以吃了药。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "두통이",
+        "meaning": "头痛",
+        "note": "두통(头痛)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "심해서",
+        "meaning": "严重，所以",
+        "note": "심하다(严重)的词干+ -해서(因为)"
+      },
+      {
+        "text": "약을",
+        "meaning": "药",
+        "note": "약(药)+을(宾格助词)"
+      },
+      {
+        "text": "먹었습니다",
+        "meaning": "吃了",
+        "note": "먹다(吃)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "똑똑하다",
+    "romanization": "ttokttokhada",
+    "pos": "形容词",
+    "meaning": "聪明",
+    "register": "中立",
+    "example": "제 동생은 아주 똑똑합니다.",
+    "exampleTranslation": "我弟弟/妹妹非常聪明。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "제",
+        "meaning": "我的",
+        "note": "저의 缩略形式"
+      },
+      {
+        "text": "동생은",
+        "meaning": "弟弟妹妹",
+        "note": "동생(弟弟妹妹)+은(主题助词)"
+      },
+      {
+        "text": "아주",
+        "meaning": "非常",
+        "note": "副词"
+      },
+      {
+        "text": "똑똑합니다",
+        "meaning": "聪明",
+        "note": "똑똑하다(聪明)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "못생기다",
+    "romanization": "motsaenggida",
+    "pos": "形容词",
+    "meaning": "长得丑",
+    "register": "中立",
+    "example": "이 사진은 좀 못생기게 나왔습니다.",
+    "exampleTranslation": "这张照片拍得不太好看。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "이 사진은",
+        "meaning": "这张照片",
+        "note": "이(这)+사진(照片)+은(主题助词)"
+      },
+      {
+        "text": "좀",
+        "meaning": "有点",
+        "note": "副词"
+      },
+      {
+        "text": "못생기게",
+        "meaning": "长得不好看地",
+        "note": "못생기다(丑)的词干+ -게(副词形)",
+        "isTarget": true
+      },
+      {
+        "text": "나왔습니다",
+        "meaning": "出来了（拍出来）",
+        "note": "나오다(出来)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "무섭다",
+    "romanization": "museopda",
+    "pos": "形容词",
+    "meaning": "害怕",
+    "register": "中立",
+    "example": "밤에 혼자 있으면 무섭습니다.",
+    "exampleTranslation": "晚上一个人会害怕。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "밤에",
+        "meaning": "夜晚",
+        "note": "밤(夜晚)+에(时间助词)"
+      },
+      {
+        "text": "혼자 있으면",
+        "meaning": "独自在的话",
+        "note": "혼자(独自)+있다(在)+ -으면(如果……的话)"
+      },
+      {
+        "text": "무섭습니다",
+        "meaning": "害怕",
+        "note": "무섭다(害怕)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "미안",
+    "romanization": "mian",
+    "pos": "名词",
+    "meaning": "抱歉",
+    "register": "中立",
+    "example": "연락이 늦어서 미안합니다.",
+    "exampleTranslation": "联系晚了，抱歉。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "연락이",
+        "meaning": "联系",
+        "note": "연락(联系)+이(主格助词)"
+      },
+      {
+        "text": "늦어서",
+        "meaning": "晚了，所以",
+        "note": "늦다(晚)的词干+ -어서(因为)"
+      },
+      {
+        "text": "미안합니다",
+        "meaning": "抱歉",
+        "note": "미안(抱歉)+하다+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "배탈",
+    "romanization": "baetal",
+    "pos": "名词",
+    "meaning": "肚子不舒服",
+    "register": "中立",
+    "example": "찬 음식을 먹고 배탈이 났습니다.",
+    "exampleTranslation": "吃了凉的食物肚子不舒服了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "찬",
+        "meaning": "凉的",
+        "note": "차다(凉)的词干+ -ㄴ(冠形词形)"
+      },
+      {
+        "text": "음식을",
+        "meaning": "食物",
+        "note": "음식(食物)+을(宾格助词)"
+      },
+      {
+        "text": "먹고",
+        "meaning": "吃了之后",
+        "note": "먹다(吃)的词干+ -고(然后)"
+      },
+      {
+        "text": "배탈이",
+        "meaning": "肚子不舒服",
+        "note": "배탈(肚子不舒服)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "났습니다",
+        "meaning": "发生了",
+        "note": "나다(发生)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "병원",
+    "romanization": "byeongwon",
+    "pos": "名词",
+    "meaning": "医院",
+    "register": "中立",
+    "example": "몸이 아파서 병원에 갔습니다.",
+    "exampleTranslation": "因为身体不舒服去了医院。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "몸이",
+        "meaning": "身体",
+        "note": "몸(身体)+이(主格助词)"
+      },
+      {
+        "text": "아파서",
+        "meaning": "疼，所以",
+        "note": "아프다(疼)的词干+ -아서(因为)"
+      },
+      {
+        "text": "병원에",
+        "meaning": "医院",
+        "note": "병원(医院)+에(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "갔습니다",
+        "meaning": "去了",
+        "note": "가다(去)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "부끄럽다",
+    "romanization": "bukkeureopda",
+    "pos": "形容词",
+    "meaning": "害羞",
+    "register": "中立",
+    "example": "사람들 앞에서 노래하기가 부끄럽습니다.",
+    "exampleTranslation": "在人们面前唱歌很害羞。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "사람들 앞에서",
+        "meaning": "在人们面前",
+        "note": "사람들(人们)+앞(前面)+에서(处所助词)"
+      },
+      {
+        "text": "노래하기가",
+        "meaning": "唱歌（这件事）",
+        "note": "노래하다(唱歌)的词干+ -기(名词形)+가(主格助词)"
+      },
+      {
+        "text": "부끄럽습니다",
+        "meaning": "害羞",
+        "note": "부끄럽다(害羞)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "부지런하다",
+    "romanization": "bujireonhada",
+    "pos": "形容词",
+    "meaning": "勤快",
+    "register": "中立",
+    "example": "우리 어머니는 아주 부지런하십니다.",
+    "exampleTranslation": "我妈妈非常勤快。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "우리 어머니는",
+        "meaning": "我妈妈",
+        "note": "우리(我们)+어머니(母亲)+는(主题助词)"
+      },
+      {
+        "text": "아주",
+        "meaning": "非常",
+        "note": "副词"
+      },
+      {
+        "text": "부지런하십니다",
+        "meaning": "勤快（敬语）",
+        "note": "부지런하다(勤快)的词干+ -시-（尊敬阶标记）+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "상처",
+    "romanization": "sangcheo",
+    "pos": "名词",
+    "meaning": "伤口",
+    "register": "中立",
+    "example": "넘어져서 다리에 상처가 났습니다.",
+    "exampleTranslation": "摔倒了腿上有了伤口。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "넘어져서",
+        "meaning": "摔倒了",
+        "note": "넘어지다(摔倒)的词干+ -어서(因为/先后)"
+      },
+      {
+        "text": "다리에",
+        "meaning": "腿",
+        "note": "다리(腿)+에(方向助词)"
+      },
+      {
+        "text": "상처가",
+        "meaning": "伤口",
+        "note": "상처(伤口)+가(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "났습니다",
+        "meaning": "出现了",
+        "note": "나다(出现)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "섭섭하다",
+    "romanization": "seopseophada",
+    "pos": "形容词",
+    "meaning": "遗憾，失落",
+    "register": "中立",
+    "example": "친구가 약속을 잊어서 섭섭했습니다.",
+    "exampleTranslation": "朋友忘了约定，觉得很失落。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "친구가",
+        "meaning": "朋友",
+        "note": "친구(朋友)+가(主格助词)"
+      },
+      {
+        "text": "약속을",
+        "meaning": "约定",
+        "note": "약속(约定)+을(宾格助词)"
+      },
+      {
+        "text": "잊어서",
+        "meaning": "忘记了，所以",
+        "note": "잊다(忘记)的词干+ -어서(因为)"
+      },
+      {
+        "text": "섭섭했습니다",
+        "meaning": "觉得失落",
+        "note": "섭섭하다(失落)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "성격",
+    "romanization": "seonggyeok",
+    "pos": "名词",
+    "meaning": "性格",
+    "register": "中立",
+    "example": "그 사람은 성격이 좋습니다.",
+    "exampleTranslation": "那个人性格很好。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "그 사람은",
+        "meaning": "那个人",
+        "note": "그(那)+사람(人)+은(主题助词)"
+      },
+      {
+        "text": "성격이",
+        "meaning": "性格",
+        "note": "성격(性格)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "좋습니다",
+        "meaning": "好",
+        "note": "좋다(好)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "소화제",
+    "romanization": "sohwaje",
+    "pos": "名词",
+    "meaning": "消化药",
+    "register": "中立",
+    "example": "소화가 안 돼서 소화제를 먹었습니다.",
+    "exampleTranslation": "消化不良吃了消化药。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "소화가",
+        "meaning": "消化",
+        "note": "소화(消化)+가(主格助词)"
+      },
+      {
+        "text": "안 돼서",
+        "meaning": "不顺利，所以",
+        "note": "되다(顺利/成)的词干+ -어서(因为)，안(不，否定)"
+      },
+      {
+        "text": "소화제를",
+        "meaning": "消化药",
+        "note": "소화제(消化药)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "먹었습니다",
+        "meaning": "吃了",
+        "note": "먹다(吃)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "수술",
+    "romanization": "susul",
+    "pos": "名词",
+    "meaning": "手术",
+    "register": "中立",
+    "example": "다음 주에 수술을 받습니다.",
+    "exampleTranslation": "下周要做手术。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "다음 주에",
+        "meaning": "下周",
+        "note": "다음(下一个)+주(周)+에(时间助词)"
+      },
+      {
+        "text": "수술을",
+        "meaning": "手术",
+        "note": "수술(手术)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "받습니다",
+        "meaning": "接受",
+        "note": "받다(接受)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "스트레스",
+    "romanization": "seuteureseu",
+    "pos": "名词",
+    "meaning": "压力",
+    "register": "中立",
+    "example": "요즘 스트레스가 많습니다.",
+    "exampleTranslation": "最近压力很大。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "요즘",
+        "meaning": "最近",
+        "note": "副词"
+      },
+      {
+        "text": "스트레스가",
+        "meaning": "压力",
+        "note": "스트레스(压力)+가(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "많습니다",
+        "meaning": "多",
+        "note": "많다(多)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "심심하다",
+    "romanization": "simsimhada",
+    "pos": "形容词",
+    "meaning": "无聊",
+    "register": "中立",
+    "example": "할 일이 없어서 심심합니다.",
+    "exampleTranslation": "没什么事做，很无聊。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "할 일이",
+        "meaning": "要做的事",
+        "note": "하다(做)+ -ㄹ(冠形词形)+일(事)+이(主格助词)"
+      },
+      {
+        "text": "없어서",
+        "meaning": "没有，所以",
+        "note": "없다(没有)的词干+ -어서(因为)"
+      },
+      {
+        "text": "심심합니다",
+        "meaning": "无聊",
+        "note": "심심하다(无聊)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "안경",
+    "romanization": "angyeong",
+    "pos": "名词",
+    "meaning": "眼镜",
+    "register": "中立",
+    "example": "저는 안경을 씁니다.",
+    "exampleTranslation": "我戴眼镜。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "저는",
+        "meaning": "我",
+        "note": "저(我)+는(主题助词)"
+      },
+      {
+        "text": "안경을",
+        "meaning": "眼镜",
+        "note": "안경(眼镜)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "씁니다",
+        "meaning": "戴",
+        "note": "쓰다(戴)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "약",
+    "romanization": "yak",
+    "pos": "名词",
+    "meaning": "药",
+    "register": "中立",
+    "example": "하루 세 번 약을 먹습니다.",
+    "exampleTranslation": "一天吃三次药。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "하루 세 번",
+        "meaning": "一天三次",
+        "note": "하루(一天)+세 번(三次)"
+      },
+      {
+        "text": "약을",
+        "meaning": "药",
+        "note": "약(药)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "먹습니다",
+        "meaning": "吃",
+        "note": "먹다(吃)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "약국",
+    "romanization": "yakguk",
+    "pos": "名词",
+    "meaning": "药店",
+    "register": "中立",
+    "example": "약국에서 약을 샀습니다.",
+    "exampleTranslation": "在药店买了药。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "약국에서",
+        "meaning": "在药店",
+        "note": "약국(药店)+에서(处所助词)",
+        "isTarget": true
+      },
+      {
+        "text": "약을",
+        "meaning": "药",
+        "note": "약(药)+을(宾格助词)"
+      },
+      {
+        "text": "샀습니다",
+        "meaning": "买了",
+        "note": "사다(买)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "약사",
+    "romanization": "yaksa",
+    "pos": "名词",
+    "meaning": "药剂师",
+    "register": "中立",
+    "example": "약사에게 약을 받았습니다.",
+    "exampleTranslation": "从药剂师那里拿到了药。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "약사에게",
+        "meaning": "从药剂师",
+        "note": "약사(药剂师)+에게(从……)",
+        "isTarget": true
+      },
+      {
+        "text": "약을",
+        "meaning": "药",
+        "note": "약(药)+을(宾格助词)"
+      },
+      {
+        "text": "받았습니다",
+        "meaning": "收到了",
+        "note": "받다(收到)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "양치질",
+    "romanization": "yangchijil",
+    "pos": "名词",
+    "meaning": "刷牙",
+    "register": "中立",
+    "example": "자기 전에 양치질을 합니다.",
+    "exampleTranslation": "睡前刷牙。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "자기 전에",
+        "meaning": "睡觉之前",
+        "note": "자다(睡)的词干+ -기 전에(……之前)"
+      },
+      {
+        "text": "양치질을",
+        "meaning": "刷牙",
+        "note": "양치질(刷牙)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "합니다",
+        "meaning": "做",
+        "note": "하다(做)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "열",
+    "romanization": "yeol",
+    "pos": "名词",
+    "meaning": "发烧",
+    "register": "中立",
+    "example": "아이가 열이 많이 납니다.",
+    "exampleTranslation": "孩子发烧发得很厉害。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "아이가",
+        "meaning": "孩子",
+        "note": "아이(孩子)+가(主格助词)"
+      },
+      {
+        "text": "열이",
+        "meaning": "发烧",
+        "note": "열(发烧)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "많이",
+        "meaning": "很",
+        "note": "副词"
+      },
+      {
+        "text": "납니다",
+        "meaning": "出现（发烧）",
+        "note": "나다(出现)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ],
+    "homonymIndex": "07"
+  },
+  {
+    "korean": "예약",
+    "romanization": "yeyak",
+    "pos": "名词",
+    "meaning": "预约",
+    "register": "中立",
+    "example": "병원 예약을 했습니다.",
+    "exampleTranslation": "预约了医院。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "병원 예약을",
+        "meaning": "医院预约",
+        "note": "병원 예약(医院预约)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "했습니다",
+        "meaning": "做了",
+        "note": "하다(做)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "외롭다",
+    "romanization": "oeropda",
+    "pos": "形容词",
+    "meaning": "孤独",
+    "register": "中立",
+    "example": "혼자 살면 가끔 외롭습니다.",
+    "exampleTranslation": "一个人生活偶尔会孤独。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "혼자",
+        "meaning": "独自",
+        "note": "副词"
+      },
+      {
+        "text": "살면",
+        "meaning": "生活的话",
+        "note": "살다(生活)的词干+ -면(如果……的话)"
+      },
+      {
+        "text": "가끔",
+        "meaning": "偶尔",
+        "note": "副词"
+      },
+      {
+        "text": "외롭습니다",
+        "meaning": "孤独",
+        "note": "외롭다(孤独)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "입원",
+    "romanization": "ibwon",
+    "pos": "名词",
+    "meaning": "住院",
+    "register": "中立",
+    "example": "할머니가 병원에 입원하셨습니다.",
+    "exampleTranslation": "奶奶住院了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "할머니가",
+        "meaning": "奶奶",
+        "note": "할머니(奶奶)+가(主格助词)"
+      },
+      {
+        "text": "병원에",
+        "meaning": "医院",
+        "note": "병원(医院)+에(方向助词)"
+      },
+      {
+        "text": "입원하셨습니다",
+        "meaning": "住院了（敬语）",
+        "note": "입원하다(住院)的词干+ -시-（尊敬阶标记）+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "잘생기다",
+    "romanization": "jalsaenggida",
+    "pos": "形容词",
+    "meaning": "长得帅",
+    "register": "中立",
+    "example": "저 배우는 정말 잘생겼습니다.",
+    "exampleTranslation": "那位演员长得真帅。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "저 배우는",
+        "meaning": "那位演员",
+        "note": "저(那)+배우(演员)+는(主题助词)"
+      },
+      {
+        "text": "정말",
+        "meaning": "真的",
+        "note": "副词"
+      },
+      {
+        "text": "잘생겼습니다",
+        "meaning": "长得帅",
+        "note": "잘생기다(帅)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "재채기",
+    "romanization": "jaechaegi",
+    "pos": "名词",
+    "meaning": "打喷嚏",
+    "register": "中立",
+    "example": "재채기가 계속 나옵니다.",
+    "exampleTranslation": "一直打喷嚏。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "재채기가",
+        "meaning": "喷嚏",
+        "note": "재채기(喷嚏)+가(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "계속",
+        "meaning": "一直",
+        "note": "副词"
+      },
+      {
+        "text": "나옵니다",
+        "meaning": "出来",
+        "note": "나오다(出来)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "주사",
+    "romanization": "jusa",
+    "pos": "名词",
+    "meaning": "打针",
+    "register": "中立",
+    "example": "감기 때문에 주사를 맞았습니다.",
+    "exampleTranslation": "因为感冒打了针。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "감기 때문에",
+        "meaning": "因为感冒",
+        "note": "감기(感冒)+때문에(因为……)"
+      },
+      {
+        "text": "주사를",
+        "meaning": "打针",
+        "note": "주사(打针)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "맞았습니다",
+        "meaning": "挨（针）了",
+        "note": "맞다(挨/被打)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "즐겁다",
+    "romanization": "jeulgeopda",
+    "pos": "形容词",
+    "meaning": "愉快",
+    "register": "中立",
+    "example": "오늘 하루도 즐거웠습니다.",
+    "exampleTranslation": "今天这一天也很愉快。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "오늘 하루도",
+        "meaning": "今天这一天也",
+        "note": "오늘(今天)+하루(一天)+도(也)"
+      },
+      {
+        "text": "즐거웠습니다",
+        "meaning": "愉快",
+        "note": "즐겁다(愉快)的词干（ㅂ不规则：收音ㅂ在元音开头的语尾前变为우）+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "착하다",
+    "romanization": "chakhada",
+    "pos": "形容词",
+    "meaning": "善良",
+    "register": "中立",
+    "example": "제 친구는 마음이 착합니다.",
+    "exampleTranslation": "我朋友心地善良。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "제",
+        "meaning": "我的",
+        "note": "저의 缩略形式"
+      },
+      {
+        "text": "친구는",
+        "meaning": "朋友",
+        "note": "친구(朋友)+는(主题助词)"
+      },
+      {
+        "text": "마음이",
+        "meaning": "心",
+        "note": "마음(心)+이(主格助词)"
+      },
+      {
+        "text": "착합니다",
+        "meaning": "善良",
+        "note": "착하다(善良)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "치과",
+    "romanization": "chigwa",
+    "pos": "名词",
+    "meaning": "牙科",
+    "register": "中立",
+    "example": "이가 아파서 치과에 갔습니다.",
+    "exampleTranslation": "因为牙疼去了牙科。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "이가",
+        "meaning": "牙齿",
+        "note": "이(牙齿)+가(主格助词)"
+      },
+      {
+        "text": "아파서",
+        "meaning": "疼，所以",
+        "note": "아프다(疼)的词干+ -아서(因为)"
+      },
+      {
+        "text": "치과에",
+        "meaning": "牙科",
+        "note": "치과(牙科)+에(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "갔습니다",
+        "meaning": "去了",
+        "note": "가다(去)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "치료",
+    "romanization": "chiryo",
+    "pos": "名词",
+    "meaning": "治疗",
+    "register": "中立",
+    "example": "치료를 잘 받아야 합니다.",
+    "exampleTranslation": "必须好好接受治疗。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "치료를",
+        "meaning": "治疗",
+        "note": "치료(治疗)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "잘",
+        "meaning": "好好地",
+        "note": "副词"
+      },
+      {
+        "text": "받아야 합니다",
+        "meaning": "必须接受",
+        "note": "받다(接受)的词干+ -아야 하다(必须)+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "친하다",
+    "romanization": "chinhada",
+    "pos": "形容词",
+    "meaning": "亲密",
+    "register": "中立",
+    "example": "저는 그 친구와 아주 친합니다.",
+    "exampleTranslation": "我和那个朋友很亲密。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "저는",
+        "meaning": "我",
+        "note": "저(我)+는(主题助词)"
+      },
+      {
+        "text": "그 친구와",
+        "meaning": "和那个朋友",
+        "note": "그(那)+친구(朋友)+와(和……)"
+      },
+      {
+        "text": "아주",
+        "meaning": "很",
+        "note": "副词"
+      },
+      {
+        "text": "친합니다",
+        "meaning": "亲密",
+        "note": "친하다(亲密)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "콧물",
+    "romanization": "konnul",
+    "pos": "名词",
+    "meaning": "鼻涕",
+    "register": "中立",
+    "example": "감기에 걸려서 콧물이 납니다.",
+    "exampleTranslation": "感冒了所以流鼻涕。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "감기에 걸려서",
+        "meaning": "感冒了，所以",
+        "note": "감기(感冒)+에 걸리다(患上)+ -어서(因为)"
+      },
+      {
+        "text": "콧물이",
+        "meaning": "鼻涕",
+        "note": "콧물(鼻涕)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "납니다",
+        "meaning": "流出（鼻涕）",
+        "note": "나다(流出)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "퇴원",
+    "romanization": "toewon",
+    "pos": "名词",
+    "meaning": "出院",
+    "register": "中立",
+    "example": "다음 주에 퇴원할 겁니다.",
+    "exampleTranslation": "下周会出院。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "다음 주에",
+        "meaning": "下周",
+        "note": "다음(下一个)+주(周)+에(时间助词)"
+      },
+      {
+        "text": "퇴원할 겁니다",
+        "meaning": "会出院",
+        "note": "퇴원하다(出院)的词干+ -ㄹ 것이다(将要)+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "편찮다",
+    "romanization": "pyeonchanta",
+    "pos": "形容词",
+    "meaning": "身体不适（敬语）",
+    "register": "敬语",
+    "example": "할아버지께서 요즘 편찮으십니다.",
+    "exampleTranslation": "爷爷最近身体不太好。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "할아버지께서",
+        "meaning": "爷爷（敬语主格）",
+        "note": "할아버지(爷爷)+께서(主格助词敬语形式)"
+      },
+      {
+        "text": "요즘",
+        "meaning": "最近",
+        "note": "副词"
+      },
+      {
+        "text": "편찮으십니다",
+        "meaning": "身体不适（敬语）",
+        "note": "편찮다(不适,敬语)的词干+ -으시-（尊敬阶标记）+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "피곤",
+    "romanization": "pigon",
+    "pos": "名词",
+    "meaning": "疲劳",
+    "register": "中立",
+    "example": "요즘 피곤이 쌓였습니다.",
+    "exampleTranslation": "最近积累了很多疲劳。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "요즘",
+        "meaning": "最近",
+        "note": "副词"
+      },
+      {
+        "text": "피곤이",
+        "meaning": "疲劳",
+        "note": "피곤(疲劳)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "쌓였습니다",
+        "meaning": "积累了",
+        "note": "쌓이다(积累)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "행복",
+    "romanization": "haengbok",
+    "pos": "名词",
+    "meaning": "幸福",
+    "register": "中立",
+    "example": "가족과 함께 있으면 행복을 느낍니다.",
+    "exampleTranslation": "和家人在一起会感到幸福。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "가족과",
+        "meaning": "和家人",
+        "note": "가족(家人)+과(和……)"
+      },
+      {
+        "text": "함께 있으면",
+        "meaning": "一起在的话",
+        "note": "함께(一起)+있다(在)+ -으면(如果……的话)"
+      },
+      {
+        "text": "행복을",
+        "meaning": "幸福",
+        "note": "행복(幸福)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "느낍니다",
+        "meaning": "感到",
+        "note": "느끼다(感到)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "화",
+    "romanization": "hwa",
+    "pos": "名词",
+    "meaning": "生气，火气",
+    "register": "中立",
+    "example": "그 말을 듣고 화가 났습니다.",
+    "exampleTranslation": "听了那句话生气了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "그 말을",
+        "meaning": "那句话",
+        "note": "그(那)+말(话)+을(宾格助词)"
+      },
+      {
+        "text": "듣고",
+        "meaning": "听了之后",
+        "note": "듣다(听)的词干+ -고(然后)"
+      },
+      {
+        "text": "화가",
+        "meaning": "气",
+        "note": "화(气)+가(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "났습니다",
+        "meaning": "冒出来了（生气）",
+        "note": "나다(出现)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "화나다",
+    "romanization": "hwanada",
+    "pos": "动词",
+    "meaning": "生气",
+    "register": "中立",
+    "example": "동생이 자꾸 화나게 합니다.",
+    "exampleTranslation": "弟弟老是惹我生气。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "동생이",
+        "meaning": "弟弟妹妹",
+        "note": "동생(弟弟妹妹)+이(主格助词)"
+      },
+      {
+        "text": "자꾸",
+        "meaning": "总是",
+        "note": "副词"
+      },
+      {
+        "text": "화나게 합니다",
+        "meaning": "使……生气",
+        "note": "화나다(生气)的词干+ -게 하다(使……)+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "환자",
+    "romanization": "hwanja",
+    "pos": "名词",
+    "meaning": "患者",
+    "register": "中立",
+    "example": "병원에 환자가 많습니다.",
+    "exampleTranslation": "医院里患者很多。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "병원에",
+        "meaning": "医院",
+        "note": "병원(医院)+에(处所助词)"
+      },
+      {
+        "text": "환자가",
+        "meaning": "患者",
+        "note": "환자(患者)+가(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "많습니다",
+        "meaning": "多",
+        "note": "많다(多)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ]
+  }
+]

@@ -1,0 +1,2171 @@
+[
+  {
+    "korean": "가볍다",
+    "romanization": "gabyeopda",
+    "pos": "形容词",
+    "meaning": "轻",
+    "register": "中立",
+    "example": "이 가방은 아주 가볍습니다.",
+    "exampleTranslation": "这个包很轻。",
+    "grammarBreakdown": [
+      {
+        "text": "이",
+        "meaning": "这",
+        "note": "冠形词"
+      },
+      {
+        "text": "가방",
+        "meaning": "包",
+        "note": "名词"
+      },
+      {
+        "text": "은",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "아주",
+        "meaning": "很",
+        "note": "副词"
+      },
+      {
+        "text": "가볍습니다",
+        "meaning": "轻",
+        "note": "가볍다(轻)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "같다",
+    "romanization": "gatda",
+    "pos": "形容词",
+    "meaning": "一样，相同",
+    "register": "中立",
+    "example": "저와 친구는 생각이 같습니다.",
+    "exampleTranslation": "我和朋友想法一样。",
+    "grammarBreakdown": [
+      {
+        "text": "저",
+        "meaning": "我",
+        "note": "人称代词"
+      },
+      {
+        "text": "와",
+        "meaning": "和……",
+        "note": "表共同的助词"
+      },
+      {
+        "text": "친구",
+        "meaning": "朋友",
+        "note": "名词"
+      },
+      {
+        "text": "는",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "생각",
+        "meaning": "想法",
+        "note": "名词"
+      },
+      {
+        "text": "이",
+        "meaning": "—",
+        "note": "主格助词"
+      },
+      {
+        "text": "같습니다",
+        "meaning": "一样",
+        "note": "같다(一样)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "귀엽다",
+    "romanization": "gwiyeopda",
+    "pos": "形容词",
+    "meaning": "可爱",
+    "register": "中立",
+    "example": "강아지가 정말 귀엽습니다.",
+    "exampleTranslation": "小狗真的很可爱。",
+    "grammarBreakdown": [
+      {
+        "text": "강아지",
+        "meaning": "小狗",
+        "note": "名词"
+      },
+      {
+        "text": "가",
+        "meaning": "—",
+        "note": "主格助词"
+      },
+      {
+        "text": "정말",
+        "meaning": "真的",
+        "note": "副词"
+      },
+      {
+        "text": "귀엽습니다",
+        "meaning": "可爱",
+        "note": "귀엽다(可爱)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "기쁘다",
+    "romanization": "gippeuda",
+    "pos": "形容词",
+    "meaning": "高兴",
+    "register": "中立",
+    "example": "합격 소식을 듣고 정말 기뻤습니다.",
+    "exampleTranslation": "听到合格的消息真的很高兴。",
+    "grammarBreakdown": [
+      {
+        "text": "합격 소식",
+        "meaning": "合格的消息",
+        "note": "名词"
+      },
+      {
+        "text": "을",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "듣고",
+        "meaning": "听了之后",
+        "note": "듣다(听)的词干+ -고(然后)"
+      },
+      {
+        "text": "정말",
+        "meaning": "真的",
+        "note": "副词"
+      },
+      {
+        "text": "기뻤습니다",
+        "meaning": "高兴",
+        "note": "기쁘다(高兴)的词干（으不规则：词干末尾的으在元音开头的语尾前脱落，与-어合并为-어）+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "길다",
+    "romanization": "gilda",
+    "pos": "形容词",
+    "meaning": "长",
+    "register": "中立",
+    "example": "그 사람은 머리가 깁니다.",
+    "exampleTranslation": "那个人头发很长。",
+    "grammarBreakdown": [
+      {
+        "text": "그",
+        "meaning": "那",
+        "note": "冠形词"
+      },
+      {
+        "text": "사람",
+        "meaning": "人",
+        "note": "名词"
+      },
+      {
+        "text": "은",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "머리",
+        "meaning": "头发",
+        "note": "名词"
+      },
+      {
+        "text": "가",
+        "meaning": "—",
+        "note": "主格助词"
+      },
+      {
+        "text": "깁니다",
+        "meaning": "长",
+        "note": "길다(长)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）（ㄹ脱落）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "깨끗하다",
+    "romanization": "kkaekkeutada",
+    "pos": "形容词",
+    "meaning": "干净",
+    "register": "中立",
+    "example": "방을 깨끗하게 청소했습니다.",
+    "exampleTranslation": "把房间打扫得干干净净。",
+    "grammarBreakdown": [
+      {
+        "text": "방",
+        "meaning": "房间",
+        "note": "名词"
+      },
+      {
+        "text": "을",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "깨끗하게",
+        "meaning": "干净地",
+        "note": "깨끗하다(干净)的词干+ -게(副词形)",
+        "isTarget": true
+      },
+      {
+        "text": "청소했습니다",
+        "meaning": "打扫了",
+        "note": "청소하다(打扫)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "나쁘다",
+    "romanization": "nappeuda",
+    "pos": "形容词",
+    "meaning": "坏",
+    "register": "中立",
+    "example": "오늘은 기분이 나쁩니다.",
+    "exampleTranslation": "今天心情不好。",
+    "grammarBreakdown": [
+      {
+        "text": "오늘",
+        "meaning": "今天",
+        "note": "名词/副词"
+      },
+      {
+        "text": "은",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "기분",
+        "meaning": "心情",
+        "note": "名词"
+      },
+      {
+        "text": "이",
+        "meaning": "—",
+        "note": "主格助词"
+      },
+      {
+        "text": "나쁩니다",
+        "meaning": "坏",
+        "note": "나쁘다(坏)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "낮다",
+    "romanization": "natda",
+    "pos": "形容词",
+    "meaning": "低，矮",
+    "register": "中立",
+    "example": "이 책상은 높이가 낮습니다.",
+    "exampleTranslation": "这张桌子高度很低。",
+    "grammarBreakdown": [
+      {
+        "text": "이",
+        "meaning": "这",
+        "note": "冠形词"
+      },
+      {
+        "text": "책상",
+        "meaning": "书桌",
+        "note": "名词"
+      },
+      {
+        "text": "은",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "높이",
+        "meaning": "高度",
+        "note": "名词"
+      },
+      {
+        "text": "가",
+        "meaning": "—",
+        "note": "主格助词"
+      },
+      {
+        "text": "낮습니다",
+        "meaning": "低",
+        "note": "낮다(低)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "넓다",
+    "romanization": "neolda",
+    "pos": "形容词",
+    "meaning": "宽敞",
+    "register": "中立",
+    "example": "새 집은 아주 넓습니다.",
+    "exampleTranslation": "新家非常宽敞。",
+    "grammarBreakdown": [
+      {
+        "text": "새",
+        "meaning": "新的",
+        "note": "冠形词"
+      },
+      {
+        "text": "집",
+        "meaning": "家",
+        "note": "名词"
+      },
+      {
+        "text": "은",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "아주",
+        "meaning": "很",
+        "note": "副词"
+      },
+      {
+        "text": "넓습니다",
+        "meaning": "宽敞",
+        "note": "넓다(宽)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "높다",
+    "romanization": "nopda",
+    "pos": "形容词",
+    "meaning": "高",
+    "register": "中立",
+    "example": "저 산은 아주 높습니다.",
+    "exampleTranslation": "那座山很高。",
+    "grammarBreakdown": [
+      {
+        "text": "저",
+        "meaning": "那",
+        "note": "冠形词"
+      },
+      {
+        "text": "산",
+        "meaning": "山",
+        "note": "名词"
+      },
+      {
+        "text": "은",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "아주",
+        "meaning": "很",
+        "note": "副词"
+      },
+      {
+        "text": "높습니다",
+        "meaning": "高",
+        "note": "높다(高)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "누구",
+    "romanization": "nugu",
+    "pos": "代词",
+    "meaning": "谁",
+    "register": "中立",
+    "example": "저 사람은 누구예요?",
+    "exampleTranslation": "那个人是谁？",
+    "grammarBreakdown": [
+      {
+        "text": "저",
+        "meaning": "那",
+        "note": "冠形词"
+      },
+      {
+        "text": "사람",
+        "meaning": "人",
+        "note": "名词"
+      },
+      {
+        "text": "은",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "누구예요",
+        "meaning": "是谁",
+        "note": "누구(谁)+예요(이다的非正式敬语形)",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "疑问句",
+    "formalityLevel": "非格式体敬语（해요体）"
+  },
+  {
+    "korean": "느리다",
+    "romanization": "neurida",
+    "pos": "形容词",
+    "meaning": "慢",
+    "register": "中立",
+    "example": "이 버스는 속도가 느립니다.",
+    "exampleTranslation": "这辆公交车速度很慢。",
+    "grammarBreakdown": [
+      {
+        "text": "이",
+        "meaning": "这",
+        "note": "冠形词"
+      },
+      {
+        "text": "버스",
+        "meaning": "公交车",
+        "note": "名词"
+      },
+      {
+        "text": "는",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "속도",
+        "meaning": "速度",
+        "note": "名词"
+      },
+      {
+        "text": "가",
+        "meaning": "—",
+        "note": "主格助词"
+      },
+      {
+        "text": "느립니다",
+        "meaning": "慢",
+        "note": "느리다(慢)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "늦다",
+    "romanization": "neutda",
+    "pos": "形容词/动词",
+    "meaning": "晚，迟",
+    "register": "中立",
+    "example": "오늘 회의에 늦었습니다.",
+    "exampleTranslation": "今天开会迟到了。",
+    "grammarBreakdown": [
+      {
+        "text": "오늘",
+        "meaning": "今天",
+        "note": "名词/副词"
+      },
+      {
+        "text": "회의",
+        "meaning": "会议",
+        "note": "名词"
+      },
+      {
+        "text": "에",
+        "meaning": "—",
+        "note": "方向/目标助词"
+      },
+      {
+        "text": "늦었습니다",
+        "meaning": "迟到了",
+        "note": "늦다(迟)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "다르다",
+    "romanization": "dareuda",
+    "pos": "形容词",
+    "meaning": "不同",
+    "register": "中立",
+    "example": "사람마다 생각이 다릅니다.",
+    "exampleTranslation": "每个人的想法都不同。",
+    "grammarBreakdown": [
+      {
+        "text": "사람마다",
+        "meaning": "每个人",
+        "note": "사람(人)+마다(每……)"
+      },
+      {
+        "text": "생각",
+        "meaning": "想法",
+        "note": "名词"
+      },
+      {
+        "text": "이",
+        "meaning": "—",
+        "note": "主格助词"
+      },
+      {
+        "text": "다릅니다",
+        "meaning": "不同",
+        "note": "다르다(不同)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "더럽다",
+    "romanization": "deoreopda",
+    "pos": "形容词",
+    "meaning": "脏",
+    "register": "中立",
+    "example": "손이 더러우니까 씻으세요.",
+    "exampleTranslation": "手很脏，请洗一下。",
+    "grammarBreakdown": [
+      {
+        "text": "손",
+        "meaning": "手",
+        "note": "名词"
+      },
+      {
+        "text": "이",
+        "meaning": "—",
+        "note": "主格助词"
+      },
+      {
+        "text": "더러우니까",
+        "meaning": "因为脏，所以",
+        "note": "더럽다(脏)的词干（ㅂ不规则：收音ㅂ在元音开头的语尾前变为우）+ -으니까(因为……所以)",
+        "isTarget": true
+      },
+      {
+        "text": "씻으세요",
+        "meaning": "请洗",
+        "note": "씻다(洗)的词干+ -으시-（尊敬阶标记）+ -어요（非格式体敬语终结词尾，해요体）"
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "덥다",
+    "romanization": "deopda",
+    "pos": "形容词",
+    "meaning": "热",
+    "register": "中立",
+    "example": "여름에는 날씨가 덥습니다.",
+    "exampleTranslation": "夏天天气很热。",
+    "grammarBreakdown": [
+      {
+        "text": "여름",
+        "meaning": "夏天",
+        "note": "名词"
+      },
+      {
+        "text": "에는",
+        "meaning": "在……（强调）",
+        "note": "에(时间)+는(强调)"
+      },
+      {
+        "text": "날씨",
+        "meaning": "天气",
+        "note": "名词"
+      },
+      {
+        "text": "가",
+        "meaning": "—",
+        "note": "主格助词"
+      },
+      {
+        "text": "덥습니다",
+        "meaning": "热",
+        "note": "덥다(热)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "따뜻하다",
+    "romanization": "ttatteutada",
+    "pos": "形容词",
+    "meaning": "温暖",
+    "register": "中立",
+    "example": "오늘은 날씨가 따뜻합니다.",
+    "exampleTranslation": "今天天气很暖和。",
+    "grammarBreakdown": [
+      {
+        "text": "오늘",
+        "meaning": "今天",
+        "note": "名词/副词"
+      },
+      {
+        "text": "은",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "날씨",
+        "meaning": "天气",
+        "note": "名词"
+      },
+      {
+        "text": "가",
+        "meaning": "—",
+        "note": "主格助词"
+      },
+      {
+        "text": "따뜻합니다",
+        "meaning": "暖和",
+        "note": "따뜻하다(暖和)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "뜨겁다",
+    "romanization": "tteugeopda",
+    "pos": "形容词",
+    "meaning": "烫",
+    "register": "中立",
+    "example": "국물이 아주 뜨겁습니다.",
+    "exampleTranslation": "汤汁非常烫。",
+    "grammarBreakdown": [
+      {
+        "text": "국물",
+        "meaning": "汤汁",
+        "note": "名词"
+      },
+      {
+        "text": "이",
+        "meaning": "—",
+        "note": "主格助词"
+      },
+      {
+        "text": "아주",
+        "meaning": "很",
+        "note": "副词"
+      },
+      {
+        "text": "뜨겁습니다",
+        "meaning": "烫",
+        "note": "뜨겁다(烫)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "많다",
+    "romanization": "manta",
+    "pos": "形容词",
+    "meaning": "多",
+    "register": "中立",
+    "example": "요즘 할 일이 많습니다.",
+    "exampleTranslation": "最近要做的事情很多。",
+    "grammarBreakdown": [
+      {
+        "text": "요즘",
+        "meaning": "最近",
+        "note": "副词"
+      },
+      {
+        "text": "할",
+        "meaning": "要做的",
+        "note": "하다(做)的词干+ -ㄹ(冠形词形)"
+      },
+      {
+        "text": "일",
+        "meaning": "事情",
+        "note": "名词"
+      },
+      {
+        "text": "이",
+        "meaning": "—",
+        "note": "主格助词"
+      },
+      {
+        "text": "많습니다",
+        "meaning": "多",
+        "note": "많다(多)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "맛없다",
+    "romanization": "madeopda",
+    "pos": "形容词",
+    "meaning": "不好吃",
+    "register": "中立",
+    "example": "이 음식은 좀 맛없습니다.",
+    "exampleTranslation": "这道菜有点不好吃。",
+    "grammarBreakdown": [
+      {
+        "text": "이",
+        "meaning": "这",
+        "note": "冠形词"
+      },
+      {
+        "text": "음식",
+        "meaning": "食物",
+        "note": "名词"
+      },
+      {
+        "text": "은",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "좀",
+        "meaning": "有点",
+        "note": "副词"
+      },
+      {
+        "text": "맛없습니다",
+        "meaning": "不好吃",
+        "note": "맛없다(不好吃)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "맛있다",
+    "romanization": "masitda",
+    "pos": "形容词",
+    "meaning": "好吃",
+    "register": "中立",
+    "example": "이 식당 음식은 정말 맛있습니다.",
+    "exampleTranslation": "这家餐厅的菜真的很好吃。",
+    "grammarBreakdown": [
+      {
+        "text": "이",
+        "meaning": "这",
+        "note": "冠形词"
+      },
+      {
+        "text": "식당",
+        "meaning": "餐厅",
+        "note": "名词"
+      },
+      {
+        "text": "음식",
+        "meaning": "食物",
+        "note": "名词"
+      },
+      {
+        "text": "은",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "정말",
+        "meaning": "真的",
+        "note": "副词"
+      },
+      {
+        "text": "맛있습니다",
+        "meaning": "好吃",
+        "note": "맛있다(好吃)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "멋있다",
+    "romanization": "meositda",
+    "pos": "形容词",
+    "meaning": "帅气，有魅力",
+    "register": "中立",
+    "example": "저 사람은 옷을 참 멋있게 입습니다.",
+    "exampleTranslation": "那个人衣服穿得真有型。",
+    "grammarBreakdown": [
+      {
+        "text": "저",
+        "meaning": "那",
+        "note": "冠形词"
+      },
+      {
+        "text": "사람",
+        "meaning": "人",
+        "note": "名词"
+      },
+      {
+        "text": "은",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "옷",
+        "meaning": "衣服",
+        "note": "名词"
+      },
+      {
+        "text": "을",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "참",
+        "meaning": "真",
+        "note": "副词"
+      },
+      {
+        "text": "멋있게",
+        "meaning": "帅气地",
+        "note": "멋있다(帅气)的词干+ -게(副词形)",
+        "isTarget": true
+      },
+      {
+        "text": "입습니다",
+        "meaning": "穿",
+        "note": "입다(穿)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "무겁다",
+    "romanization": "mugeopda",
+    "pos": "形容词",
+    "meaning": "重",
+    "register": "中立",
+    "example": "이 상자는 너무 무겁습니다.",
+    "exampleTranslation": "这个箱子太重了。",
+    "grammarBreakdown": [
+      {
+        "text": "이",
+        "meaning": "这",
+        "note": "冠形词"
+      },
+      {
+        "text": "상자",
+        "meaning": "箱子",
+        "note": "名词"
+      },
+      {
+        "text": "는",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "너무",
+        "meaning": "太",
+        "note": "副词"
+      },
+      {
+        "text": "무겁습니다",
+        "meaning": "重",
+        "note": "무겁다(重)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "무슨",
+    "romanization": "museun",
+    "pos": "冠形词",
+    "meaning": "什么样的",
+    "register": "中立",
+    "example": "오늘 무슨 요일이에요?",
+    "exampleTranslation": "今天星期几？",
+    "grammarBreakdown": [
+      {
+        "text": "오늘",
+        "meaning": "今天",
+        "note": "名词/副词"
+      },
+      {
+        "text": "무슨",
+        "meaning": "什么样的",
+        "note": "冠形词，修饰요일",
+        "isTarget": true
+      },
+      {
+        "text": "요일이에요",
+        "meaning": "是星期几",
+        "note": "요일(星期)+이에요(이다的非正式敬语形)"
+      }
+    ],
+    "sentenceType": "疑问句",
+    "formalityLevel": "非格式体敬语（해요体）"
+  },
+  {
+    "korean": "무엇",
+    "romanization": "mueot",
+    "pos": "代词",
+    "meaning": "什么",
+    "register": "中立",
+    "example": "이것은 무엇입니까?",
+    "exampleTranslation": "这是什么？",
+    "grammarBreakdown": [
+      {
+        "text": "이것",
+        "meaning": "这个",
+        "note": "代词"
+      },
+      {
+        "text": "은",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "무엇입니까",
+        "meaning": "是什么",
+        "note": "무엇(什么)+이다+ -ㅂ니까（疑问句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "疑问句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "뭐",
+    "romanization": "mwo",
+    "pos": "代词/感叹词",
+    "meaning": "什么（非敬语）",
+    "register": "非敬语（반말）",
+    "example": "지금 뭐 해?",
+    "exampleTranslation": "你现在在干嘛？",
+    "grammarBreakdown": [
+      {
+        "text": "지금",
+        "meaning": "现在",
+        "note": "名词/副词"
+      },
+      {
+        "text": "뭐",
+        "meaning": "什么（非敬语）",
+        "note": "代词",
+        "isTarget": true
+      },
+      {
+        "text": "해",
+        "meaning": "做（非敬语疑问）",
+        "note": "하다(做)的词干+ -어(非敬语终结词尾)"
+      }
+    ],
+    "sentenceType": "疑问句",
+    "formalityLevel": "非敬语（반말）"
+  },
+  {
+    "korean": "바쁘다",
+    "romanization": "bappeuda",
+    "pos": "形容词",
+    "meaning": "忙",
+    "register": "中立",
+    "example": "요즘 일이 많아서 바쁩니다.",
+    "exampleTranslation": "最近事情多所以很忙。",
+    "grammarBreakdown": [
+      {
+        "text": "요즘",
+        "meaning": "最近",
+        "note": "副词"
+      },
+      {
+        "text": "일",
+        "meaning": "事情",
+        "note": "名词"
+      },
+      {
+        "text": "이",
+        "meaning": "—",
+        "note": "主格助词"
+      },
+      {
+        "text": "많아서",
+        "meaning": "因为多",
+        "note": "많다(多)的词干+ -아서(因为)"
+      },
+      {
+        "text": "바쁩니다",
+        "meaning": "忙",
+        "note": "바쁘다(忙)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "밝다",
+    "romanization": "batda",
+    "pos": "形容词/动词",
+    "meaning": "明亮",
+    "register": "中立",
+    "example": "이 방은 아주 밝습니다.",
+    "exampleTranslation": "这个房间非常明亮。",
+    "grammarBreakdown": [
+      {
+        "text": "이",
+        "meaning": "这",
+        "note": "冠形词"
+      },
+      {
+        "text": "방",
+        "meaning": "房间",
+        "note": "名词"
+      },
+      {
+        "text": "은",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "아주",
+        "meaning": "很",
+        "note": "副词"
+      },
+      {
+        "text": "밝습니다",
+        "meaning": "明亮",
+        "note": "밝다(明亮)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "비싸다",
+    "romanization": "bissada",
+    "pos": "形容词",
+    "meaning": "贵",
+    "register": "中立",
+    "example": "이 가방은 조금 비쌉니다.",
+    "exampleTranslation": "这个包有点贵。",
+    "grammarBreakdown": [
+      {
+        "text": "이",
+        "meaning": "这",
+        "note": "冠形词"
+      },
+      {
+        "text": "가방",
+        "meaning": "包",
+        "note": "名词"
+      },
+      {
+        "text": "은",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "조금",
+        "meaning": "一点",
+        "note": "副词"
+      },
+      {
+        "text": "비쌉니다",
+        "meaning": "贵",
+        "note": "비싸다(贵)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "빠르다",
+    "romanization": "ppareuda",
+    "pos": "形容词",
+    "meaning": "快",
+    "register": "中立",
+    "example": "이 기차는 아주 빠릅니다.",
+    "exampleTranslation": "这趟火车非常快。",
+    "grammarBreakdown": [
+      {
+        "text": "이",
+        "meaning": "这",
+        "note": "冠形词"
+      },
+      {
+        "text": "기차",
+        "meaning": "火车",
+        "note": "名词"
+      },
+      {
+        "text": "는",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "아주",
+        "meaning": "很",
+        "note": "副词"
+      },
+      {
+        "text": "빠릅니다",
+        "meaning": "快",
+        "note": "빠르다(快)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "싸다",
+    "romanization": "ssada",
+    "pos": "形容词",
+    "meaning": "便宜",
+    "register": "中立",
+    "example": "시장 물건이 훨씬 쌉니다.",
+    "exampleTranslation": "市场的东西便宜多了。",
+    "grammarBreakdown": [
+      {
+        "text": "시장 물건",
+        "meaning": "市场的东西",
+        "note": "시장(市场)+물건(东西)"
+      },
+      {
+        "text": "이",
+        "meaning": "—",
+        "note": "主格助词"
+      },
+      {
+        "text": "훨씬",
+        "meaning": "……得多",
+        "note": "副词"
+      },
+      {
+        "text": "쌉니다",
+        "meaning": "便宜",
+        "note": "싸다(便宜)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "homonymIndex": "05"
+  },
+  {
+    "korean": "새롭다",
+    "romanization": "saeropda",
+    "pos": "形容词",
+    "meaning": "新的",
+    "register": "中立",
+    "example": "새롭게 시작해 보겠습니다.",
+    "exampleTranslation": "我会重新开始。",
+    "grammarBreakdown": [
+      {
+        "text": "새롭게",
+        "meaning": "重新地",
+        "note": "새롭다(新)的词干+ -게(副词形)",
+        "isTarget": true
+      },
+      {
+        "text": "시작해 보겠습니다",
+        "meaning": "要试着开始",
+        "note": "시작하다(开始)的词干+ -아/어 보다(尝试)+ -겠-（意志/推测·将来时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "쉽다",
+    "romanization": "swipda",
+    "pos": "形容词",
+    "meaning": "容易",
+    "register": "中立",
+    "example": "이 문제는 아주 쉽습니다.",
+    "exampleTranslation": "这道题非常简单。",
+    "grammarBreakdown": [
+      {
+        "text": "이",
+        "meaning": "这",
+        "note": "冠形词"
+      },
+      {
+        "text": "문제",
+        "meaning": "问题",
+        "note": "名词"
+      },
+      {
+        "text": "는",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "아주",
+        "meaning": "很",
+        "note": "副词"
+      },
+      {
+        "text": "쉽습니다",
+        "meaning": "容易",
+        "note": "쉽다(容易)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "슬프다",
+    "romanization": "seulpeuda",
+    "pos": "形容词",
+    "meaning": "悲伤",
+    "register": "中立",
+    "example": "그 이야기를 듣고 슬펐습니다.",
+    "exampleTranslation": "听了那个故事觉得很难过。",
+    "grammarBreakdown": [
+      {
+        "text": "그",
+        "meaning": "那",
+        "note": "冠形词"
+      },
+      {
+        "text": "이야기",
+        "meaning": "故事",
+        "note": "名词"
+      },
+      {
+        "text": "를",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "듣고",
+        "meaning": "听了之后",
+        "note": "듣다(听)的词干+ -고(然后)"
+      },
+      {
+        "text": "슬펐습니다",
+        "meaning": "悲伤",
+        "note": "슬프다(悲伤)的词干（으不规则：词干末尾的으在元音开头的语尾前脱落，与-어合并为-어）+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "시끄럽다",
+    "romanization": "sikkeureopda",
+    "pos": "形容词",
+    "meaning": "吵闹",
+    "register": "中立",
+    "example": "밖이 너무 시끄럽습니다.",
+    "exampleTranslation": "外面太吵了。",
+    "grammarBreakdown": [
+      {
+        "text": "밖",
+        "meaning": "外面",
+        "note": "名词"
+      },
+      {
+        "text": "이",
+        "meaning": "—",
+        "note": "主格助词"
+      },
+      {
+        "text": "너무",
+        "meaning": "太",
+        "note": "副词"
+      },
+      {
+        "text": "시끄럽습니다",
+        "meaning": "吵闹",
+        "note": "시끄럽다(吵)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "시원하다",
+    "romanization": "siwonhada",
+    "pos": "形容词",
+    "meaning": "凉爽",
+    "register": "中立",
+    "example": "가을 바람이 아주 시원합니다.",
+    "exampleTranslation": "秋天的风非常凉爽。",
+    "grammarBreakdown": [
+      {
+        "text": "가을 바람",
+        "meaning": "秋风",
+        "note": "가을(秋天)+바람(风)"
+      },
+      {
+        "text": "이",
+        "meaning": "—",
+        "note": "主格助词"
+      },
+      {
+        "text": "아주",
+        "meaning": "很",
+        "note": "副词"
+      },
+      {
+        "text": "시원합니다",
+        "meaning": "凉爽",
+        "note": "시원하다(凉爽)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "아름답다",
+    "romanization": "areumdapda",
+    "pos": "形容词",
+    "meaning": "美丽",
+    "register": "中立",
+    "example": "경치가 정말 아름답습니다.",
+    "exampleTranslation": "风景真的很美。",
+    "grammarBreakdown": [
+      {
+        "text": "경치",
+        "meaning": "风景",
+        "note": "名词"
+      },
+      {
+        "text": "가",
+        "meaning": "—",
+        "note": "主格助词"
+      },
+      {
+        "text": "정말",
+        "meaning": "真的",
+        "note": "副词"
+      },
+      {
+        "text": "아름답습니다",
+        "meaning": "美丽",
+        "note": "아름답다(美丽)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "아프다",
+    "romanization": "apeuda",
+    "pos": "形容词",
+    "meaning": "疼，不舒服",
+    "register": "中立",
+    "example": "어제부터 머리가 아픕니다.",
+    "exampleTranslation": "从昨天开始头疼。",
+    "grammarBreakdown": [
+      {
+        "text": "어제부터",
+        "meaning": "从昨天开始",
+        "note": "어제(昨天)+부터(从……开始)"
+      },
+      {
+        "text": "머리",
+        "meaning": "头",
+        "note": "名词"
+      },
+      {
+        "text": "가",
+        "meaning": "—",
+        "note": "主格助词"
+      },
+      {
+        "text": "아픕니다",
+        "meaning": "疼",
+        "note": "아프다(疼)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "어둡다",
+    "romanization": "eodupda",
+    "pos": "形容词",
+    "meaning": "黑暗",
+    "register": "中立",
+    "example": "밤이 되면 길이 어둡습니다.",
+    "exampleTranslation": "到了晚上路很黑。",
+    "grammarBreakdown": [
+      {
+        "text": "밤이 되면",
+        "meaning": "到了晚上的话",
+        "note": "밤(夜晚)+이 되다(变成)+ -면(如果……的话)"
+      },
+      {
+        "text": "길",
+        "meaning": "路",
+        "note": "名词"
+      },
+      {
+        "text": "이",
+        "meaning": "—",
+        "note": "主格助词"
+      },
+      {
+        "text": "어둡습니다",
+        "meaning": "黑暗",
+        "note": "어둡다(黑暗)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "어디",
+    "romanization": "eodi",
+    "pos": "代词",
+    "meaning": "哪里",
+    "register": "中立",
+    "example": "지금 어디 계세요?",
+    "exampleTranslation": "您现在在哪里？",
+    "grammarBreakdown": [
+      {
+        "text": "지금",
+        "meaning": "现在",
+        "note": "名词/副词"
+      },
+      {
+        "text": "어디",
+        "meaning": "哪里",
+        "note": "代词",
+        "isTarget": true
+      },
+      {
+        "text": "계세요",
+        "meaning": "在（敬语）",
+        "note": "있다(在)的敬语형계시다+ -어요（非格式体敬语终结词尾，해요体）"
+      }
+    ],
+    "sentenceType": "疑问句",
+    "formalityLevel": "非格式体敬语（해요体）"
+  },
+  {
+    "korean": "어떤",
+    "romanization": "eotteon",
+    "pos": "冠形词",
+    "meaning": "什么样的，哪种",
+    "register": "中立",
+    "example": "어떤 음식을 좋아하세요?",
+    "exampleTranslation": "您喜欢什么样的食物？",
+    "grammarBreakdown": [
+      {
+        "text": "어떤",
+        "meaning": "什么样的",
+        "note": "冠形词",
+        "isTarget": true
+      },
+      {
+        "text": "음식",
+        "meaning": "食物",
+        "note": "名词"
+      },
+      {
+        "text": "을",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "좋아하세요",
+        "meaning": "喜欢吗（敬语）",
+        "note": "좋아하다(喜欢)的词干+ -시-（尊敬阶标记）+ -어요（非格式体敬语终结词尾，해요体）"
+      }
+    ],
+    "sentenceType": "疑问句",
+    "formalityLevel": "非格式体敬语（해요体）"
+  },
+  {
+    "korean": "어렵다",
+    "romanization": "eoryeopda",
+    "pos": "形容词",
+    "meaning": "困难",
+    "register": "中立",
+    "example": "이번 시험은 조금 어렵습니다.",
+    "exampleTranslation": "这次考试有点难。",
+    "grammarBreakdown": [
+      {
+        "text": "이번",
+        "meaning": "这次",
+        "note": "冠形词"
+      },
+      {
+        "text": "시험",
+        "meaning": "考试",
+        "note": "名词"
+      },
+      {
+        "text": "은",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "조금",
+        "meaning": "一点",
+        "note": "副词"
+      },
+      {
+        "text": "어렵습니다",
+        "meaning": "难",
+        "note": "어렵다(难)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "얼마나",
+    "romanization": "eolmana",
+    "pos": "副词",
+    "meaning": "多么，多少",
+    "register": "中立",
+    "example": "이 일을 하는 데 얼마나 걸려요?",
+    "exampleTranslation": "做这件事需要多长时间？",
+    "grammarBreakdown": [
+      {
+        "text": "이",
+        "meaning": "这",
+        "note": "冠形词"
+      },
+      {
+        "text": "일",
+        "meaning": "事情",
+        "note": "名词"
+      },
+      {
+        "text": "을",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "하는 데",
+        "meaning": "在做的过程中",
+        "note": "하다(做)的词干+ -는 데(在做……这件事上)"
+      },
+      {
+        "text": "얼마나",
+        "meaning": "多长（时间）",
+        "note": "副词",
+        "isTarget": true
+      },
+      {
+        "text": "걸려요",
+        "meaning": "需要（花费）",
+        "note": "걸리다(花费)的词干+ -어요（非格式体敬语终结词尾，해요体）"
+      }
+    ],
+    "sentenceType": "疑问句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "예쁘다",
+    "romanization": "yeppeuda",
+    "pos": "形容词",
+    "meaning": "漂亮",
+    "register": "中立",
+    "example": "그 옷이 정말 예쁩니다.",
+    "exampleTranslation": "那件衣服真的很漂亮。",
+    "grammarBreakdown": [
+      {
+        "text": "그",
+        "meaning": "那",
+        "note": "冠形词"
+      },
+      {
+        "text": "옷",
+        "meaning": "衣服",
+        "note": "名词"
+      },
+      {
+        "text": "이",
+        "meaning": "—",
+        "note": "主格助词"
+      },
+      {
+        "text": "정말",
+        "meaning": "真的",
+        "note": "副词"
+      },
+      {
+        "text": "예쁩니다",
+        "meaning": "漂亮",
+        "note": "예쁘다(漂亮)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "왜",
+    "romanization": "wae",
+    "pos": "副词",
+    "meaning": "为什么",
+    "register": "中立",
+    "example": "왜 이렇게 늦었어요?",
+    "exampleTranslation": "你为什么这么晚？",
+    "grammarBreakdown": [
+      {
+        "text": "왜",
+        "meaning": "为什么",
+        "note": "副词",
+        "isTarget": true
+      },
+      {
+        "text": "이렇게",
+        "meaning": "这样",
+        "note": "副词"
+      },
+      {
+        "text": "늦었어요",
+        "meaning": "迟到了",
+        "note": "늦다(迟)的词干+ -었-（过去时标记）+ -어요（非格式体敬语终结词尾，해요体）"
+      }
+    ],
+    "sentenceType": "疑问句",
+    "formalityLevel": "非格式体敬语（해요体）"
+  },
+  {
+    "korean": "작다",
+    "romanization": "jakda",
+    "pos": "形容词",
+    "meaning": "小",
+    "register": "中立",
+    "example": "이 신발은 저한테 작습니다.",
+    "exampleTranslation": "这双鞋对我来说太小了。",
+    "grammarBreakdown": [
+      {
+        "text": "이",
+        "meaning": "这",
+        "note": "冠形词"
+      },
+      {
+        "text": "신발",
+        "meaning": "鞋",
+        "note": "名词"
+      },
+      {
+        "text": "은",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "저한테",
+        "meaning": "对我来说",
+        "note": "저(我)+한테(对……来说)"
+      },
+      {
+        "text": "작습니다",
+        "meaning": "小",
+        "note": "작다(小)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "재미없다",
+    "romanization": "jaemieopda",
+    "pos": "形容词",
+    "meaning": "无趣",
+    "register": "中立",
+    "example": "그 영화는 좀 재미없습니다.",
+    "exampleTranslation": "那部电影有点无聊。",
+    "grammarBreakdown": [
+      {
+        "text": "그",
+        "meaning": "那",
+        "note": "冠形词"
+      },
+      {
+        "text": "영화",
+        "meaning": "电影",
+        "note": "名词"
+      },
+      {
+        "text": "는",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "좀",
+        "meaning": "有点",
+        "note": "副词"
+      },
+      {
+        "text": "재미없습니다",
+        "meaning": "无趣",
+        "note": "재미없다(无趣)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "재미있다",
+    "romanization": "jaemiitda",
+    "pos": "形容词",
+    "meaning": "有趣",
+    "register": "中立",
+    "example": "이 책은 정말 재미있습니다.",
+    "exampleTranslation": "这本书真的很有意思。",
+    "grammarBreakdown": [
+      {
+        "text": "이",
+        "meaning": "这",
+        "note": "冠形词"
+      },
+      {
+        "text": "책",
+        "meaning": "书",
+        "note": "名词"
+      },
+      {
+        "text": "은",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "정말",
+        "meaning": "真的",
+        "note": "副词"
+      },
+      {
+        "text": "재미있습니다",
+        "meaning": "有趣",
+        "note": "재미있다(有趣)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "적다",
+    "romanization": "jeokda",
+    "pos": "形容词",
+    "meaning": "少",
+    "register": "中立",
+    "example": "이번 달은 수입이 적습니다.",
+    "exampleTranslation": "这个月收入比较少。",
+    "grammarBreakdown": [
+      {
+        "text": "이번",
+        "meaning": "这次",
+        "note": "冠形词"
+      },
+      {
+        "text": "달",
+        "meaning": "月",
+        "note": "名词"
+      },
+      {
+        "text": "은",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "수입",
+        "meaning": "收入",
+        "note": "名词"
+      },
+      {
+        "text": "이",
+        "meaning": "—",
+        "note": "主格助词"
+      },
+      {
+        "text": "적습니다",
+        "meaning": "少",
+        "note": "적다(少)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）",
+    "homonymIndex": "02"
+  },
+  {
+    "korean": "조용하다",
+    "romanization": "joyonghada",
+    "pos": "形容词",
+    "meaning": "安静",
+    "register": "中立",
+    "example": "도서관은 아주 조용합니다.",
+    "exampleTranslation": "图书馆非常安静。",
+    "grammarBreakdown": [
+      {
+        "text": "도서관",
+        "meaning": "图书馆",
+        "note": "名词"
+      },
+      {
+        "text": "은",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "아주",
+        "meaning": "很",
+        "note": "副词"
+      },
+      {
+        "text": "조용합니다",
+        "meaning": "安静",
+        "note": "조용하다(安静)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "좁다",
+    "romanization": "jopda",
+    "pos": "形容词",
+    "meaning": "狭窄",
+    "register": "中立",
+    "example": "이 골목은 아주 좁습니다.",
+    "exampleTranslation": "这条巷子非常窄。",
+    "grammarBreakdown": [
+      {
+        "text": "이",
+        "meaning": "这",
+        "note": "冠形词"
+      },
+      {
+        "text": "골목",
+        "meaning": "巷子",
+        "note": "名词"
+      },
+      {
+        "text": "은",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "아주",
+        "meaning": "很",
+        "note": "副词"
+      },
+      {
+        "text": "좁습니다",
+        "meaning": "窄",
+        "note": "좁다(窄)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "좋다",
+    "romanization": "jota",
+    "pos": "形容词",
+    "meaning": "好",
+    "register": "中立",
+    "example": "오늘 날씨가 정말 좋습니다.",
+    "exampleTranslation": "今天天气真好。",
+    "grammarBreakdown": [
+      {
+        "text": "오늘",
+        "meaning": "今天",
+        "note": "名词/副词"
+      },
+      {
+        "text": "날씨",
+        "meaning": "天气",
+        "note": "名词"
+      },
+      {
+        "text": "가",
+        "meaning": "—",
+        "note": "主格助词"
+      },
+      {
+        "text": "정말",
+        "meaning": "真的",
+        "note": "副词"
+      },
+      {
+        "text": "좋습니다",
+        "meaning": "好",
+        "note": "좋다(好)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "짧다",
+    "romanization": "jjalta",
+    "pos": "形容词",
+    "meaning": "短",
+    "register": "中立",
+    "example": "요즘 머리를 짧게 잘랐습니다.",
+    "exampleTranslation": "最近把头发剪短了。",
+    "grammarBreakdown": [
+      {
+        "text": "요즘",
+        "meaning": "最近",
+        "note": "副词"
+      },
+      {
+        "text": "머리",
+        "meaning": "头发",
+        "note": "名词"
+      },
+      {
+        "text": "를",
+        "meaning": "—",
+        "note": "宾格助词"
+      },
+      {
+        "text": "짧게",
+        "meaning": "短短地",
+        "note": "짧다(短)的词干+ -게(副词形)",
+        "isTarget": true
+      },
+      {
+        "text": "잘랐습니다",
+        "meaning": "剪了",
+        "note": "자르다(剪)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "차갑다",
+    "romanization": "chagapda",
+    "pos": "形容词",
+    "meaning": "凉，冷淡",
+    "register": "中立",
+    "example": "물이 아주 차갑습니다.",
+    "exampleTranslation": "水非常凉。",
+    "grammarBreakdown": [
+      {
+        "text": "물",
+        "meaning": "水",
+        "note": "名词"
+      },
+      {
+        "text": "이",
+        "meaning": "—",
+        "note": "主格助词"
+      },
+      {
+        "text": "아주",
+        "meaning": "很",
+        "note": "副词"
+      },
+      {
+        "text": "차갑습니다",
+        "meaning": "凉",
+        "note": "차갑다(凉)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "춥다",
+    "romanization": "chupda",
+    "pos": "形容词",
+    "meaning": "冷",
+    "register": "中立",
+    "example": "겨울에는 정말 춥습니다.",
+    "exampleTranslation": "冬天真的很冷。",
+    "grammarBreakdown": [
+      {
+        "text": "겨울",
+        "meaning": "冬天",
+        "note": "名词"
+      },
+      {
+        "text": "에는",
+        "meaning": "在……（强调）",
+        "note": "에(时间)+는(强调)"
+      },
+      {
+        "text": "정말",
+        "meaning": "真的",
+        "note": "副词"
+      },
+      {
+        "text": "춥습니다",
+        "meaning": "冷",
+        "note": "춥다(冷)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "크다",
+    "romanization": "keuda",
+    "pos": "形容词/动词",
+    "meaning": "大",
+    "register": "中立",
+    "example": "이 옷은 저한테 좀 큽니다.",
+    "exampleTranslation": "这件衣服对我来说有点大。",
+    "grammarBreakdown": [
+      {
+        "text": "이",
+        "meaning": "这",
+        "note": "冠形词"
+      },
+      {
+        "text": "옷",
+        "meaning": "衣服",
+        "note": "名词"
+      },
+      {
+        "text": "은",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "저한테",
+        "meaning": "对我来说",
+        "note": "저(我)+한테(对……来说)"
+      },
+      {
+        "text": "좀",
+        "meaning": "有点",
+        "note": "副词"
+      },
+      {
+        "text": "큽니다",
+        "meaning": "大",
+        "note": "크다(大)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "편하다",
+    "romanization": "pyeonhada",
+    "pos": "形容词",
+    "meaning": "舒服，方便",
+    "register": "中立",
+    "example": "이 의자는 아주 편합니다.",
+    "exampleTranslation": "这把椅子非常舒服。",
+    "grammarBreakdown": [
+      {
+        "text": "이",
+        "meaning": "这",
+        "note": "冠形词"
+      },
+      {
+        "text": "의자",
+        "meaning": "椅子",
+        "note": "名词"
+      },
+      {
+        "text": "는",
+        "meaning": "—",
+        "note": "主题助词"
+      },
+      {
+        "text": "아주",
+        "meaning": "很",
+        "note": "副词"
+      },
+      {
+        "text": "편합니다",
+        "meaning": "舒服",
+        "note": "편하다(舒服)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  },
+  {
+    "korean": "힘들다",
+    "romanization": "himdeulda",
+    "pos": "形容词",
+    "meaning": "辛苦，费力",
+    "register": "中立",
+    "example": "요즘 일이 힘듭니다.",
+    "exampleTranslation": "最近工作很辛苦。",
+    "grammarBreakdown": [
+      {
+        "text": "요즘",
+        "meaning": "最近",
+        "note": "副词"
+      },
+      {
+        "text": "일",
+        "meaning": "工作",
+        "note": "名词"
+      },
+      {
+        "text": "이",
+        "meaning": "—",
+        "note": "主格助词"
+      },
+      {
+        "text": "힘듭니다",
+        "meaning": "辛苦",
+        "note": "힘들다(辛苦)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "isTarget": true
+      }
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "格式体敬语（합니다体）"
+  }
+]
