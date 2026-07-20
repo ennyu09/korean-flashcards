@@ -1,42 +1,1199 @@
 [
-{"korean":"가격","romanization":"gagyeok","pos":"名词","meaning":"价格","register":"中立","example":"이 가방은 가격이 비쌉니다.","exampleTranslation":"这个包价格很贵。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"이","meaning":"这","note":"冠形词"},{"text":"가방은","meaning":"包","note":"가방(包)+은(主题助词)"},{"text":"가격이","meaning":"价格","note":"가격(价格)+이(主格助词)","isTarget":true},{"text":"비쌉니다","meaning":"贵","note":"비싸다(贵)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"가구","romanization":"gagu","pos":"名词","meaning":"家具","register":"中立","example":"새 가구를 샀습니다.","exampleTranslation":"买了新家具。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"새","meaning":"新的","note":"冠形词"},{"text":"가구를","meaning":"家具","note":"가구(家具)+를(宾格助词)","isTarget":true},{"text":"샀습니다","meaning":"买了","note":"사다(买)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"가위","romanization":"gawi","pos":"名词","meaning":"剪刀","register":"中立","example":"가위로 종이를 잘랐습니다.","exampleTranslation":"用剪刀剪了纸。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"가위로","meaning":"用剪刀","note":"가위(剪刀)+로(表工具的助词)","isTarget":true},{"text":"종이를","meaning":"纸","note":"종이(纸)+를(宾格助词)"},{"text":"잘랐습니다","meaning":"剪了","note":"자르다(剪)的词干（르不规则：르在元音开头的语尾前变为ㄹ라/ㄹ러）+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"값","romanization":"gap","pos":"名词","meaning":"价钱","register":"中立","example":"값을 조금 깎아 주세요.","exampleTranslation":"请把价钱稍微便宜一点。","sentenceType":"命令句（请求）","formalityLevel":"非格式体敬语（해요体）","grammarBreakdown":[{"text":"값을","meaning":"价钱","note":"값(价钱)+을(宾格助词)","isTarget":true},{"text":"조금","meaning":"稍微","note":"副词"},{"text":"깎아 주세요","meaning":"请便宜点","note":"깎다(砍价)的词干+ -아/어 주다(请求)+ -시-+ -어요"}]},
-{"korean":"검정","romanization":"geomjeong","pos":"名词","meaning":"黑色","register":"中立","example":"검정 구두를 신었습니다.","exampleTranslation":"穿了黑色皮鞋。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"검정 구두를","meaning":"黑色皮鞋","note":"검정(黑色)+구두(皮鞋)+를(宾格助词)","isTarget":true},{"text":"신었습니다","meaning":"穿了","note":"신다(穿)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"계산","romanization":"gyesan","pos":"名词","meaning":"结账，计算","register":"中立","example":"계산이 정확합니다.","exampleTranslation":"计算很准确。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"계산이","meaning":"计算","note":"계산(计算)+이(主格助词)","isTarget":true},{"text":"정확합니다","meaning":"准确","note":"정확하다(准确)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"고장","romanization":"gojang","pos":"名词","meaning":"故障","register":"中立","example":"세탁기가 고장이 났습니다.","exampleTranslation":"洗衣机出故障了。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"세탁기가","meaning":"洗衣机","note":"세탁기(洗衣机)+가(主格助词)"},{"text":"고장이","meaning":"故障","note":"고장(故障)+이(主格助词)","isTarget":true},{"text":"났습니다","meaning":"出现了","note":"나다(出现)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"공짜","romanization":"gongjja","pos":"名词","meaning":"免费","register":"中立","example":"이것은 공짜로 받았습니다.","exampleTranslation":"这个是免费拿到的。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"이것은","meaning":"这个","note":"이것(这个)+은(主题助词)"},{"text":"공짜로","meaning":"免费地","note":"공짜(免费)+로(表方式的助词)","isTarget":true},{"text":"받았습니다","meaning":"收到了","note":"받다(收到)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"교환","romanization":"gyohwan","pos":"名词","meaning":"换货，交换","register":"中立","example":"이 옷을 교환하고 싶습니다.","exampleTranslation":"想换这件衣服。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"이 옷을","meaning":"这件衣服","note":"이(这)+옷(衣服)+을(宾格助词)"},{"text":"교환하고 싶습니다","meaning":"想换","note":"교환하다(换)的词干+ -고 싶다(想要)+ -습니다（陈述句·格式体敬语终结词尾）","isTarget":true}]},
-{"korean":"귀걸이","romanization":"gwigeori","pos":"名词","meaning":"耳环","register":"中立","example":"예쁜 귀걸이를 샀습니다.","exampleTranslation":"买了漂亮的耳环。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"예쁜","meaning":"漂亮的","note":"예쁘다(漂亮)的词干+ -ㄴ(冠形词形)"},{"text":"귀걸이를","meaning":"耳环","note":"귀걸이(耳环)+를(宾格助词)","isTarget":true},{"text":"샀습니다","meaning":"买了","note":"사다(买)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"까만색","romanization":"kkamansaek","pos":"名词","meaning":"黑色","register":"中立","example":"까만색 가방이 마음에 듭니다.","exampleTranslation":"喜欢黑色的包。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"까만색 가방이","meaning":"黑色的包","note":"까만색(黑色)+가방(包)+이(主格助词)","isTarget":true},{"text":"마음에 듭니다","meaning":"喜欢","note":"마음(心)+에(方向助词)+들다(合乎)+ -ㅂ니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"꽃다발","romanization":"kkotdabal","pos":"名词","meaning":"花束","register":"中立","example":"친구에게 꽃다발을 선물했습니다.","exampleTranslation":"送了朋友一束花。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"친구에게","meaning":"给朋友","note":"친구(朋友)+에게(给……)"},{"text":"꽃다발을","meaning":"花束","note":"꽃다발(花束)+을(宾格助词)","isTarget":true},{"text":"선물했습니다","meaning":"送了（礼物）","note":"선물하다(送礼)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"꽃병","romanization":"kkotbyeong","pos":"名词","meaning":"花瓶","register":"中立","example":"꽃병을 실수로 깨뜨렸습니다.","exampleTranslation":"不小心把花瓶打碎了。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"꽃병을","meaning":"花瓶","note":"꽃병(花瓶)+을(宾格助词)","isTarget":true},{"text":"실수로","meaning":"不小心地","note":"실수(失误)+로(表方式的助词)"},{"text":"깨뜨렸습니다","meaning":"打碎了","note":"깨뜨리다(打碎)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"녹색","romanization":"noksaek","pos":"名词","meaning":"绿色","register":"中立","example":"녹색 옷이 잘 어울립니다.","exampleTranslation":"绿色的衣服很适合你。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"녹색 옷이","meaning":"绿色的衣服","note":"녹색(绿色)+옷(衣服)+이(主格助词)","isTarget":true},{"text":"잘","meaning":"很好地","note":"副词"},{"text":"어울립니다","meaning":"适合","note":"어울리다(适合)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"단추","romanization":"danchu","pos":"名词","meaning":"扣子","register":"中立","example":"단추가 하나 떨어졌습니다.","exampleTranslation":"掉了一颗扣子。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"단추가","meaning":"扣子","note":"단추(扣子)+가(主格助词)","isTarget":true},{"text":"하나","meaning":"一个","note":"固有数字"},{"text":"떨어졌습니다","meaning":"掉了","note":"떨어지다(掉落)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"달력","romanization":"dallyeok","pos":"名词","meaning":"日历","register":"中立","example":"벽에 달력을 걸었습니다.","exampleTranslation":"在墙上挂了日历。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"벽에","meaning":"墙上","note":"벽(墙)+에(方向助词)"},{"text":"달력을","meaning":"日历","note":"달력(日历)+을(宾格助词)","isTarget":true},{"text":"걸었습니다","meaning":"挂了","note":"걸다(挂)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"담배","romanization":"dambae","pos":"名词","meaning":"香烟","register":"中立","example":"건강을 위해 담배를 끊었습니다.","exampleTranslation":"为了健康戒了烟。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"건강을 위해","meaning":"为了健康","note":"건강(健康)+을 위해(为了……)"},{"text":"담배를","meaning":"香烟","note":"담배(香烟)+를(宾格助词)","isTarget":true},{"text":"끊었습니다","meaning":"戒了","note":"끊다(戒)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"돈","romanization":"don","pos":"名词","meaning":"钱","register":"中立","example":"열심히 일해서 돈을 벌었습니다.","exampleTranslation":"努力工作赚了钱。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"열심히","meaning":"努力地","note":"副词"},{"text":"일해서","meaning":"工作了，所以","note":"일하다(工作)的词干+ -해서(先后)"},{"text":"돈을","meaning":"钱","note":"돈(钱)+을(宾格助词)","isTarget":true},{"text":"벌었습니다","meaning":"赚了","note":"벌다(赚)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"동전","romanization":"dongjeon","pos":"名词","meaning":"硬币","register":"中立","example":"동전을 지갑에 넣었습니다.","exampleTranslation":"把硬币放进了钱包。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"동전을","meaning":"硬币","note":"동전(硬币)+을(宾格助词)","isTarget":true},{"text":"지갑에","meaning":"钱包","note":"지갑(钱包)+에(方向助词)"},{"text":"넣었습니다","meaning":"放进去了","note":"넣다(放入)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"무료","romanization":"muryo","pos":"名词","meaning":"免费","register":"中立","example":"이 서비스는 무료로 제공됩니다.","exampleTranslation":"这个服务是免费提供的。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"이 서비스는","meaning":"这个服务","note":"이(这)+서비스(服务)+는(主题助词)"},{"text":"무료로","meaning":"免费地","note":"무료(免费)+로(表方式的助词)","isTarget":true},{"text":"제공됩니다","meaning":"被提供","note":"제공되다(被提供)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"물건","romanization":"mulgeon","pos":"名词","meaning":"东西","register":"中立","example":"필요한 물건을 샀습니다.","exampleTranslation":"买了需要的东西。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"필요한","meaning":"需要的","note":"필요하다(需要)的词干+ -ㄴ(冠形词形)"},{"text":"물건을","meaning":"东西","note":"물건(东西)+을(宾格助词)","isTarget":true},{"text":"샀습니다","meaning":"买了","note":"사다(买)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"반바지","romanization":"banbaji","pos":"名词","meaning":"短裤","register":"中立","example":"여름에는 반바지를 자주 입습니다.","exampleTranslation":"夏天经常穿短裤。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"여름에는","meaning":"在夏天","note":"여름(夏天)+에(时间)+는(强调)"},{"text":"반바지를","meaning":"短裤","note":"반바지(短裤)+를(宾格助词)","isTarget":true},{"text":"자주","meaning":"经常","note":"副词"},{"text":"입습니다","meaning":"穿","note":"입다(穿)的词干+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"백화점","romanization":"baekhwajeom","pos":"名词","meaning":"百货商店","register":"中立","example":"백화점에서 옷을 샀습니다.","exampleTranslation":"在百货商店买了衣服。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"백화점에서","meaning":"在百货商店","note":"백화점(百货商店)+에서(处所助词)","isTarget":true},{"text":"옷을","meaning":"衣服","note":"옷(衣服)+을(宾格助词)"},{"text":"샀습니다","meaning":"买了","note":"사다(买)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"번호","romanization":"beonho","pos":"名词","meaning":"号码","register":"中立","example":"제 전화번호를 알려 드렸습니다.","exampleTranslation":"告诉了对方我的电话号码。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"제","meaning":"我的","note":"저의 缩略形式"},{"text":"전화번호를","meaning":"电话号码","note":"전화(电话)+번호(号码)+를(宾格助词)","isTarget":true},{"text":"알려 드렸습니다","meaning":"告诉了（敬语）","note":"알리다(告知)的词干+ -어(连接词尾)+드리다(给,敬语)+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"벌","romanization":"beol","pos":"依存名词","meaning":"套（量词）","register":"中立","example":"양복 한 벌을 맞췄습니다.","exampleTranslation":"定做了一套西装。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"양복","meaning":"西装","note":"名词"},{"text":"한 벌을","meaning":"一套","note":"한(一)+벌(套,依存名词)+을(宾格助词)","isTarget":true},{"text":"맞췄습니다","meaning":"定做了","note":"맞추다(定制)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"병","romanization":"byeong","pos":"名词","meaning":"疾病","register":"中立","homonymIndex":"04","example":"병에 걸려서 병원에 갔습니다.","exampleTranslation":"生病了去了医院。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"병에","meaning":"疾病","note":"병(疾病)+에(方向助词)","isTarget":true},{"text":"걸려서","meaning":"患上了，所以","note":"걸리다(患上)的词干+ -어서(因为)"},{"text":"병원에","meaning":"医院","note":"병원(医院)+에(方向助词)"},{"text":"갔습니다","meaning":"去了","note":"가다(去)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"병","romanization":"byeong","pos":"名词","meaning":"瓶子","register":"中立","homonymIndex":"05","example":"병을 깨지 않게 조심했습니다.","exampleTranslation":"小心不要打碎瓶子。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"병을","meaning":"瓶子","note":"병(瓶子)+을(宾格助词)","isTarget":true},{"text":"깨지 않게","meaning":"不要打碎地","note":"깨다(打碎)的词干+ -지 않다(不……)+ -게(副词形)"},{"text":"조심했습니다","meaning":"小心了","note":"조심하다(小心)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"부자","romanization":"buja","pos":"名词","meaning":"富人","register":"中立","example":"그분은 이 동네에서 유명한 부자입니다.","exampleTranslation":"那位是这个社区有名的富人。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"그분은","meaning":"那位","note":"그분(那位)+은(主题助词)"},{"text":"이 동네에서","meaning":"这个社区","note":"이(这)+동네(社区)+에서(处所助词)"},{"text":"유명한","meaning":"有名的","note":"유명하다(有名)的词干+ -ㄴ(冠形词形)"},{"text":"부자입니다","meaning":"是富人","note":"부자(富人)+이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）","isTarget":true}]},
-{"korean":"블라우스","romanization":"beullauseu","pos":"名词","meaning":"女式衬衫","register":"中立","example":"흰색 블라우스를 입었습니다.","exampleTranslation":"穿了白色女式衬衫。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"흰색","meaning":"白色","note":"名词"},{"text":"블라우스를","meaning":"女式衬衫","note":"블라우스(女式衬衫)+를(宾格助词)","isTarget":true},{"text":"입었습니다","meaning":"穿了","note":"입다(穿)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"사이즈","romanization":"saijeu","pos":"名词","meaning":"尺码","register":"中立","example":"이 옷은 사이즈가 큽니다.","exampleTranslation":"这件衣服尺码大。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"이","meaning":"这","note":"冠形词"},{"text":"옷은","meaning":"衣服","note":"옷(衣服)+은(主题助词)"},{"text":"사이즈가","meaning":"尺码","note":"사이즈(尺码)+가(主格助词)","isTarget":true},{"text":"큽니다","meaning":"大","note":"크다(大)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"상자","romanization":"sangja","pos":"名词","meaning":"箱子","register":"中立","example":"물건을 상자에 넣었습니다.","exampleTranslation":"把东西放进了箱子。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"물건을","meaning":"东西","note":"물건(东西)+을(宾格助词)"},{"text":"상자에","meaning":"箱子","note":"상자(箱子)+에(方向助词)","isTarget":true},{"text":"넣었습니다","meaning":"放进去了","note":"넣다(放入)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"상품","romanization":"sangpum","pos":"名词","meaning":"商品","register":"中立","example":"이 상품은 인기가 많습니다.","exampleTranslation":"这个商品很受欢迎。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"이","meaning":"这","note":"冠形词"},{"text":"상품은","meaning":"商品","note":"상품(商品)+은(主题助词)","isTarget":true},{"text":"인기가","meaning":"人气","note":"인기(人气)+가(主格助词)"},{"text":"많습니다","meaning":"多","note":"많다(多)的词干+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"색","romanization":"saek","pos":"名词","meaning":"颜色","register":"中立","example":"이 색이 저한테 잘 어울립니다.","exampleTranslation":"这个颜色很适合我。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"이","meaning":"这","note":"冠形词"},{"text":"색이","meaning":"颜色","note":"색(颜色)+이(主格助词)","isTarget":true},{"text":"저한테","meaning":"对我来说","note":"저(我)+한테(对……来说)"},{"text":"잘","meaning":"很好地","note":"副词"},{"text":"어울립니다","meaning":"适合","note":"어울리다(适合)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"서랍","romanization":"seorap","pos":"名词","meaning":"抽屉","register":"中立","example":"서랍을 열고 열쇠를 찾았습니다.","exampleTranslation":"打开抽屉找到了钥匙。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"서랍을","meaning":"抽屉","note":"서랍(抽屉)+을(宾格助词)","isTarget":true},{"text":"열고","meaning":"打开之后","note":"열다(打开)的词干+ -고(然后)"},{"text":"열쇠를","meaning":"钥匙","note":"열쇠(钥匙)+를(宾格助词)"},{"text":"찾았습니다","meaning":"找到了","note":"찾다(找)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"소포","romanization":"sopo","pos":"名词","meaning":"包裹","register":"中立","example":"소포를 우체국에서 부쳤습니다.","exampleTranslation":"在邮局寄了包裹。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"소포를","meaning":"包裹","note":"소포(包裹)+를(宾格助词)","isTarget":true},{"text":"우체국에서","meaning":"在邮局","note":"우체국(邮局)+에서(处所助词)"},{"text":"부쳤습니다","meaning":"寄了","note":"부치다(寄)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"쇼핑","romanization":"syoping","pos":"名词","meaning":"购物","register":"中立","example":"주말에 쇼핑을 했습니다.","exampleTranslation":"周末购物了。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"주말에","meaning":"周末","note":"주말(周末)+에(时间助词)"},{"text":"쇼핑을","meaning":"购物","note":"쇼핑(购物)+을(宾格助词)","isTarget":true},{"text":"했습니다","meaning":"做了","note":"하다(做)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"슈퍼마켓","romanization":"syupeomaket","pos":"名词","meaning":"超市","register":"中立","example":"슈퍼마켓에서 과일을 샀습니다.","exampleTranslation":"在超市买了水果。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"슈퍼마켓에서","meaning":"在超市","note":"슈퍼마켓(超市)+에서(处所助词)","isTarget":true},{"text":"과일을","meaning":"水果","note":"과일(水果)+을(宾格助词)"},{"text":"샀습니다","meaning":"买了","note":"사다(买)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"스웨터","romanization":"seuweteo","pos":"名词","meaning":"毛衣","register":"中立","example":"겨울에는 스웨터를 입습니다.","exampleTranslation":"冬天穿毛衣。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"겨울에는","meaning":"在冬天","note":"겨울(冬天)+에(时间)+는(强调)"},{"text":"스웨터를","meaning":"毛衣","note":"스웨터(毛衣)+를(宾格助词)","isTarget":true},{"text":"입습니다","meaning":"穿","note":"입다(穿)的词干+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"스카프","romanization":"seukapeu","pos":"名词","meaning":"围巾，丝巾","register":"中立","example":"스카프를 예쁘게 맸습니다.","exampleTranslation":"漂亮地系了丝巾。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"스카프를","meaning":"丝巾","note":"스카프(丝巾)+를(宾格助词)","isTarget":true},{"text":"예쁘게","meaning":"漂亮地","note":"예쁘다(漂亮)的词干+ -게(副词形)"},{"text":"맸습니다","meaning":"系了","note":"매다(系)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"시장","romanization":"sijang","pos":"名词","meaning":"市场","register":"中立","example":"시장에 가서 채소를 샀습니다.","exampleTranslation":"去市场买了蔬菜。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"시장에","meaning":"市场","note":"시장(市场)+에(方向助词)","isTarget":true},{"text":"가서","meaning":"去了之后","note":"가다(去)的词干+ -아서(先后)"},{"text":"채소를","meaning":"蔬菜","note":"채소(蔬菜)+를(宾格助词)"},{"text":"샀습니다","meaning":"买了","note":"사다(买)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]}
+  {
+    "korean": "가격",
+    "romanization": "gagyeok",
+    "pos": "名词",
+    "meaning": "价格",
+    "register": "中立",
+    "example": "이 가방은 가격이 비쌉니다.",
+    "exampleTranslation": "这个包价格很贵。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "이",
+        "meaning": "这",
+        "note": "冠形词"
+      },
+      {
+        "text": "가방은",
+        "meaning": "包",
+        "note": "가방(包)+은(主题助词)"
+      },
+      {
+        "text": "가격이",
+        "meaning": "价格",
+        "note": "가격(价格)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "비쌉니다",
+        "meaning": "贵",
+        "note": "비싸다(贵)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "가구",
+    "romanization": "gagu",
+    "pos": "名词",
+    "meaning": "家具",
+    "register": "中立",
+    "example": "새 가구를 샀습니다.",
+    "exampleTranslation": "买了新家具。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "새",
+        "meaning": "新的",
+        "note": "冠形词"
+      },
+      {
+        "text": "가구를",
+        "meaning": "家具",
+        "note": "가구(家具)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "샀습니다",
+        "meaning": "买了",
+        "note": "사다(买)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "가위",
+    "romanization": "gawi",
+    "pos": "名词",
+    "meaning": "剪刀",
+    "register": "中立",
+    "example": "가위로 종이를 잘랐습니다.",
+    "exampleTranslation": "用剪刀剪了纸。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "가위로",
+        "meaning": "用剪刀",
+        "note": "가위(剪刀)+로(表工具的助词)",
+        "isTarget": true
+      },
+      {
+        "text": "종이를",
+        "meaning": "纸",
+        "note": "종이(纸)+를(宾格助词)"
+      },
+      {
+        "text": "잘랐습니다",
+        "meaning": "剪了",
+        "note": "자르다(剪)的词干（르不规则：르在元音开头的语尾前变为ㄹ라/ㄹ러）+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "값",
+    "romanization": "gap",
+    "pos": "名词",
+    "meaning": "价钱",
+    "register": "中立",
+    "example": "값을 조금 깎아 주세요.",
+    "exampleTranslation": "请把价钱稍微便宜一点。",
+    "sentenceType": "命令句（请求）",
+    "formalityLevel": "泛尊阶（해요体）",
+    "grammarBreakdown": [
+      {
+        "text": "값을",
+        "meaning": "价钱",
+        "note": "값(价钱)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "조금",
+        "meaning": "稍微",
+        "note": "副词"
+      },
+      {
+        "text": "깎아 주세요",
+        "meaning": "请便宜点",
+        "note": "깎다(砍价)的词干+ -아/어 주다(请求)+ -시-+ -어요"
+      }
+    ]
+  },
+  {
+    "korean": "검정",
+    "romanization": "geomjeong",
+    "pos": "名词",
+    "meaning": "黑色",
+    "register": "中立",
+    "example": "검정 구두를 신었습니다.",
+    "exampleTranslation": "穿了黑色皮鞋。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "검정 구두를",
+        "meaning": "黑色皮鞋",
+        "note": "검정(黑色)+구두(皮鞋)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "신었습니다",
+        "meaning": "穿了",
+        "note": "신다(穿)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "계산",
+    "romanization": "gyesan",
+    "pos": "名词",
+    "meaning": "结账，计算",
+    "register": "中立",
+    "example": "계산이 정확합니다.",
+    "exampleTranslation": "计算很准确。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "계산이",
+        "meaning": "计算",
+        "note": "계산(计算)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "정확합니다",
+        "meaning": "准确",
+        "note": "정확하다(准确)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "고장",
+    "romanization": "gojang",
+    "pos": "名词",
+    "meaning": "故障",
+    "register": "中立",
+    "example": "세탁기가 고장이 났습니다.",
+    "exampleTranslation": "洗衣机出故障了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "세탁기가",
+        "meaning": "洗衣机",
+        "note": "세탁기(洗衣机)+가(主格助词)"
+      },
+      {
+        "text": "고장이",
+        "meaning": "故障",
+        "note": "고장(故障)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "났습니다",
+        "meaning": "出现了",
+        "note": "나다(出现)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "공짜",
+    "romanization": "gongjja",
+    "pos": "名词",
+    "meaning": "免费",
+    "register": "中立",
+    "example": "이것은 공짜로 받았습니다.",
+    "exampleTranslation": "这个是免费拿到的。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "이것은",
+        "meaning": "这个",
+        "note": "이것(这个)+은(主题助词)"
+      },
+      {
+        "text": "공짜로",
+        "meaning": "免费地",
+        "note": "공짜(免费)+로(表方式的助词)",
+        "isTarget": true
+      },
+      {
+        "text": "받았습니다",
+        "meaning": "收到了",
+        "note": "받다(收到)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "교환",
+    "romanization": "gyohwan",
+    "pos": "名词",
+    "meaning": "换货，交换",
+    "register": "中立",
+    "example": "이 옷을 교환하고 싶습니다.",
+    "exampleTranslation": "想换这件衣服。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "이 옷을",
+        "meaning": "这件衣服",
+        "note": "이(这)+옷(衣服)+을(宾格助词)"
+      },
+      {
+        "text": "교환하고 싶습니다",
+        "meaning": "想换",
+        "note": "교환하다(换)的词干+ -고 싶다(想要)+ -습니다（陈述句·尊敬阶终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "귀걸이",
+    "romanization": "gwigeori",
+    "pos": "名词",
+    "meaning": "耳环",
+    "register": "中立",
+    "example": "예쁜 귀걸이를 샀습니다.",
+    "exampleTranslation": "买了漂亮的耳环。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "예쁜",
+        "meaning": "漂亮的",
+        "note": "예쁘다(漂亮)的词干+ -ㄴ(冠形词形)"
+      },
+      {
+        "text": "귀걸이를",
+        "meaning": "耳环",
+        "note": "귀걸이(耳环)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "샀습니다",
+        "meaning": "买了",
+        "note": "사다(买)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "까만색",
+    "romanization": "kkamansaek",
+    "pos": "名词",
+    "meaning": "黑色",
+    "register": "中立",
+    "example": "까만색 가방이 마음에 듭니다.",
+    "exampleTranslation": "喜欢黑色的包。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "까만색 가방이",
+        "meaning": "黑色的包",
+        "note": "까만색(黑色)+가방(包)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "마음에 듭니다",
+        "meaning": "喜欢",
+        "note": "마음(心)+에(方向助词)+들다(合乎)+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "꽃다발",
+    "romanization": "kkotdabal",
+    "pos": "名词",
+    "meaning": "花束",
+    "register": "中立",
+    "example": "친구에게 꽃다발을 선물했습니다.",
+    "exampleTranslation": "送了朋友一束花。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "친구에게",
+        "meaning": "给朋友",
+        "note": "친구(朋友)+에게(给……)"
+      },
+      {
+        "text": "꽃다발을",
+        "meaning": "花束",
+        "note": "꽃다발(花束)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "선물했습니다",
+        "meaning": "送了（礼物）",
+        "note": "선물하다(送礼)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "꽃병",
+    "romanization": "kkotbyeong",
+    "pos": "名词",
+    "meaning": "花瓶",
+    "register": "中立",
+    "example": "꽃병을 실수로 깨뜨렸습니다.",
+    "exampleTranslation": "不小心把花瓶打碎了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "꽃병을",
+        "meaning": "花瓶",
+        "note": "꽃병(花瓶)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "실수로",
+        "meaning": "不小心地",
+        "note": "실수(失误)+로(表方式的助词)"
+      },
+      {
+        "text": "깨뜨렸습니다",
+        "meaning": "打碎了",
+        "note": "깨뜨리다(打碎)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "녹색",
+    "romanization": "noksaek",
+    "pos": "名词",
+    "meaning": "绿色",
+    "register": "中立",
+    "example": "녹색 옷이 잘 어울립니다.",
+    "exampleTranslation": "绿色的衣服很适合你。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "녹색 옷이",
+        "meaning": "绿色的衣服",
+        "note": "녹색(绿色)+옷(衣服)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "잘",
+        "meaning": "很好地",
+        "note": "副词"
+      },
+      {
+        "text": "어울립니다",
+        "meaning": "适合",
+        "note": "어울리다(适合)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "단추",
+    "romanization": "danchu",
+    "pos": "名词",
+    "meaning": "扣子",
+    "register": "中立",
+    "example": "단추가 하나 떨어졌습니다.",
+    "exampleTranslation": "掉了一颗扣子。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "단추가",
+        "meaning": "扣子",
+        "note": "단추(扣子)+가(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "하나",
+        "meaning": "一个",
+        "note": "固有数字"
+      },
+      {
+        "text": "떨어졌습니다",
+        "meaning": "掉了",
+        "note": "떨어지다(掉落)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "달력",
+    "romanization": "dallyeok",
+    "pos": "名词",
+    "meaning": "日历",
+    "register": "中立",
+    "example": "벽에 달력을 걸었습니다.",
+    "exampleTranslation": "在墙上挂了日历。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "벽에",
+        "meaning": "墙上",
+        "note": "벽(墙)+에(方向助词)"
+      },
+      {
+        "text": "달력을",
+        "meaning": "日历",
+        "note": "달력(日历)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "걸었습니다",
+        "meaning": "挂了",
+        "note": "걸다(挂)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "담배",
+    "romanization": "dambae",
+    "pos": "名词",
+    "meaning": "香烟",
+    "register": "中立",
+    "example": "건강을 위해 담배를 끊었습니다.",
+    "exampleTranslation": "为了健康戒了烟。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "건강을 위해",
+        "meaning": "为了健康",
+        "note": "건강(健康)+을 위해(为了……)"
+      },
+      {
+        "text": "담배를",
+        "meaning": "香烟",
+        "note": "담배(香烟)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "끊었습니다",
+        "meaning": "戒了",
+        "note": "끊다(戒)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "돈",
+    "romanization": "don",
+    "pos": "名词",
+    "meaning": "钱",
+    "register": "中立",
+    "example": "열심히 일해서 돈을 벌었습니다.",
+    "exampleTranslation": "努力工作赚了钱。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "열심히",
+        "meaning": "努力地",
+        "note": "副词"
+      },
+      {
+        "text": "일해서",
+        "meaning": "工作了，所以",
+        "note": "일하다(工作)的词干+ -해서(先后)"
+      },
+      {
+        "text": "돈을",
+        "meaning": "钱",
+        "note": "돈(钱)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "벌었습니다",
+        "meaning": "赚了",
+        "note": "벌다(赚)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "동전",
+    "romanization": "dongjeon",
+    "pos": "名词",
+    "meaning": "硬币",
+    "register": "中立",
+    "example": "동전을 지갑에 넣었습니다.",
+    "exampleTranslation": "把硬币放进了钱包。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "동전을",
+        "meaning": "硬币",
+        "note": "동전(硬币)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "지갑에",
+        "meaning": "钱包",
+        "note": "지갑(钱包)+에(方向助词)"
+      },
+      {
+        "text": "넣었습니다",
+        "meaning": "放进去了",
+        "note": "넣다(放入)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "무료",
+    "romanization": "muryo",
+    "pos": "名词",
+    "meaning": "免费",
+    "register": "中立",
+    "example": "이 서비스는 무료로 제공됩니다.",
+    "exampleTranslation": "这个服务是免费提供的。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "이 서비스는",
+        "meaning": "这个服务",
+        "note": "이(这)+서비스(服务)+는(主题助词)"
+      },
+      {
+        "text": "무료로",
+        "meaning": "免费地",
+        "note": "무료(免费)+로(表方式的助词)",
+        "isTarget": true
+      },
+      {
+        "text": "제공됩니다",
+        "meaning": "被提供",
+        "note": "제공되다(被提供)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "물건",
+    "romanization": "mulgeon",
+    "pos": "名词",
+    "meaning": "东西",
+    "register": "中立",
+    "example": "필요한 물건을 샀습니다.",
+    "exampleTranslation": "买了需要的东西。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "필요한",
+        "meaning": "需要的",
+        "note": "필요하다(需要)的词干+ -ㄴ(冠形词形)"
+      },
+      {
+        "text": "물건을",
+        "meaning": "东西",
+        "note": "물건(东西)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "샀습니다",
+        "meaning": "买了",
+        "note": "사다(买)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "반바지",
+    "romanization": "banbaji",
+    "pos": "名词",
+    "meaning": "短裤",
+    "register": "中立",
+    "example": "여름에는 반바지를 자주 입습니다.",
+    "exampleTranslation": "夏天经常穿短裤。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "여름에는",
+        "meaning": "在夏天",
+        "note": "여름(夏天)+에(时间)+는(强调)"
+      },
+      {
+        "text": "반바지를",
+        "meaning": "短裤",
+        "note": "반바지(短裤)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "자주",
+        "meaning": "经常",
+        "note": "副词"
+      },
+      {
+        "text": "입습니다",
+        "meaning": "穿",
+        "note": "입다(穿)的词干+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "백화점",
+    "romanization": "baekhwajeom",
+    "pos": "名词",
+    "meaning": "百货商店",
+    "register": "中立",
+    "example": "백화점에서 옷을 샀습니다.",
+    "exampleTranslation": "在百货商店买了衣服。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "백화점에서",
+        "meaning": "在百货商店",
+        "note": "백화점(百货商店)+에서(处所助词)",
+        "isTarget": true
+      },
+      {
+        "text": "옷을",
+        "meaning": "衣服",
+        "note": "옷(衣服)+을(宾格助词)"
+      },
+      {
+        "text": "샀습니다",
+        "meaning": "买了",
+        "note": "사다(买)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "번호",
+    "romanization": "beonho",
+    "pos": "名词",
+    "meaning": "号码",
+    "register": "中立",
+    "example": "제 전화번호를 알려 드렸습니다.",
+    "exampleTranslation": "告诉了对方我的电话号码。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "제",
+        "meaning": "我的",
+        "note": "저의 缩略形式"
+      },
+      {
+        "text": "전화번호를",
+        "meaning": "电话号码",
+        "note": "전화(电话)+번호(号码)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "알려 드렸습니다",
+        "meaning": "告诉了（敬语）",
+        "note": "알리다(告知)的词干+ -어(连接词尾)+드리다(给,敬语)+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "벌",
+    "romanization": "beol",
+    "pos": "依存名词",
+    "meaning": "套（量词）",
+    "register": "中立",
+    "example": "양복 한 벌을 맞췄습니다.",
+    "exampleTranslation": "定做了一套西装。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "양복",
+        "meaning": "西装",
+        "note": "名词"
+      },
+      {
+        "text": "한 벌을",
+        "meaning": "一套",
+        "note": "한(一)+벌(套,依存名词)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "맞췄습니다",
+        "meaning": "定做了",
+        "note": "맞추다(定制)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "병",
+    "romanization": "byeong",
+    "pos": "名词",
+    "meaning": "疾病",
+    "register": "中立",
+    "homonymIndex": "04",
+    "example": "병에 걸려서 병원에 갔습니다.",
+    "exampleTranslation": "生病了去了医院。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "병에",
+        "meaning": "疾病",
+        "note": "병(疾病)+에(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "걸려서",
+        "meaning": "患上了，所以",
+        "note": "걸리다(患上)的词干+ -어서(因为)"
+      },
+      {
+        "text": "병원에",
+        "meaning": "医院",
+        "note": "병원(医院)+에(方向助词)"
+      },
+      {
+        "text": "갔습니다",
+        "meaning": "去了",
+        "note": "가다(去)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "병",
+    "romanization": "byeong",
+    "pos": "名词",
+    "meaning": "瓶子",
+    "register": "中立",
+    "homonymIndex": "05",
+    "example": "병을 깨지 않게 조심했습니다.",
+    "exampleTranslation": "小心不要打碎瓶子。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "병을",
+        "meaning": "瓶子",
+        "note": "병(瓶子)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "깨지 않게",
+        "meaning": "不要打碎地",
+        "note": "깨다(打碎)的词干+ -지 않다(不……)+ -게(副词形)"
+      },
+      {
+        "text": "조심했습니다",
+        "meaning": "小心了",
+        "note": "조심하다(小心)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "부자",
+    "romanization": "buja",
+    "pos": "名词",
+    "meaning": "富人",
+    "register": "中立",
+    "example": "그분은 이 동네에서 유명한 부자입니다.",
+    "exampleTranslation": "那位是这个社区有名的富人。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "그분은",
+        "meaning": "那位",
+        "note": "그분(那位)+은(主题助词)"
+      },
+      {
+        "text": "이 동네에서",
+        "meaning": "这个社区",
+        "note": "이(这)+동네(社区)+에서(处所助词)"
+      },
+      {
+        "text": "유명한",
+        "meaning": "有名的",
+        "note": "유명하다(有名)的词干+ -ㄴ(冠形词形)"
+      },
+      {
+        "text": "부자입니다",
+        "meaning": "是富人",
+        "note": "부자(富人)+이다+ -ㅂ니다（陈述句·尊敬阶终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "블라우스",
+    "romanization": "beullauseu",
+    "pos": "名词",
+    "meaning": "女式衬衫",
+    "register": "中立",
+    "example": "흰색 블라우스를 입었습니다.",
+    "exampleTranslation": "穿了白色女式衬衫。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "흰색",
+        "meaning": "白色",
+        "note": "名词"
+      },
+      {
+        "text": "블라우스를",
+        "meaning": "女式衬衫",
+        "note": "블라우스(女式衬衫)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "입었습니다",
+        "meaning": "穿了",
+        "note": "입다(穿)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "사이즈",
+    "romanization": "saijeu",
+    "pos": "名词",
+    "meaning": "尺码",
+    "register": "中立",
+    "example": "이 옷은 사이즈가 큽니다.",
+    "exampleTranslation": "这件衣服尺码大。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "이",
+        "meaning": "这",
+        "note": "冠形词"
+      },
+      {
+        "text": "옷은",
+        "meaning": "衣服",
+        "note": "옷(衣服)+은(主题助词)"
+      },
+      {
+        "text": "사이즈가",
+        "meaning": "尺码",
+        "note": "사이즈(尺码)+가(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "큽니다",
+        "meaning": "大",
+        "note": "크다(大)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "상자",
+    "romanization": "sangja",
+    "pos": "名词",
+    "meaning": "箱子",
+    "register": "中立",
+    "example": "물건을 상자에 넣었습니다.",
+    "exampleTranslation": "把东西放进了箱子。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "물건을",
+        "meaning": "东西",
+        "note": "물건(东西)+을(宾格助词)"
+      },
+      {
+        "text": "상자에",
+        "meaning": "箱子",
+        "note": "상자(箱子)+에(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "넣었습니다",
+        "meaning": "放进去了",
+        "note": "넣다(放入)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "상품",
+    "romanization": "sangpum",
+    "pos": "名词",
+    "meaning": "商品",
+    "register": "中立",
+    "example": "이 상품은 인기가 많습니다.",
+    "exampleTranslation": "这个商品很受欢迎。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "이",
+        "meaning": "这",
+        "note": "冠形词"
+      },
+      {
+        "text": "상품은",
+        "meaning": "商品",
+        "note": "상품(商品)+은(主题助词)",
+        "isTarget": true
+      },
+      {
+        "text": "인기가",
+        "meaning": "人气",
+        "note": "인기(人气)+가(主格助词)"
+      },
+      {
+        "text": "많습니다",
+        "meaning": "多",
+        "note": "많다(多)的词干+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "색",
+    "romanization": "saek",
+    "pos": "名词",
+    "meaning": "颜色",
+    "register": "中立",
+    "example": "이 색이 저한테 잘 어울립니다.",
+    "exampleTranslation": "这个颜色很适合我。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "이",
+        "meaning": "这",
+        "note": "冠形词"
+      },
+      {
+        "text": "색이",
+        "meaning": "颜色",
+        "note": "색(颜色)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "저한테",
+        "meaning": "对我来说",
+        "note": "저(我)+한테(对……来说)"
+      },
+      {
+        "text": "잘",
+        "meaning": "很好地",
+        "note": "副词"
+      },
+      {
+        "text": "어울립니다",
+        "meaning": "适合",
+        "note": "어울리다(适合)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "서랍",
+    "romanization": "seorap",
+    "pos": "名词",
+    "meaning": "抽屉",
+    "register": "中立",
+    "example": "서랍을 열고 열쇠를 찾았습니다.",
+    "exampleTranslation": "打开抽屉找到了钥匙。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "서랍을",
+        "meaning": "抽屉",
+        "note": "서랍(抽屉)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "열고",
+        "meaning": "打开之后",
+        "note": "열다(打开)的词干+ -고(然后)"
+      },
+      {
+        "text": "열쇠를",
+        "meaning": "钥匙",
+        "note": "열쇠(钥匙)+를(宾格助词)"
+      },
+      {
+        "text": "찾았습니다",
+        "meaning": "找到了",
+        "note": "찾다(找)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "소포",
+    "romanization": "sopo",
+    "pos": "名词",
+    "meaning": "包裹",
+    "register": "中立",
+    "example": "소포를 우체국에서 부쳤습니다.",
+    "exampleTranslation": "在邮局寄了包裹。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "소포를",
+        "meaning": "包裹",
+        "note": "소포(包裹)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "우체국에서",
+        "meaning": "在邮局",
+        "note": "우체국(邮局)+에서(处所助词)"
+      },
+      {
+        "text": "부쳤습니다",
+        "meaning": "寄了",
+        "note": "부치다(寄)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "쇼핑",
+    "romanization": "syoping",
+    "pos": "名词",
+    "meaning": "购物",
+    "register": "中立",
+    "example": "주말에 쇼핑을 했습니다.",
+    "exampleTranslation": "周末购物了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "주말에",
+        "meaning": "周末",
+        "note": "주말(周末)+에(时间助词)"
+      },
+      {
+        "text": "쇼핑을",
+        "meaning": "购物",
+        "note": "쇼핑(购物)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "했습니다",
+        "meaning": "做了",
+        "note": "하다(做)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "슈퍼마켓",
+    "romanization": "syupeomaket",
+    "pos": "名词",
+    "meaning": "超市",
+    "register": "中立",
+    "example": "슈퍼마켓에서 과일을 샀습니다.",
+    "exampleTranslation": "在超市买了水果。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "슈퍼마켓에서",
+        "meaning": "在超市",
+        "note": "슈퍼마켓(超市)+에서(处所助词)",
+        "isTarget": true
+      },
+      {
+        "text": "과일을",
+        "meaning": "水果",
+        "note": "과일(水果)+을(宾格助词)"
+      },
+      {
+        "text": "샀습니다",
+        "meaning": "买了",
+        "note": "사다(买)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "스웨터",
+    "romanization": "seuweteo",
+    "pos": "名词",
+    "meaning": "毛衣",
+    "register": "中立",
+    "example": "겨울에는 스웨터를 입습니다.",
+    "exampleTranslation": "冬天穿毛衣。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "겨울에는",
+        "meaning": "在冬天",
+        "note": "겨울(冬天)+에(时间)+는(强调)"
+      },
+      {
+        "text": "스웨터를",
+        "meaning": "毛衣",
+        "note": "스웨터(毛衣)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "입습니다",
+        "meaning": "穿",
+        "note": "입다(穿)的词干+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "스카프",
+    "romanization": "seukapeu",
+    "pos": "名词",
+    "meaning": "围巾，丝巾",
+    "register": "中立",
+    "example": "스카프를 예쁘게 맸습니다.",
+    "exampleTranslation": "漂亮地系了丝巾。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "스카프를",
+        "meaning": "丝巾",
+        "note": "스카프(丝巾)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "예쁘게",
+        "meaning": "漂亮地",
+        "note": "예쁘다(漂亮)的词干+ -게(副词形)"
+      },
+      {
+        "text": "맸습니다",
+        "meaning": "系了",
+        "note": "매다(系)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "시장",
+    "romanization": "sijang",
+    "pos": "名词",
+    "meaning": "市场",
+    "register": "中立",
+    "example": "시장에 가서 채소를 샀습니다.",
+    "exampleTranslation": "去市场买了蔬菜。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "시장에",
+        "meaning": "市场",
+        "note": "시장(市场)+에(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "가서",
+        "meaning": "去了之后",
+        "note": "가다(去)的词干+ -아서(先后)"
+      },
+      {
+        "text": "채소를",
+        "meaning": "蔬菜",
+        "note": "채소(蔬菜)+를(宾格助词)"
+      },
+      {
+        "text": "샀습니다",
+        "meaning": "买了",
+        "note": "사다(买)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  }
 ]

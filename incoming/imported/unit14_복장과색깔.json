@@ -8,7 +8,7 @@
     "example": "가방을 어깨에 멨습니다.",
     "exampleTranslation": "把包背在了肩上。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "가방을",
@@ -24,7 +24,7 @@
       {
         "text": "멨습니다",
         "meaning": "背了",
-        "note": "메다(背)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "메다(背)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -37,7 +37,7 @@
     "example": "저는 갈색 가방을 좋아합니다.",
     "exampleTranslation": "我喜欢棕色的包。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "저는",
@@ -53,7 +53,7 @@
       {
         "text": "좋아합니다",
         "meaning": "喜欢",
-        "note": "좋아하다(喜欢)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "좋아하다(喜欢)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -66,7 +66,7 @@
     "example": "검은색 옷을 자주 입습니다.",
     "exampleTranslation": "经常穿黑色的衣服。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "검은색 옷을",
@@ -82,7 +82,7 @@
       {
         "text": "입습니다",
         "meaning": "穿",
-        "note": "입다(穿)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "입다(穿)的词干+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -95,7 +95,7 @@
     "example": "오늘은 구두를 신었습니다.",
     "exampleTranslation": "今天穿了皮鞋。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "오늘은",
@@ -111,7 +111,7 @@
       {
         "text": "신었습니다",
         "meaning": "穿了",
-        "note": "신다(穿)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "신다(穿)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -124,7 +124,7 @@
     "example": "회사에 갈 때 넥타이를 맵니다.",
     "exampleTranslation": "去公司的时候系领带。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "회사에 갈 때",
@@ -140,7 +140,7 @@
       {
         "text": "맵니다",
         "meaning": "系",
-        "note": "매다(系)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "매다(系)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -153,7 +153,7 @@
     "example": "노란색 우산을 샀습니다.",
     "exampleTranslation": "买了黄色的伞。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "노란색 우산을",
@@ -164,7 +164,7 @@
       {
         "text": "샀습니다",
         "meaning": "买了",
-        "note": "사다(买)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "사다(买)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -177,7 +177,7 @@
     "example": "햇빛이 강해서 모자를 썼습니다.",
     "exampleTranslation": "阳光很强所以戴了帽子。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "햇빛이",
@@ -198,7 +198,7 @@
       {
         "text": "썼습니다",
         "meaning": "戴了",
-        "note": "쓰다(戴)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "쓰다(戴)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -211,7 +211,7 @@
     "example": "생일 선물로 목걸이를 받았습니다.",
     "exampleTranslation": "收到了项链作为生日礼物。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "생일 선물로",
@@ -227,7 +227,7 @@
       {
         "text": "받았습니다",
         "meaning": "收到了",
-        "note": "받다(收到)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "받다(收到)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -240,7 +240,7 @@
     "example": "추워서 목도리를 했습니다.",
     "exampleTranslation": "因为冷围了围巾。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "추워서",
@@ -256,7 +256,7 @@
       {
         "text": "했습니다",
         "meaning": "做了（围了）",
-        "note": "하다(做)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "하다(做)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -269,7 +269,7 @@
     "example": "새 바지를 샀습니다.",
     "exampleTranslation": "买了新裤子。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "새",
@@ -285,7 +285,7 @@
       {
         "text": "샀습니다",
         "meaning": "买了",
-        "note": "사다(买)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "사다(买)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -298,7 +298,7 @@
     "example": "반지를 손가락에 끼었습니다.",
     "exampleTranslation": "把戒指戴在了手指上。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "반지를",
@@ -314,7 +314,7 @@
       {
         "text": "끼었습니다",
         "meaning": "戴上了",
-        "note": "끼다(戴/夹)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "끼다(戴/夹)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -327,7 +327,7 @@
     "example": "보라색 꽃을 좋아합니다.",
     "exampleTranslation": "喜欢紫色的花。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "보라색 꽃을",
@@ -338,7 +338,7 @@
       {
         "text": "좋아합니다",
         "meaning": "喜欢",
-        "note": "좋아하다(喜欢)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "좋아하다(喜欢)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -351,7 +351,7 @@
     "example": "여동생은 분홍색을 좋아합니다.",
     "exampleTranslation": "妹妹喜欢粉色。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "여동생은",
@@ -367,7 +367,7 @@
       {
         "text": "좋아합니다",
         "meaning": "喜欢",
-        "note": "좋아하다(喜欢)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "좋아하다(喜欢)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -380,7 +380,7 @@
     "example": "빨간색 옷이 잘 어울립니다.",
     "exampleTranslation": "红色的衣服很适合你。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "빨간색 옷이",
@@ -396,7 +396,7 @@
       {
         "text": "어울립니다",
         "meaning": "适合",
-        "note": "어울리다(适合)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "어울리다(适合)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -409,7 +409,7 @@
     "example": "어떤 색깔을 좋아하세요?",
     "exampleTranslation": "您喜欢什么颜色？",
     "sentenceType": "疑问句",
-    "formalityLevel": "非格式体敬语（해요体）",
+    "formalityLevel": "泛尊阶（해요体）",
     "grammarBreakdown": [
       {
         "text": "어떤",
@@ -425,7 +425,7 @@
       {
         "text": "좋아하세요",
         "meaning": "喜欢吗（敬语）",
-        "note": "좋아하다(喜欢)的词干+ -시-（尊敬阶标记）+ -어요（非格式体敬语终结词尾，해요体）"
+        "note": "좋아하다(喜欢)的词干+ -시-（尊敬阶标记）+ -어요（泛尊阶终结词尾，해요体）"
       }
     ]
   },
@@ -438,7 +438,7 @@
     "example": "신발을 새로 샀습니다.",
     "exampleTranslation": "买了新鞋。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "신발을",
@@ -454,7 +454,7 @@
       {
         "text": "샀습니다",
         "meaning": "买了",
-        "note": "사다(买)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "사다(买)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -467,7 +467,7 @@
     "example": "양말을 두 켤레 샀습니다.",
     "exampleTranslation": "买了两双袜子。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "양말을",
@@ -483,7 +483,7 @@
       {
         "text": "샀습니다",
         "meaning": "买了",
-        "note": "사다(买)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "사다(买)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -496,7 +496,7 @@
     "example": "흰색 와이셔츠를 입었습니다.",
     "exampleTranslation": "穿了白色衬衫。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "흰색",
@@ -512,7 +512,7 @@
       {
         "text": "입었습니다",
         "meaning": "穿了",
-        "note": "입다(穿)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "입다(穿)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -525,7 +525,7 @@
     "example": "오늘은 따뜻한 옷을 입었습니다.",
     "exampleTranslation": "今天穿了保暖的衣服。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "오늘은",
@@ -546,7 +546,7 @@
       {
         "text": "입었습니다",
         "meaning": "穿了",
-        "note": "입다(穿)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "입다(穿)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -559,7 +559,7 @@
     "example": "비가 와서 우산을 썼습니다.",
     "exampleTranslation": "下雨了所以撑了伞。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "비가 와서",
@@ -575,7 +575,7 @@
       {
         "text": "썼습니다",
         "meaning": "撑了（打了）",
-        "note": "쓰다(打伞)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "쓰다(打伞)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -588,7 +588,7 @@
     "example": "운동할 때 운동화를 신습니다.",
     "exampleTranslation": "运动的时候穿运动鞋。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "운동할 때",
@@ -604,7 +604,7 @@
       {
         "text": "신습니다",
         "meaning": "穿",
-        "note": "신다(穿)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "신다(穿)的词干+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -617,7 +617,7 @@
     "example": "추워서 장갑을 꼈습니다.",
     "exampleTranslation": "因为冷戴了手套。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "추워서",
@@ -633,7 +633,7 @@
       {
         "text": "꼈습니다",
         "meaning": "戴了",
-        "note": "끼다(戴)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "끼다(戴)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -646,7 +646,7 @@
     "example": "주황색 옷이 눈에 띕니다.",
     "exampleTranslation": "橙色的衣服很显眼。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "주황색 옷이",
@@ -657,7 +657,7 @@
       {
         "text": "눈에 띕니다",
         "meaning": "显眼",
-        "note": "눈(眼)+에(方向助词)+띄다(显眼)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "눈(眼)+에(方向助词)+띄다(显眼)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -670,7 +670,7 @@
     "example": "지갑을 가방에 넣었습니다.",
     "exampleTranslation": "把钱包放进了包里。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "지갑을",
@@ -686,7 +686,7 @@
       {
         "text": "넣었습니다",
         "meaning": "放进去了",
-        "note": "넣다(放入)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "넣다(放入)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -699,7 +699,7 @@
     "example": "나뭇잎이 초록색입니다.",
     "exampleTranslation": "树叶是绿色的。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "나뭇잎이",
@@ -709,7 +709,7 @@
       {
         "text": "초록색입니다",
         "meaning": "是绿色",
-        "note": "초록색(绿色)+이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "note": "초록색(绿色)+이다+ -ㅂ니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ]
@@ -723,7 +723,7 @@
     "example": "예쁜 치마를 입었습니다.",
     "exampleTranslation": "穿了漂亮的裙子。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "예쁜",
@@ -739,7 +739,7 @@
       {
         "text": "입었습니다",
         "meaning": "穿了",
-        "note": "입다(穿)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "입다(穿)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -752,7 +752,7 @@
     "example": "여름에는 티셔츠를 자주 입습니다.",
     "exampleTranslation": "夏天经常穿T恤。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "여름에는",
@@ -773,7 +773,7 @@
       {
         "text": "입습니다",
         "meaning": "穿",
-        "note": "입다(穿)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "입다(穿)的词干+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -786,7 +786,7 @@
     "example": "하늘이 파란색입니다.",
     "exampleTranslation": "天空是蓝色的。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "하늘이",
@@ -796,7 +796,7 @@
       {
         "text": "파란색입니다",
         "meaning": "是蓝色",
-        "note": "파란색(蓝色)+이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "note": "파란색(蓝色)+이다+ -ㅂ니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ]
@@ -810,7 +810,7 @@
     "example": "하얀색 신발을 신었습니다.",
     "exampleTranslation": "穿了白色的鞋。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "하얀색 신발을",
@@ -821,7 +821,7 @@
       {
         "text": "신었습니다",
         "meaning": "穿了",
-        "note": "신다(穿)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "신다(穿)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -834,7 +834,7 @@
     "example": "회색 바지를 입었습니다.",
     "exampleTranslation": "穿了灰色的裤子。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "회색 바지를",
@@ -845,7 +845,7 @@
       {
         "text": "입었습니다",
         "meaning": "穿了",
-        "note": "입다(穿)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "입다(穿)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   }

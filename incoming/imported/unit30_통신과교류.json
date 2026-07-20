@@ -1,31 +1,783 @@
 [
-{"korean":"광고","romanization":"gwanggo","pos":"名词","meaning":"广告","register":"中立","example":"신문에서 광고를 봤습니다.","exampleTranslation":"在报纸上看到了广告。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"신문에서","meaning":"在报纸上","note":"신문(报纸)+에서(处所助词)"},{"text":"광고를","meaning":"广告","note":"광고(广告)+를(宾格助词)","isTarget":true},{"text":"봤습니다","meaning":"看到了","note":"보다(看)的词干变化+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"뉴스","romanization":"nyuseu","pos":"名词","meaning":"新闻","register":"中立","example":"저녁마다 뉴스를 봅니다.","exampleTranslation":"每晚看新闻。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"저녁마다","meaning":"每晚","note":"저녁(晚上)+마다(每……)"},{"text":"뉴스를","meaning":"新闻","note":"뉴스(新闻)+를(宾格助词)","isTarget":true},{"text":"봅니다","meaning":"看","note":"보다(看)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"대답","romanization":"daedap","pos":"名词","meaning":"回答","register":"中立","example":"대답을 기다리고 있습니다.","exampleTranslation":"正在等待回答。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"대답을","meaning":"回答","note":"대답(回答)+을(宾格助词)","isTarget":true},{"text":"기다리고 있습니다","meaning":"正在等待","note":"기다리다(等待)的词干+ -고 있다(正在)+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"대화","romanization":"daehwa","pos":"名词","meaning":"对话","register":"中立","example":"친구와 대화를 나눴습니다.","exampleTranslation":"和朋友进行了对话。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"친구와","meaning":"和朋友","note":"친구(朋友)+와(和……)"},{"text":"대화를","meaning":"对话","note":"대화(对话)+를(宾格助词)","isTarget":true},{"text":"나눴습니다","meaning":"进行了（分享）","note":"나누다(分享/交谈)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"메시지","romanization":"mesiji","pos":"名词","meaning":"短信，消息","register":"中立","example":"메시지를 남겼습니다.","exampleTranslation":"留了消息。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"메시지를","meaning":"消息","note":"메시지(消息)+를(宾格助词)","isTarget":true},{"text":"남겼습니다","meaning":"留了","note":"남기다(留下)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"메일","romanization":"meil","pos":"名词","meaning":"邮件","register":"中立","example":"메일을 확인했습니다.","exampleTranslation":"确认了邮件。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"메일을","meaning":"邮件","note":"메일(邮件)+을(宾格助词)","isTarget":true},{"text":"확인했습니다","meaning":"确认了","note":"확인하다(确认)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"방송","romanization":"bangsong","pos":"名词","meaning":"广播，播放","register":"中立","example":"방송을 시청했습니다.","exampleTranslation":"收看了节目。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"방송을","meaning":"节目","note":"방송(播放)+을(宾格助词)","isTarget":true},{"text":"시청했습니다","meaning":"收看了","note":"시청하다(收看)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"방송국","romanization":"bangsongguk","pos":"名词","meaning":"广播电台","register":"中立","example":"라디오 방송국에서 일합니다.","exampleTranslation":"在广播电台工作。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"라디오 방송국에서","meaning":"在广播电台","note":"라디오(收音机)+방송국(广播电台)+에서(处所助词)","isTarget":true},{"text":"일합니다","meaning":"工作","note":"일하다(工作)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"서류","romanization":"seoryu","pos":"名词","meaning":"文件","register":"中立","example":"서류를 정리했습니다.","exampleTranslation":"整理了文件。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"서류를","meaning":"文件","note":"서류(文件)+를(宾格助词)","isTarget":true},{"text":"정리했습니다","meaning":"整理了","note":"정리하다(整理)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"설명","romanization":"seolmyeong","pos":"名词","meaning":"说明","register":"中立","example":"자세한 설명을 들었습니다.","exampleTranslation":"听了详细的说明。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"자세한","meaning":"详细的","note":"자세하다(详细)的词干+ -ㄴ(冠形词形)"},{"text":"설명을","meaning":"说明","note":"설명(说明)+을(宾格助词)","isTarget":true},{"text":"들었습니다","meaning":"听了","note":"듣다(听)的词干变化（ㄷ不规则：收音ㄷ在元音开头的语尾前变为ㄹ）+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"소식","romanization":"sosik","pos":"名词","meaning":"消息","register":"中立","example":"좋은 소식을 들었습니다.","exampleTranslation":"听到了好消息。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"좋은","meaning":"好的","note":"좋다(好)的词干+ -은(冠形词形)"},{"text":"소식을","meaning":"消息","note":"소식(消息)+을(宾格助词)","isTarget":true},{"text":"들었습니다","meaning":"听了","note":"듣다(听)的词干变化（ㄷ不规则）+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"신문","romanization":"sinmun","pos":"名词","meaning":"报纸","register":"中立","example":"아침마다 신문을 읽습니다.","exampleTranslation":"每天早上读报纸。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"아침마다","meaning":"每天早上","note":"아침(早上)+마다(每……)"},{"text":"신문을","meaning":"报纸","note":"신문(报纸)+을(宾格助词)","isTarget":true},{"text":"읽습니다","meaning":"读","note":"읽다(读)的词干+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"신분증","romanization":"sinbunjeung","pos":"名词","meaning":"身份证","register":"中立","example":"신분증을 확인했습니다.","exampleTranslation":"确认了身份证。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"신분증을","meaning":"身份证","note":"신분증(身份证)+을(宾格助词)","isTarget":true},{"text":"확인했습니다","meaning":"确认了","note":"확인하다(确认)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"안내문","romanization":"annaemun","pos":"名词","meaning":"通知","register":"中立","example":"안내문을 받았습니다.","exampleTranslation":"收到了通知。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"안내문을","meaning":"通知","note":"안내문(通知)+을(宾格助词)","isTarget":true},{"text":"받았습니다","meaning":"收到了","note":"받다(收到)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"여보세요","romanization":"yeoboseyo","pos":"感叹词","meaning":"喂（打电话用语）","register":"敬语","example":"여보세요, 거기 누구세요?","exampleTranslation":"喂，请问是哪位？","sentenceType":"疑问句","formalityLevel":"非格式体敬语（해요体）","grammarBreakdown":[{"text":"여보세요","meaning":"喂","note":"感叹词，打电话用语","isTarget":true},{"text":"거기","meaning":"那里","note":"代词"},{"text":"누구세요","meaning":"是谁（敬语）","note":"누구(谁)+시-（尊敬阶标记）+ -에요"}]},
-{"korean":"연결","romanization":"yeongyeol","pos":"名词","meaning":"连接","register":"中立","example":"인터넷 연결이 끊겼습니다.","exampleTranslation":"网络连接断了。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"인터넷","meaning":"互联网","note":"名词"},{"text":"연결이","meaning":"连接","note":"연결(连接)+이(主格助词)","isTarget":true},{"text":"끊겼습니다","meaning":"断了","note":"끊기다(被切断)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"연락","romanization":"yeollak","pos":"名词","meaning":"联系","register":"中立","example":"자주 연락을 주세요.","exampleTranslation":"请经常联系我。","sentenceType":"命令句（请求）","formalityLevel":"非格式体敬语（해요体）","grammarBreakdown":[{"text":"자주","meaning":"经常","note":"副词"},{"text":"연락을","meaning":"联系","note":"연락(联系)+을(宾格助词)","isTarget":true},{"text":"주세요","meaning":"请给我","note":"주다(给)的词干+ -시-（尊敬阶标记）+ -어요（请求/命令·非格式体敬语终结词尾）"}]},
-{"korean":"연락처","romanization":"yeollakcheo","pos":"名词","meaning":"联系方式","register":"中立","example":"연락처를 남겼습니다.","exampleTranslation":"留了联系方式。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"연락처를","meaning":"联系方式","note":"연락처(联系方式)+를(宾格助词)","isTarget":true},{"text":"남겼습니다","meaning":"留了","note":"남기다(留下)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"엽서","romanization":"yeopseo","pos":"名词","meaning":"明信片","register":"中立","example":"친구에게 엽서를 보냈습니다.","exampleTranslation":"给朋友寄了明信片。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"친구에게","meaning":"给朋友","note":"친구(朋友)+에게(给……)"},{"text":"엽서를","meaning":"明信片","note":"엽서(明信片)+를(宾格助词)","isTarget":true},{"text":"보냈습니다","meaning":"寄了","note":"보내다(寄)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"예","romanization":"ye","pos":"感叹词","meaning":"是（敬语回应）","register":"敬语","example":"예, 알겠습니다.","exampleTranslation":"是，明白了。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"예","meaning":"是","note":"感叹词，敬语回应","isTarget":true},{"text":"알겠습니다","meaning":"明白了","note":"알다(知道)的词干+ -겠-(婉转推测)+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"우표","romanization":"upyo","pos":"名词","meaning":"邮票","register":"中立","example":"편지에 우표를 붙였습니다.","exampleTranslation":"在信上贴了邮票。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"편지에","meaning":"信上","note":"편지(信)+에(方向助词)"},{"text":"우표를","meaning":"邮票","note":"우표(邮票)+를(宾格助词)","isTarget":true},{"text":"붙였습니다","meaning":"贴了","note":"붙이다(粘贴)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"이야기","romanization":"iyagi","pos":"名词","meaning":"故事，话","register":"中立","example":"재미있는 이야기를 들었습니다.","exampleTranslation":"听了有趣的故事。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"재미있는","meaning":"有趣的","note":"재미있다(有趣)的词干+ -는(冠形词形)"},{"text":"이야기를","meaning":"故事","note":"이야기(故事)+를(宾格助词)","isTarget":true},{"text":"들었습니다","meaning":"听了","note":"듣다(听)的词干变化（ㄷ不规则）+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"인터넷","romanization":"inteonet","pos":"名词","meaning":"互联网","register":"中立","example":"인터넷에 접속했습니다.","exampleTranslation":"连接了互联网。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"인터넷에","meaning":"互联网","note":"인터넷(互联网)+에(方向助词)","isTarget":true},{"text":"접속했습니다","meaning":"连接了","note":"접속하다(连接)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"전화","romanization":"jeonhwa","pos":"名词","meaning":"电话","register":"中立","example":"친구에게 전화를 걸었습니다.","exampleTranslation":"给朋友打了电话。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"친구에게","meaning":"给朋友","note":"친구(朋友)+에게(给……)"},{"text":"전화를","meaning":"电话","note":"전화(电话)+를(宾格助词)","isTarget":true},{"text":"걸었습니다","meaning":"打了","note":"걸다(打电话)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"전화번호","romanization":"jeonhwabeonho","pos":"名词","meaning":"电话号码","register":"中立","example":"전화번호를 물었습니다.","exampleTranslation":"问了电话号码。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"전화번호를","meaning":"电话号码","note":"전화번호(电话号码)+를(宾格助词)","isTarget":true},{"text":"물었습니다","meaning":"问了","note":"묻다(问)的词干变化（ㄷ不规则：收音ㄷ在元音开头的语尾前变为ㄹ）+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"통화","romanization":"tonghwa","pos":"名词","meaning":"通话","register":"中立","example":"오래 통화를 했습니다.","exampleTranslation":"通话了很久。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"오래","meaning":"长久地","note":"副词"},{"text":"통화를","meaning":"通话","note":"통화(通话)+를(宾格助词)","isTarget":true},{"text":"했습니다","meaning":"做了","note":"하다(做)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"편지","romanization":"pyeonji","pos":"名词","meaning":"信","register":"中立","example":"부모님께 편지를 썼습니다.","exampleTranslation":"给父母写了信。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"부모님께","meaning":"给父母（敬语）","note":"부모님(父母,敬语)+께(给……，敬语)"},{"text":"편지를","meaning":"信","note":"편지(信)+를(宾格助词)","isTarget":true},{"text":"썼습니다","meaning":"写了","note":"쓰다(写)的词干（으不规则）+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"프로그램","romanization":"peurogeuraem","pos":"名词","meaning":"节目，程序","register":"中立","example":"재미있는 프로그램을 봤습니다.","exampleTranslation":"看了有趣的节目。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"재미있는","meaning":"有趣的","note":"재미있다(有趣)的词干+ -는(冠形词形)"},{"text":"프로그램을","meaning":"节目","note":"프로그램(节目)+을(宾格助词)","isTarget":true},{"text":"봤습니다","meaning":"看了","note":"보다(看)的词干变化+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"휴대폰","romanization":"hyudaepon","pos":"名词","meaning":"手机","register":"中立","example":"휴대폰으로 사진을 찍었습니다.","exampleTranslation":"用手机拍了照片。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"휴대폰으로","meaning":"用手机","note":"휴대폰(手机)+으로(表工具的助词)","isTarget":true},{"text":"사진을","meaning":"照片","note":"사진(照片)+을(宾格助词)"},{"text":"찍었습니다","meaning":"拍了","note":"찍다(拍)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]}
+  {
+    "korean": "광고",
+    "romanization": "gwanggo",
+    "pos": "名词",
+    "meaning": "广告",
+    "register": "中立",
+    "example": "신문에서 광고를 봤습니다.",
+    "exampleTranslation": "在报纸上看到了广告。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "신문에서",
+        "meaning": "在报纸上",
+        "note": "신문(报纸)+에서(处所助词)"
+      },
+      {
+        "text": "광고를",
+        "meaning": "广告",
+        "note": "광고(广告)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "봤습니다",
+        "meaning": "看到了",
+        "note": "보다(看)的词干变化+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "뉴스",
+    "romanization": "nyuseu",
+    "pos": "名词",
+    "meaning": "新闻",
+    "register": "中立",
+    "example": "저녁마다 뉴스를 봅니다.",
+    "exampleTranslation": "每晚看新闻。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "저녁마다",
+        "meaning": "每晚",
+        "note": "저녁(晚上)+마다(每……)"
+      },
+      {
+        "text": "뉴스를",
+        "meaning": "新闻",
+        "note": "뉴스(新闻)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "봅니다",
+        "meaning": "看",
+        "note": "보다(看)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "대답",
+    "romanization": "daedap",
+    "pos": "名词",
+    "meaning": "回答",
+    "register": "中立",
+    "example": "대답을 기다리고 있습니다.",
+    "exampleTranslation": "正在等待回答。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "대답을",
+        "meaning": "回答",
+        "note": "대답(回答)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "기다리고 있습니다",
+        "meaning": "正在等待",
+        "note": "기다리다(等待)的词干+ -고 있다(正在)+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "대화",
+    "romanization": "daehwa",
+    "pos": "名词",
+    "meaning": "对话",
+    "register": "中立",
+    "example": "친구와 대화를 나눴습니다.",
+    "exampleTranslation": "和朋友进行了对话。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "친구와",
+        "meaning": "和朋友",
+        "note": "친구(朋友)+와(和……)"
+      },
+      {
+        "text": "대화를",
+        "meaning": "对话",
+        "note": "대화(对话)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "나눴습니다",
+        "meaning": "进行了（分享）",
+        "note": "나누다(分享/交谈)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "메시지",
+    "romanization": "mesiji",
+    "pos": "名词",
+    "meaning": "短信，消息",
+    "register": "中立",
+    "example": "메시지를 남겼습니다.",
+    "exampleTranslation": "留了消息。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "메시지를",
+        "meaning": "消息",
+        "note": "메시지(消息)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "남겼습니다",
+        "meaning": "留了",
+        "note": "남기다(留下)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "메일",
+    "romanization": "meil",
+    "pos": "名词",
+    "meaning": "邮件",
+    "register": "中立",
+    "example": "메일을 확인했습니다.",
+    "exampleTranslation": "确认了邮件。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "메일을",
+        "meaning": "邮件",
+        "note": "메일(邮件)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "확인했습니다",
+        "meaning": "确认了",
+        "note": "확인하다(确认)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "방송",
+    "romanization": "bangsong",
+    "pos": "名词",
+    "meaning": "广播，播放",
+    "register": "中立",
+    "example": "방송을 시청했습니다.",
+    "exampleTranslation": "收看了节目。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "방송을",
+        "meaning": "节目",
+        "note": "방송(播放)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "시청했습니다",
+        "meaning": "收看了",
+        "note": "시청하다(收看)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "방송국",
+    "romanization": "bangsongguk",
+    "pos": "名词",
+    "meaning": "广播电台",
+    "register": "中立",
+    "example": "라디오 방송국에서 일합니다.",
+    "exampleTranslation": "在广播电台工作。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "라디오 방송국에서",
+        "meaning": "在广播电台",
+        "note": "라디오(收音机)+방송국(广播电台)+에서(处所助词)",
+        "isTarget": true
+      },
+      {
+        "text": "일합니다",
+        "meaning": "工作",
+        "note": "일하다(工作)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "서류",
+    "romanization": "seoryu",
+    "pos": "名词",
+    "meaning": "文件",
+    "register": "中立",
+    "example": "서류를 정리했습니다.",
+    "exampleTranslation": "整理了文件。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "서류를",
+        "meaning": "文件",
+        "note": "서류(文件)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "정리했습니다",
+        "meaning": "整理了",
+        "note": "정리하다(整理)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "설명",
+    "romanization": "seolmyeong",
+    "pos": "名词",
+    "meaning": "说明",
+    "register": "中立",
+    "example": "자세한 설명을 들었습니다.",
+    "exampleTranslation": "听了详细的说明。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "자세한",
+        "meaning": "详细的",
+        "note": "자세하다(详细)的词干+ -ㄴ(冠形词形)"
+      },
+      {
+        "text": "설명을",
+        "meaning": "说明",
+        "note": "설명(说明)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "들었습니다",
+        "meaning": "听了",
+        "note": "듣다(听)的词干变化（ㄷ不规则：收音ㄷ在元音开头的语尾前变为ㄹ）+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "소식",
+    "romanization": "sosik",
+    "pos": "名词",
+    "meaning": "消息",
+    "register": "中立",
+    "example": "좋은 소식을 들었습니다.",
+    "exampleTranslation": "听到了好消息。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "좋은",
+        "meaning": "好的",
+        "note": "좋다(好)的词干+ -은(冠形词形)"
+      },
+      {
+        "text": "소식을",
+        "meaning": "消息",
+        "note": "소식(消息)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "들었습니다",
+        "meaning": "听了",
+        "note": "듣다(听)的词干变化（ㄷ不规则）+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "신문",
+    "romanization": "sinmun",
+    "pos": "名词",
+    "meaning": "报纸",
+    "register": "中立",
+    "example": "아침마다 신문을 읽습니다.",
+    "exampleTranslation": "每天早上读报纸。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "아침마다",
+        "meaning": "每天早上",
+        "note": "아침(早上)+마다(每……)"
+      },
+      {
+        "text": "신문을",
+        "meaning": "报纸",
+        "note": "신문(报纸)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "읽습니다",
+        "meaning": "读",
+        "note": "읽다(读)的词干+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "신분증",
+    "romanization": "sinbunjeung",
+    "pos": "名词",
+    "meaning": "身份证",
+    "register": "中立",
+    "example": "신분증을 확인했습니다.",
+    "exampleTranslation": "确认了身份证。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "신분증을",
+        "meaning": "身份证",
+        "note": "신분증(身份证)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "확인했습니다",
+        "meaning": "确认了",
+        "note": "확인하다(确认)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "안내문",
+    "romanization": "annaemun",
+    "pos": "名词",
+    "meaning": "通知",
+    "register": "中立",
+    "example": "안내문을 받았습니다.",
+    "exampleTranslation": "收到了通知。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "안내문을",
+        "meaning": "通知",
+        "note": "안내문(通知)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "받았습니다",
+        "meaning": "收到了",
+        "note": "받다(收到)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "여보세요",
+    "romanization": "yeoboseyo",
+    "pos": "感叹词",
+    "meaning": "喂（打电话用语）",
+    "register": "敬语",
+    "example": "여보세요, 거기 누구세요?",
+    "exampleTranslation": "喂，请问是哪位？",
+    "sentenceType": "疑问句",
+    "formalityLevel": "泛尊阶（해요体）",
+    "grammarBreakdown": [
+      {
+        "text": "여보세요",
+        "meaning": "喂",
+        "note": "感叹词，打电话用语",
+        "isTarget": true
+      },
+      {
+        "text": "거기",
+        "meaning": "那里",
+        "note": "代词"
+      },
+      {
+        "text": "누구세요",
+        "meaning": "是谁（敬语）",
+        "note": "누구(谁)+시-（尊敬阶标记）+ -에요"
+      }
+    ]
+  },
+  {
+    "korean": "연결",
+    "romanization": "yeongyeol",
+    "pos": "名词",
+    "meaning": "连接",
+    "register": "中立",
+    "example": "인터넷 연결이 끊겼습니다.",
+    "exampleTranslation": "网络连接断了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "인터넷",
+        "meaning": "互联网",
+        "note": "名词"
+      },
+      {
+        "text": "연결이",
+        "meaning": "连接",
+        "note": "연결(连接)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "끊겼습니다",
+        "meaning": "断了",
+        "note": "끊기다(被切断)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "연락",
+    "romanization": "yeollak",
+    "pos": "名词",
+    "meaning": "联系",
+    "register": "中立",
+    "example": "자주 연락을 주세요.",
+    "exampleTranslation": "请经常联系我。",
+    "sentenceType": "命令句（请求）",
+    "formalityLevel": "泛尊阶（해요体）",
+    "grammarBreakdown": [
+      {
+        "text": "자주",
+        "meaning": "经常",
+        "note": "副词"
+      },
+      {
+        "text": "연락을",
+        "meaning": "联系",
+        "note": "연락(联系)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "주세요",
+        "meaning": "请给我",
+        "note": "주다(给)的词干+ -시-（尊敬阶标记）+ -어요（请求/命令·泛尊阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "연락처",
+    "romanization": "yeollakcheo",
+    "pos": "名词",
+    "meaning": "联系方式",
+    "register": "中立",
+    "example": "연락처를 남겼습니다.",
+    "exampleTranslation": "留了联系方式。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "연락처를",
+        "meaning": "联系方式",
+        "note": "연락처(联系方式)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "남겼습니다",
+        "meaning": "留了",
+        "note": "남기다(留下)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "엽서",
+    "romanization": "yeopseo",
+    "pos": "名词",
+    "meaning": "明信片",
+    "register": "中立",
+    "example": "친구에게 엽서를 보냈습니다.",
+    "exampleTranslation": "给朋友寄了明信片。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "친구에게",
+        "meaning": "给朋友",
+        "note": "친구(朋友)+에게(给……)"
+      },
+      {
+        "text": "엽서를",
+        "meaning": "明信片",
+        "note": "엽서(明信片)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "보냈습니다",
+        "meaning": "寄了",
+        "note": "보내다(寄)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "예",
+    "romanization": "ye",
+    "pos": "感叹词",
+    "meaning": "是（敬语回应）",
+    "register": "敬语",
+    "example": "예, 알겠습니다.",
+    "exampleTranslation": "是，明白了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "예",
+        "meaning": "是",
+        "note": "感叹词，敬语回应",
+        "isTarget": true
+      },
+      {
+        "text": "알겠습니다",
+        "meaning": "明白了",
+        "note": "알다(知道)的词干+ -겠-(婉转推测)+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "우표",
+    "romanization": "upyo",
+    "pos": "名词",
+    "meaning": "邮票",
+    "register": "中立",
+    "example": "편지에 우표를 붙였습니다.",
+    "exampleTranslation": "在信上贴了邮票。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "편지에",
+        "meaning": "信上",
+        "note": "편지(信)+에(方向助词)"
+      },
+      {
+        "text": "우표를",
+        "meaning": "邮票",
+        "note": "우표(邮票)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "붙였습니다",
+        "meaning": "贴了",
+        "note": "붙이다(粘贴)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "이야기",
+    "romanization": "iyagi",
+    "pos": "名词",
+    "meaning": "故事，话",
+    "register": "中立",
+    "example": "재미있는 이야기를 들었습니다.",
+    "exampleTranslation": "听了有趣的故事。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "재미있는",
+        "meaning": "有趣的",
+        "note": "재미있다(有趣)的词干+ -는(冠形词形)"
+      },
+      {
+        "text": "이야기를",
+        "meaning": "故事",
+        "note": "이야기(故事)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "들었습니다",
+        "meaning": "听了",
+        "note": "듣다(听)的词干变化（ㄷ不规则）+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "인터넷",
+    "romanization": "inteonet",
+    "pos": "名词",
+    "meaning": "互联网",
+    "register": "中立",
+    "example": "인터넷에 접속했습니다.",
+    "exampleTranslation": "连接了互联网。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "인터넷에",
+        "meaning": "互联网",
+        "note": "인터넷(互联网)+에(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "접속했습니다",
+        "meaning": "连接了",
+        "note": "접속하다(连接)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "전화",
+    "romanization": "jeonhwa",
+    "pos": "名词",
+    "meaning": "电话",
+    "register": "中立",
+    "example": "친구에게 전화를 걸었습니다.",
+    "exampleTranslation": "给朋友打了电话。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "친구에게",
+        "meaning": "给朋友",
+        "note": "친구(朋友)+에게(给……)"
+      },
+      {
+        "text": "전화를",
+        "meaning": "电话",
+        "note": "전화(电话)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "걸었습니다",
+        "meaning": "打了",
+        "note": "걸다(打电话)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "전화번호",
+    "romanization": "jeonhwabeonho",
+    "pos": "名词",
+    "meaning": "电话号码",
+    "register": "中立",
+    "example": "전화번호를 물었습니다.",
+    "exampleTranslation": "问了电话号码。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "전화번호를",
+        "meaning": "电话号码",
+        "note": "전화번호(电话号码)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "물었습니다",
+        "meaning": "问了",
+        "note": "묻다(问)的词干变化（ㄷ不规则：收音ㄷ在元音开头的语尾前变为ㄹ）+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "통화",
+    "romanization": "tonghwa",
+    "pos": "名词",
+    "meaning": "通话",
+    "register": "中立",
+    "example": "오래 통화를 했습니다.",
+    "exampleTranslation": "通话了很久。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "오래",
+        "meaning": "长久地",
+        "note": "副词"
+      },
+      {
+        "text": "통화를",
+        "meaning": "通话",
+        "note": "통화(通话)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "했습니다",
+        "meaning": "做了",
+        "note": "하다(做)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "편지",
+    "romanization": "pyeonji",
+    "pos": "名词",
+    "meaning": "信",
+    "register": "中立",
+    "example": "부모님께 편지를 썼습니다.",
+    "exampleTranslation": "给父母写了信。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "부모님께",
+        "meaning": "给父母（敬语）",
+        "note": "부모님(父母,敬语)+께(给……，敬语)"
+      },
+      {
+        "text": "편지를",
+        "meaning": "信",
+        "note": "편지(信)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "썼습니다",
+        "meaning": "写了",
+        "note": "쓰다(写)的词干（으不规则）+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "프로그램",
+    "romanization": "peurogeuraem",
+    "pos": "名词",
+    "meaning": "节目，程序",
+    "register": "中立",
+    "example": "재미있는 프로그램을 봤습니다.",
+    "exampleTranslation": "看了有趣的节目。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "재미있는",
+        "meaning": "有趣的",
+        "note": "재미있다(有趣)的词干+ -는(冠形词形)"
+      },
+      {
+        "text": "프로그램을",
+        "meaning": "节目",
+        "note": "프로그램(节目)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "봤습니다",
+        "meaning": "看了",
+        "note": "보다(看)的词干变化+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "휴대폰",
+    "romanization": "hyudaepon",
+    "pos": "名词",
+    "meaning": "手机",
+    "register": "中立",
+    "example": "휴대폰으로 사진을 찍었습니다.",
+    "exampleTranslation": "用手机拍了照片。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "휴대폰으로",
+        "meaning": "用手机",
+        "note": "휴대폰(手机)+으로(表工具的助词)",
+        "isTarget": true
+      },
+      {
+        "text": "사진을",
+        "meaning": "照片",
+        "note": "사진(照片)+을(宾格助词)"
+      },
+      {
+        "text": "찍었습니다",
+        "meaning": "拍了",
+        "note": "찍다(拍)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  }
 ]

@@ -1,52 +1,1484 @@
 [
-{"korean":"갈아타다","romanization":"garatada","pos":"动词","meaning":"换乘","register":"中立","example":"버스에서 지하철로 갈아탔습니다.","exampleTranslation":"从公交车换乘到了地铁。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"버스에서","meaning":"从公交车","note":"버스(公交车)+에서(表来源的处所助词)"},{"text":"지하철로","meaning":"往地铁","note":"지하철(地铁)+로(方向助词)"},{"text":"갈아탔습니다","meaning":"换乘了","note":"갈아타다(换乘)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）","isTarget":true}]},
-{"korean":"걸어가다","romanization":"georeogada","pos":"动词","meaning":"走着去","register":"中立","example":"학교까지 걸어갔습니다.","exampleTranslation":"走着去了学校。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"학교까지","meaning":"到学校","note":"학교(学校)+까지(到……为止)"},{"text":"걸어갔습니다","meaning":"走着去了","note":"걸어가다(走着去)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）","isTarget":true}]},
-{"korean":"걸어오다","romanization":"georeooda","pos":"动词","meaning":"走着来","register":"中立","example":"집까지 걸어왔습니다.","exampleTranslation":"走着来到了家。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"집까지","meaning":"到家","note":"집(家)+까지(到……为止)"},{"text":"걸어왔습니다","meaning":"走着来了","note":"걸어오다(走着来)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）","isTarget":true}]},
-{"korean":"경치","romanization":"gyeongchi","pos":"名词","meaning":"风景","register":"中立","example":"산 위에서 보는 경치가 아름답습니다.","exampleTranslation":"从山上看到的风景很美。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"산 위에서","meaning":"从山上","note":"산(山)+위(上面)+에서(处所助词)"},{"text":"보는","meaning":"看到的","note":"보다(看)的词干+ -는(冠形词形)"},{"text":"경치가","meaning":"风景","note":"경치(风景)+가(主格助词)","isTarget":true},{"text":"아름답습니다","meaning":"美丽","note":"아름답다(美丽)的词干+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"고속버스","romanization":"gosokbeoseu","pos":"名词","meaning":"高速客车","register":"中立","example":"고속버스를 타고 부산에 갔습니다.","exampleTranslation":"坐高速客车去了釜山。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"고속버스를","meaning":"高速客车","note":"고속버스(高速客车)+를(宾格助词)","isTarget":true},{"text":"타고","meaning":"乘坐之后","note":"타다(乘坐)的词干+ -고(然后)"},{"text":"부산에","meaning":"釜山","note":"부산(釜山)+에(方向助词)"},{"text":"갔습니다","meaning":"去了","note":"가다(去)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"관광","romanization":"gwangwang","pos":"名词","meaning":"观光","register":"中立","example":"이번 주말에 관광을 갈 겁니다.","exampleTranslation":"这周末要去观光。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"이번 주말에","meaning":"这周末","note":"이번(这次)+주말(周末)+에(时间助词)"},{"text":"관광을","meaning":"观光","note":"관광(观光)+을(宾格助词)","isTarget":true},{"text":"갈 겁니다","meaning":"要去","note":"가다(去)的词干+ -ㄹ 것이다(将要)+ -ㅂ니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"관광객","romanization":"gwangwanggaek","pos":"名词","meaning":"游客","register":"中立","example":"이곳에는 외국인 관광객이 많습니다.","exampleTranslation":"这里有很多外国游客。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"이곳에는","meaning":"这个地方","note":"이곳(这个地方)+에(处所)+는(强调)"},{"text":"외국인","meaning":"外国人","note":"名词"},{"text":"관광객이","meaning":"游客","note":"관광객(游客)+이(主格助词)","isTarget":true},{"text":"많습니다","meaning":"多","note":"많다(多)的词干+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"관광지","romanization":"gwangwangji","pos":"名词","meaning":"旅游景点","register":"中立","example":"유명한 관광지를 구경했습니다.","exampleTranslation":"参观了有名的旅游景点。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"유명한","meaning":"有名的","note":"유명하다(有名)的词干+ -ㄴ(冠形词形)"},{"text":"관광지를","meaning":"旅游景点","note":"관광지(旅游景点)+를(宾格助词)","isTarget":true},{"text":"구경했습니다","meaning":"参观了","note":"구경하다(参观)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"교통","romanization":"gyotong","pos":"名词","meaning":"交通","register":"中立","example":"이 도시는 교통이 편리합니다.","exampleTranslation":"这个城市交通很方便。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"이 도시는","meaning":"这个城市","note":"이(这)+도시(城市)+는(主题助词)"},{"text":"교통이","meaning":"交通","note":"교통(交通)+이(主格助词)","isTarget":true},{"text":"편리합니다","meaning":"方便","note":"편리하다(方便)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"교통비","romanization":"gyotongbi","pos":"名词","meaning":"交通费","register":"中立","example":"한 달 교통비가 꽤 듭니다.","exampleTranslation":"一个月的交通费花费不少。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"한 달","meaning":"一个月","note":"한(一)+달(月)"},{"text":"교통비가","meaning":"交通费","note":"교통비(交通费)+가(主格助词)","isTarget":true},{"text":"꽤","meaning":"相当","note":"副词"},{"text":"듭니다","meaning":"花费","note":"들다(花费)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"교통사고","romanization":"gyotongsago","pos":"名词","meaning":"交通事故","register":"中立","example":"어제 교통사고가 났습니다.","exampleTranslation":"昨天发生了交通事故。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"어제","meaning":"昨天","note":"名词"},{"text":"교통사고가","meaning":"交通事故","note":"교통사고(交通事故)+가(主格助词)","isTarget":true},{"text":"났습니다","meaning":"发生了","note":"나다(发生)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"국내","romanization":"gungnae","pos":"名词","meaning":"国内","register":"中立","example":"이번에는 국내 여행을 가기로 했습니다.","exampleTranslation":"这次决定去国内旅行。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"이번에는","meaning":"这次","note":"이번(这次)+에(时间)+는(强调)"},{"text":"국내 여행을","meaning":"国内旅行","note":"국내(国内)+여행(旅行)+을(宾格助词)","isTarget":true},{"text":"가기로 했습니다","meaning":"决定去了","note":"가다(去)的词干+ -기로 하다(决定做……)+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"국제","romanization":"gukje","pos":"名词","meaning":"国际","register":"中立","example":"국제 공항에서 친구를 배웅했습니다.","exampleTranslation":"在国际机场送别了朋友。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"국제 공항에서","meaning":"国际机场","note":"국제(国际)+공항(机场)+에서(处所助词)","isTarget":true},{"text":"친구를","meaning":"朋友","note":"친구(朋友)+를(宾格助词)"},{"text":"배웅했습니다","meaning":"送别了","note":"배웅하다(送别)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"기차","romanization":"gicha","pos":"名词","meaning":"火车","register":"中立","example":"기차를 타고 여행을 갑니다.","exampleTranslation":"坐火车去旅行。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"기차를","meaning":"火车","note":"기차(火车)+를(宾格助词)","isTarget":true},{"text":"타고","meaning":"乘坐之后","note":"타다(乘坐)的词干+ -고(然后)"},{"text":"여행을","meaning":"旅行","note":"여행(旅行)+을(宾格助词)"},{"text":"갑니다","meaning":"去","note":"가다(去)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"기차역","romanization":"gichayeok","pos":"名词","meaning":"火车站","register":"中立","example":"기차역에 일찍 도착했습니다.","exampleTranslation":"提前到达了火车站。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"기차역에","meaning":"火车站","note":"기차역(火车站)+에(方向助词)","isTarget":true},{"text":"일찍","meaning":"早早地","note":"副词"},{"text":"도착했습니다","meaning":"到达了","note":"도착하다(到达)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"기차표","romanization":"gichapyo","pos":"名词","meaning":"火车票","register":"中立","example":"기차표를 미리 끊었습니다.","exampleTranslation":"提前买好了火车票。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"기차표를","meaning":"火车票","note":"기차표(火车票)+를(宾格助词)","isTarget":true},{"text":"미리","meaning":"事先","note":"副词"},{"text":"끊었습니다","meaning":"买好了","note":"끊다(买票)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"다리","romanization":"dari","pos":"名词","meaning":"桥","register":"中立","homonymIndex":"02","example":"다리를 건너서 갔습니다.","exampleTranslation":"过了桥去了。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"다리를","meaning":"桥","note":"다리(桥)+를(宾格助词)","isTarget":true},{"text":"건너서","meaning":"过了之后","note":"건너다(过)的词干+ -어서(先后)"},{"text":"갔습니다","meaning":"去了","note":"가다(去)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"막히다","romanization":"makhida","pos":"动词","meaning":"堵塞","register":"中立","example":"퇴근 시간에는 길이 많이 막힙니다.","exampleTranslation":"下班时间路上很堵。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"퇴근 시간에는","meaning":"下班时间","note":"퇴근(下班)+시간(时间)+에(时间)+는(强调)"},{"text":"길이","meaning":"路","note":"길(路)+이(主格助词)"},{"text":"많이","meaning":"很","note":"副词"},{"text":"막힙니다","meaning":"堵塞","note":"막히다(堵塞)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）","isTarget":true}]},
-{"korean":"배","romanization":"bae","pos":"名词","meaning":"船","register":"中立","homonymIndex":"02","example":"배를 타고 섬에 갔습니다.","exampleTranslation":"坐船去了岛上。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"배를","meaning":"船","note":"배(船)+를(宾格助词)","isTarget":true},{"text":"타고","meaning":"乘坐之后","note":"타다(乘坐)的词干+ -고(然后)"},{"text":"섬에","meaning":"岛上","note":"섬(岛)+에(方向助词)"},{"text":"갔습니다","meaning":"去了","note":"가다(去)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"버스","romanization":"beoseu","pos":"名词","meaning":"公交车","register":"中立","example":"버스를 타고 학교에 갑니다.","exampleTranslation":"坐公交车去学校。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"버스를","meaning":"公交车","note":"버스(公交车)+를(宾格助词)","isTarget":true},{"text":"타고","meaning":"乘坐之后","note":"타다(乘坐)的词干+ -고(然后)"},{"text":"학교에","meaning":"学校","note":"학교(学校)+에(方向助词)"},{"text":"갑니다","meaning":"去","note":"가다(去)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"비행기","romanization":"bihaenggi","pos":"名词","meaning":"飞机","register":"中立","example":"비행기를 타고 미국에 갔습니다.","exampleTranslation":"坐飞机去了美国。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"비행기를","meaning":"飞机","note":"비행기(飞机)+를(宾格助词)","isTarget":true},{"text":"타고","meaning":"乘坐之后","note":"타다(乘坐)的词干+ -고(然后)"},{"text":"미국에","meaning":"美国","note":"미국(美国)+에(方向助词)"},{"text":"갔습니다","meaning":"去了","note":"가다(去)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"세계","romanization":"segye","pos":"名词","meaning":"世界","register":"中立","example":"세계 여행을 하는 게 꿈입니다.","exampleTranslation":"环游世界是我的梦想。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"세계 여행을 하는 게","meaning":"环游世界这件事","note":"세계(世界)+여행(旅行)+을(宾格助词)+하다(做)+ -는(冠形词形)+것이(这件事)的口语缩略'게'","isTarget":true},{"text":"꿈입니다","meaning":"是梦想","note":"꿈(梦想)+이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"신호등","romanization":"sinhodeung","pos":"名词","meaning":"信号灯","register":"中立","example":"신호등이 빨간불이라서 멈췄습니다.","exampleTranslation":"信号灯是红灯所以停下了。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"신호등이","meaning":"信号灯","note":"신호등(信号灯)+이(主格助词)","isTarget":true},{"text":"빨간불이라서","meaning":"是红灯，所以","note":"빨간불(红灯)+이다+ -라서(因为是……)"},{"text":"멈췄습니다","meaning":"停下了","note":"멈추다(停止)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"신혼여행","romanization":"sinhonyeohaeng","pos":"名词","meaning":"蜜月旅行","register":"中立","example":"신혼여행으로 제주도에 갔습니다.","exampleTranslation":"去济州岛蜜月旅行了。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"신혼여행으로","meaning":"作为蜜月旅行","note":"신혼여행(蜜月旅行)+으로(表方式/目的)","isTarget":true},{"text":"제주도에","meaning":"济州岛","note":"제주도(济州岛)+에(方向助词)"},{"text":"갔습니다","meaning":"去了","note":"가다(去)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"여권","romanization":"yeogwon","pos":"名词","meaning":"护照","register":"中立","example":"여권을 새로 발급받았습니다.","exampleTranslation":"重新办了护照。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"여권을","meaning":"护照","note":"여권(护照)+을(宾格助词)","isTarget":true},{"text":"새로","meaning":"重新","note":"副词"},{"text":"발급받았습니다","meaning":"领取了","note":"발급받다(领取)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"여행","romanization":"yeohaeng","pos":"名词","meaning":"旅行","register":"中立","example":"저는 여행을 아주 좋아합니다.","exampleTranslation":"我非常喜欢旅行。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"저는","meaning":"我","note":"저(我)+는(主题助词)"},{"text":"여행을","meaning":"旅行","note":"여행(旅行)+을(宾格助词)","isTarget":true},{"text":"아주","meaning":"非常","note":"副词"},{"text":"좋아합니다","meaning":"喜欢","note":"좋아하다(喜欢)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"여행사","romanization":"yeohaengsa","pos":"名词","meaning":"旅行社","register":"中立","example":"여행사에서 티켓을 예약했습니다.","exampleTranslation":"在旅行社预订了票。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"여행사에서","meaning":"在旅行社","note":"여행사(旅行社)+에서(处所助词)","isTarget":true},{"text":"티켓을","meaning":"票","note":"티켓(票)+을(宾格助词)"},{"text":"예약했습니다","meaning":"预订了","note":"예약하다(预订)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"여행지","romanization":"yeohaengji","pos":"名词","meaning":"旅游目的地","register":"中立","example":"이번 여행지는 아직 정하지 않았습니다.","exampleTranslation":"这次的旅游目的地还没定。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"이번","meaning":"这次","note":"冠形词"},{"text":"여행지는","meaning":"旅游目的地","note":"여행지(旅游目的地)+는(主题助词)","isTarget":true},{"text":"아직","meaning":"还","note":"副词"},{"text":"정하지 않았습니다","meaning":"没有决定","note":"정하다(决定)的词干+ -지 않다(不……)+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"외국","romanization":"oeguk","pos":"名词","meaning":"外国","register":"中立","example":"외국에서 유학하고 싶습니다.","exampleTranslation":"想在外国留学。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"외국에서","meaning":"在外国","note":"외국(外国)+에서(处所助词)","isTarget":true},{"text":"유학하고 싶습니다","meaning":"想留学","note":"유학하다(留学)的词干+ -고 싶다(想要)+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"외국어","romanization":"oegugeo","pos":"名词","meaning":"外语","register":"中立","example":"외국어를 하나 더 배우고 싶습니다.","exampleTranslation":"想再学一门外语。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"외국어를","meaning":"外语","note":"외국어(外语)+를(宾格助词)","isTarget":true},{"text":"하나","meaning":"一个","note":"固有数字"},{"text":"더","meaning":"再","note":"副词"},{"text":"배우고 싶습니다","meaning":"想学","note":"배우다(学)的词干+ -고 싶다(想要)+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"운전","romanization":"unjeon","pos":"名词","meaning":"开车","register":"中立","example":"운전을 조심해서 하세요.","exampleTranslation":"请小心开车。","sentenceType":"命令句（请求）","formalityLevel":"非格式体敬语（해요体）","grammarBreakdown":[{"text":"운전을","meaning":"开车","note":"운전(开车)+을(宾格助词)","isTarget":true},{"text":"조심해서","meaning":"小心地","note":"조심하다(小心)的词干+ -해서(表方式)"},{"text":"하세요","meaning":"请做","note":"하다(做)的词干+ -시-（尊敬阶标记）+ -어요（请求/命令·非格式体敬语终结词尾）"}]},
-{"korean":"운전사","romanization":"unjeonsa","pos":"名词","meaning":"司机","register":"中立","example":"버스 운전사가 친절합니다.","exampleTranslation":"公交车司机很亲切。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"버스 운전사가","meaning":"公交车司机","note":"버스(公交车)+운전사(司机)+가(主格助词)","isTarget":true},{"text":"친절합니다","meaning":"亲切","note":"친절하다(亲切)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"자동차","romanization":"jadongcha","pos":"名词","meaning":"汽车","register":"中立","example":"새 자동차를 샀습니다.","exampleTranslation":"买了新汽车。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"새","meaning":"新的","note":"冠形词"},{"text":"자동차를","meaning":"汽车","note":"자동차(汽车)+를(宾格助词)","isTarget":true},{"text":"샀습니다","meaning":"买了","note":"사다(买)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"자전거","romanization":"jajeongeo","pos":"名词","meaning":"自行车","register":"中立","example":"자전거를 타고 공원에 갔습니다.","exampleTranslation":"骑自行车去了公园。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"자전거를","meaning":"自行车","note":"자전거(自行车)+를(宾格助词)","isTarget":true},{"text":"타고","meaning":"骑着","note":"타다(骑)的词干+ -고(然后)"},{"text":"공원에","meaning":"公园","note":"공원(公园)+에(方向助词)"},{"text":"갔습니다","meaning":"去了","note":"가다(去)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"전철","romanization":"jeoncheol","pos":"名词","meaning":"电车","register":"中立","example":"전철을 타고 출근합니다.","exampleTranslation":"坐电车上班。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"전철을","meaning":"电车","note":"전철(电车)+을(宾格助词)","isTarget":true},{"text":"타고","meaning":"坐着","note":"타다(乘坐)的词干+ -고(然后)"},{"text":"출근합니다","meaning":"上班","note":"출근하다(上班)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"지도","romanization":"jido","pos":"名词","meaning":"地图","register":"中立","example":"지도를 보면서 길을 찾았습니다.","exampleTranslation":"看着地图找了路。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"지도를","meaning":"地图","note":"지도(地图)+를(宾格助词)","isTarget":true},{"text":"보면서","meaning":"一边看","note":"보다(看)的词干+ -면서(一边……一边……)"},{"text":"길을","meaning":"路","note":"길(路)+을(宾格助词)"},{"text":"찾았습니다","meaning":"找到了","note":"찾다(找)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"지하철","romanization":"jihacheol","pos":"名词","meaning":"地铁","register":"中立","example":"지하철을 타면 빠릅니다.","exampleTranslation":"坐地铁的话很快。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"지하철을","meaning":"地铁","note":"지하철(地铁)+을(宾格助词)","isTarget":true},{"text":"타면","meaning":"坐的话","note":"타다(坐)的词干+ -면(如果……的话)"},{"text":"빠릅니다","meaning":"快","note":"빠르다(快)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"짐","romanization":"jim","pos":"名词","meaning":"行李","register":"中立","example":"짐을 다 쌌습니다.","exampleTranslation":"行李都收拾好了。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"짐을","meaning":"行李","note":"짐(行李)+을(宾格助词)","isTarget":true},{"text":"다","meaning":"都","note":"副词"},{"text":"쌌습니다","meaning":"收拾了","note":"싸다(收拾/包)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"출구","romanization":"chulgu","pos":"名词","meaning":"出口","register":"中立","example":"삼 번 출구로 나오세요.","exampleTranslation":"请从三号出口出来。","sentenceType":"命令句（请求）","formalityLevel":"非格式体敬语（해요体）","grammarBreakdown":[{"text":"삼 번 출구로","meaning":"三号出口","note":"삼(三)+번(号)+출구(出口)+로(方向助词)","isTarget":true},{"text":"나오세요","meaning":"请出来","note":"나오다(出来)的词干+ -시-（尊敬阶标记）+ -어요（请求/命令·非格式体敬语终结词尾）"}]},
-{"korean":"출발","romanization":"chulbal","pos":"名词","meaning":"出发","register":"中立","example":"아침 일찍 출발했습니다.","exampleTranslation":"早上早早出发了。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"아침","meaning":"早上","note":"名词/副词"},{"text":"일찍","meaning":"早早地","note":"副词"},{"text":"출발했습니다","meaning":"出发了","note":"출발하다(出发)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）","isTarget":true}]},
-{"korean":"출입","romanization":"churip","pos":"名词","meaning":"出入","register":"中立","example":"이곳은 출입을 통제하고 있습니다.","exampleTranslation":"这个地方正在管制出入。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"이곳은","meaning":"这个地方","note":"이곳(这个地方)+은(主题助词)"},{"text":"출입을","meaning":"出入","note":"출입(出入)+을(宾格助词)","isTarget":true},{"text":"통제하고 있습니다","meaning":"正在管制","note":"통제하다(管制)的词干+ -고 있다(正在)+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"출입국","romanization":"churipguk","pos":"名词","meaning":"出入境","register":"中立","example":"출입국 사무소에서 서류를 받았습니다.","exampleTranslation":"在出入境事务所拿到了文件。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"출입국 사무소에서","meaning":"出入境事务所","note":"출입국(出入境)+사무소(事务所)+에서(处所助词)","isTarget":true},{"text":"서류를","meaning":"文件","note":"서류(文件)+를(宾格助词)"},{"text":"받았습니다","meaning":"拿到了","note":"받다(收到)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"태극기","romanization":"taegeukgi","pos":"名词","meaning":"太极旗（韩国国旗）","register":"中立","example":"태극기가 바람에 펄럭입니다.","exampleTranslation":"太极旗在风中飘扬。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"태극기가","meaning":"太极旗","note":"태극기(太极旗)+가(主格助词)","isTarget":true},{"text":"바람에","meaning":"在风中","note":"바람(风)+에(方式/原因助词)"},{"text":"펄럭입니다","meaning":"飘扬","note":"펄럭이다(飘扬)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"택시","romanization":"taeksi","pos":"名词","meaning":"出租车","register":"中立","example":"택시를 타고 집에 갔습니다.","exampleTranslation":"坐出租车回了家。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"택시를","meaning":"出租车","note":"택시(出租车)+를(宾格助词)","isTarget":true},{"text":"타고","meaning":"坐着","note":"타다(乘坐)的词干+ -고(然后)"},{"text":"집에","meaning":"家","note":"집(家)+에(方向助词)"},{"text":"갔습니다","meaning":"回去了","note":"가다(去)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"트럭","romanization":"teureok","pos":"名词","meaning":"卡车","register":"中立","example":"트럭으로 짐을 옮겼습니다.","exampleTranslation":"用卡车运了行李。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"트럭으로","meaning":"用卡车","note":"트럭(卡车)+으로(表手段的助词)","isTarget":true},{"text":"짐을","meaning":"行李","note":"짐(行李)+을(宾格助词)"},{"text":"옮겼습니다","meaning":"运了","note":"옮기다(搬运)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"풍경","romanization":"punggyeong","pos":"名词","meaning":"风景","register":"中立","example":"창밖 풍경이 아름답습니다.","exampleTranslation":"窗外的风景很美。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"창밖","meaning":"窗外","note":"창(窗)+밖(外面)"},{"text":"풍경이","meaning":"风景","note":"풍경(风景)+이(主格助词)","isTarget":true},{"text":"아름답습니다","meaning":"美丽","note":"아름답다(美丽)的词干+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"항공","romanization":"hanggong","pos":"名词","meaning":"航空","register":"中立","example":"항공 요금이 올랐습니다.","exampleTranslation":"航空费涨价了。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"항공 요금이","meaning":"航空费","note":"항공(航空)+요금(费用)+이(主格助词)","isTarget":true},{"text":"올랐습니다","meaning":"涨了","note":"오르다(上涨)的词干变化（르不规则）+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"항공권","romanization":"hanggonggwon","pos":"名词","meaning":"机票","register":"中立","example":"항공권을 미리 예매했습니다.","exampleTranslation":"提前订好了机票。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"항공권을","meaning":"机票","note":"항공권(机票)+을(宾格助词)","isTarget":true},{"text":"미리","meaning":"事先","note":"副词"},{"text":"예매했습니다","meaning":"订了","note":"예매하다(预订)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"해외","romanization":"haeoe","pos":"名词","meaning":"海外","register":"中立","example":"해외에서 일하고 싶습니다.","exampleTranslation":"想在海外工作。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"해외에서","meaning":"在海外","note":"해외(海外)+에서(处所助词)","isTarget":true},{"text":"일하고 싶습니다","meaning":"想工作","note":"일하다(工作)的词干+ -고 싶다(想要)+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"해외여행","romanization":"haeoeyeohaeng","pos":"名词","meaning":"海外旅行","register":"中立","example":"해외여행을 계획하고 있습니다.","exampleTranslation":"正在计划海外旅行。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"해외여행을","meaning":"海外旅行","note":"해외여행(海外旅行)+을(宾格助词)","isTarget":true},{"text":"계획하고 있습니다","meaning":"正在计划","note":"계획하다(计划)的词干+ -고 있다(正在)+ -습니다（陈述句·格式体敬语终结词尾）"}]}
+  {
+    "korean": "갈아타다",
+    "romanization": "garatada",
+    "pos": "动词",
+    "meaning": "换乘",
+    "register": "中立",
+    "example": "버스에서 지하철로 갈아탔습니다.",
+    "exampleTranslation": "从公交车换乘到了地铁。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "버스에서",
+        "meaning": "从公交车",
+        "note": "버스(公交车)+에서(表来源的处所助词)"
+      },
+      {
+        "text": "지하철로",
+        "meaning": "往地铁",
+        "note": "지하철(地铁)+로(方向助词)"
+      },
+      {
+        "text": "갈아탔습니다",
+        "meaning": "换乘了",
+        "note": "갈아타다(换乘)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "걸어가다",
+    "romanization": "georeogada",
+    "pos": "动词",
+    "meaning": "走着去",
+    "register": "中立",
+    "example": "학교까지 걸어갔습니다.",
+    "exampleTranslation": "走着去了学校。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "학교까지",
+        "meaning": "到学校",
+        "note": "학교(学校)+까지(到……为止)"
+      },
+      {
+        "text": "걸어갔습니다",
+        "meaning": "走着去了",
+        "note": "걸어가다(走着去)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "걸어오다",
+    "romanization": "georeooda",
+    "pos": "动词",
+    "meaning": "走着来",
+    "register": "中立",
+    "example": "집까지 걸어왔습니다.",
+    "exampleTranslation": "走着来到了家。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "집까지",
+        "meaning": "到家",
+        "note": "집(家)+까지(到……为止)"
+      },
+      {
+        "text": "걸어왔습니다",
+        "meaning": "走着来了",
+        "note": "걸어오다(走着来)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "경치",
+    "romanization": "gyeongchi",
+    "pos": "名词",
+    "meaning": "风景",
+    "register": "中立",
+    "example": "산 위에서 보는 경치가 아름답습니다.",
+    "exampleTranslation": "从山上看到的风景很美。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "산 위에서",
+        "meaning": "从山上",
+        "note": "산(山)+위(上面)+에서(处所助词)"
+      },
+      {
+        "text": "보는",
+        "meaning": "看到的",
+        "note": "보다(看)的词干+ -는(冠形词形)"
+      },
+      {
+        "text": "경치가",
+        "meaning": "风景",
+        "note": "경치(风景)+가(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "아름답습니다",
+        "meaning": "美丽",
+        "note": "아름답다(美丽)的词干+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "고속버스",
+    "romanization": "gosokbeoseu",
+    "pos": "名词",
+    "meaning": "高速客车",
+    "register": "中立",
+    "example": "고속버스를 타고 부산에 갔습니다.",
+    "exampleTranslation": "坐高速客车去了釜山。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "고속버스를",
+        "meaning": "高速客车",
+        "note": "고속버스(高速客车)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "타고",
+        "meaning": "乘坐之后",
+        "note": "타다(乘坐)的词干+ -고(然后)"
+      },
+      {
+        "text": "부산에",
+        "meaning": "釜山",
+        "note": "부산(釜山)+에(方向助词)"
+      },
+      {
+        "text": "갔습니다",
+        "meaning": "去了",
+        "note": "가다(去)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "관광",
+    "romanization": "gwangwang",
+    "pos": "名词",
+    "meaning": "观光",
+    "register": "中立",
+    "example": "이번 주말에 관광을 갈 겁니다.",
+    "exampleTranslation": "这周末要去观光。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "이번 주말에",
+        "meaning": "这周末",
+        "note": "이번(这次)+주말(周末)+에(时间助词)"
+      },
+      {
+        "text": "관광을",
+        "meaning": "观光",
+        "note": "관광(观光)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "갈 겁니다",
+        "meaning": "要去",
+        "note": "가다(去)的词干+ -ㄹ 것이다(将要)+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "관광객",
+    "romanization": "gwangwanggaek",
+    "pos": "名词",
+    "meaning": "游客",
+    "register": "中立",
+    "example": "이곳에는 외국인 관광객이 많습니다.",
+    "exampleTranslation": "这里有很多外国游客。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "이곳에는",
+        "meaning": "这个地方",
+        "note": "이곳(这个地方)+에(处所)+는(强调)"
+      },
+      {
+        "text": "외국인",
+        "meaning": "外国人",
+        "note": "名词"
+      },
+      {
+        "text": "관광객이",
+        "meaning": "游客",
+        "note": "관광객(游客)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "많습니다",
+        "meaning": "多",
+        "note": "많다(多)的词干+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "관광지",
+    "romanization": "gwangwangji",
+    "pos": "名词",
+    "meaning": "旅游景点",
+    "register": "中立",
+    "example": "유명한 관광지를 구경했습니다.",
+    "exampleTranslation": "参观了有名的旅游景点。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "유명한",
+        "meaning": "有名的",
+        "note": "유명하다(有名)的词干+ -ㄴ(冠形词形)"
+      },
+      {
+        "text": "관광지를",
+        "meaning": "旅游景点",
+        "note": "관광지(旅游景点)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "구경했습니다",
+        "meaning": "参观了",
+        "note": "구경하다(参观)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "교통",
+    "romanization": "gyotong",
+    "pos": "名词",
+    "meaning": "交通",
+    "register": "中立",
+    "example": "이 도시는 교통이 편리합니다.",
+    "exampleTranslation": "这个城市交通很方便。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "이 도시는",
+        "meaning": "这个城市",
+        "note": "이(这)+도시(城市)+는(主题助词)"
+      },
+      {
+        "text": "교통이",
+        "meaning": "交通",
+        "note": "교통(交通)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "편리합니다",
+        "meaning": "方便",
+        "note": "편리하다(方便)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "교통비",
+    "romanization": "gyotongbi",
+    "pos": "名词",
+    "meaning": "交通费",
+    "register": "中立",
+    "example": "한 달 교통비가 꽤 듭니다.",
+    "exampleTranslation": "一个月的交通费花费不少。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "한 달",
+        "meaning": "一个月",
+        "note": "한(一)+달(月)"
+      },
+      {
+        "text": "교통비가",
+        "meaning": "交通费",
+        "note": "교통비(交通费)+가(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "꽤",
+        "meaning": "相当",
+        "note": "副词"
+      },
+      {
+        "text": "듭니다",
+        "meaning": "花费",
+        "note": "들다(花费)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "교통사고",
+    "romanization": "gyotongsago",
+    "pos": "名词",
+    "meaning": "交通事故",
+    "register": "中立",
+    "example": "어제 교통사고가 났습니다.",
+    "exampleTranslation": "昨天发生了交通事故。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "어제",
+        "meaning": "昨天",
+        "note": "名词"
+      },
+      {
+        "text": "교통사고가",
+        "meaning": "交通事故",
+        "note": "교통사고(交通事故)+가(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "났습니다",
+        "meaning": "发生了",
+        "note": "나다(发生)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "국내",
+    "romanization": "gungnae",
+    "pos": "名词",
+    "meaning": "国内",
+    "register": "中立",
+    "example": "이번에는 국내 여행을 가기로 했습니다.",
+    "exampleTranslation": "这次决定去国内旅行。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "이번에는",
+        "meaning": "这次",
+        "note": "이번(这次)+에(时间)+는(强调)"
+      },
+      {
+        "text": "국내 여행을",
+        "meaning": "国内旅行",
+        "note": "국내(国内)+여행(旅行)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "가기로 했습니다",
+        "meaning": "决定去了",
+        "note": "가다(去)的词干+ -기로 하다(决定做……)+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "국제",
+    "romanization": "gukje",
+    "pos": "名词",
+    "meaning": "国际",
+    "register": "中立",
+    "example": "국제 공항에서 친구를 배웅했습니다.",
+    "exampleTranslation": "在国际机场送别了朋友。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "국제 공항에서",
+        "meaning": "国际机场",
+        "note": "국제(国际)+공항(机场)+에서(处所助词)",
+        "isTarget": true
+      },
+      {
+        "text": "친구를",
+        "meaning": "朋友",
+        "note": "친구(朋友)+를(宾格助词)"
+      },
+      {
+        "text": "배웅했습니다",
+        "meaning": "送别了",
+        "note": "배웅하다(送别)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "기차",
+    "romanization": "gicha",
+    "pos": "名词",
+    "meaning": "火车",
+    "register": "中立",
+    "example": "기차를 타고 여행을 갑니다.",
+    "exampleTranslation": "坐火车去旅行。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "기차를",
+        "meaning": "火车",
+        "note": "기차(火车)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "타고",
+        "meaning": "乘坐之后",
+        "note": "타다(乘坐)的词干+ -고(然后)"
+      },
+      {
+        "text": "여행을",
+        "meaning": "旅行",
+        "note": "여행(旅行)+을(宾格助词)"
+      },
+      {
+        "text": "갑니다",
+        "meaning": "去",
+        "note": "가다(去)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "기차역",
+    "romanization": "gichayeok",
+    "pos": "名词",
+    "meaning": "火车站",
+    "register": "中立",
+    "example": "기차역에 일찍 도착했습니다.",
+    "exampleTranslation": "提前到达了火车站。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "기차역에",
+        "meaning": "火车站",
+        "note": "기차역(火车站)+에(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "일찍",
+        "meaning": "早早地",
+        "note": "副词"
+      },
+      {
+        "text": "도착했습니다",
+        "meaning": "到达了",
+        "note": "도착하다(到达)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "기차표",
+    "romanization": "gichapyo",
+    "pos": "名词",
+    "meaning": "火车票",
+    "register": "中立",
+    "example": "기차표를 미리 끊었습니다.",
+    "exampleTranslation": "提前买好了火车票。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "기차표를",
+        "meaning": "火车票",
+        "note": "기차표(火车票)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "미리",
+        "meaning": "事先",
+        "note": "副词"
+      },
+      {
+        "text": "끊었습니다",
+        "meaning": "买好了",
+        "note": "끊다(买票)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "다리",
+    "romanization": "dari",
+    "pos": "名词",
+    "meaning": "桥",
+    "register": "中立",
+    "homonymIndex": "02",
+    "example": "다리를 건너서 갔습니다.",
+    "exampleTranslation": "过了桥去了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "다리를",
+        "meaning": "桥",
+        "note": "다리(桥)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "건너서",
+        "meaning": "过了之后",
+        "note": "건너다(过)的词干+ -어서(先后)"
+      },
+      {
+        "text": "갔습니다",
+        "meaning": "去了",
+        "note": "가다(去)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "막히다",
+    "romanization": "makhida",
+    "pos": "动词",
+    "meaning": "堵塞",
+    "register": "中立",
+    "example": "퇴근 시간에는 길이 많이 막힙니다.",
+    "exampleTranslation": "下班时间路上很堵。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "퇴근 시간에는",
+        "meaning": "下班时间",
+        "note": "퇴근(下班)+시간(时间)+에(时间)+는(强调)"
+      },
+      {
+        "text": "길이",
+        "meaning": "路",
+        "note": "길(路)+이(主格助词)"
+      },
+      {
+        "text": "많이",
+        "meaning": "很",
+        "note": "副词"
+      },
+      {
+        "text": "막힙니다",
+        "meaning": "堵塞",
+        "note": "막히다(堵塞)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "배",
+    "romanization": "bae",
+    "pos": "名词",
+    "meaning": "船",
+    "register": "中立",
+    "homonymIndex": "02",
+    "example": "배를 타고 섬에 갔습니다.",
+    "exampleTranslation": "坐船去了岛上。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "배를",
+        "meaning": "船",
+        "note": "배(船)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "타고",
+        "meaning": "乘坐之后",
+        "note": "타다(乘坐)的词干+ -고(然后)"
+      },
+      {
+        "text": "섬에",
+        "meaning": "岛上",
+        "note": "섬(岛)+에(方向助词)"
+      },
+      {
+        "text": "갔습니다",
+        "meaning": "去了",
+        "note": "가다(去)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "버스",
+    "romanization": "beoseu",
+    "pos": "名词",
+    "meaning": "公交车",
+    "register": "中立",
+    "example": "버스를 타고 학교에 갑니다.",
+    "exampleTranslation": "坐公交车去学校。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "버스를",
+        "meaning": "公交车",
+        "note": "버스(公交车)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "타고",
+        "meaning": "乘坐之后",
+        "note": "타다(乘坐)的词干+ -고(然后)"
+      },
+      {
+        "text": "학교에",
+        "meaning": "学校",
+        "note": "학교(学校)+에(方向助词)"
+      },
+      {
+        "text": "갑니다",
+        "meaning": "去",
+        "note": "가다(去)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "비행기",
+    "romanization": "bihaenggi",
+    "pos": "名词",
+    "meaning": "飞机",
+    "register": "中立",
+    "example": "비행기를 타고 미국에 갔습니다.",
+    "exampleTranslation": "坐飞机去了美国。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "비행기를",
+        "meaning": "飞机",
+        "note": "비행기(飞机)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "타고",
+        "meaning": "乘坐之后",
+        "note": "타다(乘坐)的词干+ -고(然后)"
+      },
+      {
+        "text": "미국에",
+        "meaning": "美国",
+        "note": "미국(美国)+에(方向助词)"
+      },
+      {
+        "text": "갔습니다",
+        "meaning": "去了",
+        "note": "가다(去)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "세계",
+    "romanization": "segye",
+    "pos": "名词",
+    "meaning": "世界",
+    "register": "中立",
+    "example": "세계 여행을 하는 게 꿈입니다.",
+    "exampleTranslation": "环游世界是我的梦想。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "세계 여행을 하는 게",
+        "meaning": "环游世界这件事",
+        "note": "세계(世界)+여행(旅行)+을(宾格助词)+하다(做)+ -는(冠形词形)+것이(这件事)的口语缩略'게'",
+        "isTarget": true
+      },
+      {
+        "text": "꿈입니다",
+        "meaning": "是梦想",
+        "note": "꿈(梦想)+이다+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "신호등",
+    "romanization": "sinhodeung",
+    "pos": "名词",
+    "meaning": "信号灯",
+    "register": "中立",
+    "example": "신호등이 빨간불이라서 멈췄습니다.",
+    "exampleTranslation": "信号灯是红灯所以停下了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "신호등이",
+        "meaning": "信号灯",
+        "note": "신호등(信号灯)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "빨간불이라서",
+        "meaning": "是红灯，所以",
+        "note": "빨간불(红灯)+이다+ -라서(因为是……)"
+      },
+      {
+        "text": "멈췄습니다",
+        "meaning": "停下了",
+        "note": "멈추다(停止)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "신혼여행",
+    "romanization": "sinhonyeohaeng",
+    "pos": "名词",
+    "meaning": "蜜月旅行",
+    "register": "中立",
+    "example": "신혼여행으로 제주도에 갔습니다.",
+    "exampleTranslation": "去济州岛蜜月旅行了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "신혼여행으로",
+        "meaning": "作为蜜月旅行",
+        "note": "신혼여행(蜜月旅行)+으로(表方式/目的)",
+        "isTarget": true
+      },
+      {
+        "text": "제주도에",
+        "meaning": "济州岛",
+        "note": "제주도(济州岛)+에(方向助词)"
+      },
+      {
+        "text": "갔습니다",
+        "meaning": "去了",
+        "note": "가다(去)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "여권",
+    "romanization": "yeogwon",
+    "pos": "名词",
+    "meaning": "护照",
+    "register": "中立",
+    "example": "여권을 새로 발급받았습니다.",
+    "exampleTranslation": "重新办了护照。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "여권을",
+        "meaning": "护照",
+        "note": "여권(护照)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "새로",
+        "meaning": "重新",
+        "note": "副词"
+      },
+      {
+        "text": "발급받았습니다",
+        "meaning": "领取了",
+        "note": "발급받다(领取)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "여행",
+    "romanization": "yeohaeng",
+    "pos": "名词",
+    "meaning": "旅行",
+    "register": "中立",
+    "example": "저는 여행을 아주 좋아합니다.",
+    "exampleTranslation": "我非常喜欢旅行。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "저는",
+        "meaning": "我",
+        "note": "저(我)+는(主题助词)"
+      },
+      {
+        "text": "여행을",
+        "meaning": "旅行",
+        "note": "여행(旅行)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "아주",
+        "meaning": "非常",
+        "note": "副词"
+      },
+      {
+        "text": "좋아합니다",
+        "meaning": "喜欢",
+        "note": "좋아하다(喜欢)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "여행사",
+    "romanization": "yeohaengsa",
+    "pos": "名词",
+    "meaning": "旅行社",
+    "register": "中立",
+    "example": "여행사에서 티켓을 예약했습니다.",
+    "exampleTranslation": "在旅行社预订了票。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "여행사에서",
+        "meaning": "在旅行社",
+        "note": "여행사(旅行社)+에서(处所助词)",
+        "isTarget": true
+      },
+      {
+        "text": "티켓을",
+        "meaning": "票",
+        "note": "티켓(票)+을(宾格助词)"
+      },
+      {
+        "text": "예약했습니다",
+        "meaning": "预订了",
+        "note": "예약하다(预订)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "여행지",
+    "romanization": "yeohaengji",
+    "pos": "名词",
+    "meaning": "旅游目的地",
+    "register": "中立",
+    "example": "이번 여행지는 아직 정하지 않았습니다.",
+    "exampleTranslation": "这次的旅游目的地还没定。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "이번",
+        "meaning": "这次",
+        "note": "冠形词"
+      },
+      {
+        "text": "여행지는",
+        "meaning": "旅游目的地",
+        "note": "여행지(旅游目的地)+는(主题助词)",
+        "isTarget": true
+      },
+      {
+        "text": "아직",
+        "meaning": "还",
+        "note": "副词"
+      },
+      {
+        "text": "정하지 않았습니다",
+        "meaning": "没有决定",
+        "note": "정하다(决定)的词干+ -지 않다(不……)+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "외국",
+    "romanization": "oeguk",
+    "pos": "名词",
+    "meaning": "外国",
+    "register": "中立",
+    "example": "외국에서 유학하고 싶습니다.",
+    "exampleTranslation": "想在外国留学。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "외국에서",
+        "meaning": "在外国",
+        "note": "외국(外国)+에서(处所助词)",
+        "isTarget": true
+      },
+      {
+        "text": "유학하고 싶습니다",
+        "meaning": "想留学",
+        "note": "유학하다(留学)的词干+ -고 싶다(想要)+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "외국어",
+    "romanization": "oegugeo",
+    "pos": "名词",
+    "meaning": "外语",
+    "register": "中立",
+    "example": "외국어를 하나 더 배우고 싶습니다.",
+    "exampleTranslation": "想再学一门外语。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "외국어를",
+        "meaning": "外语",
+        "note": "외국어(外语)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "하나",
+        "meaning": "一个",
+        "note": "固有数字"
+      },
+      {
+        "text": "더",
+        "meaning": "再",
+        "note": "副词"
+      },
+      {
+        "text": "배우고 싶습니다",
+        "meaning": "想学",
+        "note": "배우다(学)的词干+ -고 싶다(想要)+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "운전",
+    "romanization": "unjeon",
+    "pos": "名词",
+    "meaning": "开车",
+    "register": "中立",
+    "example": "운전을 조심해서 하세요.",
+    "exampleTranslation": "请小心开车。",
+    "sentenceType": "命令句（请求）",
+    "formalityLevel": "泛尊阶（해요体）",
+    "grammarBreakdown": [
+      {
+        "text": "운전을",
+        "meaning": "开车",
+        "note": "운전(开车)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "조심해서",
+        "meaning": "小心地",
+        "note": "조심하다(小心)的词干+ -해서(表方式)"
+      },
+      {
+        "text": "하세요",
+        "meaning": "请做",
+        "note": "하다(做)的词干+ -시-（尊敬阶标记）+ -어요（请求/命令·泛尊阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "운전사",
+    "romanization": "unjeonsa",
+    "pos": "名词",
+    "meaning": "司机",
+    "register": "中立",
+    "example": "버스 운전사가 친절합니다.",
+    "exampleTranslation": "公交车司机很亲切。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "버스 운전사가",
+        "meaning": "公交车司机",
+        "note": "버스(公交车)+운전사(司机)+가(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "친절합니다",
+        "meaning": "亲切",
+        "note": "친절하다(亲切)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "자동차",
+    "romanization": "jadongcha",
+    "pos": "名词",
+    "meaning": "汽车",
+    "register": "中立",
+    "example": "새 자동차를 샀습니다.",
+    "exampleTranslation": "买了新汽车。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "새",
+        "meaning": "新的",
+        "note": "冠形词"
+      },
+      {
+        "text": "자동차를",
+        "meaning": "汽车",
+        "note": "자동차(汽车)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "샀습니다",
+        "meaning": "买了",
+        "note": "사다(买)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "자전거",
+    "romanization": "jajeongeo",
+    "pos": "名词",
+    "meaning": "自行车",
+    "register": "中立",
+    "example": "자전거를 타고 공원에 갔습니다.",
+    "exampleTranslation": "骑自行车去了公园。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "자전거를",
+        "meaning": "自行车",
+        "note": "자전거(自行车)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "타고",
+        "meaning": "骑着",
+        "note": "타다(骑)的词干+ -고(然后)"
+      },
+      {
+        "text": "공원에",
+        "meaning": "公园",
+        "note": "공원(公园)+에(方向助词)"
+      },
+      {
+        "text": "갔습니다",
+        "meaning": "去了",
+        "note": "가다(去)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "전철",
+    "romanization": "jeoncheol",
+    "pos": "名词",
+    "meaning": "电车",
+    "register": "中立",
+    "example": "전철을 타고 출근합니다.",
+    "exampleTranslation": "坐电车上班。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "전철을",
+        "meaning": "电车",
+        "note": "전철(电车)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "타고",
+        "meaning": "坐着",
+        "note": "타다(乘坐)的词干+ -고(然后)"
+      },
+      {
+        "text": "출근합니다",
+        "meaning": "上班",
+        "note": "출근하다(上班)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "지도",
+    "romanization": "jido",
+    "pos": "名词",
+    "meaning": "地图",
+    "register": "中立",
+    "example": "지도를 보면서 길을 찾았습니다.",
+    "exampleTranslation": "看着地图找了路。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "지도를",
+        "meaning": "地图",
+        "note": "지도(地图)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "보면서",
+        "meaning": "一边看",
+        "note": "보다(看)的词干+ -면서(一边……一边……)"
+      },
+      {
+        "text": "길을",
+        "meaning": "路",
+        "note": "길(路)+을(宾格助词)"
+      },
+      {
+        "text": "찾았습니다",
+        "meaning": "找到了",
+        "note": "찾다(找)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "지하철",
+    "romanization": "jihacheol",
+    "pos": "名词",
+    "meaning": "地铁",
+    "register": "中立",
+    "example": "지하철을 타면 빠릅니다.",
+    "exampleTranslation": "坐地铁的话很快。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "지하철을",
+        "meaning": "地铁",
+        "note": "지하철(地铁)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "타면",
+        "meaning": "坐的话",
+        "note": "타다(坐)的词干+ -면(如果……的话)"
+      },
+      {
+        "text": "빠릅니다",
+        "meaning": "快",
+        "note": "빠르다(快)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "짐",
+    "romanization": "jim",
+    "pos": "名词",
+    "meaning": "行李",
+    "register": "中立",
+    "example": "짐을 다 쌌습니다.",
+    "exampleTranslation": "行李都收拾好了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "짐을",
+        "meaning": "行李",
+        "note": "짐(行李)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "다",
+        "meaning": "都",
+        "note": "副词"
+      },
+      {
+        "text": "쌌습니다",
+        "meaning": "收拾了",
+        "note": "싸다(收拾/包)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "출구",
+    "romanization": "chulgu",
+    "pos": "名词",
+    "meaning": "出口",
+    "register": "中立",
+    "example": "삼 번 출구로 나오세요.",
+    "exampleTranslation": "请从三号出口出来。",
+    "sentenceType": "命令句（请求）",
+    "formalityLevel": "泛尊阶（해요体）",
+    "grammarBreakdown": [
+      {
+        "text": "삼 번 출구로",
+        "meaning": "三号出口",
+        "note": "삼(三)+번(号)+출구(出口)+로(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "나오세요",
+        "meaning": "请出来",
+        "note": "나오다(出来)的词干+ -시-（尊敬阶标记）+ -어요（请求/命令·泛尊阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "출발",
+    "romanization": "chulbal",
+    "pos": "名词",
+    "meaning": "出发",
+    "register": "中立",
+    "example": "아침 일찍 출발했습니다.",
+    "exampleTranslation": "早上早早出发了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "아침",
+        "meaning": "早上",
+        "note": "名词/副词"
+      },
+      {
+        "text": "일찍",
+        "meaning": "早早地",
+        "note": "副词"
+      },
+      {
+        "text": "출발했습니다",
+        "meaning": "出发了",
+        "note": "출발하다(出发)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "출입",
+    "romanization": "churip",
+    "pos": "名词",
+    "meaning": "出入",
+    "register": "中立",
+    "example": "이곳은 출입을 통제하고 있습니다.",
+    "exampleTranslation": "这个地方正在管制出入。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "이곳은",
+        "meaning": "这个地方",
+        "note": "이곳(这个地方)+은(主题助词)"
+      },
+      {
+        "text": "출입을",
+        "meaning": "出入",
+        "note": "출입(出入)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "통제하고 있습니다",
+        "meaning": "正在管制",
+        "note": "통제하다(管制)的词干+ -고 있다(正在)+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "출입국",
+    "romanization": "churipguk",
+    "pos": "名词",
+    "meaning": "出入境",
+    "register": "中立",
+    "example": "출입국 사무소에서 서류를 받았습니다.",
+    "exampleTranslation": "在出入境事务所拿到了文件。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "출입국 사무소에서",
+        "meaning": "出入境事务所",
+        "note": "출입국(出入境)+사무소(事务所)+에서(处所助词)",
+        "isTarget": true
+      },
+      {
+        "text": "서류를",
+        "meaning": "文件",
+        "note": "서류(文件)+를(宾格助词)"
+      },
+      {
+        "text": "받았습니다",
+        "meaning": "拿到了",
+        "note": "받다(收到)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "태극기",
+    "romanization": "taegeukgi",
+    "pos": "名词",
+    "meaning": "太极旗（韩国国旗）",
+    "register": "中立",
+    "example": "태극기가 바람에 펄럭입니다.",
+    "exampleTranslation": "太极旗在风中飘扬。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "태극기가",
+        "meaning": "太极旗",
+        "note": "태극기(太极旗)+가(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "바람에",
+        "meaning": "在风中",
+        "note": "바람(风)+에(方式/原因助词)"
+      },
+      {
+        "text": "펄럭입니다",
+        "meaning": "飘扬",
+        "note": "펄럭이다(飘扬)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "택시",
+    "romanization": "taeksi",
+    "pos": "名词",
+    "meaning": "出租车",
+    "register": "中立",
+    "example": "택시를 타고 집에 갔습니다.",
+    "exampleTranslation": "坐出租车回了家。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "택시를",
+        "meaning": "出租车",
+        "note": "택시(出租车)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "타고",
+        "meaning": "坐着",
+        "note": "타다(乘坐)的词干+ -고(然后)"
+      },
+      {
+        "text": "집에",
+        "meaning": "家",
+        "note": "집(家)+에(方向助词)"
+      },
+      {
+        "text": "갔습니다",
+        "meaning": "回去了",
+        "note": "가다(去)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "트럭",
+    "romanization": "teureok",
+    "pos": "名词",
+    "meaning": "卡车",
+    "register": "中立",
+    "example": "트럭으로 짐을 옮겼습니다.",
+    "exampleTranslation": "用卡车运了行李。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "트럭으로",
+        "meaning": "用卡车",
+        "note": "트럭(卡车)+으로(表手段的助词)",
+        "isTarget": true
+      },
+      {
+        "text": "짐을",
+        "meaning": "行李",
+        "note": "짐(行李)+을(宾格助词)"
+      },
+      {
+        "text": "옮겼습니다",
+        "meaning": "运了",
+        "note": "옮기다(搬运)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "풍경",
+    "romanization": "punggyeong",
+    "pos": "名词",
+    "meaning": "风景",
+    "register": "中立",
+    "example": "창밖 풍경이 아름답습니다.",
+    "exampleTranslation": "窗外的风景很美。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "창밖",
+        "meaning": "窗外",
+        "note": "창(窗)+밖(外面)"
+      },
+      {
+        "text": "풍경이",
+        "meaning": "风景",
+        "note": "풍경(风景)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "아름답습니다",
+        "meaning": "美丽",
+        "note": "아름답다(美丽)的词干+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "항공",
+    "romanization": "hanggong",
+    "pos": "名词",
+    "meaning": "航空",
+    "register": "中立",
+    "example": "항공 요금이 올랐습니다.",
+    "exampleTranslation": "航空费涨价了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "항공 요금이",
+        "meaning": "航空费",
+        "note": "항공(航空)+요금(费用)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "올랐습니다",
+        "meaning": "涨了",
+        "note": "오르다(上涨)的词干变化（르不规则）+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "항공권",
+    "romanization": "hanggonggwon",
+    "pos": "名词",
+    "meaning": "机票",
+    "register": "中立",
+    "example": "항공권을 미리 예매했습니다.",
+    "exampleTranslation": "提前订好了机票。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "항공권을",
+        "meaning": "机票",
+        "note": "항공권(机票)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "미리",
+        "meaning": "事先",
+        "note": "副词"
+      },
+      {
+        "text": "예매했습니다",
+        "meaning": "订了",
+        "note": "예매하다(预订)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "해외",
+    "romanization": "haeoe",
+    "pos": "名词",
+    "meaning": "海外",
+    "register": "中立",
+    "example": "해외에서 일하고 싶습니다.",
+    "exampleTranslation": "想在海外工作。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "해외에서",
+        "meaning": "在海外",
+        "note": "해외(海外)+에서(处所助词)",
+        "isTarget": true
+      },
+      {
+        "text": "일하고 싶습니다",
+        "meaning": "想工作",
+        "note": "일하다(工作)的词干+ -고 싶다(想要)+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "해외여행",
+    "romanization": "haeoeyeohaeng",
+    "pos": "名词",
+    "meaning": "海外旅行",
+    "register": "中立",
+    "example": "해외여행을 계획하고 있습니다.",
+    "exampleTranslation": "正在计划海外旅行。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "해외여행을",
+        "meaning": "海外旅行",
+        "note": "해외여행(海外旅行)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "계획하고 있습니다",
+        "meaning": "正在计划",
+        "note": "계획하다(计划)的词干+ -고 있다(正在)+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  }
 ]

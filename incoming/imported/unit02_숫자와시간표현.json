@@ -26,12 +26,12 @@
       {
         "text": "샀습니다",
         "meaning": "买了",
-        "note": "사다(买)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "사다(买)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ],
     "register": "中立",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "homonymIndex": "10"
   },
   {
@@ -66,12 +66,12 @@
       {
         "text": "입니다",
         "meaning": "是……",
-        "note": "이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "이다+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ],
     "register": "中立",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "권",
@@ -100,12 +100,12 @@
       {
         "text": "빌렸습니다",
         "meaning": "借了",
-        "note": "빌리다(借)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "빌리다(借)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ],
     "register": "中立",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "넷",
@@ -139,12 +139,12 @@
       {
         "text": "입니다",
         "meaning": "是……",
-        "note": "이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "이다+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ],
     "register": "中立",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "넷째",
@@ -173,12 +173,12 @@
       {
         "text": "앉으세요",
         "meaning": "请坐",
-        "note": "앉다(坐)的词干+ -으시-（尊敬阶标记）+ -어요（非格式体敬语终结词尾，해요体）"
+        "note": "앉다(坐)的词干+ -으시-（尊敬阶标记）+ -어요（泛尊阶终结词尾，해요体）"
       }
     ],
     "register": "中立",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "년",
@@ -212,12 +212,12 @@
       {
         "text": "왔습니다",
         "meaning": "来了",
-        "note": "오다+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "오다+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ],
     "register": "中立",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "다섯",
@@ -246,12 +246,12 @@
       {
         "text": "입니다",
         "meaning": "是……",
-        "note": "이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "이다+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ],
     "register": "中立",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "다음",
@@ -280,12 +280,12 @@
       {
         "text": "내리겠습니다",
         "meaning": "将要下车",
-        "note": "내리다(下车)的词干+ -겠-（意志/推测·将来时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "내리다(下车)的词干+ -겠-（意志/推测·将来时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ],
     "register": "中立",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "대",
@@ -324,12 +324,12 @@
       {
         "text": "있습니다",
         "meaning": "有……",
-        "note": "있다+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "있다+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ],
     "register": "中立",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "동안",
@@ -363,12 +363,12 @@
       {
         "text": "다녀왔습니다",
         "meaning": "去了一趟回来了",
-        "note": "다녀오다(去一趟回来)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "다녀오다(去一趟回来)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ],
     "register": "中立",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "둘",
@@ -392,12 +392,12 @@
       {
         "text": "주세요",
         "meaning": "请给我",
-        "note": "주다(给)的词干+ -시-（尊敬阶标记）+ -어요（非格式体敬语终结词尾，해요体）"
+        "note": "주다(给)的词干+ -시-（尊敬阶标记）+ -어요（泛尊阶终结词尾，해요体）"
       }
     ],
     "register": "中立",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "둘째",
@@ -431,12 +431,12 @@
       {
         "text": "입니다",
         "meaning": "是……",
-        "note": "이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "이다+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ],
     "register": "中立",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "마리",
@@ -465,12 +465,12 @@
       {
         "text": "키웁니다",
         "meaning": "养",
-        "note": "키우다(养)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "키우다(养)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ],
     "register": "中立",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "마흔",
@@ -504,12 +504,12 @@
       {
         "text": "입니다",
         "meaning": "是……",
-        "note": "이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "이다+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ],
     "register": "中立",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "만",
@@ -543,12 +543,12 @@
       {
         "text": "입니다",
         "meaning": "是……",
-        "note": "이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "이다+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ],
     "register": "中立",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "명",
@@ -577,12 +577,12 @@
       {
         "text": "있습니다",
         "meaning": "有……",
-        "note": "있다+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "있다+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ],
     "register": "中立",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "몇",
@@ -611,12 +611,12 @@
       {
         "text": "입니까",
         "meaning": "是……吗",
-        "note": "이다+ -ㅂ니까（疑问句·格式体敬语终结词尾）"
+        "note": "이다+ -ㅂ니까（疑问句·尊敬阶终结词尾）"
       }
     ],
     "register": "中立",
     "sentenceType": "疑问句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "반",
@@ -645,12 +645,12 @@
       {
         "text": "입니다",
         "meaning": "是……",
-        "note": "이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "이다+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ],
     "register": "中立",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "homonymIndex": "07"
   },
   {
@@ -685,12 +685,12 @@
       {
         "text": "입니다",
         "meaning": "是……",
-        "note": "이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "이다+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ],
     "register": "中立",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "번",
@@ -724,12 +724,12 @@
       {
         "text": "봤습니다",
         "meaning": "看了",
-        "note": "보다(看)的词干变化+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "보다(看)的词干变化+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ],
     "register": "中立",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "분",
@@ -758,12 +758,12 @@
       {
         "text": "걸립니다",
         "meaning": "需要（花费时间）",
-        "note": "걸리다(花费,耗时)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "걸리다(花费,耗时)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ],
     "register": "中立",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "homonymIndex": "08"
   },
   {
@@ -803,12 +803,12 @@
       {
         "text": "있습니다",
         "meaning": "在……",
-        "note": "있다+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "있다+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ],
     "register": "中立",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "살",
@@ -837,12 +837,12 @@
       {
         "text": "입니다",
         "meaning": "是……",
-        "note": "이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "이다+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ],
     "register": "中立",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "homonymIndex": "04"
   },
   {
@@ -872,12 +872,12 @@
       {
         "text": "졸업합니다",
         "meaning": "毕业",
-        "note": "졸업하다(毕业)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "졸업하다(毕业)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ],
     "register": "中立",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "서른",
@@ -906,12 +906,12 @@
       {
         "text": "입니다",
         "meaning": "是……",
-        "note": "이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "이다+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ],
     "register": "中立",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "셋",
@@ -945,12 +945,12 @@
       {
         "text": "입니다",
         "meaning": "是……",
-        "note": "이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "이다+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ],
     "register": "中立",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "셋째",
@@ -984,12 +984,12 @@
       {
         "text": "있습니다",
         "meaning": "有……",
-        "note": "있다+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "있다+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ],
     "register": "中立",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "쉰",
@@ -1023,12 +1023,12 @@
       {
         "text": "입니다",
         "meaning": "是……",
-        "note": "이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "이다+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ],
     "register": "中立",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "스물",
@@ -1062,12 +1062,12 @@
       {
         "text": "입니다",
         "meaning": "是……",
-        "note": "이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "이다+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ],
     "register": "中立",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "시",
@@ -1096,12 +1096,12 @@
       {
         "text": "시작합니다",
         "meaning": "开始",
-        "note": "시작하다(开始)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "시작하다(开始)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ],
     "register": "中立",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "homonymIndex": "10"
   },
   {
@@ -1126,12 +1126,12 @@
       {
         "text": "기다려 주세요",
         "meaning": "请等一下",
-        "note": "기다리다(等待)的词干变化+ -아/어 주다(为……做，请求)+ -시-（尊敬阶标记）+ -어요（非格式体敬语终结词尾，해요体）"
+        "note": "기다리다(等待)的词干变化+ -아/어 주다(为……做，请求)+ -시-（尊敬阶标记）+ -어요（泛尊阶终结词尾，해요体）"
       }
     ],
     "register": "中立",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "아홉",
@@ -1155,12 +1155,12 @@
       {
         "text": "입니다",
         "meaning": "是……",
-        "note": "이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "이다+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ],
     "register": "中立",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "얼마",
@@ -1194,7 +1194,7 @@
     ],
     "register": "中立",
     "sentenceType": "疑问句",
-    "formalityLevel": "非格式体敬语（해요体）"
+    "formalityLevel": "泛尊阶（해요体）"
   },
   {
     "korean": "여덟",
@@ -1228,12 +1228,12 @@
       {
         "text": "일어납니다",
         "meaning": "起床",
-        "note": "일어나다(起床)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "일어나다(起床)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ],
     "register": "中立",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "여섯",
@@ -1262,12 +1262,12 @@
       {
         "text": "있습니다",
         "meaning": "有……",
-        "note": "있다+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "있다+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ],
     "register": "中立",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "열",
@@ -1296,12 +1296,12 @@
       {
         "text": "있습니다",
         "meaning": "有……",
-        "note": "있다+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "있다+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ],
     "register": "中立",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "homonymIndex": "03"
   },
   {
@@ -1341,12 +1341,12 @@
       {
         "text": "시작합니다",
         "meaning": "开始",
-        "note": "시작하다(开始)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "시작하다(开始)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ],
     "register": "中立",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "오",
@@ -1370,12 +1370,12 @@
       {
         "text": "걸어갔습니다",
         "meaning": "走去了",
-        "note": "걸어가다(走去)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "걸어가다(走去)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ],
     "register": "中立",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "월",
@@ -1409,12 +1409,12 @@
       {
         "text": "갈 겁니다",
         "meaning": "将要去",
-        "note": "가다(去)的词干+ -ㄹ 것이다(将要做……的将来时)+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "가다(去)的词干+ -ㄹ 것이다(将要做……的将来时)+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ],
     "register": "中立",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "육",
@@ -1448,12 +1448,12 @@
       {
         "text": "배웠습니다",
         "meaning": "学了",
-        "note": "배우다(学)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "배우다(学)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ],
     "register": "中立",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "이",
@@ -1487,12 +1487,12 @@
       {
         "text": "있습니다",
         "meaning": "有……",
-        "note": "있다+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "있다+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ],
     "register": "中立",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "homonymIndex": "09"
   },
   {
@@ -1522,12 +1522,12 @@
       {
         "text": "탔습니다",
         "meaning": "乘坐了",
-        "note": "타다(乘坐)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "타다(乘坐)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ],
     "register": "中立",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "homonymIndex": "05"
   },
   {
@@ -1557,12 +1557,12 @@
       {
         "text": "만납시다",
         "meaning": "让我们见面吧",
-        "note": "만나다(见面)的词干+ -읍시다（共动句·格式体敬语终结词尾）"
+        "note": "만나다(见面)的词干+ -읍시다（共动句·尊敬阶终结词尾）"
       }
     ],
     "register": "中立",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "장",
@@ -1591,12 +1591,12 @@
       {
         "text": "찍었습니다",
         "meaning": "拍了",
-        "note": "찍다(拍)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "찍다(拍)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ],
     "register": "中立",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "정도",
@@ -1620,12 +1620,12 @@
       {
         "text": "걸립니다",
         "meaning": "需要（花费）",
-        "note": "걸리다(花费)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "걸리다(花费)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ],
     "register": "中立",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "주",
@@ -1659,12 +1659,12 @@
       {
         "text": "있습니다",
         "meaning": "有……",
-        "note": "있다+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "있다+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ],
     "register": "中立",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "천",
@@ -1698,12 +1698,12 @@
       {
         "text": "입니다",
         "meaning": "是……",
-        "note": "이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "이다+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ],
     "register": "中立",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "첫째",
@@ -1737,12 +1737,12 @@
       {
         "text": "지켜야 합니다",
         "meaning": "必须遵守",
-        "note": "지키다(遵守)的词干变化+ -어야 하다(必须做……)+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "지키다(遵守)的词干变化+ -어야 하다(必须做……)+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ],
     "register": "中立",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "초",
@@ -1766,12 +1766,12 @@
       {
         "text": "기다리세요",
         "meaning": "请等待",
-        "note": "기다리다(等待)的词干+ -시-（尊敬阶标记）+ -어요（非格式体敬语终结词尾，해요体）"
+        "note": "기다리다(等待)的词干+ -시-（尊敬阶标记）+ -어요（泛尊阶终结词尾，해요体）"
       }
     ],
     "register": "中立",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "homonymIndex": "07"
   },
   {
@@ -1796,12 +1796,12 @@
       {
         "text": "내리세요",
         "meaning": "请下（车/楼）",
-        "note": "내리다(下)的词干+ -시-（尊敬阶标记）+ -어요（非格式体敬语终结词尾，해요体）"
+        "note": "내리다(下)的词干+ -시-（尊敬阶标记）+ -어요（泛尊阶终结词尾，해요体）"
       }
     ],
     "register": "中立",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "팔",
@@ -1825,12 +1825,12 @@
       {
         "text": "태어났습니다",
         "meaning": "出生了",
-        "note": "태어나다(出生)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "태어나다(出生)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ],
     "register": "中立",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "homonymIndex": "03"
   },
   {
@@ -1860,11 +1860,11 @@
       {
         "text": "주세요",
         "meaning": "请给我",
-        "note": "주다(给)的词干+ -시-（尊敬阶标记）+ -어요（非格式体敬语终结词尾，해요体）"
+        "note": "주다(给)的词干+ -시-（尊敬阶标记）+ -어요（泛尊阶终结词尾，해요体）"
       }
     ],
     "register": "中立",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   }
 ]

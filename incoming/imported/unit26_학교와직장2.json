@@ -1,48 +1,1276 @@
 [
-{"korean":"영어","romanization":"yeongeo","pos":"名词","meaning":"英语","register":"中立","example":"저는 영어를 배우고 있습니다.","exampleTranslation":"我正在学英语。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"저는","meaning":"我","note":"저(我)+는(主题助词)"},{"text":"영어를","meaning":"英语","note":"영어(英语)+를(宾格助词)","isTarget":true},{"text":"배우고 있습니다","meaning":"正在学","note":"배우다(学)的词干+ -고 있다(正在)+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"예습","romanization":"yeseup","pos":"名词","meaning":"预习","register":"中立","example":"수업 전에 예습을 합니다.","exampleTranslation":"上课前预习。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"수업 전에","meaning":"上课前","note":"수업(上课)+전(之前)+에(时间助词)"},{"text":"예습을","meaning":"预习","note":"예습(预习)+을(宾格助词)","isTarget":true},{"text":"합니다","meaning":"做","note":"하다(做)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"외우다","romanization":"oeuda","pos":"动词","meaning":"背诵","register":"中立","example":"단어를 열심히 외웁니다.","exampleTranslation":"努力背单词。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"단어를","meaning":"单词","note":"단어(单词)+를(宾格助词)"},{"text":"열심히","meaning":"努力地","note":"副词"},{"text":"외웁니다","meaning":"背诵","note":"외우다(背诵)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）","isTarget":true}]},
-{"korean":"운동장","romanization":"undongjang","pos":"名词","meaning":"操场","register":"中立","example":"운동장에서 축구를 합니다.","exampleTranslation":"在操场踢足球。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"운동장에서","meaning":"在操场","note":"운동장(操场)+에서(处所助词)","isTarget":true},{"text":"축구를","meaning":"足球","note":"축구(足球)+를(宾格助词)"},{"text":"합니다","meaning":"做","note":"하다(做)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"월급","romanization":"wolgeup","pos":"名词","meaning":"月薪","register":"中立","example":"이번 달 월급을 받았습니다.","exampleTranslation":"收到了这个月的工资。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"이번 달","meaning":"这个月","note":"이번(这次)+달(月)"},{"text":"월급을","meaning":"月薪","note":"월급(月薪)+을(宾格助词)","isTarget":true},{"text":"받았습니다","meaning":"收到了","note":"받다(收到)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"유학","romanization":"yuhak","pos":"名词","meaning":"留学","register":"中立","example":"내년에 유학을 갈 겁니다.","exampleTranslation":"明年要去留学。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"내년에","meaning":"明年","note":"내년(明年)+에(时间助词)"},{"text":"유학을","meaning":"留学","note":"유학(留学)+을(宾格助词)","isTarget":true},{"text":"갈 겁니다","meaning":"要去","note":"가다(去)的词干+ -ㄹ 것이다(将要)+ -ㅂ니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"유학생","romanization":"yuhaksaeng","pos":"名词","meaning":"留学生","register":"中立","example":"저는 유학생 신분입니다.","exampleTranslation":"我是留学生身份。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"저는","meaning":"我","note":"저(我)+는(主题助词)"},{"text":"유학생 신분입니다","meaning":"是留学生身份","note":"유학생(留学生)+신분(身份)+이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）","isTarget":true}]},
-{"korean":"일기","romanization":"ilgi","pos":"名词","meaning":"日记","register":"中立","example":"자기 전에 일기를 씁니다.","exampleTranslation":"睡前写日记。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"자기 전에","meaning":"睡觉之前","note":"자다(睡)的词干+ -기 전에(……之前)"},{"text":"일기를","meaning":"日记","note":"일기(日记)+를(宾格助词)","isTarget":true},{"text":"씁니다","meaning":"写","note":"쓰다(写)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"입학","romanization":"ipak","pos":"名词","meaning":"入学","register":"中立","example":"대학 입학을 축하합니다.","exampleTranslation":"祝贺考上大学。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"대학","meaning":"大学","note":"名词"},{"text":"입학을","meaning":"入学","note":"입학(入学)+을(宾格助词)","isTarget":true},{"text":"축하합니다","meaning":"祝贺","note":"축하하다(祝贺)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"입학시험","romanization":"ipaksiheom","pos":"名词","meaning":"入学考试","register":"中立","example":"입학시험에 합격했습니다.","exampleTranslation":"入学考试合格了。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"입학시험에","meaning":"入学考试","note":"입학시험(入学考试)+에(方向助词)","isTarget":true},{"text":"합격했습니다","meaning":"合格了","note":"합격하다(合格)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"잘되다","romanization":"jaldoeda","pos":"动词","meaning":"顺利","register":"中立","example":"요즘 사업이 잘됩니다.","exampleTranslation":"最近生意很顺利。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"요즘","meaning":"最近","note":"副词"},{"text":"사업이","meaning":"生意","note":"사업(生意)+이(主格助词)"},{"text":"잘됩니다","meaning":"顺利","note":"잘되다(顺利)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）","isTarget":true}]},
-{"korean":"잘못되다","romanization":"jalmotdoeda","pos":"动词","meaning":"出错","register":"中立","example":"순서가 잘못되었습니다.","exampleTranslation":"顺序弄错了。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"순서가","meaning":"顺序","note":"순서(顺序)+가(主格助词)"},{"text":"잘못되었습니다","meaning":"出错了","note":"잘못되다(出错)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）","isTarget":true}]},
-{"korean":"잘하다","romanization":"jalhada","pos":"动词","meaning":"擅长，做得好","register":"中立","example":"저는 외국어를 잘합니다.","exampleTranslation":"我擅长外语。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"저는","meaning":"我","note":"저(我)+는(主题助词)"},{"text":"외국어를","meaning":"外语","note":"외국어(外语)+를(宾格助词)"},{"text":"잘합니다","meaning":"擅长","note":"잘하다(擅长)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）","isTarget":true}]},
-{"korean":"전공","romanization":"jeongong","pos":"名词","meaning":"专业","register":"中立","example":"전공을 결정했습니다.","exampleTranslation":"决定了专业。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"전공을","meaning":"专业","note":"전공(专业)+을(宾格助词)","isTarget":true},{"text":"결정했습니다","meaning":"决定了","note":"결정하다(决定)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"점수","romanization":"jeomsu","pos":"名词","meaning":"分数","register":"中立","example":"이번 시험 점수가 높습니다.","exampleTranslation":"这次考试分数很高。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"이번 시험","meaning":"这次考试","note":"이번(这次)+시험(考试)"},{"text":"점수가","meaning":"分数","note":"점수(分数)+가(主格助词)","isTarget":true},{"text":"높습니다","meaning":"高","note":"높다(高)的词干+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"정하다","romanization":"jeonghada","pos":"动词","meaning":"决定","register":"中立","example":"약속 시간을 정했습니다.","exampleTranslation":"定好了约定时间。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"약속 시간을","meaning":"约定时间","note":"약속(约定)+시간(时间)+을(宾格助词)"},{"text":"정했습니다","meaning":"定了","note":"정하다(决定)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）","isTarget":true}]},
-{"korean":"제목","romanization":"jemok","pos":"名词","meaning":"标题","register":"中立","example":"글의 제목을 지었습니다.","exampleTranslation":"取了文章的标题。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"글의","meaning":"文章的","note":"글(文章)+의(所有格助词)"},{"text":"제목을","meaning":"标题","note":"제목(标题)+을(宾格助词)","isTarget":true},{"text":"지었습니다","meaning":"取了","note":"짓다(取名)的词干变化（ㅅ不规则：收音ㅅ在元音开头的语尾前脱落）+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"졸업","romanization":"joreop","pos":"名词","meaning":"毕业","register":"中立","example":"내년에 졸업을 합니다.","exampleTranslation":"明年毕业。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"내년에","meaning":"明年","note":"내년(明年)+에(时间助词)"},{"text":"졸업을","meaning":"毕业","note":"졸업(毕业)+을(宾格助词)","isTarget":true},{"text":"합니다","meaning":"做","note":"하다(做)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"종업원","romanization":"jongeobwon","pos":"名词","meaning":"服务员","register":"中立","example":"종업원이 친절합니다.","exampleTranslation":"服务员很亲切。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"종업원이","meaning":"服务员","note":"종업원(服务员)+이(主格助词)","isTarget":true},{"text":"친절합니다","meaning":"亲切","note":"친절하다(亲切)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"종이","romanization":"jongi","pos":"名词","meaning":"纸","register":"中立","example":"종이에 이름을 썼습니다.","exampleTranslation":"在纸上写了名字。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"종이에","meaning":"纸上","note":"종이(纸)+에(方向助词)","isTarget":true},{"text":"이름을","meaning":"名字","note":"이름(名字)+을(宾格助词)"},{"text":"썼습니다","meaning":"写了","note":"쓰다(写)的词干（으不规则）+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"중학교","romanization":"junghakgyo","pos":"名词","meaning":"初中","register":"中立","example":"중학교에 입학했습니다.","exampleTranslation":"上了初中。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"중학교에","meaning":"初中","note":"중학교(初中)+에(方向助词)","isTarget":true},{"text":"입학했습니다","meaning":"入学了","note":"입학하다(入学)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"중학생","romanization":"junghaksaeng","pos":"名词","meaning":"初中生","register":"中立","example":"동생은 중학생입니다.","exampleTranslation":"弟弟/妹妹是初中生。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"동생은","meaning":"弟弟妹妹","note":"동생(弟弟妹妹)+은(主题助词)"},{"text":"중학생입니다","meaning":"是初中生","note":"중학생(初中生)+이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）","isTarget":true}]},
-{"korean":"지각","romanization":"jigak","pos":"名词","meaning":"迟到","register":"中立","example":"오늘 학교에 지각을 했습니다.","exampleTranslation":"今天上学迟到了。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"오늘","meaning":"今天","note":"名词/副词"},{"text":"학교에","meaning":"学校","note":"학교(学校)+에(方向助词)"},{"text":"지각을","meaning":"迟到","note":"지각(迟到)+을(宾格助词)","isTarget":true},{"text":"했습니다","meaning":"做了","note":"하다(做)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"지우개","romanization":"jiugae","pos":"名词","meaning":"橡皮","register":"中立","example":"지우개로 글씨를 지웠습니다.","exampleTranslation":"用橡皮擦了字。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"지우개로","meaning":"用橡皮","note":"지우개(橡皮)+로(表工具的助词)","isTarget":true},{"text":"글씨를","meaning":"字","note":"글씨(字)+를(宾格助词)"},{"text":"지웠습니다","meaning":"擦了","note":"지우다(擦)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"직업","romanization":"jigeop","pos":"名词","meaning":"职业","register":"中立","example":"좋은 직업을 구했습니다.","exampleTranslation":"找到了好工作。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"좋은","meaning":"好的","note":"좋다(好)的词干+ -은(冠形词形)"},{"text":"직업을","meaning":"职业","note":"직업(职业)+을(宾格助词)","isTarget":true},{"text":"구했습니다","meaning":"求得了","note":"구하다(求得)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"직원","romanization":"jigwon","pos":"名词","meaning":"职员","register":"中立","example":"새 직원을 모집합니다.","exampleTranslation":"招聘新职员。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"새","meaning":"新的","note":"冠形词"},{"text":"직원을","meaning":"职员","note":"직원(职员)+을(宾格助词)","isTarget":true},{"text":"모집합니다","meaning":"招聘","note":"모집하다(招聘)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"직장","romanization":"jikjang","pos":"名词","meaning":"职场，工作单位","register":"中立","example":"새 직장에 다니고 있습니다.","exampleTranslation":"正在新单位上班。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"새","meaning":"新的","note":"冠形词"},{"text":"직장에","meaning":"职场","note":"직장(职场)+에(方向助词)","isTarget":true},{"text":"다니고 있습니다","meaning":"正在上班","note":"다니다(上班)的词干+ -고 있다(正在)+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"직접","romanization":"jikjeop","pos":"名词/副词","meaning":"直接，亲自","register":"中立","example":"직접 만나서 이야기했습니다.","exampleTranslation":"亲自见面聊了。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"직접","meaning":"亲自","note":"副词","isTarget":true},{"text":"만나서","meaning":"见面之后","note":"만나다(见面)的词干+ -아서(先后)"},{"text":"이야기했습니다","meaning":"聊了","note":"이야기하다(聊天)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"질문","romanization":"jilmun","pos":"名词","meaning":"提问","register":"中立","example":"선생님의 질문에 답했습니다.","exampleTranslation":"回答了老师的提问。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"선생님의","meaning":"老师的","note":"선생님(老师)+의(所有格助词)"},{"text":"질문에","meaning":"提问","note":"질문(提问)+에(方向助词)","isTarget":true},{"text":"답했습니다","meaning":"回答了","note":"답하다(回答)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"책","romanization":"chaek","pos":"名词","meaning":"书","register":"中立","example":"도서관에서 책을 읽습니다.","exampleTranslation":"在图书馆读书。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"도서관에서","meaning":"在图书馆","note":"도서관(图书馆)+에서(处所助词)"},{"text":"책을","meaning":"书","note":"책(书)+을(宾格助词)","isTarget":true},{"text":"읽습니다","meaning":"读","note":"읽다(读)的词干+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"초등학생","romanization":"chodeunghaksaeng","pos":"名词","meaning":"小学生","register":"中立","example":"동생은 초등학생입니다.","exampleTranslation":"弟弟/妹妹是小学生。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"동생은","meaning":"弟弟妹妹","note":"동생(弟弟妹妹)+은(主题助词)"},{"text":"초등학생입니다","meaning":"是小学生","note":"초등학생(小学生)+이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）","isTarget":true}]},
-{"korean":"출근","romanization":"chulgeun","pos":"名词","meaning":"上班","register":"中立","example":"아침 아홉 시에 출근합니다.","exampleTranslation":"早上九点上班。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"아침 아홉 시에","meaning":"早上九点","note":"아침(早上)+아홉 시(九点)+에(时间助词)"},{"text":"출근합니다","meaning":"上班","note":"출근하다(上班)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）","isTarget":true}]},
-{"korean":"출장","romanization":"chuljang","pos":"名词","meaning":"出差","register":"中立","example":"다음 주에 출장을 갑니다.","exampleTranslation":"下周要出差。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"다음 주에","meaning":"下周","note":"다음(下一个)+주(周)+에(时间助词)"},{"text":"출장을","meaning":"出差","note":"출장(出差)+을(宾格助词)","isTarget":true},{"text":"갑니다","meaning":"去","note":"가다(去)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"출퇴근","romanization":"chultoegeun","pos":"名词","meaning":"上下班","register":"中立","example":"지하철로 출퇴근을 합니다.","exampleTranslation":"坐地铁上下班。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"지하철로","meaning":"坐地铁","note":"지하철(地铁)+로(表方式的助词)"},{"text":"출퇴근을","meaning":"上下班","note":"출퇴근(上下班)+을(宾格助词)","isTarget":true},{"text":"합니다","meaning":"做","note":"하다(做)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"취직","romanization":"chwijik","pos":"名词","meaning":"就业","register":"中立","example":"드디어 취직이 되었습니다.","exampleTranslation":"终于就业了。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"드디어","meaning":"终于","note":"副词"},{"text":"취직이","meaning":"就业","note":"취직(就业)+이(主格助词)","isTarget":true},{"text":"되었습니다","meaning":"成了","note":"되다(成为)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"칠판","romanization":"chilpan","pos":"名词","meaning":"黑板","register":"中立","example":"칠판에 글씨를 썼습니다.","exampleTranslation":"在黑板上写了字。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"칠판에","meaning":"黑板","note":"칠판(黑板)+에(方向助词)","isTarget":true},{"text":"글씨를","meaning":"字","note":"글씨(字)+를(宾格助词)"},{"text":"썼습니다","meaning":"写了","note":"쓰다(写)的词干（으不规则）+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"퇴근","romanization":"toegeun","pos":"名词","meaning":"下班","register":"中立","example":"저녁 여섯 시에 퇴근합니다.","exampleTranslation":"晚上六点下班。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"저녁 여섯 시에","meaning":"晚上六点","note":"저녁(晚上)+여섯 시(六点)+에(时间助词)"},{"text":"퇴근합니다","meaning":"下班","note":"퇴근하다(下班)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）","isTarget":true}]},
-{"korean":"하숙비","romanization":"hasukbi","pos":"名词","meaning":"寄宿费","register":"中立","example":"매달 하숙비를 냅니다.","exampleTranslation":"每个月交寄宿费。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"매달","meaning":"每个月","note":"副词"},{"text":"하숙비를","meaning":"寄宿费","note":"하숙비(寄宿费)+를(宾格助词)","isTarget":true},{"text":"냅니다","meaning":"交","note":"내다(交)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"하숙집","romanization":"hasukjjip","pos":"名词","meaning":"寄宿家庭","register":"中立","example":"하숙집에서 묵고 있습니다.","exampleTranslation":"正住在寄宿家庭。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"하숙집에서","meaning":"在寄宿家庭","note":"하숙집(寄宿家庭)+에서(处所助词)","isTarget":true},{"text":"묵고 있습니다","meaning":"正在住","note":"묵다(住宿)的词干+ -고 있다(正在)+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"학기","romanization":"hakgi","pos":"名词","meaning":"学期","register":"中立","example":"새 학기가 시작되었습니다.","exampleTranslation":"新学期开始了。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"새","meaning":"新的","note":"冠形词"},{"text":"학기가","meaning":"学期","note":"학기(学期)+가(主格助词)","isTarget":true},{"text":"시작되었습니다","meaning":"开始了","note":"시작되다(开始)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"학년","romanization":"hangnyeon","pos":"名词","meaning":"年级","register":"中立","example":"저는 새 학년이 되었습니다.","exampleTranslation":"我升了新年级。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"저는","meaning":"我","note":"저(我)+는(主题助词)"},{"text":"새 학년이","meaning":"新年级","note":"새(新的)+학년(年级)+이(主格助词)","isTarget":true},{"text":"되었습니다","meaning":"成为了","note":"되다(成为)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"학생증","romanization":"haksaengjeung","pos":"名词","meaning":"学生证","register":"中立","example":"도서관에서 학생증을 제시했습니다.","exampleTranslation":"在图书馆出示了学生证。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"도서관에서","meaning":"在图书馆","note":"도서관(图书馆)+에서(处所助词)"},{"text":"학생증을","meaning":"学生证","note":"학생증(学生证)+을(宾格助词)","isTarget":true},{"text":"제시했습니다","meaning":"出示了","note":"제시하다(出示)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"한글","romanization":"hangeul","pos":"名词","meaning":"韩文字母","register":"中立","example":"한글을 배우고 있습니다.","exampleTranslation":"正在学韩文字母。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"한글을","meaning":"韩文字母","note":"한글(韩文字母)+을(宾格助词)","isTarget":true},{"text":"배우고 있습니다","meaning":"正在学","note":"배우다(学)的词干+ -고 있다(正在)+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"화가","romanization":"hwaga","pos":"名词","meaning":"画家","register":"中立","example":"그는 유명한 화가입니다.","exampleTranslation":"他是有名的画家。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"그는","meaning":"他","note":"그(他)+는(主题助词)"},{"text":"유명한","meaning":"有名的","note":"유명하다(有名)的词干+ -ㄴ(冠形词形)"},{"text":"화가입니다","meaning":"是画家","note":"화가(画家)+이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）","isTarget":true}]},
-{"korean":"회사","romanization":"hoesa","pos":"名词","meaning":"公司","register":"中立","example":"저는 회사에 다닙니다.","exampleTranslation":"我在公司上班。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"저는","meaning":"我","note":"저(我)+는(主题助词)"},{"text":"회사에","meaning":"公司","note":"회사(公司)+에(方向助词)","isTarget":true},{"text":"다닙니다","meaning":"上（班）","note":"다니다(上班)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"회원","romanization":"hoewon","pos":"名词","meaning":"会员","register":"中立","example":"새 회원을 모집합니다.","exampleTranslation":"招募新会员。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"새","meaning":"新的","note":"冠形词"},{"text":"회원을","meaning":"会员","note":"회원(会员)+을(宾格助词)","isTarget":true},{"text":"모집합니다","meaning":"招募","note":"모집하다(招募)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"}]}
+  {
+    "korean": "영어",
+    "romanization": "yeongeo",
+    "pos": "名词",
+    "meaning": "英语",
+    "register": "中立",
+    "example": "저는 영어를 배우고 있습니다.",
+    "exampleTranslation": "我正在学英语。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "저는",
+        "meaning": "我",
+        "note": "저(我)+는(主题助词)"
+      },
+      {
+        "text": "영어를",
+        "meaning": "英语",
+        "note": "영어(英语)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "배우고 있습니다",
+        "meaning": "正在学",
+        "note": "배우다(学)的词干+ -고 있다(正在)+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "예습",
+    "romanization": "yeseup",
+    "pos": "名词",
+    "meaning": "预习",
+    "register": "中立",
+    "example": "수업 전에 예습을 합니다.",
+    "exampleTranslation": "上课前预习。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "수업 전에",
+        "meaning": "上课前",
+        "note": "수업(上课)+전(之前)+에(时间助词)"
+      },
+      {
+        "text": "예습을",
+        "meaning": "预习",
+        "note": "예습(预习)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "합니다",
+        "meaning": "做",
+        "note": "하다(做)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "외우다",
+    "romanization": "oeuda",
+    "pos": "动词",
+    "meaning": "背诵",
+    "register": "中立",
+    "example": "단어를 열심히 외웁니다.",
+    "exampleTranslation": "努力背单词。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "단어를",
+        "meaning": "单词",
+        "note": "단어(单词)+를(宾格助词)"
+      },
+      {
+        "text": "열심히",
+        "meaning": "努力地",
+        "note": "副词"
+      },
+      {
+        "text": "외웁니다",
+        "meaning": "背诵",
+        "note": "외우다(背诵)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "운동장",
+    "romanization": "undongjang",
+    "pos": "名词",
+    "meaning": "操场",
+    "register": "中立",
+    "example": "운동장에서 축구를 합니다.",
+    "exampleTranslation": "在操场踢足球。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "운동장에서",
+        "meaning": "在操场",
+        "note": "운동장(操场)+에서(处所助词)",
+        "isTarget": true
+      },
+      {
+        "text": "축구를",
+        "meaning": "足球",
+        "note": "축구(足球)+를(宾格助词)"
+      },
+      {
+        "text": "합니다",
+        "meaning": "做",
+        "note": "하다(做)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "월급",
+    "romanization": "wolgeup",
+    "pos": "名词",
+    "meaning": "月薪",
+    "register": "中立",
+    "example": "이번 달 월급을 받았습니다.",
+    "exampleTranslation": "收到了这个月的工资。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "이번 달",
+        "meaning": "这个月",
+        "note": "이번(这次)+달(月)"
+      },
+      {
+        "text": "월급을",
+        "meaning": "月薪",
+        "note": "월급(月薪)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "받았습니다",
+        "meaning": "收到了",
+        "note": "받다(收到)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "유학",
+    "romanization": "yuhak",
+    "pos": "名词",
+    "meaning": "留学",
+    "register": "中立",
+    "example": "내년에 유학을 갈 겁니다.",
+    "exampleTranslation": "明年要去留学。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "내년에",
+        "meaning": "明年",
+        "note": "내년(明年)+에(时间助词)"
+      },
+      {
+        "text": "유학을",
+        "meaning": "留学",
+        "note": "유학(留学)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "갈 겁니다",
+        "meaning": "要去",
+        "note": "가다(去)的词干+ -ㄹ 것이다(将要)+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "유학생",
+    "romanization": "yuhaksaeng",
+    "pos": "名词",
+    "meaning": "留学生",
+    "register": "中立",
+    "example": "저는 유학생 신분입니다.",
+    "exampleTranslation": "我是留学生身份。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "저는",
+        "meaning": "我",
+        "note": "저(我)+는(主题助词)"
+      },
+      {
+        "text": "유학생 신분입니다",
+        "meaning": "是留学生身份",
+        "note": "유학생(留学生)+신분(身份)+이다+ -ㅂ니다（陈述句·尊敬阶终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "일기",
+    "romanization": "ilgi",
+    "pos": "名词",
+    "meaning": "日记",
+    "register": "中立",
+    "example": "자기 전에 일기를 씁니다.",
+    "exampleTranslation": "睡前写日记。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "자기 전에",
+        "meaning": "睡觉之前",
+        "note": "자다(睡)的词干+ -기 전에(……之前)"
+      },
+      {
+        "text": "일기를",
+        "meaning": "日记",
+        "note": "일기(日记)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "씁니다",
+        "meaning": "写",
+        "note": "쓰다(写)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "입학",
+    "romanization": "ipak",
+    "pos": "名词",
+    "meaning": "入学",
+    "register": "中立",
+    "example": "대학 입학을 축하합니다.",
+    "exampleTranslation": "祝贺考上大学。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "대학",
+        "meaning": "大学",
+        "note": "名词"
+      },
+      {
+        "text": "입학을",
+        "meaning": "入学",
+        "note": "입학(入学)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "축하합니다",
+        "meaning": "祝贺",
+        "note": "축하하다(祝贺)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "입학시험",
+    "romanization": "ipaksiheom",
+    "pos": "名词",
+    "meaning": "入学考试",
+    "register": "中立",
+    "example": "입학시험에 합격했습니다.",
+    "exampleTranslation": "入学考试合格了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "입학시험에",
+        "meaning": "入学考试",
+        "note": "입학시험(入学考试)+에(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "합격했습니다",
+        "meaning": "合格了",
+        "note": "합격하다(合格)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "잘되다",
+    "romanization": "jaldoeda",
+    "pos": "动词",
+    "meaning": "顺利",
+    "register": "中立",
+    "example": "요즘 사업이 잘됩니다.",
+    "exampleTranslation": "最近生意很顺利。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "요즘",
+        "meaning": "最近",
+        "note": "副词"
+      },
+      {
+        "text": "사업이",
+        "meaning": "生意",
+        "note": "사업(生意)+이(主格助词)"
+      },
+      {
+        "text": "잘됩니다",
+        "meaning": "顺利",
+        "note": "잘되다(顺利)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "잘못되다",
+    "romanization": "jalmotdoeda",
+    "pos": "动词",
+    "meaning": "出错",
+    "register": "中立",
+    "example": "순서가 잘못되었습니다.",
+    "exampleTranslation": "顺序弄错了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "순서가",
+        "meaning": "顺序",
+        "note": "순서(顺序)+가(主格助词)"
+      },
+      {
+        "text": "잘못되었습니다",
+        "meaning": "出错了",
+        "note": "잘못되다(出错)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "잘하다",
+    "romanization": "jalhada",
+    "pos": "动词",
+    "meaning": "擅长，做得好",
+    "register": "中立",
+    "example": "저는 외국어를 잘합니다.",
+    "exampleTranslation": "我擅长外语。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "저는",
+        "meaning": "我",
+        "note": "저(我)+는(主题助词)"
+      },
+      {
+        "text": "외국어를",
+        "meaning": "外语",
+        "note": "외국어(外语)+를(宾格助词)"
+      },
+      {
+        "text": "잘합니다",
+        "meaning": "擅长",
+        "note": "잘하다(擅长)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "전공",
+    "romanization": "jeongong",
+    "pos": "名词",
+    "meaning": "专业",
+    "register": "中立",
+    "example": "전공을 결정했습니다.",
+    "exampleTranslation": "决定了专业。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "전공을",
+        "meaning": "专业",
+        "note": "전공(专业)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "결정했습니다",
+        "meaning": "决定了",
+        "note": "결정하다(决定)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "점수",
+    "romanization": "jeomsu",
+    "pos": "名词",
+    "meaning": "分数",
+    "register": "中立",
+    "example": "이번 시험 점수가 높습니다.",
+    "exampleTranslation": "这次考试分数很高。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "이번 시험",
+        "meaning": "这次考试",
+        "note": "이번(这次)+시험(考试)"
+      },
+      {
+        "text": "점수가",
+        "meaning": "分数",
+        "note": "점수(分数)+가(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "높습니다",
+        "meaning": "高",
+        "note": "높다(高)的词干+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "정하다",
+    "romanization": "jeonghada",
+    "pos": "动词",
+    "meaning": "决定",
+    "register": "中立",
+    "example": "약속 시간을 정했습니다.",
+    "exampleTranslation": "定好了约定时间。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "약속 시간을",
+        "meaning": "约定时间",
+        "note": "약속(约定)+시간(时间)+을(宾格助词)"
+      },
+      {
+        "text": "정했습니다",
+        "meaning": "定了",
+        "note": "정하다(决定)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "제목",
+    "romanization": "jemok",
+    "pos": "名词",
+    "meaning": "标题",
+    "register": "中立",
+    "example": "글의 제목을 지었습니다.",
+    "exampleTranslation": "取了文章的标题。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "글의",
+        "meaning": "文章的",
+        "note": "글(文章)+의(所有格助词)"
+      },
+      {
+        "text": "제목을",
+        "meaning": "标题",
+        "note": "제목(标题)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "지었습니다",
+        "meaning": "取了",
+        "note": "짓다(取名)的词干变化（ㅅ不规则：收音ㅅ在元音开头的语尾前脱落）+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "졸업",
+    "romanization": "joreop",
+    "pos": "名词",
+    "meaning": "毕业",
+    "register": "中立",
+    "example": "내년에 졸업을 합니다.",
+    "exampleTranslation": "明年毕业。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "내년에",
+        "meaning": "明年",
+        "note": "내년(明年)+에(时间助词)"
+      },
+      {
+        "text": "졸업을",
+        "meaning": "毕业",
+        "note": "졸업(毕业)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "합니다",
+        "meaning": "做",
+        "note": "하다(做)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "종업원",
+    "romanization": "jongeobwon",
+    "pos": "名词",
+    "meaning": "服务员",
+    "register": "中立",
+    "example": "종업원이 친절합니다.",
+    "exampleTranslation": "服务员很亲切。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "종업원이",
+        "meaning": "服务员",
+        "note": "종업원(服务员)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "친절합니다",
+        "meaning": "亲切",
+        "note": "친절하다(亲切)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "종이",
+    "romanization": "jongi",
+    "pos": "名词",
+    "meaning": "纸",
+    "register": "中立",
+    "example": "종이에 이름을 썼습니다.",
+    "exampleTranslation": "在纸上写了名字。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "종이에",
+        "meaning": "纸上",
+        "note": "종이(纸)+에(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "이름을",
+        "meaning": "名字",
+        "note": "이름(名字)+을(宾格助词)"
+      },
+      {
+        "text": "썼습니다",
+        "meaning": "写了",
+        "note": "쓰다(写)的词干（으不规则）+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "중학교",
+    "romanization": "junghakgyo",
+    "pos": "名词",
+    "meaning": "初中",
+    "register": "中立",
+    "example": "중학교에 입학했습니다.",
+    "exampleTranslation": "上了初中。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "중학교에",
+        "meaning": "初中",
+        "note": "중학교(初中)+에(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "입학했습니다",
+        "meaning": "入学了",
+        "note": "입학하다(入学)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "중학생",
+    "romanization": "junghaksaeng",
+    "pos": "名词",
+    "meaning": "初中生",
+    "register": "中立",
+    "example": "동생은 중학생입니다.",
+    "exampleTranslation": "弟弟/妹妹是初中生。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "동생은",
+        "meaning": "弟弟妹妹",
+        "note": "동생(弟弟妹妹)+은(主题助词)"
+      },
+      {
+        "text": "중학생입니다",
+        "meaning": "是初中生",
+        "note": "중학생(初中生)+이다+ -ㅂ니다（陈述句·尊敬阶终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "지각",
+    "romanization": "jigak",
+    "pos": "名词",
+    "meaning": "迟到",
+    "register": "中立",
+    "example": "오늘 학교에 지각을 했습니다.",
+    "exampleTranslation": "今天上学迟到了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "오늘",
+        "meaning": "今天",
+        "note": "名词/副词"
+      },
+      {
+        "text": "학교에",
+        "meaning": "学校",
+        "note": "학교(学校)+에(方向助词)"
+      },
+      {
+        "text": "지각을",
+        "meaning": "迟到",
+        "note": "지각(迟到)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "했습니다",
+        "meaning": "做了",
+        "note": "하다(做)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "지우개",
+    "romanization": "jiugae",
+    "pos": "名词",
+    "meaning": "橡皮",
+    "register": "中立",
+    "example": "지우개로 글씨를 지웠습니다.",
+    "exampleTranslation": "用橡皮擦了字。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "지우개로",
+        "meaning": "用橡皮",
+        "note": "지우개(橡皮)+로(表工具的助词)",
+        "isTarget": true
+      },
+      {
+        "text": "글씨를",
+        "meaning": "字",
+        "note": "글씨(字)+를(宾格助词)"
+      },
+      {
+        "text": "지웠습니다",
+        "meaning": "擦了",
+        "note": "지우다(擦)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "직업",
+    "romanization": "jigeop",
+    "pos": "名词",
+    "meaning": "职业",
+    "register": "中立",
+    "example": "좋은 직업을 구했습니다.",
+    "exampleTranslation": "找到了好工作。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "좋은",
+        "meaning": "好的",
+        "note": "좋다(好)的词干+ -은(冠形词形)"
+      },
+      {
+        "text": "직업을",
+        "meaning": "职业",
+        "note": "직업(职业)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "구했습니다",
+        "meaning": "求得了",
+        "note": "구하다(求得)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "직원",
+    "romanization": "jigwon",
+    "pos": "名词",
+    "meaning": "职员",
+    "register": "中立",
+    "example": "새 직원을 모집합니다.",
+    "exampleTranslation": "招聘新职员。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "새",
+        "meaning": "新的",
+        "note": "冠形词"
+      },
+      {
+        "text": "직원을",
+        "meaning": "职员",
+        "note": "직원(职员)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "모집합니다",
+        "meaning": "招聘",
+        "note": "모집하다(招聘)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "직장",
+    "romanization": "jikjang",
+    "pos": "名词",
+    "meaning": "职场，工作单位",
+    "register": "中立",
+    "example": "새 직장에 다니고 있습니다.",
+    "exampleTranslation": "正在新单位上班。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "새",
+        "meaning": "新的",
+        "note": "冠形词"
+      },
+      {
+        "text": "직장에",
+        "meaning": "职场",
+        "note": "직장(职场)+에(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "다니고 있습니다",
+        "meaning": "正在上班",
+        "note": "다니다(上班)的词干+ -고 있다(正在)+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "직접",
+    "romanization": "jikjeop",
+    "pos": "名词/副词",
+    "meaning": "直接，亲自",
+    "register": "中立",
+    "example": "직접 만나서 이야기했습니다.",
+    "exampleTranslation": "亲自见面聊了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "직접",
+        "meaning": "亲自",
+        "note": "副词",
+        "isTarget": true
+      },
+      {
+        "text": "만나서",
+        "meaning": "见面之后",
+        "note": "만나다(见面)的词干+ -아서(先后)"
+      },
+      {
+        "text": "이야기했습니다",
+        "meaning": "聊了",
+        "note": "이야기하다(聊天)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "질문",
+    "romanization": "jilmun",
+    "pos": "名词",
+    "meaning": "提问",
+    "register": "中立",
+    "example": "선생님의 질문에 답했습니다.",
+    "exampleTranslation": "回答了老师的提问。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "선생님의",
+        "meaning": "老师的",
+        "note": "선생님(老师)+의(所有格助词)"
+      },
+      {
+        "text": "질문에",
+        "meaning": "提问",
+        "note": "질문(提问)+에(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "답했습니다",
+        "meaning": "回答了",
+        "note": "답하다(回答)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "책",
+    "romanization": "chaek",
+    "pos": "名词",
+    "meaning": "书",
+    "register": "中立",
+    "example": "도서관에서 책을 읽습니다.",
+    "exampleTranslation": "在图书馆读书。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "도서관에서",
+        "meaning": "在图书馆",
+        "note": "도서관(图书馆)+에서(处所助词)"
+      },
+      {
+        "text": "책을",
+        "meaning": "书",
+        "note": "책(书)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "읽습니다",
+        "meaning": "读",
+        "note": "읽다(读)的词干+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "초등학생",
+    "romanization": "chodeunghaksaeng",
+    "pos": "名词",
+    "meaning": "小学生",
+    "register": "中立",
+    "example": "동생은 초등학생입니다.",
+    "exampleTranslation": "弟弟/妹妹是小学生。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "동생은",
+        "meaning": "弟弟妹妹",
+        "note": "동생(弟弟妹妹)+은(主题助词)"
+      },
+      {
+        "text": "초등학생입니다",
+        "meaning": "是小学生",
+        "note": "초등학생(小学生)+이다+ -ㅂ니다（陈述句·尊敬阶终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "출근",
+    "romanization": "chulgeun",
+    "pos": "名词",
+    "meaning": "上班",
+    "register": "中立",
+    "example": "아침 아홉 시에 출근합니다.",
+    "exampleTranslation": "早上九点上班。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "아침 아홉 시에",
+        "meaning": "早上九点",
+        "note": "아침(早上)+아홉 시(九点)+에(时间助词)"
+      },
+      {
+        "text": "출근합니다",
+        "meaning": "上班",
+        "note": "출근하다(上班)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "출장",
+    "romanization": "chuljang",
+    "pos": "名词",
+    "meaning": "出差",
+    "register": "中立",
+    "example": "다음 주에 출장을 갑니다.",
+    "exampleTranslation": "下周要出差。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "다음 주에",
+        "meaning": "下周",
+        "note": "다음(下一个)+주(周)+에(时间助词)"
+      },
+      {
+        "text": "출장을",
+        "meaning": "出差",
+        "note": "출장(出差)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "갑니다",
+        "meaning": "去",
+        "note": "가다(去)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "출퇴근",
+    "romanization": "chultoegeun",
+    "pos": "名词",
+    "meaning": "上下班",
+    "register": "中立",
+    "example": "지하철로 출퇴근을 합니다.",
+    "exampleTranslation": "坐地铁上下班。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "지하철로",
+        "meaning": "坐地铁",
+        "note": "지하철(地铁)+로(表方式的助词)"
+      },
+      {
+        "text": "출퇴근을",
+        "meaning": "上下班",
+        "note": "출퇴근(上下班)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "합니다",
+        "meaning": "做",
+        "note": "하다(做)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "취직",
+    "romanization": "chwijik",
+    "pos": "名词",
+    "meaning": "就业",
+    "register": "中立",
+    "example": "드디어 취직이 되었습니다.",
+    "exampleTranslation": "终于就业了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "드디어",
+        "meaning": "终于",
+        "note": "副词"
+      },
+      {
+        "text": "취직이",
+        "meaning": "就业",
+        "note": "취직(就业)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "되었습니다",
+        "meaning": "成了",
+        "note": "되다(成为)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "칠판",
+    "romanization": "chilpan",
+    "pos": "名词",
+    "meaning": "黑板",
+    "register": "中立",
+    "example": "칠판에 글씨를 썼습니다.",
+    "exampleTranslation": "在黑板上写了字。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "칠판에",
+        "meaning": "黑板",
+        "note": "칠판(黑板)+에(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "글씨를",
+        "meaning": "字",
+        "note": "글씨(字)+를(宾格助词)"
+      },
+      {
+        "text": "썼습니다",
+        "meaning": "写了",
+        "note": "쓰다(写)的词干（으不规则）+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "퇴근",
+    "romanization": "toegeun",
+    "pos": "名词",
+    "meaning": "下班",
+    "register": "中立",
+    "example": "저녁 여섯 시에 퇴근합니다.",
+    "exampleTranslation": "晚上六点下班。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "저녁 여섯 시에",
+        "meaning": "晚上六点",
+        "note": "저녁(晚上)+여섯 시(六点)+에(时间助词)"
+      },
+      {
+        "text": "퇴근합니다",
+        "meaning": "下班",
+        "note": "퇴근하다(下班)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "하숙비",
+    "romanization": "hasukbi",
+    "pos": "名词",
+    "meaning": "寄宿费",
+    "register": "中立",
+    "example": "매달 하숙비를 냅니다.",
+    "exampleTranslation": "每个月交寄宿费。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "매달",
+        "meaning": "每个月",
+        "note": "副词"
+      },
+      {
+        "text": "하숙비를",
+        "meaning": "寄宿费",
+        "note": "하숙비(寄宿费)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "냅니다",
+        "meaning": "交",
+        "note": "내다(交)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "하숙집",
+    "romanization": "hasukjjip",
+    "pos": "名词",
+    "meaning": "寄宿家庭",
+    "register": "中立",
+    "example": "하숙집에서 묵고 있습니다.",
+    "exampleTranslation": "正住在寄宿家庭。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "하숙집에서",
+        "meaning": "在寄宿家庭",
+        "note": "하숙집(寄宿家庭)+에서(处所助词)",
+        "isTarget": true
+      },
+      {
+        "text": "묵고 있습니다",
+        "meaning": "正在住",
+        "note": "묵다(住宿)的词干+ -고 있다(正在)+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "학기",
+    "romanization": "hakgi",
+    "pos": "名词",
+    "meaning": "学期",
+    "register": "中立",
+    "example": "새 학기가 시작되었습니다.",
+    "exampleTranslation": "新学期开始了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "새",
+        "meaning": "新的",
+        "note": "冠形词"
+      },
+      {
+        "text": "학기가",
+        "meaning": "学期",
+        "note": "학기(学期)+가(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "시작되었습니다",
+        "meaning": "开始了",
+        "note": "시작되다(开始)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "학년",
+    "romanization": "hangnyeon",
+    "pos": "名词",
+    "meaning": "年级",
+    "register": "中立",
+    "example": "저는 새 학년이 되었습니다.",
+    "exampleTranslation": "我升了新年级。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "저는",
+        "meaning": "我",
+        "note": "저(我)+는(主题助词)"
+      },
+      {
+        "text": "새 학년이",
+        "meaning": "新年级",
+        "note": "새(新的)+학년(年级)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "되었습니다",
+        "meaning": "成为了",
+        "note": "되다(成为)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "학생증",
+    "romanization": "haksaengjeung",
+    "pos": "名词",
+    "meaning": "学生证",
+    "register": "中立",
+    "example": "도서관에서 학생증을 제시했습니다.",
+    "exampleTranslation": "在图书馆出示了学生证。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "도서관에서",
+        "meaning": "在图书馆",
+        "note": "도서관(图书馆)+에서(处所助词)"
+      },
+      {
+        "text": "학생증을",
+        "meaning": "学生证",
+        "note": "학생증(学生证)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "제시했습니다",
+        "meaning": "出示了",
+        "note": "제시하다(出示)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "한글",
+    "romanization": "hangeul",
+    "pos": "名词",
+    "meaning": "韩文字母",
+    "register": "中立",
+    "example": "한글을 배우고 있습니다.",
+    "exampleTranslation": "正在学韩文字母。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "한글을",
+        "meaning": "韩文字母",
+        "note": "한글(韩文字母)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "배우고 있습니다",
+        "meaning": "正在学",
+        "note": "배우다(学)的词干+ -고 있다(正在)+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "화가",
+    "romanization": "hwaga",
+    "pos": "名词",
+    "meaning": "画家",
+    "register": "中立",
+    "example": "그는 유명한 화가입니다.",
+    "exampleTranslation": "他是有名的画家。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "그는",
+        "meaning": "他",
+        "note": "그(他)+는(主题助词)"
+      },
+      {
+        "text": "유명한",
+        "meaning": "有名的",
+        "note": "유명하다(有名)的词干+ -ㄴ(冠形词形)"
+      },
+      {
+        "text": "화가입니다",
+        "meaning": "是画家",
+        "note": "화가(画家)+이다+ -ㅂ니다（陈述句·尊敬阶终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "회사",
+    "romanization": "hoesa",
+    "pos": "名词",
+    "meaning": "公司",
+    "register": "中立",
+    "example": "저는 회사에 다닙니다.",
+    "exampleTranslation": "我在公司上班。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "저는",
+        "meaning": "我",
+        "note": "저(我)+는(主题助词)"
+      },
+      {
+        "text": "회사에",
+        "meaning": "公司",
+        "note": "회사(公司)+에(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "다닙니다",
+        "meaning": "上（班）",
+        "note": "다니다(上班)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "회원",
+    "romanization": "hoewon",
+    "pos": "名词",
+    "meaning": "会员",
+    "register": "中立",
+    "example": "새 회원을 모집합니다.",
+    "exampleTranslation": "招募新会员。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "새",
+        "meaning": "新的",
+        "note": "冠形词"
+      },
+      {
+        "text": "회원을",
+        "meaning": "会员",
+        "note": "회원(会员)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "모집합니다",
+        "meaning": "招募",
+        "note": "모집하다(招募)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  }
 ]

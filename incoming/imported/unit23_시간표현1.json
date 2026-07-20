@@ -1,51 +1,1443 @@
 [
-{"korean":"개월","romanization":"gaewol","pos":"依存名词","meaning":"…个月","register":"中立","example":"삼 개월 동안 한국어를 배웠습니다.","exampleTranslation":"学了三个月韩语。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"삼 개월","meaning":"三个月","note":"삼(三)+개월(个月,依存名词)","isTarget":true},{"text":"동안","meaning":"期间","note":"后置名词"},{"text":"한국어를","meaning":"韩语","note":"한국어(韩语)+를(宾格助词)"},{"text":"배웠습니다","meaning":"学了","note":"배우다(学)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"공휴일","romanization":"gonghyuil","pos":"名词","meaning":"公休日","register":"中立","example":"내일은 공휴일로 정해졌습니다.","exampleTranslation":"明天定为公休日了。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"내일은","meaning":"明天","note":"내일(明天)+은(主题助词)"},{"text":"공휴일로","meaning":"公休日","note":"공휴일(公休日)+로(表结果的助词)","isTarget":true},{"text":"정해졌습니다","meaning":"被定为了","note":"정하다(决定)的词干变化+ -어지다(被……)+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"과거","romanization":"gwageo","pos":"名词","meaning":"过去","register":"中立","example":"과거를 잊고 앞으로 나아갑시다.","exampleTranslation":"忘记过去向前迈进吧。","sentenceType":"共动句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"과거를","meaning":"过去","note":"과거(过去)+를(宾格助词)","isTarget":true},{"text":"잊고","meaning":"忘记之后","note":"잊다(忘记)的词干+ -고(然后)"},{"text":"앞으로","meaning":"向前","note":"앞(前面)+으로(方向助词)"},{"text":"나아갑시다","meaning":"让我们前进吧","note":"나아가다(前进)的词干+ -ㅂ시다（共动句·格式体敬语终结词尾）"}]},
-{"korean":"구십","romanization":"gusip","pos":"数词/冠形词","meaning":"九十","register":"中立","example":"할아버지는 올해 구십 살이십니다.","exampleTranslation":"爷爷今年九十岁了。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"할아버지는","meaning":"爷爷","note":"할아버지(爷爷)+는(主题助词)"},{"text":"올해","meaning":"今年","note":"名词/副词"},{"text":"구십 살이십니다","meaning":"是九十岁（敬语）","note":"구십(九十)+살(岁)+이다+ -시-（尊敬阶标记）+ -ㅂ니다（陈述句·格式体敬语终结词尾）","isTarget":true}]},
-{"korean":"구월","romanization":"guwol","pos":"名词","meaning":"九月","register":"中立","example":"구월에 새 학기가 시작됩니다.","exampleTranslation":"九月新学期开始。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"구월에","meaning":"九月","note":"구월(九月)+에(时间助词)","isTarget":true},{"text":"새 학기가","meaning":"新学期","note":"새(新的)+학기(学期)+가(主格助词)"},{"text":"시작됩니다","meaning":"开始","note":"시작되다(开始)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"그날","romanization":"geunal","pos":"名词","meaning":"那一天","register":"中立","example":"그날 일을 아직도 기억합니다.","exampleTranslation":"至今还记得那一天的事。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"그날","meaning":"那一天","note":"名词，修饰일","isTarget":true},{"text":"일을","meaning":"事情","note":"일(事情)+을(宾格助词)"},{"text":"아직도","meaning":"至今还","note":"副词"},{"text":"기억합니다","meaning":"记得","note":"기억하다(记得)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"그동안","romanization":"geudongan","pos":"名词","meaning":"这段时间以来","register":"中立","example":"그동안 잘 지냈습니다.","exampleTranslation":"这段时间过得很好。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"그동안","meaning":"这段时间以来","note":"名词","isTarget":true},{"text":"잘","meaning":"好好地","note":"副词"},{"text":"지냈습니다","meaning":"过了","note":"지내다(度过)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"그때","romanization":"geuttae","pos":"名词","meaning":"那时候","register":"中立","example":"그때 정말 즐거웠습니다.","exampleTranslation":"那时候真的很开心。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"그때","meaning":"那时候","note":"名词","isTarget":true},{"text":"정말","meaning":"真的","note":"副词"},{"text":"즐거웠습니다","meaning":"愉快","note":"즐겁다(愉快)的词干变化（ㅂ不规则）+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"그저께","romanization":"geujeokke","pos":"名词/副词","meaning":"前天","register":"中立","example":"그저께 밤에 비가 왔습니다.","exampleTranslation":"前天晚上下雨了。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"그저께 밤에","meaning":"前天晚上","note":"그저께(前天)+밤(晚上)+에(时间助词)","isTarget":true},{"text":"비가","meaning":"雨","note":"비(雨)+가(主格助词)"},{"text":"왔습니다","meaning":"下了","note":"오다(来/下)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"기간","romanization":"gigan","pos":"名词","meaning":"期间","register":"中立","example":"할인 기간이 지났습니다.","exampleTranslation":"打折期间过了。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"할인","meaning":"打折","note":"名词"},{"text":"기간이","meaning":"期间","note":"기간(期间)+이(主格助词)","isTarget":true},{"text":"지났습니다","meaning":"过了","note":"지나다(过去)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"나흘","romanization":"naheul","pos":"名词","meaning":"四天","register":"中立","example":"나흘이 걸려서 끝냈습니다.","exampleTranslation":"花了四天才完成。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"나흘이","meaning":"四天","note":"나흘(四天)+이(主格助词)","isTarget":true},{"text":"걸려서","meaning":"花费了，所以","note":"걸리다(花费)的词干+ -어서(因为)"},{"text":"끝냈습니다","meaning":"完成了","note":"끝내다(完成)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"날","romanization":"nal","pos":"名词","meaning":"天，日子","register":"中立","example":"오늘은 정말 좋은 날입니다.","exampleTranslation":"今天真是美好的一天。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"오늘은","meaning":"今天","note":"오늘(今天)+은(主题助词)"},{"text":"정말","meaning":"真的","note":"副词"},{"text":"좋은","meaning":"好的","note":"좋다(好)的词干+ -은(冠形词形)"},{"text":"날입니다","meaning":"是日子","note":"날(天)+이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）","isTarget":true}]},
-{"korean":"날짜","romanization":"naljja","pos":"名词","meaning":"日期","register":"中立","example":"약속 날짜를 정했습니다.","exampleTranslation":"定好了约定的日期。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"약속","meaning":"约定","note":"名词"},{"text":"날짜를","meaning":"日期","note":"날짜(日期)+를(宾格助词)","isTarget":true},{"text":"정했습니다","meaning":"定了","note":"정하다(决定)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"낮","romanization":"nat","pos":"名词","meaning":"白天","register":"中立","example":"요즘 낮이 많이 짧아졌습니다.","exampleTranslation":"最近白天变短了很多。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"요즘","meaning":"最近","note":"副词"},{"text":"낮이","meaning":"白天","note":"낮(白天)+이(主格助词)","isTarget":true},{"text":"많이","meaning":"很多","note":"副词"},{"text":"짧아졌습니다","meaning":"变短了","note":"짧다(短)的词干+ -아지다(变得……)+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"낮잠","romanization":"natjjam","pos":"名词","meaning":"午觉","register":"中立","example":"점심을 먹고 낮잠을 잤습니다.","exampleTranslation":"吃了午饭后睡了午觉。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"점심을","meaning":"午饭","note":"점심(午饭)+을(宾格助词)"},{"text":"먹고","meaning":"吃了之后","note":"먹다(吃)的词干+ -고(然后)"},{"text":"낮잠을","meaning":"午觉","note":"낮잠(午觉)+을(宾格助词)","isTarget":true},{"text":"잤습니다","meaning":"睡了","note":"자다(睡)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"내년","romanization":"naenyeon","pos":"名词","meaning":"明年","register":"中立","example":"내년 여름에 유럽에 갈 겁니다.","exampleTranslation":"明年夏天要去欧洲。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"내년 여름에","meaning":"明年夏天","note":"내년(明年)+여름(夏天)+에(时间助词)","isTarget":true},{"text":"유럽에","meaning":"欧洲","note":"유럽(欧洲)+에(方向助词)"},{"text":"갈 겁니다","meaning":"要去","note":"가다(去)的词干+ -ㄹ 것이다(将要)+ -ㅂ니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"다섯째","romanization":"daseotjjae","pos":"数词/冠形词","meaning":"第五","register":"中立","example":"다섯째 줄에 앉으세요.","exampleTranslation":"请坐在第五排。","sentenceType":"命令句（请求）","formalityLevel":"非格式体敬语（해요体）","grammarBreakdown":[{"text":"다섯째","meaning":"第五","note":"冠形词，修饰줄","isTarget":true},{"text":"줄에","meaning":"排","note":"줄(排)+에(方向助词)"},{"text":"앉으세요","meaning":"请坐","note":"앉다(坐)的词干+ -으시-（尊敬阶标记）+ -어요（请求/命令·非格式体敬语终结词尾）"}]},
-{"korean":"다음날","romanization":"daeumnal","pos":"名词","meaning":"第二天","register":"中立","example":"다음날에 다시 만났습니다.","exampleTranslation":"第二天又见面了。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"다음날에","meaning":"第二天","note":"다음날(第二天)+에(时间助词)","isTarget":true},{"text":"다시","meaning":"再次","note":"副词"},{"text":"만났습니다","meaning":"见面了","note":"만나다(见面)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"달","romanization":"dal","pos":"名词/依存名词","meaning":"月","register":"中立","example":"다음 달에 이사를 갑니다.","exampleTranslation":"下个月要搬家。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"다음 달에","meaning":"下个月","note":"다음(下一个)+달(月,依存名词)+에(时间助词)","isTarget":true},{"text":"이사를","meaning":"搬家","note":"이사(搬家)+를(宾格助词)"},{"text":"갑니다","meaning":"去（做）","note":"가다(去)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"때","romanization":"ttae","pos":"名词","meaning":"…的时候","register":"中立","example":"어릴 때 이곳에서 살았습니다.","exampleTranslation":"小时候住在这里。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"어릴 때","meaning":"小的时候","note":"어리다(小)的词干+ -ㄹ(冠形词形)+때(时候)","isTarget":true},{"text":"이곳에서","meaning":"在这个地方","note":"이곳(这个地方)+에서(处所助词)"},{"text":"살았습니다","meaning":"生活了","note":"살다(居住)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"마지막","romanization":"majimak","pos":"名词","meaning":"最后","register":"中立","example":"이번이 마지막 경기입니다.","exampleTranslation":"这次是最后一场比赛。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"이번이","meaning":"这次","note":"이번(这次)+이(主格助词)"},{"text":"마지막 경기입니다","meaning":"是最后一场比赛","note":"마지막(最后)+경기(比赛)+이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）","isTarget":true}]},
-{"korean":"매년","romanization":"maenyeon","pos":"名词/副词","meaning":"每年","register":"中立","example":"매년 여행을 갑니다.","exampleTranslation":"每年都去旅行。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"매년","meaning":"每年","note":"副词","isTarget":true},{"text":"여행을","meaning":"旅行","note":"여행(旅行)+을(宾格助词)"},{"text":"갑니다","meaning":"去","note":"가다(去)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"며칠","romanization":"myeochil","pos":"名词","meaning":"几天","register":"中立","example":"며칠이 걸릴지 모르겠습니다.","exampleTranslation":"不知道要花几天。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"며칠이","meaning":"几天","note":"며칠(几天)+이(主格助词)","isTarget":true},{"text":"걸릴지","meaning":"是否会花费","note":"걸리다(花费)的词干+ -ㄹ지(是否……)"},{"text":"모르겠습니다","meaning":"不知道","note":"모르다(不知道)的词干+ -겠-(婉转推测)+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"명절","romanization":"myeongjeol","pos":"名词","meaning":"节日","register":"中立","example":"명절을 맞아 가족이 모였습니다.","exampleTranslation":"迎接节日家人聚在了一起。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"명절을","meaning":"节日","note":"명절(节日)+을(宾格助词)","isTarget":true},{"text":"맞아","meaning":"迎接","note":"맞다(迎接)的词干+ -아(连接词尾)"},{"text":"가족이","meaning":"家人","note":"가족(家人)+이(主格助词)"},{"text":"모였습니다","meaning":"聚集了","note":"모이다(聚集)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"모레","romanization":"more","pos":"名词/副词","meaning":"后天","register":"中立","example":"모레 시험이 있습니다.","exampleTranslation":"后天有考试。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"모레","meaning":"后天","note":"副词","isTarget":true},{"text":"시험이","meaning":"考试","note":"시험(考试)+이(主格助词)"},{"text":"있습니다","meaning":"有","note":"있다(有)+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"방학","romanization":"banghak","pos":"名词","meaning":"假期（学校）","register":"中立","example":"겨울 방학이 곧 시작됩니다.","exampleTranslation":"寒假马上就要开始了。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"겨울 방학이","meaning":"寒假","note":"겨울(冬天)+방학(假期)+이(主格助词)","isTarget":true},{"text":"곧","meaning":"马上","note":"副词"},{"text":"시작됩니다","meaning":"开始","note":"시작되다(开始)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"백만","romanization":"baengman","pos":"数词/冠形词","meaning":"百万","register":"中立","example":"이 자동차는 백만 원이 넘습니다.","exampleTranslation":"这辆汽车超过一百万韩元。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"이 자동차는","meaning":"这辆汽车","note":"이(这)+자동차(汽车)+는(主题助词)"},{"text":"백만 원이","meaning":"一百万韩元","note":"백만(百万)+원(韩元)+이(主格助词)","isTarget":true},{"text":"넘습니다","meaning":"超过","note":"넘다(超过)的词干+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"사십","romanization":"sasip","pos":"数词/冠形词","meaning":"四十","register":"中立","example":"아버지는 올해 사십 세입니다.","exampleTranslation":"父亲今年四十岁。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"아버지는","meaning":"父亲","note":"아버지(父亲)+는(主题助词)"},{"text":"올해","meaning":"今年","note":"名词/副词"},{"text":"사십 세입니다","meaning":"是四十岁","note":"사십(四十)+세(岁)+이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）","isTarget":true}]},
-{"korean":"사월","romanization":"sawol","pos":"名词","meaning":"四月","register":"中立","example":"사월에는 꽃이 많이 핍니다.","exampleTranslation":"四月开很多花。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"사월에는","meaning":"在四月","note":"사월(四月)+에(时间)+는(强调)","isTarget":true},{"text":"꽃이","meaning":"花","note":"꽃(花)+이(主格助词)"},{"text":"많이","meaning":"很多","note":"副词"},{"text":"핍니다","meaning":"开","note":"피다(开花)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"사흘","romanization":"saheul","pos":"名词","meaning":"三天","register":"中立","example":"사흘 동안 비가 왔습니다.","exampleTranslation":"下了三天雨。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"사흘 동안","meaning":"三天期间","note":"사흘(三天)+동안(期间)","isTarget":true},{"text":"비가","meaning":"雨","note":"비(雨)+가(主格助词)"},{"text":"왔습니다","meaning":"下了","note":"오다(来/下)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"삼십","romanization":"samsip","pos":"数词/冠形词","meaning":"三十","register":"中立","example":"삼십 분만 기다려 주세요.","exampleTranslation":"请等三十分钟。","sentenceType":"命令句（请求）","formalityLevel":"非格式体敬语（해요体）","grammarBreakdown":[{"text":"삼십 분만","meaning":"只三十分钟","note":"삼십(三十)+분(分钟)+만(只，限定助词)","isTarget":true},{"text":"기다려 주세요","meaning":"请等一下","note":"기다리다(等待)的词干变化+ -아/어 주다(请求)+ -시-+ -어요"}]},
-{"korean":"삼월","romanization":"samwol","pos":"名词","meaning":"三月","register":"中立","example":"삼월에 새 학기가 시작합니다.","exampleTranslation":"三月新学期开始。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"삼월에","meaning":"三月","note":"삼월(三月)+에(时间助词)","isTarget":true},{"text":"새 학기가","meaning":"新学期","note":"새(新的)+학기(学期)+가(主格助词)"},{"text":"시작합니다","meaning":"开始","note":"시작하다(开始)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"새벽","romanization":"saebyeok","pos":"名词","meaning":"凌晨","register":"中立","example":"새벽에 일찍 일어났습니다.","exampleTranslation":"凌晨早早起床了。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"새벽에","meaning":"凌晨","note":"새벽(凌晨)+에(时间助词)","isTarget":true},{"text":"일찍","meaning":"早早地","note":"副词"},{"text":"일어났습니다","meaning":"起床了","note":"일어나다(起床)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"새해","romanization":"saehae","pos":"名词","meaning":"新年","register":"中立","example":"새해가 다가오고 있습니다.","exampleTranslation":"新年快要到了。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"새해가","meaning":"新年","note":"새해(新年)+가(主格助词)","isTarget":true},{"text":"다가오고 있습니다","meaning":"正在临近","note":"다가오다(临近)的词干+ -고 있다(正在)+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"서너","romanization":"seoneo","pos":"冠形词","meaning":"三四（个）","register":"中立","example":"사과 서너 개를 샀습니다.","exampleTranslation":"买了三四个苹果。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"사과","meaning":"苹果","note":"名词"},{"text":"서너 개를","meaning":"三四个","note":"서너(三四，冠形词)+개(个)+를(宾格助词)","isTarget":true},{"text":"샀습니다","meaning":"买了","note":"사다(买)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"설날","romanization":"seollal","pos":"名词","meaning":"春节","register":"中立","example":"설날에는 떡국을 먹습니다.","exampleTranslation":"春节吃年糕汤。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"설날에는","meaning":"在春节","note":"설날(春节)+에(时间)+는(强调)","isTarget":true},{"text":"떡국을","meaning":"年糕汤","note":"떡국(年糕汤)+을(宾格助词)"},{"text":"먹습니다","meaning":"吃","note":"먹다(吃)的词干+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"시월","romanization":"siwol","pos":"名词","meaning":"十月","register":"中立","example":"시월에 단풍이 아름답습니다.","exampleTranslation":"十月枫叶很美。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"시월에","meaning":"十月","note":"시월(十月)+에(时间助词)","isTarget":true},{"text":"단풍이","meaning":"枫叶","note":"단풍(枫叶)+이(主格助词)"},{"text":"아름답습니다","meaning":"美丽","note":"아름답다(美丽)的词干+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"십만","romanization":"simman","pos":"数词/冠形词","meaning":"十万","register":"中立","example":"이 컴퓨터는 십만 원입니다.","exampleTranslation":"这台电脑十万韩元。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"이 컴퓨터는","meaning":"这台电脑","note":"이(这)+컴퓨터(电脑)+는(主题助词)"},{"text":"십만 원입니다","meaning":"是十万韩元","note":"십만(十万)+원(韩元)+이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）","isTarget":true}]},
-{"korean":"십이월","romanization":"sibiwol","pos":"名词","meaning":"十二月","register":"中立","example":"십이월에 크리스마스가 있습니다.","exampleTranslation":"十二月有圣诞节。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"십이월에","meaning":"十二月","note":"십이월(十二月)+에(时间助词)","isTarget":true},{"text":"크리스마스가","meaning":"圣诞节","note":"크리스마스(圣诞节)+가(主格助词)"},{"text":"있습니다","meaning":"有","note":"있다(有)+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"십일월","romanization":"sibirwol","pos":"名词","meaning":"十一月","register":"中立","example":"십일월부터 날씨가 추워집니다.","exampleTranslation":"从十一月开始天气变冷。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"십일월부터","meaning":"从十一月开始","note":"십일월(十一月)+부터(从……开始)","isTarget":true},{"text":"날씨가","meaning":"天气","note":"날씨(天气)+가(主格助词)"},{"text":"추워집니다","meaning":"变冷","note":"춥다(冷)的词干变化（ㅂ不规则）+ -어지다(变得……)+ -ㅂ니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"아까","romanization":"akka","pos":"副词/名词","meaning":"刚才","register":"中立","example":"아까 전화가 왔습니다.","exampleTranslation":"刚才有电话打来。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"아까","meaning":"刚才","note":"副词","isTarget":true},{"text":"전화가","meaning":"电话","note":"전화(电话)+가(主格助词)"},{"text":"왔습니다","meaning":"来了","note":"오다(来)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"아흔","romanization":"aheun","pos":"数词/冠形词","meaning":"九十（固有数字）","register":"中立","example":"할머니는 아흔이 넘으셨습니다.","exampleTranslation":"奶奶已经超过九十岁了。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"할머니는","meaning":"奶奶","note":"할머니(奶奶)+는(主题助词)"},{"text":"아흔이","meaning":"九十","note":"아흔(九十)+이(主格助词)","isTarget":true},{"text":"넘으셨습니다","meaning":"超过了（敬语）","note":"넘다(超过)的词干+ -으시-（尊敬阶标记）+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"어젯밤","romanization":"eojetbam","pos":"名词","meaning":"昨晚","register":"中立","example":"어젯밤에 비가 많이 왔습니다.","exampleTranslation":"昨晚下了很大的雨。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"어젯밤에","meaning":"昨晚","note":"어젯밤(昨晚)+에(时间助词)","isTarget":true},{"text":"비가","meaning":"雨","note":"비(雨)+가(主格助词)"},{"text":"많이","meaning":"很多","note":"副词"},{"text":"왔습니다","meaning":"下了","note":"오다(来/下)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"여든","romanization":"yeodeun","pos":"数词/冠形词","meaning":"八十（固有数字）","register":"中立","example":"할아버지는 여든 살입니다.","exampleTranslation":"爷爷八十岁。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"할아버지는","meaning":"爷爷","note":"할아버지(爷爷)+는(主题助词)"},{"text":"여든 살입니다","meaning":"是八十岁","note":"여든(八十)+살(岁)+이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）","isTarget":true}]},
-{"korean":"열흘","romanization":"yeolheul","pos":"名词","meaning":"十天","register":"中立","example":"열흘 후에 다시 만납시다.","exampleTranslation":"十天后再见吧。","sentenceType":"共动句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"열흘 후에","meaning":"十天后","note":"열흘(十天)+후(后)+에(时间助词)","isTarget":true},{"text":"다시","meaning":"再次","note":"副词"},{"text":"만납시다","meaning":"让我们见面吧","note":"만나다(见面)的词干+ -ㅂ시다（共动句·格式体敬语终结词尾）"}]},
-{"korean":"오래간만","romanization":"oraeganman","pos":"名词","meaning":"好久（未见）","register":"中立","example":"오래간만에 친구를 만났습니다.","exampleTranslation":"隔了好久见了朋友。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"오래간만에","meaning":"隔了好久","note":"오래간만(好久)+에(时间助词)","isTarget":true},{"text":"친구를","meaning":"朋友","note":"친구(朋友)+를(宾格助词)"},{"text":"만났습니다","meaning":"见面了","note":"만나다(见面)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"오래되다","romanization":"oraedoeda","pos":"形容词","meaning":"很久了，陈旧","register":"中立","example":"이 집은 지은 지 오래되었습니다.","exampleTranslation":"这栋房子建成很久了。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"이 집은","meaning":"这栋房子","note":"이(这)+집(房子)+은(主题助词)"},{"text":"지은 지","meaning":"建成之后","note":"짓다(建造)的词干变化（ㅅ不规则：收音ㅅ在元音开头的语尾前脱落）+ -은(冠形词形)+지(以来)"},{"text":"오래되었습니다","meaning":"很久了","note":"오래되다(很久)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）","isTarget":true}]},
-{"korean":"오랜만","romanization":"oraenman","pos":"名词","meaning":"好久（未见）","register":"中立","example":"오랜만에 연락을 받았습니다.","exampleTranslation":"隔了好久收到了联系。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"오랜만에","meaning":"隔了好久","note":"오랜만(好久)+에(时间助词)","isTarget":true},{"text":"연락을","meaning":"联系","note":"연락(联系)+을(宾格助词)"},{"text":"받았습니다","meaning":"收到了","note":"받다(收到)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"오랫동안","romanization":"oraetdongan","pos":"名词","meaning":"长时间以来","register":"中立","example":"오랫동안 그 친구와 사귀었습니다.","exampleTranslation":"和那个朋友交往了很长时间。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"오랫동안","meaning":"长时间以来","note":"副词性名词","isTarget":true},{"text":"그 친구와","meaning":"和那个朋友","note":"그(那)+친구(朋友)+와(和……)"},{"text":"사귀었습니다","meaning":"交往了","note":"사귀다(交往)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]}
+  {
+    "korean": "개월",
+    "romanization": "gaewol",
+    "pos": "依存名词",
+    "meaning": "…个月",
+    "register": "中立",
+    "example": "삼 개월 동안 한국어를 배웠습니다.",
+    "exampleTranslation": "学了三个月韩语。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "삼 개월",
+        "meaning": "三个月",
+        "note": "삼(三)+개월(个月,依存名词)",
+        "isTarget": true
+      },
+      {
+        "text": "동안",
+        "meaning": "期间",
+        "note": "后置名词"
+      },
+      {
+        "text": "한국어를",
+        "meaning": "韩语",
+        "note": "한국어(韩语)+를(宾格助词)"
+      },
+      {
+        "text": "배웠습니다",
+        "meaning": "学了",
+        "note": "배우다(学)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "공휴일",
+    "romanization": "gonghyuil",
+    "pos": "名词",
+    "meaning": "公休日",
+    "register": "中立",
+    "example": "내일은 공휴일로 정해졌습니다.",
+    "exampleTranslation": "明天定为公休日了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "내일은",
+        "meaning": "明天",
+        "note": "내일(明天)+은(主题助词)"
+      },
+      {
+        "text": "공휴일로",
+        "meaning": "公休日",
+        "note": "공휴일(公休日)+로(表结果的助词)",
+        "isTarget": true
+      },
+      {
+        "text": "정해졌습니다",
+        "meaning": "被定为了",
+        "note": "정하다(决定)的词干变化+ -어지다(被……)+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "과거",
+    "romanization": "gwageo",
+    "pos": "名词",
+    "meaning": "过去",
+    "register": "中立",
+    "example": "과거를 잊고 앞으로 나아갑시다.",
+    "exampleTranslation": "忘记过去向前迈进吧。",
+    "sentenceType": "共动句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "과거를",
+        "meaning": "过去",
+        "note": "과거(过去)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "잊고",
+        "meaning": "忘记之后",
+        "note": "잊다(忘记)的词干+ -고(然后)"
+      },
+      {
+        "text": "앞으로",
+        "meaning": "向前",
+        "note": "앞(前面)+으로(方向助词)"
+      },
+      {
+        "text": "나아갑시다",
+        "meaning": "让我们前进吧",
+        "note": "나아가다(前进)的词干+ -ㅂ시다（共动句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "구십",
+    "romanization": "gusip",
+    "pos": "数词/冠形词",
+    "meaning": "九十",
+    "register": "中立",
+    "example": "할아버지는 올해 구십 살이십니다.",
+    "exampleTranslation": "爷爷今年九十岁了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "할아버지는",
+        "meaning": "爷爷",
+        "note": "할아버지(爷爷)+는(主题助词)"
+      },
+      {
+        "text": "올해",
+        "meaning": "今年",
+        "note": "名词/副词"
+      },
+      {
+        "text": "구십 살이십니다",
+        "meaning": "是九十岁（敬语）",
+        "note": "구십(九十)+살(岁)+이다+ -시-（尊敬阶标记）+ -ㅂ니다（陈述句·尊敬阶终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "구월",
+    "romanization": "guwol",
+    "pos": "名词",
+    "meaning": "九月",
+    "register": "中立",
+    "example": "구월에 새 학기가 시작됩니다.",
+    "exampleTranslation": "九月新学期开始。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "구월에",
+        "meaning": "九月",
+        "note": "구월(九月)+에(时间助词)",
+        "isTarget": true
+      },
+      {
+        "text": "새 학기가",
+        "meaning": "新学期",
+        "note": "새(新的)+학기(学期)+가(主格助词)"
+      },
+      {
+        "text": "시작됩니다",
+        "meaning": "开始",
+        "note": "시작되다(开始)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "그날",
+    "romanization": "geunal",
+    "pos": "名词",
+    "meaning": "那一天",
+    "register": "中立",
+    "example": "그날 일을 아직도 기억합니다.",
+    "exampleTranslation": "至今还记得那一天的事。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "그날",
+        "meaning": "那一天",
+        "note": "名词，修饰일",
+        "isTarget": true
+      },
+      {
+        "text": "일을",
+        "meaning": "事情",
+        "note": "일(事情)+을(宾格助词)"
+      },
+      {
+        "text": "아직도",
+        "meaning": "至今还",
+        "note": "副词"
+      },
+      {
+        "text": "기억합니다",
+        "meaning": "记得",
+        "note": "기억하다(记得)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "그동안",
+    "romanization": "geudongan",
+    "pos": "名词",
+    "meaning": "这段时间以来",
+    "register": "中立",
+    "example": "그동안 잘 지냈습니다.",
+    "exampleTranslation": "这段时间过得很好。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "그동안",
+        "meaning": "这段时间以来",
+        "note": "名词",
+        "isTarget": true
+      },
+      {
+        "text": "잘",
+        "meaning": "好好地",
+        "note": "副词"
+      },
+      {
+        "text": "지냈습니다",
+        "meaning": "过了",
+        "note": "지내다(度过)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "그때",
+    "romanization": "geuttae",
+    "pos": "名词",
+    "meaning": "那时候",
+    "register": "中立",
+    "example": "그때 정말 즐거웠습니다.",
+    "exampleTranslation": "那时候真的很开心。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "그때",
+        "meaning": "那时候",
+        "note": "名词",
+        "isTarget": true
+      },
+      {
+        "text": "정말",
+        "meaning": "真的",
+        "note": "副词"
+      },
+      {
+        "text": "즐거웠습니다",
+        "meaning": "愉快",
+        "note": "즐겁다(愉快)的词干变化（ㅂ不规则）+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "그저께",
+    "romanization": "geujeokke",
+    "pos": "名词/副词",
+    "meaning": "前天",
+    "register": "中立",
+    "example": "그저께 밤에 비가 왔습니다.",
+    "exampleTranslation": "前天晚上下雨了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "그저께 밤에",
+        "meaning": "前天晚上",
+        "note": "그저께(前天)+밤(晚上)+에(时间助词)",
+        "isTarget": true
+      },
+      {
+        "text": "비가",
+        "meaning": "雨",
+        "note": "비(雨)+가(主格助词)"
+      },
+      {
+        "text": "왔습니다",
+        "meaning": "下了",
+        "note": "오다(来/下)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "기간",
+    "romanization": "gigan",
+    "pos": "名词",
+    "meaning": "期间",
+    "register": "中立",
+    "example": "할인 기간이 지났습니다.",
+    "exampleTranslation": "打折期间过了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "할인",
+        "meaning": "打折",
+        "note": "名词"
+      },
+      {
+        "text": "기간이",
+        "meaning": "期间",
+        "note": "기간(期间)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "지났습니다",
+        "meaning": "过了",
+        "note": "지나다(过去)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "나흘",
+    "romanization": "naheul",
+    "pos": "名词",
+    "meaning": "四天",
+    "register": "中立",
+    "example": "나흘이 걸려서 끝냈습니다.",
+    "exampleTranslation": "花了四天才完成。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "나흘이",
+        "meaning": "四天",
+        "note": "나흘(四天)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "걸려서",
+        "meaning": "花费了，所以",
+        "note": "걸리다(花费)的词干+ -어서(因为)"
+      },
+      {
+        "text": "끝냈습니다",
+        "meaning": "完成了",
+        "note": "끝내다(完成)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "날",
+    "romanization": "nal",
+    "pos": "名词",
+    "meaning": "天，日子",
+    "register": "中立",
+    "example": "오늘은 정말 좋은 날입니다.",
+    "exampleTranslation": "今天真是美好的一天。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "오늘은",
+        "meaning": "今天",
+        "note": "오늘(今天)+은(主题助词)"
+      },
+      {
+        "text": "정말",
+        "meaning": "真的",
+        "note": "副词"
+      },
+      {
+        "text": "좋은",
+        "meaning": "好的",
+        "note": "좋다(好)的词干+ -은(冠形词形)"
+      },
+      {
+        "text": "날입니다",
+        "meaning": "是日子",
+        "note": "날(天)+이다+ -ㅂ니다（陈述句·尊敬阶终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "날짜",
+    "romanization": "naljja",
+    "pos": "名词",
+    "meaning": "日期",
+    "register": "中立",
+    "example": "약속 날짜를 정했습니다.",
+    "exampleTranslation": "定好了约定的日期。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "약속",
+        "meaning": "约定",
+        "note": "名词"
+      },
+      {
+        "text": "날짜를",
+        "meaning": "日期",
+        "note": "날짜(日期)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "정했습니다",
+        "meaning": "定了",
+        "note": "정하다(决定)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "낮",
+    "romanization": "nat",
+    "pos": "名词",
+    "meaning": "白天",
+    "register": "中立",
+    "example": "요즘 낮이 많이 짧아졌습니다.",
+    "exampleTranslation": "最近白天变短了很多。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "요즘",
+        "meaning": "最近",
+        "note": "副词"
+      },
+      {
+        "text": "낮이",
+        "meaning": "白天",
+        "note": "낮(白天)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "많이",
+        "meaning": "很多",
+        "note": "副词"
+      },
+      {
+        "text": "짧아졌습니다",
+        "meaning": "变短了",
+        "note": "짧다(短)的词干+ -아지다(变得……)+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "낮잠",
+    "romanization": "natjjam",
+    "pos": "名词",
+    "meaning": "午觉",
+    "register": "中立",
+    "example": "점심을 먹고 낮잠을 잤습니다.",
+    "exampleTranslation": "吃了午饭后睡了午觉。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "점심을",
+        "meaning": "午饭",
+        "note": "점심(午饭)+을(宾格助词)"
+      },
+      {
+        "text": "먹고",
+        "meaning": "吃了之后",
+        "note": "먹다(吃)的词干+ -고(然后)"
+      },
+      {
+        "text": "낮잠을",
+        "meaning": "午觉",
+        "note": "낮잠(午觉)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "잤습니다",
+        "meaning": "睡了",
+        "note": "자다(睡)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "내년",
+    "romanization": "naenyeon",
+    "pos": "名词",
+    "meaning": "明年",
+    "register": "中立",
+    "example": "내년 여름에 유럽에 갈 겁니다.",
+    "exampleTranslation": "明年夏天要去欧洲。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "내년 여름에",
+        "meaning": "明年夏天",
+        "note": "내년(明年)+여름(夏天)+에(时间助词)",
+        "isTarget": true
+      },
+      {
+        "text": "유럽에",
+        "meaning": "欧洲",
+        "note": "유럽(欧洲)+에(方向助词)"
+      },
+      {
+        "text": "갈 겁니다",
+        "meaning": "要去",
+        "note": "가다(去)的词干+ -ㄹ 것이다(将要)+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "다섯째",
+    "romanization": "daseotjjae",
+    "pos": "数词/冠形词",
+    "meaning": "第五",
+    "register": "中立",
+    "example": "다섯째 줄에 앉으세요.",
+    "exampleTranslation": "请坐在第五排。",
+    "sentenceType": "命令句（请求）",
+    "formalityLevel": "泛尊阶（해요体）",
+    "grammarBreakdown": [
+      {
+        "text": "다섯째",
+        "meaning": "第五",
+        "note": "冠形词，修饰줄",
+        "isTarget": true
+      },
+      {
+        "text": "줄에",
+        "meaning": "排",
+        "note": "줄(排)+에(方向助词)"
+      },
+      {
+        "text": "앉으세요",
+        "meaning": "请坐",
+        "note": "앉다(坐)的词干+ -으시-（尊敬阶标记）+ -어요（请求/命令·泛尊阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "다음날",
+    "romanization": "daeumnal",
+    "pos": "名词",
+    "meaning": "第二天",
+    "register": "中立",
+    "example": "다음날에 다시 만났습니다.",
+    "exampleTranslation": "第二天又见面了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "다음날에",
+        "meaning": "第二天",
+        "note": "다음날(第二天)+에(时间助词)",
+        "isTarget": true
+      },
+      {
+        "text": "다시",
+        "meaning": "再次",
+        "note": "副词"
+      },
+      {
+        "text": "만났습니다",
+        "meaning": "见面了",
+        "note": "만나다(见面)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "달",
+    "romanization": "dal",
+    "pos": "名词/依存名词",
+    "meaning": "月",
+    "register": "中立",
+    "example": "다음 달에 이사를 갑니다.",
+    "exampleTranslation": "下个月要搬家。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "다음 달에",
+        "meaning": "下个月",
+        "note": "다음(下一个)+달(月,依存名词)+에(时间助词)",
+        "isTarget": true
+      },
+      {
+        "text": "이사를",
+        "meaning": "搬家",
+        "note": "이사(搬家)+를(宾格助词)"
+      },
+      {
+        "text": "갑니다",
+        "meaning": "去（做）",
+        "note": "가다(去)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "때",
+    "romanization": "ttae",
+    "pos": "名词",
+    "meaning": "…的时候",
+    "register": "中立",
+    "example": "어릴 때 이곳에서 살았습니다.",
+    "exampleTranslation": "小时候住在这里。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "어릴 때",
+        "meaning": "小的时候",
+        "note": "어리다(小)的词干+ -ㄹ(冠形词形)+때(时候)",
+        "isTarget": true
+      },
+      {
+        "text": "이곳에서",
+        "meaning": "在这个地方",
+        "note": "이곳(这个地方)+에서(处所助词)"
+      },
+      {
+        "text": "살았습니다",
+        "meaning": "生活了",
+        "note": "살다(居住)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "마지막",
+    "romanization": "majimak",
+    "pos": "名词",
+    "meaning": "最后",
+    "register": "中立",
+    "example": "이번이 마지막 경기입니다.",
+    "exampleTranslation": "这次是最后一场比赛。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "이번이",
+        "meaning": "这次",
+        "note": "이번(这次)+이(主格助词)"
+      },
+      {
+        "text": "마지막 경기입니다",
+        "meaning": "是最后一场比赛",
+        "note": "마지막(最后)+경기(比赛)+이다+ -ㅂ니다（陈述句·尊敬阶终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "매년",
+    "romanization": "maenyeon",
+    "pos": "名词/副词",
+    "meaning": "每年",
+    "register": "中立",
+    "example": "매년 여행을 갑니다.",
+    "exampleTranslation": "每年都去旅行。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "매년",
+        "meaning": "每年",
+        "note": "副词",
+        "isTarget": true
+      },
+      {
+        "text": "여행을",
+        "meaning": "旅行",
+        "note": "여행(旅行)+을(宾格助词)"
+      },
+      {
+        "text": "갑니다",
+        "meaning": "去",
+        "note": "가다(去)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "며칠",
+    "romanization": "myeochil",
+    "pos": "名词",
+    "meaning": "几天",
+    "register": "中立",
+    "example": "며칠이 걸릴지 모르겠습니다.",
+    "exampleTranslation": "不知道要花几天。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "며칠이",
+        "meaning": "几天",
+        "note": "며칠(几天)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "걸릴지",
+        "meaning": "是否会花费",
+        "note": "걸리다(花费)的词干+ -ㄹ지(是否……)"
+      },
+      {
+        "text": "모르겠습니다",
+        "meaning": "不知道",
+        "note": "모르다(不知道)的词干+ -겠-(婉转推测)+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "명절",
+    "romanization": "myeongjeol",
+    "pos": "名词",
+    "meaning": "节日",
+    "register": "中立",
+    "example": "명절을 맞아 가족이 모였습니다.",
+    "exampleTranslation": "迎接节日家人聚在了一起。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "명절을",
+        "meaning": "节日",
+        "note": "명절(节日)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "맞아",
+        "meaning": "迎接",
+        "note": "맞다(迎接)的词干+ -아(连接词尾)"
+      },
+      {
+        "text": "가족이",
+        "meaning": "家人",
+        "note": "가족(家人)+이(主格助词)"
+      },
+      {
+        "text": "모였습니다",
+        "meaning": "聚集了",
+        "note": "모이다(聚集)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "모레",
+    "romanization": "more",
+    "pos": "名词/副词",
+    "meaning": "后天",
+    "register": "中立",
+    "example": "모레 시험이 있습니다.",
+    "exampleTranslation": "后天有考试。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "모레",
+        "meaning": "后天",
+        "note": "副词",
+        "isTarget": true
+      },
+      {
+        "text": "시험이",
+        "meaning": "考试",
+        "note": "시험(考试)+이(主格助词)"
+      },
+      {
+        "text": "있습니다",
+        "meaning": "有",
+        "note": "있다(有)+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "방학",
+    "romanization": "banghak",
+    "pos": "名词",
+    "meaning": "假期（学校）",
+    "register": "中立",
+    "example": "겨울 방학이 곧 시작됩니다.",
+    "exampleTranslation": "寒假马上就要开始了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "겨울 방학이",
+        "meaning": "寒假",
+        "note": "겨울(冬天)+방학(假期)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "곧",
+        "meaning": "马上",
+        "note": "副词"
+      },
+      {
+        "text": "시작됩니다",
+        "meaning": "开始",
+        "note": "시작되다(开始)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "백만",
+    "romanization": "baengman",
+    "pos": "数词/冠形词",
+    "meaning": "百万",
+    "register": "中立",
+    "example": "이 자동차는 백만 원이 넘습니다.",
+    "exampleTranslation": "这辆汽车超过一百万韩元。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "이 자동차는",
+        "meaning": "这辆汽车",
+        "note": "이(这)+자동차(汽车)+는(主题助词)"
+      },
+      {
+        "text": "백만 원이",
+        "meaning": "一百万韩元",
+        "note": "백만(百万)+원(韩元)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "넘습니다",
+        "meaning": "超过",
+        "note": "넘다(超过)的词干+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "사십",
+    "romanization": "sasip",
+    "pos": "数词/冠形词",
+    "meaning": "四十",
+    "register": "中立",
+    "example": "아버지는 올해 사십 세입니다.",
+    "exampleTranslation": "父亲今年四十岁。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "아버지는",
+        "meaning": "父亲",
+        "note": "아버지(父亲)+는(主题助词)"
+      },
+      {
+        "text": "올해",
+        "meaning": "今年",
+        "note": "名词/副词"
+      },
+      {
+        "text": "사십 세입니다",
+        "meaning": "是四十岁",
+        "note": "사십(四十)+세(岁)+이다+ -ㅂ니다（陈述句·尊敬阶终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "사월",
+    "romanization": "sawol",
+    "pos": "名词",
+    "meaning": "四月",
+    "register": "中立",
+    "example": "사월에는 꽃이 많이 핍니다.",
+    "exampleTranslation": "四月开很多花。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "사월에는",
+        "meaning": "在四月",
+        "note": "사월(四月)+에(时间)+는(强调)",
+        "isTarget": true
+      },
+      {
+        "text": "꽃이",
+        "meaning": "花",
+        "note": "꽃(花)+이(主格助词)"
+      },
+      {
+        "text": "많이",
+        "meaning": "很多",
+        "note": "副词"
+      },
+      {
+        "text": "핍니다",
+        "meaning": "开",
+        "note": "피다(开花)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "사흘",
+    "romanization": "saheul",
+    "pos": "名词",
+    "meaning": "三天",
+    "register": "中立",
+    "example": "사흘 동안 비가 왔습니다.",
+    "exampleTranslation": "下了三天雨。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "사흘 동안",
+        "meaning": "三天期间",
+        "note": "사흘(三天)+동안(期间)",
+        "isTarget": true
+      },
+      {
+        "text": "비가",
+        "meaning": "雨",
+        "note": "비(雨)+가(主格助词)"
+      },
+      {
+        "text": "왔습니다",
+        "meaning": "下了",
+        "note": "오다(来/下)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "삼십",
+    "romanization": "samsip",
+    "pos": "数词/冠形词",
+    "meaning": "三十",
+    "register": "中立",
+    "example": "삼십 분만 기다려 주세요.",
+    "exampleTranslation": "请等三十分钟。",
+    "sentenceType": "命令句（请求）",
+    "formalityLevel": "泛尊阶（해요体）",
+    "grammarBreakdown": [
+      {
+        "text": "삼십 분만",
+        "meaning": "只三十分钟",
+        "note": "삼십(三十)+분(分钟)+만(只，限定助词)",
+        "isTarget": true
+      },
+      {
+        "text": "기다려 주세요",
+        "meaning": "请等一下",
+        "note": "기다리다(等待)的词干变化+ -아/어 주다(请求)+ -시-+ -어요"
+      }
+    ]
+  },
+  {
+    "korean": "삼월",
+    "romanization": "samwol",
+    "pos": "名词",
+    "meaning": "三月",
+    "register": "中立",
+    "example": "삼월에 새 학기가 시작합니다.",
+    "exampleTranslation": "三月新学期开始。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "삼월에",
+        "meaning": "三月",
+        "note": "삼월(三月)+에(时间助词)",
+        "isTarget": true
+      },
+      {
+        "text": "새 학기가",
+        "meaning": "新学期",
+        "note": "새(新的)+학기(学期)+가(主格助词)"
+      },
+      {
+        "text": "시작합니다",
+        "meaning": "开始",
+        "note": "시작하다(开始)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "새벽",
+    "romanization": "saebyeok",
+    "pos": "名词",
+    "meaning": "凌晨",
+    "register": "中立",
+    "example": "새벽에 일찍 일어났습니다.",
+    "exampleTranslation": "凌晨早早起床了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "새벽에",
+        "meaning": "凌晨",
+        "note": "새벽(凌晨)+에(时间助词)",
+        "isTarget": true
+      },
+      {
+        "text": "일찍",
+        "meaning": "早早地",
+        "note": "副词"
+      },
+      {
+        "text": "일어났습니다",
+        "meaning": "起床了",
+        "note": "일어나다(起床)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "새해",
+    "romanization": "saehae",
+    "pos": "名词",
+    "meaning": "新年",
+    "register": "中立",
+    "example": "새해가 다가오고 있습니다.",
+    "exampleTranslation": "新年快要到了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "새해가",
+        "meaning": "新年",
+        "note": "새해(新年)+가(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "다가오고 있습니다",
+        "meaning": "正在临近",
+        "note": "다가오다(临近)的词干+ -고 있다(正在)+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "서너",
+    "romanization": "seoneo",
+    "pos": "冠形词",
+    "meaning": "三四（个）",
+    "register": "中立",
+    "example": "사과 서너 개를 샀습니다.",
+    "exampleTranslation": "买了三四个苹果。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "사과",
+        "meaning": "苹果",
+        "note": "名词"
+      },
+      {
+        "text": "서너 개를",
+        "meaning": "三四个",
+        "note": "서너(三四，冠形词)+개(个)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "샀습니다",
+        "meaning": "买了",
+        "note": "사다(买)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "설날",
+    "romanization": "seollal",
+    "pos": "名词",
+    "meaning": "春节",
+    "register": "中立",
+    "example": "설날에는 떡국을 먹습니다.",
+    "exampleTranslation": "春节吃年糕汤。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "설날에는",
+        "meaning": "在春节",
+        "note": "설날(春节)+에(时间)+는(强调)",
+        "isTarget": true
+      },
+      {
+        "text": "떡국을",
+        "meaning": "年糕汤",
+        "note": "떡국(年糕汤)+을(宾格助词)"
+      },
+      {
+        "text": "먹습니다",
+        "meaning": "吃",
+        "note": "먹다(吃)的词干+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "시월",
+    "romanization": "siwol",
+    "pos": "名词",
+    "meaning": "十月",
+    "register": "中立",
+    "example": "시월에 단풍이 아름답습니다.",
+    "exampleTranslation": "十月枫叶很美。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "시월에",
+        "meaning": "十月",
+        "note": "시월(十月)+에(时间助词)",
+        "isTarget": true
+      },
+      {
+        "text": "단풍이",
+        "meaning": "枫叶",
+        "note": "단풍(枫叶)+이(主格助词)"
+      },
+      {
+        "text": "아름답습니다",
+        "meaning": "美丽",
+        "note": "아름답다(美丽)的词干+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "십만",
+    "romanization": "simman",
+    "pos": "数词/冠形词",
+    "meaning": "十万",
+    "register": "中立",
+    "example": "이 컴퓨터는 십만 원입니다.",
+    "exampleTranslation": "这台电脑十万韩元。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "이 컴퓨터는",
+        "meaning": "这台电脑",
+        "note": "이(这)+컴퓨터(电脑)+는(主题助词)"
+      },
+      {
+        "text": "십만 원입니다",
+        "meaning": "是十万韩元",
+        "note": "십만(十万)+원(韩元)+이다+ -ㅂ니다（陈述句·尊敬阶终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "십이월",
+    "romanization": "sibiwol",
+    "pos": "名词",
+    "meaning": "十二月",
+    "register": "中立",
+    "example": "십이월에 크리스마스가 있습니다.",
+    "exampleTranslation": "十二月有圣诞节。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "십이월에",
+        "meaning": "十二月",
+        "note": "십이월(十二月)+에(时间助词)",
+        "isTarget": true
+      },
+      {
+        "text": "크리스마스가",
+        "meaning": "圣诞节",
+        "note": "크리스마스(圣诞节)+가(主格助词)"
+      },
+      {
+        "text": "있습니다",
+        "meaning": "有",
+        "note": "있다(有)+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "십일월",
+    "romanization": "sibirwol",
+    "pos": "名词",
+    "meaning": "十一月",
+    "register": "中立",
+    "example": "십일월부터 날씨가 추워집니다.",
+    "exampleTranslation": "从十一月开始天气变冷。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "십일월부터",
+        "meaning": "从十一月开始",
+        "note": "십일월(十一月)+부터(从……开始)",
+        "isTarget": true
+      },
+      {
+        "text": "날씨가",
+        "meaning": "天气",
+        "note": "날씨(天气)+가(主格助词)"
+      },
+      {
+        "text": "추워집니다",
+        "meaning": "变冷",
+        "note": "춥다(冷)的词干变化（ㅂ不规则）+ -어지다(变得……)+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "아까",
+    "romanization": "akka",
+    "pos": "副词/名词",
+    "meaning": "刚才",
+    "register": "中立",
+    "example": "아까 전화가 왔습니다.",
+    "exampleTranslation": "刚才有电话打来。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "아까",
+        "meaning": "刚才",
+        "note": "副词",
+        "isTarget": true
+      },
+      {
+        "text": "전화가",
+        "meaning": "电话",
+        "note": "전화(电话)+가(主格助词)"
+      },
+      {
+        "text": "왔습니다",
+        "meaning": "来了",
+        "note": "오다(来)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "아흔",
+    "romanization": "aheun",
+    "pos": "数词/冠形词",
+    "meaning": "九十（固有数字）",
+    "register": "中立",
+    "example": "할머니는 아흔이 넘으셨습니다.",
+    "exampleTranslation": "奶奶已经超过九十岁了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "할머니는",
+        "meaning": "奶奶",
+        "note": "할머니(奶奶)+는(主题助词)"
+      },
+      {
+        "text": "아흔이",
+        "meaning": "九十",
+        "note": "아흔(九十)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "넘으셨습니다",
+        "meaning": "超过了（敬语）",
+        "note": "넘다(超过)的词干+ -으시-（尊敬阶标记）+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "어젯밤",
+    "romanization": "eojetbam",
+    "pos": "名词",
+    "meaning": "昨晚",
+    "register": "中立",
+    "example": "어젯밤에 비가 많이 왔습니다.",
+    "exampleTranslation": "昨晚下了很大的雨。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "어젯밤에",
+        "meaning": "昨晚",
+        "note": "어젯밤(昨晚)+에(时间助词)",
+        "isTarget": true
+      },
+      {
+        "text": "비가",
+        "meaning": "雨",
+        "note": "비(雨)+가(主格助词)"
+      },
+      {
+        "text": "많이",
+        "meaning": "很多",
+        "note": "副词"
+      },
+      {
+        "text": "왔습니다",
+        "meaning": "下了",
+        "note": "오다(来/下)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "여든",
+    "romanization": "yeodeun",
+    "pos": "数词/冠形词",
+    "meaning": "八十（固有数字）",
+    "register": "中立",
+    "example": "할아버지는 여든 살입니다.",
+    "exampleTranslation": "爷爷八十岁。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "할아버지는",
+        "meaning": "爷爷",
+        "note": "할아버지(爷爷)+는(主题助词)"
+      },
+      {
+        "text": "여든 살입니다",
+        "meaning": "是八十岁",
+        "note": "여든(八十)+살(岁)+이다+ -ㅂ니다（陈述句·尊敬阶终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "열흘",
+    "romanization": "yeolheul",
+    "pos": "名词",
+    "meaning": "十天",
+    "register": "中立",
+    "example": "열흘 후에 다시 만납시다.",
+    "exampleTranslation": "十天后再见吧。",
+    "sentenceType": "共动句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "열흘 후에",
+        "meaning": "十天后",
+        "note": "열흘(十天)+후(后)+에(时间助词)",
+        "isTarget": true
+      },
+      {
+        "text": "다시",
+        "meaning": "再次",
+        "note": "副词"
+      },
+      {
+        "text": "만납시다",
+        "meaning": "让我们见面吧",
+        "note": "만나다(见面)的词干+ -ㅂ시다（共动句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "오래간만",
+    "romanization": "oraeganman",
+    "pos": "名词",
+    "meaning": "好久（未见）",
+    "register": "中立",
+    "example": "오래간만에 친구를 만났습니다.",
+    "exampleTranslation": "隔了好久见了朋友。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "오래간만에",
+        "meaning": "隔了好久",
+        "note": "오래간만(好久)+에(时间助词)",
+        "isTarget": true
+      },
+      {
+        "text": "친구를",
+        "meaning": "朋友",
+        "note": "친구(朋友)+를(宾格助词)"
+      },
+      {
+        "text": "만났습니다",
+        "meaning": "见面了",
+        "note": "만나다(见面)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "오래되다",
+    "romanization": "oraedoeda",
+    "pos": "形容词",
+    "meaning": "很久了，陈旧",
+    "register": "中立",
+    "example": "이 집은 지은 지 오래되었습니다.",
+    "exampleTranslation": "这栋房子建成很久了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "이 집은",
+        "meaning": "这栋房子",
+        "note": "이(这)+집(房子)+은(主题助词)"
+      },
+      {
+        "text": "지은 지",
+        "meaning": "建成之后",
+        "note": "짓다(建造)的词干变化（ㅅ不规则：收音ㅅ在元音开头的语尾前脱落）+ -은(冠形词形)+지(以来)"
+      },
+      {
+        "text": "오래되었습니다",
+        "meaning": "很久了",
+        "note": "오래되다(很久)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "오랜만",
+    "romanization": "oraenman",
+    "pos": "名词",
+    "meaning": "好久（未见）",
+    "register": "中立",
+    "example": "오랜만에 연락을 받았습니다.",
+    "exampleTranslation": "隔了好久收到了联系。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "오랜만에",
+        "meaning": "隔了好久",
+        "note": "오랜만(好久)+에(时间助词)",
+        "isTarget": true
+      },
+      {
+        "text": "연락을",
+        "meaning": "联系",
+        "note": "연락(联系)+을(宾格助词)"
+      },
+      {
+        "text": "받았습니다",
+        "meaning": "收到了",
+        "note": "받다(收到)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "오랫동안",
+    "romanization": "oraetdongan",
+    "pos": "名词",
+    "meaning": "长时间以来",
+    "register": "中立",
+    "example": "오랫동안 그 친구와 사귀었습니다.",
+    "exampleTranslation": "和那个朋友交往了很长时间。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "오랫동안",
+        "meaning": "长时间以来",
+        "note": "副词性名词",
+        "isTarget": true
+      },
+      {
+        "text": "그 친구와",
+        "meaning": "和那个朋友",
+        "note": "그(那)+친구(朋友)+와(和……)"
+      },
+      {
+        "text": "사귀었습니다",
+        "meaning": "交往了",
+        "note": "사귀다(交往)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  }
 ]

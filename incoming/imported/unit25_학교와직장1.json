@@ -8,7 +8,7 @@
     "example": "간단한 설명을 부탁드립니다.",
     "exampleTranslation": "请给我简单的说明。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "간단한",
@@ -24,7 +24,7 @@
       {
         "text": "부탁드립니다",
         "meaning": "请求（敬语）",
-        "note": "부탁드리다(请求,敬语)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "부탁드리다(请求,敬语)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -37,7 +37,7 @@
     "example": "선생님이 숙제 검사를 합니다.",
     "exampleTranslation": "老师检查作业。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "선생님이",
@@ -53,7 +53,7 @@
       {
         "text": "합니다",
         "meaning": "做",
-        "note": "하다(做)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "하다(做)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -66,7 +66,7 @@
     "example": "어제 학교에 결석을 했습니다.",
     "exampleTranslation": "昨天学校缺席了。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "어제",
@@ -87,7 +87,7 @@
       {
         "text": "했습니다",
         "meaning": "做了",
-        "note": "하다(做)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "하다(做)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -100,7 +100,7 @@
     "example": "내년에 고등학교에 입학합니다.",
     "exampleTranslation": "明年上高中。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "내년에",
@@ -116,7 +116,7 @@
       {
         "text": "입학합니다",
         "meaning": "入学",
-        "note": "입학하다(入学)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "입학하다(入学)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -129,7 +129,7 @@
     "example": "저는 고등학생입니다.",
     "exampleTranslation": "我是高中生。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "저는",
@@ -139,7 +139,7 @@
       {
         "text": "고등학생입니다",
         "meaning": "是高中生",
-        "note": "고등학생(高中生)+이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "note": "고등학생(高中生)+이다+ -ㅂ니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ]
@@ -153,7 +153,7 @@
     "example": "아버지는 공무원으로 일하십니다.",
     "exampleTranslation": "父亲作为公务员工作。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "아버지는",
@@ -169,7 +169,7 @@
       {
         "text": "일하십니다",
         "meaning": "工作（敬语）",
-        "note": "일하다(工作)的词干+ -시-（尊敬阶标记）+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "일하다(工作)的词干+ -시-（尊敬阶标记）+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -182,7 +182,7 @@
     "example": "공책에 필기를 했습니다.",
     "exampleTranslation": "在笔记本上做了笔记。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "공책에",
@@ -198,7 +198,7 @@
       {
         "text": "했습니다",
         "meaning": "做了",
-        "note": "하다(做)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "하다(做)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -211,7 +211,7 @@
     "example": "교과서에서 이 내용을 배웠습니다.",
     "exampleTranslation": "从教科书上学了这个内容。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "교과서에서",
@@ -232,7 +232,7 @@
       {
         "text": "배웠습니다",
         "meaning": "学了",
-        "note": "배우다(学)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "배우다(学)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -245,7 +245,7 @@
     "example": "저는 수학 교사입니다.",
     "exampleTranslation": "我是数学教师。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "저는",
@@ -255,7 +255,7 @@
       {
         "text": "수학 교사입니다",
         "meaning": "是数学教师",
-        "note": "수학(数学)+교사(教师)+이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "note": "수학(数学)+교사(教师)+이다+ -ㅂ니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ]
@@ -269,7 +269,7 @@
     "example": "그분은 대학 교수입니다.",
     "exampleTranslation": "那位是大学教授。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "그분은",
@@ -279,7 +279,7 @@
       {
         "text": "대학 교수입니다",
         "meaning": "是大学教授",
-        "note": "대학(大学)+교수(教授)+이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "note": "대학(大学)+교수(教授)+이다+ -ㅂ니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ]
@@ -293,7 +293,7 @@
     "example": "좋은 교육을 받았습니다.",
     "exampleTranslation": "接受了良好的教育。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "좋은",
@@ -309,7 +309,7 @@
       {
         "text": "받았습니다",
         "meaning": "接受了",
-        "note": "받다(接受)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "받다(接受)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -322,7 +322,7 @@
     "example": "형은 직업 군인입니다.",
     "exampleTranslation": "哥哥是职业军人。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "형은",
@@ -332,7 +332,7 @@
       {
         "text": "직업 군인입니다",
         "meaning": "是职业军人",
-        "note": "직업(职业)+군인(军人)+이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "note": "직업(职业)+군인(军人)+이다+ -ㅂ니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ]
@@ -346,7 +346,7 @@
     "example": "학교 규칙을 잘 지켜야 합니다.",
     "exampleTranslation": "要好好遵守学校规则。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "학교 규칙을",
@@ -362,7 +362,7 @@
       {
         "text": "지켜야 합니다",
         "meaning": "必须遵守",
-        "note": "지키다(遵守)的词干+ -어야 하다(必须)+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "지키다(遵守)的词干+ -어야 하다(必须)+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -375,7 +375,7 @@
     "example": "학교를 그만두기로 했습니다.",
     "exampleTranslation": "决定退学了。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "학교를",
@@ -385,7 +385,7 @@
       {
         "text": "그만두기로 했습니다",
         "meaning": "决定停止了",
-        "note": "그만두다(停止/辞去)的词干+ -기로 하다(决定做……)+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）",
+        "note": "그만두다(停止/辞去)的词干+ -기로 하다(决定做……)+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ]
@@ -399,7 +399,7 @@
     "example": "글을 매일 씁니다.",
     "exampleTranslation": "每天写文章。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "글을",
@@ -415,7 +415,7 @@
       {
         "text": "씁니다",
         "meaning": "写",
-        "note": "쓰다(写)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "쓰다(写)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -428,7 +428,7 @@
     "example": "글씨를 예쁘게 씁니다.",
     "exampleTranslation": "把字写得很漂亮。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "글씨를",
@@ -444,7 +444,7 @@
       {
         "text": "씁니다",
         "meaning": "写",
-        "note": "쓰다(写)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "쓰다(写)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -457,7 +457,7 @@
     "example": "한글 글자를 배웠습니다.",
     "exampleTranslation": "学了韩文文字。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "한글",
@@ -473,7 +473,7 @@
       {
         "text": "배웠습니다",
         "meaning": "学了",
-        "note": "배우다(学)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "배우다(学)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -486,7 +486,7 @@
     "example": "내일 기말시험을 봅니다.",
     "exampleTranslation": "明天考期末考试。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "내일",
@@ -502,7 +502,7 @@
       {
         "text": "봅니다",
         "meaning": "考",
-        "note": "보다(考试)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "보다(考试)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -515,7 +515,7 @@
     "example": "학교 기숙사에서 삽니다.",
     "exampleTranslation": "住在学校宿舍。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "학교 기숙사에서",
@@ -526,7 +526,7 @@
       {
         "text": "삽니다",
         "meaning": "居住",
-        "note": "살다(居住)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "살다(居住)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -539,7 +539,7 @@
     "example": "그는 신문 기자입니다.",
     "exampleTranslation": "他是报社记者。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "그는",
@@ -549,7 +549,7 @@
       {
         "text": "신문 기자입니다",
         "meaning": "是报社记者",
-        "note": "신문(报纸)+기자(记者)+이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "note": "신문(报纸)+기자(记者)+이다+ -ㅂ니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ]
@@ -563,7 +563,7 @@
     "example": "합격을 위해 노력을 했습니다.",
     "exampleTranslation": "为了合格努力了。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "합격을 위해",
@@ -579,7 +579,7 @@
       {
         "text": "했습니다",
         "meaning": "做了",
-        "note": "하다(做)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "하다(做)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -592,7 +592,7 @@
     "example": "노트에 필기했습니다.",
     "exampleTranslation": "在笔记本上做了笔记。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "노트에",
@@ -603,7 +603,7 @@
       {
         "text": "필기했습니다",
         "meaning": "做笔记了",
-        "note": "필기하다(做笔记)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "필기하다(做笔记)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -616,7 +616,7 @@
     "example": "새 단어를 외웠습니다.",
     "exampleTranslation": "背了新单词。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "새",
@@ -632,7 +632,7 @@
       {
         "text": "외웠습니다",
         "meaning": "背了",
-        "note": "외우다(背诵)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "외우다(背诵)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -645,7 +645,7 @@
     "example": "이 문제는 답이 없습니다.",
     "exampleTranslation": "这道题没有答案。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "이",
@@ -666,7 +666,7 @@
       {
         "text": "없습니다",
         "meaning": "没有",
-        "note": "없다(没有)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "없다(没有)的词干+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -679,7 +679,7 @@
     "example": "답장을 빨리 보냈습니다.",
     "exampleTranslation": "很快回了信。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "답장을",
@@ -695,7 +695,7 @@
       {
         "text": "보냈습니다",
         "meaning": "寄了",
-        "note": "보내다(寄)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "보내다(寄)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -708,7 +708,7 @@
     "example": "저는 대학생입니다.",
     "exampleTranslation": "我是大学生。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "저는",
@@ -718,7 +718,7 @@
       {
         "text": "대학생입니다",
         "meaning": "是大学生",
-        "note": "대학생(大学生)+이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "note": "대학생(大学生)+이다+ -ㅂ니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ]
@@ -732,7 +732,7 @@
     "example": "내일 노래 대회가 열립니다.",
     "exampleTranslation": "明天举行歌唱比赛。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "내일",
@@ -748,7 +748,7 @@
       {
         "text": "열립니다",
         "meaning": "举行",
-        "note": "열리다(举行)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "열리다(举行)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -761,7 +761,7 @@
     "example": "친구에게 도움을 받았습니다.",
     "exampleTranslation": "得到了朋友的帮助。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "친구에게",
@@ -777,7 +777,7 @@
       {
         "text": "받았습니다",
         "meaning": "得到了",
-        "note": "받다(得到)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "받다(得到)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -790,7 +790,7 @@
     "example": "이 옷은 디자인이 예쁩니다.",
     "exampleTranslation": "这件衣服设计很漂亮。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "이",
@@ -811,7 +811,7 @@
       {
         "text": "예쁩니다",
         "meaning": "漂亮",
-        "note": "예쁘다(漂亮)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "예쁘다(漂亮)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -824,7 +824,7 @@
     "example": "이 문제를 풀었습니다.",
     "exampleTranslation": "解出了这道题。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "이",
@@ -840,7 +840,7 @@
       {
         "text": "풀었습니다",
         "meaning": "解出了",
-        "note": "풀다(解答)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "풀다(解答)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -853,7 +853,7 @@
     "example": "우리 반은 학생이 많습니다.",
     "exampleTranslation": "我们班学生很多。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "우리 반은",
@@ -869,7 +869,7 @@
       {
         "text": "많습니다",
         "meaning": "多",
-        "note": "많다(多)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "많다(多)的词干+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ],
     "homonymIndex": "10"
@@ -883,7 +883,7 @@
     "example": "그는 유명한 연극 배우입니다.",
     "exampleTranslation": "他是有名的话剧演员。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "그는",
@@ -898,7 +898,7 @@
       {
         "text": "연극 배우입니다",
         "meaning": "是话剧演员",
-        "note": "연극(话剧)+배우(演员)+이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "note": "연극(话剧)+배우(演员)+이다+ -ㅂ니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ]
@@ -912,7 +912,7 @@
     "example": "제 친구는 변호사입니다.",
     "exampleTranslation": "我的朋友是律师。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "제",
@@ -927,7 +927,7 @@
       {
         "text": "변호사입니다",
         "meaning": "是律师",
-        "note": "변호사(律师)+이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "note": "변호사(律师)+이다+ -ㅂ니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ]
@@ -941,7 +941,7 @@
     "example": "매일 저녁 복습을 합니다.",
     "exampleTranslation": "每天晚上复习。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "매일 저녁",
@@ -957,7 +957,7 @@
       {
         "text": "합니다",
         "meaning": "做",
-        "note": "하다(做)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "하다(做)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -970,7 +970,7 @@
     "example": "볼펜으로 답을 썼습니다.",
     "exampleTranslation": "用圆珠笔写了答案。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "볼펜으로",
@@ -986,7 +986,7 @@
       {
         "text": "썼습니다",
         "meaning": "写了",
-        "note": "쓰다(写)的词干（으不规则：词干末尾的으在元音开头的语尾前脱落）+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "쓰다(写)的词干（으不规则：词干末尾的으在元音开头的语尾前脱落）+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -999,7 +999,7 @@
     "example": "그는 부장으로 승진했습니다.",
     "exampleTranslation": "他升职为部长了。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "그는",
@@ -1015,7 +1015,7 @@
       {
         "text": "승진했습니다",
         "meaning": "升职了",
-        "note": "승진하다(升职)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "승진하다(升职)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -1028,7 +1028,7 @@
     "example": "아버지는 사업을 하십니다.",
     "exampleTranslation": "父亲经营生意。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "아버지는",
@@ -1044,7 +1044,7 @@
       {
         "text": "하십니다",
         "meaning": "做（敬语）",
-        "note": "하다(做)的词干+ -시-（尊敬阶标记）+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "하다(做)的词干+ -시-（尊敬阶标记）+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -1057,7 +1057,7 @@
     "example": "모르는 단어는 사전을 찾습니다.",
     "exampleTranslation": "不懂的单词就查词典。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "모르는",
@@ -1078,7 +1078,7 @@
       {
         "text": "찾습니다",
         "meaning": "查",
-        "note": "찾다(查找)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "찾다(查找)的词干+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -1091,7 +1091,7 @@
     "example": "이번 사업은 성공을 거두었습니다.",
     "exampleTranslation": "这次事业取得了成功。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "이번",
@@ -1112,7 +1112,7 @@
       {
         "text": "거두었습니다",
         "meaning": "取得了",
-        "note": "거두다(取得)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "거두다(取得)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -1125,7 +1125,7 @@
     "example": "이번 시험 성적이 올랐습니다.",
     "exampleTranslation": "这次考试成绩提高了。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "이번 시험",
@@ -1141,7 +1141,7 @@
       {
         "text": "올랐습니다",
         "meaning": "提高了",
-        "note": "오르다(上升)的词干（르不规则）+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "오르다(上升)的词干（르不规则）+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -1154,7 +1154,7 @@
     "example": "장학금 신청을 받았습니다.",
     "exampleTranslation": "接受了奖学金申请。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "장학금",
@@ -1170,7 +1170,7 @@
       {
         "text": "받았습니다",
         "meaning": "接受了",
-        "note": "받다(接受)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "받다(接受)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -1183,7 +1183,7 @@
     "example": "시험에서 실수를 했습니다.",
     "exampleTranslation": "考试中出了失误。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "시험에서",
@@ -1199,7 +1199,7 @@
       {
         "text": "했습니다",
         "meaning": "做了",
-        "note": "하다(做)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "하다(做)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -1212,7 +1212,7 @@
     "example": "관광 안내를 받았습니다.",
     "exampleTranslation": "接受了观光向导。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "관광",
@@ -1228,7 +1228,7 @@
       {
         "text": "받았습니다",
         "meaning": "接受了",
-        "note": "받다(接受)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "받다(接受)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -1241,7 +1241,7 @@
     "example": "언어로 생각을 표현합니다.",
     "exampleTranslation": "用语言表达想法。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "언어로",
@@ -1257,7 +1257,7 @@
       {
         "text": "표현합니다",
         "meaning": "表达",
-        "note": "표현하다(表达)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "표현하다(表达)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -1270,7 +1270,7 @@
     "example": "매일 피아노 연습을 합니다.",
     "exampleTranslation": "每天练习钢琴。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "매일",
@@ -1286,7 +1286,7 @@
       {
         "text": "합니다",
         "meaning": "做",
-        "note": "하다(做)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "하다(做)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -1299,7 +1299,7 @@
     "example": "연필로 그림을 그렸습니다.",
     "exampleTranslation": "用铅笔画了画。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "연필로",
@@ -1315,7 +1315,7 @@
       {
         "text": "그렸습니다",
         "meaning": "画了",
-        "note": "그리다(画)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "그리다(画)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   }

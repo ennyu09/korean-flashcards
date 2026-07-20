@@ -1,56 +1,1538 @@
 [
-{"korean":"-되다","romanization":"-doeda","pos":"词缀","meaning":"被……（接在名词后构成被动/状态动词）","register":"中立","example":"예약이 취소되었습니다.","exampleTranslation":"预约被取消了。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"예약이","meaning":"预约","note":"예약(预约)+이(主格助词)"},{"text":"취소되었습니다","meaning":"被取消了","note":"취소(取消)+되다(词缀,表被动/自动)+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）","isTarget":true}]},
-{"korean":"-하다","romanization":"-hada","pos":"词缀","meaning":"做……（接在名词后构成动词/形容词）","register":"中立","example":"매일 운동해서 건강합니다.","exampleTranslation":"每天运动所以很健康。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"매일","meaning":"每天","note":"副词"},{"text":"운동해서","meaning":"运动了，所以","note":"운동(运动)+하다+ -여서(因为)"},{"text":"건강합니다","meaning":"健康","note":"건강(健康)+하다(词缀,构成形容词)+ -ㅂ니다（陈述句·格式体敬语终结词尾）","isTarget":true}]},
-{"korean":"간단히","romanization":"gandanhi","pos":"副词","meaning":"简单地","register":"中立","example":"간단히 설명해 주세요.","exampleTranslation":"请简单说明一下。","sentenceType":"命令句（请求）","formalityLevel":"非格式体敬语（해요体）","grammarBreakdown":[{"text":"간단히","meaning":"简单地","note":"副词","isTarget":true},{"text":"설명해 주세요","meaning":"请说明","note":"설명하다(说明)的词干+ -아/어 주다(请求)+ -시-+ -어요"}]},
-{"korean":"거짓말","romanization":"geojinmal","pos":"名词","meaning":"谎言","register":"中立","example":"거짓말을 하면 안 됩니다.","exampleTranslation":"不可以说谎。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"거짓말을","meaning":"谎言","note":"거짓말(谎言)+을(宾格助词)","isTarget":true},{"text":"하면","meaning":"做的话","note":"하다(做)的词干+ -면(如果……的话)"},{"text":"안 됩니다","meaning":"不可以","note":"안(不)+되다(可以)+ -ㅂ니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"겉","romanization":"geot","pos":"名词","meaning":"表面，外部","register":"中立","example":"겉과 속이 다릅니다.","exampleTranslation":"表里不一。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"겉과","meaning":"表面","note":"겉(表面)+과(和……)","isTarget":true},{"text":"속이","meaning":"里面","note":"속(里面)+이(主格助词)"},{"text":"다릅니다","meaning":"不同","note":"다르다(不同)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"결과","romanization":"gyeolgwa","pos":"名词","meaning":"结果","register":"中立","example":"시험 결과가 나왔습니다.","exampleTranslation":"考试结果出来了。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"시험","meaning":"考试","note":"名词"},{"text":"결과가","meaning":"结果","note":"결과(结果)+가(主格助词)","isTarget":true},{"text":"나왔습니다","meaning":"出来了","note":"나오다(出来)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"결심","romanization":"gyeolsim","pos":"名词","meaning":"决心","register":"中立","example":"담배를 끊기로 결심을 했습니다.","exampleTranslation":"下决心要戒烟了。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"담배를","meaning":"香烟","note":"담배(香烟)+를(宾格助词)"},{"text":"끊기로","meaning":"决定戒","note":"끊다(戒)的词干+ -기로(决定做……)"},{"text":"결심을","meaning":"决心","note":"결심(决心)+을(宾格助词)","isTarget":true},{"text":"했습니다","meaning":"做了","note":"하다(做)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"결정","romanization":"gyeoljeong","pos":"名词","meaning":"决定","register":"中立","example":"중요한 결정을 내렸습니다.","exampleTranslation":"做了重要的决定。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"중요한","meaning":"重要的","note":"중요하다(重要)的词干+ -ㄴ(冠形词形)"},{"text":"결정을","meaning":"决定","note":"결정(决定)+을(宾格助词)","isTarget":true},{"text":"내렸습니다","meaning":"做出了","note":"내리다(做出)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"경험","romanization":"gyeongheom","pos":"名词","meaning":"经验","register":"中立","example":"값진 경험을 쌓았습니다.","exampleTranslation":"积累了宝贵的经验。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"값진","meaning":"宝贵的","note":"값지다(宝贵)的词干+ -ㄴ(冠形词形)"},{"text":"경험을","meaning":"经验","note":"경험(经验)+을(宾格助词)","isTarget":true},{"text":"쌓았습니다","meaning":"积累了","note":"쌓다(积累)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"고개","romanization":"gogae","pos":"名词","meaning":"头，脖颈","register":"中立","example":"고개를 끄덕였습니다.","exampleTranslation":"点了点头。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"고개를","meaning":"头","note":"고개(头)+를(宾格助词)","isTarget":true},{"text":"끄덕였습니다","meaning":"点了","note":"끄덕이다(点头)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"금지","romanization":"geumji","pos":"名词","meaning":"禁止","register":"中立","example":"이곳은 통행 금지입니다.","exampleTranslation":"这里禁止通行。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"이곳은","meaning":"这个地方","note":"이곳(这个地方)+은(主题助词)"},{"text":"통행 금지입니다","meaning":"是禁止通行","note":"통행(通行)+금지(禁止)+이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）","isTarget":true}]},
-{"korean":"기억","romanization":"gieok","pos":"名词","meaning":"记忆","register":"中立","example":"어릴 적 기억이 납니다.","exampleTranslation":"想起了小时候的记忆。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"어릴 적","meaning":"小的时候","note":"어리다(小)的词干+ -ㄹ(冠形词形)+적(时候)"},{"text":"기억이","meaning":"记忆","note":"기억(记忆)+이(主格助词)","isTarget":true},{"text":"납니다","meaning":"浮现","note":"나다(浮现)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"기회","romanization":"gihoe","pos":"名词","meaning":"机会","register":"中立","example":"좋은 기회를 놓쳤습니다.","exampleTranslation":"错过了好机会。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"좋은","meaning":"好的","note":"좋다(好)的词干+ -은(冠形词形)"},{"text":"기회를","meaning":"机会","note":"기회(机会)+를(宾格助词)","isTarget":true},{"text":"놓쳤습니다","meaning":"错过了","note":"놓치다(错过)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"길이","romanization":"giri","pos":"名词","meaning":"长度","register":"中立","example":"줄자로 길이를 쟀습니다.","exampleTranslation":"用卷尺量了长度。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"줄자로","meaning":"用卷尺","note":"줄자(卷尺)+로(表工具的助词)"},{"text":"길이를","meaning":"长度","note":"길이(长度)+를(宾格助词)","isTarget":true},{"text":"쟀습니다","meaning":"量了","note":"재다(测量)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"꼭","romanization":"kkok","pos":"副词","meaning":"一定","register":"中立","example":"이 일은 꼭 필요합니다.","exampleTranslation":"这件事一定需要。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"이 일은","meaning":"这件事","note":"이(这)+일(事)+은(主题助词)"},{"text":"꼭","meaning":"一定","note":"副词","isTarget":true},{"text":"필요합니다","meaning":"需要","note":"필요하다(需要)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"꿈","romanization":"kkum","pos":"名词","meaning":"梦","register":"中立","example":"좋은 꿈을 꾸었습니다.","exampleTranslation":"做了个好梦。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"좋은","meaning":"好的","note":"좋다(好)的词干+ -은(冠形词形)"},{"text":"꿈을","meaning":"梦","note":"꿈(梦)+을(宾格助词)","isTarget":true},{"text":"꾸었습니다","meaning":"做了","note":"꾸다(做梦)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"끝","romanization":"kkeut","pos":"名词","meaning":"末尾，结束","register":"中立","example":"이야기의 끝을 알고 싶습니다.","exampleTranslation":"想知道故事的结局。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"이야기의","meaning":"故事的","note":"이야기(故事)+의(所有格助词)"},{"text":"끝을","meaning":"结局","note":"끝(末尾)+을(宾格助词)","isTarget":true},{"text":"알고 싶습니다","meaning":"想知道","note":"알다(知道)的词干+ -고 싶다(想要)+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"나머지","romanization":"nameoji","pos":"名词","meaning":"剩余","register":"中立","example":"나머지 시간에 쉬었습니다.","exampleTranslation":"剩余的时间休息了。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"나머지 시간에","meaning":"剩余的时间","note":"나머지(剩余)+시간(时间)+에(时间助词)","isTarget":true},{"text":"쉬었습니다","meaning":"休息了","note":"쉬다(休息)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"내용","romanization":"naeyong","pos":"名词","meaning":"内容","register":"中立","example":"수업 내용이 어렵습니다.","exampleTranslation":"课程内容很难。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"수업","meaning":"课","note":"名词"},{"text":"내용이","meaning":"内容","note":"내용(内容)+이(主格助词)","isTarget":true},{"text":"어렵습니다","meaning":"难","note":"어렵다(难)的词干+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"냄새","romanization":"naemsae","pos":"名词","meaning":"气味","register":"中立","example":"좋은 냄새가 납니다.","exampleTranslation":"有好闻的气味。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"좋은","meaning":"好闻的","note":"좋다(好)的词干+ -은(冠形词形)"},{"text":"냄새가","meaning":"气味","note":"냄새(气味)+가(主格助词)","isTarget":true},{"text":"납니다","meaning":"散发","note":"나다(散发)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"노래","romanization":"norae","pos":"名词","meaning":"歌曲","register":"中立","example":"좋아하는 노래를 불렀습니다.","exampleTranslation":"唱了喜欢的歌。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"좋아하는","meaning":"喜欢的","note":"좋아하다(喜欢)的词干+ -는(冠形词形)"},{"text":"노래를","meaning":"歌曲","note":"노래(歌曲)+를(宾格助词)","isTarget":true},{"text":"불렀습니다","meaning":"唱了","note":"부르다(唱)的词干（르不规则）+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"노래방","romanization":"noraebang","pos":"名词","meaning":"练歌房","register":"中立","example":"친구들과 노래방에 갔습니다.","exampleTranslation":"和朋友们去了练歌房。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"친구들과","meaning":"和朋友们","note":"친구들(朋友们)+과(和……)"},{"text":"노래방에","meaning":"练歌房","note":"노래방(练歌房)+에(方向助词)","isTarget":true},{"text":"갔습니다","meaning":"去了","note":"가다(去)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"농담","romanization":"nongdam","pos":"名词","meaning":"玩笑","register":"中立","example":"재미있는 농담을 주고받았습니다.","exampleTranslation":"互相开了有趣的玩笑。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"재미있는","meaning":"有趣的","note":"재미있다(有趣)的词干+ -는(冠形词形)"},{"text":"농담을","meaning":"玩笑","note":"농담(玩笑)+을(宾格助词)","isTarget":true},{"text":"주고받았습니다","meaning":"互相开了","note":"주고받다(互相给予)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"능력","romanization":"neungnyeok","pos":"名词","meaning":"能力","register":"中立","example":"그는 능력이 뛰어납니다.","exampleTranslation":"他能力出众。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"그는","meaning":"他","note":"그(他)+는(主题助词)"},{"text":"능력이","meaning":"能力","note":"능력(能力)+이(主格助词)","isTarget":true},{"text":"뛰어납니다","meaning":"出众","note":"뛰어나다(出众)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"덕분","romanization":"deokbun","pos":"名词","meaning":"托……的福","register":"中立","example":"부모님 덕분에 잘 자랐습니다.","exampleTranslation":"托父母的福长大成人了。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"부모님","meaning":"父母","note":"名词"},{"text":"덕분에","meaning":"托……的福","note":"덕분(托福)+에(方式助词)","isTarget":true},{"text":"잘","meaning":"好好地","note":"副词"},{"text":"자랐습니다","meaning":"成长了","note":"자라다(成长)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"도","romanization":"do","pos":"依存名词","meaning":"度","register":"中立","example":"오늘 기온이 영상 십 도입니다.","exampleTranslation":"今天气温零上十度。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"오늘","meaning":"今天","note":"名词"},{"text":"기온이","meaning":"气温","note":"기온(气温)+이(主格助词)"},{"text":"영상 십 도입니다","meaning":"是零上十度","note":"영상(零上)+십(十)+도(度,依存名词)+이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）","isTarget":true}]},
-{"korean":"도착","romanization":"dochak","pos":"名词","meaning":"到达","register":"中立","example":"기차 도착 시간을 확인했습니다.","exampleTranslation":"确认了火车到达时间。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"기차","meaning":"火车","note":"名词"},{"text":"도착 시간을","meaning":"到达时间","note":"도착(到达)+시간(时间)+을(宾格助词)","isTarget":true},{"text":"확인했습니다","meaning":"确认了","note":"확인하다(确认)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"독서","romanization":"dokseo","pos":"名词","meaning":"读书","register":"中立","example":"주말마다 독서를 합니다.","exampleTranslation":"每个周末读书。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"주말마다","meaning":"每个周末","note":"주말(周末)+마다(每……)"},{"text":"독서를","meaning":"读书","note":"독서(读书)+를(宾格助词)","isTarget":true},{"text":"합니다","meaning":"做","note":"하다(做)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"돌","romanization":"dol","pos":"名词","meaning":"石头","register":"中立","example":"강가에서 돌을 던졌습니다.","exampleTranslation":"在江边扔了石头。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"강가에서","meaning":"在江边","note":"강가(江边)+에서(处所助词)"},{"text":"돌을","meaning":"石头","note":"돌(石头)+을(宾格助词)","isTarget":true},{"text":"던졌습니다","meaning":"扔了","note":"던지다(扔)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"동시","romanization":"dongsi","pos":"名词","meaning":"同时","register":"中立","example":"두 사람이 동시에 일어났습니다.","exampleTranslation":"两个人同时站了起来。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"두 사람이","meaning":"两个人","note":"두(二)+사람(人)+이(主格助词)"},{"text":"동시에","meaning":"同时","note":"동시(同时)+에(时间助词)","isTarget":true},{"text":"일어났습니다","meaning":"站起来了","note":"일어나다(站起来)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"뜻","romanization":"tteut","pos":"名词","meaning":"意思","register":"中立","example":"이 단어의 뜻이 어렵습니다.","exampleTranslation":"这个单词的意思很难。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"이 단어의","meaning":"这个单词的","note":"이(这)+단어(单词)+의(所有格助词)"},{"text":"뜻이","meaning":"意思","note":"뜻(意思)+이(主格助词)","isTarget":true},{"text":"어렵습니다","meaning":"难","note":"어렵다(难)的词干+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"마음","romanization":"maeum","pos":"名词","meaning":"心，心情","register":"中立","example":"마음이 따뜻한 사람입니다.","exampleTranslation":"是个心地善良的人。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"마음이","meaning":"心","note":"마음(心)+이(主格助词)","isTarget":true},{"text":"따뜻한","meaning":"温暖的","note":"따뜻하다(温暖)的词干+ -ㄴ(冠形词形)"},{"text":"사람입니다","meaning":"是人","note":"사람(人)+이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"말","romanization":"mal","pos":"名词","meaning":"话，语言","register":"中立","homonymIndex":"01","example":"그의 말을 믿었습니다.","exampleTranslation":"相信了他的话。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"그의","meaning":"他的","note":"그(他)+의(所有格助词)"},{"text":"말을","meaning":"话","note":"말(话)+을(宾格助词)","isTarget":true},{"text":"믿었습니다","meaning":"相信了","note":"믿다(相信)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"말","romanization":"mal","pos":"名词","meaning":"马","register":"中立","homonymIndex":"04","example":"말을 타고 달렸습니다.","exampleTranslation":"骑马奔跑了。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"말을","meaning":"马","note":"말(马)+을(宾格助词)","isTarget":true},{"text":"타고","meaning":"骑着","note":"타다(骑)的词干+ -고(然后)"},{"text":"달렸습니다","meaning":"奔跑了","note":"달리다(奔跑)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"말","romanization":"mal","pos":"依存名词","meaning":"末，末尾","register":"中立","homonymIndex":"11","example":"학기 말에 시험을 봅니다.","exampleTranslation":"学期末考试。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"학기 말에","meaning":"学期末","note":"학기(学期)+말(末,依存名词)+에(时间助词)","isTarget":true},{"text":"시험을","meaning":"考试","note":"시험(考试)+을(宾格助词)"},{"text":"봅니다","meaning":"考","note":"보다(考试)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"멋","romanization":"meot","pos":"名词","meaning":"风采，帅气","register":"中立","example":"그 옷은 멋을 냅니다.","exampleTranslation":"那件衣服很有风采。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"그 옷은","meaning":"那件衣服","note":"그(那)+옷(衣服)+은(主题助词)"},{"text":"멋을","meaning":"风采","note":"멋(风采)+을(宾格助词)","isTarget":true},{"text":"냅니다","meaning":"展现","note":"내다(展现)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"메모","romanization":"memo","pos":"名词","meaning":"备忘录","register":"中立","example":"중요한 내용을 메모를 했습니다.","exampleTranslation":"记录了重要内容。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"중요한","meaning":"重要的","note":"중요하다(重要)的词干+ -ㄴ(冠形词形)"},{"text":"내용을","meaning":"内容","note":"내용(内容)+을(宾格助词)"},{"text":"메모를","meaning":"备忘","note":"메모(备忘)+를(宾格助词)","isTarget":true},{"text":"했습니다","meaning":"做了","note":"하다(做)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"모습","romanization":"moseup","pos":"名词","meaning":"样子","register":"中立","example":"밝은 모습을 보였습니다.","exampleTranslation":"展现了开朗的样子。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"밝은","meaning":"开朗的","note":"밝다(开朗)的词干+ -은(冠形词形)"},{"text":"모습을","meaning":"样子","note":"모습(样子)+을(宾格助词)","isTarget":true},{"text":"보였습니다","meaning":"展现了","note":"보이다(展现)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"모양","romanization":"moyang","pos":"名词","meaning":"形状","register":"中立","example":"별 모양의 쿠키를 만들었습니다.","exampleTranslation":"做了星星形状的饼干。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"별 모양의","meaning":"星星形状的","note":"별(星星)+모양(形状)+의(所有格助词)","isTarget":true},{"text":"쿠키를","meaning":"饼干","note":"쿠키(饼干)+를(宾格助词)"},{"text":"만들었습니다","meaning":"做了","note":"만들다(做)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"모임","romanization":"moim","pos":"名词","meaning":"聚会","register":"中立","example":"동창 모임에 나갔습니다.","exampleTranslation":"参加了同学聚会。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"동창 모임에","meaning":"同学聚会","note":"동창(同学)+모임(聚会)+에(方向助词)","isTarget":true},{"text":"나갔습니다","meaning":"出去了（参加）","note":"나가다(出去)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"모자라다","romanization":"mojarada","pos":"动词","meaning":"不足","register":"中立","example":"잠이 많이 모자랍니다.","exampleTranslation":"睡眠严重不足。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"잠이","meaning":"睡眠","note":"잠(睡眠)+이(主格助词)"},{"text":"많이","meaning":"很","note":"副词"},{"text":"모자랍니다","meaning":"不足","note":"모자라다(不足)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）","isTarget":true}]},
-{"korean":"목적","romanization":"mokjeok","pos":"名词","meaning":"目的","register":"中立","example":"목적을 이루었습니다.","exampleTranslation":"达成了目的。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"목적을","meaning":"目的","note":"목적(目的)+을(宾格助词)","isTarget":true},{"text":"이루었습니다","meaning":"达成了","note":"이루다(达成)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"무게","romanization":"muge","pos":"名词","meaning":"重量","register":"中立","example":"짐의 무게가 많이 나갑니다.","exampleTranslation":"行李的重量很大。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"짐의","meaning":"行李的","note":"짐(行李)+의(所有格助词)"},{"text":"무게가","meaning":"重量","note":"무게(重量)+가(主格助词)","isTarget":true},{"text":"많이","meaning":"很多","note":"副词"},{"text":"나갑니다","meaning":"（重量）达到","note":"나가다(达到)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"문화","romanization":"munhwa","pos":"名词","meaning":"文化","register":"中立","example":"두 나라가 문화를 교류합니다.","exampleTranslation":"两国进行文化交流。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"두 나라가","meaning":"两国","note":"두(二)+나라(国家)+가(主格助词)"},{"text":"문화를","meaning":"文化","note":"문화(文化)+를(宾格助词)","isTarget":true},{"text":"교류합니다","meaning":"交流","note":"교류하다(交流)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"미래","romanization":"mirae","pos":"名词","meaning":"未来","register":"中立","example":"아이의 미래가 밝습니다.","exampleTranslation":"孩子的未来一片光明。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"아이의","meaning":"孩子的","note":"아이(孩子)+의(所有格助词)"},{"text":"미래가","meaning":"未来","note":"미래(未来)+가(主格助词)","isTarget":true},{"text":"밝습니다","meaning":"光明","note":"밝다(光明)的词干+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"미터","romanization":"miteo","pos":"依存名词","meaning":"米","register":"中立","example":"백 미터를 달렸습니다.","exampleTranslation":"跑了一百米。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"백 미터를","meaning":"一百米","note":"백(百)+미터(米,依存名词)+를(宾格助词)","isTarget":true},{"text":"달렸습니다","meaning":"跑了","note":"달리다(跑)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"바닥","romanization":"badak","pos":"名词","meaning":"地板","register":"中立","example":"동전이 바닥에 떨어졌습니다.","exampleTranslation":"硬币掉在了地板上。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"동전이","meaning":"硬币","note":"동전(硬币)+이(主格助词)"},{"text":"바닥에","meaning":"地板上","note":"바닥(地板)+에(方向助词)","isTarget":true},{"text":"떨어졌습니다","meaning":"掉了","note":"떨어지다(掉落)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"박수","romanization":"baksu","pos":"名词","meaning":"掌声","register":"中立","example":"큰 박수를 쳤습니다.","exampleTranslation":"鼓了热烈的掌。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"큰","meaning":"大的","note":"크다(大)的词干+ -ㄴ(冠形词形)"},{"text":"박수를","meaning":"掌声","note":"박수(掌声)+를(宾格助词)","isTarget":true},{"text":"쳤습니다","meaning":"拍了","note":"치다(拍)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"밖","romanization":"bak","pos":"名词","meaning":"外面","register":"中立","example":"밖에 나가서 놀았습니다.","exampleTranslation":"到外面玩了。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"밖에","meaning":"外面","note":"밖(外面)+에(方向助词)","isTarget":true},{"text":"나가서","meaning":"出去之后","note":"나가다(出去)的词干+ -아서(先后)"},{"text":"놀았습니다","meaning":"玩了","note":"놀다(玩)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"반대","romanization":"bandae","pos":"名词","meaning":"相反","register":"中立","example":"반대 방향으로 갔습니다.","exampleTranslation":"往相反方向去了。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"반대 방향으로","meaning":"相反方向","note":"반대(相反)+방향(方向)+으로(方向助词)","isTarget":true},{"text":"갔습니다","meaning":"去了","note":"가다(去)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"발바닥","romanization":"balbadak","pos":"名词","meaning":"脚底","register":"中立","example":"발바닥이 아픕니다.","exampleTranslation":"脚底疼。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"발바닥이","meaning":"脚底","note":"발바닥(脚底)+이(主格助词)","isTarget":true},{"text":"아픕니다","meaning":"疼","note":"아프다(疼)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"밤","romanization":"bam","pos":"名词","meaning":"夜晚","register":"中立","example":"밤이 깊었습니다.","exampleTranslation":"夜深了。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"밤이","meaning":"夜晚","note":"밤(夜晚)+이(主格助词)","isTarget":true},{"text":"깊었습니다","meaning":"深了","note":"깊다(深)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"방문","romanization":"bangmun","pos":"名词","meaning":"房门","register":"中立","homonymIndex":"02","example":"방문을 조용히 닫았습니다.","exampleTranslation":"轻轻地关上了房门。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"방문을","meaning":"房门","note":"방문(房门)+을(宾格助词)","isTarget":true},{"text":"조용히","meaning":"轻轻地","note":"副词"},{"text":"닫았습니다","meaning":"关上了","note":"닫다(关)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]},
-{"korean":"방문","romanization":"bangmun","pos":"名词","meaning":"访问","register":"中立","homonymIndex":"03","example":"고향 방문을 다녀왔습니다.","exampleTranslation":"回乡访问了一趟。","sentenceType":"陈述句","formalityLevel":"格式体敬语（합니다体）","grammarBreakdown":[{"text":"고향","meaning":"故乡","note":"名词"},{"text":"방문을","meaning":"访问","note":"방문(访问)+을(宾格助词)","isTarget":true},{"text":"다녀왔습니다","meaning":"去了一趟回来了","note":"다녀오다(去一趟回来)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"}]}
+  {
+    "korean": "-되다",
+    "romanization": "-doeda",
+    "pos": "词缀",
+    "meaning": "被……（接在名词后构成被动/状态动词）",
+    "register": "中立",
+    "example": "예약이 취소되었습니다.",
+    "exampleTranslation": "预约被取消了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "예약이",
+        "meaning": "预约",
+        "note": "예약(预约)+이(主格助词)"
+      },
+      {
+        "text": "취소되었습니다",
+        "meaning": "被取消了",
+        "note": "취소(取消)+되다(词缀,表被动/自动)+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "-하다",
+    "romanization": "-hada",
+    "pos": "词缀",
+    "meaning": "做……（接在名词后构成动词/形容词）",
+    "register": "中立",
+    "example": "매일 운동해서 건강합니다.",
+    "exampleTranslation": "每天运动所以很健康。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "매일",
+        "meaning": "每天",
+        "note": "副词"
+      },
+      {
+        "text": "운동해서",
+        "meaning": "运动了，所以",
+        "note": "운동(运动)+하다+ -여서(因为)"
+      },
+      {
+        "text": "건강합니다",
+        "meaning": "健康",
+        "note": "건강(健康)+하다(词缀,构成形容词)+ -ㅂ니다（陈述句·尊敬阶终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "간단히",
+    "romanization": "gandanhi",
+    "pos": "副词",
+    "meaning": "简单地",
+    "register": "中立",
+    "example": "간단히 설명해 주세요.",
+    "exampleTranslation": "请简单说明一下。",
+    "sentenceType": "命令句（请求）",
+    "formalityLevel": "泛尊阶（해요体）",
+    "grammarBreakdown": [
+      {
+        "text": "간단히",
+        "meaning": "简单地",
+        "note": "副词",
+        "isTarget": true
+      },
+      {
+        "text": "설명해 주세요",
+        "meaning": "请说明",
+        "note": "설명하다(说明)的词干+ -아/어 주다(请求)+ -시-+ -어요"
+      }
+    ]
+  },
+  {
+    "korean": "거짓말",
+    "romanization": "geojinmal",
+    "pos": "名词",
+    "meaning": "谎言",
+    "register": "中立",
+    "example": "거짓말을 하면 안 됩니다.",
+    "exampleTranslation": "不可以说谎。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "거짓말을",
+        "meaning": "谎言",
+        "note": "거짓말(谎言)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "하면",
+        "meaning": "做的话",
+        "note": "하다(做)的词干+ -면(如果……的话)"
+      },
+      {
+        "text": "안 됩니다",
+        "meaning": "不可以",
+        "note": "안(不)+되다(可以)+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "겉",
+    "romanization": "geot",
+    "pos": "名词",
+    "meaning": "表面，外部",
+    "register": "中立",
+    "example": "겉과 속이 다릅니다.",
+    "exampleTranslation": "表里不一。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "겉과",
+        "meaning": "表面",
+        "note": "겉(表面)+과(和……)",
+        "isTarget": true
+      },
+      {
+        "text": "속이",
+        "meaning": "里面",
+        "note": "속(里面)+이(主格助词)"
+      },
+      {
+        "text": "다릅니다",
+        "meaning": "不同",
+        "note": "다르다(不同)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "결과",
+    "romanization": "gyeolgwa",
+    "pos": "名词",
+    "meaning": "结果",
+    "register": "中立",
+    "example": "시험 결과가 나왔습니다.",
+    "exampleTranslation": "考试结果出来了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "시험",
+        "meaning": "考试",
+        "note": "名词"
+      },
+      {
+        "text": "결과가",
+        "meaning": "结果",
+        "note": "결과(结果)+가(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "나왔습니다",
+        "meaning": "出来了",
+        "note": "나오다(出来)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "결심",
+    "romanization": "gyeolsim",
+    "pos": "名词",
+    "meaning": "决心",
+    "register": "中立",
+    "example": "담배를 끊기로 결심을 했습니다.",
+    "exampleTranslation": "下决心要戒烟了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "담배를",
+        "meaning": "香烟",
+        "note": "담배(香烟)+를(宾格助词)"
+      },
+      {
+        "text": "끊기로",
+        "meaning": "决定戒",
+        "note": "끊다(戒)的词干+ -기로(决定做……)"
+      },
+      {
+        "text": "결심을",
+        "meaning": "决心",
+        "note": "결심(决心)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "했습니다",
+        "meaning": "做了",
+        "note": "하다(做)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "결정",
+    "romanization": "gyeoljeong",
+    "pos": "名词",
+    "meaning": "决定",
+    "register": "中立",
+    "example": "중요한 결정을 내렸습니다.",
+    "exampleTranslation": "做了重要的决定。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "중요한",
+        "meaning": "重要的",
+        "note": "중요하다(重要)的词干+ -ㄴ(冠形词形)"
+      },
+      {
+        "text": "결정을",
+        "meaning": "决定",
+        "note": "결정(决定)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "내렸습니다",
+        "meaning": "做出了",
+        "note": "내리다(做出)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "경험",
+    "romanization": "gyeongheom",
+    "pos": "名词",
+    "meaning": "经验",
+    "register": "中立",
+    "example": "값진 경험을 쌓았습니다.",
+    "exampleTranslation": "积累了宝贵的经验。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "값진",
+        "meaning": "宝贵的",
+        "note": "값지다(宝贵)的词干+ -ㄴ(冠形词形)"
+      },
+      {
+        "text": "경험을",
+        "meaning": "经验",
+        "note": "경험(经验)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "쌓았습니다",
+        "meaning": "积累了",
+        "note": "쌓다(积累)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "고개",
+    "romanization": "gogae",
+    "pos": "名词",
+    "meaning": "头，脖颈",
+    "register": "中立",
+    "example": "고개를 끄덕였습니다.",
+    "exampleTranslation": "点了点头。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "고개를",
+        "meaning": "头",
+        "note": "고개(头)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "끄덕였습니다",
+        "meaning": "点了",
+        "note": "끄덕이다(点头)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "금지",
+    "romanization": "geumji",
+    "pos": "名词",
+    "meaning": "禁止",
+    "register": "中立",
+    "example": "이곳은 통행 금지입니다.",
+    "exampleTranslation": "这里禁止通行。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "이곳은",
+        "meaning": "这个地方",
+        "note": "이곳(这个地方)+은(主题助词)"
+      },
+      {
+        "text": "통행 금지입니다",
+        "meaning": "是禁止通行",
+        "note": "통행(通行)+금지(禁止)+이다+ -ㅂ니다（陈述句·尊敬阶终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "기억",
+    "romanization": "gieok",
+    "pos": "名词",
+    "meaning": "记忆",
+    "register": "中立",
+    "example": "어릴 적 기억이 납니다.",
+    "exampleTranslation": "想起了小时候的记忆。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "어릴 적",
+        "meaning": "小的时候",
+        "note": "어리다(小)的词干+ -ㄹ(冠形词形)+적(时候)"
+      },
+      {
+        "text": "기억이",
+        "meaning": "记忆",
+        "note": "기억(记忆)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "납니다",
+        "meaning": "浮现",
+        "note": "나다(浮现)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "기회",
+    "romanization": "gihoe",
+    "pos": "名词",
+    "meaning": "机会",
+    "register": "中立",
+    "example": "좋은 기회를 놓쳤습니다.",
+    "exampleTranslation": "错过了好机会。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "좋은",
+        "meaning": "好的",
+        "note": "좋다(好)的词干+ -은(冠形词形)"
+      },
+      {
+        "text": "기회를",
+        "meaning": "机会",
+        "note": "기회(机会)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "놓쳤습니다",
+        "meaning": "错过了",
+        "note": "놓치다(错过)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "길이",
+    "romanization": "giri",
+    "pos": "名词",
+    "meaning": "长度",
+    "register": "中立",
+    "example": "줄자로 길이를 쟀습니다.",
+    "exampleTranslation": "用卷尺量了长度。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "줄자로",
+        "meaning": "用卷尺",
+        "note": "줄자(卷尺)+로(表工具的助词)"
+      },
+      {
+        "text": "길이를",
+        "meaning": "长度",
+        "note": "길이(长度)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "쟀습니다",
+        "meaning": "量了",
+        "note": "재다(测量)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "꼭",
+    "romanization": "kkok",
+    "pos": "副词",
+    "meaning": "一定",
+    "register": "中立",
+    "example": "이 일은 꼭 필요합니다.",
+    "exampleTranslation": "这件事一定需要。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "이 일은",
+        "meaning": "这件事",
+        "note": "이(这)+일(事)+은(主题助词)"
+      },
+      {
+        "text": "꼭",
+        "meaning": "一定",
+        "note": "副词",
+        "isTarget": true
+      },
+      {
+        "text": "필요합니다",
+        "meaning": "需要",
+        "note": "필요하다(需要)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "꿈",
+    "romanization": "kkum",
+    "pos": "名词",
+    "meaning": "梦",
+    "register": "中立",
+    "example": "좋은 꿈을 꾸었습니다.",
+    "exampleTranslation": "做了个好梦。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "좋은",
+        "meaning": "好的",
+        "note": "좋다(好)的词干+ -은(冠形词形)"
+      },
+      {
+        "text": "꿈을",
+        "meaning": "梦",
+        "note": "꿈(梦)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "꾸었습니다",
+        "meaning": "做了",
+        "note": "꾸다(做梦)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "끝",
+    "romanization": "kkeut",
+    "pos": "名词",
+    "meaning": "末尾，结束",
+    "register": "中立",
+    "example": "이야기의 끝을 알고 싶습니다.",
+    "exampleTranslation": "想知道故事的结局。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "이야기의",
+        "meaning": "故事的",
+        "note": "이야기(故事)+의(所有格助词)"
+      },
+      {
+        "text": "끝을",
+        "meaning": "结局",
+        "note": "끝(末尾)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "알고 싶습니다",
+        "meaning": "想知道",
+        "note": "알다(知道)的词干+ -고 싶다(想要)+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "나머지",
+    "romanization": "nameoji",
+    "pos": "名词",
+    "meaning": "剩余",
+    "register": "中立",
+    "example": "나머지 시간에 쉬었습니다.",
+    "exampleTranslation": "剩余的时间休息了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "나머지 시간에",
+        "meaning": "剩余的时间",
+        "note": "나머지(剩余)+시간(时间)+에(时间助词)",
+        "isTarget": true
+      },
+      {
+        "text": "쉬었습니다",
+        "meaning": "休息了",
+        "note": "쉬다(休息)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "내용",
+    "romanization": "naeyong",
+    "pos": "名词",
+    "meaning": "内容",
+    "register": "中立",
+    "example": "수업 내용이 어렵습니다.",
+    "exampleTranslation": "课程内容很难。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "수업",
+        "meaning": "课",
+        "note": "名词"
+      },
+      {
+        "text": "내용이",
+        "meaning": "内容",
+        "note": "내용(内容)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "어렵습니다",
+        "meaning": "难",
+        "note": "어렵다(难)的词干+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "냄새",
+    "romanization": "naemsae",
+    "pos": "名词",
+    "meaning": "气味",
+    "register": "中立",
+    "example": "좋은 냄새가 납니다.",
+    "exampleTranslation": "有好闻的气味。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "좋은",
+        "meaning": "好闻的",
+        "note": "좋다(好)的词干+ -은(冠形词形)"
+      },
+      {
+        "text": "냄새가",
+        "meaning": "气味",
+        "note": "냄새(气味)+가(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "납니다",
+        "meaning": "散发",
+        "note": "나다(散发)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "노래",
+    "romanization": "norae",
+    "pos": "名词",
+    "meaning": "歌曲",
+    "register": "中立",
+    "example": "좋아하는 노래를 불렀습니다.",
+    "exampleTranslation": "唱了喜欢的歌。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "좋아하는",
+        "meaning": "喜欢的",
+        "note": "좋아하다(喜欢)的词干+ -는(冠形词形)"
+      },
+      {
+        "text": "노래를",
+        "meaning": "歌曲",
+        "note": "노래(歌曲)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "불렀습니다",
+        "meaning": "唱了",
+        "note": "부르다(唱)的词干（르不规则）+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "노래방",
+    "romanization": "noraebang",
+    "pos": "名词",
+    "meaning": "练歌房",
+    "register": "中立",
+    "example": "친구들과 노래방에 갔습니다.",
+    "exampleTranslation": "和朋友们去了练歌房。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "친구들과",
+        "meaning": "和朋友们",
+        "note": "친구들(朋友们)+과(和……)"
+      },
+      {
+        "text": "노래방에",
+        "meaning": "练歌房",
+        "note": "노래방(练歌房)+에(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "갔습니다",
+        "meaning": "去了",
+        "note": "가다(去)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "농담",
+    "romanization": "nongdam",
+    "pos": "名词",
+    "meaning": "玩笑",
+    "register": "中立",
+    "example": "재미있는 농담을 주고받았습니다.",
+    "exampleTranslation": "互相开了有趣的玩笑。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "재미있는",
+        "meaning": "有趣的",
+        "note": "재미있다(有趣)的词干+ -는(冠形词形)"
+      },
+      {
+        "text": "농담을",
+        "meaning": "玩笑",
+        "note": "농담(玩笑)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "주고받았습니다",
+        "meaning": "互相开了",
+        "note": "주고받다(互相给予)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "능력",
+    "romanization": "neungnyeok",
+    "pos": "名词",
+    "meaning": "能力",
+    "register": "中立",
+    "example": "그는 능력이 뛰어납니다.",
+    "exampleTranslation": "他能力出众。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "그는",
+        "meaning": "他",
+        "note": "그(他)+는(主题助词)"
+      },
+      {
+        "text": "능력이",
+        "meaning": "能力",
+        "note": "능력(能力)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "뛰어납니다",
+        "meaning": "出众",
+        "note": "뛰어나다(出众)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "덕분",
+    "romanization": "deokbun",
+    "pos": "名词",
+    "meaning": "托……的福",
+    "register": "中立",
+    "example": "부모님 덕분에 잘 자랐습니다.",
+    "exampleTranslation": "托父母的福长大成人了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "부모님",
+        "meaning": "父母",
+        "note": "名词"
+      },
+      {
+        "text": "덕분에",
+        "meaning": "托……的福",
+        "note": "덕분(托福)+에(方式助词)",
+        "isTarget": true
+      },
+      {
+        "text": "잘",
+        "meaning": "好好地",
+        "note": "副词"
+      },
+      {
+        "text": "자랐습니다",
+        "meaning": "成长了",
+        "note": "자라다(成长)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "도",
+    "romanization": "do",
+    "pos": "依存名词",
+    "meaning": "度",
+    "register": "中立",
+    "example": "오늘 기온이 영상 십 도입니다.",
+    "exampleTranslation": "今天气温零上十度。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "오늘",
+        "meaning": "今天",
+        "note": "名词"
+      },
+      {
+        "text": "기온이",
+        "meaning": "气温",
+        "note": "기온(气温)+이(主格助词)"
+      },
+      {
+        "text": "영상 십 도입니다",
+        "meaning": "是零上十度",
+        "note": "영상(零上)+십(十)+도(度,依存名词)+이다+ -ㅂ니다（陈述句·尊敬阶终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "도착",
+    "romanization": "dochak",
+    "pos": "名词",
+    "meaning": "到达",
+    "register": "中立",
+    "example": "기차 도착 시간을 확인했습니다.",
+    "exampleTranslation": "确认了火车到达时间。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "기차",
+        "meaning": "火车",
+        "note": "名词"
+      },
+      {
+        "text": "도착 시간을",
+        "meaning": "到达时间",
+        "note": "도착(到达)+시간(时间)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "확인했습니다",
+        "meaning": "确认了",
+        "note": "확인하다(确认)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "독서",
+    "romanization": "dokseo",
+    "pos": "名词",
+    "meaning": "读书",
+    "register": "中立",
+    "example": "주말마다 독서를 합니다.",
+    "exampleTranslation": "每个周末读书。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "주말마다",
+        "meaning": "每个周末",
+        "note": "주말(周末)+마다(每……)"
+      },
+      {
+        "text": "독서를",
+        "meaning": "读书",
+        "note": "독서(读书)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "합니다",
+        "meaning": "做",
+        "note": "하다(做)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "돌",
+    "romanization": "dol",
+    "pos": "名词",
+    "meaning": "石头",
+    "register": "中立",
+    "example": "강가에서 돌을 던졌습니다.",
+    "exampleTranslation": "在江边扔了石头。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "강가에서",
+        "meaning": "在江边",
+        "note": "강가(江边)+에서(处所助词)"
+      },
+      {
+        "text": "돌을",
+        "meaning": "石头",
+        "note": "돌(石头)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "던졌습니다",
+        "meaning": "扔了",
+        "note": "던지다(扔)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "동시",
+    "romanization": "dongsi",
+    "pos": "名词",
+    "meaning": "同时",
+    "register": "中立",
+    "example": "두 사람이 동시에 일어났습니다.",
+    "exampleTranslation": "两个人同时站了起来。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "두 사람이",
+        "meaning": "两个人",
+        "note": "두(二)+사람(人)+이(主格助词)"
+      },
+      {
+        "text": "동시에",
+        "meaning": "同时",
+        "note": "동시(同时)+에(时间助词)",
+        "isTarget": true
+      },
+      {
+        "text": "일어났습니다",
+        "meaning": "站起来了",
+        "note": "일어나다(站起来)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "뜻",
+    "romanization": "tteut",
+    "pos": "名词",
+    "meaning": "意思",
+    "register": "中立",
+    "example": "이 단어의 뜻이 어렵습니다.",
+    "exampleTranslation": "这个单词的意思很难。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "이 단어의",
+        "meaning": "这个单词的",
+        "note": "이(这)+단어(单词)+의(所有格助词)"
+      },
+      {
+        "text": "뜻이",
+        "meaning": "意思",
+        "note": "뜻(意思)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "어렵습니다",
+        "meaning": "难",
+        "note": "어렵다(难)的词干+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "마음",
+    "romanization": "maeum",
+    "pos": "名词",
+    "meaning": "心，心情",
+    "register": "中立",
+    "example": "마음이 따뜻한 사람입니다.",
+    "exampleTranslation": "是个心地善良的人。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "마음이",
+        "meaning": "心",
+        "note": "마음(心)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "따뜻한",
+        "meaning": "温暖的",
+        "note": "따뜻하다(温暖)的词干+ -ㄴ(冠形词形)"
+      },
+      {
+        "text": "사람입니다",
+        "meaning": "是人",
+        "note": "사람(人)+이다+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "말",
+    "romanization": "mal",
+    "pos": "名词",
+    "meaning": "话，语言",
+    "register": "中立",
+    "homonymIndex": "01",
+    "example": "그의 말을 믿었습니다.",
+    "exampleTranslation": "相信了他的话。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "그의",
+        "meaning": "他的",
+        "note": "그(他)+의(所有格助词)"
+      },
+      {
+        "text": "말을",
+        "meaning": "话",
+        "note": "말(话)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "믿었습니다",
+        "meaning": "相信了",
+        "note": "믿다(相信)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "말",
+    "romanization": "mal",
+    "pos": "名词",
+    "meaning": "马",
+    "register": "中立",
+    "homonymIndex": "04",
+    "example": "말을 타고 달렸습니다.",
+    "exampleTranslation": "骑马奔跑了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "말을",
+        "meaning": "马",
+        "note": "말(马)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "타고",
+        "meaning": "骑着",
+        "note": "타다(骑)的词干+ -고(然后)"
+      },
+      {
+        "text": "달렸습니다",
+        "meaning": "奔跑了",
+        "note": "달리다(奔跑)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "말",
+    "romanization": "mal",
+    "pos": "依存名词",
+    "meaning": "末，末尾",
+    "register": "中立",
+    "homonymIndex": "11",
+    "example": "학기 말에 시험을 봅니다.",
+    "exampleTranslation": "学期末考试。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "학기 말에",
+        "meaning": "学期末",
+        "note": "학기(学期)+말(末,依存名词)+에(时间助词)",
+        "isTarget": true
+      },
+      {
+        "text": "시험을",
+        "meaning": "考试",
+        "note": "시험(考试)+을(宾格助词)"
+      },
+      {
+        "text": "봅니다",
+        "meaning": "考",
+        "note": "보다(考试)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "멋",
+    "romanization": "meot",
+    "pos": "名词",
+    "meaning": "风采，帅气",
+    "register": "中立",
+    "example": "그 옷은 멋을 냅니다.",
+    "exampleTranslation": "那件衣服很有风采。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "그 옷은",
+        "meaning": "那件衣服",
+        "note": "그(那)+옷(衣服)+은(主题助词)"
+      },
+      {
+        "text": "멋을",
+        "meaning": "风采",
+        "note": "멋(风采)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "냅니다",
+        "meaning": "展现",
+        "note": "내다(展现)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "메모",
+    "romanization": "memo",
+    "pos": "名词",
+    "meaning": "备忘录",
+    "register": "中立",
+    "example": "중요한 내용을 메모를 했습니다.",
+    "exampleTranslation": "记录了重要内容。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "중요한",
+        "meaning": "重要的",
+        "note": "중요하다(重要)的词干+ -ㄴ(冠形词形)"
+      },
+      {
+        "text": "내용을",
+        "meaning": "内容",
+        "note": "내용(内容)+을(宾格助词)"
+      },
+      {
+        "text": "메모를",
+        "meaning": "备忘",
+        "note": "메모(备忘)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "했습니다",
+        "meaning": "做了",
+        "note": "하다(做)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "모습",
+    "romanization": "moseup",
+    "pos": "名词",
+    "meaning": "样子",
+    "register": "中立",
+    "example": "밝은 모습을 보였습니다.",
+    "exampleTranslation": "展现了开朗的样子。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "밝은",
+        "meaning": "开朗的",
+        "note": "밝다(开朗)的词干+ -은(冠形词形)"
+      },
+      {
+        "text": "모습을",
+        "meaning": "样子",
+        "note": "모습(样子)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "보였습니다",
+        "meaning": "展现了",
+        "note": "보이다(展现)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "모양",
+    "romanization": "moyang",
+    "pos": "名词",
+    "meaning": "形状",
+    "register": "中立",
+    "example": "별 모양의 쿠키를 만들었습니다.",
+    "exampleTranslation": "做了星星形状的饼干。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "별 모양의",
+        "meaning": "星星形状的",
+        "note": "별(星星)+모양(形状)+의(所有格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "쿠키를",
+        "meaning": "饼干",
+        "note": "쿠키(饼干)+를(宾格助词)"
+      },
+      {
+        "text": "만들었습니다",
+        "meaning": "做了",
+        "note": "만들다(做)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "모임",
+    "romanization": "moim",
+    "pos": "名词",
+    "meaning": "聚会",
+    "register": "中立",
+    "example": "동창 모임에 나갔습니다.",
+    "exampleTranslation": "参加了同学聚会。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "동창 모임에",
+        "meaning": "同学聚会",
+        "note": "동창(同学)+모임(聚会)+에(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "나갔습니다",
+        "meaning": "出去了（参加）",
+        "note": "나가다(出去)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "모자라다",
+    "romanization": "mojarada",
+    "pos": "动词",
+    "meaning": "不足",
+    "register": "中立",
+    "example": "잠이 많이 모자랍니다.",
+    "exampleTranslation": "睡眠严重不足。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "잠이",
+        "meaning": "睡眠",
+        "note": "잠(睡眠)+이(主格助词)"
+      },
+      {
+        "text": "많이",
+        "meaning": "很",
+        "note": "副词"
+      },
+      {
+        "text": "모자랍니다",
+        "meaning": "不足",
+        "note": "모자라다(不足)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）",
+        "isTarget": true
+      }
+    ]
+  },
+  {
+    "korean": "목적",
+    "romanization": "mokjeok",
+    "pos": "名词",
+    "meaning": "目的",
+    "register": "中立",
+    "example": "목적을 이루었습니다.",
+    "exampleTranslation": "达成了目的。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "목적을",
+        "meaning": "目的",
+        "note": "목적(目的)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "이루었습니다",
+        "meaning": "达成了",
+        "note": "이루다(达成)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "무게",
+    "romanization": "muge",
+    "pos": "名词",
+    "meaning": "重量",
+    "register": "中立",
+    "example": "짐의 무게가 많이 나갑니다.",
+    "exampleTranslation": "行李的重量很大。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "짐의",
+        "meaning": "行李的",
+        "note": "짐(行李)+의(所有格助词)"
+      },
+      {
+        "text": "무게가",
+        "meaning": "重量",
+        "note": "무게(重量)+가(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "많이",
+        "meaning": "很多",
+        "note": "副词"
+      },
+      {
+        "text": "나갑니다",
+        "meaning": "（重量）达到",
+        "note": "나가다(达到)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "문화",
+    "romanization": "munhwa",
+    "pos": "名词",
+    "meaning": "文化",
+    "register": "中立",
+    "example": "두 나라가 문화를 교류합니다.",
+    "exampleTranslation": "两国进行文化交流。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "두 나라가",
+        "meaning": "两国",
+        "note": "두(二)+나라(国家)+가(主格助词)"
+      },
+      {
+        "text": "문화를",
+        "meaning": "文化",
+        "note": "문화(文化)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "교류합니다",
+        "meaning": "交流",
+        "note": "교류하다(交流)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "미래",
+    "romanization": "mirae",
+    "pos": "名词",
+    "meaning": "未来",
+    "register": "中立",
+    "example": "아이의 미래가 밝습니다.",
+    "exampleTranslation": "孩子的未来一片光明。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "아이의",
+        "meaning": "孩子的",
+        "note": "아이(孩子)+의(所有格助词)"
+      },
+      {
+        "text": "미래가",
+        "meaning": "未来",
+        "note": "미래(未来)+가(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "밝습니다",
+        "meaning": "光明",
+        "note": "밝다(光明)的词干+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "미터",
+    "romanization": "miteo",
+    "pos": "依存名词",
+    "meaning": "米",
+    "register": "中立",
+    "example": "백 미터를 달렸습니다.",
+    "exampleTranslation": "跑了一百米。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "백 미터를",
+        "meaning": "一百米",
+        "note": "백(百)+미터(米,依存名词)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "달렸습니다",
+        "meaning": "跑了",
+        "note": "달리다(跑)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "바닥",
+    "romanization": "badak",
+    "pos": "名词",
+    "meaning": "地板",
+    "register": "中立",
+    "example": "동전이 바닥에 떨어졌습니다.",
+    "exampleTranslation": "硬币掉在了地板上。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "동전이",
+        "meaning": "硬币",
+        "note": "동전(硬币)+이(主格助词)"
+      },
+      {
+        "text": "바닥에",
+        "meaning": "地板上",
+        "note": "바닥(地板)+에(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "떨어졌습니다",
+        "meaning": "掉了",
+        "note": "떨어지다(掉落)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "박수",
+    "romanization": "baksu",
+    "pos": "名词",
+    "meaning": "掌声",
+    "register": "中立",
+    "example": "큰 박수를 쳤습니다.",
+    "exampleTranslation": "鼓了热烈的掌。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "큰",
+        "meaning": "大的",
+        "note": "크다(大)的词干+ -ㄴ(冠形词形)"
+      },
+      {
+        "text": "박수를",
+        "meaning": "掌声",
+        "note": "박수(掌声)+를(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "쳤습니다",
+        "meaning": "拍了",
+        "note": "치다(拍)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "밖",
+    "romanization": "bak",
+    "pos": "名词",
+    "meaning": "外面",
+    "register": "中立",
+    "example": "밖에 나가서 놀았습니다.",
+    "exampleTranslation": "到外面玩了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "밖에",
+        "meaning": "外面",
+        "note": "밖(外面)+에(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "나가서",
+        "meaning": "出去之后",
+        "note": "나가다(出去)的词干+ -아서(先后)"
+      },
+      {
+        "text": "놀았습니다",
+        "meaning": "玩了",
+        "note": "놀다(玩)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "반대",
+    "romanization": "bandae",
+    "pos": "名词",
+    "meaning": "相反",
+    "register": "中立",
+    "example": "반대 방향으로 갔습니다.",
+    "exampleTranslation": "往相反方向去了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "반대 방향으로",
+        "meaning": "相反方向",
+        "note": "반대(相反)+방향(方向)+으로(方向助词)",
+        "isTarget": true
+      },
+      {
+        "text": "갔습니다",
+        "meaning": "去了",
+        "note": "가다(去)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "발바닥",
+    "romanization": "balbadak",
+    "pos": "名词",
+    "meaning": "脚底",
+    "register": "中立",
+    "example": "발바닥이 아픕니다.",
+    "exampleTranslation": "脚底疼。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "발바닥이",
+        "meaning": "脚底",
+        "note": "발바닥(脚底)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "아픕니다",
+        "meaning": "疼",
+        "note": "아프다(疼)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "밤",
+    "romanization": "bam",
+    "pos": "名词",
+    "meaning": "夜晚",
+    "register": "中立",
+    "example": "밤이 깊었습니다.",
+    "exampleTranslation": "夜深了。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "밤이",
+        "meaning": "夜晚",
+        "note": "밤(夜晚)+이(主格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "깊었습니다",
+        "meaning": "深了",
+        "note": "깊다(深)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "방문",
+    "romanization": "bangmun",
+    "pos": "名词",
+    "meaning": "房门",
+    "register": "中立",
+    "homonymIndex": "02",
+    "example": "방문을 조용히 닫았습니다.",
+    "exampleTranslation": "轻轻地关上了房门。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "방문을",
+        "meaning": "房门",
+        "note": "방문(房门)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "조용히",
+        "meaning": "轻轻地",
+        "note": "副词"
+      },
+      {
+        "text": "닫았습니다",
+        "meaning": "关上了",
+        "note": "닫다(关)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  },
+  {
+    "korean": "방문",
+    "romanization": "bangmun",
+    "pos": "名词",
+    "meaning": "访问",
+    "register": "中立",
+    "homonymIndex": "03",
+    "example": "고향 방문을 다녀왔습니다.",
+    "exampleTranslation": "回乡访问了一趟。",
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）",
+    "grammarBreakdown": [
+      {
+        "text": "고향",
+        "meaning": "故乡",
+        "note": "名词"
+      },
+      {
+        "text": "방문을",
+        "meaning": "访问",
+        "note": "방문(访问)+을(宾格助词)",
+        "isTarget": true
+      },
+      {
+        "text": "다녀왔습니다",
+        "meaning": "去了一趟回来了",
+        "note": "다녀오다(去一趟回来)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
+      }
+    ]
+  }
 ]

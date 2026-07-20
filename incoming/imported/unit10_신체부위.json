@@ -8,7 +8,7 @@
     "example": "가슴이 많이 아픕니다.",
     "exampleTranslation": "胸口很疼。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "가슴이",
@@ -24,7 +24,7 @@
       {
         "text": "아픕니다",
         "meaning": "疼",
-        "note": "아프다(疼)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "아프다(疼)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -37,7 +37,7 @@
     "example": "건강이 가장 중요합니다.",
     "exampleTranslation": "健康最重要。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "건강이",
@@ -53,7 +53,7 @@
       {
         "text": "중요합니다",
         "meaning": "重要",
-        "note": "중요하다(重要)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "중요하다(重要)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -66,7 +66,7 @@
     "example": "귀가 아픕니다.",
     "exampleTranslation": "耳朵疼。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "귀가",
@@ -77,7 +77,7 @@
       {
         "text": "아픕니다",
         "meaning": "疼",
-        "note": "아프다(疼)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "아프다(疼)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -90,7 +90,7 @@
     "example": "감기가 이제 다 나았습니다.",
     "exampleTranslation": "感冒现在完全好了。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "감기가",
@@ -110,7 +110,7 @@
       {
         "text": "나았습니다",
         "meaning": "好了",
-        "note": "낫다(痊愈)的词干（ㅅ不规则：收音ㅅ在元音开头的语尾前脱落）+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）",
+        "note": "낫다(痊愈)的词干（ㅅ不规则：收音ㅅ在元音开头的语尾前脱落）+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ],
@@ -125,7 +125,7 @@
     "example": "눈이 정말 예쁩니다.",
     "exampleTranslation": "眼睛真漂亮。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "눈이",
@@ -141,7 +141,7 @@
       {
         "text": "예쁩니다",
         "meaning": "漂亮",
-        "note": "예쁘다(漂亮)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "예쁘다(漂亮)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ],
     "homonymIndex": "01"
@@ -155,7 +155,7 @@
     "example": "슬픈 영화를 보고 눈물이 났습니다.",
     "exampleTranslation": "看了悲伤的电影流泪了。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "슬픈",
@@ -181,7 +181,7 @@
       {
         "text": "났습니다",
         "meaning": "流出了",
-        "note": "나다(出现/流出)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "나다(出现/流出)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -194,7 +194,7 @@
     "example": "사람은 누구나 늙습니다.",
     "exampleTranslation": "人都会变老。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "사람은",
@@ -209,7 +209,7 @@
       {
         "text": "늙습니다",
         "meaning": "变老",
-        "note": "늙다(变老)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "note": "늙다(变老)的词干+ -습니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ]
@@ -223,7 +223,7 @@
     "example": "오래 걸어서 다리가 아픕니다.",
     "exampleTranslation": "走了很久腿很疼。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "오래",
@@ -244,7 +244,7 @@
       {
         "text": "아픕니다",
         "meaning": "疼",
-        "note": "아프다(疼)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "아프다(疼)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ],
     "homonymIndex": "01"
@@ -258,7 +258,7 @@
     "example": "운동을 하다가 팔을 다쳤습니다.",
     "exampleTranslation": "运动时伤到了胳膊。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "운동을",
@@ -278,7 +278,7 @@
       {
         "text": "다쳤습니다",
         "meaning": "受伤了",
-        "note": "다치다(受伤)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）",
+        "note": "다치다(受伤)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ]
@@ -292,7 +292,7 @@
     "example": "등이 조금 아픕니다.",
     "exampleTranslation": "背有点疼。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "등이",
@@ -308,7 +308,7 @@
       {
         "text": "아픕니다",
         "meaning": "疼",
-        "note": "아프다(疼)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "아프다(疼)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -321,7 +321,7 @@
     "example": "운동을 했더니 땀이 많이 났습니다.",
     "exampleTranslation": "运动后出了很多汗。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "운동을",
@@ -347,7 +347,7 @@
       {
         "text": "났습니다",
         "meaning": "出了",
-        "note": "나다(出现)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "나다(出现)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -360,7 +360,7 @@
     "example": "우리 강아지는 조금 뚱뚱합니다.",
     "exampleTranslation": "我们家小狗有点胖。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "우리 강아지는",
@@ -375,7 +375,7 @@
       {
         "text": "뚱뚱합니다",
         "meaning": "胖",
-        "note": "뚱뚱하다(胖)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "note": "뚱뚱하다(胖)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ]
@@ -389,7 +389,7 @@
     "example": "머리가 너무 아픕니다.",
     "exampleTranslation": "头很疼。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "머리가",
@@ -405,7 +405,7 @@
       {
         "text": "아픕니다",
         "meaning": "疼",
-        "note": "아프다(疼)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "아프다(疼)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -418,7 +418,7 @@
     "example": "머리카락이 많이 길었습니다.",
     "exampleTranslation": "头发长了很多。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "머리카락이",
@@ -434,7 +434,7 @@
       {
         "text": "길었습니다",
         "meaning": "长长了",
-        "note": "길다(长)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "길다(长)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -447,7 +447,7 @@
     "example": "목이 많이 아픕니다.",
     "exampleTranslation": "喉咙很疼。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "목이",
@@ -463,7 +463,7 @@
       {
         "text": "아픕니다",
         "meaning": "疼",
-        "note": "아프다(疼)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "아프다(疼)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -476,7 +476,7 @@
     "example": "그 가수는 목소리가 아름답습니다.",
     "exampleTranslation": "那位歌手的嗓音很美。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "그",
@@ -497,7 +497,7 @@
       {
         "text": "아름답습니다",
         "meaning": "美",
-        "note": "아름답다(美丽)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "아름답다(美丽)的词干+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -510,7 +510,7 @@
     "example": "몸이 안 좋아서 병원에 갔습니다.",
     "exampleTranslation": "因为身体不舒服去了医院。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "몸이",
@@ -536,7 +536,7 @@
       {
         "text": "갔습니다",
         "meaning": "去了",
-        "note": "가다(去)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "가다(去)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -549,7 +549,7 @@
     "example": "넘어져서 무릎을 다쳤습니다.",
     "exampleTranslation": "摔倒伤到了膝盖。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "넘어져서",
@@ -565,7 +565,7 @@
       {
         "text": "다쳤습니다",
         "meaning": "伤到了",
-        "note": "다치다(受伤)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "다치다(受伤)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -578,7 +578,7 @@
     "example": "하루 종일 걸어서 발이 아픕니다.",
     "exampleTranslation": "走了一整天脚很疼。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "하루 종일",
@@ -599,7 +599,7 @@
       {
         "text": "아픕니다",
         "meaning": "疼",
-        "note": "아프다(疼)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "아프다(疼)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -612,7 +612,7 @@
     "example": "발가락을 다쳤습니다.",
     "exampleTranslation": "脚趾受伤了。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "발가락을",
@@ -623,7 +623,7 @@
       {
         "text": "다쳤습니다",
         "meaning": "受伤了",
-        "note": "다치다(受伤)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "다치다(受伤)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -636,7 +636,7 @@
     "example": "배가 너무 고픕니다.",
     "exampleTranslation": "肚子太饿了。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "배가",
@@ -652,7 +652,7 @@
       {
         "text": "고픕니다",
         "meaning": "饿",
-        "note": "고프다(饿)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "고프다(饿)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ],
     "homonymIndex": "01"
@@ -666,7 +666,7 @@
     "example": "요즘 살이 많이 쪘습니다.",
     "exampleTranslation": "最近胖了不少。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "요즘",
@@ -687,7 +687,7 @@
       {
         "text": "쪘습니다",
         "meaning": "长了（肉）",
-        "note": "찌다(长肉)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "찌다(长肉)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ],
     "homonymIndex": "01"
@@ -701,7 +701,7 @@
     "example": "손을 깨끗이 씻으세요.",
     "exampleTranslation": "请把手洗干净。",
     "sentenceType": "命令句（请求）",
-    "formalityLevel": "非格式体敬语（해요体）",
+    "formalityLevel": "泛尊阶（해요体）",
     "grammarBreakdown": [
       {
         "text": "손을",
@@ -717,7 +717,7 @@
       {
         "text": "씻으세요",
         "meaning": "请洗",
-        "note": "씻다(洗)的词干+ -으시-（尊敬阶标记）+ -어요（请求/命令·非格式体敬语终结词尾）"
+        "note": "씻다(洗)的词干+ -으시-（尊敬阶标记）+ -어요（请求/命令·泛尊阶终结词尾）"
       }
     ]
   },
@@ -730,7 +730,7 @@
     "example": "손가락을 베였습니다.",
     "exampleTranslation": "手指被划伤了。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "손가락을",
@@ -741,7 +741,7 @@
       {
         "text": "베였습니다",
         "meaning": "被划伤了",
-        "note": "베이다(被划伤)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "베이다(被划伤)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -754,7 +754,7 @@
     "example": "저는 몸이 약한 편입니다.",
     "exampleTranslation": "我的身体比较弱。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "저는",
@@ -769,7 +769,7 @@
       {
         "text": "약한 편입니다",
         "meaning": "比较弱",
-        "note": "약하다(弱)的词干+ -ㄴ(冠形词形)+편(比较……的一类)+이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "note": "약하다(弱)的词干+ -ㄴ(冠形词形)+편(比较……的一类)+이다+ -ㅂ니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ]
@@ -783,7 +783,7 @@
     "example": "어깨가 많이 뭉쳤습니다.",
     "exampleTranslation": "肩膀很酸。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "어깨가",
@@ -799,7 +799,7 @@
       {
         "text": "뭉쳤습니다",
         "meaning": "酸痛僵硬了",
-        "note": "뭉치다(结块/僵硬)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "뭉치다(结块/僵硬)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -812,7 +812,7 @@
     "example": "얼굴이 빨개졌습니다.",
     "exampleTranslation": "脸变红了。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "얼굴이",
@@ -823,7 +823,7 @@
       {
         "text": "빨개졌습니다",
         "meaning": "变红了",
-        "note": "빨갛다(红)的词干变化+ -아지다(变得……)+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "빨갛다(红)的词干变化+ -아지다(变得……)+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -836,7 +836,7 @@
     "example": "오래 앉아서 엉덩이가 아픕니다.",
     "exampleTranslation": "坐久了屁股疼。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "오래",
@@ -857,7 +857,7 @@
       {
         "text": "아픕니다",
         "meaning": "疼",
-        "note": "아프다(疼)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "아프다(疼)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -870,7 +870,7 @@
     "example": "이가 아파서 병원에 갑니다.",
     "exampleTranslation": "因为牙疼去医院。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "이가",
@@ -891,7 +891,7 @@
       {
         "text": "갑니다",
         "meaning": "去",
-        "note": "가다(去)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "가다(去)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ],
     "homonymIndex": "03"
@@ -905,7 +905,7 @@
     "example": "이마에 땀이 났습니다.",
     "exampleTranslation": "额头上出汗了。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "이마에",
@@ -921,7 +921,7 @@
       {
         "text": "났습니다",
         "meaning": "出了",
-        "note": "나다(出现)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "나다(出现)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -934,7 +934,7 @@
     "example": "입을 크게 벌리세요.",
     "exampleTranslation": "请把嘴张大。",
     "sentenceType": "命令句（请求）",
-    "formalityLevel": "非格式体敬语（해요体）",
+    "formalityLevel": "泛尊阶（해요体）",
     "grammarBreakdown": [
       {
         "text": "입을",
@@ -950,7 +950,7 @@
       {
         "text": "벌리세요",
         "meaning": "请张开",
-        "note": "벌리다(张开)的词干+ -시-（尊敬阶标记）+ -어요（请求/命令·非格式体敬语终结词尾）"
+        "note": "벌리다(张开)的词干+ -시-（尊敬阶标记）+ -어요（请求/命令·泛尊阶终结词尾）"
       }
     ]
   },
@@ -963,7 +963,7 @@
     "example": "아이가 건강하게 자랍니다.",
     "exampleTranslation": "孩子健康地成长。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "아이가",
@@ -978,7 +978,7 @@
       {
         "text": "자랍니다",
         "meaning": "成长",
-        "note": "자라다(成长)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "note": "자라다(成长)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ]
@@ -992,7 +992,7 @@
     "example": "그분은 아직 젊습니다.",
     "exampleTranslation": "那位还很年轻。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "그분은",
@@ -1007,7 +1007,7 @@
       {
         "text": "젊습니다",
         "meaning": "年轻",
-        "note": "젊다(年轻)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "note": "젊다(年轻)的词干+ -습니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ]
@@ -1021,7 +1021,7 @@
     "example": "코가 막혔습니다.",
     "exampleTranslation": "鼻子堵住了。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "코가",
@@ -1032,7 +1032,7 @@
       {
         "text": "막혔습니다",
         "meaning": "堵住了",
-        "note": "막히다(堵塞)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "막히다(堵塞)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -1045,7 +1045,7 @@
     "example": "형은 키가 아주 큽니다.",
     "exampleTranslation": "哥哥个子很高。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "형은",
@@ -1066,7 +1066,7 @@
       {
         "text": "큽니다",
         "meaning": "大（高）",
-        "note": "크다(大)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "크다(大)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -1079,7 +1079,7 @@
     "example": "이 아이는 몸이 튼튼합니다.",
     "exampleTranslation": "这个孩子身体很结实。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "이",
@@ -1099,7 +1099,7 @@
       {
         "text": "튼튼합니다",
         "meaning": "结实",
-        "note": "튼튼하다(结实)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "note": "튼튼하다(结实)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ]
@@ -1113,7 +1113,7 @@
     "example": "팔을 다쳐서 병원에 갔습니다.",
     "exampleTranslation": "因为伤到手臂去了医院。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "팔을",
@@ -1134,7 +1134,7 @@
       {
         "text": "갔습니다",
         "meaning": "去了",
-        "note": "가다(去)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "가다(去)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ],
     "homonymIndex": "01"
@@ -1148,7 +1148,7 @@
     "example": "손가락에서 피가 났습니다.",
     "exampleTranslation": "手指出血了。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "손가락에서",
@@ -1164,7 +1164,7 @@
       {
         "text": "났습니다",
         "meaning": "出了",
-        "note": "나다(出现)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "나다(出现)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -1177,7 +1177,7 @@
     "example": "허리가 아파서 앉기 힘듭니다.",
     "exampleTranslation": "腰疼得很难坐下。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "허리가",
@@ -1198,7 +1198,7 @@
       {
         "text": "힘듭니다",
         "meaning": "费力",
-        "note": "힘들다(费力)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "힘들다(费力)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -1211,7 +1211,7 @@
     "example": "뜨거운 음식에 혀를 데었습니다.",
     "exampleTranslation": "被烫的食物烫到了舌头。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "뜨거운",
@@ -1232,7 +1232,7 @@
       {
         "text": "데었습니다",
         "meaning": "烫伤了",
-        "note": "데다(烫伤)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "데다(烫伤)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -1245,7 +1245,7 @@
     "example": "이 상자는 힘이 많이 듭니다.",
     "exampleTranslation": "这个箱子很费力气。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "이",
@@ -1271,7 +1271,7 @@
       {
         "text": "듭니다",
         "meaning": "花费（力气）",
-        "note": "들다(花费)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "들다(花费)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   }

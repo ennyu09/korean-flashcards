@@ -44,7 +44,9 @@
         "meaning": "做得好",
         "note": "잘하다(做得好)的词干+ -ㅂ니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "가족",
@@ -96,7 +98,9 @@
         "meaning": "吃了",
         "note": "먹다(吃)的词干+ -었-+ -습니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "간호사",
@@ -143,7 +147,9 @@
         "meaning": "工作",
         "note": "일하다(工作)的词干+ -ㅂ니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "결혼하다",
@@ -180,7 +186,9 @@
         "note": "결혼하다(结婚)的词干+ -ㅂ니다",
         "isTarget": true
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "경찰",
@@ -217,7 +225,9 @@
         "meaning": "帮忙指了路",
         "note": "안내하다(指引)的词干+ -아/어 주다(为……做)+ -었-+ -습니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "고모",
@@ -254,7 +264,9 @@
         "meaning": "正在居住",
         "note": "살다(居住)的词干+ -고 있다(正在)+ -습니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "나이",
@@ -291,7 +303,9 @@
         "meaning": "是（敬语疑问）",
         "note": "되다(成为)的词干+ -시-+ -어요"
       }
-    ]
+    ],
+    "sentenceType": "疑问句",
+    "formalityLevel": "泛尊阶（해요体）"
   },
   {
     "korean": "남동생",
@@ -333,7 +347,9 @@
         "meaning": "喜欢",
         "note": "좋아하다(喜欢)的词干+ -ㅂ니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "남자",
@@ -375,7 +391,9 @@
         "meaning": "是……",
         "note": "이다+ -ㅂ니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "남편",
@@ -417,7 +435,9 @@
         "meaning": "做得好",
         "note": "잘하다(做得好)的词干+ -ㅂ니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "누나",
@@ -459,7 +479,9 @@
         "meaning": "有……",
         "note": "있다+ -습니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "닮다",
@@ -501,7 +523,9 @@
         "note": "닮다(相像)的词干+ -았-+ -습니다",
         "isTarget": true
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "동생",
@@ -543,7 +567,9 @@
         "meaning": "有……",
         "note": "있다+ -습니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "만나다",
@@ -585,7 +611,9 @@
         "note": "만나다(见面)的词干+ -ㅂ니다",
         "isTarget": true
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "부모님",
@@ -622,7 +650,9 @@
         "meaning": "正在居住（敬语）",
         "note": "살다(居住)的词干+ -고 계시다(敬语的正在)+ -ㅂ니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "사람",
@@ -664,7 +694,9 @@
         "meaning": "多",
         "note": "많다(多)的词干+ -습니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "사랑하다",
@@ -706,7 +738,9 @@
         "note": "사랑하다(爱)的词干+ -ㅂ니다",
         "isTarget": true
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "살다",
@@ -748,7 +782,9 @@
         "note": "살다(居住)的词干+ -고 있다(正在)+ -습니다",
         "isTarget": true
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "삼촌",
@@ -785,7 +821,9 @@
         "meaning": "上班，通勤",
         "note": "다니다(上班/通行)的词干+ -ㅂ니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "선생님",
@@ -822,7 +860,9 @@
         "meaning": "亲切",
         "note": "친절하다(亲切)的词干+ -ㅂ니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "아기",
@@ -854,7 +894,9 @@
         "meaning": "睡着了",
         "note": "잠들다(入睡)的词干+ -었-+ -습니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "아내",
@@ -906,7 +948,9 @@
         "meaning": "去",
         "note": "가다(去)的词干+ -ㅂ니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "아들",
@@ -953,7 +997,9 @@
         "meaning": "入学了",
         "note": "입학하다(入学)的词干+ -았-+ -습니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "아버지",
@@ -995,7 +1041,9 @@
         "meaning": "读（敬语）",
         "note": "읽다(读)的词干+ -으시-(尊敬)+ -ㅂ니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "아빠",
@@ -1027,7 +1075,9 @@
         "meaning": "请来",
         "note": "오다(来)的词干+ -시-+ -어요(请求)"
       }
-    ]
+    ],
+    "sentenceType": "命令句（请求）",
+    "formalityLevel": "泛尊阶（해요体）"
   },
   {
     "korean": "아이",
@@ -1069,7 +1119,9 @@
         "meaning": "有……",
         "note": "있다+ -습니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "안다",
@@ -1101,7 +1153,9 @@
         "note": "안다(抱)的词干+ -았-+ -습니다",
         "isTarget": true
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "어른",
@@ -1138,7 +1192,9 @@
         "meaning": "变多",
         "note": "많다(多)的词干+ -아지다(变得……)+ -ㅂ니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "어머니",
@@ -1180,7 +1236,9 @@
         "meaning": "为我加油（敬语）",
         "note": "응원하다(加油)的词干+ -아/어 주다(为……做)+ -시-+ -ㅂ니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "언니",
@@ -1217,7 +1275,9 @@
         "meaning": "正在上班",
         "note": "다니다(上班)的词干+ -고 있다(正在)+ -습니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "엄마",
@@ -1259,7 +1319,9 @@
         "meaning": "为我做了（敬语）",
         "note": "만들다(做)的词干+ -아/어 주다(为……做)+ -시-+ -었-+ -습니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "여동생",
@@ -1301,7 +1363,9 @@
         "meaning": "画",
         "note": "그리다(画)的词干+ -ㅂ니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "여자",
@@ -1343,7 +1407,9 @@
         "meaning": "是……",
         "note": "이다+ -ㅂ니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "오빠",
@@ -1380,7 +1446,9 @@
         "meaning": "多（此处指年长）",
         "note": "많다(多)的词干+ -습니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "요리사",
@@ -1417,7 +1485,9 @@
         "meaning": "是……",
         "note": "이다+ -ㅂ니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "울다",
@@ -1449,7 +1519,9 @@
         "note": "울다(哭)的词干+ -었-+ -습니다",
         "isTarget": true
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "웃다",
@@ -1491,7 +1563,9 @@
         "note": "웃다(笑)的词干+ -었-+ -습니다",
         "isTarget": true
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "의사",
@@ -1533,7 +1607,9 @@
         "meaning": "想要成为",
         "note": "되다(成为)的词干+ -고 싶다(想要)+ -습니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "이름",
@@ -1575,7 +1651,9 @@
         "meaning": "为我取了（敬语）",
         "note": "짓다(取名)的词干变化+ -아/어 주다(为……做)+ -시-+ -었-+ -습니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "조카",
@@ -1602,7 +1680,9 @@
         "meaning": "见面了",
         "note": "만나다(见面)的词干+ -았-+ -습니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "친구",
@@ -1644,7 +1724,9 @@
         "meaning": "见面了",
         "note": "만나다(见面)的词干+ -았-+ -습니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "키우다",
@@ -1686,7 +1768,9 @@
         "note": "키우다(养)的词干+ -고 있다(正在)+ -습니다",
         "isTarget": true
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "태어나다",
@@ -1723,7 +1807,9 @@
         "note": "태어나다(出生)的词干+ -았-+ -습니다",
         "isTarget": true
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "학생",
@@ -1765,7 +1851,9 @@
         "meaning": "是……",
         "note": "이다+ -ㅂ니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "할머니",
@@ -1807,7 +1895,9 @@
         "meaning": "做得好（敬语）",
         "note": "잘하다(做得好)的词干+ -시-+ -ㅂ니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "할아버지",
@@ -1849,7 +1939,9 @@
         "meaning": "做（敬语）",
         "note": "하다(做)的词干+ -시-+ -ㅂ니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "형",
@@ -1891,7 +1983,9 @@
         "meaning": "有……",
         "note": "있다+ -습니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "회사원",
@@ -1938,6 +2032,8 @@
         "meaning": "是……",
         "note": "이다+ -ㅂ니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   }
 ]

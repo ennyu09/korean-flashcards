@@ -8,7 +8,7 @@
     "example": "삼거리가 나오면 오른쪽으로 가세요.",
     "exampleTranslation": "看到三岔路口的话请往右走。",
     "sentenceType": "命令句（请求）",
-    "formalityLevel": "非格式体敬语（해요体）",
+    "formalityLevel": "泛尊阶（해요体）",
     "grammarBreakdown": [
       {
         "text": "삼거리가",
@@ -29,7 +29,7 @@
       {
         "text": "가세요",
         "meaning": "请走",
-        "note": "가다(去)的词干+ -시-（尊敬阶标记）+ -어요（请求/命令·非格式体敬语终结词尾）"
+        "note": "가다(去)的词干+ -시-（尊敬阶标记）+ -어요（请求/命令·泛尊阶终结词尾）"
       }
     ]
   },
@@ -42,7 +42,7 @@
     "example": "서점에서 책을 골랐습니다.",
     "exampleTranslation": "在书店选了书。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "서점에서",
@@ -58,7 +58,7 @@
       {
         "text": "골랐습니다",
         "meaning": "选了",
-        "note": "고르다(选)的词干变化+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "고르다(选)的词干变化+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -71,7 +71,7 @@
     "example": "해가 서쪽으로 집니다.",
     "exampleTranslation": "太阳向西边落下。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "해가",
@@ -87,7 +87,7 @@
       {
         "text": "집니다",
         "meaning": "落下",
-        "note": "지다(落下)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "지다(落下)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -100,7 +100,7 @@
     "example": "세탁소에 옷을 맡겼습니다.",
     "exampleTranslation": "把衣服送去了洗衣店。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "세탁소에",
@@ -116,7 +116,7 @@
       {
         "text": "맡겼습니다",
         "meaning": "送去了（托付）",
-        "note": "맡기다(托付)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "맡기다(托付)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -130,7 +130,7 @@
     "example": "가방 안에 책이 있습니다.",
     "exampleTranslation": "包里面有书。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "가방 안에",
@@ -146,7 +146,7 @@
       {
         "text": "있습니다",
         "meaning": "有",
-        "note": "있다(有)+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "있다(有)+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -159,7 +159,7 @@
     "example": "안쪽으로 들어가세요.",
     "exampleTranslation": "请往里走。",
     "sentenceType": "命令句（请求）",
-    "formalityLevel": "非格式体敬语（해요体）",
+    "formalityLevel": "泛尊阶（해요体）",
     "grammarBreakdown": [
       {
         "text": "안쪽으로",
@@ -170,7 +170,7 @@
       {
         "text": "들어가세요",
         "meaning": "请进去",
-        "note": "들어가다(进去)的词干+ -시-（尊敬阶标记）+ -어요（请求/命令·非格式体敬语终结词尾）"
+        "note": "들어가다(进去)的词干+ -시-（尊敬阶标记）+ -어요（请求/命令·泛尊阶终结词尾）"
       }
     ]
   },
@@ -183,7 +183,7 @@
     "example": "학교 앞에서 만납시다.",
     "exampleTranslation": "我们在学校前面见面吧。",
     "sentenceType": "共动句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "학교 앞에서",
@@ -194,7 +194,7 @@
       {
         "text": "만납시다",
         "meaning": "让我们见面吧",
-        "note": "만나다(见面)的词干+ -ㅂ시다（共动句·格式体敬语终结词尾）"
+        "note": "만나다(见面)的词干+ -ㅂ시다（共动句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -207,7 +207,7 @@
     "example": "앞쪽에 자리가 있습니다.",
     "exampleTranslation": "前边有座位。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "앞쪽에",
@@ -223,7 +223,7 @@
       {
         "text": "있습니다",
         "meaning": "有",
-        "note": "있다(有)+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "있다(有)+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -236,7 +236,7 @@
     "example": "제 옆에 앉으세요.",
     "exampleTranslation": "请坐在我旁边。",
     "sentenceType": "命令句（请求）",
-    "formalityLevel": "非格式体敬语（해요体）",
+    "formalityLevel": "泛尊阶（해요体）",
     "grammarBreakdown": [
       {
         "text": "제",
@@ -252,7 +252,7 @@
       {
         "text": "앉으세요",
         "meaning": "请坐",
-        "note": "앉다(坐)的词干+ -으시-（尊敬阶标记）+ -어요（请求/命令·非格式体敬语终结词尾）"
+        "note": "앉다(坐)的词干+ -으시-（尊敬阶标记）+ -어요（请求/命令·泛尊阶终结词尾）"
       }
     ]
   },
@@ -265,7 +265,7 @@
     "example": "옆집에 새 이웃이 이사왔습니다.",
     "exampleTranslation": "隔壁搬来了新邻居。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "옆집에",
@@ -286,7 +286,7 @@
       {
         "text": "이사왔습니다",
         "meaning": "搬来了",
-        "note": "이사오다(搬来)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "이사오다(搬来)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -299,7 +299,7 @@
     "example": "오른쪽으로 도세요.",
     "exampleTranslation": "请往右转。",
     "sentenceType": "命令句（请求）",
-    "formalityLevel": "非格式体敬语（해요体）",
+    "formalityLevel": "泛尊阶（해요体）",
     "grammarBreakdown": [
       {
         "text": "오른쪽으로",
@@ -310,7 +310,7 @@
       {
         "text": "도세요",
         "meaning": "请转",
-        "note": "돌다(转)的词干+ -시-（尊敬阶标记）+ -어요（请求/命令·非格式体敬语终结词尾）"
+        "note": "돌다(转)的词干+ -시-（尊敬阶标记）+ -어요（请求/命令·泛尊阶终结词尾）"
       }
     ]
   },
@@ -323,7 +323,7 @@
     "example": "왼쪽에 편의점이 있습니다.",
     "exampleTranslation": "左边有便利店。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "왼쪽에",
@@ -339,7 +339,7 @@
       {
         "text": "있습니다",
         "meaning": "有",
-        "note": "있다(有)+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "있다(有)+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -352,7 +352,7 @@
     "example": "우체국에서 소포를 보냈습니다.",
     "exampleTranslation": "在邮局寄了包裹。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "우체국에서",
@@ -368,7 +368,7 @@
       {
         "text": "보냈습니다",
         "meaning": "寄了",
-        "note": "보내다(寄)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "보내다(寄)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -381,7 +381,7 @@
     "example": "울산은 공업 도시입니다.",
     "exampleTranslation": "蔚山是工业城市。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "울산은",
@@ -392,7 +392,7 @@
       {
         "text": "공업 도시입니다",
         "meaning": "是工业城市",
-        "note": "공업(工业)+도시(城市)+이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "공업(工业)+도시(城市)+이다+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -405,7 +405,7 @@
     "example": "책상 위에 컵이 있습니다.",
     "exampleTranslation": "书桌上面有杯子。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "책상 위에",
@@ -421,7 +421,7 @@
       {
         "text": "있습니다",
         "meaning": "有",
-        "note": "있다(有)+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "있다(有)+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -434,7 +434,7 @@
     "example": "위쪽을 보세요.",
     "exampleTranslation": "请看上方。",
     "sentenceType": "命令句（请求）",
-    "formalityLevel": "非格式体敬语（해요体）",
+    "formalityLevel": "泛尊阶（해요体）",
     "grammarBreakdown": [
       {
         "text": "위쪽을",
@@ -445,7 +445,7 @@
       {
         "text": "보세요",
         "meaning": "请看",
-        "note": "보다(看)的词干+ -시-（尊敬阶标记）+ -어요（请求/命令·非格式体敬语终结词尾）"
+        "note": "보다(看)的词干+ -시-（尊敬阶标记）+ -어요（请求/命令·泛尊阶终结词尾）"
       }
     ]
   },
@@ -458,7 +458,7 @@
     "example": "동생이 유치원에 다닙니다.",
     "exampleTranslation": "弟弟/妹妹在上幼儿园。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "동생이",
@@ -474,7 +474,7 @@
       {
         "text": "다닙니다",
         "meaning": "上（学）",
-        "note": "다니다(上学/通勤)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "다니다(上学/通勤)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -487,7 +487,7 @@
     "example": "육교를 건너서 왔습니다.",
     "exampleTranslation": "过了天桥来的。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "육교를",
@@ -503,7 +503,7 @@
       {
         "text": "왔습니다",
         "meaning": "来了",
-        "note": "오다(来)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "오다(来)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -516,7 +516,7 @@
     "example": "은행에 돈을 입금했습니다.",
     "exampleTranslation": "往银行存了钱。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "은행에",
@@ -532,7 +532,7 @@
       {
         "text": "입금했습니다",
         "meaning": "存了（款）",
-        "note": "입금하다(存款)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "입금하다(存款)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -545,7 +545,7 @@
     "example": "인천에 국제공항이 있습니다.",
     "exampleTranslation": "仁川有国际机场。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "인천에",
@@ -561,7 +561,7 @@
       {
         "text": "있습니다",
         "meaning": "有",
-        "note": "있다(有)+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "있다(有)+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -574,7 +574,7 @@
     "example": "지하철 입구에서 만납시다.",
     "exampleTranslation": "我们在地铁入口见吧。",
     "sentenceType": "共动句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "지하철 입구에서",
@@ -585,7 +585,7 @@
       {
         "text": "만납시다",
         "meaning": "让我们见面吧",
-        "note": "만나다(见面)的词干+ -ㅂ시다（共动句·格式体敬语终结词尾）"
+        "note": "만나다(见面)的词干+ -ㅂ시다（共动句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -598,7 +598,7 @@
     "example": "빈 자리에 앉았습니다.",
     "exampleTranslation": "坐在了空座位上。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "빈",
@@ -614,7 +614,7 @@
       {
         "text": "앉았습니다",
         "meaning": "坐了",
-        "note": "앉다(坐)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "앉다(坐)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -627,7 +627,7 @@
     "example": "모임 장소를 정했습니다.",
     "exampleTranslation": "定好了聚会场所。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "모임 장소를",
@@ -638,7 +638,7 @@
       {
         "text": "정했습니다",
         "meaning": "定了",
-        "note": "정하다(决定)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "정하다(决定)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -651,7 +651,7 @@
     "example": "다음 정거장에서 내리겠습니다.",
     "exampleTranslation": "下一站下车。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "다음 정거장에서",
@@ -662,7 +662,7 @@
       {
         "text": "내리겠습니다",
         "meaning": "会下车",
-        "note": "내리다(下车)的词干+ -겠-（意志/将来）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "내리다(下车)的词干+ -겠-（意志/将来）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -675,7 +675,7 @@
     "example": "버스 정류장에서 기다립니다.",
     "exampleTranslation": "在公交站等着。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "버스 정류장에서",
@@ -686,7 +686,7 @@
       {
         "text": "기다립니다",
         "meaning": "等待",
-        "note": "기다리다(等待)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "기다리다(等待)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -699,7 +699,7 @@
     "example": "다리를 다쳐서 정형외과에 갔습니다.",
     "exampleTranslation": "因为腿受伤去了骨科。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "다리를",
@@ -720,7 +720,7 @@
       {
         "text": "갔습니다",
         "meaning": "去了",
-        "note": "가다(去)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "가다(去)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -733,7 +733,7 @@
     "example": "제주도로 여행을 갑니다.",
     "exampleTranslation": "去济州岛旅行。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "제주도로",
@@ -749,7 +749,7 @@
       {
         "text": "갑니다",
         "meaning": "去",
-        "note": "가다(去)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "가다(去)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -762,7 +762,7 @@
     "example": "학교 주변에 식당이 많습니다.",
     "exampleTranslation": "学校周边有很多餐厅。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "학교 주변에",
@@ -778,7 +778,7 @@
       {
         "text": "많습니다",
         "meaning": "多",
-        "note": "많다(多)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "많다(多)的词干+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -791,7 +791,7 @@
     "example": "주위를 잘 살펴보세요.",
     "exampleTranslation": "请仔细看看周围。",
     "sentenceType": "命令句（请求）",
-    "formalityLevel": "非格式体敬语（해요体）",
+    "formalityLevel": "泛尊阶（해요体）",
     "grammarBreakdown": [
       {
         "text": "주위를",
@@ -807,7 +807,7 @@
       {
         "text": "살펴보세요",
         "meaning": "请看看",
-        "note": "살펴보다(察看)的词干+ -시-（尊敬阶标记）+ -어요（请求/命令·非格式体敬语终结词尾）"
+        "note": "살펴보다(察看)的词干+ -시-（尊敬阶标记）+ -어요（请求/命令·泛尊阶终结词尾）"
       }
     ]
   },
@@ -820,7 +820,7 @@
     "example": "여기에 주차하면 안 됩니다.",
     "exampleTranslation": "这里不能停车。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "여기에",
@@ -836,7 +836,7 @@
       {
         "text": "안 됩니다",
         "meaning": "不可以",
-        "note": "안(不)+되다(可以，允许)+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "안(不)+되다(可以，允许)+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -849,7 +849,7 @@
     "example": "무대 중앙에 서 있습니다.",
     "exampleTranslation": "站在舞台中央。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "무대 중앙에",
@@ -860,7 +860,7 @@
       {
         "text": "서 있습니다",
         "meaning": "站着",
-        "note": "서다(站)的词干+ -아/어 있다(状态持续)+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "서다(站)的词干+ -아/어 있다(状态持续)+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -873,7 +873,7 @@
     "example": "남쪽 지방은 날씨가 따뜻합니다.",
     "exampleTranslation": "南方地区天气暖和。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "남쪽 지방은",
@@ -889,7 +889,7 @@
       {
         "text": "따뜻합니다",
         "meaning": "暖和",
-        "note": "따뜻하다(暖和)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "따뜻하다(暖和)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -902,7 +902,7 @@
     "example": "지하로 내려갔습니다.",
     "exampleTranslation": "下到了地下。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "지하로",
@@ -913,7 +913,7 @@
       {
         "text": "내려갔습니다",
         "meaning": "下去了",
-        "note": "내려가다(下去)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "내려가다(下去)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -926,7 +926,7 @@
     "example": "지하도를 건너서 갔습니다.",
     "exampleTranslation": "穿过地下通道去了。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "지하도를",
@@ -942,7 +942,7 @@
       {
         "text": "갔습니다",
         "meaning": "去了",
-        "note": "가다(去)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "가다(去)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -955,7 +955,7 @@
     "example": "지하철역에 도착했습니다.",
     "exampleTranslation": "到达地铁站了。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "지하철역에",
@@ -966,7 +966,7 @@
       {
         "text": "도착했습니다",
         "meaning": "到达了",
-        "note": "도착하다(到达)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "도착하다(到达)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -979,7 +979,7 @@
     "example": "체육관에서 농구를 합니다.",
     "exampleTranslation": "在体育馆打篮球。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "체육관에서",
@@ -995,7 +995,7 @@
       {
         "text": "합니다",
         "meaning": "做",
-        "note": "하다(做)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "하다(做)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -1008,7 +1008,7 @@
     "example": "동생이 초등학교에 입학했습니다.",
     "exampleTranslation": "弟弟/妹妹上小学了。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "동생이",
@@ -1024,7 +1024,7 @@
       {
         "text": "입학했습니다",
         "meaning": "入学了",
-        "note": "입학하다(入学)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "입학하다(入学)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -1037,7 +1037,7 @@
     "example": "카페에서 친구를 만났습니다.",
     "exampleTranslation": "在咖啡厅见了朋友。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "카페에서",
@@ -1053,7 +1053,7 @@
       {
         "text": "만났습니다",
         "meaning": "见了",
-        "note": "만나다(见面)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "만나다(见面)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -1066,7 +1066,7 @@
     "example": "터미널에서 버스를 탔습니다.",
     "exampleTranslation": "在客运站坐了公交车。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "터미널에서",
@@ -1082,7 +1082,7 @@
       {
         "text": "탔습니다",
         "meaning": "坐了",
-        "note": "타다(乘坐)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "타다(乘坐)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -1095,7 +1095,7 @@
     "example": "테니스장에서 연습했습니다.",
     "exampleTranslation": "在网球场练习了。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "테니스장에서",
@@ -1106,7 +1106,7 @@
       {
         "text": "연습했습니다",
         "meaning": "练习了",
-        "note": "연습하다(练习)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "연습하다(练习)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -1119,7 +1119,7 @@
     "example": "저는 매일 학교에 다닙니다.",
     "exampleTranslation": "我每天上学。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "저는",
@@ -1140,7 +1140,7 @@
       {
         "text": "다닙니다",
         "meaning": "上（学）",
-        "note": "다니다(上学/通勤)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "다니다(上学/通勤)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -1153,7 +1153,7 @@
     "example": "영어 학원에 다니고 있습니다.",
     "exampleTranslation": "正在上英语补习班。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "영어 학원에",
@@ -1164,7 +1164,7 @@
       {
         "text": "다니고 있습니다",
         "meaning": "正在上",
-        "note": "다니다(上学/通勤)的词干+ -고 있다(正在)+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "다니다(上学/通勤)的词干+ -고 있다(正在)+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -1177,7 +1177,7 @@
     "example": "한강에서 자전거를 탔습니다.",
     "exampleTranslation": "在汉江骑了自行车。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "한강에서",
@@ -1193,7 +1193,7 @@
       {
         "text": "탔습니다",
         "meaning": "骑了",
-        "note": "타다(骑)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "타다(骑)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -1206,7 +1206,7 @@
     "example": "한옥에서 하룻밤을 묵었습니다.",
     "exampleTranslation": "在韩屋住了一晚。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "한옥에서",
@@ -1222,7 +1222,7 @@
       {
         "text": "묵었습니다",
         "meaning": "住了",
-        "note": "묵다(住宿)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "묵다(住宿)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -1235,7 +1235,7 @@
     "example": "헬스클럽에서 운동합니다.",
     "exampleTranslation": "在健身房运动。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "헬스클럽에서",
@@ -1246,7 +1246,7 @@
       {
         "text": "운동합니다",
         "meaning": "运动",
-        "note": "운동하다(运动)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "운동하다(运动)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -1259,7 +1259,7 @@
     "example": "호수가 아주 맑습니다.",
     "exampleTranslation": "湖水很清澈。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "호수가",
@@ -1275,7 +1275,7 @@
       {
         "text": "맑습니다",
         "meaning": "清澈",
-        "note": "맑다(清澈)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "맑다(清澈)的词干+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -1288,7 +1288,7 @@
     "example": "호텔에 묵었습니다.",
     "exampleTranslation": "住在了酒店。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "호텔에",
@@ -1299,7 +1299,7 @@
       {
         "text": "묵었습니다",
         "meaning": "住了",
-        "note": "묵다(住宿)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "묵다(住宿)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -1312,7 +1312,7 @@
     "example": "횡단보도를 건너세요.",
     "exampleTranslation": "请过人行横道。",
     "sentenceType": "命令句（请求）",
-    "formalityLevel": "非格式体敬语（해요体）",
+    "formalityLevel": "泛尊阶（해요体）",
     "grammarBreakdown": [
       {
         "text": "횡단보도를",
@@ -1323,7 +1323,7 @@
       {
         "text": "건너세요",
         "meaning": "请过",
-        "note": "건너다(过)的词干+ -시-（尊敬阶标记）+ -어요（请求/命令·非格式体敬语终结词尾）"
+        "note": "건너다(过)的词干+ -시-（尊敬阶标记）+ -어요（请求/命令·泛尊阶终结词尾）"
       }
     ]
   },
@@ -1336,7 +1336,7 @@
     "example": "휴게실에서 잠깐 쉬었습니다.",
     "exampleTranslation": "在休息室休息了一会儿。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "휴게실에서",
@@ -1352,7 +1352,7 @@
       {
         "text": "쉬었습니다",
         "meaning": "休息了",
-        "note": "쉬다(休息)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "쉬다(休息)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   }

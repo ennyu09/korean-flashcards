@@ -199,6 +199,13 @@
     margin:18px 0;
   }
   .grammar-page .grammar-title{margin-top:0; font-size:16px;}
+  .grammar-page .grammar-toc{
+    margin:0 0 8px;
+    padding-left:20px;
+    font-size:12px;
+    color:var(--ink-soft);
+  }
+  .grammar-page .grammar-toc a{color:inherit;}
   .grammar-page table.grammar-compare-table{
     width:100%;
     border-collapse:collapse;
@@ -1118,107 +1125,128 @@
     <button class="back-link" id="grammarBackBtn">← 返回目录</button>
     <div class="info-page grammar-page">
       <h4 class="grammar-title">韩语语法速查表</h4>
-      <p>卡片背面的"语法分析"里会反复出现一些简写标注（比如"-아서/어서"），这份速查表把它们集中解释一次。看到卡片上有对应标注，点一下就能跳到这里查。</p>
+      <p>卡片背面的语法分析里会反复出现一些简写标注（比如"-아서/어서""-습니다"）。这份表把它们集中整理成表格，方便查阅——看到卡片上有对应标注，回来这里查就行。</p>
+      <ul class="grammar-toc">
+        <li><a href="#sec-1">助词（조사）</a></li>
+        <li><a href="#sec-2">연결어미（连接语尾）</a></li>
+        <li><a href="#sec-3">终结语尾与敬语体系</a></li>
+        <li><a href="#sec-4">时态与语气标记</a></li>
+        <li><a href="#sec-5">敬语标记</a></li>
+      </ul>
       <hr>
 
-      <h4>一、助词（조사）—— 接在名词后面，标记语法角色</h4>
-      <h5>最容易混淆的一组：이/가 和 은/는，到底有什么不同？</h5>
-      <p>这两组助词经常都翻译成"是……"，但<strong>功能完全不同</strong>：</p>
-      <ul>
-        <li><strong>이/가（主格助词）</strong>：单纯标记"谁是动作的主语"，是中性、客观的陈述</li>
-        <li><strong>은/는（主题助词）</strong>：标记"这句话在说的是谁/什么"，常带有<strong>对比或强调</strong>的意味</li>
-      </ul>
-      <p>对比感受一下：</p>
-      <ul>
-        <li>제가 학생입니다 （我是学生 —— 单纯陈述事实，比如别人问"谁是学生？"）</li>
-        <li>저는 학생입니다 （我呢，是学生 —— 隐含"（相对于别人/别的话题）我是这样的"）</li>
-      </ul>
-      <p><strong>简单判断口诀</strong>：</p>
-      <ul>
-        <li>第一次提到某个人/事物，或者在回答"谁？""什么？"这类问题时，倾向用 <strong>이/가</strong></li>
-        <li>转换话题、做对比，或者陈述一个"总体已知"的话题时，倾向用 <strong>은/는</strong></li>
-      </ul>
-      <p>这个区别初学阶段不用完全掌握，多看例句自然会有语感，不用死记规则。</p>
-
+      <h4 id="sec-1">一、助词（조사）</h4>
+      <p>助词接在名词后面，标记这个名词在句子里的语法角色（主语/宾语/方向/地点等）。</p>
+      <h5>核心辨析：이/가 和 은/는，到底有什么不同？</h5>
+      <p>这两组助词经常都翻译成"是……"，但功能完全不同：</p>
+      <table class="grammar-compare-table">
+        <tr><th></th><th>이/가（主格助词）</th><th>은/는（主题助词）</th></tr>
+        <tr><td><strong>作用</strong></td><td>单纯标记"谁是动作的主语"，中性客观陈述</td><td>标记"这句话在说的是谁/什么"，常带对比、强调意味</td></tr>
+        <tr><td><strong>典型场合</strong></td><td>第一次提到某人事物；回答"谁？""什么？"</td><td>转换话题、做对比；陈述一个已知话题</td></tr>
+        <tr><td><strong>例句</strong></td><td>제가 학생입니다.（我是学生——单纯陈述事实）</td><td>저는 학생입니다.（我呢，是学生——隐含对比）</td></tr>
+      </table>
+      <p>初学阶段不用死记规则，多看例句会慢慢有语感。</p>
       <h5>助词总表</h5>
-      <p><a id="p-이가"></a><strong>이/가</strong> —— 主格助词，标记句子的主语。例：사람이 (人)</p>
-      <p><a id="p-은는"></a><strong>은/는</strong> —— 主题助词，标记句子的话题/对比。例：저는 (我)</p>
-      <p><a id="p-을를"></a><strong>을/를</strong> —— 宾格助词，标记宾语。例：밥을 (饭)</p>
-      <p><a id="p-에"></a><strong>에</strong> —— 方向/时间点助词，"往……""在……（时间点）"。例：학교에 (去学校)</p>
-      <p><a id="p-에서"></a><strong>에서</strong> —— 处所助词，"在……（做某事的地点）"。例：식당에서 (在餐厅)</p>
-      <p><a id="p-로으로"></a><strong>로/으로</strong> —— 方向/手段/材料助词，"往……""用……"。例：지하철로 (坐地铁)</p>
-      <p><a id="p-와과"></a><strong>와/과</strong> —— "和……"，表共同对象。例：친구와 (和朋友)</p>
-      <p><a id="p-의"></a><strong>의</strong> —— 所有格助词，"……的"。例：저의→제 (我的)</p>
-      <p><a id="p-도"></a><strong>도</strong> —— "也……"。例：저도 (我也)</p>
-      <p><a id="p-만"></a><strong>만</strong> —— "只……"。例：이것만 (只有这个)</p>
-      <p><a id="p-부터"></a><strong>부터</strong> —— "从……开始"。例：오늘부터 (从今天起)</p>
-      <p><a id="p-까지"></a><strong>까지</strong> —— "到……为止"。例：여기까지 (到这里为止)</p>
-      <p><a id="p-께서"></a><strong>께서</strong> —— 主格助词的敬语形式。例：할머니께서 (奶奶)</p>
-      <p><a id="p-한테에게"></a><strong>한테/에게</strong> —— "向……，给……"（对象）。例：친구한테 (对朋友)</p>
+      <table class="grammar-compare-table">
+        <tr><th>助词</th><th>作用</th><th>例句</th></tr>
+        <tr><td><a id="p-이가"></a><strong>이/가</strong></td><td>主格助词，标记句子主语</td><td>사람이 많습니다.（人很多）</td></tr>
+        <tr><td><a id="p-은는"></a><strong>은/는</strong></td><td>主题助词，标记话题/对比</td><td>저는 학생입니다.（我是学生）</td></tr>
+        <tr><td><a id="p-을를"></a><strong>을/를</strong></td><td>宾格助词，标记宾语</td><td>밥을 먹습니다.（吃饭）</td></tr>
+        <tr><td><a id="p-에"></a><strong>에</strong></td><td>方向/时间点助词，"往……""在……（时间点）"</td><td>학교에 갑니다.（去学校）</td></tr>
+        <tr><td><a id="p-에서"></a><strong>에서</strong></td><td>处所助词，"在……（做某事的地点）"</td><td>식당에서 먹습니다.（在餐厅吃）</td></tr>
+        <tr><td><a id="p-로으로"></a><strong>로/으로</strong></td><td>方向/手段/材料助词，"往……""用……"</td><td>지하철로 갑니다.（坐地铁去）</td></tr>
+        <tr><td><a id="p-와과"></a><strong>와/과</strong></td><td>"和……"，共同对象</td><td>친구와 만납니다.（和朋友见面）</td></tr>
+        <tr><td><strong>의</strong></td><td>所有格助词，"……的"</td><td>저의→제（我的）</td></tr>
+        <tr><td><strong>도</strong></td><td>"也……"</td><td>저도 갑니다.（我也去）</td></tr>
+        <tr><td><strong>만</strong></td><td>"只……"</td><td>이것만 있습니다.（只有这个）</td></tr>
+        <tr><td><a id="p-부터"></a><strong>부터</strong></td><td>"从……开始"</td><td>오늘부터（从今天起）</td></tr>
+        <tr><td><a id="p-까지"></a><strong>까지</strong></td><td>"到……为止"</td><td>여기까지（到这里为止）</td></tr>
+        <tr><td><a id="p-께서"></a><strong>께서</strong></td><td>主格助词敬语形式</td><td>할머니께서（奶奶，敬语）</td></tr>
+        <tr><td><a id="p-한테에게"></a><strong>한테/에게</strong></td><td>"向……，给……"（对象）</td><td>친구한테（对朋友）</td></tr>
+      </table>
       <hr>
 
-      <h4>二、连接语尾（연결어미）—— 接在动词/形容词词干后，连接前后两个短句</h4>
-      <p><a id="c-아서어서"></a><strong>-아서/어서</strong> —— ①表原因"因为……所以……" ②表先后"……之后……"<br>判断方法：前后两件事有时间先后关系→"之后"；前面是原因、后面是结果→"因为"</p>
-      <p><a id="c-고"></a><strong>-고</strong> —— "……然后……"，单纯并列或先后，通常就是"做完A再做B"，不强调因果</p>
-      <p><a id="c-지만"></a><strong>-지만</strong> —— "虽然……但是……"，表转折</p>
-      <p><a id="c-면"></a><strong>-면</strong> —— "如果……的话"，表假设/条件</p>
-      <p><a id="c-는데"></a><strong>-는데</strong> —— "……，不过……"，表铺垫、转折或背景说明</p>
-      <p><a id="c-니까"></a><strong>-니까/으니까</strong> —— "因为……所以……"（比-아서语气更强调"提醒/建议"），常用于"因为这样，所以你应该……"</p>
-      <p><a id="c-다가"></a><strong>-다가</strong> —— "做……到一半，（然后）……"，表动作中途转换</p>
+      <h4 id="sec-2">二、연결어미（连接语尾）</h4>
+      <p>接在动词/形容词词干后，连接前后两个短句，构成一个完整复句。</p>
+      <table class="grammar-compare-table">
+        <tr><th>语尾</th><th>核心作用</th><th>判断方法/说明</th></tr>
+        <tr><td><a id="c-아서어서"></a><strong>-아서/어서</strong></td><td>①表原因"因为……所以……" ②表先后"……之后……"</td><td>前后两件事有时间先后关系→"之后"；前面是原因、后面是结果→"因为"</td></tr>
+        <tr><td><a id="c-고"></a><strong>-고</strong></td><td>"……然后……"，单纯并列或先后</td><td>通常是"做完A再做B"，不强调因果</td></tr>
+        <tr><td><a id="c-지만"></a><strong>-지만</strong></td><td>"虽然……但是……"</td><td>表转折</td></tr>
+        <tr><td><a id="c-면"></a><strong>-면</strong></td><td>"如果……的话"</td><td>表假设/条件</td></tr>
+        <tr><td><a id="c-는데"></a><strong>-는데</strong></td><td>"……，不过……"</td><td>表铺垫、转折或背景说明</td></tr>
+        <tr><td><a id="c-니까"></a><strong>-니까/으니까</strong></td><td>"因为……所以……"（比-아서语气更强调"提醒/建议"）</td><td>常用于"因为这样，所以你应该……"</td></tr>
+        <tr><td><a id="c-다가"></a><strong>-다가</strong></td><td>"做……到一半，（然后）……"</td><td>表动作中途转换</td></tr>
+      </table>
       <hr>
 
-      <h4>三、终结语尾（종결어미）—— 句子最后一个词，决定敬语级别和句子类型</h4>
-      <h5>先搞懂一个大前提：韩语的"礼貌程度"其实是两条独立的轴</h5>
-      <p>很多人以为敬语只有"敬语 vs 不敬语"一条线，其实韩语里同时存在<strong>两个维度</strong>，两个维度组合起来才决定一句话最终听起来是什么感觉：</p>
-      <p><strong>维度①：对听者礼貌不礼貌（尊敬与否）</strong></p>
-      <ul>
-        <li>尊敬：对长辈、上级、陌生人、需要保持礼貌的对象</li>
-        <li>不尊敬（반말）：对关系很近的朋友、晚辈、小孩</li>
-      </ul>
-      <p><strong>维度②：场合正式不正式（格式与否）</strong></p>
-      <ul>
-        <li>格式体：新闻播报、公司会议、正式演讲、军队、第一次见面的商务场合—— 说话人和听话人之间保持一定"距离感"，显得庄重、公事公办</li>
-        <li>非格式体：日常聊天、朋友间、便利店买东西、跟同事随口说话—— 依然礼貌，但更亲切自然，是韩国人日常生活里用得最多的说法</li>
-      </ul>
-      <p><strong>两个维度交叉，就得到韩语最常见的三种说话方式：</strong></p>
+      <h4 id="sec-3">三、终结语尾与敬语体系</h4>
+      <h5>大前提：韩语的"礼貌程度"是两条独立的轴</h5>
+      <p>很多人以为敬语只有"敬语 vs 不敬语"一条线，其实韩语里同时存在<strong>两个维度</strong>：</p>
+      <table class="grammar-compare-table">
+        <tr><th>维度</th><th>说明</th></tr>
+        <tr><td><strong>① 对听者礼貌与否</strong></td><td>尊敬：长辈、上级、陌生人、需要保持礼貌的对象；不尊敬（반말）：关系很近的朋友、晚辈、小孩</td></tr>
+        <tr><td><strong>② 场合正式与否</strong></td><td>正式：新闻播报、公司会议、正式演讲、军队、初次商务场合，保持距离感；日常：日常聊天、朋友间、便利店买东西，礼貌但亲切自然</td></tr>
+      </table>
+      <p>两个维度交叉，得到韩语最常见的三种说话方式（本表统一使用<strong>尊敬阶/泛尊阶</strong>这套说法，括号内为对应的传统语法名称）：</p>
       <table class="grammar-compare-table">
         <tr><th></th><th>尊敬</th><th>不尊敬</th></tr>
-        <tr><td><strong>正式场合</strong></td><td>格式体敬语（합니다体）</td><td>（几乎不存在这种组合，正式场合一定要敬语）</td></tr>
-        <tr><td><strong>日常场合</strong></td><td>非格式体敬语（해요体）</td><td>非敬语（반말）</td></tr>
+        <tr><td><strong>正式场合</strong></td><td><strong>尊敬阶</strong>（합니다体，传统语法称格式体敬语/하십시오체）</td><td>（几乎不存在这种组合）</td></tr>
+        <tr><td><strong>日常场合</strong></td><td><strong>泛尊阶</strong>（해요体，传统语法称非格式体敬语）</td><td>非敬语（<strong>반말</strong>）</td></tr>
       </table>
-      <p><strong>一句话理解三者的关系</strong>：</p>
-      <ul>
-        <li>합니다体 = "我们现在是在办公事，我对您保持礼貌和距离"</li>
-        <li>해요体 = "我对您有礼貌，但我们关系轻松自然，不是在开会"</li>
-        <li>반말 = "我们很熟，不需要客套"</li>
-      </ul>
-      <p>同一件事，用三种方式说会是这样：</p>
-      <ul>
-        <li>격식체：식사하셨습니까? （您用餐了吗？—— 像播音员或者第一次见面的商务场合）</li>
-        <li>해요体：식사하셨어요? （您吃饭了吗？—— 日常礼貌，最常用）</li>
-        <li>반말：밥 먹었어? （吃饭了吗？—— 对好朋友/晚辈）</li>
-      </ul>
-      <p><strong>给自学者的实用建议</strong>：不确定用哪个的时候，<strong>해요体永远是最安全的选择</strong>—— 韩国人日常说话里해요体占绝大多数，格式体主要出现在特定正式场合，반말只在关系明确亲近之后才用。这也是为什么很多教材会先教해요体、再教합니다体。</p>
+      <p><strong>一句话理解三者关系</strong>：</p>
+      <table class="grammar-compare-table">
+        <tr><th>说法</th><th>心态</th></tr>
+        <tr><td>尊敬阶（합니다体）</td><td>"我们在办公事，对您保持礼貌和距离"</td></tr>
+        <tr><td>泛尊阶（해요体）</td><td>"我对您有礼貌，但关系轻松自然，不是在开会"</td></tr>
+        <tr><td>반말</td><td>"我们很熟，不需要客套"</td></tr>
+      </table>
+      <p>同一件事，三种说法对比：</p>
+      <table class="grammar-compare-table">
+        <tr><th>敬语级别</th><th>例句</th><th>中文</th></tr>
+        <tr><td>尊敬阶</td><td>식사하셨습니까?</td><td>您用餐了吗？（像播音员/初次商务场合）</td></tr>
+        <tr><td>泛尊阶</td><td>식사하셨어요?</td><td>您吃饭了吗？（日常礼貌，最常用）</td></tr>
+        <tr><td>非敬语</td><td>밥 먹었어?</td><td>吃饭了吗？（对好朋友/晚辈）</td></tr>
+      </table>
+      <p><strong>给自学者的实用建议</strong>：拿不准用哪个的时候，<strong>泛尊阶（해요体）永远是最安全的选择</strong>——韩国人日常说话里泛尊阶占绝大多数。这也是为什么很多教材会先教해요体、再教합니다体。</p>
 
       <h5>具体语尾对照表</h5>
-      <p><a id="e-ㅂ니다"></a><strong>-습니다/-ㅂ니다</strong> —— 格式体敬语（합니다体），用于陈述句</p>
-      <p><a id="e-ㅂ니까"></a><strong>-습니까/-ㅂ니까</strong> —— 格式体敬语，用于疑问句</p>
-      <p><a id="e-ㅂ시다"></a><strong>-읍시다/-ㅂ시다</strong> —— 格式体敬语，用于共动句（"让我们……吧"）</p>
-      <p><a id="e-어요"></a><strong>-어요/-아요</strong> —— 非格式体敬语（해요体），陈述句/疑问句/命令句均可，同一个词形，靠语调和上下文区分（书面上看不出来，这也是为什么해요体有时会让初学者觉得"怎么什么句子都长一样"）</p>
-      <p><a id="e-세요"></a><strong>-세요/-으세요</strong> —— 非格式体敬语（해요体的请求/命令形式），用于请求/命令，或疑问</p>
-      <p><a id="e-반말"></a><strong>-어/-아/-야</strong> —— 非敬语（반말），各种句子类型，同样靠语境区分</p>
+      <table class="grammar-compare-table">
+        <tr><th>语尾</th><th>敬语类型</th><th>句子类型</th><th>备注</th></tr>
+        <tr><td><a id="e-ㅂ니다"></a><strong>-습니다/-ㅂ니다</strong></td><td><strong>尊敬阶</strong>（합니다体）</td><td>陈述句</td><td>最正式</td></tr>
+        <tr><td><a id="e-ㅂ니까"></a><strong>-습니까/-ㅂ니까</strong></td><td>尊敬阶</td><td>疑问句</td><td></td></tr>
+        <tr><td><a id="e-ㅂ시다"></a><strong>-읍시다/-ㅂ시다</strong></td><td>尊敬阶</td><td>共动句（"让我们……吧"）</td><td></td></tr>
+        <tr><td><a id="e-어요"></a><strong>-어요/-아요</strong></td><td><strong>泛尊阶</strong>（해요体）</td><td>陈述/疑问/命令均可</td><td>同一词形，靠语调和上下文区分书面上看不出来的差异</td></tr>
+        <tr><td><a id="e-세요"></a><strong>-세요/-으세요</strong></td><td>泛尊阶</td><td>请求/命令，或疑问</td><td></td></tr>
+        <tr><td><a id="e-반말"></a><strong>-어/-아/-야</strong></td><td>非敬语（반말）</td><td>各种句子类型</td><td>同样靠语境区分</td></tr>
+      </table>
       <hr>
 
-      <h4>四、时态与语气标记 —— 插在词干和终结语尾之间</h4>
-      <p><a id="t-았었였"></a><strong>-았-/-었-/-였-</strong> —— 过去时标记</p>
-      <p><a id="t-겠"></a><strong>-겠-</strong> —— 表将来/意志（"会……""要……"），或婉转推测</p>
-      <p><a id="t-고있다"></a><strong>-고 있다</strong> —— "正在……"（进行时）</p>
-      <p><a id="t-아있다"></a><strong>-아/어 있다</strong> —— "……着"（状态持续，强调动作完成后的状态）</p>
+      <h4 id="sec-4">四、时态与语气标记</h4>
+      <p>插在词干和终结语尾之间。</p>
+      <table class="grammar-compare-table">
+        <tr><th>标记</th><th>作用</th></tr>
+        <tr><td><a id="t-았었였"></a><strong>-았-/-었-/-였-</strong></td><td>过去时标记</td></tr>
+        <tr><td><a id="t-겠"></a><strong>-겠-</strong></td><td>表将来/意志（"会……""要……"），或婉转推测</td></tr>
+        <tr><td><a id="t-고있다"></a><strong>-고 있다</strong></td><td>"正在……"（进行时）</td></tr>
+        <tr><td><a id="t-아있다"></a><strong>-아/어 있다</strong></td><td>"……着"（状态持续，强调动作完成后的状态）</td></tr>
+      </table>
       <hr>
 
-      <h4>五、敬语标记 —— 表示对句子主语的尊敬</h4>
-      <p><a id="h-시"></a><strong>-시-/-으시-</strong> —— 插入动词/形容词词干中，表示对主语的尊敬（用于长辈、上级等）</p>
-      <p><a id="h-특수"></a><strong>特殊敬语词</strong> —— 一些动词有专门的敬语形式，不是加-시-，而是整个词换掉：<br>먹다(吃)→드시다/잡수시다；자다(睡)→주무시다；있다(在)→계시다；말하다(说)→말씀하시다</p>
+      <h4 id="sec-5">五、敬语标记</h4>
+      <p>表示对句子主语的尊敬。</p>
+      <table class="grammar-compare-table">
+        <tr><th>标记</th><th>作用</th></tr>
+        <tr><td><a id="h-시"></a><strong>-시-/-으시-</strong></td><td>插入动词/形容词词干中，表示对主语的尊敬（用于长辈、上级等）</td></tr>
+      </table>
+      <h5>特殊敬语词（整个词替换，不是加-시-）</h5>
+      <table class="grammar-compare-table">
+        <tr><th>普通形</th><th>敬语形</th><th>意思</th></tr>
+        <tr><td>먹다</td><td><a id="h-특수"></a>드시다 / 잡수시다</td><td>吃</td></tr>
+        <tr><td>자다</td><td>주무시다</td><td>睡</td></tr>
+        <tr><td>있다</td><td>계시다</td><td>在</td></tr>
+        <tr><td>말하다</td><td>말씀하시다</td><td>说</td></tr>
+      </table>
       <hr>
 
       <p class="grammar-footnote"><em>这份速查表会随着课程推进持续补充。如果看到卡片上有没收录进这里的简写，欢迎反馈。</em></p>

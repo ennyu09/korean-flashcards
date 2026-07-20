@@ -8,7 +8,7 @@
     "example": "오렌지 주스를 짜서 마셨습니다.",
     "exampleTranslation": "榨了橙汁喝。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "오렌지 주스를",
@@ -24,7 +24,7 @@
       {
         "text": "마셨습니다",
         "meaning": "喝了",
-        "note": "마시다(喝)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "마시다(喝)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -37,7 +37,7 @@
     "example": "오이를 얇게 썰었습니다.",
     "exampleTranslation": "把黄瓜切薄了。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "오이를",
@@ -53,7 +53,7 @@
       {
         "text": "썰었습니다",
         "meaning": "切了",
-        "note": "썰다(切)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "썰다(切)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -66,7 +66,7 @@
     "example": "뜨거운 우동을 먹었습니다.",
     "exampleTranslation": "吃了热乌冬面。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "뜨거운",
@@ -82,7 +82,7 @@
       {
         "text": "먹었습니다",
         "meaning": "吃了",
-        "note": "먹다(吃)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "먹다(吃)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -95,7 +95,7 @@
     "example": "아침마다 우유를 마십니다.",
     "exampleTranslation": "每天早上喝牛奶。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "아침마다",
@@ -111,7 +111,7 @@
       {
         "text": "마십니다",
         "meaning": "喝",
-        "note": "마시다(喝)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "마시다(喝)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -124,7 +124,7 @@
     "example": "시원한 음료를 마셨습니다.",
     "exampleTranslation": "喝了冰凉的饮料。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "시원한",
@@ -140,7 +140,7 @@
       {
         "text": "마셨습니다",
         "meaning": "喝了",
-        "note": "마시다(喝)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "마시다(喝)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -153,7 +153,7 @@
     "example": "자판기에서 음료수를 샀습니다.",
     "exampleTranslation": "在自动售货机买了饮料。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "자판기에서",
@@ -169,7 +169,7 @@
       {
         "text": "샀습니다",
         "meaning": "买了",
-        "note": "사다(买)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "사다(买)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -182,7 +182,7 @@
     "example": "이 음식은 정말 맛있습니다.",
     "exampleTranslation": "这道菜真的很好吃。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "이",
@@ -203,7 +203,7 @@
       {
         "text": "맛있습니다",
         "meaning": "好吃",
-        "note": "맛있다(好吃)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "맛있다(好吃)的词干+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -216,7 +216,7 @@
     "example": "새로운 음식점을 찾았습니다.",
     "exampleTranslation": "找到了一家新餐馆。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "새로운",
@@ -232,7 +232,7 @@
       {
         "text": "찾았습니다",
         "meaning": "找到了",
-        "note": "찾다(找)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "찾다(找)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -245,7 +245,7 @@
     "example": "인삼을 넣어서 삼계탕을 끓입니다.",
     "exampleTranslation": "放人参煮参鸡汤。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "인삼을",
@@ -266,7 +266,7 @@
       {
         "text": "끓입니다",
         "meaning": "煮",
-        "note": "끓이다(煮)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "끓이다(煮)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -279,7 +279,7 @@
     "example": "일식을 먹으러 갔습니다.",
     "exampleTranslation": "去吃了日式料理。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "일식을",
@@ -290,7 +290,7 @@
       {
         "text": "먹으러 갔습니다",
         "meaning": "去吃了",
-        "note": "먹다(吃)的词干+ -으러(表目的)+가다(去)+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "먹다(吃)的词干+ -으러(表目的)+가다(去)+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -303,7 +303,7 @@
     "example": "일식집에서 초밥을 먹었습니다.",
     "exampleTranslation": "在日式餐厅吃了寿司。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "일식집에서",
@@ -319,7 +319,7 @@
       {
         "text": "먹었습니다",
         "meaning": "吃了",
-        "note": "먹다(吃)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "먹다(吃)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -332,7 +332,7 @@
     "example": "졸업식 날 자장면을 먹었습니다.",
     "exampleTranslation": "毕业典礼那天吃了炸酱面。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "졸업식 날",
@@ -348,7 +348,7 @@
       {
         "text": "먹었습니다",
         "meaning": "吃了",
-        "note": "먹다(吃)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "먹다(吃)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -361,7 +361,7 @@
     "example": "할머니 생신 잔치를 열었습니다.",
     "exampleTranslation": "举办了奶奶的生日宴。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "할머니 생신",
@@ -377,7 +377,7 @@
       {
         "text": "열었습니다",
         "meaning": "举办了",
-        "note": "열다(举办)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "열다(举办)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -390,7 +390,7 @@
     "example": "할아버지께서 진지를 잡수셨습니다.",
     "exampleTranslation": "爷爷用膳了。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "할아버지께서",
@@ -405,7 +405,7 @@
       {
         "text": "잡수셨습니다",
         "meaning": "吃了（敬语）",
-        "note": "잡수시다(吃,敬语)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）",
+        "note": "잡수시다(吃,敬语)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ]
@@ -419,7 +419,7 @@
     "example": "명절에 잡채를 만듭니다.",
     "exampleTranslation": "过节的时候做杂菜。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "명절에",
@@ -435,7 +435,7 @@
       {
         "text": "만듭니다",
         "meaning": "做",
-        "note": "만들다(做)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "만들다(做)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -448,7 +448,7 @@
     "example": "아침에 주스를 마십니다.",
     "exampleTranslation": "早上喝果汁。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "아침에",
@@ -464,7 +464,7 @@
       {
         "text": "마십니다",
         "meaning": "喝",
-        "note": "마시다(喝)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "마시다(喝)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -477,7 +477,7 @@
     "example": "중국집에 배달을 시켰습니다.",
     "exampleTranslation": "叫了中餐馆的外卖。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "중국집에",
@@ -493,7 +493,7 @@
       {
         "text": "시켰습니다",
         "meaning": "叫了",
-        "note": "시키다(叫,点)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "시키다(叫,点)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -506,7 +506,7 @@
     "example": "국이 너무 짭니다.",
     "exampleTranslation": "汤太咸了。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "국이",
@@ -521,7 +521,7 @@
       {
         "text": "짭니다",
         "meaning": "咸",
-        "note": "짜다(咸)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "note": "짜다(咸)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ]
@@ -535,7 +535,7 @@
     "example": "매운 짬뽕을 시켰습니다.",
     "exampleTranslation": "点了辣的什锦海鲜面。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "매운",
@@ -551,7 +551,7 @@
       {
         "text": "시켰습니다",
         "meaning": "点了",
-        "note": "시키다(点餐)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "시키다(点餐)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -564,7 +564,7 @@
     "example": "매운 찌개를 끓였습니다.",
     "exampleTranslation": "煮了辣的炖菜。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "매운",
@@ -580,7 +580,7 @@
       {
         "text": "끓였습니다",
         "meaning": "煮了",
-        "note": "끓이다(煮)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "끓이다(煮)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -594,7 +594,7 @@
     "example": "요즘 살이 많이 쪘습니다.",
     "exampleTranslation": "最近胖了不少。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "요즘",
@@ -614,7 +614,7 @@
       {
         "text": "쪘습니다",
         "meaning": "长了（肉）",
-        "note": "찌다(长肉)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）",
+        "note": "찌다(长肉)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ]
@@ -629,7 +629,7 @@
     "example": "감자를 쪄서 먹었습니다.",
     "exampleTranslation": "把土豆蒸了吃。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "감자를",
@@ -645,7 +645,7 @@
       {
         "text": "먹었습니다",
         "meaning": "吃了",
-        "note": "먹다(吃)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "먹다(吃)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -658,7 +658,7 @@
     "example": "더워서 찬물을 마셨습니다.",
     "exampleTranslation": "因为热喝了凉水。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "더워서",
@@ -674,7 +674,7 @@
       {
         "text": "마셨습니다",
         "meaning": "喝了",
-        "note": "마시다(喝)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "마시다(喝)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -687,7 +687,7 @@
     "example": "참외는 여름 과일입니다.",
     "exampleTranslation": "甜瓜是夏天的水果。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "참외는",
@@ -698,7 +698,7 @@
       {
         "text": "여름 과일입니다",
         "meaning": "是夏天的水果",
-        "note": "여름(夏天)+과일(水果)+이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "여름(夏天)+과일(水果)+이다+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -711,7 +711,7 @@
     "example": "채소를 씻어서 먹습니다.",
     "exampleTranslation": "洗了蔬菜吃。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "채소를",
@@ -727,7 +727,7 @@
       {
         "text": "먹습니다",
         "meaning": "吃",
-        "note": "먹다(吃)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "먹다(吃)的词干+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -740,7 +740,7 @@
     "example": "발렌타인데이에 초콜릿을 받았습니다.",
     "exampleTranslation": "情人节收到了巧克力。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "발렌타인데이에",
@@ -756,7 +756,7 @@
       {
         "text": "받았습니다",
         "meaning": "收到了",
-        "note": "받다(收到)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "받다(收到)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -769,7 +769,7 @@
     "example": "주말에 치킨을 시켜 먹었습니다.",
     "exampleTranslation": "周末叫了炸鸡吃。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "주말에",
@@ -785,7 +785,7 @@
       {
         "text": "시켜 먹었습니다",
         "meaning": "叫了吃",
-        "note": "시키다(点餐)的词干+ -어(连接词尾)+먹다(吃)+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "시키다(点餐)的词干+ -어(连接词尾)+먹다(吃)+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -798,7 +798,7 @@
     "example": "카레를 만들어 먹었습니다.",
     "exampleTranslation": "做了咖喱吃。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "카레를",
@@ -809,7 +809,7 @@
       {
         "text": "만들어 먹었습니다",
         "meaning": "做了吃了",
-        "note": "만들다(做)的词干+ -어(连接词尾)+먹다(吃)+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "만들다(做)的词干+ -어(连接词尾)+먹다(吃)+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -822,7 +822,7 @@
     "example": "비 오는 날에는 칼국수가 좋습니다.",
     "exampleTranslation": "下雨天吃刀削面很好。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "비 오는 날에는",
@@ -838,7 +838,7 @@
       {
         "text": "좋습니다",
         "meaning": "好",
-        "note": "좋다(好)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "좋다(好)的词干+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -851,7 +851,7 @@
     "example": "아침마다 커피를 마십니다.",
     "exampleTranslation": "每天早上喝咖啡。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "아침마다",
@@ -867,7 +867,7 @@
       {
         "text": "마십니다",
         "meaning": "喝",
-        "note": "마시다(喝)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "마시다(喝)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -880,7 +880,7 @@
     "example": "커피숍에서 친구를 만났습니다.",
     "exampleTranslation": "在咖啡厅见了朋友。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "커피숍에서",
@@ -896,7 +896,7 @@
       {
         "text": "만났습니다",
         "meaning": "见了",
-        "note": "만나다(见面)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "만나다(见面)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -909,7 +909,7 @@
     "example": "생일에 케이크를 먹었습니다.",
     "exampleTranslation": "生日吃了蛋糕。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "생일에",
@@ -925,7 +925,7 @@
       {
         "text": "먹었습니다",
         "meaning": "吃了",
-        "note": "먹다(吃)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "먹다(吃)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -938,7 +938,7 @@
     "example": "시원한 콜라를 마셨습니다.",
     "exampleTranslation": "喝了冰凉的可乐。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "시원한",
@@ -954,7 +954,7 @@
       {
         "text": "마셨습니다",
         "meaning": "喝了",
-        "note": "마시다(喝)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "마시다(喝)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -967,7 +967,7 @@
     "example": "콩으로 두부를 만듭니다.",
     "exampleTranslation": "用豆子做豆腐。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "콩으로",
@@ -983,7 +983,7 @@
       {
         "text": "만듭니다",
         "meaning": "做",
-        "note": "만들다(做)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "만들다(做)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -996,7 +996,7 @@
     "example": "탕수육을 소스에 찍어 먹습니다.",
     "exampleTranslation": "把糖醋肉蘸酱吃。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "탕수육을",
@@ -1012,7 +1012,7 @@
       {
         "text": "찍어 먹습니다",
         "meaning": "蘸着吃",
-        "note": "찍다(蘸)的词干+ -어(连接词尾)+먹다(吃)+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "찍다(蘸)的词干+ -어(连接词尾)+먹다(吃)+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -1025,7 +1025,7 @@
     "example": "토마토를 썰어 넣었습니다.",
     "exampleTranslation": "切了西红柿放进去了。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "토마토를",
@@ -1036,7 +1036,7 @@
       {
         "text": "썰어 넣었습니다",
         "meaning": "切了放进去",
-        "note": "썰다(切)的词干+ -어(连接词尾)+넣다(放入)+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "썰다(切)的词干+ -어(连接词尾)+넣다(放入)+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -1049,7 +1049,7 @@
     "example": "기름에 닭을 튀겼습니다.",
     "exampleTranslation": "用油炸了鸡。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "기름에",
@@ -1064,7 +1064,7 @@
       {
         "text": "튀겼습니다",
         "meaning": "炸了",
-        "note": "튀기다(炸)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）",
+        "note": "튀기다(炸)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ]
@@ -1078,7 +1078,7 @@
     "example": "튀김을 간장에 찍어 먹습니다.",
     "exampleTranslation": "把炸物蘸酱油吃。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "튀김을",
@@ -1094,7 +1094,7 @@
       {
         "text": "찍어 먹습니다",
         "meaning": "蘸着吃",
-        "note": "찍다(蘸)的词干+ -어(连接词尾)+먹다(吃)+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "찍다(蘸)的词干+ -어(连接词尾)+먹다(吃)+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -1107,7 +1107,7 @@
     "example": "포도를 씻어서 먹었습니다.",
     "exampleTranslation": "洗了葡萄吃。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "포도를",
@@ -1123,7 +1123,7 @@
       {
         "text": "먹었습니다",
         "meaning": "吃了",
-        "note": "먹다(吃)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "먹다(吃)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -1136,7 +1136,7 @@
     "example": "저녁에 피자를 주문했습니다.",
     "exampleTranslation": "晚上点了披萨。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "저녁에",
@@ -1152,7 +1152,7 @@
       {
         "text": "주문했습니다",
         "meaning": "点了",
-        "note": "주문하다(点单)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "주문하다(点单)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -1165,7 +1165,7 @@
     "example": "저는 한식을 자주 먹습니다.",
     "exampleTranslation": "我经常吃韩式料理。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "저는",
@@ -1186,7 +1186,7 @@
       {
         "text": "먹습니다",
         "meaning": "吃",
-        "note": "먹다(吃)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "먹다(吃)的词干+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -1199,7 +1199,7 @@
     "example": "한식집에서 불고기를 먹었습니다.",
     "exampleTranslation": "在韩式餐厅吃了烤牛肉。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "한식집에서",
@@ -1215,7 +1215,7 @@
       {
         "text": "먹었습니다",
         "meaning": "吃了",
-        "note": "먹다(吃)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "먹다(吃)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -1228,7 +1228,7 @@
     "example": "점심에 햄버거를 먹었습니다.",
     "exampleTranslation": "午饭吃了汉堡。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "점심에",
@@ -1244,7 +1244,7 @@
       {
         "text": "먹었습니다",
         "meaning": "吃了",
-        "note": "먹다(吃)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "먹다(吃)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -1257,7 +1257,7 @@
     "example": "오후에 홍차를 마셨습니다.",
     "exampleTranslation": "下午喝了红茶。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "오후에",
@@ -1273,7 +1273,7 @@
       {
         "text": "마셨습니다",
         "meaning": "喝了",
-        "note": "마시다(喝)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "마시다(喝)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   }

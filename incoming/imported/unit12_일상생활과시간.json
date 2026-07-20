@@ -44,7 +44,9 @@
         "meaning": "看",
         "note": "보다(看)的词干+ -ㅂ니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "계획",
@@ -81,7 +83,9 @@
         "meaning": "制定了",
         "note": "세우다(制定)的词干+ -었-+ -습니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "공부하다",
@@ -128,7 +132,9 @@
         "note": "공부하다(学习)的词干+ -ㅂ니다",
         "isTarget": true
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "금요일",
@@ -170,7 +176,9 @@
         "meaning": "见面",
         "note": "만나다(见面)的词干+ -ㅂ니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "내일",
@@ -207,7 +215,9 @@
         "meaning": "开始",
         "note": "시작하다(开始)的词干+ -ㅂ니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "매달",
@@ -254,7 +264,9 @@
         "meaning": "读",
         "note": "읽다(读)的词干+ -습니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "매일",
@@ -291,7 +303,9 @@
         "meaning": "喝",
         "note": "마시다(喝)的词干+ -ㅂ니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "매주",
@@ -328,7 +342,9 @@
         "meaning": "有……",
         "note": "있다+ -습니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "목요일",
@@ -365,7 +381,9 @@
         "meaning": "没有",
         "note": "없다(没有)的词干+ -습니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "벌써",
@@ -402,7 +420,9 @@
         "meaning": "变成了啊",
         "note": "되다(变成)的词干+ -었-+ -네요(表感叹的终结词尾)"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "泛尊阶（해요体）"
   },
   {
     "korean": "보통",
@@ -444,7 +464,9 @@
         "meaning": "起床",
         "note": "일어나다(起床)的词干+ -ㅂ니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "빨래하다",
@@ -477,7 +499,9 @@
         "note": "하다(做)的词干+ -ㅂ니다",
         "isTarget": true
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "산책하다",
@@ -519,7 +543,9 @@
         "note": "산책하다(散步)的词干+ -ㅂ니다",
         "isTarget": true
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "세수하다",
@@ -552,7 +578,9 @@
         "note": "하다(做)的词干+ -ㅂ니다",
         "isTarget": true
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "수요일",
@@ -584,7 +612,9 @@
         "meaning": "学",
         "note": "배우다(学)的词干+ -ㅂ니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "숙제",
@@ -621,7 +651,9 @@
         "meaning": "多",
         "note": "많다(多)的词干+ -습니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "쉬다",
@@ -658,7 +690,9 @@
         "note": "쉬다(休息)的词干+ -ㅂ니다",
         "isTarget": true
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "시간",
@@ -690,7 +724,9 @@
         "meaning": "必须赶紧",
         "note": "서두르다(赶紧)的词干变化+ -어야 하다(必须)+ -ㅂ니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "시간표",
@@ -717,7 +753,9 @@
         "meaning": "确认了",
         "note": "확인하다(确认)的词干+ -았-+ -습니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "시험",
@@ -754,7 +792,9 @@
         "meaning": "有……",
         "note": "있다+ -습니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "씻다",
@@ -796,7 +836,9 @@
         "note": "씻다(洗)的词干+ -습니다",
         "isTarget": true
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "아직",
@@ -843,7 +885,9 @@
         "meaning": "吃了",
         "note": "먹다(吃)的词干+ -었-+ -습니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "아침",
@@ -880,7 +924,9 @@
         "meaning": "吃",
         "note": "먹다(吃)的词干+ -습니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "약속",
@@ -927,7 +973,9 @@
         "meaning": "有……",
         "note": "있다+ -습니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "어제",
@@ -964,7 +1012,9 @@
         "meaning": "下了（雨）",
         "note": "오다(来/下)的词干+ -았-+ -습니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "언제",
@@ -996,7 +1046,9 @@
         "meaning": "有吗（敬语）",
         "note": "있다(有)的词干+ -으시-+ -어요"
       }
-    ]
+    ],
+    "sentenceType": "疑问句",
+    "formalityLevel": "泛尊阶（해요体）"
   },
   {
     "korean": "오늘",
@@ -1038,7 +1090,9 @@
         "meaning": "好",
         "note": "좋다(好)的词干+ -습니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "오전",
@@ -1075,7 +1129,9 @@
         "meaning": "有……",
         "note": "있다+ -습니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "오후",
@@ -1112,7 +1168,9 @@
         "meaning": "去了一趟回来了",
         "note": "다녀오다(去一趟回来)的词干+ -았-+ -습니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "요리하다",
@@ -1154,7 +1212,9 @@
         "note": "요리하다(做饭)的词干+ -ㅂ니다",
         "isTarget": true
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "요일",
@@ -1186,7 +1246,9 @@
         "note": "요일(星期)+이다+ -ㅂ니까",
         "isTarget": true
       }
-    ]
+    ],
+    "sentenceType": "疑问句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "운동하다",
@@ -1218,7 +1280,9 @@
         "note": "운동하다(运动)的词干+ -ㅂ니다",
         "isTarget": true
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "월요일",
@@ -1250,7 +1314,9 @@
         "meaning": "忙",
         "note": "바쁘다(忙)的词干+ -ㅂ니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "이미",
@@ -1287,7 +1353,9 @@
         "meaning": "结束了",
         "note": "끝나다(结束)的词干+ -았-+ -습니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "일어나다",
@@ -1324,7 +1392,9 @@
         "note": "일어나다(起床)的词干+ -ㅂ니다",
         "isTarget": true
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "일요일",
@@ -1356,7 +1426,9 @@
         "meaning": "休息",
         "note": "쉬다(休息)的词干+ -ㅂ니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "일하다",
@@ -1393,7 +1465,9 @@
         "note": "일하다(工作)的词干+ -ㅂ니다",
         "isTarget": true
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "입다",
@@ -1435,7 +1509,9 @@
         "note": "입다(穿)的词干+ -었-+ -습니다",
         "isTarget": true
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "자다",
@@ -1477,7 +1553,9 @@
         "note": "자다(睡觉)的词干+ -ㅂ니다",
         "isTarget": true
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "저녁",
@@ -1519,7 +1597,9 @@
         "meaning": "吃饭了",
         "note": "식사하다(吃饭)的词干+ -았-+ -습니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "점심",
@@ -1551,7 +1631,9 @@
         "meaning": "吃",
         "note": "먹다(吃)的词干+ -습니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "지금",
@@ -1583,7 +1665,9 @@
         "meaning": "正在做什么",
         "note": "하다(做)的词干+ -고 있다(正在)+ -ㅂ니까"
       }
-    ]
+    ],
+    "sentenceType": "疑问句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "청소하다",
@@ -1615,7 +1699,9 @@
         "note": "청소하다(打扫)的词干+ -ㅂ니다",
         "isTarget": true
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "토요일",
@@ -1642,7 +1728,9 @@
         "meaning": "睡觉",
         "note": "자다(睡觉)的词干+ -ㅂ니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "하루",
@@ -1674,7 +1762,9 @@
         "meaning": "辛苦了",
         "note": "힘들다(辛苦)的词干+ -었-+ -습니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "항상",
@@ -1711,7 +1801,9 @@
         "meaning": "打招呼",
         "note": "인사하다(打招呼)的词干+ -ㅂ니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "화요일",
@@ -1743,7 +1835,9 @@
         "meaning": "学",
         "note": "배우다(学)的词干+ -ㅂ니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "회의",
@@ -1780,6 +1874,8 @@
         "meaning": "有……",
         "note": "있다+ -습니다"
       }
-    ]
+    ],
+    "sentenceType": "陈述句",
+    "formalityLevel": "尊敬阶（합니다体）"
   }
 ]

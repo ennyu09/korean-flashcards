@@ -31,12 +31,12 @@
       {
         "text": "가볍습니다",
         "meaning": "轻",
-        "note": "가볍다(轻)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "note": "가볍다(轻)的词干+ -습니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ],
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "같다",
@@ -80,12 +80,12 @@
       {
         "text": "같습니다",
         "meaning": "一样",
-        "note": "같다(一样)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "note": "같다(一样)的词干+ -습니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ],
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "귀엽다",
@@ -114,12 +114,12 @@
       {
         "text": "귀엽습니다",
         "meaning": "可爱",
-        "note": "귀엽다(可爱)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "note": "귀엽다(可爱)的词干+ -습니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ],
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "기쁘다",
@@ -153,12 +153,12 @@
       {
         "text": "기뻤습니다",
         "meaning": "高兴",
-        "note": "기쁘다(高兴)的词干（으不规则：词干末尾的으在元音开头的语尾前脱落，与-어合并为-어）+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）",
+        "note": "기쁘다(高兴)的词干（으不规则：词干末尾的으在元音开头的语尾前脱落，与-어合并为-어）+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ],
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "길다",
@@ -197,12 +197,12 @@
       {
         "text": "깁니다",
         "meaning": "长",
-        "note": "길다(长)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）（ㄹ脱落）",
+        "note": "길다(长)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）（ㄹ脱落）",
         "isTarget": true
       }
     ],
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "깨끗하다",
@@ -232,11 +232,11 @@
       {
         "text": "청소했습니다",
         "meaning": "打扫了",
-        "note": "청소하다(打扫)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "청소하다(打扫)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ],
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "나쁘다",
@@ -270,12 +270,12 @@
       {
         "text": "나쁩니다",
         "meaning": "坏",
-        "note": "나쁘다(坏)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "note": "나쁘다(坏)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ],
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "낮다",
@@ -314,12 +314,12 @@
       {
         "text": "낮습니다",
         "meaning": "低",
-        "note": "낮다(低)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "note": "낮다(低)的词干+ -습니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ],
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "넓다",
@@ -353,12 +353,12 @@
       {
         "text": "넓습니다",
         "meaning": "宽敞",
-        "note": "넓다(宽)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "note": "넓다(宽)的词干+ -습니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ],
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "높다",
@@ -392,12 +392,12 @@
       {
         "text": "높습니다",
         "meaning": "高",
-        "note": "높다(高)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "note": "높다(高)的词干+ -습니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ],
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "누구",
@@ -431,7 +431,7 @@
       }
     ],
     "sentenceType": "疑问句",
-    "formalityLevel": "非格式体敬语（해요体）"
+    "formalityLevel": "泛尊阶（해요体）"
   },
   {
     "korean": "느리다",
@@ -470,12 +470,12 @@
       {
         "text": "느립니다",
         "meaning": "慢",
-        "note": "느리다(慢)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "note": "느리다(慢)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ],
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "늦다",
@@ -504,12 +504,12 @@
       {
         "text": "늦었습니다",
         "meaning": "迟到了",
-        "note": "늦다(迟)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）",
+        "note": "늦다(迟)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ],
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "다르다",
@@ -538,12 +538,12 @@
       {
         "text": "다릅니다",
         "meaning": "不同",
-        "note": "다르다(不同)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "note": "다르다(不同)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ],
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "더럽다",
@@ -573,11 +573,11 @@
       {
         "text": "씻으세요",
         "meaning": "请洗",
-        "note": "씻다(洗)的词干+ -으시-（尊敬阶标记）+ -어요（非格式体敬语终结词尾，해요体）"
+        "note": "씻다(洗)的词干+ -으시-（尊敬阶标记）+ -어요（泛尊阶终结词尾，해요体）"
       }
     ],
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "덥다",
@@ -611,12 +611,12 @@
       {
         "text": "덥습니다",
         "meaning": "热",
-        "note": "덥다(热)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "note": "덥다(热)的词干+ -습니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ],
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "따뜻하다",
@@ -650,12 +650,12 @@
       {
         "text": "따뜻합니다",
         "meaning": "暖和",
-        "note": "따뜻하다(暖和)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "note": "따뜻하다(暖和)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ],
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "뜨겁다",
@@ -684,12 +684,12 @@
       {
         "text": "뜨겁습니다",
         "meaning": "烫",
-        "note": "뜨겁다(烫)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "note": "뜨겁다(烫)的词干+ -습니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ],
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "많다",
@@ -723,12 +723,12 @@
       {
         "text": "많습니다",
         "meaning": "多",
-        "note": "많다(多)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "note": "많다(多)的词干+ -습니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ],
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "맛없다",
@@ -762,12 +762,12 @@
       {
         "text": "맛없습니다",
         "meaning": "不好吃",
-        "note": "맛없다(不好吃)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "note": "맛없다(不好吃)的词干+ -습니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ],
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "맛있다",
@@ -806,12 +806,12 @@
       {
         "text": "맛있습니다",
         "meaning": "好吃",
-        "note": "맛있다(好吃)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "note": "맛있다(好吃)的词干+ -습니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ],
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "멋있다",
@@ -861,11 +861,11 @@
       {
         "text": "입습니다",
         "meaning": "穿",
-        "note": "입다(穿)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "입다(穿)的词干+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ],
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "무겁다",
@@ -899,12 +899,12 @@
       {
         "text": "무겁습니다",
         "meaning": "重",
-        "note": "무겁다(重)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "note": "무겁다(重)的词干+ -습니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ],
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "무슨",
@@ -933,7 +933,7 @@
       }
     ],
     "sentenceType": "疑问句",
-    "formalityLevel": "非格式体敬语（해요体）"
+    "formalityLevel": "泛尊阶（해요体）"
   },
   {
     "korean": "무엇",
@@ -957,12 +957,12 @@
       {
         "text": "무엇입니까",
         "meaning": "是什么",
-        "note": "무엇(什么)+이다+ -ㅂ니까（疑问句·格式体敬语终结词尾）",
+        "note": "무엇(什么)+이다+ -ㅂ니까（疑问句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ],
     "sentenceType": "疑问句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "뭐",
@@ -1025,12 +1025,12 @@
       {
         "text": "바쁩니다",
         "meaning": "忙",
-        "note": "바쁘다(忙)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "note": "바쁘다(忙)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ],
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "밝다",
@@ -1064,12 +1064,12 @@
       {
         "text": "밝습니다",
         "meaning": "明亮",
-        "note": "밝다(明亮)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "note": "밝다(明亮)的词干+ -습니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ],
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "비싸다",
@@ -1103,12 +1103,12 @@
       {
         "text": "비쌉니다",
         "meaning": "贵",
-        "note": "비싸다(贵)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "note": "비싸다(贵)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ],
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "빠르다",
@@ -1142,12 +1142,12 @@
       {
         "text": "빠릅니다",
         "meaning": "快",
-        "note": "빠르다(快)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "note": "빠르다(快)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ],
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "싸다",
@@ -1176,12 +1176,12 @@
       {
         "text": "쌉니다",
         "meaning": "便宜",
-        "note": "싸다(便宜)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "note": "싸다(便宜)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ],
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "homonymIndex": "05"
   },
   {
@@ -1202,11 +1202,11 @@
       {
         "text": "시작해 보겠습니다",
         "meaning": "要试着开始",
-        "note": "시작하다(开始)的词干+ -아/어 보다(尝试)+ -겠-（意志/推测·将来时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "시작하다(开始)的词干+ -아/어 보다(尝试)+ -겠-（意志/推测·将来时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ],
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "쉽다",
@@ -1240,12 +1240,12 @@
       {
         "text": "쉽습니다",
         "meaning": "容易",
-        "note": "쉽다(容易)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "note": "쉽다(容易)的词干+ -습니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ],
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "슬프다",
@@ -1279,12 +1279,12 @@
       {
         "text": "슬펐습니다",
         "meaning": "悲伤",
-        "note": "슬프다(悲伤)的词干（으不规则：词干末尾的으在元音开头的语尾前脱落，与-어合并为-어）+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）",
+        "note": "슬프다(悲伤)的词干（으不规则：词干末尾的으在元音开头的语尾前脱落，与-어合并为-어）+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ],
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "시끄럽다",
@@ -1313,12 +1313,12 @@
       {
         "text": "시끄럽습니다",
         "meaning": "吵闹",
-        "note": "시끄럽다(吵)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "note": "시끄럽다(吵)的词干+ -습니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ],
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "시원하다",
@@ -1347,12 +1347,12 @@
       {
         "text": "시원합니다",
         "meaning": "凉爽",
-        "note": "시원하다(凉爽)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "note": "시원하다(凉爽)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ],
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "아름답다",
@@ -1381,12 +1381,12 @@
       {
         "text": "아름답습니다",
         "meaning": "美丽",
-        "note": "아름답다(美丽)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "note": "아름답다(美丽)的词干+ -습니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ],
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "아프다",
@@ -1415,12 +1415,12 @@
       {
         "text": "아픕니다",
         "meaning": "疼",
-        "note": "아프다(疼)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "note": "아프다(疼)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ],
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "어둡다",
@@ -1449,12 +1449,12 @@
       {
         "text": "어둡습니다",
         "meaning": "黑暗",
-        "note": "어둡다(黑暗)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "note": "어둡다(黑暗)的词干+ -습니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ],
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "어디",
@@ -1479,11 +1479,11 @@
       {
         "text": "계세요",
         "meaning": "在（敬语）",
-        "note": "있다(在)的敬语형계시다+ -어요（非格式体敬语终结词尾，해요体）"
+        "note": "있다(在)的敬语형계시다+ -어요（泛尊阶终结词尾，해요体）"
       }
     ],
     "sentenceType": "疑问句",
-    "formalityLevel": "非格式体敬语（해요体）"
+    "formalityLevel": "泛尊阶（해요体）"
   },
   {
     "korean": "어떤",
@@ -1513,11 +1513,11 @@
       {
         "text": "좋아하세요",
         "meaning": "喜欢吗（敬语）",
-        "note": "좋아하다(喜欢)的词干+ -시-（尊敬阶标记）+ -어요（非格式体敬语终结词尾，해요体）"
+        "note": "좋아하다(喜欢)的词干+ -시-（尊敬阶标记）+ -어요（泛尊阶终结词尾，해요体）"
       }
     ],
     "sentenceType": "疑问句",
-    "formalityLevel": "非格式体敬语（해요体）"
+    "formalityLevel": "泛尊阶（해요体）"
   },
   {
     "korean": "어렵다",
@@ -1551,12 +1551,12 @@
       {
         "text": "어렵습니다",
         "meaning": "难",
-        "note": "어렵다(难)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "note": "어렵다(难)的词干+ -습니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ],
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "얼마나",
@@ -1596,11 +1596,11 @@
       {
         "text": "걸려요",
         "meaning": "需要（花费）",
-        "note": "걸리다(花费)的词干+ -어요（非格式体敬语终结词尾，해요体）"
+        "note": "걸리다(花费)的词干+ -어요（泛尊阶终结词尾，해요体）"
       }
     ],
     "sentenceType": "疑问句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "예쁘다",
@@ -1634,12 +1634,12 @@
       {
         "text": "예쁩니다",
         "meaning": "漂亮",
-        "note": "예쁘다(漂亮)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "note": "예쁘다(漂亮)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ],
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "왜",
@@ -1664,11 +1664,11 @@
       {
         "text": "늦었어요",
         "meaning": "迟到了",
-        "note": "늦다(迟)的词干+ -었-（过去时标记）+ -어요（非格式体敬语终结词尾，해요体）"
+        "note": "늦다(迟)的词干+ -었-（过去时标记）+ -어요（泛尊阶终结词尾，해요体）"
       }
     ],
     "sentenceType": "疑问句",
-    "formalityLevel": "非格式体敬语（해요体）"
+    "formalityLevel": "泛尊阶（해요体）"
   },
   {
     "korean": "작다",
@@ -1702,12 +1702,12 @@
       {
         "text": "작습니다",
         "meaning": "小",
-        "note": "작다(小)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "note": "작다(小)的词干+ -습니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ],
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "재미없다",
@@ -1741,12 +1741,12 @@
       {
         "text": "재미없습니다",
         "meaning": "无趣",
-        "note": "재미없다(无趣)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "note": "재미없다(无趣)的词干+ -습니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ],
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "재미있다",
@@ -1780,12 +1780,12 @@
       {
         "text": "재미있습니다",
         "meaning": "有趣",
-        "note": "재미있다(有趣)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "note": "재미있다(有趣)的词干+ -습니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ],
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "적다",
@@ -1824,12 +1824,12 @@
       {
         "text": "적습니다",
         "meaning": "少",
-        "note": "적다(少)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "note": "적다(少)的词干+ -습니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ],
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "homonymIndex": "02"
   },
   {
@@ -1859,12 +1859,12 @@
       {
         "text": "조용합니다",
         "meaning": "安静",
-        "note": "조용하다(安静)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "note": "조용하다(安静)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ],
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "좁다",
@@ -1898,12 +1898,12 @@
       {
         "text": "좁습니다",
         "meaning": "窄",
-        "note": "좁다(窄)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "note": "좁다(窄)的词干+ -습니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ],
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "좋다",
@@ -1937,12 +1937,12 @@
       {
         "text": "좋습니다",
         "meaning": "好",
-        "note": "좋다(好)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "note": "좋다(好)的词干+ -습니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ],
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "짧다",
@@ -1977,11 +1977,11 @@
       {
         "text": "잘랐습니다",
         "meaning": "剪了",
-        "note": "자르다(剪)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "자르다(剪)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ],
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "차갑다",
@@ -2010,12 +2010,12 @@
       {
         "text": "차갑습니다",
         "meaning": "凉",
-        "note": "차갑다(凉)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "note": "차갑다(凉)的词干+ -습니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ],
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "춥다",
@@ -2044,12 +2044,12 @@
       {
         "text": "춥습니다",
         "meaning": "冷",
-        "note": "춥다(冷)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "note": "춥다(冷)的词干+ -습니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ],
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "크다",
@@ -2088,12 +2088,12 @@
       {
         "text": "큽니다",
         "meaning": "大",
-        "note": "크다(大)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "note": "크다(大)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ],
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "편하다",
@@ -2127,12 +2127,12 @@
       {
         "text": "편합니다",
         "meaning": "舒服",
-        "note": "편하다(舒服)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "note": "편하다(舒服)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ],
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   },
   {
     "korean": "힘들다",
@@ -2161,11 +2161,11 @@
       {
         "text": "힘듭니다",
         "meaning": "辛苦",
-        "note": "힘들다(辛苦)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "note": "힘들다(辛苦)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ],
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）"
+    "formalityLevel": "尊敬阶（합니다体）"
   }
 ]

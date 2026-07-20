@@ -8,7 +8,7 @@
     "example": "음, 생각해 볼게요.",
     "exampleTranslation": "嗯，我会考虑看看。",
     "sentenceType": "陈述句",
-    "formalityLevel": "非格式体敬语（해요体）",
+    "formalityLevel": "泛尊阶（해요体）",
     "grammarBreakdown": [
       {
         "text": "음",
@@ -19,7 +19,7 @@
       {
         "text": "생각해 볼게요",
         "meaning": "我会考虑看看",
-        "note": "생각하다(想)的词干+ -아/어 보다(尝试)+ -ㄹ게요(表意愿的非格式体敬语终结词尾)"
+        "note": "생각하다(想)的词干+ -아/어 보다(尝试)+ -ㄹ게요(表意愿的泛尊阶终结词尾)"
       }
     ]
   },
@@ -57,7 +57,7 @@
     "example": "이 사람은 제 친구입니다.",
     "exampleTranslation": "这个人是我的朋友。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "이",
@@ -78,7 +78,7 @@
       {
         "text": "친구입니다",
         "meaning": "是朋友",
-        "note": "친구(朋友)+이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "친구(朋友)+이다+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -91,7 +91,7 @@
     "example": "이거 얼마예요?",
     "exampleTranslation": "这个多少钱？",
     "sentenceType": "疑问句",
-    "formalityLevel": "非格式体敬语（해요体）",
+    "formalityLevel": "泛尊阶（해요体）",
     "grammarBreakdown": [
       {
         "text": "이거",
@@ -115,7 +115,7 @@
     "example": "이것은 제 가방입니다.",
     "exampleTranslation": "这是我的包。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "이것은",
@@ -131,7 +131,7 @@
       {
         "text": "가방입니다",
         "meaning": "是包",
-        "note": "가방(包)+이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "가방(包)+이다+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -144,7 +144,7 @@
     "example": "이곳은 처음입니다.",
     "exampleTranslation": "这个地方我是第一次来。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "이곳은",
@@ -155,7 +155,7 @@
       {
         "text": "처음입니다",
         "meaning": "是第一次",
-        "note": "처음(第一次)+이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "처음(第一次)+이다+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -168,7 +168,7 @@
     "example": "이날은 정말 특별했습니다.",
     "exampleTranslation": "这一天真的很特别。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "이날은",
@@ -184,7 +184,7 @@
       {
         "text": "특별했습니다",
         "meaning": "特别",
-        "note": "특별하다(特别)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "특별하다(特别)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -221,7 +221,7 @@
     "example": "이때 전화가 왔습니다.",
     "exampleTranslation": "这时候电话来了。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "이때",
@@ -237,7 +237,7 @@
       {
         "text": "왔습니다",
         "meaning": "来了",
-        "note": "오다(来)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "오다(来)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -250,7 +250,7 @@
     "example": "이런 일은 처음입니다.",
     "exampleTranslation": "这样的事我是第一次遇到。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "이런",
@@ -266,7 +266,7 @@
       {
         "text": "처음입니다",
         "meaning": "是第一次",
-        "note": "처음(第一次)+이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "처음(第一次)+이다+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -279,7 +279,7 @@
     "example": "결과가 이렇습니다.",
     "exampleTranslation": "结果就是这样。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "결과가",
@@ -289,7 +289,7 @@
       {
         "text": "이렇습니다",
         "meaning": "这样",
-        "note": "이렇다(这样)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "note": "이렇다(这样)的词干+ -습니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ]
@@ -303,7 +303,7 @@
     "example": "이쪽으로 오세요.",
     "exampleTranslation": "请到这边来。",
     "sentenceType": "命令句（请求）",
-    "formalityLevel": "非格式体敬语（해요体）",
+    "formalityLevel": "泛尊阶（해요体）",
     "grammarBreakdown": [
       {
         "text": "이쪽으로",
@@ -314,7 +314,7 @@
       {
         "text": "오세요",
         "meaning": "请来",
-        "note": "오다(来)的词干+ -시-（尊敬阶标记）+ -어요（请求/命令·非格式体敬语终结词尾）"
+        "note": "오다(来)的词干+ -시-（尊敬阶标记）+ -어요（请求/命令·泛尊阶终结词尾）"
       }
     ]
   },
@@ -327,7 +327,7 @@
     "example": "주소를 잘못 적었습니다.",
     "exampleTranslation": "地址写错了。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "주소를",
@@ -343,7 +343,7 @@
       {
         "text": "적었습니다",
         "meaning": "写了",
-        "note": "적다(写)的词干+ -었-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "적다(写)的词干+ -었-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -357,7 +357,7 @@
     "example": "저 건물이 우리 학교입니다.",
     "exampleTranslation": "那栋楼是我们学校。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "저",
@@ -373,7 +373,7 @@
       {
         "text": "우리 학교입니다",
         "meaning": "是我们学校",
-        "note": "우리(我们)+학교(学校)+이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "우리(我们)+학교(学校)+이다+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -387,7 +387,7 @@
     "example": "저, 있잖아요, 드릴 말씀이 있어요.",
     "exampleTranslation": "那个，我有话要跟您说。",
     "sentenceType": "陈述句",
-    "formalityLevel": "非格式体敬语（해요体）",
+    "formalityLevel": "泛尊阶（해요体）",
     "grammarBreakdown": [
       {
         "text": "저",
@@ -398,7 +398,7 @@
       {
         "text": "있잖아요",
         "meaning": "你知道的",
-        "note": "있다(有)的词干+ -잖아요(表提醒的非格式体敬语终结词尾)"
+        "note": "있다(有)的词干+ -잖아요(表提醒的泛尊阶终结词尾)"
       },
       {
         "text": "드릴 말씀이 있어요",
@@ -416,7 +416,7 @@
     "example": "저거 뭐예요?",
     "exampleTranslation": "那个是什么？",
     "sentenceType": "疑问句",
-    "formalityLevel": "非格式体敬语（해요体）",
+    "formalityLevel": "泛尊阶（해요体）",
     "grammarBreakdown": [
       {
         "text": "저거",
@@ -440,7 +440,7 @@
     "example": "저것은 산입니다.",
     "exampleTranslation": "那个是山。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "저것은",
@@ -451,7 +451,7 @@
       {
         "text": "산입니다",
         "meaning": "是山",
-        "note": "산(山)+이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "산(山)+이다+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -464,7 +464,7 @@
     "example": "저곳에 꼭 가 보고 싶습니다.",
     "exampleTranslation": "一定要去那个地方看看。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "저곳에",
@@ -480,7 +480,7 @@
       {
         "text": "가 보고 싶습니다",
         "meaning": "想去看看",
-        "note": "가다(去)+ -아/어 보다(尝试)+ -고 싶다(想要)+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "가다(去)+ -아/어 보다(尝试)+ -고 싶다(想要)+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -493,7 +493,7 @@
     "example": "저기에 병원이 있습니다.",
     "exampleTranslation": "那里有医院。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "저기에",
@@ -509,7 +509,7 @@
       {
         "text": "있습니다",
         "meaning": "有",
-        "note": "있다(有)+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "있다(有)+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -522,7 +522,7 @@
     "example": "저런 사람은 처음 봅니다.",
     "exampleTranslation": "那样的人我是第一次见。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "저런",
@@ -543,7 +543,7 @@
       {
         "text": "봅니다",
         "meaning": "看见",
-        "note": "보다(看)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "보다(看)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -556,7 +556,7 @@
     "example": "상황이 저렇습니다.",
     "exampleTranslation": "情况就是那样。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "상황이",
@@ -566,7 +566,7 @@
       {
         "text": "저렇습니다",
         "meaning": "那样",
-        "note": "저렇다(那样)的词干+ -습니다（陈述句·格式体敬语终结词尾）",
+        "note": "저렇다(那样)的词干+ -습니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ]
@@ -580,7 +580,7 @@
     "example": "저쪽에 화장실이 있습니다.",
     "exampleTranslation": "那边有洗手间。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "저쪽에",
@@ -596,7 +596,7 @@
       {
         "text": "있습니다",
         "meaning": "有",
-        "note": "있다(有)+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "있다(有)+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -609,7 +609,7 @@
     "example": "이 가격은 적당합니다.",
     "exampleTranslation": "这个价格挺合适。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "이 가격은",
@@ -619,7 +619,7 @@
       {
         "text": "적당합니다",
         "meaning": "适当",
-        "note": "적당하다(适当)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "note": "적당하다(适当)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ]
@@ -633,7 +633,7 @@
     "example": "날씨가 점점 추워집니다.",
     "exampleTranslation": "天气渐渐变冷了。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "날씨가",
@@ -649,7 +649,7 @@
       {
         "text": "추워집니다",
         "meaning": "变冷",
-        "note": "춥다(冷)的词干变化+ -어지다(变得……)+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "춥다(冷)的词干变化+ -어지다(变得……)+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -662,7 +662,7 @@
     "example": "제 이름은 김민수입니다.",
     "exampleTranslation": "我的名字是金民秀。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "제",
@@ -678,7 +678,7 @@
       {
         "text": "김민수입니다",
         "meaning": "是金民秀",
-        "note": "김민수(人名)+이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "김민수(人名)+이다+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -691,7 +691,7 @@
     "example": "조금씩 나아지고 있습니다.",
     "exampleTranslation": "正在一点点地好转。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "조금씩",
@@ -702,7 +702,7 @@
       {
         "text": "나아지고 있습니다",
         "meaning": "正在好转",
-        "note": "낫다(好转)的词干变化+ -아지다(变得……)+ -고 있다(正在)+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "낫다(好转)的词干变化+ -아지다(变得……)+ -고 있다(正在)+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -715,7 +715,7 @@
     "example": "저는 주로 지하철을 이용합니다.",
     "exampleTranslation": "我主要坐地铁。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "저는",
@@ -736,7 +736,7 @@
       {
         "text": "이용합니다",
         "meaning": "利用，使用",
-        "note": "이용하다(利用)的词干+ -ㅂ니다（陈述句·格式体敬语终结词尾）"
+        "note": "이용하다(利用)的词干+ -ㅂ니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -749,7 +749,7 @@
     "example": "지금 회의 중입니다.",
     "exampleTranslation": "现在正在开会。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "지금",
@@ -764,7 +764,7 @@
       {
         "text": "중입니다",
         "meaning": "正在……中",
-        "note": "중(依存名词，……之中)+이다+ -ㅂ니다（陈述句·格式体敬语终结词尾）",
+        "note": "중(依存名词，……之中)+이다+ -ㅂ니다（陈述句·尊敬阶终结词尾）",
         "isTarget": true
       }
     ]
@@ -778,7 +778,7 @@
     "example": "오른쪽 방향으로 가세요.",
     "exampleTranslation": "请往右边走。",
     "sentenceType": "命令句（请求）",
-    "formalityLevel": "非格式体敬语（해요体）",
+    "formalityLevel": "泛尊阶（해요体）",
     "grammarBreakdown": [
       {
         "text": "오른쪽",
@@ -794,7 +794,7 @@
       {
         "text": "가세요",
         "meaning": "请走",
-        "note": "가다(去)的词干+ -시-（尊敬阶标记）+ -어요（请求/命令·非格式体敬语终结词尾）"
+        "note": "가다(去)的词干+ -시-（尊敬阶标记）+ -어요（请求/命令·泛尊阶终结词尾）"
       }
     ]
   },
@@ -807,7 +807,7 @@
     "example": "오늘 날씨가 참 좋습니다.",
     "exampleTranslation": "今天天气真好。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "오늘",
@@ -828,7 +828,7 @@
       {
         "text": "좋습니다",
         "meaning": "好",
-        "note": "좋다(好)的词干+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "좋다(好)的词干+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -841,7 +841,7 @@
     "example": "열심히 했습니다. 하지만 결과가 안 좋았습니다.",
     "exampleTranslation": "努力做了。但是结果不好。",
     "sentenceType": "陈述句",
-    "formalityLevel": "格式体敬语（합니다体）",
+    "formalityLevel": "尊敬阶（합니다体）",
     "grammarBreakdown": [
       {
         "text": "열심히 했습니다",
@@ -867,7 +867,7 @@
       {
         "text": "좋았습니다",
         "meaning": "好",
-        "note": "좋다(好)的词干+ -았-（过去时标记）+ -습니다（陈述句·格式体敬语终结词尾）"
+        "note": "좋다(好)的词干+ -았-（过去时标记）+ -습니다（陈述句·尊敬阶终结词尾）"
       }
     ]
   },
@@ -880,7 +880,7 @@
     "example": "물 한 잔 주세요.",
     "exampleTranslation": "请给我一杯水。",
     "sentenceType": "命令句（请求）",
-    "formalityLevel": "非格式体敬语（해요体）",
+    "formalityLevel": "泛尊阶（해요体）",
     "grammarBreakdown": [
       {
         "text": "물",
@@ -896,7 +896,7 @@
       {
         "text": "주세요",
         "meaning": "请给我",
-        "note": "주다(给)的词干+ -시-（尊敬阶标记）+ -어요（请求/命令·非格式体敬语终结词尾）"
+        "note": "주다(给)的词干+ -시-（尊敬阶标记）+ -어요（请求/命令·泛尊阶终结词尾）"
       }
     ]
   }
