@@ -1,0 +1,22 @@
+{
+  "name": "korean-flashcards",
+  "version": "1.0.0",
+  "description": "Korean vocabulary flashcards with spaced repetition",
+  "private": true,
+  "scripts": {
+    "dev": "python3 -m http.server 5500",
+    "generate-audio": "node scripts/generate-audio.js",
+    "regenerate-romanization": "node scripts/regenerate-romanization.js"
+  },
+  "keywords": [
+    "korean",
+    "flashcards",
+    "vocabulary",
+    "learning"
+  ],
+  "author": "ennyu09",
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  }
+}
