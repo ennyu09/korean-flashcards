@@ -183,7 +183,7 @@
   }
   .info-entry .info-arrow{font-size:1rem; color:var(--ink-soft);}
   .info-page{
-    max-width:min(760px, 90vw);
+    max-width:min(1040px, 92vw);
     margin:0 auto;
     text-align:left;
     background:var(--white);
@@ -202,7 +202,8 @@
   }
   .info-page h4:first-child{margin-top:0;}
   .info-page p{margin:0 0 8px;}
-  .info-page ul{margin:0 0 8px; padding-left:20px;}
+  .info-page ul, .info-page ol{margin:0 0 8px; padding-left:20px;}
+  .info-page ol li{margin-bottom:4px;}
   .info-page h5{
     font-family:'Song Myung', serif;
     font-size:clamp(0.875rem, 0.8rem + 0.3vw, 1.125rem);
@@ -214,7 +215,6 @@
     border-top:1px solid rgba(0,0,0,0.08);
     margin:18px 0;
   }
-  .grammar-page{max-width:min(1040px, 92vw);}
   .grammar-page .grammar-title{margin-top:0; font-size:clamp(1rem, 0.9rem + 0.4vw, 1.375rem);}
   .grammar-page .grammar-toc{
     margin:0 0 8px;
@@ -342,7 +342,7 @@
     margin:0;
   }
   .app-sub{
-    font-size:0.7812rem;
+    font-size:clamp(0.8125rem, 0.78rem + 0.2vw, 0.9375rem);
     color:var(--ink-soft);
     margin:4px 0 0;
     letter-spacing:.2px;
@@ -541,7 +541,7 @@
     background:none;
     border:none;
     color:var(--ink-soft);
-    font-size:0.7812rem;
+    font-size:clamp(0.8125rem, 0.78rem + 0.2vw, 0.9375rem);
     cursor:pointer;
     padding:6px 0;
     margin-bottom:10px;
@@ -549,7 +549,7 @@
   }
   .current-unit-label{
     font-family:'Song Myung', serif;
-    font-size:0.9375rem;
+    font-size:clamp(1rem, 0.95rem + 0.3vw, 1.1875rem);
     color:var(--ink);
     text-align:center;
     margin:0 0 4px;
@@ -560,7 +560,7 @@
     display:flex;
     justify-content:space-between;
     align-items:center;
-    font-size:0.7812rem;
+    font-size:clamp(0.875rem, 0.83rem + 0.2vw, 1rem);
     color:var(--ink-soft);
     margin:10px 2px 6px;
     font-family:'JetBrains Mono', monospace;
@@ -692,7 +692,7 @@
     gap:10px;
     width:100%;
     max-width:300px;
-    margin-bottom:18px;
+    margin-bottom:6px;
   }
   .level-badge{
     flex:0 0 auto;
@@ -744,7 +744,7 @@
     font-size:0.6875rem;
     color:var(--ink-soft);
     text-align:center;
-    margin:2px 0 16px;
+    margin:0 0 28px;
   }
 
   .kr-word-row{
@@ -953,6 +953,7 @@
     margin-bottom:4px;
   }
   .example-kr{
+    font-family:'Noto Sans KR', sans-serif;
     font-size:clamp(1rem, 0.85rem + 1vw, 1.35rem);
     color:var(--ink);
     margin:0;
@@ -1023,13 +1024,13 @@
     color:var(--ink-soft);
     border-radius:999px;
     padding:6px 14px;
-    font-size:0.7812rem;
+    font-size:clamp(0.8125rem, 0.78rem + 0.2vw, 0.9375rem);
     cursor:pointer;
   }
   .nav-btn:disabled{opacity:.35; cursor:not-allowed;}
   .card-nav-pos{
     font-family:'JetBrains Mono', monospace;
-    font-size:0.7188rem;
+    font-size:clamp(0.75rem, 0.72rem + 0.15vw, 0.875rem);
     color:var(--ink-soft);
   }
 
@@ -1238,16 +1239,18 @@
       <h4>【分类方式】</h4>
       <p>不按传统教材单元编排，而是按生活主题重新组织（打招呼、家庭、日常生活……），由浅入深、贴近实际使用场景，方便按情境记忆。</p>
 
-      <h4>【内容原创声明】</h4>
-      <ul>
-        <li>例句：全部由本站原创撰写，非引用自任何教材、书籍或网站</li>
-        <li>罗马音：依据韩国官方《国语的罗马字表记法》标准生成</li>
+      <h4>【其余内容详解】</h4>
+      <ol>
+        <li>词性与释义：参考国立国语院《한국어기초사전》核实方向，但文字表述为AI撰写，不照搬词典原文</li>
+        <li>罗马音：尽量遵循韩国官方《国语的罗马字表记法》标准生成，个别边界情况（如特殊连音）未逐一核实，如发现错误欢迎指出</li>
+        <li>语音：使用 Google Cloud 语音合成服务生成，如有发音不准确可反馈</li>
+        <li>例句：全部由本站使用AI撰写，非引用自任何教材、书籍或网站</li>
         <li>语法分析：例句附带成分拆解，标注每部分的语法作用，帮助理解句子结构</li>
-        <li>敬阶标注：涉及敬语/非敬语用法的词汇会单独标注，避免误用</li>
-      </ul>
+        <li>敬阶标注：涉及敬语/非敬语用法的词汇会单独标注（尊敬阶/泛尊阶/非敬语三类），避免误用</li>
+      </ol>
 
       <h4>【关于准确性】</h4>
-      <p>词汇释义、词性、罗马音和例句都经过整理和校对，但毕竟是个人项目，难免存在疏漏或不够地道的地方。如果你发现任何错误，非常欢迎点击每张卡片上的"🐛 报错"按钮告诉我，我会尽快修正，谢谢你的帮忙 🙏</p>
+      <p>本站毕竟是个人项目，难免存在疏漏或不够地道的地方。如果你发现任何错误，非常欢迎点击每张卡片上的"🐛 报错"按钮告诉我，我会尽快修正，谢谢你的帮忙 🙏</p>
 
       <h4>【使用说明】</h4>
       <p>本站仅供个人韩语学习交流使用，持续更新中，暂无商业用途。</p>
