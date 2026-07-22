@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>盖章背单词 · 韩语单词闪卡</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
-<link href="https://fonts.googleapis.com/css2?family=Song+Myung&family=Noto+Serif+SC:wght@400;600;700&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Sans+KR:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Song+Myung&family=Nanum+Myeongjo:wght@400;700&family=Noto+Serif+SC:wght@400;600;700&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Sans+KR:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
 <style>
   :root{
     --paper:#EEF2ED;
@@ -775,7 +775,7 @@
   }
   .kr-word{
     font-family:'Song Myung', serif;
-    font-size:clamp(2rem, 1.5rem + 3.8vw, 4rem);
+    font-size:clamp(1.75rem, 1.3rem + 3.5vw, 4rem);
     line-height:1.25;
     color:var(--ink);
     margin:0;
@@ -865,7 +865,7 @@
   .meaning{
     font-family:'Noto Serif SC', serif;
     font-weight:700;
-    font-size:clamp(1.625rem, 1.4rem + 1.1vw, 1.875rem);
+    font-size:clamp(1.4rem, 1.2rem + 1vw, 1.875rem);
     color:var(--ink);
     margin:0;
   }
@@ -930,34 +930,6 @@
   .grammar-table tr.target-row td{background:rgba(178,58,46,0.07);}
   .grammar-table tr.target-row td.gcol-text{color:var(--seal-dark); font-weight:700;}
 
-  /* 手机窄屏下横排三列会把"说明"这种长文本挤压得很小、很难读，改成上下堆叠的卡片式布局 */
-  @media (max-width:479px){
-    .grammar-table thead{display:none;}
-    .grammar-table, .grammar-table tbody, .grammar-table tr, .grammar-table td{
-      display:block;
-      width:100%;
-    }
-    .grammar-table tr{
-      margin-bottom:8px;
-      border:1px solid rgba(0,0,0,0.08);
-      border-radius:10px;
-      padding:8px 10px;
-    }
-    .grammar-table tr:last-child{margin-bottom:0;}
-    .grammar-table td{
-      border-bottom:none;
-      padding:3px 0;
-      white-space:normal;
-    }
-    .grammar-table td::before{
-      content:attr(data-label);
-      display:block;
-      font-size:0.8125em;
-      color:var(--ink-soft);
-      opacity:.7;
-      margin-bottom:1px;
-    }
-  }
   .example-block{
     background:var(--paper);
     border-radius:12px;
@@ -972,7 +944,7 @@
     margin-bottom:4px;
   }
   .example-kr{
-    font-family:'Song Myung', serif;
+    font-family:'Nanum Myeongjo', serif;
     font-weight:400;
     font-size:clamp(1rem, 0.85rem + 1vw, 1.35rem);
     color:var(--ink);
@@ -1074,7 +1046,7 @@
     padding:14px 10px;
     color:var(--white);
     cursor:pointer;
-    text-align:left;
+    text-align:center;
     font-family:'Noto Sans SC', sans-serif;
     font-size:0.9062rem;
     font-weight:700;
