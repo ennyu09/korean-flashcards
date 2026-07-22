@@ -1549,7 +1549,8 @@
                   "st": "陈述句",
                   "fl": "尊敬阶（합니다体）"
                 }
-              ]
+              ],
+              "titleEn": "Greetings & Self-Introduction"
             },
             {
               "id": 2,
@@ -3371,7 +3372,8 @@
                   "st": "陈述句",
                   "fl": "尊敬阶（합니다体）"
                 }
-              ]
+              ],
+              "titleEn": "Numbers & Basic Time Expressions"
             },
             {
               "id": 3,
@@ -5307,7 +5309,8 @@
                   "st": "陈述句",
                   "fl": "尊敬阶（합니다体）"
                 }
-              ]
+              ],
+              "titleEn": "Core Verbs I"
             },
             {
               "id": 4,
@@ -7425,7 +7428,8 @@
                   "st": "陈述句",
                   "fl": "尊敬阶（합니다体）"
                 }
-              ]
+              ],
+              "titleEn": "Core Adjectives & Question Words"
             },
             {
               "id": 5,
@@ -8680,9 +8684,11 @@
                   "st": "陈述句",
                   "fl": "尊敬阶（합니다体）"
                 }
-              ]
+              ],
+              "titleEn": "Core Adverbs I"
             }
-          ]
+          ],
+          "titleEn": "Chapter 1 · Starting From Scratch"
         },
         {
           "title": "Chapter 2 · 打好语法基础",
@@ -9666,7 +9672,8 @@
                   "fl": "尊敬阶（합니다体）",
                   "hi": "03"
                 }
-              ]
+              ],
+              "titleEn": "Basic Grammar Words I"
             },
             {
               "id": 7,
@@ -10574,7 +10581,8 @@
                   "st": "命令句（请求）",
                   "fl": "泛尊阶（해요体）"
                 }
-              ]
+              ],
+              "titleEn": "Basic Grammar Words II"
             },
             {
               "id": 8,
@@ -11455,9 +11463,11 @@
                   "st": "命令句（请求）",
                   "fl": "泛尊阶（해요体）"
                 }
-              ]
+              ],
+              "titleEn": "Basic Grammar Words III"
             }
-          ]
+          ],
+          "titleEn": "Chapter 2 · Building Grammar Foundations"
         },
         {
           "title": "Chapter 3 · 我和我的家人",
@@ -13455,7 +13465,8 @@
                   "st": "陈述句",
                   "fl": "尊敬阶（합니다体）"
                 }
-              ]
+              ],
+              "titleEn": "Family & People"
             },
             {
               "id": 10,
@@ -14696,7 +14707,8 @@
                   "st": "陈述句",
                   "fl": "尊敬阶（합니다体）"
                 }
-              ]
+              ],
+              "titleEn": "Body Parts"
             },
             {
               "id": 11,
@@ -16324,9 +16336,11 @@
                   "st": "陈述句",
                   "fl": "尊敬阶（합니다体）"
                 }
-              ]
+              ],
+              "titleEn": "Health, Emotions & Appearance"
             }
-          ]
+          ],
+          "titleEn": "Chapter 3 · Me and My Family"
         },
         {
           "title": "Chapter 4 · 家里的一天",
@@ -18166,7 +18180,8 @@
                   "st": "陈述句",
                   "fl": "尊敬阶（합니다体）"
                 }
-              ]
+              ],
+              "titleEn": "Daily Life & Time"
             },
             {
               "id": 13,
@@ -19478,7 +19493,8 @@
                   "st": "陈述句",
                   "fl": "尊敬阶（합니다体）"
                 }
-              ]
+              ],
+              "titleEn": "Home Layout & Furniture"
             },
             {
               "id": 14,
@@ -20304,9 +20320,11 @@
                   "st": "陈述句",
                   "fl": "尊敬阶（합니다体）"
                 }
-              ]
+              ],
+              "titleEn": "Clothing & Colors"
             }
-          ]
+          ],
+          "titleEn": "Chapter 4 · A Day at Home"
         },
         {
           "title": "Chapter 5 · 吃喝日常",
@@ -21539,7 +21557,8 @@
                   "st": "陈述句",
                   "fl": "尊敬阶（합니다体）"
                 }
-              ]
+              ],
+              "titleEn": "Food & Ingredients I"
             },
             {
               "id": 16,
@@ -22761,7 +22780,8 @@
                   "st": "陈述句",
                   "fl": "尊敬阶（합니다体）"
                 }
-              ]
+              ],
+              "titleEn": "Food & Ingredients II"
             },
             {
               "id": 17,
@@ -24002,9 +24022,11 @@
                   "st": "陈述句",
                   "fl": "尊敬阶（합니다体）"
                 }
-              ]
+              ],
+              "titleEn": "Food & Ingredients III"
             }
-          ]
+          ],
+          "titleEn": "Chapter 5 · Everyday Food & Drink"
         },
         {
           "title": "Chapter 6 · 出行与消费",
@@ -25430,7 +25452,8 @@
                   "st": "陈述句",
                   "fl": "尊敬阶（합니다体）"
                 }
-              ]
+              ],
+              "titleEn": "Places & Directions I"
             },
             {
               "id": 19,
@@ -26744,7 +26767,8 @@
                   "st": "陈述句",
                   "fl": "尊敬阶（합니다体）"
                 }
-              ]
+              ],
+              "titleEn": "Places & Directions II"
             },
             {
               "id": 20,
@@ -28182,7 +28206,8 @@
                   "st": "陈述句",
                   "fl": "尊敬阶（합니다体）"
                 }
-              ]
+              ],
+              "titleEn": "Transportation & Travel"
             },
             {
               "id": 21,
@@ -29345,7 +29370,8 @@
                   "st": "陈述句",
                   "fl": "尊敬阶（합니다体）"
                 }
-              ]
+              ],
+              "titleEn": "Shopping & Objects I"
             },
             {
               "id": 22,
@@ -30443,9 +30469,11 @@
                   "st": "陈述句",
                   "fl": "尊敬阶（합니다体）"
                 }
-              ]
+              ],
+              "titleEn": "Shopping & Objects II"
             }
-          ]
+          ],
+          "titleEn": "Chapter 6 · Getting Around & Shopping"
         },
         {
           "title": "Chapter 7 · 时间、学习与工作",
@@ -31846,7 +31874,8 @@
                   "st": "陈述句",
                   "fl": "尊敬阶（합니다体）"
                 }
-              ]
+              ],
+              "titleEn": "Time Expressions I"
             },
             {
               "id": 24,
@@ -33161,7 +33190,8 @@
                   "st": "陈述句",
                   "fl": "尊敬阶（합니다体）"
                 }
-              ]
+              ],
+              "titleEn": "Time Expressions II"
             },
             {
               "id": 25,
@@ -34441,7 +34471,8 @@
                   "st": "陈述句",
                   "fl": "尊敬阶（합니다体）"
                 }
-              ]
+              ],
+              "titleEn": "School & Workplace I"
             },
             {
               "id": 26,
@@ -35675,9 +35706,11 @@
                   "st": "陈述句",
                   "fl": "尊敬阶（합니다体）"
                 }
-              ]
+              ],
+              "titleEn": "School & Workplace II"
             }
-          ]
+          ],
+          "titleEn": "Chapter 7 · Time, School & Work"
         },
         {
           "title": "Chapter 8 · 生活与休闲",
@@ -37439,7 +37472,8 @@
                   "st": "陈述句",
                   "fl": "尊敬阶（합니다体）"
                 }
-              ]
+              ],
+              "titleEn": "Relationships & Life"
             },
             {
               "id": 28,
@@ -38827,7 +38861,8 @@
                   "st": "陈述句",
                   "fl": "尊敬阶（합니다体）"
                 }
-              ]
+              ],
+              "titleEn": "Hobbies & Leisure"
             },
             {
               "id": 29,
@@ -40359,7 +40394,8 @@
                   "st": "陈述句",
                   "fl": "尊敬阶（합니다体）"
                 }
-              ]
+              ],
+              "titleEn": "Weather, Nature & Wildlife"
             },
             {
               "id": 30,
@@ -41119,9 +41155,11 @@
                   "st": "陈述句",
                   "fl": "尊敬阶（합니다体）"
                 }
-              ]
+              ],
+              "titleEn": "Communication"
             }
-          ]
+          ],
+          "titleEn": "Chapter 8 · Life & Leisure"
         },
         {
           "title": "Chapter 9 · 情绪与表达补充",
@@ -42449,7 +42487,8 @@
                   "st": "陈述句",
                   "fl": "尊敬阶（합니다体）"
                 }
-              ]
+              ],
+              "titleEn": "More Emotions, Adjectives & Adverbs I"
             },
             {
               "id": 32,
@@ -43632,9 +43671,11 @@
                   "st": "陈述句",
                   "fl": "尊敬阶（합니다体）"
                 }
-              ]
+              ],
+              "titleEn": "More Emotions, Adjectives & Adverbs II"
             }
-          ]
+          ],
+          "titleEn": "Chapter 9 · More Emotions & Expressions"
         },
         {
           "title": "Chapter 10 · 表达力升级",
@@ -44904,7 +44945,8 @@
                   "st": "陈述句",
                   "fl": "尊敬阶（합니다体）"
                 }
-              ]
+              ],
+              "titleEn": "More Core Verbs I"
             },
             {
               "id": 34,
@@ -46209,7 +46251,8 @@
                   "fl": "尊敬阶（합니다体）",
                   "hi": "02"
                 }
-              ]
+              ],
+              "titleEn": "More Core Verbs II"
             },
             {
               "id": 35,
@@ -47449,7 +47492,8 @@
                   "st": "陈述句",
                   "fl": "尊敬阶（합니다体）"
                 }
-              ]
+              ],
+              "titleEn": "More Core Verbs III"
             },
             {
               "id": 36,
@@ -48692,7 +48736,8 @@
                   "st": "陈述句",
                   "fl": "尊敬阶（합니다体）"
                 }
-              ]
+              ],
+              "titleEn": "More Core Verbs IV"
             },
             {
               "id": 37,
@@ -50180,7 +50225,8 @@
                   "fl": "尊敬阶（합니다体）",
                   "hi": "03"
                 }
-              ]
+              ],
+              "titleEn": "Common Expressions & Everyday Vocabulary I"
             },
             {
               "id": 38,
@@ -51669,7 +51715,8 @@
                   "st": "陈述句",
                   "fl": "尊敬阶（합니다体）"
                 }
-              ]
+              ],
+              "titleEn": "Common Expressions & Everyday Vocabulary II"
             },
             {
               "id": 39,
@@ -53169,7 +53216,8 @@
                   "st": "陈述句",
                   "fl": "尊敬阶（합니다体）"
                 }
-              ]
+              ],
+              "titleEn": "Common Expressions & Everyday Vocabulary III"
             },
             {
               "id": 40,
@@ -54680,25 +54728,30 @@
                   "st": "陈述句",
                   "fl": "尊敬阶（합니다体）"
                 }
-              ]
+              ],
+              "titleEn": "Common Expressions & Everyday Vocabulary IV"
             }
-          ]
+          ],
+          "titleEn": "Chapter 10 · Leveling Up Your Expression"
         }
-      ]
+      ],
+      "labelEn": "Beginner"
     },
     {
       "id": "intermediate",
       "labelKo": "중급",
       "labelZh": "中级",
       "status": "coming_soon",
-      "chapters": []
+      "chapters": [],
+      "labelEn": "Intermediate"
     },
     {
       "id": "advanced",
       "labelKo": "고급",
       "labelZh": "高级",
       "status": "coming_soon",
-      "chapters": []
+      "chapters": [],
+      "labelEn": "Advanced"
     }
   ]
 }

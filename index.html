@@ -6,6 +6,7 @@
 <title>盖章背单词 · 韩语单词闪卡</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Song+Myung&family=Noto+Serif+SC:wght@400;600;700&family=Noto+Sans+SC:wght@400;500;700&family=Noto+Sans+KR:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" as="style" crossorigin href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@latest/dist/web/static/pretendard.css">
 <style>
   :root{
     --paper:#EEF2ED;
@@ -46,6 +47,7 @@
   .app-header{
     text-align:center;
     margin-bottom:18px;
+    padding:0 42px;
   }
 
   .hamburger-btn{
@@ -65,6 +67,24 @@
     justify-content:center;
     box-shadow:0 2px 4px rgba(35,30,20,0.04);
   }
+  .lang-toggle-btn{
+    position:absolute;
+    top:2px;
+    right:0;
+    min-width:34px;
+    height:34px;
+    padding:0 10px;
+    border:1px solid rgba(0,0,0,0.08);
+    background:var(--white);
+    border-radius:9px;
+    font-size:0.75rem;
+    font-weight:500;
+    letter-spacing:.2px;
+    color:var(--ink-soft);
+    cursor:pointer;
+    box-shadow:0 2px 4px rgba(35,30,20,0.04);
+  }
+  .lang-toggle-btn:hover{background:var(--paper-2);}
 
   .sidebar-backdrop{
     position:fixed;
@@ -336,7 +356,7 @@
 
   .app-title{
     font-family:'Song Myung', serif;
-    font-size:1.625rem;
+    font-size:clamp(1.25rem, 1.1rem + 2vw, 1.625rem);
     letter-spacing:1px;
     color:var(--ink);
     margin:0;
@@ -953,11 +973,12 @@
     margin-bottom:4px;
   }
   .example-kr{
-    font-family:'Noto Sans KR', sans-serif;
+    font-family:'Pretendard', 'Noto Sans KR', sans-serif;
+    font-weight:400;
     font-size:clamp(1rem, 0.85rem + 1vw, 1.35rem);
     color:var(--ink);
     margin:0;
-    line-height:1.5;
+    line-height:1.6;
     text-align:left;
   }
   .example-speak-btn{
@@ -1217,21 +1238,22 @@
 </head>
 <body>
 <div class="app">
-  <button class="hamburger-btn" id="hamburgerBtn" aria-label="打开单元目录">☰</button>
+  <button class="hamburger-btn" id="hamburgerBtn" data-i18n-aria-label="hamburgerAria" aria-label="打开单元目录">☰</button>
+  <button class="lang-toggle-btn" id="langToggleBtn"></button>
   <div class="app-header">
-    <p class="app-title">盖章背单词</p>
-    <p class="app-sub">韩语单词闪卡 · 一个词一个词，慢慢盖满章</p>
+    <p class="app-title" data-i18n="appTitle">盖章背单词</p>
+    <p class="app-sub" data-i18n="appSub">韩语单词闪卡 · 一个词一个词，慢慢盖满章</p>
   </div>
 
   <div id="menuView">
-    <p class="menu-eyebrow">TOPIK 必背单词</p>
-    <button class="info-entry" id="infoEntryBtn">📖 词库说明<span class="info-arrow">›</span></button>
-    <button class="info-entry" id="grammarEntryBtn">📐 语法速查<span class="info-arrow">›</span></button>
+    <p class="menu-eyebrow" data-i18n="topikLabel">TOPIK 必背单词</p>
+    <button class="info-entry" id="infoEntryBtn"><span data-i18n="infoEntry">📖 词库说明</span><span class="info-arrow">›</span></button>
+    <button class="info-entry" id="grammarEntryBtn"><span data-i18n="grammarEntry">📐 语法速查</span><span class="info-arrow">›</span></button>
     <div id="chapterList"></div>
   </div>
 
   <div id="infoView" style="display:none;">
-    <button class="back-link" id="infoBackBtn">← 返回目录</button>
+    <button class="back-link" id="infoBackBtn" data-i18n="backToMenu">← 返回目录</button>
     <div class="info-page">
       <h4>【词汇来源】</h4>
       <p>本站词汇选自韩国한국어능력시험（TOPIK）官方发布的初级、中级词汇目录（来源：topik.go.kr）。TOPIK官方目前未发布独立的高级词汇目录，因此高级部分将参考国立国语院（국립국어원）等公开权威资料整理，严谨程度和官方依据不如初中级部分，如有收词争议欢迎讨论。</p>
@@ -1258,7 +1280,7 @@
   </div>
 
   <div id="grammarView" style="display:none;">
-    <button class="back-link" id="grammarBackBtn">← 返回目录</button>
+    <button class="back-link" id="grammarBackBtn" data-i18n="backToMenu">← 返回目录</button>
     <div class="info-page grammar-page">
       <h4 class="grammar-title">韩语语法速查表</h4>
       <p>卡片背面的语法分析里会反复出现一些简写标注（比如"-아서/어서""-습니다"）。这份表把它们集中整理成表格，方便查阅。</p>
@@ -1423,7 +1445,7 @@
   </div>
 
 <div id="studyView" style="display:none;">
-    <button class="back-link" id="backToMenuBtn">← 返回目录</button>
+    <button class="back-link" id="backToMenuBtn" data-i18n="backToMenu">← 返回目录</button>
     <p class="current-unit-label" id="currentUnitLabel"></p>
 
     <div class="session-bar">
@@ -1437,7 +1459,7 @@
     <div class="filter-tags" id="filterTags"></div>
     <div class="focus-banner" id="focusBanner" style="display:none;">
       <p class="focus-banner-title" id="focusBannerTitle"></p>
-      <button id="exitFocusBtn">退出筛选</button>
+      <button id="exitFocusBtn" data-i18n="exitFocus">退出筛选</button>
     </div>
 
     <div class="banner" id="banner" style="display:none;"></div>
@@ -1455,13 +1477,13 @@
                 <p class="card-progress-text" id="cardProgressTextFront"></p>
                 <div class="kr-word-row">
                   <p class="kr-word" id="krWord"></p>
-                  <button class="word-speak-icon" id="speakBtnFront" aria-label="播放发音">🔊</button>
+                  <button class="word-speak-icon" id="speakBtnFront" data-i18n-aria-label="playAudioAria" aria-label="播放发音">🔊</button>
                 </div>
                 <p class="romanization" id="romanization"></p>
-                <span class="flip-hint" id="flipHint">点击卡片查看释义</span>
+                <span class="flip-hint" id="flipHint" data-i18n="flipHint">点击卡片查看释义</span>
               </div>
               <div class="card-face card-back">
-                <button class="bug-btn" id="bugReportBtn" title="报错">🐛</button>
+                <button class="bug-btn" id="bugReportBtn" data-i18n-title="bugBtnTitle" title="报错">🐛</button>
                 <div class="card-top-row">
                   <div class="level-badge" id="levelBadgeBack"></div>
                   <div class="card-progress-bar"><span id="cardProgressBarBack"></span></div>
@@ -1470,10 +1492,10 @@
                 <div class="meta-tags" id="metaTags"></div>
                 <div class="meaning-row">
                   <p class="meaning" id="meaning"></p>
-                  <button class="word-speak-icon" id="speakBtnBack" aria-label="播放发音">🔊</button>
+                  <button class="word-speak-icon" id="speakBtnBack" data-i18n-aria-label="playAudioAria" aria-label="播放发音">🔊</button>
                 </div>
                 <div class="speed-control" id="speedControl">
-                  <span class="speed-label">语速</span>
+                  <span class="speed-label" data-i18n="speedLabel">语速</span>
                   <button class="speed-btn" data-rate="1">1x</button>
                   <button class="speed-btn" data-rate="0.75">0.75x</button>
                   <button class="speed-btn" data-rate="0.5">0.5x</button>
@@ -1481,15 +1503,15 @@
                 <div class="example-block">
                   <div class="example-kr-row">
                     <p class="example-kr" id="exampleKr"></p>
-                    <button class="example-speak-btn" id="speakBtnExample" aria-label="播放例句发音">🔊</button>
+                    <button class="example-speak-btn" id="speakBtnExample" data-i18n-aria-label="playExampleAudioAria" aria-label="播放例句发音">🔊</button>
                   </div>
                   <p class="example-zh" id="exampleZh"></p>
                 </div>
                 <div class="grammar-block" id="grammarBlock" style="display:none;">
-                  <button class="grammar-toggle" id="grammarToggleBtn">语法分析<span class="grammar-arrow">▾</span></button>
+                  <button class="grammar-toggle" id="grammarToggleBtn"><span data-i18n="grammarAnalysis">语法分析</span><span class="grammar-arrow">▾</span></button>
                   <div class="grammar-table-wrap">
                     <table class="grammar-table">
-                      <thead><tr><th>原文</th><th>意思</th><th>说明</th></tr></thead>
+                      <thead><tr><th data-i18n="gcolText">原文</th><th data-i18n="gcolMeaning">意思</th><th data-i18n="gcolNote">说明</th></tr></thead>
                       <tbody id="grammarRows"></tbody>
                     </table>
                   </div>
@@ -1501,37 +1523,37 @@
         </div>
 
         <div class="card-nav">
-          <button class="nav-btn" id="prevCardBtn">‹ 上一个</button>
+          <button class="nav-btn" id="prevCardBtn" data-i18n="prevCard">‹ 上一个</button>
           <span class="card-nav-pos" id="cardNavPos"></span>
-          <button class="nav-btn" id="nextCardBtn">下一个 ›</button>
+          <button class="nav-btn" id="nextCardBtn" data-i18n="nextCard">下一个 ›</button>
         </div>
       </div>
 
       <div class="ratings">
-        <button class="rate-btn r0" id="rate0" disabled>完全不会</button>
-        <button class="rate-btn r1" id="rate1" disabled>有点印象</button>
-        <button class="rate-btn r2" id="rate2" disabled>比较熟悉</button>
-        <button class="rate-btn r3" id="rate3" disabled>完全掌握</button>
+        <button class="rate-btn r0" id="rate0" disabled data-i18n="rate0">完全不会</button>
+        <button class="rate-btn r1" id="rate1" disabled data-i18n="rate1">有点印象</button>
+        <button class="rate-btn r2" id="rate2" disabled data-i18n="rate2">比较熟悉</button>
+        <button class="rate-btn r3" id="rate3" disabled data-i18n="rate3">完全掌握</button>
       </div>
     </div>
 
     <div class="footer-row">
-      <button class="reset-link" id="reviewLogToggleBtn">复习记录</button>
-      <button class="reset-link" id="resetBtn">重置本单元进度</button>
+      <button class="reset-link" id="reviewLogToggleBtn" data-i18n="reviewLog">复习记录</button>
+      <button class="reset-link" id="resetBtn" data-i18n="resetProgress">重置本单元进度</button>
     </div>
 
     <div class="review-panel" id="reviewPanel" style="display:none;">
-      <p class="review-panel-title">复习记录</p>
+      <p class="review-panel-title" data-i18n="reviewLog">复习记录</p>
       <p class="review-panel-hint" id="reviewPanelHint"></p>
       <div class="review-table-scroll">
         <table class="review-table">
           <thead>
-            <tr><th>#</th><th>单词</th><th>阶段</th><th>进度</th><th>下次复习</th></tr>
+            <tr><th data-i18n="reviewTableIdx">#</th><th data-i18n="reviewTableWord">单词</th><th data-i18n="reviewTableStage">阶段</th><th data-i18n="reviewTableProgress">进度</th><th data-i18n="reviewTableNext">下次复习</th></tr>
           </thead>
           <tbody id="reviewTableBody"></tbody>
         </table>
       </div>
-      <p class="review-legend">点表格里的单词可以直接跳到那张卡片。进度点对应 7 个阶段：1天→2天→4天→7天→15天→30天→60天，●是已经闯过的阶段，○是还没到的。点「完全不会」不算倒退阶段，只是10分钟后再考一次。</p>
+      <p class="review-legend" data-i18n="reviewLegend">点表格里的单词可以直接跳到那张卡片。进度点对应 7 个阶段：1天→2天→4天→7天→15天→30天→60天，●是已经闯过的阶段，○是还没到的。点「完全不会」不算倒退阶段，只是10分钟后再考一次。</p>
     </div>
   </div>
 
@@ -1539,12 +1561,12 @@
   <div class="sidebar-backdrop" id="sidebarBackdrop"></div>
   <div class="sidebar" id="sidebar">
     <div class="sidebar-header">
-      <p class="sidebar-title">单元目录</p>
-      <button class="sidebar-close" id="sidebarCloseBtn" aria-label="关闭目录">✕</button>
+      <p class="sidebar-title" data-i18n="sidebarTitle">单元目录</p>
+      <button class="sidebar-close" id="sidebarCloseBtn" data-i18n-aria-label="closeSidebarAria" aria-label="关闭目录">✕</button>
     </div>
     <p class="sidebar-eyebrow">TOPIK 必背单词</p>
-    <button class="sidebar-shortcut" id="sidebarInfoBtn">📖 词库说明</button>
-    <button class="sidebar-shortcut" id="sidebarGrammarBtn">📐 语法速查</button>
+    <button class="sidebar-shortcut" id="sidebarInfoBtn" data-i18n="infoEntry">📖 词库说明</button>
+    <button class="sidebar-shortcut" id="sidebarGrammarBtn" data-i18n="grammarEntry">📐 语法速查</button>
     <div class="sidebar-list" id="sidebarList"></div>
   </div>
 
@@ -1553,12 +1575,12 @@
   <div class="bug-modal-backdrop" id="bugModalBackdrop" style="display:none;">
     <div class="bug-modal">
       <div class="bug-modal-header">
-        <p class="bug-modal-title">🐛 报错反馈</p>
-        <button class="bug-modal-close" id="bugModalCloseBtn" aria-label="关闭">✕</button>
+        <p class="bug-modal-title" data-i18n="bugModalTitle">🐛 报错反馈</p>
+        <button class="bug-modal-close" id="bugModalCloseBtn" data-i18n-aria-label="closeAria" aria-label="关闭">✕</button>
       </div>
       <p class="bug-modal-context" id="bugModalContext"></p>
-      <textarea class="bug-modal-textarea" id="bugModalTextarea" placeholder="哪里错了？（比如释义/罗马音/例句/语法拆解不对）" rows="4"></textarea>
-      <button class="bug-modal-submit" id="bugModalSubmitBtn">提交反馈</button>
+      <textarea class="bug-modal-textarea" id="bugModalTextarea" data-i18n-placeholder="bugModalPlaceholder" placeholder="哪里错了？（比如释义/罗马音/例句/语法拆解不对）" rows="4"></textarea>
+      <button class="bug-modal-submit" id="bugModalSubmitBtn" data-i18n="bugModalSubmit">提交反馈</button>
     </div>
   </div>
 </div>
@@ -1575,12 +1597,243 @@ let expandedChapterIdx = null;
 let sidebarExpandedLevelIdx = 0;
 let sidebarExpandedChapterIdx = null;
 
-const LEVELS = [
-  {label:"完全不会", color:"var(--neutral)", stampChar:"未"},
-  {label:"有点印象", color:"var(--ochre)", stampChar:"初"},
-  {label:"比较熟悉", color:"var(--indigo)", stampChar:"熟"},
-  {label:"完全掌握", color:"var(--seal)", stampChar:"通"}
-];
+// 中英切换：只覆盖界面固定文案（按钮/提示/toast），不覆盖单词释义/例句翻译/语法说明
+// 这些内容本身——那部分要等词条数据里出现 _en 字段才会显示英文，没有就照旧显示中文，
+// 不会空白也不会报错。语法速查页、词库说明页目前也还是只有中文版本。
+const LANG_KEY = "korean-flashcards-lang-v1";
+let currentLang = localStorage.getItem(LANG_KEY) === "en" ? "en" : "zh";
+
+const STRINGS = {
+  zh: {
+    appTitle: "盖章背单词",
+    appSub: "韩语单词闪卡 · 一个词一个词，慢慢盖满章",
+    hamburgerAria: "打开单元目录",
+    topikLabel: "TOPIK 必背单词",
+    infoEntry: "📖 词库说明",
+    grammarEntry: "📐 语法速查",
+    backToMenu: "← 返回目录",
+    contentInProgress: "内容制作中",
+    unitsUpdatedSuffix: " 个单元已更新",
+    wordsSuffix: " 个单词",
+    wordsSuffixShort: " 词",
+    toBeUpdated: "待更新",
+    comingSoonLong: "内容制作中，敬请期待",
+    comingSoonBody: "规划确定后会陆续在这里更新章节和单元",
+    comingSoonToastSuffix: "」内容制作中，敬请期待",
+    sidebarTitle: "单元目录",
+    closeSidebarAria: "关闭目录",
+    flipHint: "点击卡片查看释义",
+    playAudioAria: "播放发音",
+    playExampleAudioAria: "播放例句发音",
+    bugBtnTitle: "报错",
+    speedLabel: "语速",
+    grammarAnalysis: "语法分析",
+    gcolText: "原文",
+    gcolMeaning: "意思",
+    gcolNote: "说明",
+    prevCard: "‹ 上一个",
+    nextCard: "下一个 ›",
+    reviewLog: "复习记录",
+    resetProgress: "重置本单元进度",
+    reviewTableIdx: "#",
+    reviewTableWord: "单词",
+    reviewTableStage: "阶段",
+    reviewTableProgress: "进度",
+    reviewTableNext: "下次复习",
+    reviewLegend: "点表格里的单词可以直接跳到那张卡片。进度点对应 7 个阶段：1天→2天→4天→7天→15天→30天→60天，●是已经闯过的阶段，○是还没到的。点「完全不会」不算倒退阶段，只是10分钟后再考一次。",
+    exitFocus: "退出筛选",
+    rate0: "完全不会", rate1: "有点印象", rate2: "比较熟悉", rate3: "完全掌握",
+    stamp0: "未", stamp1: "初", stamp2: "熟", stamp3: "通",
+    notLearned: "未学习",
+    freePracticeBanner: "今天这个单元没有到期复习的词，来自由练习一轮吧（全部单词打乱重新出现）",
+    finishedSession: "本轮学习完成！",
+    todayReviewPrefix: "今日复习 · ",
+    focusReviewPrefix: "专项复习 · ",
+    focusReviewTitle: (label, count) => "专项复习："+label+" · 共 "+count+" 个词，循环出现",
+    stageProgress: (step, total, reviews) => "第 "+step+"/"+total+" 阶段 · 已复习 "+reviews+" 次",
+    notLearnedProgress: total => "还没学过 · 一共 "+total+" 个阶段",
+    exitedFocusToast: "这个等级已经没有词了，已退出专项复习",
+    resetConfirm: title => "确定要清空「"+title+"」的学习进度吗？此操作无法撤销。",
+    minutesLater: n => n+"分钟后",
+    hoursLater: n => n+"小时后",
+    daysLater: n => n+"天后",
+    reviewNow: "现在可复习",
+    reviewNowOverdue: (n, unit) => "现在可复习 · 超期"+n+unit,
+    overdueDayUnit: "天",
+    overdueHourUnit: "小时",
+    newWordsToday: n => "今天已学 "+n+" 个新词，没有数量限制，到期的和没学过的词都会一起出现",
+    ttsNotSupported: "这个浏览器不支持语音朗读，换个浏览器试试",
+    ttsFailed: "朗读失败，这个设备可能没装韩语语音包，建议用手机自带浏览器（Safari / Chrome）直接打开网页试试",
+    ttsUnavailable: "这个设备暂时无法朗读语音",
+    bugModalTitle: "🐛 报错反馈",
+    closeAria: "关闭",
+    bugModalPlaceholder: "哪里错了？（比如释义/罗马音/例句/语法拆解不对）",
+    bugModalSubmit: "提交反馈",
+    bugModalSubmitting: "提交中…",
+    bugModalNeedText: "麻烦简单写一下哪里错了再提交",
+    bugModalSuccess: "反馈已提交，谢谢你的帮忙 🙏",
+    bugModalFail: "提交失败，可能是网络问题，稍后再试试",
+    loadFailed: "词汇数据加载失败，请确认 vocab.json 与 index.html 在同一目录下，并通过网页服务器（而不是直接双击文件）访问。",
+    langToggle: "EN",
+  },
+  en: {
+    appTitle: "Korean Stamp Cards",
+    appSub: "Korean vocab flashcards · one word at a time",
+    hamburgerAria: "Open unit list",
+    topikLabel: "TOPIK Must-Know Vocabulary",
+    infoEntry: "📖 About This Site",
+    grammarEntry: "📐 Grammar Reference",
+    backToMenu: "← Back to menu",
+    contentInProgress: "In progress",
+    unitsUpdatedSuffix: " units ready",
+    wordsSuffix: " words",
+    wordsSuffixShort: " words",
+    toBeUpdated: "Coming soon",
+    comingSoonLong: "In progress, stay tuned",
+    comingSoonBody: "Chapters and units will be added here once the plan is finalized",
+    comingSoonToastSuffix: "」is still in progress, stay tuned",
+    sidebarTitle: "Unit list",
+    closeSidebarAria: "Close menu",
+    flipHint: "Tap the card to see the meaning",
+    playAudioAria: "Play pronunciation",
+    playExampleAudioAria: "Play example sentence",
+    bugBtnTitle: "Report an issue",
+    speedLabel: "Speed",
+    grammarAnalysis: "Grammar breakdown",
+    gcolText: "Text",
+    gcolMeaning: "Meaning",
+    gcolNote: "Note",
+    prevCard: "‹ Previous",
+    nextCard: "Next ›",
+    reviewLog: "Review log",
+    resetProgress: "Reset this unit",
+    reviewTableIdx: "#",
+    reviewTableWord: "Word",
+    reviewTableStage: "Stage",
+    reviewTableProgress: "Progress",
+    reviewTableNext: "Next review",
+    reviewLegend: "Tap a word in the table to jump straight to that card. The dots track 7 spaced-repetition stages: 1d→2d→4d→7d→15d→30d→60d. ● means the stage is cleared, ○ means not yet. Tapping \"Don't know\" isn't a step backward — it just brings the word back in 10 minutes.",
+    exitFocus: "Exit filter",
+    rate0: "Don't know", rate1: "Somewhat familiar", rate2: "Fairly familiar", rate3: "Mastered",
+    stamp0: "New", stamp1: "1", stamp2: "2", stamp3: "3",
+    notLearned: "Not studied",
+    freePracticeBanner: "No words due for review in this unit today — here's a free-practice round instead (all words shuffled).",
+    finishedSession: "Session complete!",
+    todayReviewPrefix: "Today · ",
+    focusReviewPrefix: "Focused review · ",
+    focusReviewTitle: (label, count) => "Focused review: "+label+" · "+count+" words, on repeat",
+    stageProgress: (step, total, reviews) => "Stage "+step+"/"+total+" · reviewed "+reviews+" times",
+    notLearnedProgress: total => "Not studied yet · "+total+" stages total",
+    exitedFocusToast: "No words left at this level — exited focused review.",
+    resetConfirm: title => "Reset all progress for \""+title+"\"? This can't be undone.",
+    minutesLater: n => "in "+n+" min",
+    hoursLater: n => "in "+n+" hr",
+    daysLater: n => "in "+n+" d",
+    reviewNow: "Ready to review",
+    reviewNowOverdue: (n, unit) => "Ready · "+n+unit+" overdue",
+    overdueDayUnit: "d",
+    overdueHourUnit: "h",
+    newWordsToday: n => "Learned "+n+" new words today — no daily limit, due and new words both show up together",
+    ttsNotSupported: "This browser doesn't support speech playback — try a different browser",
+    ttsFailed: "Playback failed — this device may be missing a Korean voice pack. Try opening this page in your phone's built-in browser (Safari / Chrome).",
+    ttsUnavailable: "This device can't play speech right now",
+    bugModalTitle: "🐛 Report an issue",
+    closeAria: "Close",
+    bugModalPlaceholder: "What's wrong? (e.g. meaning / romanization / example / grammar breakdown)",
+    bugModalSubmit: "Submit",
+    bugModalSubmitting: "Submitting…",
+    bugModalNeedText: "Please describe the issue before submitting",
+    bugModalSuccess: "Thanks for the report — I'll take a look 🙏",
+    bugModalFail: "Couldn't submit, possibly a network issue — try again shortly",
+    loadFailed: "Couldn't load the vocabulary data. Make sure vocab.json is in the same folder as index.html, and open this page through a web server (not by double-clicking the file).",
+    langToggle: "中文",
+  },
+};
+function t(key){ return STRINGS[currentLang][key]; }
+
+// 词性字段里偶尔会有"数词/冠形词"这种复合写法，按"/"拆开分别查表再拼回去
+const POS_EN = {
+  "名词":"Noun", "动词":"Verb", "形容词":"Adjective", "副词":"Adverb",
+  "代词":"Pronoun", "数词":"Numeral", "量词":"Counter", "冠形词":"Determiner",
+  "依存名词":"Bound Noun", "感叹词":"Interjection", "助词":"Particle", "词缀":"Affix",
+};
+const REGISTER_EN = {
+  "敬语":"Honorific",
+  "非敬语（반말）":"Casual (반말)",
+  "非敬语（반말/口语）":"Casual (반말/spoken)",
+  "非敬语（plain·书面体）":"Casual (plain/written)",
+  "敬语（用于姓名后表称呼）":"Honorific (used after names as a title)",
+};
+function posLabel(p){
+  if(currentLang !== "en" || !p) return p;
+  return p.split("/").map(part => POS_EN[part] || part).join("/");
+}
+function registerLabel(rg){
+  if(currentLang !== "en" || !rg) return rg;
+  return REGISTER_EN[rg] || rg;
+}
+
+// Unit/Chapter/Level 标题的中英 fallback：英文模式下优先用 titleEn/labelEn，
+// 还没配英文的（大部分内容翻译要慢慢补）就照旧显示中文，不会空白。
+function unitTitle(unit){
+  return (currentLang === "en" && unit.titleEn) ? unit.titleEn : unit.title;
+}
+function chapterTitle(chapter){
+  return (currentLang === "en" && chapter.titleEn) ? chapter.titleEn : chapter.title;
+}
+function levelLabel(level){
+  return (currentLang === "en" && level.labelEn) ? level.labelEn : level.labelZh;
+}
+
+function getLevels(){
+  return [
+    {label:t("rate0"), color:"var(--neutral)", stampChar:t("stamp0")},
+    {label:t("rate1"), color:"var(--ochre)", stampChar:t("stamp1")},
+    {label:t("rate2"), color:"var(--indigo)", stampChar:t("stamp2")},
+    {label:t("rate3"), color:"var(--seal)", stampChar:t("stamp3")},
+  ];
+}
+
+// 把所有带 data-i18n* 标记的固定文案元素按当前语言刷新一遍。
+// 卡片内容、语法速查页、词库说明页不在这里处理——它们各自的 render 函数里单独处理。
+function applyI18n(){
+  document.documentElement.lang = currentLang === "en" ? "en" : "zh";
+  document.querySelectorAll("[data-i18n]").forEach(elm=>{
+    const key = elm.getAttribute("data-i18n");
+    if(STRINGS[currentLang][key] !== undefined) elm.textContent = STRINGS[currentLang][key];
+  });
+  document.querySelectorAll("[data-i18n-aria-label]").forEach(elm=>{
+    const key = elm.getAttribute("data-i18n-aria-label");
+    if(STRINGS[currentLang][key] !== undefined) elm.setAttribute("aria-label", STRINGS[currentLang][key]);
+  });
+  document.querySelectorAll("[data-i18n-placeholder]").forEach(elm=>{
+    const key = elm.getAttribute("data-i18n-placeholder");
+    if(STRINGS[currentLang][key] !== undefined) elm.placeholder = STRINGS[currentLang][key];
+  });
+  document.querySelectorAll("[data-i18n-title]").forEach(elm=>{
+    const key = elm.getAttribute("data-i18n-title");
+    if(STRINGS[currentLang][key] !== undefined) elm.title = STRINGS[currentLang][key];
+  });
+  el("langToggleBtn").textContent = t("langToggle");
+}
+
+function setLang(lang){
+  currentLang = lang;
+  localStorage.setItem(LANG_KEY, lang);
+  applyI18n();
+  // 当前正显示哪个界面就把它也重新渲染一遍，让已经画出来的内容跟着换语言
+  if(el("menuView").style.display !== "none") renderMenu();
+  if(el("studyView").style.display !== "none"){
+    renderFilterTags();
+    if(currentUnit){
+      el("totalLabel").textContent = currentUnit.words.length + t("wordsSuffix");
+      el("currentUnitLabel").textContent = "Unit "+currentUnit.id+" · "+unitTitle(currentUnit);
+    }
+    renderCard();
+    if(el("reviewPanel").style.display !== "none") renderReviewLog();
+  }
+  if(el("sidebar").classList.contains("open")) renderSidebar();
+}
 
 // 间隔重复曲线：1天、2天、4天、7天、15天、30天、60天 —— 每次答对间隔大约翻倍拉长，
 // 跳过"当天多次"的高频步骤，适合每天打开一次app的使用习惯
@@ -1782,7 +2035,7 @@ function enterFocusMode(level){
   focusLevel = level;
   el("banner").style.display = "none";
   el("focusBanner").style.display = "block";
-  el("focusBannerTitle").textContent = "专项复习："+LEVELS[level].label+" · 共 "+counts[level]+" 个词，循环出现";
+  el("focusBannerTitle").textContent = t("focusReviewTitle")(getLevels()[level].label, counts[level]);
   buildQueue();
   updateStatsBar();
   renderCard();
@@ -1819,15 +2072,15 @@ function unitTileHtml(unit){
     }).join("");
     return {
       hasWords: true,
-      html: '<span class="unit-name">Unit '+unit.id+' · '+unit.title+'</span>' +
-        '<span class="unit-count">'+unit.words.length+' 个单词</span>' +
+      html: '<span class="unit-name">Unit '+unit.id+' · '+unitTitle(unit)+'</span>' +
+        '<span class="unit-count">'+unit.words.length+t("wordsSuffix")+'</span>' +
         '<span class="unit-bar">'+(barSegs || '<span class="seg-0" style="flex-basis:100%"></span>')+'</span>'
     };
   }
   return {
     hasWords: false,
-    html: '<span class="unit-name">Unit '+unit.id+' · '+unit.title+'<span class="updating-tag">待更新</span></span>' +
-      '<span class="unit-count">内容制作中</span>' +
+    html: '<span class="unit-name">Unit '+unit.id+' · '+unitTitle(unit)+'<span class="updating-tag">'+t("toBeUpdated")+'</span></span>' +
+      '<span class="unit-count">'+t("contentInProgress")+'</span>' +
       '<span class="unit-bar"><span class="seg-0" style="flex-basis:100%"></span></span>'
   };
 }
@@ -1856,8 +2109,8 @@ function renderMenu(){
 
     const lvlHeader = document.createElement("button");
     lvlHeader.className = "level-header";
-    const lvlMeta = level.status === "coming_soon" ? "内容制作中" : readyUnits+"/"+totalUnits+" 个单元已更新";
-    lvlHeader.innerHTML = '<span>'+level.labelZh+'<span class="level-meta">'+lvlMeta+'</span></span><span class="level-arrow">▾</span>';
+    const lvlMeta = level.status === "coming_soon" ? t("contentInProgress") : readyUnits+"/"+totalUnits+t("unitsUpdatedSuffix");
+    lvlHeader.innerHTML = '<span>'+levelLabel(level)+'<span class="level-meta">'+lvlMeta+'</span></span><span class="level-arrow">▾</span>';
     lvlHeader.addEventListener("click", ()=>toggleLevel(lIdx));
     lvlBlock.appendChild(lvlHeader);
 
@@ -1865,7 +2118,7 @@ function renderMenu(){
     lvlBody.className = "level-body";
 
     if(level.status === "coming_soon"){
-      lvlBody.innerHTML = '<div class="level-placeholder"><span class="emoji">🚧</span>内容制作中，敬请期待<br>规划确定后会陆续在这里更新章节和单元</div>';
+      lvlBody.innerHTML = '<div class="level-placeholder"><span class="emoji">🚧</span>'+t("comingSoonLong")+'<br>'+t("comingSoonBody")+'</div>';
     }else{
       level.chapters.forEach((chapter, cIdx) => {
         const block = document.createElement("div");
@@ -1875,7 +2128,7 @@ function renderMenu(){
 
         const header = document.createElement("button");
         header.className = "chapter-header";
-        header.innerHTML = '<span>'+chapter.title+'<span class="chapter-meta">'+readyCount+'/'+chapter.units.length+' 个单元已更新</span></span><span class="chapter-arrow">▾</span>';
+        header.innerHTML = '<span>'+chapterTitle(chapter)+'<span class="chapter-meta">'+readyCount+'/'+chapter.units.length+t("unitsUpdatedSuffix")+'</span></span><span class="chapter-arrow">▾</span>';
         header.addEventListener("click", ()=>toggleChapter(cIdx));
         block.appendChild(header);
 
@@ -1889,7 +2142,7 @@ function renderMenu(){
           if(tile.hasWords){
             btn.addEventListener("click", ()=>openUnit(unit.id));
           }else{
-            btn.addEventListener("click", ()=>showToast("「"+unit.title+"」内容制作中，敬请期待"));
+            btn.addEventListener("click", ()=>showToast("「"+unitTitle(unit)+t("comingSoonToastSuffix")));
           }
           unitsWrap.appendChild(btn);
         });
@@ -1910,8 +2163,8 @@ function openUnit(unitId){
   currentUnit = found.unit;
   el("menuView").style.display = "none";
   el("studyView").style.display = "block";
-  el("currentUnitLabel").textContent = "Unit "+currentUnit.id+" · "+currentUnit.title;
-  el("totalLabel").textContent = currentUnit.words.length + " 个单词";
+  el("currentUnitLabel").textContent = "Unit "+currentUnit.id+" · "+unitTitle(currentUnit);
+  el("totalLabel").textContent = currentUnit.words.length + t("wordsSuffix");
   focusLevel = null;
   el("focusBanner").style.display = "none";
   loadNewCount();
@@ -1981,7 +2234,7 @@ function renderSidebar(){
 
     const lvlHeader = document.createElement("button");
     lvlHeader.className = "level-header compact";
-    lvlHeader.innerHTML = '<span>'+level.labelZh+'</span><span class="level-arrow">▾</span>';
+    lvlHeader.innerHTML = '<span>'+levelLabel(level)+'</span><span class="level-arrow">▾</span>';
     lvlHeader.addEventListener("click", ()=>toggleSidebarLevel(lIdx));
     lvlBlock.appendChild(lvlHeader);
 
@@ -1989,7 +2242,7 @@ function renderSidebar(){
     lvlBody.className = "level-body";
 
     if(level.status === "coming_soon"){
-      lvlBody.innerHTML = '<p style="font-size:0.75rem;color:var(--ink-soft);text-align:center;padding:14px 0;">内容制作中，敬请期待</p>';
+      lvlBody.innerHTML = '<p style="font-size:0.75rem;color:var(--ink-soft);text-align:center;padding:14px 0;">'+t("comingSoonLong")+'</p>';
     }else{
       level.chapters.forEach((chapter, cIdx) => {
         const block = document.createElement("div");
@@ -1997,7 +2250,7 @@ function renderSidebar(){
 
         const header = document.createElement("button");
         header.className = "chapter-header compact";
-        header.innerHTML = '<span>'+chapter.title+'</span><span class="chapter-arrow">▾</span>';
+        header.innerHTML = '<span>'+chapterTitle(chapter)+'</span><span class="chapter-arrow">▾</span>';
         header.addEventListener("click", ()=>toggleSidebarChapter(cIdx));
         block.appendChild(header);
 
@@ -2008,8 +2261,8 @@ function renderSidebar(){
           const btn = document.createElement("button");
           btn.className = "sidebar-item" + (currentUnit && currentUnit.id === unit.id ? " active" : "");
           btn.disabled = !hasWords;
-          const countText = hasWords ? unit.words.length + " 词" : "待更新";
-          btn.innerHTML = "<span>Unit "+unit.id+" · "+unit.title+"</span><span class=\"count\">"+countText+"</span>";
+          const countText = hasWords ? unit.words.length + t("wordsSuffixShort") : t("toBeUpdated");
+          btn.innerHTML = "<span>Unit "+unit.id+" · "+unitTitle(unit)+"</span><span class=\"count\">"+countText+"</span>";
           if(hasWords){
             btn.addEventListener("click", ()=>{ openUnit(unit.id); closeSidebar(); });
           }
@@ -2077,7 +2330,7 @@ function buildQueue(){
   const banner = el("banner");
   if(freePractice){
     banner.style.display = "block";
-    banner.textContent = "今天这个单元没有到期复习的词，来自由练习一轮吧（全部单词打乱重新出现）";
+    banner.textContent = t("freePracticeBanner");
   }else{
     banner.style.display = "none";
   }
@@ -2100,7 +2353,7 @@ function updateStatsBar(){
 }
 
 function renderLevelBadge(target, level){
-  const lv = LEVELS[level];
+  const lv = getLevels()[level];
   target.style.background = level===0 ? "rgba(138,131,119,0.35)" : lv.color;
   target.style.color = level===0 ? "var(--ink-soft)" : "var(--white)";
   target.textContent = level===0 ? "" : lv.stampChar;
@@ -2109,12 +2362,12 @@ function renderLevelBadge(target, level){
 function renderCardProgress(state){
   const started = state.reviews > 0;
   const filled = started ? Math.round(((state.step+1)/STEPS.length)*100) : 0;
-  const color = started ? LEVELS[state.level].color : "var(--neutral)";
+  const color = started ? getLevels()[state.level].color : "var(--neutral)";
   // 注意：评分档位越高，第一次评分就可能直接跳过前面几级（类似很多背单词App的"简单"按钮），
   // 所以"第几级"不等于"复习了几次"，两者不是简单的加减关系，文案上不要暗示这种对应
   const text = started
-    ? "第 "+(state.step+1)+"/"+STEPS.length+" 阶段 · 已复习 "+state.reviews+" 次"
-    : "还没学过 · 一共 "+STEPS.length+" 个阶段";
+    ? t("stageProgress")(state.step+1, STEPS.length, state.reviews)
+    : t("notLearnedProgress")(STEPS.length);
   ["Front","Back"].forEach(suffix=>{
     const bar = el("cardProgressBar"+suffix);
     bar.style.width = filled+"%";
@@ -2123,10 +2376,19 @@ function renderCardProgress(state){
   });
 }
 
+// 英文模式下优先读 _en 字段，还没翻译到的词就照旧显示中文，不会空白（翻译是慢慢补的）
+function localized(obj, enKey, zhKey){
+  return (currentLang === "en" && obj[enKey]) ? obj[enKey] : obj[zhKey];
+}
+function posTagText(p){
+  const label = posLabel(p);
+  return currentLang === "en" ? "("+label+")" : "【"+label+"】";
+}
+
 function renderCard(){
   if(queue.length === 0){
     el("krWord").textContent = "🎉";
-    el("meaning").textContent = "本轮学习完成！";
+    el("meaning").textContent = t("finishedSession");
     el("romanization").textContent = "";
     el("exampleKr").textContent = "";
     el("exampleZh").textContent = "";
@@ -2145,7 +2407,7 @@ function renderCard(){
     el("prevCardBtn").disabled = true;
     el("nextCardBtn").disabled = true;
     [0,1,2,3].forEach(i => el("rate"+i).disabled = true);
-    el("sessionLabel").textContent = (focusLevel !== null ? "专项复习 · " : "今日复习 · ")+sessionDone+" / "+sessionTotal;
+    el("sessionLabel").textContent = (focusLevel !== null ? t("focusReviewPrefix") : t("todayReviewPrefix"))+sessionDone+" / "+sessionTotal;
     return;
   }
   const item = queue[currentIndex];
@@ -2161,23 +2423,23 @@ function renderCard(){
     krWordEl.appendChild(sup);
   }
   el("romanization").textContent = "["+item.r+"]";
-  el("meaning").textContent = item.m;
+  el("meaning").textContent = localized(item, "m_en", "m");
   el("exampleKr").textContent = item.e;
-  el("exampleZh").textContent = item.t;
+  el("exampleZh").textContent = localized(item, "t_en", "t");
   renderLevelBadge(el("levelBadgeFront"), state.level);
   renderLevelBadge(el("levelBadgeBack"), state.level);
   renderCardProgress(state);
 
   const tags = [];
-  if(item.p) tags.push('<span class="pos-tag">【'+item.p+'】</span>');
-  if(item.rg) tags.push('<span class="register-tag">'+item.rg+'</span>');
+  if(item.p) tags.push('<span class="pos-tag">'+posTagText(item.p)+'</span>');
+  if(item.rg) tags.push('<span class="register-tag">'+registerLabel(item.rg)+'</span>');
   el("metaTags").innerHTML = tags.join("");
 
   const grammarBlock = el("grammarBlock");
   grammarBlock.classList.remove("open"); // 每张新卡片默认折叠，不沿用上一张的展开状态
   if(item.g && item.g.length > 0){
     el("grammarRows").innerHTML = item.g.map(row =>
-      '<tr'+(row.isTarget ? ' class="target-row"' : '')+'><td class="gcol-text" data-label="原文">'+escapeHtml(row.text||"")+'</td><td class="gcol-meaning" data-label="意思">'+escapeHtml(row.meaning||"—")+'</td><td class="gcol-note" data-label="说明">'+linkifyGrammarNote(row.note||"")+'</td></tr>'
+      '<tr'+(row.isTarget ? ' class="target-row"' : '')+'><td class="gcol-text" data-label="'+t("gcolText")+'">'+escapeHtml(row.text||"")+'</td><td class="gcol-meaning" data-label="'+t("gcolMeaning")+'">'+escapeHtml(localized(row, "meaning_en", "meaning")||"—")+'</td><td class="gcol-note" data-label="'+t("gcolNote")+'">'+linkifyGrammarNote(localized(row, "note_en", "note")||"")+'</td></tr>'
     ).join("");
     grammarBlock.style.display = "block";
   }else{
@@ -2193,7 +2455,7 @@ function renderCard(){
   el("prevCardBtn").disabled = currentIndex <= 0;
   el("nextCardBtn").disabled = currentIndex >= queue.length-1;
   [0,1,2,3].forEach(i => el("rate"+i).disabled = false);
-  el("sessionLabel").textContent = (focusLevel !== null ? "专项复习 · " : "今日复习 · ")+sessionDone+" / "+sessionTotal;
+  el("sessionLabel").textContent = (focusLevel !== null ? t("focusReviewPrefix") : t("todayReviewPrefix"))+sessionDone+" / "+sessionTotal;
 }
 
 function prevCard(){
@@ -2286,7 +2548,7 @@ function speak(text, overrideKey){
 
 function speakBrowserTTS(text){
   if(!("speechSynthesis" in window)){
-    showToast("这个浏览器不支持语音朗读，换个浏览器试试");
+    showToast(t("ttsNotSupported"));
     return;
   }
   try{
@@ -2297,17 +2559,17 @@ function speakBrowserTTS(text){
     const voice = pickKoreanVoice();
     if(voice) u.voice = voice;
     u.onerror = function(){
-      showToast("朗读失败，这个设备可能没装韩语语音包，建议用手机自带浏览器（Safari / Chrome）直接打开网页试试");
+      showToast(t("ttsFailed"));
     };
     speechSynthesis.speak(u);
   }catch(e){
-    showToast("这个设备暂时无法朗读语音");
+    showToast(t("ttsUnavailable"));
   }
 }
 
 function showStamp(levelIdx){
   const layer = el("stampLayer");
-  const lv = LEVELS[levelIdx];
+  const lv = getLevels()[levelIdx];
   const stamp = document.createElement("div");
   stamp.className = "stamp";
   stamp.style.color = levelIdx===0 ? "var(--neutral)" : lv.color;
@@ -2353,12 +2615,12 @@ function rate(levelIdx){
       if(currentIndex >= queue.length){
         const counts = levelWordCounts(currentUnit);
         if(counts[focusLevel] === 0){
-          showToast("这个等级已经没有词了，已退出专项复习");
+          showToast(t("exitedFocusToast"));
           exitFocusMode();
           return;
         }
         buildQueue(); // 重新筛选+打乱，循环出现
-        el("focusBannerTitle").textContent = "专项复习："+LEVELS[focusLevel].label+" · 共 "+counts[focusLevel]+" 个词，循环出现";
+        el("focusBannerTitle").textContent = t("focusReviewTitle")(getLevels()[focusLevel].label, counts[focusLevel]);
       }
       renderCard();
       return;
@@ -2372,7 +2634,7 @@ function rate(levelIdx){
 }
 
 function resetProgress(){
-  if(!confirm("确定要清空「"+currentUnit.title+"」的学习进度吗？此操作无法撤销。")) return;
+  if(!confirm(t("resetConfirm")(unitTitle(currentUnit)))) return;
   currentUnit.words.forEach(v => {
     delete progress[stateKey(currentUnit.id, v.k)];
   });
@@ -2388,11 +2650,11 @@ function resetProgress(){
 
 function formatRelative(ms){
   const min = Math.round(ms/60000);
-  if(min < 60) return min+"分钟后";
+  if(min < 60) return t("minutesLater")(min);
   const hr = Math.round(ms/3600000);
-  if(hr < 24) return hr+"小时后";
+  if(hr < 24) return t("hoursLater")(hr);
   const day = Math.round(ms/86400000);
-  return day+"天后";
+  return t("daysLater")(day);
 }
 
 // 到期但还没复习：不做任何惩罚（不会自动倒退、不会消失），只是一直显示"现在可复习"直到你真的打开来复习。
@@ -2401,11 +2663,11 @@ function formatDue(state, now){
   const diff = state.dueAt - now;
   if(diff > 0) return {text: formatRelative(diff), overdue:false};
   const overdueMs = -diff;
-  if(overdueMs < 3600000) return {text:"现在可复习", overdue:true};
+  if(overdueMs < 3600000) return {text:t("reviewNow"), overdue:true};
   const overdueDay = Math.floor(overdueMs/86400000);
-  if(overdueDay >= 1) return {text:"现在可复习 · 超期"+overdueDay+"天", overdue:true};
+  if(overdueDay >= 1) return {text:t("reviewNowOverdue")(overdueDay, t("overdueDayUnit")), overdue:true};
   const overdueHr = Math.round(overdueMs/3600000);
-  return {text:"现在可复习 · 超期"+overdueHr+"小时", overdue:true};
+  return {text:t("reviewNowOverdue")(overdueHr, t("overdueHourUnit")), overdue:true};
 }
 
 function stageDotsFragment(state){
@@ -2442,7 +2704,7 @@ function jumpToWord(k){
 
 function renderReviewLog(){
   const now = Date.now();
-  el("reviewPanelHint").textContent = "今天已学 "+newWordsToday+" 个新词，没有数量限制，到期的和没学过的词都会一起出现";
+  el("reviewPanelHint").textContent = t("newWordsToday")(newWordsToday);
   const rows = currentUnit.words.map((v, idx) => ({k: v.k, idx: idx+1, state: getState(v.k)}));
   rows.sort((a,b)=>{
     const aStarted = a.state.reviews > 0;
@@ -2473,7 +2735,7 @@ function renderReviewLog(){
     });
 
     const stageTd = document.createElement("td");
-    stageTd.textContent = started ? LEVELS[row.state.level].label : "未学习";
+    stageTd.textContent = started ? getLevels()[row.state.level].label : t("notLearned");
 
     const dotsTd = document.createElement("td");
     dotsTd.appendChild(stageDotsFragment(row.state));
@@ -2514,7 +2776,7 @@ const BUG_FORM_ENTRIES = { unit: "entry.808179002", word: "entry.731081721", mis
 function reportBug(){
   const item = queue[currentIndex];
   if(!item || !currentUnit) return;
-  el("bugModalContext").textContent = "Unit "+currentUnit.id+" · "+currentUnit.title+" ｜ "+item.k+"（"+item.m+"）";
+  el("bugModalContext").textContent = "Unit "+currentUnit.id+" · "+unitTitle(currentUnit)+" ｜ "+item.k+"（"+localized(item, "m_en", "m")+"）";
   el("bugModalTextarea").value = "";
   el("bugModalBackdrop").style.display = "flex";
   el("bugModalTextarea").focus();
@@ -2529,28 +2791,28 @@ function submitBugReport(){
   if(!item || !currentUnit) return;
   const mistake = el("bugModalTextarea").value.trim();
   if(!mistake){
-    showToast("麻烦简单写一下哪里错了再提交");
+    showToast(t("bugModalNeedText"));
     return;
   }
   const submitBtn = el("bugModalSubmitBtn");
   submitBtn.disabled = true;
-  submitBtn.textContent = "提交中…";
+  submitBtn.textContent = t("bugModalSubmitting");
   const body = new URLSearchParams({
-    [BUG_FORM_ENTRIES.unit]: "Unit "+currentUnit.id+" · "+currentUnit.title,
-    [BUG_FORM_ENTRIES.word]: item.k+"（"+item.m+"）",
+    [BUG_FORM_ENTRIES.unit]: "Unit "+currentUnit.id+" · "+unitTitle(currentUnit),
+    [BUG_FORM_ENTRIES.word]: item.k+"（"+localized(item, "m_en", "m")+"）",
     [BUG_FORM_ENTRIES.mistake]: mistake,
   });
   fetch(BUG_FORM_ACTION, { method: "POST", mode: "no-cors", body })
     .then(()=>{
       closeBugModal();
-      showToast("反馈已提交，谢谢你的帮忙 🙏");
+      showToast(t("bugModalSuccess"));
     })
     .catch(()=>{
-      showToast("提交失败，可能是网络问题，稍后再试试");
+      showToast(t("bugModalFail"));
     })
     .finally(()=>{
       submitBtn.disabled = false;
-      submitBtn.textContent = "提交反馈";
+      submitBtn.textContent = t("bugModalSubmit");
     });
 }
 
@@ -2601,13 +2863,15 @@ el("sidebarGrammarBtn").addEventListener("click", ()=>{ closeSidebar(); openGram
 document.addEventListener("keydown", (e)=>{
   if(e.key === "Escape") closeSidebar();
 });
+el("langToggleBtn").addEventListener("click", ()=> setLang(currentLang === "en" ? "zh" : "en"));
+applyI18n();
 
 (async function init(){
   try{
     const res = await fetch("vocab.json", {cache: "no-store"});
     DATA = await res.json();
   }catch(e){
-    el("menuView").innerHTML = '<p style="text-align:center;color:var(--ink-soft);font-size:0.8125rem;">词汇数据加载失败，请确认 vocab.json 与 index.html 在同一目录下，并通过网页服务器（而不是直接双击文件）访问。</p>';
+    el("menuView").innerHTML = '<p style="text-align:center;color:var(--ink-soft);font-size:0.8125rem;">'+t("loadFailed")+'</p>';
     return;
   }
   loadProgress();
