@@ -118,10 +118,26 @@
     color:var(--ink-soft);
     margin:0 0 14px;
   }
+  .sidebar-shortcut{
+    display:block;
+    width:100%;
+    text-align:left;
+    background:var(--white);
+    border:1px solid rgba(0,0,0,0.08);
+    border-radius:10px;
+    padding:9px 12px;
+    font-family:'Noto Sans SC', sans-serif;
+    font-size:0.8125rem;
+    color:var(--ink);
+    cursor:pointer;
+    margin-bottom:8px;
+  }
+  .sidebar-shortcut:hover{background:var(--paper-2);}
   .sidebar-list{
     display:flex;
     flex-direction:column;
     gap:8px;
+    margin-top:6px;
   }
   .sidebar-item{
     display:flex;
@@ -167,20 +183,20 @@
   }
   .info-entry .info-arrow{font-size:1rem; color:var(--ink-soft);}
   .info-page{
-    max-width:520px;
+    max-width:min(760px, 90vw);
     margin:0 auto;
     text-align:left;
     background:var(--white);
     border:1px solid rgba(0,0,0,0.06);
     border-radius:14px;
     padding:20px 22px;
-    font-size:0.7812rem;
+    font-size:clamp(0.8125rem, 0.75rem + 0.3vw, 1.0625rem);
     color:var(--ink-soft);
     line-height:1.8;
   }
   .info-page h4{
     font-family:'Song Myung', serif;
-    font-size:0.9062rem;
+    font-size:clamp(0.9375rem, 0.85rem + 0.4vw, 1.3125rem);
     color:var(--ink);
     margin:18px 0 6px;
   }
@@ -189,7 +205,7 @@
   .info-page ul{margin:0 0 8px; padding-left:20px;}
   .info-page h5{
     font-family:'Song Myung', serif;
-    font-size:0.8125rem;
+    font-size:clamp(0.875rem, 0.8rem + 0.3vw, 1.125rem);
     color:var(--ink);
     margin:14px 0 6px;
   }
@@ -198,12 +214,12 @@
     border-top:1px solid rgba(0,0,0,0.08);
     margin:18px 0;
   }
-  .grammar-page{max-width:min(880px, 92vw);}
-  .grammar-page .grammar-title{margin-top:0; font-size:1rem;}
+  .grammar-page{max-width:min(1040px, 92vw);}
+  .grammar-page .grammar-title{margin-top:0; font-size:clamp(1rem, 0.9rem + 0.4vw, 1.375rem);}
   .grammar-page .grammar-toc{
     margin:0 0 8px;
     padding-left:20px;
-    font-size:0.75rem;
+    font-size:clamp(0.8125rem, 0.75rem + 0.3vw, 1rem);
     color:var(--ink-soft);
   }
   .grammar-page .grammar-toc a{color:inherit;}
@@ -211,7 +227,7 @@
     width:100%;
     border-collapse:collapse;
     margin:0 0 10px;
-    font-size:0.75rem;
+    font-size:clamp(0.8125rem, 0.75rem + 0.3vw, 1.0625rem);
   }
   .grammar-page table.grammar-compare-table th,
   .grammar-page table.grammar-compare-table td{
@@ -219,7 +235,7 @@
     padding:6px 8px;
     text-align:left;
   }
-  .grammar-footnote{color:var(--ink-soft); font-size:0.7188rem;}
+  .grammar-footnote{color:var(--ink-soft); font-size:clamp(0.7188rem, 0.68rem + 0.2vw, 0.875rem);}
   .grammar-link{
     color:inherit;
     text-decoration:underline;
@@ -676,7 +692,7 @@
     gap:10px;
     width:100%;
     max-width:300px;
-    margin-bottom:12px;
+    margin-bottom:18px;
   }
   .level-badge{
     flex:0 0 auto;
@@ -728,7 +744,7 @@
     font-size:0.6875rem;
     color:var(--ink-soft);
     text-align:center;
-    margin:2px 0 12px;
+    margin:2px 0 16px;
   }
 
   .kr-word-row{
@@ -778,21 +794,23 @@
     align-items:center;
     justify-content:center;
     gap:6px;
-    margin-bottom:2px;
+    margin-bottom:16px;
   }
   .speed-control{
-    flex:0 0 auto;
-    display:inline-flex;
+    display:flex;
     align-items:center;
-    gap:4px;
+    justify-content:center;
+    gap:6px;
+    margin-bottom:20px;
   }
+  .speed-control .speed-label{font-size:0.6875rem; color:var(--ink-soft);}
   .speed-btn{
     border:1px solid rgba(0,0,0,0.1);
     background:var(--paper);
     color:var(--ink-soft);
     border-radius:999px;
-    padding:3px 9px;
-    font-size:0.6875rem;
+    padding:4px 12px;
+    font-size:0.75rem;
     cursor:pointer;
   }
   .speed-btn:hover{background:var(--paper-2);}
@@ -810,7 +828,7 @@
     gap:6px;
     flex-wrap:wrap;
     justify-content:center;
-    margin-bottom:8px;
+    margin-bottom:14px;
   }
   .pos-tag, .register-tag{
     font-size:0.6562rem;
@@ -1016,20 +1034,19 @@
   }
 
   /* rating buttons：手机上是卡片下方的2x2四宫格；屏幕够宽时（见媒体查询）
-     挪到卡片左右两侧，纵向排列，不用滚动过卡片才能点到 */
+     整组挪到卡片右侧，还是2x2排列，不用滚动过卡片才能点到 */
   .study-layout{
     display:grid;
     grid-template-columns:1fr;
-    gap:10px;
+    gap:14px;
   }
   .study-center{order:1;}
-  .ratings-side{
+  .ratings{
     display:grid;
     grid-template-columns:1fr 1fr;
     gap:10px;
     order:2;
   }
-  .ratings-side-right{order:3;}
   .rate-btn{
     border:none;
     border-radius:14px;
@@ -1171,25 +1188,29 @@
 
   /* 电脑：标题、目录、复习记录跟着 .app 连续变宽；
      卡片本身保持自然比例（不然会被拉成又高又窄的一条），单独居中限宽。
-     屏幕够宽时掌握程度按钮从卡片下方挪到左右两侧纵向排列，不用滚动就能点到 */
+     屏幕够宽时单词卡片在左、四个掌握程度按钮在右边一个2x2小方阵，
+     两者作为一个整体在页面里居中，不铺满整行，也不用滚动就能点到 */
   @media (min-width:1024px){
     body{padding-top:56px;}
     .app-title{font-size:2.125rem;}
-    .card-wrap{max-width:460px; margin-left:auto; margin-right:auto;}
     .card-nav{max-width:460px; margin-left:auto; margin-right:auto;}
     .review-table-scroll{max-height:420px;}
 
-    .study-layout{grid-template-columns:150px 1fr 150px; align-items:center; gap:20px;}
-    .study-center{order:2;}
-    .ratings-side-left{order:1; grid-template-columns:1fr;}
-    .ratings-side-right{order:3; grid-template-columns:1fr;}
-    .rate-btn{text-align:center; min-height:72px;}
+    .study-layout{
+      grid-template-columns:460px 300px;
+      justify-content:center;
+      align-items:center;
+      gap:36px;
+    }
+    .card-wrap{max-width:460px;}
+    .study-center{order:1;}
+    .ratings{order:2; gap:14px;}
+    .rate-btn{text-align:center; min-height:100px; font-size:1rem;}
   }
 
   @media (min-width:1440px){
     .app-title{font-size:2.375rem;}
     .app-sub{font-size:0.875rem;}
-    .card-wrap{max-width:500px;}
   }
 </style>
 </head>
@@ -1419,11 +1440,6 @@
     <div class="banner" id="banner" style="display:none;"></div>
 
     <div class="study-layout">
-      <div class="ratings-side ratings-side-left">
-        <button class="rate-btn r0" id="rate0" disabled>完全不会</button>
-        <button class="rate-btn r1" id="rate1" disabled>有点印象</button>
-      </div>
-
       <div class="study-center">
         <div class="card-wrap">
           <div class="card" id="card" tabindex="0" role="button" aria-label="点击翻卡片查看释义">
@@ -1446,17 +1462,18 @@
                 <div class="card-top-row">
                   <div class="level-badge" id="levelBadgeBack"></div>
                   <div class="card-progress-bar"><span id="cardProgressBarBack"></span></div>
-                  <div class="speed-control" id="speedControl">
-                    <button class="speed-btn" data-rate="1">1x</button>
-                    <button class="speed-btn" data-rate="0.75">0.75x</button>
-                    <button class="speed-btn" data-rate="0.5">0.5x</button>
-                  </div>
                 </div>
                 <p class="card-progress-text" id="cardProgressTextBack"></p>
                 <div class="meta-tags" id="metaTags"></div>
                 <div class="meaning-row">
                   <p class="meaning" id="meaning"></p>
                   <button class="word-speak-icon" id="speakBtnBack" aria-label="播放发音">🔊</button>
+                </div>
+                <div class="speed-control" id="speedControl">
+                  <span class="speed-label">语速</span>
+                  <button class="speed-btn" data-rate="1">1x</button>
+                  <button class="speed-btn" data-rate="0.75">0.75x</button>
+                  <button class="speed-btn" data-rate="0.5">0.5x</button>
                 </div>
                 <div class="example-block">
                   <div class="example-kr-row">
@@ -1487,7 +1504,9 @@
         </div>
       </div>
 
-      <div class="ratings-side ratings-side-right">
+      <div class="ratings">
+        <button class="rate-btn r0" id="rate0" disabled>完全不会</button>
+        <button class="rate-btn r1" id="rate1" disabled>有点印象</button>
         <button class="rate-btn r2" id="rate2" disabled>比较熟悉</button>
         <button class="rate-btn r3" id="rate3" disabled>完全掌握</button>
       </div>
@@ -1521,6 +1540,8 @@
       <button class="sidebar-close" id="sidebarCloseBtn" aria-label="关闭目录">✕</button>
     </div>
     <p class="sidebar-eyebrow">TOPIK 必背单词</p>
+    <button class="sidebar-shortcut" id="sidebarInfoBtn">📖 词库说明</button>
+    <button class="sidebar-shortcut" id="sidebarGrammarBtn">📐 语法速查</button>
     <div class="sidebar-list" id="sidebarList"></div>
   </div>
 
@@ -1543,6 +1564,7 @@
 let DATA = null; // { levels: [ {id,labelKo,labelZh,status,chapters:[{title,units:[{id,title,words}]}]} ] }
 let currentUnit = null;
 let grammarOrigin = null; // "study" 或 "menu"，记住是从哪个界面打开语法速查页的，方便返回
+let infoOrigin = null; // 同上，记录词库说明页是从哪个界面打开的
 // 目录页：初级/中级/高级 本身也是手风琴的一层，跟章节嵌套折叠，不是页面中间单独一排 Tab
 let expandedLevelIdx = 0;
 let expandedChapterIdx = null;
@@ -1906,13 +1928,16 @@ function backToMenu(){
 }
 
 function openInfoPage(){
+  infoOrigin = (el("studyView").style.display !== "none") ? "study" : "menu";
   el("menuView").style.display = "none";
+  el("studyView").style.display = "none";
   el("infoView").style.display = "block";
 }
 
 function closeInfoPage(){
   el("infoView").style.display = "none";
-  el("menuView").style.display = "block";
+  el(infoOrigin === "study" ? "studyView" : "menuView").style.display = "block";
+  infoOrigin = null;
 }
 
 function openGrammarPage(anchor){
@@ -2568,6 +2593,8 @@ el("speedControl").addEventListener("click", (e)=>{
 setPlaybackRate(playbackRate);
 el("sidebarCloseBtn").addEventListener("click", closeSidebar);
 el("sidebarBackdrop").addEventListener("click", closeSidebar);
+el("sidebarInfoBtn").addEventListener("click", ()=>{ closeSidebar(); openInfoPage(); });
+el("sidebarGrammarBtn").addEventListener("click", ()=>{ closeSidebar(); openGrammarPage(); });
 document.addEventListener("keydown", (e)=>{
   if(e.key === "Escape") closeSidebar();
 });
