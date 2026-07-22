@@ -1715,7 +1715,7 @@ const STRINGS = {
     reviewLegend: "Tap a word in the table to jump straight to that card. The dots track 7 spaced-repetition stages: 1d→2d→4d→7d→15d→30d→60d. ● means the stage is cleared, ○ means not yet. Tapping \"Don't know\" isn't a step backward — it just brings the word back in 10 minutes.",
     exitFocus: "Exit filter",
     rate0: "Don't know", rate1: "Somewhat familiar", rate2: "Fairly familiar", rate3: "Mastered",
-    stamp0: "New", stamp1: "1", stamp2: "2", stamp3: "3",
+    stamp0: "未", stamp1: "初", stamp2: "熟", stamp3: "通",
     notLearned: "Not studied",
     freePracticeBanner: "No words due for review in this unit today — here's a free-practice round instead (all words shuffled).",
     finishedSession: "Session complete!",
@@ -2017,7 +2017,7 @@ function renderFilterTags(){
   const counts = levelWordCounts(currentUnit);
   const wrap = el("filterTags");
   wrap.innerHTML = "";
-  LEVELS.forEach((lv, i) => {
+  getLevels().forEach((lv, i) => {
     const btn = document.createElement("button");
     btn.className = "filter-tag" + (focusLevel === i ? " active" : "");
     btn.disabled = counts[i] === 0;
